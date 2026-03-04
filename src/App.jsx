@@ -64,7 +64,7 @@ const App = () => {
     }
   }, [completedTasks, view, isExamDay]);
 
-  const totalDays = 50;
+  const totalDays = 55;
 
   const handleDayClick = async (dayNum) => {
     if (dayNum <= totalDays) {
@@ -226,24 +226,18 @@ const App = () => {
               <h1 className="text-xl font-black">پنل یادگیری آلمانی</h1>
             </div>
             <div className="flex items-center gap-4">
-              <span className="text-sm font-black text-blue-600">{Math.round((completedDays.length / 50) * 100)}% پیشرفت</span>
-              <button onClick={resetProgress} className="p-2 text-slate-300 hover:text-red-500 transition-colors"><RotateCcw size={18} /></button>
+              <button onClick={resetProgress} className="p-2 text-slate-300 hover:text-red-500 transition-colors"><RotateCcw size={18} title="بازنشانی پیشرفت" /></button>
             </div>
           </nav>
 
           <main className="max-w-6xl mx-auto p-6 text-right">
-            <header className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-              <div className="md:col-span-2 bg-slate-900 p-8 md:p-10 rounded-[2.5rem] text-white relative overflow-hidden shadow-2xl">
+            <header className="mb-12">
+              <div className="bg-slate-900 p-8 md:p-10 rounded-[2.5rem] text-white relative overflow-hidden shadow-2xl">
                 <h2 className="text-3xl md:text-4xl font-black mb-4 leading-tight text-right">درس بعدی:<br />روز {completedDays.length + 1 <= totalDays ? completedDays.length + 1 : totalDays}</h2>
                 <button onClick={() => handleDayClick(completedDays.length + 1 <= totalDays ? completedDays.length + 1 : totalDays)} className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-2xl font-black shadow-xl flex items-center justify-center gap-3 transition-transform hover:scale-105 active:scale-95 w-full sm:w-auto">
                   شروع درس جدید <ArrowRight size={20} className="rotate-180" />
                 </button>
                 <BarChart3 className="absolute -bottom-10 -left-10 text-white/5" size={280} />
-              </div>
-              <div className="bg-white p-8 rounded-[2.5rem] border border-slate-200 flex flex-col items-center justify-center text-center shadow-sm relative overflow-hidden">
-                <Trophy size={48} className="text-orange-500 mb-2" />
-                <h3 className="text-4xl font-black text-slate-800">{completedDays.length} / ۵۰</h3>
-                <p className="text-slate-400 font-bold text-xs uppercase tracking-widest mt-1">روزهای تمام شده</p>
               </div>
             </header>
 
