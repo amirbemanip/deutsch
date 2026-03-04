@@ -107,7 +107,10 @@ const App = () => {
 
   const SectionCard = ({ id, icon: Icon, title, time, desc }) => (
     <div
-      onClick={() => setActiveSection(id)}
+      onClick={() => {
+        setActiveSection(id);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }}
       className={`p-4 rounded-2xl border-2 cursor-pointer transition-all duration-300 ${activeSection === id ? 'border-blue-500 bg-blue-50 shadow-md' : 'border-slate-100 hover:border-blue-200 bg-white'
         }`}
     >
@@ -563,10 +566,10 @@ const App = () => {
                                 <p className="text-slate-300 mb-6 leading-loose font-medium text-lg">{step.text}</p>
                                 {step.example && (
                                   <div className="mb-2 bg-slate-900/80 p-5 rounded-2xl border-l-4 border-emerald-500 flex items-start gap-4 shadow-md" dir="ltr">
-                                    <button onClick={(e) => playTTS(step.example.de, e)} className="text-emerald-400 hover:text-emerald-300 bg-emerald-500/10 p-2 rounded-xl mt-0.5"><Volume2 size={24} /></button>
-                                    <div>
-                                      <p className="font-black text-emerald-50 text-xl mb-1">{step.example.de}</p>
-                                      {step.example.fa && <p className="text-base text-slate-400 font-medium mt-2" dir="rtl">{step.example.fa}</p>}
+                                    <button onClick={(e) => playTTS(step.example.de, e)} className="text-emerald-400 hover:text-emerald-300 bg-emerald-500/10 p-2 rounded-xl mt-0.5 shrink-0"><Volume2 size={24} /></button>
+                                    <div className="flex-1 min-w-0">
+                                      <p className="font-black text-emerald-50 text-xl mb-1 break-words">{step.example.de}</p>
+                                      {step.example.fa && <p className="text-base text-slate-400 font-medium mt-2 break-words" dir="rtl">{step.example.fa}</p>}
                                     </div>
                                   </div>
                                 )}
