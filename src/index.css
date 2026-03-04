@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+	--font-sans: 'Vazirmatn', 'Inter', system-ui, sans-serif;
+}
+
+/* Global base styles to improve typography and background */
+:root {
+	--bg-100: #f8fafc;
+	--bg-200: #eef2ff;
+	--muted: #64748b;
+	--accent: #2563eb;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+}
+
+body {
+	font-family: 'Vazirmatn', 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: linear-gradient(180deg, var(--bg-100), var(--bg-200));
+	color: #0f172a;
+}
+
+/* small utility classes used by components for consistent look */
+.card-surface {
+	background: white;
+	border-radius: 1rem;
+	box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+	border: 1px solid rgba(15, 23, 42, 0.04);
+}
+
+.btn-primary {
+	background: linear-gradient(90deg, #2563eb, #3b82f6);
+	color: white;
+	border-radius: 0.75rem;
+	padding: 0.75rem 1rem;
+	font-weight: 700;
+}
+
+.muted {
+	color: var(--muted);
+}
