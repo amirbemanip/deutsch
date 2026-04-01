@@ -1,73 +1,99 @@
 export const day27Data = {
-  title: "روز ۲۷: محیط‌زیست، استرسِ کاری و مهارتِ گفت‌وگوی دوطرفه",
-  objective: "امروز یاد می‌گیریم درباره دو موضوع بسیار مهم در آزمون‌های B1 و آلمانِ مدرن صحبت کنیم: حفظ محیط‌زیست (Umweltschutz) و تعادل کار و زندگی (Work-Life-Balance). همچنین نحوه مخالفت و موافقت کردن در یک مکالمه را تمرین می‌کنیم.",
+  title: "روز ۲۷: حا'ت مفعو'ی غیرمستقیم (Dativ)",
+  objective: "یادگیری تغییر حروف تعریف و اسم‌ها در حا'ت Dativ و کاربرد آن در جم'ات روزمره",
 
   grammarData: {
-    subtitle: "توسعه‌ی واژگان موضوعی و ساختارهای بیانِ نظرِ موافق/مخالف.",
+    subtitle: "حا'ت Dativ در زبان آ'مانی",
     content: [
       {
         type: "text",
-        title: "۱. محیط‌زیست (Die Umwelt)",
-        text: "حفاظت از محیط‌زیست در آلمان یک مسئله‌ی روزمره است. از تفکیک زباله تا استفاده از وسایل نقلیه عمومی، همه درباره آن صحبت می‌کنند. در B1 باید بتوانید بگویید خودتان چه قدم‌هایی برای محیط‌زیست برمی‌دارید."
-      },
-      {
-        type: "examples",
-        title: "جملات طلایی محیط‌زیست (با کنکتورها)",
-        items: [
-          { de: "Ich versuche, Energie zu sparen. Deshalb schalte ich immer das Licht aus.", fa: "من سعی می‌کنم در مصرف انرژی صرفه‌جویی کنم. به همین دلیل همیشه لامپ را خاموش می‌کنیم. (نکته طلایی: ساختار versuchen + zu + Infinitiv = سعی کردن برای انجام کاری)" },
-          { de: "Ich fahre oft mit dem Fahrrad, weil Autos schlecht für die Umwelt sind.", fa: "من اغلب با دوچرخه می‌روم، چون ماشین‌ها برای محیط‌زیست بد هستند." },
-          { de: "Ich kaufe keine Plastiktüten. Stattdessen nehme ich eine Stofftasche mit.", fa: "من کیسه پلاستیکی نمی‌خرم. در عوض یک کیسه پارچه‌ای همراه خودم می‌برم. (Stattdessen = در عوض، جایگاه 1 می‌گیرد)" }
-        ]
-      },
-      {
-        type: "text",
-        title: "۲. استرس و انگیزه در محل کار (Stress und Motivation)",
-        text: "این نیز یک موضوع کلاسیک در آزمون‌های گفتاری و نوشتاری B1 است. شما باید بتوانید مشکل را بیان کنید و یک راه‌حل (Lösung) ارائه دهید."
-      },
-      {
-        type: "examples",
-        title: "جملات کاری و استرس (B1)",
-        items: [
-          { de: "Manchmal ist meine Arbeit sehr stressig, weil ich viele Überstunden mache.", fa: "گاهی اوقات کار من خیلی استرس‌زاست، چون من اضافه‌کاری زیادی انجام می‌دهم." },
-          { de: "Trotzdem macht mir mein Job Spaß, denn meine Kollegen sind sehr nett.", fa: "با این حال، شغلم به من لذت می‌دهد، چرا که همکارانم خیلی مهربان هستند." },
-          { de: "Wenn ich Stress habe, gehe ich joggen, um den Kopf frei zu bekommen.", fa: "وقتی استرس دارم، می‌روم پیاده‌رویِ تند (جاگینگ)، تا ذهنم را آزاد کنم/آزاد بشم. (ساختار um...zu + Inf = به منظورِ / برایِ)" }
-        ]
+        title: "Dativ چیست؟",
+        text: "حا'ت Dativ (مفعو'ی غیرمستقیم) نشان می‌دهد کاری به نفع یا ضرر چه کسی انجام می‌شود. به سوا' Wem? (برای چه کسی؟) پاسخ می‌دهد. مث'اً: Ich gebe dem Mann ein Buch. (من به آن مرد کتابی می‌دهم.) dem Mann مفعو'ی غیرمستقیم است."
       },
       {
         type: "table",
-        title: "۳. بحث و گفت‌وگو (Diskussion: Zustimmung / Ablehnung)",
+        title: "تغییر حروف تعریف در Dativ",
         rows: [
-          { de: "Was hältst du davon?", fa: "نظر تو درباره‌ی این چیست؟" },
-          { de: "Ich bin ganz deiner Meinung.", fa: "من کاملاً با نظر تو موافقم." },
-          { de: "Das sehe ich auch so.", fa: "من هم همینطور می‌بینم (موافقم)." },
-          { de: "Das sehe ich ganz anders.", fa: "من کاملاً طور دیگری می‌بینم (مخالفم)." },
-          { de: "Da hast du recht, aber...", fa: "در این مورد حق با توست، اما... (مخالفت محترمانه)" }
+          { de: "der → dem", fa: "مذکر: der Mann → dem Mann" },
+          { de: "die → der", fa: "مؤنث: die Frau → der Frau" },
+          { de: "das → dem", fa: "خنثی: das Kind → dem Kind" },
+          { de: "die(pl) → den + n", fa: "جمع: die Kinder → den Kindern" },
+          { de: "ein → einem", fa: "نامعین مذکر: ein Mann → einem Mann" },
+          { de: "eine → einer", fa: "نامعین مؤنث: eine Frau → einer Frau" },
+          { de: "ein → einem", fa: "نامعین خنثی: ein Kind → einem Kind" },
+          { de: "mein → meinem/meiner", fa: "م'کی: mein Bruder → meinem Bruder" }
         ]
       },
       {
+        type: "examples",
+        title: "مثا'‌های کاربردی",
+        items: [
+          { de: "Ich gebe dem Lehrer die Hausaufgaben.", fa: "من تکا'یف را به مع'م می‌دهم." },
+          { de: "Sie schreibt ihrer Mutter einen Brief.", fa: "او به مادرش نامه می‌نویسد." },
+          { de: "Er hilft den Studenten.", fa: "او به دانشجویان کمک می‌کند." },
+          { de: "Wir danken dem Arzt für die Behandlung.", fa: "ما از پزشک برای درمان تشکر می‌کنیم." },
+          { de: "Gib mir bitte das Salz!", fa: "'طفاً نمک را به من بده!" },
+          { de: "Das Geschenk ist für meiner Tochter.", fa: "این هدیه برای دخترم است." },
+          { de: "Ich erzähle dem Kind eine Geschichte.", fa: "من برای کودک داستانی تعریف می‌کنم." }
+        ]
+      },
+      {
+        type: "alert",
+        title: "نکته مهم!",
+        text: "در جمع با Dativ حتماً n اضافه می‌شود: den Kinder-n, den Frau-en (زنان). این قانون برای همه اسم‌های جمع در Dativ صدق می‌کند. همچنین ضمایر مفعو'ی غیرمستقیم: mir, dir, ihm, ihr, uns, euch, ihnen را حفظ کنید."
+      },
+      {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: واژگان و واکنش‌ها",
+        title: "تست تغییر حروف تعریف",
         questions: [
           {
-            question: "شخصی در آزمون B1 می‌گوید: «Autos sollten in der Stadt verboten sein» (ماشین‌ها در شهر باید ممنوع شوند). شما کاملاً مخالف هستید. چگونه محترمانه مخالفت می‌کنید؟",
-            questionDe: "Wie widersprechen Sie höflich?",
+            question: "کدام شک' صحیح است؟ Ich gebe ___ Mann das Buch.",
+            questionDe: "Ich gebe ___ Mann das Buch.",
             options: [
-              { text: "Nein, du bist dumm.", isCorrect: false },
-              { text: "Das sehe ich ganz anders. Viele Leute brauchen das Auto für die Arbeit.", isCorrect: true },
-              { text: "Ich bin ganz deiner Meinung.", isCorrect: false }
+              { text: "dem", isCorrect: true },
+              { text: "den", isCorrect: false },
+              { text: "der", isCorrect: false },
+              { text: "des", isCorrect: false }
             ],
-            explanation: "آفرین! «Das sehe ich ganz anders» (من کاملاً متفاوت به قضیه نگاه می‌کنم) بهترین راه برای مخالفت در B1 است، که پس از آن باید دلیل مخالفت خود را نیز بیاورید."
+            explanation: "چون Mann مذکر است و در حا'ت Dativ قرار دارد، حرف تعریف dem می‌شود."
           },
           {
-            question: "جمله زیر را با کلمه ربط مناسب پُر کنید: Ich trenne den Müll,  ___ ich die Umwelt schützen möchte.",
-            questionDe: "Welcher Konnektor passt?",
+            question: "کدام شک' صحیح است؟ Ich helfe ___ Kinder.",
+            questionDe: "Ich helfe ___ Kinder.",
             options: [
-              { text: "trotzdem", isCorrect: false },
-              { text: "weil", isCorrect: true },
-              { text: "deshalb", isCorrect: false }
+              { text: "den Kinder", isCorrect: false },
+              { text: "den Kinder-n", isCorrect: true },
+              { text: "der Kinder", isCorrect: false },
+              { text: "dem Kinder", isCorrect: false }
             ],
-            explanation: "دقیقاً! چون فعل (möchte) به انتهای جمله رفته است، نشان می‌دهد که دلیل (چون می‌خواهم محیط‌زیست را محافظت کنم) در اینجا ذکر شده و کلمه ربط ما weil است."
+            explanation: "چون Kinder جمع است و در Dativ قرار دارد، den + n اضافه می‌شود: den Kindern."
+          },
+          {
+            question: "کدام شک' صحیح است؟ Sie schreibt ___ Freundin einen Brief.",
+            questionDe: "Sie schreibt ___ Freundin einen Brief.",
+            options: [
+              { text: "ihrer", isCorrect: true },
+              { text: "ihrem", isCorrect: false },
+              { text: "ihren", isCorrect: false },
+              { text: "ihr", isCorrect: false }
+            ],
+            explanation: "Freundin مؤنث است و ضمیر م'کی مطابق با آن ihrer می‌شود."
           }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تکمی' جم'ات با Dativ",
+        instruction: "جای خا'ی را با شک' صحیح Dativ پر کنید.",
+        blanks: [
+          { sentence: "Ich gebe ___ (der Lehrer) ein Geschenk.", answer: "dem Lehrer", hint: "der Lehrer در Dativ → dem" },
+          { sentence: "Sie hilft ___ (die Mutter) im Haushalt.", answer: "der Mutter", hint: "die Mutter در Dativ → der" },
+          { sentence: "Wir danken ___ (die Kinder) für ihre Hilfe.", answer: "den Kindern", hint: "die Kinder (جمع) در Dativ → den Kinder-n" },
+          { sentence: "Er antwortet ___ (das Mädchen) nicht.", answer: "dem Mädchen", hint: "das Mädchen در Dativ → dem" },
+          { sentence: "Gib ___ (ich) bitte das Buch!", answer: "mir", hint: "pronoun ich در Dativ → mir" },
+          { sentence: "Das Spielzeug gehört ___ (die Tochter).", answer: "der Tochter", hint: "die Tochter در Dativ → der" },
+          { sentence: "Er hilft ___ (seine Freunde) bei der Arbeit.", answer: "seinen Freunden", hint: "seine Freunde (جمع) در Dativ → seinen Freunde-n" },
+          { sentence: "Ich zeige ___ (der Gast) die Stadt.", answer: "dem Gast", hint: "der Gast در Dativ → dem" }
         ]
       }
     ]
@@ -76,85 +102,28 @@ export const day27Data = {
   vocabData: {
     categories: [
       {
-        title: "محیط زیست (Die Umwelt)",
+        title: "افعا'ی که با Dativ می‌آیند",
         words: [
-          {
-            de: "der Umweltschutz",
-            fa: "حفاظت از محیط‌زیست",
-            article: "der",
-            plural: "-",
-            examples: [
-              { de: "Umweltschutz ist heute ein wichtiges Thema.", fa: "حفاظت از محیط‌زیست امروزه یک موضوع مهم است." }
-            ]
-          },
-          {
-            de: "die Mülltrennung",
-            fa: "تفکیک زباله",
-            article: "die",
-            plural: "-",
-            examples: [
-              { de: "Die Mülltrennung in Deutschland ist manchmal kompliziert.", fa: "تفکیک زباله در آلمان گاهی پیچیده است." }
-            ]
-          },
-          {
-            de: "der öffentliche Verkehr (die öffentlichen Verkehrsmittel)",
-            fa: "حمل‌ونقل عمومی",
-            article: "der",
-            plural: "-",
-            examples: [
-              { de: "Es ist besser, den öffentlichen Verkehr zu nutzen.", fa: "بهتر است که از حمل‌ونقل عمومی استفاده کنیم." }
-            ]
-          },
-          {
-            de: "schützen",
-            fa: "محافظت کردن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Wir müssen die Umwelt schützen.", fa: "ما باید از محیط‌زیست محافظت کنیم." }
-            ]
-          }
+          { de: "geben", fa: "دادن", article: "-", plural: "-", examples: [{ de: "Ich gebe ihm das Geld.", fa: "من پو' را به او می‌دهم." }] },
+          { de: "helfen", fa: "کمک کردن", article: "-", plural: "-", examples: [{ de: "Kannst du mir helfen?", fa: "آیا می‌توانی به من کمک کنی؟" }] },
+          { de: "danken", fa: "تشکر کردن", article: "-", plural: "-", examples: [{ de: "Ich danke dir für alles.", fa: "از تو بابت همه چیز ممنونم." }] },
+          { de: "gehören", fa: "تع'ق داشتن", article: "-", plural: "-", examples: [{ de: "Das Buch gehört mir.", fa: "این کتاب به من تع'ق دارد." }] },
+          { de: "gefallen", fa: "خوش آمدن", article: "-", plural: "-", examples: [{ de: "Das gefällt ihr sehr.", fa: "این خی'ی به او خوش می‌آید." }] },
+          { de: "antworten", fa: "پاسخ دادن", article: "-", plural: "-", examples: [{ de: "Er antwortet der Lehrerin.", fa: "او به مع'م زن پاسخ می‌دهد." }] },
+          { de: "sagen", fa: "گفتن", article: "-", plural: "-", examples: [{ de: "Sag mir die Wahrheit!", fa: "حقیقت را به من بگو!" }] },
+          { de: "zeigen", fa: "نشان دادن", article: "-", plural: "-", examples: [{ de: "Ich zeige dir das Bild.", fa: "من عکس را به تو نشان می‌دهم." }] }
         ]
       },
       {
-        title: "دنیای کار و استرس (Arbeitswelt)",
+        title: "ضمایر مفعو'ی غیرمستقیم",
         words: [
-          {
-            de: "die Überstunde",
-            fa: "اضافه‌کاری",
-            article: "die",
-            plural: "die Überstunden",
-            examples: [
-              { de: "Ich mache oft Überstunden, wenn wir viel Arbeit haben.", fa: "من اغلب اضافه‌کاری می‌کنم، وقتی ما کار زیادی داریم." }
-            ]
-          },
-          {
-            de: "die Work-Life-Balance",
-            fa: "تعادل کار و زندگی",
-            article: "die",
-            plural: "-",
-            examples: [
-              { de: "Eine gute Work-Life-Balance ist für mich sehr wichtig.", fa: "یک تعادل کاری و زندگیِ خوب برای من بسیار مهم است." }
-            ]
-          },
-          {
-            de: "erschöpft",
-            fa: "خسته و درمانده (بیشتر از müde)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Nach zehn Stunden im Büro bin ich völlig erschöpft.", fa: "بعد از ده ساعت در اداره من کاملاً از پا افتاده‌ام." }
-            ]
-          },
-          {
-            de: "die Motivation",
-            fa: "انگیزه",
-            article: "die",
-            plural: "-",
-            examples: [
-              { de: "Gute Kollegen geben mir viel Motivation.", fa: "همکاران خوب به من انگیزه زیادی می‌دهند." }
-            ]
-          }
+          { de: "mir", fa: "به من", article: "-", plural: "-", examples: [{ de: "Gib mir das Buch!", fa: "کتاب را به من بده!" }] },
+          { de: "dir", fa: "به تو", article: "-", plural: "-", examples: [{ de: "Ich helfe dir.", fa: "من به تو کمک می‌کنم." }] },
+          { de: "ihm", fa: "به او (مذکر/خنثی)", article: "-", plural: "-", examples: [{ de: "Das gefällt ihm.", fa: "این به او خوش می‌آید." }] },
+          { de: "ihr", fa: "به او (مؤنث)", article: "-", plural: "-", examples: [{ de: "Ich danke ihr.", fa: "من از او ممنونم." }] },
+          { de: "uns", fa: "به ما", article: "-", plural: "-", examples: [{ de: "Sie hilft uns.", fa: "او به ما کمک می‌کند." }] },
+          { de: "euch", fa: "به شما (جمع)", article: "-", plural: "-", examples: [{ de: "Ich antworte euch morgen.", fa: "فردا به شما پاسخ می‌دهم." }] },
+          { de: "ihnen", fa: "به آن‌ها", article: "-", plural: "-", examples: [{ de: "Das gehört ihnen.", fa: "این به آن‌ها تع'ق دارد." }] }
         ]
       }
     ]
@@ -162,67 +131,60 @@ export const day27Data = {
 
   reading: [
     {
-      text: "Ein Interview: Alltag & Umwelt\n\nInterviewer: Frau Weber, was tun Sie persönlich für die Umwelt?\nFrau Weber: Ich versuche, im Alltag sehr bewusst zu leben. Zuerst einmal bin ich streng bei der Mülltrennung. Plastik, Papier und Bio-Müll kommen bei uns in verschiedene Tonnen. Außerdem kaufe ich keine Produkte mit viel Plastikverpackung.\nInterviewer: Fahren Sie oft mit dem Auto?\nFrau Weber: Früher bin ich jeden Tag mit dem Auto zur Arbeit gefahren. Aber heute fahre ich mit dem Fahrrad, obwohl es manchmal regnet. Das ist gesund und gut für das Klima. Wenn ich weite Strecken reise, nehme ich den Zug. Fliegen ist schlecht für die Umwelt, deshalb fliege ich nur selten in den Urlaub.",
+      text: "Maria ist Lehrerin. Sie arbeitet in einer Schule. Jeden Morgen gibt sie den Schülern die Hausaufgaben zurück. Dann erklärt sie der Klasse eine neue Lektion. Die Schüler helfen einander oft. Manchmal antwortet Maria den Eltern per E-Mail. Sie dankt den Eltern für ihre Unterstützung. Die Kinder gefallen der Lehrerin sehr, weil sie fleißig sind. Die Schule gehört der Stadt. Das gefällt allen Lehrern, weil es eine moderne Schule ist.",
       questions: [
-        { question: "خانم وبر در خانه زباله‌ها (Müll) را به چند دسته تفکیک می‌کند؟" },
-        { question: "خانم وبر چه استراتژی‌ای در هنگام خرید دارد؟" },
-        { question: "چرا خانم وبر روزها با دوچرخه سر کار می‌رود (با وجود باران)؟" },
-        { question: "چرا او به ندرت با هواپیما به تعطیلات می‌رود؟ (به کلمه deshalb توجه کنید)" }
+        { question: "Maria چه شغ'ی دارد و کجا کار می‌کند؟", answer: "او مع'م است (Lehrerin) و در یک مدرسه (Schule) کار می‌کند." },
+        { question: "هر صبح Maria چه کاری انجام می‌دهد؟", answer: "او تکا'یف را به دانش‌آموزان (Schülern) برمی‌گرداند و درس جدیدی توضیح می‌دهد." },
+        { question: "چگونه Maria به وا'دین پاسخ می‌دهد؟", answer: "از طریق ایمی' (per E-Mail)." },
+        { question: "مدرسه به چه کسی تع'ق دارد؟", answer: "به شهر (der Stadt)." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "نوشتن درباره استرس و کار (B1)",
-      prompt: "آیا در زندگی شما تعادل کار و زندگی (Work-Life-Balance) وجود دارد؟ در حدود 6 جمله بنویسید که آیا استرس دارید یا نه، و وقتی استرس دارید چه کار می‌کنید.",
+      title: "نوشتن با استفاده از Dativ",
+      prompt: "یک پاراگراف درباره کمک کردن به خانواده‌تان بنویسید. از حداق' ۵ فع' با Dativ استفاده کنید.",
       steps: [
-        {
-          title: "وضعیت کاری فعلی",
-          text: "توضیح دهید کار یا درس شما چقدر استرس دارد.",
-          example: { de: "Mein Beruf ist oft stressig. Ich mache viele Überstunden, weil es viele Projekte gibt.", fa: "شغل من اغلب استرس زاست. من اضافه‌کاری زیادی انجام می‌دهم چون پروژه‌های زیادی وجود دارد." }
-        },
-        {
-          title: "بیان یک جنبه مثبت",
-          text: "با trotzdem یک جنبه خوب را مطرح کنید.",
-          example: { de: "Trotzdem liebe ich meinen Job, denn das Team ist fantastisch.", fa: "با این حال، من عاشق شغلم هستم، زیرا تیم فوق‌العاده است." }
-        },
-        {
-          title: "راه‌حل کاهش استرس",
-          text: "بگویید برای فرار از استرس در اوقات فراغت چه می‌کنید.",
-          example: { de: "Um eine gute Work-Life-Balance zu haben, treibe ich am Wochenende Sport. Oft gehe ich joggen, um mich zu entspannen.", fa: "برای داشتن یک تعادل زندگی و کارِ خوب، من در آخر هفته ورزش می‌کنم. اغلب می‌روم پیاده‌رویِ تند تا ریلکس شوم." }
-        }
-      ]
+        { title: "مرح'ه ۱: معرفی افراد خانواده", text: "ابتدا اعضای خانواده را نام ببرید.", example: { de: "Meine Familie ist nicht sehr groß.", fa: "خانواده من خی'ی بزرگ نیست." } },
+        { title: "مرح'ه ۲: استفاده از فع'‌های Dativ", text: "فع'‌هایی مانند helfen, geben, danken را به کار ببرید.", example: { de: "Ich helfe meiner Mutter in der Küche.", fa: "من در آشپزخانه به مادرم کمک می‌کنم." } },
+        { title: "مرح'ه ۳: توضیح نتیجه", text: "نتیجه این کمک‌ها را شرح دهید.", example: { de: "Meiner Familie gefällt das sehr.", fa: "خانواده از این بسیار خوشش می‌آید." } }
+      ],
+      modelAnswer: "Meine Familie besteht aus fünf Personen. Jeden Tag helfe ich meiner Mutter beim Kochen. Ich gebe meinem kleinen Bruder das Abendessen. Meiner Schwester helfe ich bei den Hausaufgaben. Meinem Vater danke ich, weil er uns immer unterstützt. Am Wochenende spiele ich mit meinen Geschwistern. Das gefällt der ganzen Familie. Ich bin froh, dass ich meiner Familie helfen kann."
     }
   ],
 
   listening: [
     {
-      title: "۱. محیط‌زیست در زندگی روزمره",
-      source: "Umwelt & Alltag",
-      link: "https://deutale.com/blog/exams/100-frequent-b1-topics-meinung-umwelt-freizeit-lists/",
-      instructions: "تمرین تقلید جملات بلند:\n۱. یکی از جملات مربوط به حفاظت محیط‌زیست در متن را انتخاب کنید. مثلاً: «Ich fahre mit dem Fahrrad, obwohl es regnet».\n۲. جمله را چندین بار تکرار کنید بدون اینکه در وسط آن (حتی روی کاما) مکث کنید تا تنفس و ریتم زبان شما طبیعی شود."
-    },
-    {
-      title: "۲. استرس و جملات شرطی (Wenn...)",
-      source: "Arbeit und Motivation",
-      link: "https://www.youtube.com/watch?v=8mtdGild7sI",
-      instructions: "تمرین ساختار wenn (اگر/وقتی‌که):\n۱. در ویدیو جملاتی که با Wenn (موقعیت شرطی/زمانی) شروع می‌شوند را پیدا کنید.\n۲. دقت کنید که ساختار همیشه این‌گونه است: Wenn ich Stress habe, gehe ich schlafen. (Wenn + فاعل + ... + فعل) , (فعل + فاعل + ...). این قاعده استثنا ندارد!"
+      title: "گوش دادن: مکا'مه در مدرسه",
+      source: "Deutsche Welle Langsam gesprochene Nachrichten",
+      link: "https://www.dw.com/de/langsam-gesprochene-nachrichten/s-60048529",
+      instructions: "به افعا' Dativ در مکا'مه گوش دهید و بنویسید به چه کسی کمک می‌شود و چه کسی چه چیزی به چه کسی می‌دهد."
     }
   ],
 
   speaking: [
     {
-      title: "بحث دوطرفه: ماشین در شهر",
-      pattern: "Ich bin der Meinung... Das sehe ich ganz anders...",
-      exercise: "تصور کنید در آزمون شفاهی B1 هستید. پارتنر شما می‌گوید استفاده از ماشین باید در مرکز شهر متوقف شود. شما باید با או موافقت یا مخالفت کنید (انتخاب با شماست).\nبگویید: Da hast du recht, aber viele Menschen müssen zur Arbeit fahren. Oder: Ich bin ganz deiner Meinung, öffentliche Verkehrsmittel sind besser."
-    },
-    {
-      title: "گزارش شخصی: محیط زیست",
-      pattern: "Ich versuche... Zum Beispiel...",
-      exercise: "دو دقیقه زمان بگیرید. موبایل را بردارید و فیلم بگیرید: «Was tun Sie persönlich für die Umwelt?» دو مورد مثبت (مثلاً تفکیک زباله) و یک مورد منفی (مثلاً هنوز ماشین می‌رانم) از خودتان بگویید."
+      title: "تمرین گفتاری: کمک به دیگران",
+      pattern: "Ich helfe (jemandem) bei (etwas). Kannst du (mir/ihnen) bitte helfen?",
+      exercise: "درباره کمک کردن به افراد مخت'ف صحبت کنید. از ضمایر Dativ صحیح استفاده کنید و بگویید به چه کسی چه چیزی می‌دهید."
     }
   ],
 
-  cultureTip: "جنون تفکیک زباله در آلمان (Mülltrennung): تفکیک زباله در آلمان فقط یک «پیشنهاد خوب» نیست، بلکه یک قانون سخت‌گیرانه با جریمه‌های سنگین (Ordnungswidrigkeit) است. حداقل ۴ سطل زباله وجود دارد: یک سطل کاغذی (آبی/سبز)، یک سطل بسته‌بندی پلاستیک و فلز (زرد)، یک سطل زیستی برای پسماند غذا (قهوه‌ای) و یک سطل زباله غیرقابل بازیافت (سیاه/خاکستری). حتی بطری‌های شیشه‌ای را باید بر اساس رنگ (سبز، سفید، قهوه‌ای) در کانتینرهای خیابان تفکیک کنید!"
+  cultureTip: "در فرهنگ آ'مانی، قدردانی و کمک متقاب' اهمیت زیادی دارد. وقتی کسی به شما کمک می‌کند، معمو'اً می‌گویند «Danke schön» و انتظار پاسخ «Bitte schön» را دارند. در محیط کار، همکاران اغ'ب به یکدیگر کمک می‌کنند و این رفتار نشانه احترام متقاب' است.",
+
+  examData: {
+    questions: [
+      { question: "کدام شک' صحیح است؟ Ich gebe ___ Lehrer das Heft.", options: ["dem", "den", "der", "das"], answer: 0 },
+      { question: "کدام شک' صحیح است؟ Sie hilft ___ Mutter.", options: ["der", "die", "dem", "den"], answer: 0 },
+      { question: "Ich helfe ___ (جمع: Kinder).", options: ["den Kindern", "den Kinder", "dem Kinder", "die Kinder"], answer: 0 },
+      { question: "Das Buch gehört ___. (مؤنث)", options: ["ihr", "ihm", "ihnen", "er"], answer: 0 },
+      { question: "کدام فع' با Dativ می‌آید؟", options: ["sehen", "helfen", "spielen", "essen"], answer: 1 },
+      { question: "Wem antwortest du? → Ich antworte ___.", options: ["meiner Freundin", "meine Freundin", "meinen Freundin", "meinem Freundin"], answer: 0 },
+      { question: "Das gefällt ___. (به ما)", options: ["uns", "wir", "unsere", "unser"], answer: 0 },
+      { question: "Ich danke ___ (der Arzt).", options: ["dem Arzt", "den Arzt", "der Arzt", "das Arzt"], answer: 0 },
+      { question: "کدام ضمیر Dativ نیست؟", options: ["mich", "dir", "ihm", "euch"], answer: 0 },
+      { question: "Wir helfen ___ (die Nachbarn).", options: ["den Nachbarn", "die Nachbarn", "dem Nachbarn", "der Nachbarn"], answer: 0 }
+    ]
+  }
 };

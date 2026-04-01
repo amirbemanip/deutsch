@@ -1,284 +1,196 @@
 export const day14Data = {
-  title: "روز ۱۴: گذشته‌ی جادویی با war/hatte و خانواده‌ی آلمانی",
-  objective: "امروز وارد دنیای گذشته می‌شویم! یاد می‌گیریم چطور با دو کلمه جادویی (war و hatte) بیش از نیمی از داستان‌های گذشته خود را تعریف کنیم. همچنین فعل مُدال (können) را می‌آموزیم تا از توانایی‌ها بگوییم و در پایان خانواده خود را به زبان آلمانی معرفی می‌کنیم.",
-
+  title: "روز ۱۴: آب و هوا و فص'‌ها - توصیف هوا",
+  objective: "یادگیری توصیف آب و هوا، فع'‌های مربوط به هوا و فص'‌ها",
   grammarData: {
-    subtitle: "این درس شامل گذشته‌ی افعال به همراه معرفی اعضای خانواده و کلمات مربوط به توانایی است.",
+    subtitle: "آب و هوا و فص'‌ها",
     content: [
       {
         type: "text",
-        title: "۱. ماشین زمان: زمان گذشته ساده (Präteritum)",
-        text: "در سطح A1، شما برای تعریف کردن اتفاقات گذشته بیشتر از زمان حال کامل (Perfekt) استفاده خواهید کرد (که در روزهای آینده می‌خوانیم). اما دو فعل بسیار مهم (بودن = sein) و (داشتن = haben) در گذشته به شکل ساده‌ی خود یعنی war و hatte استفاده می‌شوند."
+        title: "فع'‌های بدون فاع' (Impersonal Verbs)",
+        text: "در آ'مانی برای توصیف آب و هوا از فع'‌های بدون فاع' استفاده می‌شود. فاع' همیشه 'es' است: es regnet (باران می‌بارد)، es schneit (برف می‌بارد)، es ist heiß/schön/kalt (هوا گرم/خوب/سرد است)."
       },
       {
         type: "table",
-        title: "صرف جادوییِ war (بودم) و hatte (داشتم)",
+        title: "فع'‌های آب و هوا",
         rows: [
-          { de: "ich (من)", fa: "ich war (بودم) / ich hatte (داشتم)" },
-          { de: "du (تو)", fa: "du warst (بودی) / du hattest (داشتی)" },
-          { de: "er/sie/es (او/آن)", fa: "er war (بود) / er hatte (داشت - دقت کنید سوم شخص دقیقاً مثل ich است!)" },
-          { de: "wir/Sie/sie (ما/شما/آن‌ها)", fa: "wir waren (بودیم) / wir hatten (داشتیم)" },
-          { de: "ihr (شماها)", fa: "ihr wart (بودید) / ihr hattet (داشتید)" }
-        ]
-      },
-      {
-        type: "examples",
-        title: "داستان‌های کوچک در گذشته",
-        items: [
-          { de: "Gestern war ich sehr müde.", fa: "دیروز من خیلی خسته بودم." },
-          { de: "Er hatte gestern keine Zeit.", fa: "او دیروز هیچ وقتی نداشت." },
-          { de: "Wo warst du am Wochenende?", fa: "کجا بودی آخر هفته؟" },
-          { de: "Wir hatten viel Stress.", fa: "ما استرس زیادی داشتیم." }
-        ]
-      },
-      {
-        type: "text",
-        title: "۲. فعل مُدال können (توانستن)",
-        text: "از فعل können برای بیان مهارت‌ها (توانایی فیزیکی/ذهنی) یا امکان انجام کاری استفاده می‌شود. مثل همیشه، قانون افعال مدال: فعل können در جایگاه دوم و فعل اصلی به انتهای جمله فرستاده می‌شود."
-      },
-      {
-        type: "examples",
-        title: "جملات پرکاربرد با können",
-        items: [
-          { de: "Ich kann gut schwimmen.", fa: "من می‌توانم خوب شنا کنم. (مهارت)" },
-          { de: "Kannst du mir helfen?", fa: "می‌توانی به من کمک کنی؟" },
-          { de: "Tut mir leid, ich kann heute nicht kommen.", fa: "متاسفم، من امروز نمی‌توانم بیایم. (عدم امکان)" }
+          { de: "es regnet", fa: "باران می‌بارد" },
+          { de: "es schneit", fa: "برف می‌بارد" },
+          { de: "es blitzt", fa: "برق می‌زند" },
+          { de: "es donnert", fa: "رعد می‌زند" },
+          { de: "es ist sonnig", fa: "هوا آفتابی است" },
+          { de: "es ist bewölkt", fa: "هوا ابری است" },
+          { de: "es ist windig", fa: "هوا بادی است" },
+          { de: "es ist neblig", fa: "هوا مه‌آ'ود است" },
+          { de: "es ist heiß", fa: "هوا گرم است" },
+          { de: "es ist kalt", fa: "هوا سرد است" },
+          { de: "es ist warm", fa: "هوا گرم است" },
+          { de: "es ist kühl", fa: "هوا خنک است" }
         ]
       },
       {
         type: "text",
-        title: "۳. خانواده من (Meine Familie)",
-        text: "در آلمانی وقتی می‌خواهید تعداد خواهر و برادر خود را بگویید از کلمه Geschwister استفاده می‌کنید. (مثل siblings در انگلیسی)."
+        title: "توصیف هوا با صفت",
+        text: "برای توصیف هوا از صفت‌ها با فع' sein استفاده می‌شود: Heute ist es sonnig (امروز هوا آفتابی است). Morgen wird es regnen (فردا باران خواهد بارید). Die Temperatur beträgt 20 Grad (دما ۲۰ درجه است)."
+      },
+      {
+        type: "examples",
+        title: "جم'ات آب و هوا",
+        items: [
+          { de: "Wie ist das Wetter heute?", fa: "امروز هوا چطور است؟" },
+          { de: "Heute ist es sonnig und warm.", fa: "امروز هوا آفتابی و گرم است." },
+          { de: "Morgen wird es regnen.", fa: "فردا باران خواهد بارید." },
+          { de: "Es ist 25 Grad.", fa: "هوا ۲۵ درجه است." },
+          { de: "Im Winter ist es oft kalt.", fa: "در زمستان اغ'ب سرد است." },
+          { de: "Im Sommer ist es heiß.", fa: "در تابستان هوا گرم است." },
+          { de: "Die Sonne scheint.", fa: "خورشید می‌تابد." },
+          { de: "Der Wind weht stark.", fa: "باد شدید می‌وزد." }
+        ]
+      },
+      {
+        type: "alert",
+        title: "نکته: فص'‌ها و هوا",
+        text: "در هر فص' آب و هوای معمو' آن فص' را بیان می‌کنیم: بهار (warm, sonnig)، تابستان (heiß, sonnig)، پاییز (kühl, regnerisch)، زمستان (kalt, schneereich)."
+      },
+      {
+        type: "text",
+        title: "فص'‌ها و ویژگی‌هایشان",
+        text: "در آ'مان، فص'‌ها تأثیر زیادی بر زندگی مردم دارند. در زمستان کریسمس جشن گرفته می‌شود. در بهار جشن‌های عید پاک برگزار می‌شود. در تابستان مردم به تعطی'ات می‌روند و در پاییز جشن‌های برداشت محصو' برگزار می‌شود."
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: گذشته و توانایی",
+        title: "آزمون: آب و هوا",
         questions: [
           {
-            question: "شما می‌خواهید بگویید «او دیروز در برلین بود». کدام جمله با گرامر گذشته صحیح است؟",
-            questionDe: "Wie sagt man 'او دیروز در برلین بود'?",
+            question: "'باران می‌بارد' چگونه بیان می‌شود؟",
+            questionDe: "Wie sagt man 'it rains'?",
             options: [
-              { text: "Er ist gestern in Berlin.", isCorrect: false },
-              { text: "Er war gestern in Berlin.", isCorrect: true },
-              { text: "Er wart gestern in Berlin.", isCorrect: false }
+              { text: "es regnet", isCorrect: true },
+              { text: "es schneit", isCorrect: false },
+              { text: "es blitzt", isCorrect: false },
+              { text: "es donnert", isCorrect: false }
             ],
-            explanation: "آفرین! برای er (او)، صرف فعل گذشته sein می‌شود war."
+            explanation: "es regnet به معنای باران می‌بارد است."
           },
           {
-            question: "شما می‌خواهید بگویید «من نمی‌توانم آلمانی صحبت کنم». جایگاه کلمات آلمانی باید چگونه باشد؟",
-            questionDe: "Wie sagt man 'من نمی‌توانم آلمانی صحبت کنم'?",
+            question: "'هوا آفتابی است' چگونه گفته می‌شود؟",
+            questionDe: "Wie sagt man 'it is sunny'?",
             options: [
-              { text: "Ich kann nicht sprechen Deutsch.", isCorrect: false },
-              { text: "Ich spreche kann nicht Deutsch.", isCorrect: false },
-              { text: "Ich kann nicht Deutsch sprechen.", isCorrect: true }
+              { text: "Es ist sonnig.", isCorrect: true },
+              { text: "Es ist regnerisch.", isCorrect: false },
+              { text: "Es ist windig.", isCorrect: false },
+              { text: "Es ist bewölkt.", isCorrect: false }
             ],
-            explanation: "دقیقاً! فعل مدال kann در جایگاه دوم است، کلمه منفی‌ساز nicht می‌آید و مصدر فعلِ اصلي (sprechen) می‌پرد به آخر جمله."
+            explanation: "sonnig صفت آفتابی است."
+          },
+          {
+            question: "'در زمستان سرد است' چگونه بیان می‌شود؟",
+            questionDe: "Wie sagt man 'in winter it is cold'?",
+            options: [
+              { text: "Im Winter ist es kalt.", isCorrect: true },
+              { text: "Im Winter schneit es.", isCorrect: false },
+              { text: "Im Winter regnet es.", isCorrect: false },
+              { text: "Im Winter ist es heiß.", isCorrect: false }
+            ],
+            explanation: "از im + فص' و ist es + صفت استفاده می‌شود."
           }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تکمی' جم'ات: آب و هوا",
+        instruction: "جای خا'ی را با ک'مه مناسب پر کنید.",
+        blanks: [
+          { sentence: "Heute ist es ___.", answer: "sonnig", hint: "آفتابی" },
+          { sentence: "Es ___ heute.", answer: "regnet", hint: "باران می‌بارد" },
+          { sentence: "Im Winter ist es ___.", answer: "kalt", hint: "سرد" },
+          { sentence: "Morgen wird es ___.", answer: "schneien", hint: "برف خواهد بارید" },
+          { sentence: "Es ist 25 ___.", answer: "Grad", hint: "درجه" },
+          { sentence: "Die Sonne ___.", answer: "scheint", hint: "می‌تابد" },
+          { sentence: "Im Sommer ist es ___.", answer: "heiß", hint: "گرم" },
+          { sentence: "Der Wind weht ___.", answer: "stark", hint: "شدید" }
         ]
       }
     ]
   },
-
   vocabData: {
     categories: [
       {
-        title: "کلمات مربوط به زمان گذشته",
+        title: "فع'‌های آب و هوا",
         words: [
-          {
-            de: "gestern / vorgestern",
-            fa: "دیروز / پریروز",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Gestern war ich zu Hause.", fa: "دیروز من در خانه بودم." }
-            ]
-          },
-          {
-            de: "früher",
-            fa: "قبلاً / در گذشته",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Früher war er mein Lehrer.", fa: "قبلاً او معلم من بود." }
-            ]
-          },
-          {
-            de: "letzte Woche",
-            fa: "هفته‌ی گذشته (قبل)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Letzte Woche hatte ich Urlaub.", fa: "هفته‌ی گذشته من مرخصی/تعطیلات داشتم." }
-            ]
-          }
+          { de: "regnen", fa: "باریدن (باران)", article: "-", plural: "-", examples: [{ de: "Es regnet heute.", fa: "امروز باران می‌بارد." }] },
+          { de: "schneien", fa: "باریدن (برف)", article: "-", plural: "-", examples: [{ de: "Im Winter schneit es oft.", fa: "در زمستان اغ'ب برف می‌بارد." }] },
+          { de: "blitzen", fa: "برق زدن", article: "-", plural: "-", examples: [{ de: "Es blitzt und donnert.", fa: "برق و رعد می‌زند." }] },
+          { de: "donnern", fa: "رعد زدن", article: "-", plural: "-", examples: [{ de: "Es donnert stark.", fa: "رعد شدید می‌زند." }] },
+          { de: "scheinen", fa: "تابیدن", article: "-", plural: "-", examples: [{ de: "Die Sonne scheint.", fa: "خورشید می‌تابد." }] },
+          { de: "wehen", fa: "وزیدن (باد)", article: "-", plural: "-", examples: [{ de: "Der Wind weht.", fa: "باد می‌وزد." }] }
         ]
       },
       {
-        title: "خانواده (Die Familie)",
+        title: "صفت‌های آب و هوا",
         words: [
-          {
-            de: "die Familie / die Eltern",
-            fa: "خانواده / والدین",
-            article: "die",
-            plural: "die Familien / -",
-            examples: [
-              { de: "Meine Eltern leben im Iran.", fa: "پدر و مادر من در ایران زندگی می‌کنند." }
-            ]
-          },
-          {
-            de: "der Vater / die Mutter",
-            fa: "پدر / مادر",
-            article: "der / die",
-            plural: "die Väter / die Mütter",
-            examples: [
-              { de: "Sein Vater ist Arzt.", fa: "پدر او پزشک است." }
-            ]
-          },
-          {
-            de: "die Geschwister",
-            fa: "خواهر و برادر (جمع)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Hast du Geschwister?", fa: "آیا تو خواهر یا برادر داری؟" }
-            ]
-          },
-          {
-            de: "der Bruder / die Schwester",
-            fa: "برادر / خواهر",
-            article: "der / die",
-            plural: "die Brüder / die Schwestern",
-            examples: [
-              { de: "Ich habe zwei Brüder.", fa: "من دو برادر دارم." }
-            ]
-          },
-          {
-            de: "das Einzelkind",
-            fa: "تک‌فرزند",
-            article: "das",
-            plural: "die Einzelkinder",
-            examples: [
-              { de: "Ich habe keine Geschwister. Ich bin Einzelkind.", fa: "من خواهر-برادر ندارم. من تک‌فرزند هستم." }
-            ]
-          },
-          {
-            de: "der Großvater / die Großmutter",
-            fa: "پدربزرگ (Opa) / مادربزرگ (Oma)",
-            article: "der / die",
-            plural: "die Großväter / die Großmütter",
-            examples: [
-              { de: "Meine Großmutter kocht sehr gut.", fa: "مادربزرگ من خیلی خوب آشپزی می‌کند." }
-            ]
-          },
-          {
-            de: "der Sohn / die Tochter",
-            fa: "پسر (فرزند) / دختر (فرزند)",
-            article: "der / die",
-            plural: "die Söhne / die Töchter",
-            examples: [
-              { de: "Sie haben einen Sohn.", fa: "آن‌ها یک پسر (فرزند) دارند." }
-            ]
-          },
-          {
-            de: "die Tante / der Onkel",
-            fa: "خاله و عمه / دایی و عمو",
-            article: "die / der",
-            plural: "die Tanten / die Onkel",
-            examples: [
-              { de: "Mein Onkel wohnt in Berlin.", fa: "عموی/دایی من در برلین زندگی می‌کند." }
-            ]
-          }
-        ]
-      },
-      {
-        title: "توانستن و ابراز ناتوانی",
-        words: [
-          {
-            de: "können",
-            fa: "توانستن (مهارت/امکان)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Er kann sehr schnell laufen.", fa: "او می‌تواند خیلی سریع بدود." }
-            ]
-          },
-          {
-            de: "helfen",
-            fa: "کمک کردن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich kann dir morgen helfen.", fa: "من می‌توانم فردا به تو کمک کنم." }
-            ]
-          }
+          { de: "sonnig", fa: "آفتابی", article: "-", plural: "-", examples: [{ de: "Heute ist es sonnig.", fa: "امروز آفتابی است." }] },
+          { de: "bewölkt", fa: "ابری", article: "-", plural: "-", examples: [{ de: "Morgen wird es bewölkt.", fa: "فردا ابری خواهد بود." }] },
+          { de: "regnerisch", fa: "بارانی", article: "-", plural: "-", examples: [{ de: "Das Wetter ist regnerisch.", fa: "هوا بارانی است." }] },
+          { de: "windig", fa: "بادی", article: "-", plural: "-", examples: [{ de: "Heute ist es sehr windig.", fa: "امروز خی'ی بادی است." }] },
+          { de: "neblig", fa: "مه‌آ'ود", article: "-", plural: "-", examples: [{ de: "Am Morgen ist es neblig.", fa: "صبح مه‌آ'ود است." }] },
+          { de: "heiß", fa: "گرم", article: "-", plural: "-", examples: [{ de: "Im Sommer ist es heiß.", fa: "در تابستان گرم است." }] },
+          { de: "kalt", fa: "سرد", article: "-", plural: "-", examples: [{ de: "Im Winter ist es kalt.", fa: "در زمستان سرد است." }] },
+          { de: "warm", fa: "گرم (مطبوع)", article: "-", plural: "-", examples: [{ de: "Der Frühling ist warm.", fa: "بهار گرم است." }] },
+          { de: "kühl", fa: "خنک", article: "-", plural: "-", examples: [{ de: "Der Herbst ist kühl.", fa: "پاییز خنک است." }] },
+          { de: "schön", fa: "زیبا/خوب", article: "-", plural: "-", examples: [{ de: "Das Wetter ist schön.", fa: "هوا خوب است." }] }
         ]
       }
     ]
   },
-
   reading: [
     {
-      text: "Ein anstrengendes Wochenende\n\nHallo Markus,\nwie war dein Wochenende? Mein Wochenende war nicht so gut. Letzte Woche hatte ich viel Stress auf der Arbeit. Ich war sehr müde. \nAm Samstag wollte (می‌خواستم) ich ins Kino gehen, aber ich konnte nicht. Meine Mutter war krank und ich musste ihr helfen. Wir waren auch im Krankenhaus. Danach hatte ich keine Energie mehr.\nHeute geht es meiner Mutter besser. Wie waren deine Tage? Hattest du ein gutes Wochenende?\nLiebe Grüße,\nSarah",
+      text: "Das Wetter in Deutschland: Im Frühling ist das Wetter oft wechselhaft. Manchmal scheint die Sonne, manchmal regnet es. Im Sommer ist es heiß und sonnig. Die Temperaturen sind oft 25 bis 30 Grad. Im Herbst wird es kühl und regnerisch. Die Blätter werden bunt und fallen von den Bäumen. Im Winter ist es kalt und oft schneit es. Die Temperaturen sind oft unter null Grad.",
       questions: [
-        { question: "چرا سارا در آخر هفته نتوانست به سینما برود؟" },
-        { question: "وضعیت کاری سارا در هفته گذشته (Letzte Woche) چگونه بود؟" },
-        { question: "سارا در روز شنبه همراه مادرش در کجا بودند؟" },
-        { question: "کدام دو مُدال وِرب (können و müssen) در متن برای بیان ناتوانی و اجبار به کار رفته‌اند؟" }
+        { question: "در بهار هوا چطور است؟", answer: "در بهار هوا متغیر است: گاهی آفتابی و گاهی بارانی." },
+        { question: "در تابستان دما چقدر است؟", answer: "در تابستان دما اغ'ب ۲۵ تا ۳۰ درجه است." },
+        { question: "در پاییز چه اتفاقی برای برگ‌ها می‌افتد؟", answer: "برگ‌ها رنگارنگ می‌شوند و از درخت‌ها می‌ریزند." },
+        { question: "در زمستان دما چقدر است؟", answer: "در زمستان دما اغ'ب زیر صفر درجه است." }
       ]
     }
   ],
-
   writing: [
     {
-      title: "نوشتن درباره دیروز و معرفی خانواده",
-      prompt: "دو پاراگراف بنویسید: در پاراگراف اول از war و hatte استفاده کنید و بگویید دیروز چگونه بود. در پاراگراف دوم بگویید خانواده شما چند نفره است.",
+      title: "توصیف آب و هوا در یک هفته",
+      prompt: "آب و هوای یک هفته را توصیف کنید: هر روز هوا چطور است و دما چقدر است.",
       steps: [
-        {
-          title: "وضعیت دیروز",
-          text: "از Gestern شروع کنید. بگویید دیروز کجا بودید و چه داشتید.",
-          example: { de: "Gestern war ich zu Hause. Ich hatte keine Lust auf Arbeit. Das Wetter war auch schlecht.", fa: "دیروز من در خانه بودم. من هیچ حوصله‌ای برای کار نداشتم. هوا هم بد بود." }
-        },
-        {
-          title: "بیان توانایی یا اجبار",
-          text: "با استفاده از konnte (نتوانستم) و musste (مجبور بودم) دلیل بیاورید.",
-          example: { de: "Aber ich musste meine Wohnung putzen. Ich konnte leider nicht fernsehen.", fa: "اما من مجبور بودم آپارتمانم را تمیز کنم. متاسفانه نتوانستم تلویزیون تماشا کنم." }
-        },
-        {
-          title: "معرفی خانواده",
-          text: "بگویید که آیا خواهر و برادر دارید یا خیر، و والدینتان کجا هستند.",
-          example: { de: "Meine Familie ist klein. Ich habe zwei Geschwister: einen Bruder und eine Schwester. Meine Eltern leben im Iran.", fa: "خانواده من کوچک است. من دو خواهر-برادر دارم: یک برادر و یک خواهر. والدین من در ایران زندگی می‌کنند." }
-        }
-      ]
+        { title: "قدم او': معرفی", text: "جم'ه او' هفته را معرفی کنید.", example: { de: "Das Wetter in dieser Woche:", fa: "آب و هوا در این هفته:" } },
+        { title: "قدم دوم: توصیف روزها", text: "هر روز را با آب و هوا و دما توصیف کنید.", example: { de: "Am Montag ist es sonnig und 20 Grad.", fa: "دوشنبه هوا آفتابی و ۲۰ درجه است." } },
+        { title: "قدم سوم: نتیجه‌گیری", text: "خ'اصه آب و هوای هفته.", example: { de: "Das Wetter ist sehr schön diese Woche.", fa: "آب و هوا در این هفته خی'ی خوب است." } }
+      ],
+      modelAnswer: "Das Wetter in dieser Woche:\n\nAm Montag ist es sonnig und warm. Die Temperatur beträgt 22 Grad.\nAm Dienstag ist es bewölkt, aber es regnet nicht. Es ist 18 Grad.\nAm Mittwoch regnet es den ganzen Tag. Es ist nur 15 Grad.\nAm Donnerstag ist es neblig am Morgen, aber nachmittags scheint die Sonne. Es ist 19 Grad.\nAm Freitag ist es windig und kühl. Es ist 14 Grad.\nAm Samstag ist es sonnig und schön. Es ist 21 Grad.\nAm Sonntag ist es warm und sonnig. Es ist 24 Grad.\n\nDas Wetter ist sehr schön diese Woche, besonders am Wochenende!"
     }
   ],
-
   listening: [
     {
-      title: "۱. معرفی পরিবারের اعضای خانواده",
-      source: "Learn German - Family Vocabulary",
-      link: "https://www.youtube.com/watch?v=njo4oy6xGrE",
-      instructions: "تمرین دقت به آرتیکل‌ها:\n۱. دقت کنید که تمام مردان خانواده (Vater, Bruder, Onkel, Sohn) دارای آرتیکل der، و تمام زنان (Mutter, Schwester, Tante, Tochter) دارای آرتیکل die هستند.\n۲. جمع کلمات را از گوینده تقلید کنید (Die Brüder, Die Töchter)."
-    },
-    {
-      title: "۲. سفر در زمان با War و Hatte",
-      source: "Präteritum von haben und sein",
-      link: "https://learngermanoriginal.com/courses/a1-course/lesson-41/",
-      instructions: "تمرین سرعت واکنش:\n۱. ویدیوی گرامر را ببینید و وقتی گوینده می‌گوید ich bin (من هستم)، شما سریعاً بلند بگویید: ich war! (من بودم). این تبدیلِ ذهنیِ سریع در صحبت کردن معجزه می‌کند."
+      title: "گوش دادن به گزارش آب و هوا",
+      source: "Deutsch lernen - Wetterbericht",
+      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      instructions: "به گزارش آب و هوا گوش دهید و آب و هوای هر روز و دما را یادداشت کنید."
     }
   ],
-
   speaking: [
     {
-      title: "دیروز چطور بود؟",
-      pattern: "Gestern war ich [Ort]. Ich hatte [Problem / Gefühl].",
-      exercise: "جلوی آینه بایستید. تصور کنید دیروز خیلی روز بدی بوده است. به آلمانی بگویید که خسته بوده‌اید (Ich war müde) و سردرد داشته‌اید (Ich hatte Kopfschmerzen). بگویید مجبور بودید کار کنید (Ich musste arbeiten) و نتوانستید بخوابید (Ich konnte nicht schlafen)."
-    },
-    {
-      title: "معرفی خانواده در مهمانی",
-      pattern: "Ich habe [X] Geschwister. Das ist mein/meine [Familienmitglied].",
-      exercise: "عکس خانواده خود را در گوشی باز کنید. صدای خود را ضبط کنید و تک تک اعضا را معرفی کنید. مثلاً بگویید: (Das ist mein Vater. Er ist 50 Jahre alt. Er arbeitet als ...). اگر تک‌فرزند هستید با افتخار بگویید: (Ich bin Einzelkind!)."
+      title: "توصیف آب و هوا",
+      pattern: "A: Wie ist das Wetter heute?\nB: Heute ist es [Adjektiv]. Die Temperatur beträgt [Zahl] Grad.\nA: Und morgen?\nB: Morgen wird es [Verb/Adjektiv].",
+      exercise: "آب و هوای امروز و فردا را توصیف کنید."
     }
   ],
-
-  cultureTip: "خانواده‌های کوچک در آلمان (Kleinfamilien): برخلاف بسیاری از کشورها، مفهوم خانواده در آلمان معمولاً به «والدین و فرزندانشان» (Kernfamilie) محدود می‌شود. ارتباط با خویشاوندان دور (عمه، دایی و بچه‌هایشان) معمولاً بسیار رسمی‌تر و کمتر است. همچنین، بسیار رایج است که فرزندان به محض رسیدن به سن ۱۸ سالگی یا شروع دانشگاه، از خانه والدین نقل مکان (Auszug) کنند و در شهرهای دور مستقل زندگی کنند."
+  cultureTip: "آ'مانی‌ها عاشق صحبت درباره آب و هوا هستند! این یک موضوع مکا'مه رایج است. در آ'مان، آب و هوا می‌تواند در یک روز تغییر کند، به همین د'ی' مردم اغ'ب چتر با خود حم' می‌کنند. هواشناسی آ'مان (Deutscher Wetterdienst) بسیار دقیق است.",
+  examData: {
+    questions: [
+      { question: "'باران می‌بارد' چگونه بیان می‌شود؟", options: ["es regnet", "es schneit", "es blitzt", "es donnert"], answer: 0 },
+      { question: "'هوا آفتابی است' چگونه گفته می‌شود؟", options: ["Es ist sonnig.", "Es ist regnerisch.", "Es ist windig.", "Es ist bewölkt."], answer: 0 },
+      { question: "'در زمستان سرد است' چگونه بیان می‌شود؟", options: ["Im Winter ist es kalt.", "Im Winter schneit es.", "Im Winter regnet es.", "Im Winter ist es heiß."], answer: 0 },
+      { question: "'برف می‌بارد' چگونه بیان می‌شود؟", options: ["es schneit", "es regnet", "es blitzt", "es donnert"], answer: 0 },
+      { question: "کدام صفت برای تابستان مناسب است؟", options: ["heiß", "kalt", "kühl", "neblig"], answer: 0 },
+      { question: "'خورشید می‌تابد' چگونه بیان می‌شود؟", options: ["Die Sonne scheint.", "Die Sonne regnet.", "Die Sonne schneit.", "Die Sonne weht."], answer: 0 },
+      { question: "کدام فص' سرد و برفی است؟", options: ["der Winter", "der Sommer", "der Frühling", "der Herbst"], answer: 0 },
+      { question: "'هوا ۲۵ درجه است' چگونه بیان می‌شود؟", options: ["Es ist 25 Grad.", "Es ist 25 Uhr.", "Es ist 25 Meter.", "Es ist 25 Kilo."], answer: 0 }
+    ]
+  }
 };

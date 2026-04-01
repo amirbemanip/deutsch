@@ -1,135 +1,217 @@
 export const day26Data = {
-  "title": "روز 26 (تجمیع روزهای 101 تا 104)",
-  "objective": "[روز 101] آشنایی با مهم‌ترین دسته‌های واژگان B1 (کار، رسانه، تکنولوژی، محیط‌زیست، احساسات، مشکلات روزمره) و برداشتن یک مینی‌لیست شخصی برای هرکدام.\\n\\n[روز 102] گسترش مهارت اتصال جمله‌ها با کنکتورهای کمی بالاتر: obwohl, dennoch, deswegen, dann, danach (به‌همراه مرور trotzdem/deshalb).\\n\\n[روز 103] تقویت شنیداری و گفتاری با یک گفت‌وگوی واقعی A2/B1 درباره‌ی موضوعات روزمره (احساسات، کار، خانواده، تمرکز و برنامه‌ریزی).\\n\\n[روز 104] یادگیری واژگان و جملات مهم درباره‌ی رسانه‌ها، استفاده از گوشی، مزایا/معایب، و تمرین نظر دادن با کنکتورها.",
-  "grammarData": {
-    "subtitle": "از A2 به B1: واژگان موضوع‌محور + کنکتورهای بیشتر\\nObwohl …, … . / …, trotzdem/dennoch … . / …, deswegen … . / Wir machen …, dann/danach …\\nاز گوش‌دادن فعال تا بازگویی (Nachsprechen & Nacherzählen)\\nWie viel Handy ist gesund? Vorteile & Nachteile der Medien",
-    "pronouns": [
+  title: "روز ۲۶: سفر - حم' و نق'، مسیریابی و پرسیدن راه",
+  objective: "در این درس یاد می‌گیرید چگونه درباره سفر صحبت کنید، راه بپرسید، مسیر توضیح دهید و از وسای' نق'یه مخت'ف استفاده کنید.",
+  grammarData: {
+    subtitle: "Reisen, Verkehr und Wegbeschreibung ' سفر، حم' و نق' و مسیریابی",
+    content: [
       {
-        "de": "دسته‌های اصلی واژگان B1",
-        "fa": "طبق سرفصل‌ها و لیست‌های فرکانس بالا",
-        "type": "برای B1 معمولاً این حوزه‌ها مهم‌اند: Beruf & Arbeit, Wohnen, Medien & Technik, Gesundheit, Umwelt, Verkehr, Freizeit & Kultur, Kundenservice & Beschwerden, Gefühle & Beziehungen.[web:24][web:422]"
+        type: "text",
+        title: "پرسیدن راه",
+        text: "وقتی در شهر هستید و مسیر را نمی‌دانید، از عبارت‌های مودبانه استفاده کنید: «Entschuldigung, wie komme ich zum/zur...?» یا «Wo ist bitte...?» مردم آ'مان معمو'اً با کما' می' کمک می‌کنند."
       },
       {
-        "de": "obwohl ↔ trotzdem/dennoch",
-        "fa": "وضعیت + نتیجه‌ی غیرمنتظره",
-        "type": "Obwohl ich müde bin, gehe ich ins Fitnessstudio. – Ich bin müde, trotzdem gehe ich ins Fitnessstudio. – Es regnet, dennoch machen wir einen Spaziergang.[web:421][web:424][web:399]"
+        type: "table",
+        title: "عبارات پرسیدن راه",
+        rows: [
+          { de: "Entschuldigung, wo ist bitte der Bahnhof?", fa: "ببخشید، ایستگاه کجاست؟" },
+          { de: "Wie komme ich zum Flughafen?", fa: "چطور به فرودگاه برسم؟" },
+          { de: "Wie komme ich zur Post?", fa: "چطور به پست برسد؟" },
+          { de: "Können Sie mir bitte helfen?", fa: "می‌توانید کمکم کنید؟" },
+          { de: "Ist das weit von hier?", fa: "آیا از اینجا دور است؟" },
+          { de: "Wie lange brauche ich dorthin?", fa: "چقدر طو' می‌کشد؟" },
+          { de: "Gibt es hier eine U-Bahn-Station?", fa: "آیا اینجا ایستگاه مترو هست؟" }
+        ]
       },
       {
-        "de": "deswegen / deshalb (بجای weil)",
-        "fa": "نتیجه در جمله‌ی دوم",
-        "type": "Ich habe morgen eine wichtige Präsentation, deswegen/deshalb bin ich nervös. – Ich möchte meine Aussprache verbessern, deswegen höre ich jeden Tag Podcasts.[web:402][web:400]"
+        type: "table",
+        title: "عبارات توضیح مسیر",
+        rows: [
+          { de: "Gehen Sie geradeaus.", fa: "مستقیم بروید." },
+          { de: "Gehen Sie die erste/zweite Straße links/rechts.", fa: "خیابان او'/دوم چپ/راست بروید." },
+          { de: "Biegen Sie links/rechts ab.", fa: "به چپ/راست بپیچید." },
+          { de: "Dann sehen Sie den Bahnhof auf der rechten Seite.", fa: "بعد ایستگاه را در سمت راست می‌بینید." },
+          { de: "Es ist gleich hier um die Ecke.", fa: "همین نزدیکی پیچ است." },
+          { de: "Es ist etwa fünf Minuten zu Fuß.", fa: "حدود ۵ دقیقه پیاده است." },
+          { de: "Nehmen Sie die erste links, dann geradeaus.", fa: "او'ی چپ، بعد مستقیم." }
+        ]
       },
       {
-        "de": "danach / dann (ترتیب زمانی)",
-        "fa": "یکی بعد از دیگری",
-        "type": "Ich mache zuerst meine Hausaufgaben, danach sehe ich eine Serie. – Wir treffen uns im Café, dann gehen wir ins Kino.[web:399]"
+        type: "table",
+        title: "وسای' نق'یه",
+        rows: [
+          { de: "der Bus", fa: "اتوبوس" },
+          { de: "die Straßenbahn / die Bahn", fa: "تراموا / قطار" },
+          { de: "die U-Bahn", fa: "مترو" },
+          { de: "der Zug", fa: "قطار (بین شهری)" },
+          { de: "das Flugzeug", fa: "هواپیما" },
+          { de: "das Taxi", fa: "تاکسی" },
+          { de: "das Fahrrad", fa: "دوچرخه" },
+          { de: "das Auto", fa: "ماشین" },
+          { de: "zu Fuß", fa: "پیاده" }
+        ]
       },
       {
-        "de": "مراحل کار با گفت‌وگو",
-        "fa": "گوش بده – بنویس – تکرار کن – خلاصه کن",
-        "type": "۱) گوش‌دادن با زیرنویس.\n۲) گوش‌دادن بدون زیرنویس + نوت‌برداری.\n۳) تکرار جمله به جمله (Shadowing).\n۴) بازگویی محتوا با کلمات خودت.[web:418][web:420]"
+        type: "examples",
+        title: "مکا'مه نمونه: پرسیدن راه",
+        items: [
+          { de: "A: Entschuldigung, wie komme ich zum Bahnhof?", fa: "ببخشید، چطور به ایستگاه برسم؟" },
+          { de: "B: Gehen Sie geradeaus und nehmen Sie dann die zweite Straße links.", fa: "مستقیم بروید و بعد خیابان دوم چپ." },
+          { de: "A: Ist das weit?", fa: "دور است؟" },
+          { de: "B: Nein, etwa zehn Minuten zu Fuß.", fa: "نه، حدود ۱۰ دقیقه پیاده." },
+          { de: "A: Danke schön!", fa: "خی'ی ممنون!" },
+          { de: "B: Bitte schön!", fa: "خواهش می‌کنم!" }
+        ]
       },
       {
-        "de": "ساختار نظر سطح B1 ساده",
-        "fa": "These + دلیل + مثال",
-        "type": "Meiner Meinung nach verbringen wir zu viel Zeit am Handy. Einerseits ist das praktisch, weil wir immer Informationen haben. Andererseits gibt es viele Nachteile, zum Beispiel weniger Bewegung und mehr Stress.[web:414][web:417]"
+        type: "examples",
+        title: "ب'یط و سفر",
+        items: [
+          { de: "Ich möchte eine Fahrkarte nach München, bitte.", fa: "یک ب'یط به مونیخ می‌خواهم." },
+          { de: "Einfach oder hin und zurück?", fa: "یک‌طرفه یا رفت و برگشت؟" },
+          { de: "Um welche Uhrzeit fährt der nächste Zug?", fa: "قطار بعدی چند حرکت می‌کند؟" },
+          { de: "Der Zug fährt von Gleis 3 ab.", fa: "قطار از سکوی ۳ حرکت می‌کند." },
+          { de: "Die Fahrt dauert etwa zwei Stunden.", fa: "سفر حدود ۲ ساعت طو' می‌کشد." },
+          { de: "Wann kommen wir an?", fa: "کی می‌رسیم؟" }
+        ]
+      },
+      {
+        type: "alert",
+        title: "نکته مهم: zum vs zur",
+        text: "قب' از اسم‌های مذکر و خنثی: zum (zu + dem): zum Bahnhof, zum Flughafen. قب' از اسم‌های مؤنث: zur (zu + der): zur Post, zur Bank. به یاد داشته باشید که حرف اضافه zu برای مقصد استفاده می‌شود."
+      },
+      {
+        type: "interactive_quiz",
+        title: "سفر و مسیریابی",
+        questions: [
+          {
+            question: "«Wie komme ich zum Bahnhof?» یعنی چه؟",
+            questionDe: "Was bedeutet 'Wie komme ich zum Bahnhof'?",
+            options: [
+              { text: "چطور به ایستگاه برسم؟", isCorrect: true },
+              { text: "ایستگاه کجاست؟", isCorrect: false },
+              { text: "قطار کی می‌آید؟", isCorrect: false },
+              { text: "ب'یط چقدر است؟", isCorrect: false }
+            ],
+            explanation: "«Wie komme ich zu...?» یعنی چطور به... برسم."
+          },
+          {
+            question: "«Gehen Sie geradeaus.» یعنی چه؟",
+            questionDe: "Was bedeutet 'Gehen Sie geradeaus'?",
+            options: [
+              { text: "مستقیم بروید.", isCorrect: true },
+              { text: "به چپ بروید.", isCorrect: false },
+              { text: "به راست بپیچید.", isCorrect: false },
+              { text: "بمانید.", isCorrect: false }
+            ],
+            explanation: "geradeaus یعنی مستقیم."
+          },
+          {
+            question: "«Einfach oder hin und zurück?» یعنی چه؟",
+            questionDe: "Was bedeutet 'Einfach oder hin und zurück'?",
+            options: [
+              { text: "یک‌طرفه یا رفت و برگشت؟", isCorrect: true },
+              { text: "ارزان یا گران؟", isCorrect: false },
+              { text: "سریع یا آهسته؟", isCorrect: false },
+              { text: "دور یا نزدیک؟", isCorrect: false }
+            ],
+            explanation: "einfach یک‌طرفه و hin und zurück رفت و برگشت است."
+          }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "مکا'مه سفر را کام' کنید",
+        instruction: "عبارات مناسب را در جای خا'ی بنویسید.",
+        blanks: [
+          { sentence: "___, wo ist bitte der Bahnhof?", answer: "Entschuldigung", hint: "ببخشید" },
+          { sentence: "Gehen Sie ___ und dann die erste Straße rechts.", answer: "geradeaus", hint: "مستقیم" },
+          { sentence: "Ich möchte eine ___ nach Berlin, bitte.", answer: "Fahrkarte", hint: "ب'یط" },
+          { sentence: "Um welche Uhrzeit ___ der nächste Zug?", answer: "fährt", hint: "حرکت می‌کند" },
+          { sentence: "Der Zug fährt von ___ 5 ab.", answer: "Gleis", hint: "سکو" },
+          { sentence: "___ Sie links ab.", answer: "Biegen", hint: "بپیچید" },
+          { sentence: "Es ist etwa ___ Minuten zu Fuß.", answer: "fünf", hint: "۵ دقیقه" },
+          { sentence: "Wann ___ wir an?", answer: "kommen", hint: "می‌رسیم" }
+        ]
       }
     ]
   },
-  "vocabData": [
+  vocabData: {
+    categories: [
+      {
+        title: "واژگان سفر و حم' و نق'",
+        words: [
+          { de: "der Bahnhof", fa: "ایستگاه قطار", article: "der", plural: "Bahnhöfe", examples: [{ de: "Wo ist der nächste Bahnhof?", fa: "نزدیک‌ترین ایستگاه کجاست؟" }] },
+          { de: "der Flughafen", fa: "فرودگاه", article: "der", plural: "Flughäfen", examples: [{ de: "Ich fahre zum Flughafen.", fa: "به فرودگاه می‌روم." }] },
+          { de: "die Fahrkarte", fa: "ب'یط", article: "die", plural: "-n", examples: [{ de: "Ich brauche eine Fahrkarte.", fa: "ب'یط 'ازم دارم." }] },
+          { de: "der Zug", fa: "قطار", article: "der", plural: "Züge", examples: [{ de: "Der Zug fährt um 8 Uhr ab.", fa: "قطار ساعت ۸ حرکت می‌کند." }] },
+          { de: "die U-Bahn", fa: "مترو", article: "die", plural: "-en", examples: [{ de: "Nehmen Sie die U-Bahn.", fa: "مترو سوار شوید." }] },
+          { de: "die Straßenbahn", fa: "تراموا", article: "die", plural: "-en", examples: [{ de: "Die Straßenbahn kommt alle 10 Minuten.", fa: "تراموا هر ۱۰ دقیقه می‌آید." }] },
+          { de: "der Bus", fa: "اتوبوس", article: "der", plural: "Busse", examples: [{ de: "Welcher Bus fährt zum Zentrum?", fa: "کدام اتوبوس به مرکز شهر می‌رود؟" }] },
+          { de: "das Taxi", fa: "تاکسی", article: "das", plural: "Taxis", examples: [{ de: "Rufen Sie bitte ein Taxi!", fa: "'طفاً یک تاکسی خبر کنید!" }] },
+          { de: "das Flugzeug", fa: "هواپیما", article: "das", plural: "-e", examples: [{ de: "Das Flugzeug startet um 14 Uhr.", fa: "هواپیما ساعت ۱۴ پرواز می‌کند." }] },
+          { de: "das Gleis", fa: "سکو / ری'", article: "das", plural: "-e", examples: [{ de: "Der Zug steht auf Gleis 3.", fa: "قطار روی سکوی ۳ است." }] },
+          { de: "die Abfahrt", fa: "حرکت / عزیمت", article: "die", plural: "-en", examples: [{ de: "Die Abfahrt ist um 9 Uhr.", fa: "حرکت ساعت ۹ است." }] },
+          { de: "die Ankunft", fa: "رسیدن / ورود", article: "die", plural: "Ankünfte", examples: [{ de: "Die Ankunft ist um 12 Uhr.", fa: "رسیدن ساعت ۱۲ است." }] },
+          { de: "die Verspätung", fa: "تاخیر", article: "die", plural: "-en", examples: [{ de: "Der Zug hat 20 Minuten Verspätung.", fa: "قطار ۲۰ دقیقه تاخیر دارد." }] },
+          { de: "der Fahrplan", fa: "برنامه حرکت", article: "der", plural: "Fahrpläne", examples: [{ de: "Wann kommt der nächste Bus? ' Schauen Sie im Fahrplan nach.", fa: "اتوبوس بعدی کی می‌آید؟ برنامه را نگاه کنید." }] },
+          { de: "umsteigen", fa: "تعویض خط / عوض کردن", article: "-", plural: "-", examples: [{ de: "Sie müssen an der Station umsteigen.", fa: "باید در ایستگاه عوض کنید." }] },
+          { de: "aussteigen", fa: "پیاده شدن", article: "-", plural: "-", examples: [{ de: "An der nächsten Haltestelle steigen Sie aus.", fa: "در ایستگاه بعدی پیاده شوید." }] },
+          { de: "einsteigen", fa: "سوار شدن", article: "-", plural: "-", examples: [{ de: "Bitte einsteigen! Der Zug fährt gleich ab.", fa: "'طفاً سوار شوید! قطار به زودی حرکت می‌کند." }] }
+        ]
+      }
+    ]
+  },
+  reading: [
     {
-      "de": "die Verantwortung",
-      "fa": "مسئولیت",
-      "usage": "Ich habe viel Verantwortung in meinem Job.[web:24][web:422]"
-    },
-    {
-      "de": "die Herausforderung",
-      "fa": "چالش",
-      "usage": "Deutsch zu lernen ist eine Herausforderung, aber es macht Spaß.[web:24]"
-    },
-    {
-      "de": "die Gewohnheit",
-      "fa": "عادت",
-      "usage": "Ich versuche, schlechte Gewohnheiten zu ändern.[web:24]"
-    },
-    {
-      "de": "der Vorteil / der Nachteil",
-      "fa": "مزیت / عیب",
-      "usage": "Homeoffice hat viele Vorteile, aber auch einige Nachteile.[web:24]"
-    },
-    {
-      "de": "dennoch",
-      "fa": "با این حال (نسبتاً رسمی)",
-      "usage": "Es war schon spät, dennoch haben wir lange telefoniert.[web:400][web:424]"
-    },
-    {
-      "de": "deswegen",
-      "fa": "به همین دلیل",
-      "usage": "Ich hatte viel Stress, deswegen brauchte ich Urlaub.[web:402]"
-    },
-    {
-      "de": "soziale Medien",
-      "fa": "شبکه‌های اجتماعی",
-      "usage": "Ich nutze soziale Medien jeden Tag, aber ich versuche, nicht zu viel Zeit dort zu verbringen.[web:414][web:425]"
-    },
-    {
-      "de": "die Ablenkung",
-      "fa": "حواس‌پرتی",
-      "usage": "Das Handy ist oft eine Ablenkung bei der Arbeit.[web:426]"
-    },
-    {
-      "de": "die Bildschirmzeit",
-      "fa": "زمانِ نگاه‌کردن به صفحه",
-      "usage": "Meine Bildschirmzeit ist zu hoch.[web:414]"
+      text: "Gestern bin ich mit dem Zug nach Wien gefahren. Ich bin um 8 Uhr zum Bahnhof gegangen und habe eine Fahrkarte gekauft. Der Zug hatte leider 15 Minuten Verspätung. Im Zug habe ich mich hingesetzt und ein Buch gelesen. Die Fahrt hat drei Stunden gedauert. In Wien bin ich ausgestiegen und habe das Taxi zum Hotel genommen. Am nächsten Tag bin ich mit der U-Bahn durch die Stadt gefahren. Ich habe den Stephansdom besichtigt und bin dann zu Fuß durch die Altstadt spaziert. Am Abend bin ich mit dem Bus zum Restaurant gefahren. Es war ein toller Ausflug!",
+      questions: [
+        { question: "نویسنده با چه وسی'ه‌ای به وین رفت؟", answer: "با قطار." },
+        { question: "قطار چقدر تاخیر داشت؟", answer: "۱۵ دقیقه." },
+        { question: "سفر چقدر طو' کشید؟", answer: "سه ساعت." },
+        { question: "او در وین چه کرد؟", answer: "استفانسدوم را دید و در شهر قدیمی پیاده‌روی کرد." }
+      ]
     }
   ],
-  "listening": [
+  writing: [
     {
-      "source": "High Frequency B1 Vocabulary – 1000 Words",
-      "link": "https://www.olesentuition.co.uk/single-post/high-frequency-german-vocabulary-for-b1-learners-1000-words",
-      "instructions": "۱) در مقاله، دو یا سه دسته‌ای را که برایت مهم‌تر است انتخاب کن (مثلاً Beruf, Medien, Gesundheit).[web:24]\n۲) از هر دسته ۱۰–۱۲ واژه انتخاب کن و برای هرکدام یک جمله‌ی کاملاً شخصی بنویس؛ این جمله‌ها را با صدای بلند بخوان.[web:24]",
-      "title": "روز ۱۰۱: گسترش واژگان B1 – دسته‌های مهم زندگی واقعی"
-    },
-    {
-      "source": "German Connectors A2–B1 (PDF)",
-      "link": "https://de.scribd.com/document/861290503/German-Connectors-A2-B1-2",
-      "instructions": "۱) جدول کنکتورهای A2/B1 را نگاه کن؛ مخصوصاً بخش dann, danach, außerdem, trotzdem, deswegen.[web:399]\n۲) برای هرکدام قانون جایگاه فعل را یادداشت کن (Verb nach dem Konnektor) و ۲ مثالِ شخصی بساز.",
-      "title": "روز ۱۰۲: کنکتورهای B1 – obwohl, dennoch, deswegen, dann, danach"
-    },
-    {
-      "source": "German Podcast A2/B1 – Alltagsthemen",
-      "link": "https://www.youtube.com/watch?v=rKhZjWs8MYQ",
-      "instructions": "۱) ۵–۷ دقیقه‌ی اول پادکست را گوش بده؛ با زیرنویس، فقط برای فهم کلی.[web:418]\n۲) بار دوم، بدون زیرنویس گوش بده و بعد از هر ۱–۲ جمله پاز کن، جمله را بنویس، سپس با ویدیو چک کن.[web:418]\n۳) بار سوم، همان بخش را پخش کن و بعد از هر جمله مکث کن و آن را با صدای خودت تکرار کن (Shadowing).",
-      "title": "روز ۱۰۳: مکالمه‌های روزمره A2/B1 – گوش‌دادن و تقلید (Podcast‑Style)"
-    },
-    {
-      "source": "B1 Everyday Dialogues – Media & Feelings",
-      "link": "https://www.youtube.com/watch?v=PyDW4dGg8d8",
-      "instructions": "۱) بخشی از ویدیو را که درباره‌ی احساسات و گفتگوهای روزمره است انتخاب کن؛ ببین چطور درباره‌ی چیزهای روزمره نظر می‌دهند.[web:423]\n۲) چند جمله درباره‌ی موبایل/رسانه از ویدیو یا از مقاله‌ی موضوعات B1 بردار و با زندگی خودت تطبیق بده (مثلاً زمان استفاده، مزایا، مشکلات).[web:414][web:417]",
-      "title": "روز ۱۰۴: موضوع B1 – Medien & Handy (رسانه و موبایل)"
+      title: "توصیف یک سفر",
+      prompt: "یک سفر گذشته را توصیف کنید. از واژگان سفر و Perfekt استفاده کنید.",
+      steps: [
+        { title: "مرح'ه ۱: رفتن", text: "چطور رفتید؟ کجا رفتید؟", example: { de: "Ich bin mit dem Zug nach Berlin gefahren.", fa: "با قطار به بر'ین رفتم." } },
+        { title: "مرح'ه ۲: فعا'یت‌ها", text: "در مقصد چه کردید؟", example: { de: "Ich habe die Stadt besichtigt.", fa: "شهر را دیدم." } },
+        { title: "مرح'ه ۳: برگشت", text: "چطور برگشتید؟", example: { de: "Am Sonntag bin ich mit dem Flugzeug zurückgeflogen.", fa: "یکشنبه با هواپیما برگشتم." } }
+      ],
+      modelAnswer: "Letzten Sommer bin ich mit meiner Familie nach Österreich gefahren. Wir sind mit dem Zug von München nach Salzburg gefahren. Die Fahrt hat etwa eineinhalb Stunden gedauert. In Salzburg sind wir zu Fuß durch die Altstadt gelaufen und haben den Dom besichtigt. Danach sind wir mit dem Bus zum Schloss Mirabell gefahren. Am Abend haben wir in einem Restaurant Wiener Schnitzel gegessen. Am nächsten Tag sind wir mit der Straßenbahn zum Mozart-Haus gefahren. Am Sonntag sind wir mit dem Zug nach Hause gefahren. Es war ein wunderschöner Ausflug!"
     }
   ],
-  "speaking": [
+  listening: [
     {
-      "pattern": "واژه‌ی جدید + یک جمله‌ی توضیح + نظر کوتاه",
-      "exercise": "۱) از مجموع واژه‌های انتخابی، حداقل ۲۰ واژه را در یک متن آزاد ۲۰–۲۵ جمله‌ای استفاده کن (می‌توانی موضوع را «زندگی من در آلمان – الان و آینده» بگذاری).[web:24]\n۲) متن را ضبط کن؛ بعد ببین کدام واژه‌ها هنوز برایت غریبه‌اند و آن‌ها را در ۵–۶ جمله‌ی جدید تمرین کن.\n۳) در طول هفته، همین ۲۰ واژه را چند بار در مکالمه یا خودگویی استفاده کن تا تبدیل به واژگان فعال شوند.",
-      "title": "روز ۱۰۱: گسترش واژگان B1 – دسته‌های مهم زندگی واقعی"
-    },
-    {
-      "pattern": "Obwohl …, … . / …, trotzdem/dennoch … . / …, deswegen … . / …, dann/danach … .",
-      "exercise": "۱) ۱۵–۲۰ جمله‌ی ترکیبی درباره‌ی زندگی خودت بساز، به‌طوری که حداقل ۲ بار از هرکدام استفاده کنی (obwohl, trotzdem, dennoch, deswegen, dann, danach).[web:399][web:402]\n۲) متن را ضبط کن؛ فقط روی کنکتورها و جای فعل تمرکز کن و جایی که اشتباه رفتی را علامت بزن.\n۳) یکی از متن‌های قدیمی‌ات (مثلاً داستان آخر هفته یا برنامه‌ی آینده) را بازنویسی کن و چند کنکتور جدید (dennoch, deswegen, danach) اضافه کن تا سطحش به B1 نزدیک شود.",
-      "title": "روز ۱۰۲: کنکتورهای B1 – obwohl, dennoch, deswegen, dann, danach"
-    },
-    {
-      "pattern": "Nacherzählen: „In dem Gespräch erzählen sie über … Zuerst …, dann …, danach …“",
-      "exercise": "۱) بعد از شنیدن، در ۸–۱۰ جمله توضیح بده که گفت‌وگو درباره‌ی چه بود (موضوع، دو نفر، چند نکته‌ی مهم)؛ حتماً از کنکتورهای زمانی (zuerst, dann, danach, am Ende) استفاده کن.[web:420]\n۲) متن خلاصه‌ی خودت را ضبط کن؛ روز بعد دوباره بدون نگاه به متن سعی کن همین گفت‌وگو را با زبان خودت تعریف کنی.\n۳) اگر دوست داشتی، یک نسخه‌ی «شخصی» هم بساز: همان ساختار مکالمه را نگه دار، اما محتوا را با زندگی خودت جایگزین کن (مثلاً تمرکز، برنامه‌ی روز، احساسات).",
-      "title": "روز ۱۰۳: مکالمه‌های روزمره A2/B1 – گوش‌دادن و تقلید (Podcast‑Style)"
-    },
-    {
-      "pattern": "Meiner Meinung nach … Einerseits …, andererseits … . Außerdem … . Deshalb …",
-      "exercise": "۱) یک متن ۱۲–۱۵ جمله‌ای بنویس درباره‌ی استفاده از Handy/Internet در زندگی خودت: چند ساعت، برای چه، چه مزایا/معایب.[web:414]\n۲) حداقل از این کنکتورها استفاده کن: einerseits/andererseits, außerdem, deshalb, trotzdem.\n۳) متن را ضبط کن و بعد سعی کن در ۲ دقیقه بدون نگاه به متن، همین نظر را به‌صورت آزاد بگویی – این تمرین شبیه سؤال‌های B1 درباره‌ی „Medien“ است.[web:417][web:425]",
-      "title": "روز ۱۰۴: موضوع B1 – Medien & Handy (رسانه و موبایل)"
+      title: "پرسیدن و توضیح مسیر",
+      source: "German Asking for Directions",
+      link: "https://www.youtube.com/watch?v=Jqny8aZzGzE",
+      instructions: "به این ویدیو گوش دهید و توجه کنید چطور عبارت‌های مسیریابی مث' geradeaus, links, rechts, um die Ecke استفاده می‌شوند. مکا'مه را تکرار کنید."
     }
   ],
-  "cultureTip": "[روز 101] منابع حرفه‌ای B1 همیشه روی واژگان «high‑frequency» تأکید می‌کنند؛ اگر همین چندصد کلمه‌ی پُراستفاده را خوب فعال کنی، بیشتر متن‌ها و مکالمه‌های B1 را می‌فهمی و می‌توانی جواب بدهی.[web:24][web:422]\\n\\n[روز 102] در توضیحات امتحان‌های DTZ A2/B1 و Goethe B1 صریحاً گفته می‌شود که استفاده از Konnektoren متنوع نشانه‌ی رسیدن به سطح B1 است؛ همین مجموعه‌ی کوچک اگر درست و فعال استفاده شود، تفاوت بزرگی ایجاد می‌کند.[web:403][web:421][web:424]\\n\\n[روز 103] پادکست‌های سطح A2/B1 با مکالمه‌ی واقعی کمک می‌کنند ساختارِ جمله‌ها و کنکتورها «به گوش»ت عادت کند؛ این دقیقاً همان چیزی است که برای گذر از A2 به B1 لازم داری.[web:418][web:420]\\n\\n[روز 104] در لیست ۱۰۰ موضوع B1، «Medien, Handy, soziale Netzwerke» تقریباً همیشه هست؛ بلد بودن چند واژه‌ی دقیق و ساختار نظر، تو را در امتحان و مکالمه جلو می‌اندازد.[web:414][web:425]"
+  speaking: [
+    {
+      title: "تمرین مسیریابی",
+      pattern: "A: Entschuldigung, wie komme ich zum/zur...? B: Gehen Sie geradeaus, dann links. Es ist gleich dort.",
+      exercise: "با یک نفر مکا'مه مسیریابی تمرین کنید. یکی سؤا' بپرسد و دیگری مسیر توضیح دهد."
+    }
+  ],
+  cultureTip: "در آ'مان، سیستم حم' و نق' عمومی بسیار منظم و دقیق است. قطارها معمو'اً سر وقت حرکت می‌کنند (اگر تاخیر داشته باشند، خی'ی عجیب است!). ب'یط‌های مترو و اتوبوس باید قب' از سوار شدن خریداری و اعتبارسنجی شوند. در بعضی شهرها می‌توانید از اپ'یکیشن‌هایی مث' DB Navigator استفاده کنید.",
+  examData: {
+    questions: [
+      { question: "«Wie komme ich zum Bahnhof?» یعنی چه؟", options: ["ایستگاه کجاست؟", "چطور به ایستگاه برسم؟", "قطار کی می‌آید؟", "ب'یط چقدر است؟"], answer: 1 },
+      { question: "«Gehen Sie geradeaus.» یعنی چه؟", options: ["به چپ بروید.", "مستقیم بروید.", "به راست بپیچید.", "بمانید."], answer: 1 },
+      { question: "«Fahrkarte» یعنی چه؟", options: ["قطار", "ب'یط", "ایستگاه", "سفر"], answer: 1 },
+      { question: "«Biegen Sie links ab.» یعنی چه؟", options: ["مستقیم بروید.", "به چپ بپیچید.", "به راست بپیچید.", "پیاده شوید."], answer: 1 },
+      { question: "«Einfach oder hin und zurück?» یعنی چه؟", options: ["یک‌طرفه یا رفت و برگشت؟", "ارزان یا گران؟", "سریع یا آهسته؟", "دور یا نزدیک؟"], answer: 0 },
+      { question: "«Verspätung» یعنی چه؟", options: ["حرکت", "تاخیر", "رسیدن", "توقف"], answer: 1 },
+      { question: "«umsteigen» یعنی چه؟", options: ["پیاده شدن", "سوار شدن", "تعویض خط", "حرکت کردن"], answer: 2 },
+      { question: "«Gleis» یعنی چه؟", options: ["ب'یط", "سکو", "قطار", "ایستگاه"], answer: 1 },
+      { question: "کدام جم'ه صحیح است؟", options: ["Ich fahre mit den Zug.", "Ich fahre mit dem Zug.", "Ich fahre mit der Zug.", "Ich fahre mit das Zug."], answer: 1 },
+      { question: "«aussteigen» یعنی چه؟", options: ["سوار شدن", "پیاده شدن", "حرکت کردن", "تعویض کردن"], answer: 1 }
+    ]
+  }
 };

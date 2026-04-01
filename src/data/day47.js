@@ -1,14 +1,14 @@
 export const day47Data = {
   title: "روز ۴۷: غذاهای ارگانیک، تغییر عادت‌ها و مدیریت استرس",
-  objective: "امروز یاد می‌گیریم چطور برای بخش دوم امتحان شفاهی (ارائه) یک مونولوگ درباره غذاهای ارگانیک بسازیم. همچنین درباره تغییر عادت‌های بد (Gewohnheiten) حرف می‌زنیم و یاد می‌گیریم که در رژیم غذایی کمال‌گرا نباشیم تا دچار استرس نشویم.",
+  objective: "امروز یاد می‌گیریم چطور برای بخش دوم امتحان شفاهی (ارائه) یک مونو'وگ درباره غذاهای ارگانیک بسازیم. همچنین درباره تغییر عادت‌های بد (Gewohnheiten) حرف می‌زنیم و یاد می‌گیریم که در رژیم غذایی کما'‌گرا نباشیم تا دچار استرس نشویم.",
 
   grammarData: {
     subtitle: "ساختار یک ارائه استاندارد (Präsentation) و بیان مقاصد (Vorsätze).",
     content: [
       {
         type: "text",
-        title: "۱. ساختار طلایی ارائه در امتحان B1 (Teil 2)",
-        text: "در بخش دوم امتحان شفاهی B1، شما باید ۳ دقیقه درباره یک موضوع صحبت کنید. اگر این ৫ بخش را رعایت کنید، نمره کامل می‌گیرید."
+        title: "۱. ساختار ط'ایی ارائه در امتحان B1 (Teil 2)",
+        text: "در بخش دوم امتحان شفاهی B1، شما باید ۳ دقیقه درباره یک موضوع صحبت کنید. اگر این ৫ بخش را رعایت کنید، نمره کام' می‌گیرید."
       },
       {
         type: "alert",
@@ -31,15 +31,15 @@ export const day47Data = {
       },
       {
         type: "text",
-        title: "۳. تعادل بین تغذیه و استرس",
-        text: "در سطح B1 از شما انتظار می‌رود افکار پخته‌تری داشته باشید. مثلاً بگویید تغذیه مهم است، اما نباید به خودمان استرس وارد کنیم (sich unter Druck setzen)."
+        title: "۳. تعاد' بین تغذیه و استرس",
+        text: "در سطح B1 از شما انتظار می‌رود افکار پخته‌تری داشته باشید. مث'اً بگویید تغذیه مهم است، اما نباید به خودمان استرس وارد کنیم (sich unter Druck setzen)."
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: ارائه و ساختارها",
+        title: "آزمون درک مط'ب: ارائه و ساختارها",
         questions: [
           {
-            question: "کدام جمله برای شروع یک ارائه (Einleitung) در امتحان B1 مناسب‌تر است؟",
+            question: "کدام جم'ه برای شروع یک ارائه (Einleitung) در امتحان B1 مناسب‌تر است؟",
             questionDe: "Wie beginnen Sie eine Präsentation?",
             options: [
               { text: "Ich rede jetzt.", isCorrect: false },
@@ -49,14 +49,14 @@ export const day47Data = {
             explanation: "آفرین! یک شروع رسمی و مودبانه با «Heute spreche ich über das Thema...» بهترین راه برای ورود به ارائه است."
           },
           {
-            question: "می‌خواهید بگویید: «به جای اینکه بخوابم، کتاب می‌خوانم». جای خالی را پر کنید. _____ zu schlafen, lese ich ein Buch.",
+            question: "می‌خواهید بگویید: «به جای اینکه بخوابم، کتاب می‌خوانم». جای خا'ی را پر کنید. _____ zu schlafen, lese ich ein Buch.",
             questionDe: "Was fehlt hier?",
             options: [
               { text: "Ohne", isCorrect: false },
               { text: "Statt", isCorrect: true },
               { text: "Um", isCorrect: false }
             ],
-            explanation: "دقیقاً! کلمه Statt (همراه با zu) به معنای «به جایِ...» است."
+            explanation: "دقیقاً! ک'مه Statt (همراه با zu) به معنای «به جایِ...» است."
           }
         ]
       }
@@ -92,7 +92,7 @@ export const day47Data = {
             article: "das",
             plural: "-",
             examples: [
-              { de: "Ich habe ein schlechtes Gewissen, wenn ich zu viel Schokolade esse.", fa: "وقتی شکلات زیاد می‌خورم وجدان درد می‌گیرم (عذاب وجدان دارم)." }
+              { de: "Ich habe ein schlechtes Gewissen, wenn ich zu viel Schokolade esse.", fa: "وقتی شک'ات زیاد می‌خورم وجدان درد می‌گیرم (عذاب وجدان دارم)." }
             ]
           }
         ]
@@ -111,11 +111,11 @@ export const day47Data = {
           },
           {
             de: "der Vorsatz",
-            fa: "تصمیم / قصد جدی (معمولاً برای سال نو)",
+            fa: "تصمیم / قصد جدی (معمو'اً برای سا' نو)",
             article: "der",
             plural: "die Vorsätze",
             examples: [
-              { de: "Mein guter Vorsatz für dieses Jahr ist mehr Sport.", fa: "تصمیم خوب من برای امسال ورزش بیشتر است." }
+              { de: "Mein guter Vorsatz für dieses Jahr ist mehr Sport.", fa: "تصمیم خوب من برای امسا' ورزش بیشتر است." }
             ]
           },
           {
@@ -124,7 +124,7 @@ export const day47Data = {
             article: "-",
             plural: "-",
             examples: [
-              { de: "Man sollte sich beim Abnehmen nicht zu sehr unter Druck setzen.", fa: "آدم نباید هنگام کاهش وزن خیلی به خودش فشار بیاورد." }
+              { de: "Man sollte sich beim Abnehmen nicht zu sehr unter Druck setzen.", fa: "آدم نباید هنگام کاهش وزن خی'ی به خودش فشار بیاورد." }
             ]
           }
         ]
@@ -136,7 +136,7 @@ export const day47Data = {
     {
       text: "Präsentation: Sollen wir nur noch Bio-Lebensmittel kaufen?\n\nHeute spreche ich über das Thema 'Bio-Lebensmittel'. Zuerst erzähle ich von meinen persönlichen Erfahrungen. Ich persönlich kaufe meistens im normalen Supermarkt ein, weil Bio-Produkte oft sehr teuer sind. \nEin großer Vorteil von Bio-Lebensmitteln ist jedoch, dass sie besser für die Umwelt und ohne Pestizide produziert werden. Außerdem schmecken sie oft intensiver. Ein Nachteil ist eindeutig der hohe Preis. Nicht jede Familie kann sich das leisten. \nMeiner Meinung nach ist es wichtig, auf gesunde Ernährung zu achten, aber man sollte sich nicht unter Druck setzen. Wenn man das Geld hat, ist Bio eine gute Wahl, aber normales Gemüse ist auch gesund. Das war meine Präsentation. Vielen Dank für Ihre Aufmerksamkeit.",
       questions: [
-        { question: "چرا راوی معمولاً از سوپرمارکت‌های معمولی خرید می‌کند؟ (تجربه شخصی)" },
+        { question: "چرا راوی معمو'اً از سوپرمارکت‌های معمو'ی خرید می‌کند؟ (تجربه شخصی)" },
         { question: "دو مزیت غذاهای ارگانیک (Bio) که در متن ذکر شده چیست؟ (دو مورد)" },
         { question: "عیب بزرگ (Nachteil) غذاهای ارگانیک چیست؟" },
         { question: "نظر نهایی راوی درباره خرید غذاهای ارگانیک چیست؟ (بخش Meinung)" }
@@ -152,7 +152,7 @@ export const day47Data = {
         {
           title: "معرفی یک عادت",
           text: "استفاده از Eine schlechte Gewohnheit von mir ist...",
-          example: { de: "Eine schlechte Gewohnheit von mir ist, dass ich abends viel am Handy spiele.", fa: "یکی از عادت‌های بد من این است که شب‌ها زیاد با موبایل بازی می‌کنم." }
+          example: { de: "Eine schlechte Gewohnheit von mir ist, dass ich abends viel am Handy spiele.", fa: "یکی از عادت‌های بد من این است که شب‌ها زیاد با موبای' بازی می‌کنم." }
         },
         {
           title: "تصمیم برای تغییر",
@@ -162,7 +162,7 @@ export const day47Data = {
         {
           title: "اقدام جایگزین",
           text: "استفاده از statt ... zu.",
-          example: { de: "Statt am Handy zu spielen, möchte ich abends ein paar Seiten lesen.", fa: "به جای اینکه با موبایل بازی کنم، می‌خواهم عصرها چند صفحه کتاب بخوانم." }
+          example: { de: "Statt am Handy zu spielen, möchte ich abends ein paar Seiten lesen.", fa: "به جای اینکه با موبای' بازی کنم، می‌خواهم عصرها چند صفحه کتاب بخوانم." }
         }
       ]
     }
@@ -173,28 +173,28 @@ export const day47Data = {
       title: "۱. نمونه ارائه امتحانی (Präsentation)",
       source: "Goethe B1 Sprechen Teil 2 (Bio-Produkte)",
       link: "https://www.youtube.com/watch?v=lhrn8jctOlk",
-      instructions: "تمرین دریافت ساختار:\nبه نحوه شروع و پایان فرد دقت کنید. او چگونه از بخش مزایا به بخش معایب می‌رود؟ (معمولاً با عباراتی مثل «Auf der anderen Seite...» یا «Ein Nachteil ist jedoch...»)."
+      instructions: "تمرین دریافت ساختار:\nبه نحوه شروع و پایان فرد دقت کنید. او چگونه از بخش مزایا به بخش معایب می‌رود؟ (معمو'اً با عباراتی مث' «Auf der anderen Seite...» یا «Ein Nachteil ist jedoch...»)."
     },
     {
       title: "۲. پادکست تغذیه بدون استرس",
       source: "Ernährung ohne Stress (B1)",
       link: "https://www.podcast.de/episode/694707664/013-ernaehrung-ohne-stress",
-      instructions: "تمرین شنیدن واژگان احساسی:\nبه کلماتی که نشان‌دهنده فشار ذهنی هستند گوش دهید: schlechtes Gewissen (عذاب وجدان)، Druck (فشار)، perfekt sein (کامل بودن)."
+      instructions: "تمرین شنیدن واژگان احساسی:\nبه ک'ماتی که نشان‌دهنده فشار ذهنی هستند گوش دهید: schlechtes Gewissen (عذاب وجدان)، Druck (فشار)، perfekt sein (کام' بودن)."
     }
   ],
 
   speaking: [
     {
-      title: "مونولوگ: ارائه کامل غذاهای ارگانیک",
+      title: "مونو'وگ: ارائه کام' غذاهای ارگانیک",
       pattern: "Einleitung -> Erfahrungen -> Vorteile -> Nachteile -> Meinung -> Schluss",
-      exercise: "مدت ۳ دقیقه مانند یک امتحان واقعی، ارائه متن ریدینگ (Bio-Lebensmittel) را خودتان با صدای بلند و روان اجرا کنید. تصور کنید جلوی دو ممتحن نشسته‌اید. سعی کنید به کاغذ نگاه نکنید."
+      exercise: "مدت ۳ دقیقه مانند یک امتحان واقعی، ارائه متن ریدینگ (Bio-Lebensmittel) را خودتان با صدای ب'ند و روان اجرا کنید. تصور کنید ج'وی دو ممتحن نشسته‌اید. سعی کنید به کاغذ نگاه نکنید."
     },
     {
-      title: "دیالوگ: شروع یک ورزش مشترک",
+      title: "دیا'وگ: شروع یک ورزش مشترک",
       pattern: "Hast du Lust...? / Wir könnten... / Ich habe mir vorgenommen...",
-      exercise: "به دوستتان زنگ بزنید و به آلمانی بگویید: «سلام، من تصمیم گرفته‌ام بیشتر ورزش کنم (vorgenommen). تو هم میای دو روز در هفته با هم بدویم؟ اینطوری انگیزه بیشتری داریم.»"
+      exercise: "به دوستتان زنگ بزنید و به آ'مانی بگویید: «س'ام، من تصمیم گرفته‌ام بیشتر ورزش کنم (vorgenommen). تو هم میای دو روز در هفته با هم بدویم؟ اینطوری انگیزه بیشتری داریم.»"
     }
   ],
 
-  cultureTip: "کلمه جذاب «der Schweinehund» (سگِ خوک‌صفتِ درون!): در فرهنگ آلمانی وقتی کسی تنبلی می‌کند و نمی‌تواند یک عادت خوب (مثل رفتن به باشگاه در روز بارانی) را شروع کند، می‌گویند او باید بر «innerer Schweinehund» خود غلبه کند! این یک کلمه استعاری، بسیار رایج و بامزه است به معنای صدای درونی‌ای که ما را به تنبلی دعوت می‌کند. وقتی در مکالمه آلمانی بگویید: «Ich muss meinen inneren Schweinehund überwinden» (باید بر سگِ خوک‌صفت درونم غلبه کنم)، آلمانی‌ها با لبخندی بزرگ به شما نگاه خواهند کرد!"
+  cultureTip: "ک'مه جذاب «der Schweinehund» (سگِ خوک‌صفتِ درون!): در فرهنگ آ'مانی وقتی کسی تنب'ی می‌کند و نمی‌تواند یک عادت خوب (مث' رفتن به باشگاه در روز بارانی) را شروع کند، می‌گویند او باید بر «innerer Schweinehund» خود غ'به کند! این یک ک'مه استعاری، بسیار رایج و بامزه است به معنای صدای درونی‌ای که ما را به تنب'ی دعوت می‌کند. وقتی در مکا'مه آ'مانی بگویید: «Ich muss meinen inneren Schweinehund überwinden» (باید بر سگِ خوک‌صفت درونم غ'به کنم)، آ'مانی‌ها با 'بخندی بزرگ به شما نگاه خواهند کرد!"
 };

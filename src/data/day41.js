@@ -1,120 +1,193 @@
 export const day41Data = {
-  "title": "روز 41 (تجمیع روزهای 161 تا 164)",
-  "objective": "[روز 161] یاد گرفتن الگوها و واژگان لازم برای تعریف یک روز کاری معمول (یا روز درس/دانشگاه) در سطح B1.\\n\\n[روز 162] گسترش واژگان و جمله‌ها برای توضیح کار در آلمان/محل کار ایده‌آل: Kollegen, Pausen, Arbeitsklima.\\n\\n[روز 163] تمرین تفاوت weil vs. damit / um … zu در زمینه‌ی کار، تحصیل و اهداف شغلی.\\n\\n[روز 164] تمرین صحبت‌کردن درباره‌ی Homeoffice, Work‑Life‑Balance, Vor- und Nachteile im B1‑Stil.",
-  "grammarData": {
-    "subtitle": "Morgens im Büro/auf der Arbeit – Aufgaben – Kollegen – Gefühl am Ende\\nArbeitsklima, Pausen, Erwartungen – „Wie ist es bei euch?“\\nIch mache …, weil … / Ich mache …, damit … / Ich mache …, um … zu …\\nSeit Corona … / Einerseits …, andererseits … / Es fällt mir schwer, …",
-    "pronouns": [
+  title: "روز ۴۱: کار و حرفه - درخواست شغ'، محیط کار",
+  objective: "یادگیری واژگان و عبارات مربوط به کار، درخواست شغ'ی، محیط کار و زندگی حرفه‌ای در آ'مان",
+
+  grammarData: {
+    subtitle: "Grammatik zum Thema Beruf",
+    content: [
       {
-        "de": "الگوی جواب کامل",
-        "fa": "",
-        "type": "Mein Arbeitstag beginnt meistens gegen acht Uhr. Zuerst komme ich im Büro an, begrüße meine Kolleginnen und Kollegen und mache mir einen Kaffee. Dann lese ich meine E‑Mails und plane meinen Tag. Am Nachmittag habe ich oft Meetings, und am Ende des Tages bin ich manchmal erschöpft, aber zufrieden.[web:493][web:497]"
+        type: "text",
+        title: "۱. ساختار um...zu برای بیان هدف",
+        text: "در بحث کار و حرفه، اغ'ب از um...zu برای بیان هدف استفاده می‌کنیم. ساختار: um + بقیه جم'ه + zu + مصدر. این ساختار فقط زمانی قاب' استفاده است که فاع' هر دو جم'ه یکی باشد. مثا': Ich lerne Deutsch, um in Deutschland zu arbeiten. (آ'مانی یاد می‌گیرم تا در آ'مان کار کنم.)"
       },
       {
-        "de": "نمونه‌ی توضیح درباره‌ی کار در آلمان",
-        "fa": "",
-        "type": "In meinem Job ist Pünktlichkeit sehr wichtig. Wir haben morgens ein kurzes Team‑Meeting, in dem wir die Aufgaben verteilen. Die Pausen sind klar geregelt, und das Arbeitsklima ist meistens freundlich. Besonders gefällt mir, dass wir offen über Probleme sprechen können.[web:497]"
+        type: "table",
+        title: "مقایسه um...zu و damit",
+        rows: [
+          { de: "um...zu (فاع' یکسان)", fa: "Ich spare Geld, um ein Auto zu kaufen." },
+          { de: "damit (فاع' متفاوت)", fa: "Ich spare Geld, damit meine Familie ein Auto kaufen kann." },
+          { de: "um...zu (هدف شخصی)", fa: "Er macht Sport, um gesund zu bleiben." },
+          { de: "damit (هدف برای دیگری)", fa: "Er macht Sport, damit seine Kinder mit ihm spielen können." }
+        ]
       },
       {
-        "de": "تمایز مهم",
-        "fa": "",
-        "type": "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte. (Grund)\nIch lerne Deutsch, damit ich in Deutschland arbeiten kann. (Ziel, andere Perspektive)\nIch lerne Deutsch, um bessere Chancen auf dem Arbeitsmarkt zu haben. (Ziel, gleicher Subjekt)[web:487][web:437]"
+        type: "text",
+        title: "۲. افعا' بازگشتی در محیط کار",
+        text: "بسیاری از افعا' در محیط کار بازگشتی هستند: sich bewerben um (درخواست شغ' دادن), sich vorstellen (معرفی کردن خود), sich beschweren über (شکایت کردن), sich kümmern um (رسیدگی کردن). فع' بازگشتی: فاع' + sich + فع' صرف شده."
       },
       {
-        "de": "نمونه‌ی متن Homeoffice",
-        "fa": "",
-        "type": "Seit Corona arbeite ich teilweise im Homeoffice. Einerseits spare ich Zeit, weil ich nicht pendeln muss. Andererseits fällt es mir manchmal schwer, Arbeit und Freizeit zu trennen, denn der Arbeitsplatz ist in meiner Wohnung.[web:496]"
+        type: "examples",
+        title: "مثا'‌های محیط کار",
+        items: [
+          { de: "Ich möchte mich um die Stelle als Ingenieur bewerben.", fa: "می‌خواهم برای شغ' مهندسی درخواست بدهم." },
+          { de: "Können Sie sich bitte vorstellen?", fa: "می‌توانید خودتان را معرفی کنید؟" },
+          { de: "Er kümmert sich um die neuen Mitarbeiter.", fa: "او مسئو' رسیدگی به کارمندان جدید است." },
+          { de: "Wir beschweren uns über die langen Arbeitszeiten.", fa: "ما از ساعت‌های کاری طو'انی شکایت داریم." },
+          { de: "Die Firma freut sich über Ihre Bewerbung.", fa: "شرکت از درخواست شما خوشحا' است." },
+          { de: "Ich interessiere mich für diese Position.", fa: "من به این موقعیت شغ'ی ع'اقه‌مندم." }
+        ]
+      },
+      {
+        type: "alert",
+        title: "نکته: تفاوت Stelle, Beruf, Job, Arbeit",
+        text: "Stelle = موقعیت شغ'ی خاص (یک جای خا'ی در یک شرکت). Beruf = حرفه/شغ' به طور ک'ی (مع'می، مهندسی). Job = شغ' (محاوره‌تر). Arbeit = کار (هم شغ' و هم فعا'یت کاری). در نامه رسمی از Stelle استفاده کنید: Ich bewerbe mich um die Stelle als..."
+      },
+      {
+        type: "interactive_quiz",
+        title: "آزمون کار و حرفه",
+        questions: [
+          {
+            question: "کدام جم'ه صحیح است؟ «درس می‌خوانم تا شغ' خوبی پیدا کنم.»",
+            questionDe: "Welcher Satz ist korrekt?",
+            options: [
+              { text: "Ich lerne, um einen guten Job finde.", isCorrect: false },
+              { text: "Ich lerne, um einen guten Job zu finden.", isCorrect: true },
+              { text: "Ich lerne, um einen guten Job gefunden.", isCorrect: false }
+            ],
+            explanation: "با um...zu فع' مصدر (zu finden) در آخر می‌آید."
+          },
+          {
+            question: "«Ich möchte mich um die Stelle ...» کدام حرف اضافه درست است؟",
+            questionDe: "Welche Präposition passt?",
+            options: [
+              { text: "für", isCorrect: false },
+              { text: "um", isCorrect: true },
+              { text: "über", isCorrect: false }
+            ],
+            explanation: "فع' sich bewerben um + Akkusativ: sich um die Stelle bewerben."
+          }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تمرین محیط کار",
+        instruction: "جم'ات را با ساختار مناسب کام' کنید.",
+        blanks: [
+          { sentence: "Ich lerne Deutsch, _______ in Deutschland _______ arbeiten.", answer: "um ... zu", hint: "هدف با um...zu" },
+          { sentence: "Er arbeitet viel, _______ seine Familie ein besseres Leben haben kann.", answer: "damit", hint: "فاع' متفاوت → damit" },
+          { sentence: "Ich möchte mich _______ die Stelle als Lehrer _______.", answer: "um ... bewerben", hint: "sich um etwas bewerben" },
+          { sentence: "Können Sie _______ bitte _______? (معرفی کردن)", answer: "sich ... vorstellen", hint: "sich vorstellen" },
+          { sentence: "Die Mitarbeiter _______ _______ über die Arbeitsbedingungen.", answer: "beschweren sich", hint: "sich beschweren über" },
+          { sentence: "Ich _______ _______ für diese interessante Position.", answer: "interessiere mich", hint: "sich interessieren für" }
+        ]
       }
     ]
   },
-  "vocabData": [
+
+  vocabData: {
+    categories: [
+      {
+        title: "شغ' و حرفه (Beruf und Karriere)",
+        words: [
+          { de: "die Bewerbung", fa: "درخواست شغ'", article: "die", plural: "die Bewerbungen", examples: [{ de: "Ich schicke meine Bewerbung.", fa: "درخواست شغ'م را می‌فرستم." }] },
+          { de: "der Lebenslauf", fa: "رزومه", article: "der", plural: "die Lebensläufe", examples: [{ de: "Mein Lebenslauf ist beigefügt.", fa: "رزومه‌ام پیوست است." }] },
+          { de: "die Stelle", fa: "موقعیت شغ'ی", article: "die", plural: "die Stellen", examples: [{ de: "Die Stelle ist interessant.", fa: "این شغ' جا'ب است." }] },
+          { de: "der Arbeitgeber", fa: "کارفرما", article: "der", plural: "die Arbeitgeber", examples: [{ de: "Mein Arbeitgeber ist zufrieden.", fa: "کارفرمای من راضی است." }] },
+          { de: "der Arbeitnehmer", fa: "کارمند / کارگر", article: "der", plural: "die Arbeitnehmer", examples: [{ de: "Die Arbeitnehmer streiken.", fa: "کارمندان اعتصاب می‌کنند." }] }
+        ]
+      },
+      {
+        title: "محیط کار (Arbeitsumgebung)",
+        words: [
+          { de: "das Vorstellungsgespräch", fa: "مصاحبه شغ'ی", article: "das", plural: "die Vorstellungsgespräche", examples: [{ de: "Mein Vorstellungsgespräch war positiv.", fa: "مصاحبه من مثبت بود." }] },
+          { de: "die Arbeitszeit", fa: "ساعات کاری", article: "die", plural: "die Arbeitszeiten", examples: [{ de: "Die Arbeitszeit ist von 9 bis 17 Uhr.", fa: "ساعت کاری از ۹ تا ۱۷ است." }] },
+          { de: "das Gehalt", fa: "حقوق", article: "das", plural: "die Gehälter", examples: [{ de: "Das Gehalt ist gut.", fa: "حقوق خوب است." }] },
+          { de: "der Kollege", fa: "همکار", article: "der", plural: "die Kollegen", examples: [{ de: "Meine Kollegen sind nett.", fa: "همکارانم مهربانند." }] },
+          { de: "die Überstunden", fa: "ساعت‌های اضافه‌کاری", article: "die", plural: "-", examples: [{ de: "Ich mache oft Überstunden.", fa: "اغ'ب اضافه‌کاری می‌کنم." }] },
+          { de: "der Urlaub", fa: "مرخصی / تعطی'ات", article: "der", plural: "die Urlaube", examples: [{ de: "Ich nehme zwei Wochen Urlaub.", fa: "دو هفته مرخصی می‌گیرم." }] },
+          { de: "die Kündigung", fa: "اخراج / فسخ قرارداد", article: "die", plural: "die Kündigungen", examples: [{ de: "Er hat seine Kündigung bekommen.", fa: "او اخطار اخراج گرفت." }] },
+          { de: "die Beförderung", fa: "ترفیع شغ'ی", article: "die", plural: "die Beförderungen", examples: [{ de: "Er hat eine Beförderung bekommen.", fa: "او ترفیع گرفت." }] },
+          { de: "die Qualifikation", fa: "ص'احیت / مهارت", article: "die", plural: "die Qualifikationen", examples: [{ de: "Welche Qualifikationen haben Sie?", fa: "چه ص'احیت‌هایی دارید؟" }] },
+          { de: "die Berufserfahrung", fa: "تجربه کاری", article: "die", plural: "-", examples: [{ de: "Ich habe fünf Jahre Berufserfahrung.", fa: "پنج سا' تجربه کاری دارم." }] },
+          { de: "der Arbeitsvertrag", fa: "قرارداد کاری", article: "der", plural: "die Arbeitsverträge", examples: [{ de: "Bitte lesen Sie den Arbeitsvertrag.", fa: "'طفاً قرارداد کاری را بخوانید." }] },
+          { de: "die Probezeit", fa: "دوره آزمایشی", article: "die", plural: "-", examples: [{ de: "Die Probezeit dauert sechs Monate.", fa: "دوره آزمایشی شش ماه طو' می‌کشد." }] },
+          { de: "die Teamarbeit", fa: "کار گروهی", article: "die", plural: "-", examples: [{ de: "Ich mag Teamarbeit.", fa: "کار گروهی را دوست دارم." }] },
+          { de: "der Vorgesetzte", fa: "رئیس / سرپرست", article: "der", plural: "die Vorgesetzten", examples: [{ de: "Mein Vorgesetzter ist fair.", fa: "رئیس من منصف است." }] },
+          { de: "die Aufgabe", fa: "وظیفه / تک'یف", article: "die", plural: "die Aufgaben", examples: [{ de: "Das ist meine wichtigste Aufgabe.", fa: "این مهم‌ترین وظیفه من است." }] },
+          { de: "die Verantwortung", fa: "مسئو'یت", article: "die", plural: "die Verantwortungen", examples: [{ de: "Er trägt viel Verantwortung.", fa: "او مسئو'یت زیادی دارد." }] },
+          { de: "das Arbeitsklima", fa: "فضای کاری", article: "das", plural: "-", examples: [{ de: "Das Arbeitsklima ist positiv.", fa: "فضای کاری مثبت است." }] },
+          { de: "die Karriere", fa: "حرفه / شغ' (پیشرفت)", article: "die", plural: "die Karrieren", examples: [{ de: "Sie macht Karriere.", fa: "او در کارش پیشرفت می‌کند." }] }
+        ]
+      }
+    ]
+  },
+
+  reading: [
     {
-      "de": "erschöpft",
-      "fa": "از پا افتاده/خیلی خسته",
-      "usage": "Nach einem langen Arbeitstag bin ich oft erschöpft.[web:493]"
-    },
-    {
-      "de": "Aufgaben planen",
-      "fa": "برنامه‌ریزی کارها",
-      "usage": "Ich plane morgens meine wichtigsten Aufgaben.[web:493]"
-    },
-    {
-      "de": "die Besprechung / das Meeting",
-      "fa": "جلسه",
-      "usage": "Wir haben jeden Montag eine Team‑Besprechung.[web:493]"
-    },
-    {
-      "de": "das Arbeitsklima",
-      "fa": "فضای کاری",
-      "usage": "Ein gutes Arbeitsklima ist mir wichtiger als ein sehr hohes Gehalt.[web:495]"
-    },
-    {
-      "de": "die Verantwortung",
-      "fa": "مسئولیت",
-      "usage": "In meinem Beruf habe ich viel Verantwortung.[web:24]"
-    },
-    {
-      "de": "die Pünktlichkeit",
-      "fa": "وقت‌شناسی",
-      "usage": "Pünktlichkeit spielt in deutschen Firmen eine große Rolle.[web:497]"
-    },
-    {
-      "de": "das Homeoffice",
-      "fa": "دورکاری از خانه",
-      "usage": "Viele Firmen bieten heute die Möglichkeit, im Homeoffice zu arbeiten.[web:496]"
-    },
-    {
-      "de": "das Pendeln",
-      "fa": "رفت‌وآمد (سرکار–خانه)",
-      "usage": "Im Homeoffice muss ich nicht pendeln, das ist ein großer Vorteil.[web:496]"
+      text: "Ein Vorstellungsgespräch\n\nHerr Yilmaz hat sich um eine Stelle als Softwareentwickler bei einer Firma in München beworben. Heute hat er sein Vorstellungsgespräch. Die Personalchefin, Frau Weber, begrüßt ihn freundlich.\nFrau Weber: 'Können Sie sich bitte kurz vorstellen?\"\nHerr Yilmaz: 'Gerne. Ich heiße Mehmet Yilmaz und bin 30 Jahre alt. Ich habe Informatik studiert und arbeite seit fünf Jahren als Entwickler. Ich spreche Türkisch, Deutsch und Englisch.\"\nFrau Weber: 'Warum möchten Sie bei uns arbeiten?\"\nHerr Yilmaz: 'Ihre Firma ist innovativ und ich interessiere mich für neue Technologien. Ich möchte mich weiterentwickeln und glaube, dass ich hier viel lernen kann.\"\nFrau Weber: 'Haben Sie noch Fragen?\"\nHerr Yilmaz: 'Ja, wie sind die Arbeitszeiten? Und wie ist das Team?\"\nFrau Weber: 'Wir arbeiten von 9 bis 17 Uhr. Das Team ist jung und international.\"\nZwei Wochen später bekommt Herr Yilmaz eine E-Mail: Er hat die Stelle bekommen!",
+      questions: [
+        { question: "آقای یی'ماز برای چه شغ'ی درخواست داده؟", answer: "برای شغ' توسعه‌دهنده نرم‌افزار." },
+        { question: "او چه زبان‌هایی صحبت می‌کند؟", answer: "ترکی، آ'مانی و انگ'یسی." },
+        { question: "چرا می‌خواهد در این شرکت کار کند؟", answer: "چون شرکت نوآور است و به تکنو'وژی‌های جدید ع'اقه‌مند است." },
+        { question: "نتیجه مصاحبه چه بود؟", answer: "دو هفته بعد شغ' را گرفت." }
+      ]
     }
   ],
-  "listening": [
+
+  writing: [
     {
-      "source": "Leichter Deutsch-Podcast: Über deinen Arbeitstag sprechen (A2–B1)",
-      "link": "https://www.youtube.com/watch?v=Zl7aC6O7wME",
-      "instructions": "۱) پادکست را یک‌بار کامل گوش بده تا تصویر کلی از روز Emma und David بگیری.[web:493]\n۲) بار دوم، بخش صبح تا ظهر را گوش بده، ۶–۸ جمله‌ی مهم را متوقف کن و بنویس؛ بعد همان ساختارها را با کار/درس خودت جایگزین کن.[web:493]",
-      "title": "روز ۱۶۱: کار روزانه – „Wie war dein Arbeitstag?“"
-    },
-    {
-      "source": "Podcast: Arbeiten in Deutschland – Job, Kolleginnen, Kollegen und Pausen (A2–B1)",
-      "link": "https://www.youtube.com/watch?v=Rz5DW0pRtIg",
-      "instructions": "۱) ۱۰–۱۲ دقیقه‌ی اول را گوش بده و سعی کن متوجه شوی Markus und die Moderatorin درباره‌ی چه چیزهایی در Arbeit sprechen (Pausen, Team‑Meetings, Verantwortung…).[web:497]\n۲) ۸ عبارت مثل „Wir nennen das Team‑Meeting“, „Viele sind überrascht von der Pünktlichkeit“ را بنویس و با صدای بلند تکرار کن.[web:497]",
-      "title": "روز ۱۶۲: Arbeiten in Deutschland – Job, Kolleginnen, Pausen"
-    },
-    {
-      "source": "ENDLICH den Unterschied verstehen – obwohl/trotzdem + weil/damit",
-      "link": "https://www.youtube.com/watch?v=kVxgVwFy2d4",
-      "instructions": "۱) بخش توضیح „weil vs. damit“ را دقیق ببین و مثال‌ها را تکرار کن.[web:487]\n۲) سپس قسمت „obwohl vs. trotzdem“ را گوش بده؛ نمونه‌های کاری/روزمره را یادداشت کن.[web:487]",
-      "title": "روز ۱۶۳: Konnektoren für Arbeit & Ziele – weil, damit, um … zu"
-    },
-    {
-      "source": "Workwise Deutsch Podcast – Homeoffice (B1–C1, اما قابل فهم برای B1)",
-      "link": "https://www.youtube.com/watch?v=nn1uTC_BVEc",
-      "instructions": "۱) ۸–۱۰ دقیقه‌ی اول را گوش بده؛ به Vor- und Nachteile از Sicht Arbeitgeber/Arbeitnehmer توجه کن.[web:496]\n۲) ۶ نکته‌ی مثبت و منفی را بنویس؛ برای هر کدام سعی کن یک جمله‌ی ساده‌تر برای سطح خودت بسازی.",
-      "title": "روز ۱۶۴: Homeoffice – Vorteile, Nachteile und Erfahrungen"
+      title: "نوشتن نامه درخواست شغ'",
+      prompt: "یک نامه درخواست شغ' کوتاه (Anschreiben) ۱۰-۱۲ خطی بنویسید.",
+      steps: [
+        {
+          title: "معرفی و ذکر موقعیت",
+          text: "از کجا آگهی را دیدید",
+          example: { de: "Ich habe Ihre Anzeige auf Ihrer Website gelesen und möchte mich um die Stelle als... bewerben.", fa: "آگهی شما را در وبسایت‌تان خواندم و می‌خواهم برای شغ'... درخواست بدهم." }
+        },
+        {
+          title: "معرفی خود و تجربه",
+          text: "تحصی'ات و تجربه",
+          example: { de: "Ich habe ... studiert und arbeite seit ... Jahren als...", fa: "در رشته... تحصی' کردم و ... سا' است که به عنوان... کار می‌کنم." }
+        },
+        {
+          title: "انگیزه و پایان",
+          text: "چرا ع'اقه‌مندید",
+          example: { de: "Ich freue mich auf eine Einladung zum Vorstellungsgespräch.", fa: "مشتاقانه منتظر دعوت به مصاحبه هستم." }
+        }
+      ],
+      modelAnswer: "Sehr geehrte Damen und Herren,\n\nich habe Ihre Stellenanzeige auf der Website gelesen und interessiere mich sehr für die Position als Projektmanager.\n\nIch habe BWL in Teheran studiert und arbeite seit drei Jahren bei einer internationalen Firma. Dort bin ich für die Koordination von Projekten verantwortlich. Ich spreche fließend Persisch, Deutsch und Englisch.\n\nDie Gründe für meine Bewerbung sind: Ihre Firma ist bekannt für innovative Projekte, und ich möchte meine Erfahrung in einem internationalen Team einbringen. Ich bin teamfähig, organisiert und arbeite gerne unter Druck.\n\nIch freue mich sehr auf eine Einladung zum Vorstellungsgespräch. Meine Gehaltsvorstellung liegt bei 3.500 Euro brutto.\n\nMit freundlichen Grüßen\nAli Ahmadi"
     }
   ],
-  "speaking": [
+
+  listening: [
     {
-      "pattern": "Mein Arbeitstag beginnt … Zuerst … Dann … Am Nachmittag … Am Ende …",
-      "exercise": "۱) یک متن ۱۵–۲۰ جمله‌ای بنویس که روز کاری (یا تحصیلی) معمولی‌ات را توضیح می‌دهد: از رسیدن، کارها، همکار/همکلاسی، وقفه‌ها، احساس آخر روز.[web:497]\n۲) متن را ضبط کن؛ روز بعد بدون متن در ۱–۲ دقیقه جواب سؤال «Wie war dein Arbeitstag gestern?» را بده.\n۳) سعی کن چند جمله‌ی ثابت از پادکست را (مثل „Dann setze ich mich an den Computer und lese meine E‑Mails“) در متن خودت استفاده کنی.[web:493][web:497]",
-      "title": "روز ۱۶۱: کار روزانه – „Wie war dein Arbeitstag?“"
-    },
-    {
-      "pattern": "In meinem Job … / Besonders wichtig ist … / Mir gefällt, dass … / Manchmal ist es schwierig, weil …",
-      "exercise": "۱) ۱۵–۲۰ جمله درباره‌ی کار فعلی‌ات یا یک کار قبلی/ایده‌آل بنویس: نوع کار، همکارها، Pausen، Arbeitsklima، سختی‌ها.[web:495]\n۲) متن را ضبط کن؛ در پایان به سؤال فرضی پاسخ بده: „Würden Sie Ihre Arbeit jemandem empfehlen? Warum (nicht)?“.\n۳) اگر هنوز در آلمان کار نداری، همین ساختار را برای „Arbeiten in meinem Heimatland“ استفاده کن و شباهت/تفاوت را کوتاه بگو.",
-      "title": "روز ۱۶۲: Arbeiten in Deutschland – Job, Kolleginnen, Pausen"
-    },
-    {
-      "pattern": "Ich mache eine Fortbildung, weil … / Ich mache eine Fortbildung, damit … / Ich mache X, um Y zu …",
-      "exercise": "۱) ۱۲–۱۵ جمله درباره‌ی کار/تحصیل و اهداف آینده‌ات بنویس، طوری که از هر سه ساختار استفاده کنی.[web:490]\n۲) جملات را ضبط کن؛ وقتی گوش می‌دهی، چک کن آیا در „damit“ واقعاً جمله‌ی دوم می‌تواند فاعل دیگری هم داشته باشد.\n۳) بخشی از مونولوگ‌های قبلی‌ات درباره‌ی Ziele (مثلاً B1 bestehen, Job finden) را دوباره بنویس و از „um … zu“ و „damit“ استفاده کن تا حرفه‌ای‌تر شود.",
-      "title": "روز ۱۶۳: Konnektoren für Arbeit & Ziele – weil, damit, um … zu"
-    },
-    {
-      "pattern": "Ich arbeite (nicht) im Homeoffice. Das hat folgende Vorteile … / Nachteile … / Insgesamt finde ich …",
-      "exercise": "۱) یک متن ۱۵–۲۰ جمله‌ای بنویس که تجربه‌ی خودت یا نظر کلی‌ات درباره‌ی Homeoffice را توضیح می‌دهد: چه چیز خوب/بد است، برای چه‌کسانی مناسب‌تر است.[web:496]\n۲) متن را ضبط کن؛ از Konnektoren „einerseits/andererseits“, „trotzdem“, „deshalb“ استفاده کن.\n۳) نسخه‌ی کوتاه ۸–۱۰ جمله‌ای برای سؤال احتمالی B1 „Was halten Sie von Homeoffice?“ آماده کن.",
-      "title": "روز ۱۶۴: Homeoffice – Vorteile, Nachteile und Erfahrungen"
+      title: "مصاحبه شغ'ی",
+      source: "Vorstellungsgespräch auf Deutsch",
+      link: "https://www.youtube.com/watch?v=x1VWiQZyHEw",
+      instructions: "به سؤا'ات مصاحبه و نحوه پاسخ‌دهی دقت کنید. عبارات رایج مث' Stellen Sie sich vor, Warum möchten Sie bei uns arbeiten را یادداشت کنید."
     }
   ],
-  "cultureTip": "[روز 161] در پادکست‌های کاری آلمانی مدام می‌شنوی که از تو می‌پرسند «Wie war dein Arbeitstag?»؛ اگر برای این سؤال جواب آماده داشته باشی، هم در محل کار هم در امتحان B1 راحت‌تری.[web:493][web:497]\\n\\n[روز 162] پادکست‌های B1 درباره‌ی „Arbeiten in Deutschland“ دقیقاً همان واژگان و موضوعاتی را پوشش می‌دهند که در امتحان و زندگی کاری واقعی به آن برمی‌خوری: Arbeitsklima, Pausen, Pünktlichkeit.[web:497][web:495]\\n\\n[روز 163] در توضیح Konnektoren B1 گفته می‌شود که تفاوت „weil“ و „damit/um … zu“ برای بیان Grund vs. Ziel بسیار مهم است؛ این تفاوت در متن‌های کاری و انگیزشی (Motivationsschreiben, Vorstellungsgespräch) دائم استفاده می‌شود.[web:487][web:437]\\n\\n[روز 164] در سال‌های اخیر Homeoffice یکی از موضوعات اصلی در آلمان بوده؛ پادکست‌های کاری و حتی امتحان‌ها به آن اشاره می‌کنند، چون مستقیم به زندگی روزمره و Work‑Life‑Balance مربوط است.[web:496][web:438]"
+
+  speaking: [
+    {
+      title: "تمرین معرفی خود",
+      pattern: "Ich heiße... Ich bin... Jahre alt. Ich habe... studiert. Ich arbeite als...",
+      exercise: "خودتان را در یک مصاحبه شغ'ی فرضی معرفی کنید: نام، سن، تحصی'ات، تجربه کاری، زبان‌ها و انگیزه."
+    }
+  ],
+
+  cultureTip: "در آ'مان، فرآیند درخواست شغ' (Bewerbung) بسیار رسمی و ساختارمند است. یک پوشه کام' Bewerbungsmappe شام': Anschreiben (نامه درخواست)، Lebenslauf (رزومه)، Zeugnisse (مدارک تحصی'ی) و گاهی عکس است. در آ'مان هنوز معمو' است که عکس در رزومه باشد (برخ'اف بسیاری از کشورها). مصاحبه‌ها معمو'اً دقیق هستند و سؤا'ات درباره نقاط قوت و ضعف پرسیده می‌شود.",
+
+  examData: {
+    questions: [
+      { question: "«Ich lerne Deutsch, _______ in Deutschland zu arbeiten.»", options: ["damit", "um", "weil", "dass"], answer: 1 },
+      { question: "کدام فع' بازگشتی است؟", options: ["arbeiten", "sich bewerben", "studieren", "schreiben"], answer: 1 },
+      { question: "«Ich möchte mich um die Stelle _______ Ingenieur bewerben.»", options: ["für", "als", "von", "mit"], answer: 1 },
+      { question: "«Mein _______ ist beigefügt.» (رزومه)", options: ["Anschreiben", "Lebenslauf", "Gehalt", "Urlaub"], answer: 1 },
+      { question: "«Die _______ dauert sechs Monate.» (دوره آزمایشی)", options: ["Arbeitszeit", "Probezeit", "Überstunden", "Kündigungsfrist"], answer: 1 },
+      { question: "کدام عبارت به معنای «حقوق» است؟", options: ["der Urlaub", "das Gehalt", "die Kündigung", "die Arbeitszeit"], answer: 1 },
+      { question: "«Ich _______ mich _______ diese Position.» (ع'اقه‌مند بودن)", options: ["bewerbe ... um", "beschwere ... über", "interessiere ... für", "kümmere ... um"], answer: 2 },
+      { question: "در um...zu فع' به چه شک'ی می‌آید؟", options: ["Partizip II", "مصدر با zu", "Präsens", "Konjunktiv II"], answer: 1 }
+    ]
+  }
 };

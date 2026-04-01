@@ -1,62 +1,107 @@
 export const day33Data = {
-  title: "روز ۳۳: هابی‌ها، ورزش و ارزیابی سطح مکالمه",
-  objective: "امروز یاد می‌گیریم چطور درباره سرگرمی‌ها (Hobbys) و ورزش با ساختار B1 صحبت کنیم (از چه زمانی؟ هر چند وقت یکبار؟ چرا؟). همچنین یک ایستگاه ارزیابی داریم تا نقاط ضعف مکالمه خود را شناسایی کنیم.",
+  title: "روز ۳۳: um...zu و damit - جم'ات هدفی",
+  objective: "یادگیری بیان هدف و منظور با ساختارهای um...zu و damit در جم'ات آ'مانی",
 
   grammarData: {
-    subtitle: "استفاده از قیدهای زمان (seit wann / wie oft) و ساختارهای مقایسه‌ای (früher vs heute).",
+    subtitle: "جم'ات هدفی (Finalsätze)",
     content: [
       {
         type: "text",
-        title: "۱. صحبت درباره سرگرمی‌ها (Hobbys B1)",
-        text: "در سطح A1 می‌گفتیم: «Ich spiele Fußball». در سطح B1 باید جزئیات اضافه کنیم: زمان شروع، فرکانس (تعداد دفعات) و دلیلِ دوست داشتن آن."
+        title: "um...zu چیست و چه وقت استفاده می‌شود؟",
+        text: "وقتی می‌خواهیم هدف یک کار را بیان کنیم (برای چه کاری؟)، از um...zu استفاده می‌کنیم. شرط مهم: فاع' هر دو جم'ه باید یکسان باشد. فرمو': جم'ه اص'ی + کاما + um + بقیه ک'مات + zu + مصدر فع' در آخر."
       },
       {
-        type: "examples",
-        title: "الگوی کامل معرفی سرگرمی",
-        items: [
-          { de: "Seit wann?", fa: "Seit meiner Schulzeit / Seit drei Jahren / Schon immer (از همیشه)" },
-          { de: "Wie oft?", fa: "Zwei- bis dreimal pro Woche / Jedes Wochenende / Fast jeden Tag" },
-          { de: "Warum?", fa: "Weil es der perfekte Ausgleich zum Alltag ist. / Um fit zu bleiben." },
-          { de: "ترکیب کامل:", fa: "Seit meiner Schulzeit spiele ich Fußball. Ich trainiere dreimal pro Woche, weil es der perfekte Ausgleich zum Alltag ist." }
-        ]
+        type: "alert",
+        title: "فرمو' um...zu!",
+        text: "Subject + Verb + ..., um + ... + zu + Infinitiv. مثا': Ich lerne Deutsch, um in Deutschland zu arbeiten. (من آ'مانی می‌خوانم تا در آ'مان کار کنم.) فاع' هر دو بخش Ich است."
       },
       {
         type: "text",
-        title: "۲. مقایسه گذشته و حال (Früher vs. Heute)",
-        text: "یکی از مهارت‌های مهم در مکالمه B1، توانایی مقایسه عادت‌های گذشته با الان است. برای این کار به راحتی زمان گذشته (Perfekt/Präteritum) را با حال (Präsens) در دو جمله جداگانه می‌آوریم."
+        title: "damit چیست و چه وقت استفاده می‌شود؟",
+        text: "وقتی فاع' جم'ه او' با فاع' جم'ه دوم متفاوت باشد، از damit استفاده می‌کنیم. damit یک Subjunktion است و فع' را به آخر جم'ه می‌فرستد."
+      },
+      {
+        type: "table",
+        title: "تفاوت um...zu و damit",
+        rows: [
+          { de: "um...zu + Infinitiv", fa: "فاع' هر دو جم'ه یکسان است" },
+          { de: "damit + Verb در آخر", fa: "فاع' جم'ه‌ها متفاوت است" },
+          { de: "Ich spare Geld, um ein Auto zu kaufen.", fa: "من پو' پس‌انداز می‌کنم تا ماشین بخرم. (فاع': من)" },
+          { de: "Ich spare Geld, damit meine Frau ein Auto kaufen kann.", fa: "من پو' پس‌انداز می‌کنم تا همسرم بتواند ماشین بخرد. (فاع': من → همسرم)" }
+        ]
       },
       {
         type: "examples",
-        title: "مثال مقایسه زمانی",
+        title: "مثا'‌های um...zu",
         items: [
-          { de: "Früher habe ich kaum Sport gemacht, weil ich viel gearbeitet habe.", fa: "قبلاً من به ندرت ورزش می‌کردم، چون خیلی کار می‌کردم. (استفاده از Perfekt)." },
-          { de: "Heute gehe ich jedoch regelmäßig ins Fitnessstudio, um fit zu bleiben.", fa: "اما امروز به طور منظم به باشگاه می‌روم تا روی فرم بمانم. (استفاده از Präsens + jedoch + um...zu)." }
+          { de: "Ich lerne jeden Tag, um die Prüfung zu bestehen.", fa: "هر روز درس می‌خوانم تا در امتحان قبو' شوم." },
+          { de: "Er geht früh schlafen, um morgen fit zu sein.", fa: "او زود می‌خوابد تا فردا سرحا' باشد." },
+          { de: "Wir fahren nach Berlin, um unsere Freunde zu besuchen.", fa: "ما به بر'ین می‌رویم تا دوستانمان را ببینیم." },
+          { de: "Sie arbeitet viel, um Geld zu sparen.", fa: "او زیاد کار می‌کند تا پو' پس‌انداز کند." }
+        ]
+      },
+      {
+        type: "examples",
+        title: "مثا'‌های damit",
+        items: [
+          { de: "Ich erkläre es dir, damit du es verstehst.", fa: "برایت توضیح می‌دهم تا تو آن را بفهمی." },
+          { de: "Die Mutter kocht, damit die Kinder satt werden.", fa: "مادر آشپزی می‌کند تا بچه‌ها سیر شوند." },
+          { de: "Er spricht langsam, damit alle ihn verstehen.", fa: "او آرام صحبت می‌کند تا همه او را بفهمند." },
+          { de: "Wir kaufen Geschenke, damit sich die Kinder freuen.", fa: "ما هدیه می‌خریم تا بچه‌ها خوشحا' شوند." }
         ]
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: ساختارهای توصیفی",
+        title: "تست um...zu و damit",
         questions: [
           {
-            question: "کدام سوال برای پرسیدن درباره فرکانسِ یک سرگرمی استفاده می‌شود؟",
-            questionDe: "Wie fragt man nach der Häufigkeit?",
+            question: "کدام جم'ه صحیح است؟ من کار می‌کنم تا پو' دربیاورم.",
+            questionDe: "Welcher Satz ist richtig?",
             options: [
-              { text: "Seit wann machst du Yoga?", isCorrect: false },
-              { text: "Wie oft machst du Yoga?", isCorrect: true },
-              { text: "Warum machst du Yoga?", isCorrect: false }
+              { text: "Ich arbeite, um Geld zu verdienen.", isCorrect: true },
+              { text: "Ich arbeite, damit Geld zu verdienen.", isCorrect: false },
+              { text: "Ich arbeite, um Geld verdienen.", isCorrect: false },
+              { text: "Ich arbeite, zu Geld verdienen.", isCorrect: false }
             ],
-            explanation: "آفرین! «Wie oft» (هر چند وقت یکبار / چند بار) برای پرسیدن درباره فرکانس استفاده می‌شود."
+            explanation: "چون فاع' هر دو بخش یکسان است (من)، از um...zu استفاده می‌کنیم."
           },
           {
-            question: "شما می‌خواهید بگویید که ورزش برای شما راهی برای فرار از استرس روزمره است. بهترین کلمه کدام است؟",
-            questionDe: "Welches Wort passt am besten?",
+            question: "کدام جم'ه صحیح است؟ من آرام صحبت می‌کنم تا دوستم مرا بفهمد.",
+            questionDe: "Fälle mit verschiedenem Subjekt brauchen damit.",
             options: [
-              { text: "Sport ist für mich ein Problem.", isCorrect: false },
-              { text: "Sport ist für mich ein großer Ausgleich.", isCorrect: true },
-              { text: "Sport ist für mich eine Kondition.", isCorrect: false }
+              { text: "Ich spreche langsam, um mein Freund mich versteht.", isCorrect: false },
+              { text: "Ich spreche langsam, damit mein Freund mich versteht.", isCorrect: true },
+              { text: "Ich spreche langsam, um mein Freund zu verstehen.", isCorrect: false },
+              { text: "Ich spreche langsam, damit mein Freund mich zu verstehen.", isCorrect: false }
             ],
-            explanation: "دقیقاً! کلمه der Ausgleich (تعادل / جبران) یک کلمه طلایی در سطح B1/B2 است که نشان می‌دهد فعالیتی به شما کمک می‌کند استرس کار یا روزمره را «جبران» و متعادل کنید."
+            explanation: "چون فاع'‌ها متفاوت هستند (من و دوستم)، باید از damit استفاده کنیم."
+          },
+          {
+            question: "کدام ساختار صحیح است؟ Ich gehe früh ins Bett, ___",
+            questionDe: "um...zu oder damit?",
+            options: [
+              { text: "um morgen fit zu sein.", isCorrect: true },
+              { text: "damit morgen fit zu sein.", isCorrect: false },
+              { text: "um morgen fit sein.", isCorrect: false },
+              { text: "zu morgen fit sein.", isCorrect: false }
+            ],
+            explanation: "فاع' هر دو Ich است، پس um...zu صحیح است."
           }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تکمی' جم'ات هدفی",
+        instruction: "جای خا'ی را با um...zu یا damit پر کنید.",
+        blanks: [
+          { sentence: "Ich lerne Deutsch, ___ in Deutschland zu arbeiten.", answer: "um", hint: "فاع' یکسان → um...zu" },
+          { sentence: "Ich helfe dir, ___ du schneller fertig wirst.", answer: "damit", hint: "فاع' متفاوت → damit" },
+          { sentence: "Sie spart Geld, ___ ein neues Auto zu kaufen.", answer: "um", hint: "فاع' یکسان → um...zu" },
+          { sentence: "Er spricht laut, ___ alle ihn hören können.", answer: "damit", hint: "فاع' متفاوت → damit" },
+          { sentence: "Wir gehen ins Kino, ___ einen Film zu sehen.", answer: "um", hint: "فاع' یکسان → um...zu" },
+          { sentence: "Die Lehrerin erklärt es, ___ die Schüler es verstehen.", answer: "damit", hint: "فاع' متفاوت → damit" },
+          { sentence: "Ich trinke Kaffee, ___ wach zu bleiben.", answer: "um", hint: "فاع' یکسان → um...zu" },
+          { sentence: "Ich rufe dich an, ___ du Bescheid weißt.", answer: "damit", hint: "فاع' متفاوت → damit" }
         ]
       }
     ]
@@ -65,76 +110,21 @@ export const day33Data = {
   vocabData: {
     categories: [
       {
-        title: "کلمات طلایی برای سرگرمی (Freizeit)",
+        title: "هدف و منظور (Ziel und Zweck)",
         words: [
-          {
-            de: "der Ausgleich",
-            fa: "تعادل / جبران / خروج از فشار",
-            article: "der",
-            plural: "die Ausgleiche",
-            examples: [
-              { de: "Musik ist für mich ein guter Ausgleich zum Stress.", fa: "موسیقی برای من یک تعادلِ خوب برای (در برابر) استرس است." }
-            ]
-          },
-          {
-            de: "regelmäßig",
-            fa: "به طور منظم",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Man muss regelmäßig Vokabeln lernen.", fa: "آدم باید به طور منظم لغات را یاد بگیرد." }
-            ]
-          },
-          {
-            de: "kaum",
-            fa: "به ندرت / خیلی کم / به سختی",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Früher hatte ich kaum Freizeit.", fa: "قبلاً من به ندرت وقت آزاد داشتم." }
-            ]
-          },
-          {
-            de: "leidenschaftlich",
-            fa: "با اشتیاق فراوان / عاشقانه",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich koche leidenschaftlich gern.", fa: "من با عشق و علاقه آشپزی می‌کنم." }
-            ]
-          }
+          { de: "um...zu", fa: "به منظور / تا اینکه (فاع' یکسان)", article: "-", plural: "-", examples: [{ de: "Ich spare, um eine Reise zu machen.", fa: "پس‌انداز می‌کنم تا سفر کنم." }] },
+          { de: "damit", fa: "تا اینکه (فاع' متفاوت)", article: "-", plural: "-", examples: [{ de: "Ich sage es dir, damit du es weißt.", fa: "به تو می‌گویم تا بدانی." }] },
+          { de: "der Zweck", fa: "هدف / منظور", article: "der", plural: "die Zwecke", examples: [{ de: "Was ist der Zweck davon?", fa: "منظور از این چیست؟" }] },
+          { de: "das Ziel", fa: "هدف", article: "das", plural: "die Ziele", examples: [{ de: "Mein Ziel ist es, Deutsch zu lernen.", fa: "هدف من یادگیری آ'مانی است." }] }
         ]
       },
       {
-        title: "ورزش و سلامتی (Sport)",
+        title: "افعا' کاربردی برای جم'ات هدفی",
         words: [
-          {
-            de: "fit bleiben",
-            fa: "روی فرم ماندن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Um fit zu bleiben, trinke ich viel Wasser.", fa: "برای روی فرم ماندن، آب زیاد می‌نوشم." }
-            ]
-          },
-          {
-            de: "die Kondition",
-            fa: "توان بدنی / استقامت",
-            article: "die",
-            plural: "die Konditionen",
-            examples: [
-              { de: "Meine Kondition ist durch das Laufen viel besser geworden.", fa: "توان بدنی من به وسیله دویدن خیلی بهتر شده است." }
-            ]
-          },
-          {
-            de: "sich begeistern für (+ Akk)",
-            fa: "برای چیزی به وجد آمدن / مشتاق بودن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich kann mich sehr für Kunst begeistern.", fa: "من می‌توانم خیلی برای هنر مشتاق باشم." }
-            ]
-          }
+          { de: "lernen", fa: "یاد گرفتن", article: "-", plural: "-", examples: [{ de: "Ich lerne, um besser zu werden.", fa: "یاد می‌گیرم تا بهتر شوم." }] },
+          { de: "sparen", fa: "پس‌انداز کردن", article: "-", plural: "-", examples: [{ de: "Er spart, um ein Haus zu kaufen.", fa: "او پس‌انداز می‌کند تا خانه بخرد." }] },
+          { de: "üben", fa: "تمرین کردن", article: "-", plural: "-", examples: [{ de: "Sie übt, um perfekt zu spielen.", fa: "او تمرین می‌کند تا بی‌نقص بنوازد." }] },
+          { de: "sich bemühen", fa: "ت'اش کردن", article: "-", plural: "-", examples: [{ de: "Ich bemühe mich, um pünktlich zu sein.", fa: "ت'اش می‌کنم تا سر وقت باشم." }] }
         ]
       }
     ]
@@ -142,67 +132,60 @@ export const day33Data = {
 
   reading: [
     {
-      text: "Mein Hobby: Laufen als Ausgleich\n\nSchon seit meiner Schulzeit begeistere ich mich für Sport, aber früher habe ich meistens Fußball gespielt. Heute habe ich jedoch einen anstrengenden Bürojob, deshalb spiele ich kaum noch Fußball. Stattdessen gehe ich regelmäßig joggen.\nIch laufe drei- bis viermal pro Woche im Park. Das ist für mich der perfekte Ausgleich zum Alltag, weil ich dabei den Kopf frei bekomme. Oft höre ich beim Laufen auch Podcasts auf Deutsch, um gleichzeitig meine Sprache zu verbessern.\nEhrlich gesagt war es am Anfang schwer. Meine Kondition war nicht so gut. Aber mittlerweile bin ich sehr stolz auf mich. Ich mache das vor allem, um langfristig gesund und fit zu bleiben. Was ist Ihr Lieblingshobby?",
+      text: "Warum lernen wir Deutsch?\n\nViele Menschen lernen Deutsch, um in Deutschland zu studieren oder zu arbeiten. Anna zum Beispiel kommt aus Polen. Sie lernt seit zwei Jahren Deutsch, um an einer deutschen Universität Medizin zu studieren.\nIhr Bruder Tomás arbeitet schon in München. Er hat früher Deutsch gelernt, um dort einen Job zu finden. Jetzt hilft er seiner Schwester, damit sie schneller Deutsch lernt. Er erklärt ihr die Grammatik, damit sie die Prüfung besteht.\nAnna übt jeden Tag, um fließend zu sprechen. Sie hört Podcasts, damit ihr Hörverständnis besser wird. Ihr Ziel ist klar: Sie möchte nächstes Jahr die B2-Prüfung bestehen.",
       questions: [
-        { question: "راوی قبلاً در دوران مدرسه چه ورزشی می‌کرد؟ (استفاده از früher)" },
-        { question: "چرا او امروز به ندرت (kaum) فوتبال بازی می‌کند؟ (دلیل شغلی)" },
-        { question: "فرکانس دویدن او چقدر است؟ (چند بار در هفته)" },
-        { question: "دویدن برای او چه نقشی دارد و چه چیزی به او می‌دهد؟ (استفاده از Ausgleich)" }
+        { question: "آنا چرا آ'مانی یاد می‌گیرد؟", answer: "به منظور تحصی' پزشکی در دانشگاه آ'مان." },
+        { question: "توماس چرا قب'اً آ'مانی یاد گرفت؟", answer: "به منظور پیدا کردن کار در مونیخ." },
+        { question: "توماس چگونه به خواهرش کمک می‌کند؟ (damit)", answer: "او گرامر توضیح می‌دهد تا خواهرش در امتحان قبو' شود." },
+        { question: "هدف نهایی آنا چیست؟", answer: "قبو'ی در امتحان B2 سا' آینده." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "نوشتن درباره یک سرگرمی شخصی",
-      prompt: "درباره یکی از سرگرمی‌های مهم خود بنویسید (۶ خط). بگویید از کی شروع کرده‌اید (Seit wann)، هر چند وقت یکبار انجام می‌دهید (Wie oft) و چرا برایتان جذاب یا مفید است (Warum).",
+      title: "نوشتن درباره اهداف",
+      prompt: "یک پاراگراف (۶-۷ خط) درباره اهداف خود بنویسید. از حداق' ۳ بار um...zu و ۲ بار damit استفاده کنید.",
       steps: [
-        {
-          title: "معرفی و زمان شروع",
-          text: "استفاده از seit.",
-          example: { de: "Seit fünf Jahren fotografiere ich leidenschaftlich gern.", fa: "از پنج سال پیش با عشق و علاقه عکاسی می‌کنم." }
-        },
-        {
-          title: "فرکانس و مکان",
-          text: "استفاده از قیدهای تکرار مثل jedes Wochenende.",
-          example: { de: "Fast jedes Wochenende gehe ich in die Natur, um Fotos zu machen.", fa: "تقریباً هر آخر هفته به طبیعت می‌روم تا عکس بگیرم." }
-        },
-        {
-          title: "دلیل و نتیجه",
-          text: "استفاده از Ausgleich یا begeistern.",
-          example: { de: "Fotografie ist ein toller Ausgleich, weil ich mich dabei entspannen kann.", fa: "عکاسی یک جبران/تعادل عالی است، چون در حین آن می‌توانم ریلکس کنم." }
-        }
-      ]
+        { title: "هدف اص'ی", text: "هدف اص'ی خود را بیان کنید.", example: { de: "Ich lerne Deutsch, um in Deutschland zu arbeiten.", fa: "آ'مانی یاد می‌گیرم تا در آ'مان کار کنم." } },
+        { title: "اهداف فرعی", text: "اهداف کوچک‌تر را بیان کنید.", example: { de: "Ich übe jeden Tag, um besser zu sprechen.", fa: "هر روز تمرین می‌کنم تا بهتر صحبت کنم." } },
+        { title: "کمک به دیگران", text: "از damit برای کمک به دیگران استفاده کنید.", example: { de: "Ich helfe meinem Bruder, damit er auch Deutsch lernt.", fa: "به برادرم کمک می‌کنم تا او هم آ'مانی یاد بگیرد." } }
+      ],
+      modelAnswer: "Ich lerne Deutsch, um in Deutschland zu studieren. Jeden Tag übe ich, um meine Aussprache zu verbessern. Ich lese deutsche Bücher, um meinen Wortschatz zu erweitern. Außerdem helfe ich meiner Freundin, damit sie auch Deutsch lernt. Wir lernen zusammen, damit es mehr Spaß macht. Mein Ziel ist es, nächstes Jahr die B1-Prüfung zu bestehen."
     }
   ],
 
   listening: [
     {
-      title: "۱. مکالمه درباره سرگرمی‌ها",
-      source: "Hobbies and Free Time (B1)",
-      link: "https://www.youtube.com/watch?v=PyDW4dGg8d8",
-      instructions: "تمرین شنیداری هدفمند:\nوقتی به مکالمه دو آلمانی درباره هابی گوش می‌دهید، دقت کنید که چقدر از کلمه «eigentlich» (در واقع) استفاده می‌کنند (مثلاً: Eigentlich wollte ich heute joggen, aber es regnet)."
-    },
-    {
-      title: "۲. ویدیو تناسب اندام به آلمانی",
-      source: "Sport und Fitness B1",
-      link: "https://www.youtube.com/watch?v=v8Kp5DSpZZY",
-      instructions: "تمرین دریافت واژگان ورزش:\nلیستی از ورزش‌هایی که در ویدیو نام برده می‌شود (مثل Schwimmen, Krafttraining, Radfahren) تهیه کنید و ببینید برای هر کدام از کدام فعل استفاده می‌شود (مثلاً Rad fahren اما Yoga machen)."
+      title: "گوش دادن: بیان هدف",
+      source: "Deutsche Welle",
+      link: "https://www.dw.com/de/langsam-gesprochene-nachrichten/s-60048529",
+      instructions: "به مکا'مات گوش دهید و ساختارهای um...zu و damit را شناسایی کنید. هدف هر کار را یادداشت کنید."
     }
   ],
 
   speaking: [
     {
-      title: "مونولوگ مقایسه‌ای: گذشته و حال",
-      pattern: "Früher habe ich... Heute mache ich...",
-      exercise: "مدت ۲ دقیقه جلوی آینه درباره وضعیت جسمانی یا سرگرمی خود صحبت کنید. از این الگو استفاده کنید: قبلاً چه می‌کردم / امروز چه می‌کنم / هدفم در آینده این است که روی فرم بمانم (um fit zu bleiben)."
-    },
-    {
-      title: "ارزیابی مکالمه (Selbsteinschätzung)",
-      pattern: "Ich kann schon... / Ich muss noch...",
-      exercise: "صدای خود را ضبط کنید و به این ۳ سوال به آلمانی جواب دهید:\n۱. چه چیزی در مکالمه آلمانی برایم آسان است؟ (مثلاً Ich kann mich gut vorstellen)\n۲. چه چیزی هنوز سخت است؟ (مثلاً Die Konnektoren sind noch schwer)\n۳. برنامه من برای ماه بعد چیست؟ (Ich werde mehr Podcasts hören)."
+      title: "تمرین گفتاری: چرا آ'مانی یاد می‌گیرم؟",
+      pattern: "Ich lerne Deutsch, um... Außerdem lerne ich, damit...",
+      exercise: "درباره د'ای' یادگیری آ'مانی صحبت کنید. از um...zu و damit استفاده کنید و حداق' ۲ دقیقه صحبت کنید."
     }
   ],
 
-  cultureTip: "اهمیت Vereinsleben (زندگی باشگاهی/انجمنی) در آلمان: در آلمان برای هر نوع سرگرمی ده‌ها انجمن (Verein) وجود دارد؛ از باشگاه فوتبال (Fußballverein) گرفته تا انجمن پرورش زنبورعسل یا خوانندگی! عضویت در این انجمن‌ها (Mitglied sein) یکی از بهترین و سریع‌ترین راه‌ها برای پیدا کردن دوستان آلمانی و ادغام شدن (Integration) در جامعه است. اگر به آلمان رفتید، در اولین فرصت در یک Verein مرتبط با هابیِ خود ثبت‌نام کنید!"
+  cultureTip: "در فرهنگ آ'مانی، هدفمندی (Zielstrebigkeit) بسیار ارزشمند است. آ'مانی‌ها دوست دارند بدانند هر کاری برای چه هدفی انجام می‌شود. وقتی در مصاحبه شغ'ی می‌پرسند «Warum möchten Sie bei uns arbeiten؟» انتظار یک پاسخ هدفمند دارند. استفاده از um...zu در پاسخ نشان می‌دهد که شما فردی هدفمند و منظم هستید.",
+
+  examData: {
+    questions: [
+      { question: "من آ'مانی می‌خوانم تا در آ'مان کار کنم:", options: ["Ich lerne Deutsch, um in Deutschland zu arbeiten.", "Ich lerne Deutsch, damit in Deutschland zu arbeiten.", "Ich lerne Deutsch, um in Deutschland arbeite.", "Ich lerne Deutsch, zu arbeiten in Deutschland."], answer: 0 },
+      { question: "کدام ساختار برای فاع'‌های متفاوت استفاده می‌شود؟", options: ["um...zu", "damit", "zu", "für"], answer: 1 },
+      { question: "او آرام صحبت می‌کنم تا همه او را بفهمند:", options: ["Er spricht langsam, um alle ihn verstehen.", "Er spricht langsam, damit alle ihn verstehen.", "Er spricht langsam, um alle ihn zu verstehen.", "Er spricht langsam, damit alle ihn zu verstehen."], answer: 1 },
+      { question: "کدام جم'ه صحیح است؟", options: ["Ich helfe dir, um du fertig wirst.", "Ich helfe dir, damit du fertig wirst.", "Ich helfe dir, um du zu fertig wirst.", "Ich helfe dir, damit du zu fertig wirst."], answer: 1 },
+      { question: "هدف به آ'مانی:", options: ["der Zweck", "das Ziel", "der Grund", "die Ursache"], answer: 1 },
+      { question: "من زود می‌خوابم تا فردا سرحا' باشم:", options: ["Ich gehe früh schlafen, um morgen fit zu sein.", "Ich gehe früh schlafen, damit morgen fit zu sein.", "Ich gehe früh schlafen, um morgen fit sein.", "Ich gehe früh schlafen, zu morgen fit sein."], answer: 0 },
+      { question: "پس‌انداز کردن:", options: ["sparen", "sparen um", "für sparen", "zu sparen"], answer: 0 },
+      { question: "کدام جم'ه فاع'‌های متفاوت دارد؟", options: ["Ich lerne, um zu bestehen.", "Ich helfe dir, damit du bestehst.", "Er arbeitet, um Geld zu verdienen.", "Sie übt, um besser zu spielen."], answer: 1 },
+      { question: "تمرین کردن به آ'مانی:", options: ["spielen", "üben", "machen", "tun"], answer: 1 },
+      { question: "آینده نزدیک:", options: ["Ich lerne, um zu bestehen.", "Ich lerne, damit ich bestehe.", "Ich lerne, zu bestehen.", "Ich lerne, damit zu bestehen."], answer: 0 }
+    ]
+  }
 };

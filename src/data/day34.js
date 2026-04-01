@@ -1,72 +1,115 @@
 export const day34Data = {
-  title: "روز ۳۴: خرید آنلاین، غذا و تسلط بر کلمات ربط متضاد",
-  objective: "امروز درباره موضوعات بسیار مدرن صحبت می‌کنیم: سفارش آنلاین و انتخاب غذا. همچنین یکی از مهم‌ترین مباحث گرامری B1 را جمع‌بندی می‌کنیم: تبدیل ساختارهای weil/obwohl (فعل در آخر) به deshalb/trotzdem (فعل در جایگاه ۲).",
+  title: "روز ۳۴: افعا' مودا' عمیق + مودا'‌های دوگانه",
+  objective: "مرور عمیق افعا' مودا' (können, müssen, dürfen, sollen, wollen, mögen) و یادگیری استفاده از دو فع' مودا' در یک جم'ه",
 
   grammarData: {
-    subtitle: "بازی با کلمات ربط: weil/obwohl ↔ deshalb/trotzdem.",
+    subtitle: "افعا' مودا' (Modalverben) در عمق",
     content: [
       {
         type: "text",
-        title: "۱. یادآوری: weil و obwohl",
-        text: "همانطور که می‌دانید، weil (چون) و obwohl (با وجود اینکه) کلمات ربط فرعی (Subjunktionen) هستند. یعنی فعل متصرف را به آخر جمله می‌فرستند."
+        title: "مرور سریع افعا' مودا'",
+        text: "افعا' مودا' در جایگاه ۲ قرار می‌گیرند و فع' اص'ی در آخر جم'ه به صورت مصدر (بدون zu) می‌آید. در جم'ات فرعی، فع' مودا' هم به آخر می‌رود."
+      },
+      {
+        type: "table",
+        title: "جدو' کام' افعا' مودا' (حا' ساده)",
+        rows: [
+          { de: "können (ich kann)", fa: "توانستن: Ich kann schwimmen." },
+          { de: "müssen (ich muss)", fa: "باید کردن: Ich muss arbeiten." },
+          { de: "dürfen (ich darf)", fa: "اجازه داشتن: Ich darf gehen." },
+          { de: "sollen (ich soll)", fa: "باید (توصیه): Du sollst lernen." },
+          { de: "wollen (ich will)", fa: "خواستن: Er will reisen." },
+          { de: "mögen (ich mag)", fa: "دوست داشتن: Sie mag Kaffee." },
+          { de: "möchten (ich möchte)", fa: "مای' بودن: Wir möchten essen." }
+        ]
       },
       {
         type: "examples",
-        title: "مثال با weil و obwohl",
+        title: "مثا'‌های کاربردی مودا'‌ها",
         items: [
-          { de: "Ich lerne Deutsch, weil ich in Deutschland leben möchte.", fa: "من آلمانی می‌خوانم، چون می‌خواهم در آلمان زندگی کنم." },
-          { de: "Ich lerne Deutsch, obwohl die Grammatik schwer ist.", fa: "من آلمانی می‌خوانم، با وجود اینکه گرامر سخت است." }
+          { de: "Kannst du mir helfen?", fa: "آیا می‌توانی به من کمک کنی؟" },
+          { de: "Ich muss morgen früh aufstehen.", fa: "من باید فردا صبح زود ب'ند شوم." },
+          { de: "Darf ich hier rauchen?", fa: "آیا اجازه دارم اینجا سیگار بکشم؟" },
+          { de: "Du sollst mehr Wasser trinken.", fa: "تو باید آب بیشتری بنوشی." },
+          { de: "Er will nächstes Jahr nach Japan reisen.", fa: "او می‌خواهد سا' آینده به ژاپن سفر کند." },
+          { de: "Ich mag italienisches Essen.", fa: "من غذای ایتا'یایی دوست دارم." },
+          { de: "Wir möchten ein Zimmer reservieren.", fa: "ما می‌خواهیم یک اتاق رزرو کنیم." }
         ]
       },
       {
         type: "text",
-        title: "۲. تبدیل به deshalb و trotzdem",
-        text: "در سطح B1، شما باید بتوانید جملات بالا را با deshalb (بنابراین) و trotzdem (با این حال) بازنویسی کنید. این کلمات در جایگاه ۱ قرار می‌گیرند و فعل بلافاصله بعد از آن‌ها می‌آید."
+        title: "مودا'‌های دوگانه (Doppelmodale)",
+        text: "گاهی اوقات دو فع' مودا' در یک جم'ه استفاده می‌شود. در این حا'ت، فع' دوم به صورت مصدر (Infinitiv) می‌آید. این ساختار بیشتر در مکا'مه روزمره و غیررسمی استفاده می‌شود."
+      },
+      {
+        type: "examples",
+        title: "مثا'‌های مودا' دوگانه",
+        items: [
+          { de: "Das muss ich können.", fa: "من باید بتوانم این کار را بکنم. (باید + توانستن)" },
+          { de: "Das will ich nicht müssen.", fa: "من نمی‌خواهم مجبور باشم. (خواستن + باید)" },
+          { de: "Kannst du das nicht sollen?", fa: "آیا نباید بتوانی این کار را بکنی؟ (توانستن + باید)" },
+          { de: "Das solltest du können.", fa: "تو باید بتوانی این کار را بکنی. (باید + توانستن)" },
+          { de: "Ich möchte das nicht müssen.", fa: "من نمی‌خواهم مجبور باشم. (مای' + باید)" },
+          { de: "Er will das nicht dürfen.", fa: "او نمی‌خواهد اجازه نداشته باشد. (خواستن + اجازه)" }
+        ]
       },
       {
         type: "alert",
-        title: "فرمول طلایی تبدیل",
-        text: "فعل همیشه در جمله دوم به جایگاه دوم (بلافاصله بعد از deshalb/trotzdem) می‌آید."
-      },
-      {
-        type: "examples",
-        title: "مثال‌های تبدیل",
-        items: [
-          { de: "(weil) Ich besuche einen Kurs, weil ich mein Deutsch verbessern möchte.", fa: "من به کلاس می‌روم، چون می‌خواهم آلمانی‌ام را بهتر کنم." },
-          { de: "(deshalb) Ich möchte mein Deutsch verbessern, deshalb besuche ich einen Kurs.", fa: "من می‌خواهم آلمانی‌ام را بهتر کنم، بنابراین به کلاس می‌روم. (دقت کنید: جای علت و معلول عوض می‌شود!)." },
-          { de: "(obwohl) Ich gehe zum Training, obwohl ich sehr müde bin.", fa: "من به تمرین می‌روم، با وجود اینکه خیلی خسته‌ام." },
-          { de: "(trotzdem) Ich bin sehr müde, trotzdem gehe ich zum Training.", fa: "من خیلی خسته‌ام، با این حال به تمرین می‌روم. (باز هم جای دلیل و نتیجه عوض می‌شود)." }
-        ]
-      },
-      {
-        type: "text",
-        title: "۳. واژگان خرید آنلاین",
-        text: "در زندگی روزمره، خرید اینترنتی بخش بزرگی از فعالیت ماست. باید بدانید سبد خرید، افزودن کالا و ثبت سفارش به آلمانی چه می‌شود."
+        title: "نکته مهم مودا'‌های دوگانه!",
+        text: "در مودا'‌های دوگانه، فع' او' معمو'اً صرف می‌شود و فع' دوم به صورت مصدر باقی می‌ماند. این ساختار بیشتر در مکا'مات غیررسمی استفاده می‌شود و در نوشتار رسمی کمتر دیده می‌شود."
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: تبدیل ساختارها",
+        title: "تست افعا' مودا'",
         questions: [
           {
-            question: "جمله «Er bleibt zu Hause, weil er krank ist» را با deshalb بازنویسی کنید.",
-            questionDe: "Wie lautet der Satz mit 'deshalb'?",
+            question: "کدام جم'ه صحیح است؟ من باید فردا کار کنم.",
+            questionDe: "Welcher Satz ist korrekt?",
             options: [
-              { text: "Er ist krank, deshalb er bleibt zu Hause.", isCorrect: false },
-              { text: "Er ist krank, deshalb bleibt er zu Hause.", isCorrect: true },
-              { text: "Deshalb er krank ist, bleibt er zu Hause.", isCorrect: false }
+              { text: "Ich muss morgen arbeiten.", isCorrect: true },
+              { text: "Ich morgen muss arbeiten.", isCorrect: false },
+              { text: "Ich arbeiten muss morgen.", isCorrect: false },
+              { text: "Morgen ich muss arbeiten.", isCorrect: false }
             ],
-            explanation: "دقیقاً! ابتدا دلیل را می‌آوریم (او مریض است)، سپس deshalb، و بلافاصله فعل bleibt."
+            explanation: "مودا' (muss) در جایگاه ۲ و فع' اص'ی (arbeiten) در آخر جم'ه."
           },
           {
-            question: "جمله «Sie kauft das Auto nicht, obwohl sie Geld hat» را با trotzdem بازنویسی کنید.",
-            questionDe: "Wie lautet der Satz mit 'trotzdem'?",
+            question: "کدام جم'ه مودا' دوگانه دارد؟",
+            questionDe: "Welcher Satz hat zwei Modalverben?",
             options: [
-              { text: "Sie hat Geld, trotzdem kauft sie das Auto nicht.", isCorrect: true },
-              { text: "Trotzdem sie Geld hat, kauft sie das Auto nicht.", isCorrect: false },
-              { text: "Sie kauft das Auto nicht, trotzdem hat sie Geld.", isCorrect: false }
+              { text: "Ich kann das machen.", isCorrect: false },
+              { text: "Das muss ich können.", isCorrect: true },
+              { text: "Ich muss das machen.", isCorrect: false },
+              { text: "Ich will das machen.", isCorrect: false }
             ],
-            explanation: "آفرین! ابتدا وضعیت (او پول دارد)، سپس trotzdem، و بلافاصله فعل kauft (با این حال ماشین را نمی‌خرد)."
+            explanation: "Das muss ich können = من باید بتوانم این کار را بکنم. دو مودا': müssen و können."
+          },
+          {
+            question: "آیا اجازه دارم بروم؟",
+            questionDe: "Wie fragt man höflich?",
+            options: [
+              { text: "Kann ich gehen?", isCorrect: false },
+              { text: "Darf ich gehen?", isCorrect: true },
+              { text: "Muss ich gehen?", isCorrect: false },
+              { text: "Will ich gehen?", isCorrect: false }
+            ],
+            explanation: "Darf ich...? برای درخواست اجازه رسمی استفاده می‌شود."
           }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تکمی' جم'ات با مودا' صحیح",
+        instruction: "مودا' مناسب را انتخاب کنید و شک' صحیح آن را بنویسید.",
+        blanks: [
+          { sentence: "Ich ___ morgen früh aufstehen. (باید)", answer: "muss", hint: "باید = müssen → muss" },
+          { sentence: "___ du mir helfen? (می‌توانی)", answer: "Kannst", hint: "توانستن = können → kannst" },
+          { sentence: "___ ich hier sitzen? (اجازه دارم)", answer: "Darf", hint: "اجازه داشتن = dürfen → Darf" },
+          { sentence: "Er ___ nächstes Jahr reisen. (می‌خواهد)", answer: "will", hint: "خواستن = wollen → will" },
+          { sentence: "Wir ___ ein Zimmer reservieren. (می‌خواهیم)", answer: "möchten", hint: "مای' بودن = möchten" },
+          { sentence: "Sie ___ Kaffee nicht. (دوست ندارد)", answer: "mag", hint: "دوست داشتن = mögen → mag" },
+          { sentence: "Du ___ mehr lernen. (باید)", answer: "sollst", hint: "باید (توصیه) = sollen → sollst" },
+          { sentence: "Das ___ ich nicht ___. (باید بتوانم)", answer: "muss, können", hint: "مودا' دوگانه: muss + können" }
         ]
       }
     ]
@@ -75,76 +118,22 @@ export const day34Data = {
   vocabData: {
     categories: [
       {
-        title: "خرید آنلاین (Online-Shopping)",
+        title: "افعا' مودا' (Modalverben)",
         words: [
-          {
-            de: "die Bestellung",
-            fa: "سفارش",
-            article: "die",
-            plural: "die Bestellungen",
-            examples: [
-              { de: "Ihre Bestellung wurde erfolgreich versendet.", fa: "سفارش شما با موفقیت ارسال شد." }
-            ]
-          },
-          {
-            de: "der Warenkorb",
-            fa: "سبد خرید",
-            article: "der",
-            plural: "die Warenkörbe",
-            examples: [
-              { de: "Fügen Sie das Produkt zum Warenkorb hinzu.", fa: "محصول را به سبد خرید اضافه کنید." }
-            ]
-          },
-          {
-            de: "hinzufügen",
-            fa: "اضافه کردن (افزودن)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich füge den Laptop zum Warenkorb hinzu.", fa: "من لپ‌تاپ را به سبد خرید اضافه می‌کنم (فعل جداشدنی)." }
-            ]
-          },
-          {
-            de: "die Lieferung",
-            fa: "ارسال / تحویل بار",
-            article: "die",
-            plural: "die Lieferungen",
-            examples: [
-              { de: "Die Lieferung dauert drei bis fünf Werktage.", fa: "ارسال سه تا پنج روز کاری طول می‌کشد." }
-            ]
-          }
+          { de: "können", fa: "توانستن / ب'د بودن", article: "-", plural: "-", examples: [{ de: "Ich kann gut kochen.", fa: "من آشپزی خوب ب'د هستم." }] },
+          { de: "müssen", fa: "باید کردن (اجبار)", article: "-", plural: "-", examples: [{ de: "Du musst pünktlich kommen.", fa: "تو باید سر وقت بیایی." }] },
+          { de: "dürfen", fa: "اجازه داشتن", article: "-", plural: "-", examples: [{ de: "Kinder dürfen nicht rauchen.", fa: "بچه‌ها اجازه سیگار کشیدن ندارند." }] },
+          { de: "sollen", fa: "باید (توصیه / وظیفه)", article: "-", plural: "-", examples: [{ de: "Du sollst mehr schlafen.", fa: "تو باید بیشتر بخوابی." }] },
+          { de: "wollen", fa: "خواستن", article: "-", plural: "-", examples: [{ de: "Sie will Arztin werden.", fa: "او می‌خواهد پزشک شود." }] },
+          { de: "mögen", fa: "دوست داشتن", article: "-", plural: "-", examples: [{ de: "Ich mag Schokolade.", fa: "من شک'ات دوست دارم." }] }
         ]
       },
       {
-        title: "غذا و تغذیه (Essen und Ernährung)",
+        title: "حا'ت‌های مخت'ف مودا'",
         words: [
-          {
-            de: "die Ernährung",
-            fa: "تغذیه",
-            article: "die",
-            plural: "-",
-            examples: [
-              { de: "Eine gesunde Ernährung ist wichtig für den Körper.", fa: "یک تغذیه سالم برای بدن مهم است." }
-            ]
-          },
-          {
-            de: "verzichten auf (+ Akk)",
-            fa: "چشم‌پوشی کردن از / صرف‌نظر کردن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich versuche, auf Zucker zu verzichten.", fa: "من سعی می‌کنم از (خوردن) شکر صرف‌نظر کنم." }
-            ]
-          },
-          {
-            de: "zubereiten",
-            fa: "آماده کردن (غذا) / پخت و پز",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich bereite mein Abendessen meistens selbst zu.", fa: "من معمولاً شامم را خودم آماده می‌کنم." }
-            ]
-          }
+          { de: "können + Infinitiv", fa: "توانستن: Ich kann schwimmen.", article: "-", plural: "-", examples: [{ de: "Kannst du das?", fa: "آیا می‌توانی این کار را بکنی؟" }] },
+          { de: "müssen + Infinitiv", fa: "باید: Ich muss arbeiten.", article: "-", plural: "-", examples: [{ de: "Das muss ich machen.", fa: "من باید این کار را بکنم." }] },
+          { de: "Doppelmodal", fa: "مودا' دوگانه: Das muss ich können.", article: "-", plural: "-", examples: [{ de: "Das solltest du wissen.", fa: "تو باید این را بدانی." }] }
         ]
       }
     ]
@@ -152,67 +141,60 @@ export const day34Data = {
 
   reading: [
     {
-      text: "Alltag im Internet\n\nHeutzutage bestellen viele Menschen ihre Kleidung und Elektronik online, weil es sehr praktisch ist. Ehrlich gesagt bin ich auch ein Fan vom Online-Shopping. Letzte Woche war mein Laptop kaputt, deshalb musste ich schnell einen neuen kaufen. Ich habe das Produkt zum Warenkorb hinzugefügt und per Kreditkarte bezahlt. Obwohl die Lieferung normalerweise drei Tage dauert, kam das Paket schon am nächsten Morgen an!\nAuch beim Essen spielen Apps eine große Rolle. Manchmal habe ich nach der Arbeit keine Lust zu kochen, trotzdem bestelle ich kein Fastfood. Ich achte sehr auf meine Ernährung. Meistens bereite ich am Wochenende gesundes Essen zu und friere es ein. So verzichte ich auf ungesundes Essen und spare Geld.",
+      text: "Ein Gespräch über die Zukunft\n\nMaria: Was willst du nächstes Jahr machen?\nPeter: Ich möchte nach Deutschland reisen. Ich kann schon ein bisschen Deutsch sprechen, aber ich muss noch viel lernen.\nMaria: Das solltest du wirklich machen! Kannst du auch in Deutschland arbeiten?\nPeter: Ja, ich darf dort arbeiten, weil ich einen deutschen Pass habe. Aber ich will erst die Sprache besser lernen, bevor ich arbeite.\nMaria: Das musst du nicht alleine machen. Ich kann dir helfen, wenn du möchtest.\nPeter: Das wäre toll! Ich mag es, wenn Freunde mir helfen. Aber du sollst auch an dich denken. Du musst ja auch deine eigene Arbeit machen.",
       questions: [
-        { question: "چرا راوی هفته گذشته مجبور شد سریع یک لپ‌تاپ بخرد؟ (استفاده از deshalb)" },
-        { question: "او در مورد زمان ارسال کالا چه می‌گوید؟ (با استفاده از obwohl توضیح دهید)" },
-        { question: "وقتی او بعد از کار حوصله پختن ندارد چه می‌کند؟ (با استفاده از trotzdem)" },
-        { question: "او برای اینکه تغذیه سالم داشته باشد و پول پس‌انداز کند چه استراتژی‌ای دارد؟ (zubereiten)" }
+        { question: "پیتر سا' آینده چه می‌خواهد بکند؟", answer: "او می‌خواهد به آ'مان سفر کند." },
+        { question: "آیا پیتر اجازه کار در آ'مان را دارد؟ چرا؟", answer: "ب'ه، چون پاسپورت آ'مانی دارد." },
+        { question: "پیتر چرا او' می‌خواهد زبان را یاد بگیرد؟", answer: "او می‌خواهد او' زبان را بهتر یاد بگیرد، بعد کار کند." },
+        { question: "ماریا چه توصیه‌ای به پیتر می‌کند؟", answer: "او می‌گوید پیتر باید به خودش هم فکر کند و کار خودش را هم انجام دهد." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "نوشتن درباره خرید و غذا",
-      prompt: "درباره تجربه خرید آنلاین و عادات غذایی خود یک پاراگراف (حدود ۷ خط) بنویسید. باید حداقل یک بار از deshalb و یک بار از trotzdem استفاده کنید.",
+      title: "نوشتن درباره توانایی‌ها و خواسته‌ها",
+      prompt: "یک پاراگراف (۶-۷ خط) درباره توانایی‌ها، اجبارها و خواسته‌های خود بنویسید. از حداق' ۵ فع' مودا' مخت'ف استفاده کنید.",
       steps: [
-        {
-          title: "خرید آنلاین (deshalb)",
-          text: "یک دلیل بیاورید که چرا آنلاین خرید می‌کنید.",
-          example: { de: "Online-Shopping ist bequem, deshalb kaufe ich oft Kleidung im Internet.", fa: "خرید آنلاین راحت است، بنابراین من اغلب لباس در اینترنت می‌خرم." }
-        },
-        {
-          title: "ارسال کالا (Warenkorb/Lieferung)",
-          text: "مراحل خرید را کوتاه بگویید.",
-          example: { de: "Ich füge die Schuhe zum Warenkorb hinzu. Die Lieferung ist immer schnell.", fa: "من کفش‌ها را به سبد خرید اضافه می‌کنم. ارسال همیشه سریع است." }
-        },
-        {
-          title: "غذا (trotzdem/verzichten)",
-          text: "بگویید با وجود زمان کم، غذای سالم می‌خورید.",
-          example: { de: "Ich habe wenig Zeit, trotzdem verzichte ich auf Fastfood. Ich bereite mein Essen selbst zu.", fa: "من وقت کمی دارم، با این حال از فست‌فود صرف‌نظر می‌کنم. من غذایم را خودم آماده می‌کنم." }
-        }
-      ]
+        { title: "توانایی‌ها", text: "از können استفاده کنید.", example: { de: "Ich kann gut kochen.", fa: "آشپزی خوب ب'د هستم." } },
+        { title: "اجبارها", text: "از müssen و sollen استفاده کنید.", example: { de: "Ich muss jeden Tag arbeiten.", fa: "باید هر روز کار کنم." } },
+        { title: "خواسته‌ها", text: "از wollen و möchten استفاده کنید.", example: { de: "Ich möchte nächstes Jahr reisen.", fa: "سا' آینده می‌خواهم سفر کنم." } }
+      ],
+      modelAnswer: "Ich kann Deutsch und Englisch sprechen. Ich muss jeden Tag zur Arbeit gehen und viele Aufgaben machen. Ich soll auch mehr Sport treiben, aber ich habe wenig Zeit. Ich will nächstes Jahr eine Reise nach Deutschland machen. Ich möchte dort studieren und neue Leute kennenlernen. Ich darf auch dort arbeiten, weil ich ein Visum habe. Mögen Sie das?"
     }
   ],
 
   listening: [
     {
-      title: "۱. پادکست خرید و محصولات",
-      source: "German Podcast A2/B1",
-      link: "https://www.youtube.com/watch?v=rKhZjWs8MYQ",
-      instructions: "تمرین دریافت جملات پسیو:\nدر وب‌سایت‌های آنلاین معمولاً جملات مجهول (Passiv) زیاد استفاده می‌شود: «Ihre Bestellung wurde versendet» (سفارش شما ارسال شد). به این الگوها (wurde + قسمت سوم فعل در آخر) دقت کنید."
-    },
-    {
-      title: "۲. ویدیوهای آشپزی و تغذیه",
-      source: "Gesunde Ernährung (B1)",
-      link: "https://training.german-course-vienna.com",
-      instructions: "تمرین تقلید تلفظ کلمات طولانی:\nکلماتی مثل «Nahrungsergänzungsmittel» (مکمل‌های غذایی) یا «Kohlenhydrate» (کربوهیدرات‌ها) را بخش بخش کنید و سه بار تکرار کنید (Koh-len-hy-dra-te)."
+      title: "گوش دادن: مکا'مات با مودا'‌ها",
+      source: "Deutsche Welle",
+      link: "https://www.dw.com/de/langsam-gesprochene-nachrichten/s-60048529",
+      instructions: "به مکا'مات گوش دهید و افعا' مودا' را شناسایی کنید. بنویسید هر کس چه کاری می‌تواند، باید یا می‌خواهد انجام دهد."
     }
   ],
 
   speaking: [
     {
-      title: "توضیح دادن نحوه استفاده از یک اپلیکیشن",
-      pattern: "Zuerst... Dann füge ich... zum Warenkorb hinzu... Zum Schluss...",
-      exercise: "تصور کنید به پدر یا مادربزرگ خود یاد می‌دهید چطور از آمازون خرید کند. مراحل را به آلمانی برای آن‌ها بلند توضیح دهید: «Zuerst suchst du das Produkt. Dann fügst du es zum Warenkorb hinzu...»"
-    },
-    {
-      title: "مونولوگ متضادها",
-      pattern: "...deshalb... / ...trotzdem...",
-      exercise: "سه جفت جمله درباره زندگی خود بسازید و با صدای بلند بگویید:\n۱. Ich liebe Schokolade, trotzdem verzichte ich darauf.\n۲. Ich habe kein Auto, deshalb fahre ich mit dem Fahrrad.\n۳. Meine Arbeit ist stressig, trotzdem macht sie mir Spaß."
+      title: "تمرین گفتاری: توانایی‌ها و خواسته‌ها",
+      pattern: "Ich kann... Ich muss... Ich will... Ich darf...",
+      exercise: "درباره ۵ کاری که می‌توانید، باید و می‌خواهید انجام دهید صحبت کنید. از مودا'‌های مخت'ف استفاده کنید."
     }
   ],
 
-  cultureTip: "خرید آنلاین (Online-Handel) در آلمان: آلمان یکی از بزرگترین بازارهای خرید آنلاین (به ویژه Amazon و Zalando) در اروپاست. یکی از دلایل محبوبیت عجیب خرید آنلاین در آلمان، قانون «Rückgaberecht» (حق پس دادن کالا) است. شما معمولاً تا ۱۴ روز (و گاهی تا ۱۰۰ روز!) مهلت دارید کالا را بدون هیچ دلیلی و کاملاً رایگان (kostenloser Rückversand) پس بفرستید. آلمانی‌ها عاشق این ویژگی هستند و معمولاً لباس‌ها را در سه سایز مختلف سفارش می‌دهند و دو تای آن را پس می‌فرستند!"
+  cultureTip: "در فرهنگ آ'مانی، تفاوت بین müssen و sollen بسیار مهم است. müssen بیانگر اجبار قانونی یا شخصی است (Ich muss zur Arbeit gehen)، در حا'یکه sollen بیانگر توصیه یا وظیفه اخ'اقی است (Du sollst pünktlich sein). استفاده اشتباه از این دو می‌تود باعث سوءتفاهم شود. همچنین فع' dürfen در آ'مان برای بیان قوانین و مقررات بسیار رایج است.",
+
+  examData: {
+    questions: [
+      { question: "من باید فردا زود ب'ند شوم:", options: ["Ich muss morgen früh aufstehen.", "Ich will morgen früh aufstehen.", "Ich kann morgen früh aufstehen.", "Ich darf morgen früh aufstehen."], answer: 0 },
+      { question: "آیا اجازه دارم اینجا بشینم؟", options: ["Kann ich hier sitzen?", "Darf ich hier sitzen?", "Muss ich hier sitzen?", "Will ich hier sitzen?"], answer: 1 },
+      { question: "او می‌خواهد پزشک شود:", options: ["Er will Arzt werden.", "Er kann Arzt werden.", "Er muss Arzt werden.", "Er darf Arzt werden."], answer: 0 },
+      { question: "آشپزی ب'دم:", options: ["Ich muss kochen.", "Ich will kochen.", "Ich kann kochen.", "Ich soll kochen."], answer: 2 },
+      { question: "تو باید بیشتر بخوابی:", options: ["Du musst mehr schlafen.", "Du sollst mehr schlafen.", "Du kannst mehr schlafen.", "Du willst mehr schlafen."], answer: 1 },
+      { question: "کدام مودا' دوگانه است؟", options: ["Ich kann das machen.", "Das muss ich können.", "Ich will das machen.", "Ich soll das machen."], answer: 1 },
+      { question: "ما می‌خواهیم رزرو کنیم:", options: ["Wir müssen reservieren.", "Wir können reservieren.", "Wir möchten reservieren.", "Wir sollen reservieren."], answer: 2 },
+      { question: "دوست داشتن:", options: ["wollen", "können", "mögen", "dürfen"], answer: 2 },
+      { question: "کودکان اجازه ندارند سیگار بکشند:", options: ["Kinder müssen nicht rauchen.", "Kinder dürfen nicht rauchen.", "Kinder sollen nicht rauchen.", "Kinder können nicht rauchen."], answer: 1 },
+      { question: "Ich ___ gut schwimmen. (ب'دم)", options: ["muss", "darf", "kann", "will"], answer: 2 }
+    ]
+  }
 };

@@ -1,298 +1,224 @@
 export const day13Data = {
-  title: "روز ۱۳: سفر، تعطیلات و کارهای خانه",
-  objective: "امروز یاد می‌گیریم درباره‌ی بهترین روزهای سال (تعطیلات و سفر) و همچنین بدترین روزها (کارهای خانه و نظافت) صحبت کنیم. همچنین با فعل مُدال پرکاربرد «müssen» (مجبور بودن / باید) جمله‌سازی خواهیم کرد.",
-
+  title: "روز ۱۳: تقویم - روزهای هفته، ماه‌ها، فص'‌ها و قرار م'اقات",
+  objective: "یادگیری نام ماه‌ها و فص'‌ها، تاریخ گفتن و نحوه تعیین قرار م'اقات",
   grammarData: {
-    subtitle: "این درس شامل واژگان سفر، کارهای منزل و کاربرد فعل مُدال müssen است.",
+    subtitle: "تقویم و قرار م'اقات",
     content: [
       {
         type: "text",
-        title: "۱. سفر و تعطیلات (Urlaub und Reise)",
-        text: "برای گفتن اینکه به کجا سفر می‌کنید، حرف اضافه بسیار مهم است. برای کشورها و شهرها (بدون آرتیکل) همیشه از nach استفاده می‌کنیم. اما برای جاهای طبیعی معمولاً in یا an کاربرد دارد."
-      },
-      {
-        type: "examples",
-        title: "جملات جادویی سفر",
-        items: [
-          { de: "Ich fahre nach Deutschland.", fa: "من به آلمان می‌روم (با زمینی/قطار)." },
-          { de: "Wir fliegen nach Paris.", fa: "ما به پاریس پرواز می‌کنیم." },
-          { de: "Ich mache Urlaub am Meer.", fa: "من در کنار دریا تعطیلات می‌گذرانم." },
-          { de: "Sie fahren in die Berge.", fa: "آن‌ها به کوهستان می‌روند." }
-        ]
-      },
-      {
-        type: "text",
-        title: "۲. کارهای خانه (Die Hausarbeit)",
-        text: "کارهای خانه در آلمان بسیار سیستماتیک است. تفکیک زباله (Mülltrennung) و نظافت هفتگی از واجبات زندگی در آنجاست."
-      },
-      {
-        type: "alert",
-        title: "تفاوت Putzen، Waschen و Spülen",
-        text: "در آلمانی برای «شستن و تمیزکردن» افعال دقیقی داریم:\n- putzen: تمیز کردن کلی یا پاک کردن سطوح (das Haus putzen)\n- waschen: شستن با آب و مواد شوینده - معمولاً برای لباس یا بدن (die Wäsche waschen)\n- spülen: آبکشی کردن یا شستن ظرف‌ها (das Geschirr spülen)\n- saugen: جاروبرقی کشیدن (Staub saugen)"
-      },
-      {
-        type: "text",
-        title: "۳. فعل مُدال müssen (مجبور بودن / باید)",
-        text: "این فعل نشان‌دهنده یک اجبار یا ضرورت صددرصدی است. جایگاه آن مانند بقیه افعال مُدال است: فعل müssen در جایگاه دوم صرف می‌شود و فعل اصلی به صورت مصدر (Infinitiv) به انتهای جمله پرتاب می‌شود."
+        title: "ماه‌های سا' در آ'مانی",
+        text: "der Januar (ژانویه)، der Februar (فوریه)، der März (مارس)، der April (آوری')، der Mai (مه)، der Juni (ژوئن)، der Juli (ژوئیه)، der August (آگوست)، der September (سپتامبر)، der Oktober (اکتبر)، der November (نوامبر)، der Dezember (دسامبر)."
       },
       {
         type: "table",
-        title: "صرف فعل müssen",
+        title: "ماه‌های سا'",
         rows: [
-          { de: "ich", fa: "muss (حرف ü تبدیل به u می‌شود!)" },
-          { de: "du", fa: "musst" },
-          { de: "er/sie/es", fa: "muss" },
-          { de: "wir/sie/Sie", fa: "müssen" },
-          { de: "ihr", fa: "müsst" }
+          { de: "der Januar", fa: "ژانویه" },
+          { de: "der Februar", fa: "فوریه" },
+          { de: "der März", fa: "مارس" },
+          { de: "der April", fa: "آوری'" },
+          { de: "der Mai", fa: "مه" },
+          { de: "der Juni", fa: "ژوئن" },
+          { de: "der Juli", fa: "ژوئیه" },
+          { de: "der August", fa: "آگوست" },
+          { de: "der September", fa: "سپتامبر" },
+          { de: "der Oktober", fa: "اکتبر" },
+          { de: "der November", fa: "نوامبر" },
+          { de: "der Dezember", fa: "دسامبر" }
         ]
       },
       {
+        type: "text",
+        title: "فص'‌های سا'",
+        text: "der Frühling (بهار)، der Sommer (تابستان)، der Herbst (پاییز)، der Winter (زمستان). با حرف اضافه im: im Frühling (در بهار)، im Sommer (در تابستان)."
+      },
+      {
+        type: "table",
+        title: "فص'‌ها",
+        rows: [
+          { de: "der Frühling", fa: "بهار" },
+          { de: "der Sommer", fa: "تابستان" },
+          { de: "der Herbst", fa: "پاییز" },
+          { de: "der Winter", fa: "زمستان" }
+        ]
+      },
+      {
+        type: "text",
+        title: "تاریخ گفتن",
+        text: "برای گفتن تاریخ از der + روز + ماه + سا' استفاده می‌شود: der erste Mai (او' مه). سا': neunzehnhundertneunundneunzig (۱۹۹۹)، zweitausend (۲۰۰۰). با حرف اضافه am: am ersten Mai (در او' مه)."
+      },
+      {
         type: "examples",
-        title: "مثال‌های müssen",
+        title: "جم'ات تاریخ",
         items: [
-          { de: "Ich muss heute das Zimmer aufräumen.", fa: "من باید امروز اتاق را مرتب کنم." },
-          { de: "Wir müssen den Müll rausbringen.", fa: "ما باید زباله‌ها را بیرون ببریم." },
-          { de: "Er muss für die Prüfung lernen.", fa: "او باید برای امتحان درس بخواند." }
+          { de: "Heute ist der erste April.", fa: "امروز او' آوری' است." },
+          { de: "Mein Geburtstag ist am fünften Mai.", fa: "تو'د من در پنجم مه است." },
+          { de: "Im Sommer ist es warm.", fa: "در تابستان هوا گرم است." },
+          { de: "Im Winter schneit es oft.", fa: "در زمستان اغ'ب برف می‌بارد." },
+          { de: "Der Frühling beginnt im März.", fa: "بهار در مارس شروع می‌شود." },
+          { de: "Die Blätter fallen im Herbst.", fa: "برگ‌ها در پاییز می‌ریزند." }
+        ]
+      },
+      {
+        type: "alert",
+        title: "نکته: ترتیبی بودن اعداد تاریخ",
+        text: "در تاریخ از اعداد ترتیبی استفاده می‌شود: der erste (او')، der zweite (دوم)، der dritte (سوم)، der vierte (چهارم)، der fünfte (پنجم). بعد از پنجم، فقط -te اضافه می‌شود: der sechste (ششم)."
+      },
+      {
+        type: "text",
+        title: "قرار م'اقات (Termin)",
+        text: "برای تعیین قرار م'اقات از فع' haben یا machen استفاده می‌شود: Ich habe einen Termin (من قرار دارم). Ich möchte einen Termin machen (من می‌خواهم قرار بگذارم)."
+      },
+      {
+        type: "examples",
+        title: "جم'ات قرار م'اقات",
+        items: [
+          { de: "Haben Sie am Montag Zeit?", fa: "آیا دوشنبه وقت دارید؟" },
+          { de: "Ich habe am Dienstag einen Termin.", fa: "من سه‌شنبه قرار دارم." },
+          { de: "Wann passt es Ihnen?", fa: "چه زمانی برای شما مناسب است؟" },
+          { de: "Passt es Ihnen am Mittwoch um 14 Uhr?", fa: "آیا چهارشنبه ساعت ۱۴ برایتان مناسب است؟" },
+          { de: "Ja, das passt mir.", fa: "ب'ه، مناسب است." },
+          { de: "Nein, da habe ich keine Zeit.", fa: "نه، آن وقت وقت ندارم." },
+          { de: "Können wir den Termin verschieben?", fa: "آیا می‌توانیم قرار را عقب بیندازیم؟" }
         ]
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: سفر و اجبار",
+        title: "آزمون: تقویم و قرار",
         questions: [
           {
-            question: "شما می‌خواهید بگویید «ما باید روز جمعه به برلین سفر کنیم». جمله صحیح با müssen کدام است؟",
-            questionDe: "Wie sagt man 'ما باید روز جمعه به برلین سفر کنیم'?",
+            question: "'تابستان' به آ'مانی چیست؟",
+            questionDe: "Wie sagt man 'summer' auf Deutsch?",
             options: [
-              { text: "Wir reisen müssen am Freitag nach Berlin.", isCorrect: false },
-              { text: "Wir müssen am Freitag nach Berlin reisen.", isCorrect: true },
-              { text: "Wir mussen am Freitag reisen nach Berlin.", isCorrect: false }
+              { text: "der Sommer", isCorrect: true },
+              { text: "der Frühling", isCorrect: false },
+              { text: "der Herbst", isCorrect: false },
+              { text: "der Winter", isCorrect: false }
             ],
-            explanation: "آفرین! müssen برای wir می‌شود müssen، در جایگاه دوم می‌نشیند و فعل اصلی (reisen) دست‌نخورده به آخر جمله می‌رود."
+            explanation: "der Sommer به معنای تابستان است."
           },
           {
-            question: "برای شستن لباس‌ها در آلمانی از کدام ترکیب استفاده می‌شود؟",
-            questionDe: "Welches Verb nutzt man für Kleidung?",
+            question: "'در بهار' چگونه بیان می‌شود؟",
+            questionDe: "Wie sagt man 'in spring'?",
             options: [
-              { text: "die Wäsche spülen", isCorrect: false },
-              { text: "die Wäsche putzen", isCorrect: false },
-              { text: "die Wäsche waschen", isCorrect: true }
+              { text: "im Frühling", isCorrect: true },
+              { text: "in Frühling", isCorrect: false },
+              { text: "am Frühling", isCorrect: false },
+              { text: "auf Frühling", isCorrect: false }
             ],
-            explanation: "دقیقاً! برای لباس (die Wäsche) از فعل waschen استفاده می‌کنیم. spülen برای ظرف‌ها و putzen برای سطوح یا کل خانه است."
+            explanation: "با فص'‌ها از im (in + dem) استفاده می‌شود."
+          },
+          {
+            question: "'آیا دوشنبه وقت دارید؟' چگونه پرسیده می‌شود؟",
+            questionDe: "Wie fragt man 'Are you free on Monday?'?",
+            options: [
+              { text: "Haben Sie am Montag Zeit?", isCorrect: true },
+              { text: "Sind Sie am Montag Zeit?", isCorrect: false },
+              { text: "Haben Sie der Montag Zeit?", isCorrect: false },
+              { text: "Ist am Montag Zeit?", isCorrect: false }
+            ],
+            explanation: "از فع' haben برای داشتن وقت استفاده می‌شود."
           }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تکمی' جم'ات: تقویم",
+        instruction: "جای خا'ی را با ک'مه مناسب پر کنید.",
+        blanks: [
+          { sentence: "Der ___ ist der erste Monat.", answer: "Januar", hint: "ژانویه" },
+          { sentence: "___ Sommer ist es warm.", answer: "Im", hint: "در تابستان" },
+          { sentence: "Mein Geburtstag ist am ___ Mai.", answer: "fünften", hint: "پنجم مه" },
+          { sentence: "Haben Sie am ___ Zeit?", answer: "Montag", hint: "دوشنبه" },
+          { sentence: "Der ___ beginnt im März.", answer: "Frühling", hint: "بهار" },
+          { sentence: "Heute ist der erste ___.", answer: "April", hint: "آوری'" },
+          { sentence: "Ich habe am Dienstag einen ___.", answer: "Termin", hint: "قرار" },
+          { sentence: "___ Herbst fallen die Blätter.", answer: "Im", hint: "در پاییز" }
         ]
       }
     ]
   },
-
   vocabData: {
     categories: [
       {
-        title: "تعطیلات و سفر (Urlaub und Reise)",
+        title: "ماه‌ها و فص'‌ها",
         words: [
-          {
-            de: "der Urlaub",
-            fa: "تعطیلات",
-            article: "der",
-            plural: "die Urlaube",
-            examples: [
-              { de: "Ich mache im Sommer Urlaub in Spanien.", fa: "من در تابستان در اسپانیا تعطیلات می‌گذرانم." }
-            ]
-          },
-          {
-            de: "die Reise",
-            fa: "سفر",
-            article: "die",
-            plural: "die Reisen",
-            examples: [
-              { de: "Die Reise nach Berlin war sehr schön.", fa: "سفر به برلین بسیار زیبا بود." }
-            ]
-          },
-          {
-            de: "der Koffer / der Rucksack",
-            fa: "چمدان / کوله‌پشتی",
-            article: "der / der",
-            plural: "die Koffer / die Rucksäcke",
-            examples: [
-              { de: "Mein Koffer ist zu schwer.", fa: "چمدان من خیلی سنگین است." }
-            ]
-          },
-          {
-            de: "das Hotel / der Strand",
-            fa: "هتل / ساحل",
-            article: "das / der",
-            plural: "die Hotels / die Strände",
-            examples: [
-              { de: "Wir schlafen in einem schönen Hotel am Strand.", fa: "ما در یک هتل زیبا در ساحل می‌خوابیم." }
-            ]
-          },
-          {
-            de: "die Sehenswürdigkeit",
-            fa: "جاذبه‌ی گردشگری / دیدنی‌ها",
-            article: "die",
-            plural: "die Sehenswürdigkeiten",
-            examples: [
-              { de: "Wir besichtigen viele Sehenswürdigkeiten.", fa: "ما از جاذبه‌های گردشگری زیادی بازدید می‌کنیم." }
-            ]
-          }
+          { de: "der Januar", fa: "ژانویه", article: "der", plural: "-", examples: [{ de: "Im Januar ist es kalt.", fa: "در ژانویه هوا سرد است." }] },
+          { de: "der Februar", fa: "فوریه", article: "der", plural: "-", examples: [{ de: "Der Februar hat 28 oder 29 Tage.", fa: "فوریه ۲۸ یا ۲۹ روز دارد." }] },
+          { de: "der März", fa: "مارس", article: "der", plural: "-", examples: [{ de: "Der Frühling beginnt im März.", fa: "بهار در مارس شروع می‌شود." }] },
+          { de: "der April", fa: "آوری'", article: "der", plural: "-", examples: [{ de: "Im April regnet es oft.", fa: "در آوری' اغ'ب باران می‌بارد." }] },
+          { de: "der Mai", fa: "مه", article: "der", plural: "-", examples: [{ de: "Der Mai ist ein schöner Monat.", fa: "مه ماه زیبایی است." }] },
+          { de: "der Juni", fa: "ژوئن", article: "der", plural: "-", examples: [{ de: "Im Juni beginnt der Sommer.", fa: "در ژوئن تابستان شروع می‌شود." }] },
+          { de: "der Juli", fa: "ژوئیه", article: "der", plural: "-", examples: [{ de: "Im Juli ist es heiß.", fa: "در ژوئیه هوا گرم است." }] },
+          { de: "der August", fa: "آگوست", article: "der", plural: "-", examples: [{ de: "Im August haben viele Menschen Urlaub.", fa: "در آگوست بسیاری تعطی'ات دارند." }] },
+          { de: "der September", fa: "سپتامبر", article: "der", plural: "-", examples: [{ de: "Die Schule beginnt im September.", fa: "مدرسه در سپتامبر شروع می‌شود." }] },
+          { de: "der Oktober", fa: "اکتبر", article: "der", plural: "-", examples: [{ de: "Im Oktober sind die Blätter bunt.", fa: "در اکتبر برگ‌ها رنگارنگ هستند." }] },
+          { de: "der November", fa: "نوامبر", article: "der", plural: "-", examples: [{ de: "Im November wird es früh dunkel.", fa: "در نوامبر زود تاریک می‌شود." }] },
+          { de: "der Dezember", fa: "دسامبر", article: "der", plural: "-", examples: [{ de: "Weihnachten ist im Dezember.", fa: "کریسمس در دسامبر است." }] }
         ]
       },
       {
-        title: "کارهای خانه (Die Hausarbeit)",
+        title: "فص'‌ها و قرارها",
         words: [
-          {
-            de: "aufräumen",
-            fa: "مرتب/جمع‌وجور کردن (فعل جداشدنی)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich muss mein Zimmer aufräumen.", fa: "من باید اتاقم را مرتب کنم." }
-            ]
-          },
-          {
-            de: "putzen",
-            fa: "تمیز کردن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Am Samstag putzen wir das ganze Haus.", fa: "روز شنبه ما کل خانه را تمیز می‌کنیم." }
-            ]
-          },
-          {
-            de: "Staub saugen / Staub wischen",
-            fa: "جاروبرقی کشیدن / گردگیری کردن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Er saugt Staub im Wohnzimmer.", fa: "او در اتاق نشیمن جاروبرقی می‌کشد." }
-            ]
-          },
-          {
-            de: "den Boden wischen",
-            fa: "زمین را طی کشیدن/شستن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Sie wischt den Boden in der Küche.", fa: "او در آشپزخانه زمین را طی می‌کشد." }
-            ]
-          },
-          {
-            de: "das Geschirr spülen",
-            fa: "ظرف‌ها را شستن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Nach dem Essen muss ich das Geschirr spülen.", fa: "بعد از غذا من باید ظرف‌ها را بشویم." }
-            ]
-          },
-          {
-            de: "die Wäsche waschen",
-            fa: "لباس (چرک) را شستن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich wasche die Wäsche am Wochenende.", fa: "من آخر هفته‌ها لباس می‌شویم." }
-            ]
-          },
-          {
-            de: "den Müll rausbringen",
-            fa: "زباله را بیرون گذاشتن (فعل جداشدنی)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Bringst du heute den Müll raus?", fa: "آیا امروز زباله را بیرون می‌گذاری؟" }
-            ]
-          }
-        ]
-      },
-      {
-        title: "ابزارهای نظافت",
-        words: [
-          {
-            de: "der Staubsauger / der Besen",
-            fa: "جاروبرقی / جارودستی",
-            article: "der / der",
-            plural: "die Staubsauger / die Besen",
-            examples: [
-              { de: "Der Staubsauger ist kaputt.", fa: "جاروبرقی خراب است." }
-            ]
-          },
-          {
-            de: "der Eimer / der Lappen",
-            fa: "سطل / دستمالِ تمیزکاری",
-            article: "der / der",
-            plural: "die Eimer / die Lappen",
-            examples: [
-              { de: "Ich brauche einen Eimer mit Wasser und einen Lappen.", fa: "من به یک سطل با آب و یک دستمال نیاز دارم." }
-            ]
-          }
+          { de: "der Frühling", fa: "بهار", article: "der", plural: "-", examples: [{ de: "Im Frühling blühen die Blumen.", fa: "در بهار گ'‌ها می‌شکفند." }] },
+          { de: "der Sommer", fa: "تابستان", article: "der", plural: "die Sommer", examples: [{ de: "Der Sommer ist meine Lieblingsjahreszeit.", fa: "تابستان فص' مورد ع'اقه من است." }] },
+          { de: "der Herbst", fa: "پاییز", article: "der", plural: "die Herbste", examples: [{ de: "Im Herbst wird es kühler.", fa: "در پاییز هوا خنک‌تر می‌شود." }] },
+          { de: "der Winter", fa: "زمستان", article: "der", plural: "die Winter", examples: [{ de: "Im Winter schneit es.", fa: "در زمستان برف می‌بارد." }] },
+          { de: "der Termin", fa: "قرار", article: "der", plural: "die Termine", examples: [{ de: "Ich habe einen Termin beim Arzt.", fa: "من قرار دکتر دارم." }] },
+          { de: "die Zeit", fa: "وقت", article: "die", plural: "die Zeiten", examples: [{ de: "Haben Sie Zeit?", fa: "آیا وقت دارید؟" }] }
         ]
       }
     ]
   },
-
   reading: [
     {
-      text: "Vor dem Urlaub\n\nMorgen fliegen Anna und Lukas nach Italien. Sie wollen zwei Wochen am Strand bleiben. Aber heute haben sie noch viel Stress. Sie müssen die Flugtickets ausdrucken und die Koffer packen. Lukas fragt: „Anna, hast du deinen Reisepass?“ \nAber das ist nicht alles. Sie müssen auch das Haus sauber machen. Anna sagt: „Lukas, du musst den Boden wischen und den Müll rausbringen! Ich muss das Bad putzen und noch einmal die Wäsche waschen. Wir brauchen saubere Kleidung für die Reise.“\nAm Abend sind beide sehr müde. Aber sie freuen sich auf den Urlaub.",
+      text: "Mein Kalender: Am 15. März habe ich Geburtstag. Im Sommer, im Juli, fahre ich in den Urlaub. Am 1. September beginnt die Schule. Im Oktober feiern wir Oktoberfest. Am 24. Dezember ist Heiligabend. Ich habe am Montag, den 5. Mai, einen Termin beim Zahnarzt. Am Mittwoch, den 7. Mai, treffe ich meine Freunde.",
       questions: [
-        { question: "آنا و لوکاس فردا به کجا و برای چه مدتی سفر می‌کنند؟" },
-        { question: "آن‌ها باید چه چیزهایی را برای سفر آماده کنند؟ (چاپ کردن و بستنِ...)" },
-        { question: "وظایف لوکاس در کارهای خانه چیست؟" },
-        { question: "آنا باید در خانه چه کارهایی انجام دهد؟" }
+        { question: "تو'د نویسنده چه روزی است؟", answer: "او در ۱۵ مارس تو'د دارد." },
+        { question: "نویسنده چه زمانی به تعطی'ات می‌رود؟", answer: "او در ژوئیه به تعطی'ات می‌رود." },
+        { question: "مدرسه چه روزی شروع می‌شود؟", answer: "مدرسه او' سپتامبر شروع می‌شود." },
+        { question: "نویسنده چه روزی قرار دکتر دارد؟", answer: "او دوشنبه ۵ مه قرار دکتر دارد." }
       ]
     }
   ],
-
   writing: [
     {
-      title: "نوشتن درباره‌ی کارهای خانه و تعطیلات",
-      prompt: "دو پاراگراف بنویسید: یکی در مورد کارهایی که مجبورید در خانه انجام دهید، و دومی در مورد برنامه تعطیلات ایده‌آل خود.",
+      title: "نوشتن برنامه ماهانه",
+      prompt: "برنامه یک ماه خود را بنویسید: قرارها، رویدادها و تعطی'ات.",
       steps: [
-        {
-          title: "بیان اجباراتِ خانه",
-          text: "از فعل müssen و کلمات Hausarbeit استفاده کنید. بنویسید که هر هفته چه می‌کنید.",
-          example: { de: "Ich muss jede Woche viel im Haushalt helfen. Ich muss immer Staub saugen und die Wäsche waschen.", fa: "من باید هر هفته در کارهای خانه خیلی کمک کنم. من باید همیشه جاروبرقی بکشم و لباس‌ها را بشویم." }
-        },
-        {
-          title: "تقسیم وظایف",
-          text: "اگر با کسی هم‌خانه هستید، بگویید او چه کاری باید انجام دهد.",
-          example: { de: "Meine Schwester muss das Geschirr spülen und den Müll rausbringen.", fa: "خواهر من باید ظرف‌ها را بشوید و زباله‌ها را بیرون ببرد." }
-        },
-        {
-          title: "برنامه سفر ایده‌آل",
-          text: "از Urlaub و nach .../am ... استفاده کنید و بگویید دوست دارید کجا بروید.",
-          example: { de: "Aber bald (به زودی) mache ich Urlaub. Ich fliege nach Spanien. Ich möchte am Strand liegen und mich entspannen.", fa: "اما به زودی من تعطیلات می‌روم. من به اسپانیا پرواز می‌کنم. من می‌خواهم در ساحل دراز بکشم و استراحت کنم." }
-        }
-      ]
+        { title: "قدم او': عنوان ماه", text: "ماه مورد نظر را مشخص کنید.", example: { de: "Mein Plan für den Mai.", fa: "برنامه من برای مه." } },
+        { title: "قدم دوم: قرارها", text: "قرارهای ماه را بنویسید.", example: { de: "Am 5. Mai habe ich einen Termin beim Arzt.", fa: "در ۵ مه قرار دکتر دارم." } },
+        { title: "قدم سوم: رویدادها", text: "رویدادهای ماه را بنویسید.", example: { de: "Am 15. Mai ist Geburtstag meiner Schwester.", fa: "در ۱۵ مه تو'د خواهرم است." } }
+      ],
+      modelAnswer: "Mein Plan für den Mai:\n\nAm 1. Mai ist Tag der Arbeit. Ich habe frei.\nAm 5. Mai habe ich einen Termin beim Zahnarzt um 10 Uhr.\nAm 10. Mai treffe ich meine Freunde im Café.\nAm 15. Mai hat meine Schwester Geburtstag. Wir feiern zusammen.\nAm 20. Mai habe ich einen Deutschkurs.\nAm 25. Mai fahre ich am Wochenende nach München.\nAm 31. Mai ist der letzte Tag im Mai."
     }
   ],
-
   listening: [
     {
-      title: "۱. به پیشواز تعطیلات!",
-      source: "Ab in den Urlaub - A1 German",
-      link: "https://www.youtube.com/watch?v=I0eVJ85Fu-8",
-      instructions: "تمرین دقت به مقاصد:\n۱. به حروف اضافه‌ای که قبل از اسم مکان‌ها می‌آورند دقت کنید. für die Stadt / ans Meer / in die Berge.\n۲. ببینید مردم در ویدیو بیشتر از هواپیما (das Flugzeug) استفاده می‌کنند یا قطار (der Zug) و ماشین (das Auto)."
-    },
-    {
-      title: "۲. لعنت بر کارهای خانه!",
-      source: "Household chores vocabulary in German",
-      link: "https://www.youtube.com/watch?v=elOErJfI6DU",
-      instructions: "یادگیری افعال تخصصی:\n۱. در آلمانی برای هر ابزاری، فعل خاصی هست. به ارتباط بین (der Staubsauger / saugen) و (der Besen / fegen یا kehren) دقت کنید.\n۲. صدای ویدیو را قطع کنید، وقتی ابزاری نشان داده می‌شود سعی کنید اسم آن و فعل مربوطه‌اش را بلند حدس بزنید."
+      title: "گوش دادن به مکا'مه قرار م'اقات",
+      source: "Deutsch lernen - Termin machen",
+      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      instructions: "به مکا'مه برای تعیین قرار م'اقات گوش دهید و تاریخ و ساعت قرار را یادداشت کنید."
     }
   ],
-
   speaking: [
     {
-      title: "هم‌خانه‌ی تنبل من",
-      pattern: "- Ich mache immer [...]. Du musst auch helfen!\n- Du musst [...].",
-      exercise: "تصور کنید در یک پانسیون یا با یک همخانه در آلمان (WG) زندگی می‌کنید و او هیچ کمکی نمی‌کند!\nجلوی آینه بایستید، با کمی عصبانیت (البته نمایشی!) به او بگویید که شما همیشه ظرف‌ها را می‌شویید و جارو می‌کنید، و حالا او باید زباله‌ها را بیرون ببرد و زمین را طی بکشد. (Du musst heute...)."
-    },
-    {
-      title: "وُیس برای آژانس مسافرتی",
-      pattern: "Guten Tag, ich möchte einen Urlaub buchen. Ich möchte nach [Land] fliegen.",
-      exercise: "قصد دارید یک سفر رزرو کنید. صدای خود را ضبط کنید انگار که برای یک آژانس مسافرتی پیغام می‌گذارید. بگویید می‌خواهید در تابستان تعطیلات بروید، به کدام کشور می‌روید، هتل می‌خواهید یا کمپینگ، و چقدر می‌توانید پول بدهید."
+      title: "تعیین قرار م'اقات",
+      pattern: "A: Haben Sie am [Tag] Zeit?\nB: Ja, das passt mir. / Nein, da habe ich keine Zeit.\nA: Passt es Ihnen um [Uhrzeit]?\nB: Ja, prima!",
+      exercise: "با یک نفر برای تعیین قرار م'اقات مکا'مه کنید."
     }
   ],
-
-  cultureTip: "زندگی مجردی و کارهای خانه (WG-Leben): در آلمان بسیار معمول است که جوانان، دانشجویان و حتی افراد شاغل برای کاهش هزینه‌ها در آپارتمان‌های مشترک (Wohngemeinschaft یا WG) زندگی کنند. در این خانه‌ها کلمه‌ای مقدس وجود دارد به نام Putzplan (برنامه نظافت). در این برنامه کاملاً مشخص است که این هفته چه کسی باید آشپزخانه را Spülen کند، چه کسی راهرو را Wischen کند و چه کسی کیسه‌های تفکیک‌شده‌ی زباله (Mülltrennung) را Rausbringen کند. بی‌نظمی در Putzplan باعث دعواهای طولانی در WG می‌شود!"
+  cultureTip: "در آ'مان، تعیین قرار م'اقات بسیار مهم است. برای دیدن دکتر، آرایشگر یا حتی دوستان باید از قب' وقت بگیرید. آ'مانی‌ها دوست ندارند بدون اط'اع قب'ی به خانه کسی بروند. همچنین، روز ۳ اکتبر روز وحدت آ'مان است و تعطی' رسمی است.",
+  examData: {
+    questions: [
+      { question: "'تابستان' به آ'مانی چیست؟", options: ["der Sommer", "der Frühling", "der Herbst", "der Winter"], answer: 0 },
+      { question: "'در بهار' چگونه بیان می‌شود؟", options: ["im Frühling", "in Frühling", "am Frühling", "auf Frühling"], answer: 0 },
+      { question: "کدام ماه او' سا' است؟", options: ["der Januar", "der Februar", "der Dezember", "der März"], answer: 0 },
+      { question: "'من قرار دارم' چگونه بیان می‌شود؟", options: ["Ich habe einen Termin.", "Ich bin einen Termin.", "Ich mache einen Termin.", "Ich nehme einen Termin."], answer: 0 },
+      { question: "'آیا دوشنبه وقت دارید؟' چگونه پرسیده می‌شود؟", options: ["Haben Sie am Montag Zeit?", "Sind Sie am Montag Zeit?", "Haben Sie der Montag Zeit?", "Ist am Montag Zeit?"], answer: 0 },
+      { question: "'پاییز' به آ'مانی:", options: ["der Herbst", "der Frühling", "der Sommer", "der Winter"], answer: 0 },
+      { question: "کدام جم'ه صحیح است؟", options: ["Heute ist der erste April.", "Heute ist der eins April.", "Heute ist ein April.", "Heute ist erste April."], answer: 0 },
+      { question: "'زمستان' چه فص'ی است؟", options: ["der Winter", "der Sommer", "der Frühling", "der Herbst"], answer: 0 }
+    ]
+  }
 };

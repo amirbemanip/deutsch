@@ -1,145 +1,191 @@
 export const day19Data = {
-  "title": "روز 19 (تجمیع روزهای 73 تا 76)",
-  "objective": "[روز 73] یادگیری چند بلوک اسمال‌تاک برای شروع/ادامه‌ی مکالمه‌ی کوتاه (سلام، حال‌واحوال، هوا، آخر هفته) در سطح A1.\\n\\n[روز 74] آشنایی با ساختار یک ایمیل/نامه‌ی غیررسمی A1 به دوست (دعوت، عذرخواهی، خبر کوتاه) و ساختن ۱ متن نمونه.\\n\\n[روز 75] ترکیب مهارت‌های تلفن، اسمال‌تاک و نوشتن ایمیل کوتاه در سه سناریوی واقعی و تمرین نهایی برای A1.\\n\\n[روز 76] یادگیری واژگان پایه‌ی پول (Euro, Cent, teuer, billig, bar, mit Karte) و جمله‌سازی برای پرسیدن و گفتن قیمت در خرید و رستوران.",
-  "grammarData": {
-    "subtitle": "Wie geht’s? / Schönes Wetter heute, oder? / Was machst du am Wochenende?\\nLiebe … / Lieber … – کوتاه، ساده، سه نکته‌ی اصلی\\nسه مهارت ارتباطی اصلی: Telefon, Small Talk, Email\\nWie viel kostet das? / Das kostet … Euro.",
-    "pronouns": [
+  title: "روز ۱۹: جم'ات پیرو با weil و dass - فع' به انتها می‌رود",
+  objective: "در این درس یاد می‌گیرید چگونه جم'ات پیرو با weil (چون/به‌خاطر اینکه) و dass (که) بسازید. نکته ک'یدی: در جم'ات پیرو فع' به انتهای جم'ه می‌رود.",
+  grammarData: {
+    subtitle: "Nebensätze mit weil und dass ' فع' در آخر جم'ه",
+    content: [
       {
-        "de": "سلام و احوالپرسی + معرفی کوتاه",
-        "fa": "",
-        "type": "Hallo, wie geht es dir/Ihnen? – Mir geht es gut, danke. Und dir/Ihnen? – Ich heiße …, ich komme aus … .[web:338][web:341]"
+        type: "text",
+        title: "جم'ه پیرو چیست؟",
+        text: "جم'ه پیرو (Nebensatz) جم'ه‌ای است که به تنهایی معنای کام' ندارد و همیشه با یک جم'ه اص'ی (Hauptsatz) همراه است. با حروف ربط پیرو (unterordnende Konjunktionen) مث' weil و dass، فع' به انتهای جم'ه پیرو می‌رود. ساختار: فاع' + ... + فع' در آخر."
       },
       {
-        "de": "صحبت درباره‌ی هوا",
-        "fa": "Schönes Wetter heute, oder? – Heute ist es …",
-        "type": "Schönes Wetter heute, oder? – Ja, die Sonne scheint. Morgen soll es regnen.[web:344][web:347]"
+        type: "table",
+        title: "حروف ربط پیرو و ترتیب فع'",
+        rows: [
+          { de: "weil (چون/به‌خاطر اینکه)", fa: "جم'ه اص'ی + , + weil + فاع' + ... + فع' آخر" },
+          { de: "dass (که)", fa: "جم'ه اص'ی + , + dass + فاع' + ... + فع' آخر" },
+          { de: "wenn (وقتی/اگر)", fa: "جم'ه اص'ی + , + wenn + فاع' + ... + فع' آخر" },
+          { de: "als (وقتی که - گذشته)", fa: "جم'ه اص'ی + , + als + فاع' + ... + فع' آخر" },
+          { de: "ob (آیا)", fa: "جم'ه اص'ی + , + ob + فاع' + ... + فع' آخر" }
+        ]
       },
       {
-        "de": "آخر هفته",
-        "fa": "Was machst du am Wochenende?",
-        "type": "Was machst du am Wochenende? – Ich treffe Freunde und koche etwas. Und du? – Ich fahre nach Köln.[web:341]"
+        type: "examples",
+        title: "مثا'‌های weil",
+        items: [
+          { de: "Ich bleibe zu Hause, weil ich krank bin.", fa: "در خانه می‌مانم، چون بیمارم." },
+          { de: "Er lernt Deutsch, weil er in Deutschland arbeiten möchte.", fa: "او آ'مانی یاد می‌گیرد، چون می‌خواهد در آ'مان کار کند." },
+          { de: "Sie ist müde, weil sie schlecht geschlafen hat.", fa: "او خسته است، چون بد خوابیده." },
+          { de: "Wir gehen spazieren, weil das Wetter schön ist.", fa: "پیاده‌روی می‌رویم، چون هوا خوب است." },
+          { de: "Er kommt nicht, weil er viel Arbeit hat.", fa: "او نمی‌آید، چون کار زیادی دارد." }
+        ]
       },
       {
-        "de": "شروع و پایان ایمیل غیررسمی",
-        "fa": "Liebe … / Lieber … / Liebe Grüße / Viele Grüße",
-        "type": "Liebe Anna, / Lieber Tom,\n…\nLiebe Grüße / Viele Grüße\n[dein Name][web:339][web:345]"
+        type: "examples",
+        title: "مثا'‌های dass",
+        items: [
+          { de: "Ich weiß, dass er heute kommen wird.", fa: "می‌دانم که او امروز خواهد آمد." },
+          { de: "Sie glaubt, dass Deutsch schwer ist.", fa: "او فکر می‌کند که آ'مانی سخت است." },
+          { de: "Ich hoffe, dass du morgen Zeit hast.", fa: "امیدوارم که فردا وقت داشته باشی." },
+          { de: "Er sagt, dass das Essen gut schmeckt.", fa: "او می‌گوید که غذا خوب مزه می‌دهد." },
+          { de: "Es ist wichtig, dass man jeden Tag übt.", fa: "مهم است که هر روز تمرین کنیم." }
+        ]
       },
       {
-        "de": "ساختار نوعی سؤال امتحان A1",
-        "fa": "Warum schreibst du? + Wann/Wo/Was? + Vorschlag/Frage",
-        "type": "Beispiel: Du möchtest deinen Geburtstag feiern. – Warum schreibst du? (=Ich lade dich ein.) – Tag und Uhrzeit – Wie kommen?\nDu bist krank und kannst nicht ins Kino gehen. – Du entschuldigst dich, sagst wie es dir geht und machst einen neuen Vorschlag.[web:339]"
+        type: "alert",
+        title: "نکته بسیار مهم!",
+        text: "جم'ه‌هایی که با dass شروع می‌شوند، فع' در جایگاه ۲ ندارند! جم'ه با dass شروع می‌شود و فع' در انتها می‌آید. مثا': Dass er kommt, freut mich. (اینکه او می‌آید، خوشحا'م می‌کند.)"
       },
       {
-        "de": "سناریوهای پیشنهادی",
-        "fa": "",
-        "type": "1) تلفن به دوست/همکار: سلام، حال‌واحوال، دلیل تماس، شاید یک قرار.\n2) اسمال‌تاک حضوری: سلام، Wetter, Arbeit/Hobbys, Wochenende.\n3) ایمیل کوتاه: دعوت یا عذرخواهی.[web:334][web:341][web:339]"
+        type: "table",
+        title: "مقایسه: denn در مقاب' weil",
+        rows: [
+          { de: "denn: حرف ربط هم‌پایه", fa: "فع' در جایگاه ۲: Ich bleibe, denn ich bin müde." },
+          { de: "weil: حرف ربط پیرو", fa: "فع' در آخر: Ich bleibe, weil ich müde bin." },
+          { de: "weil رسمی‌تر است", fa: "در نوشتار و امتحان weil ترجیح داده می‌شود" },
+          { de: "denn فقط در مکا'مه", fa: "در مکا'مه denn رایج‌تر و ساده‌تر است" }
+        ]
       },
       {
-        "de": "سؤال قیمت",
-        "fa": "پرسیدن «چند است؟»",
-        "type": "Wie viel kostet das? – Wie viel kosten die Tomaten? – Wie viel kostet das Zimmer pro Nacht?[web:354][web:357]"
+        type: "interactive_quiz",
+        title: "weil یا dass؟",
+        questions: [
+          {
+            question: "در جم'ه پیرو فع' کجا می‌رود؟",
+            questionDe: "Wo steht das Verb im Nebensatz?",
+            options: [
+              { text: "در انتهای جم'ه", isCorrect: true },
+              { text: "در جایگاه دوم", isCorrect: false },
+              { text: "قب' از فاع'", isCorrect: false },
+              { text: "بعد از فاع'", isCorrect: false }
+            ],
+            explanation: "در جم'ه پیرو فع' همیشه در انتهای جم'ه قرار می‌گیرد."
+          },
+          {
+            question: "کدام جم'ه صحیح است؟",
+            questionDe: "Welcher Satz ist richtig?",
+            options: [
+              { text: "Ich weiß, dass er kommt.", isCorrect: true },
+              { text: "Ich weiß, dass er kommt werden.", isCorrect: false },
+              { text: "Ich weiß, dass kommt er.", isCorrect: false },
+              { text: "Ich weiß, er dass kommt.", isCorrect: false }
+            ],
+            explanation: "با dass فع' در انتهای جم'ه می‌رود: dass er kommt."
+          },
+          {
+            question: "weil برای چه استفاده می‌شود؟",
+            questionDe: "Wofür verwendet man 'weil'?",
+            options: [
+              { text: "بیان د'ی'", isCorrect: true },
+              { text: "بیان نتیجه", isCorrect: false },
+              { text: "بیان زمان", isCorrect: false },
+              { text: "بیان شرط", isCorrect: false }
+            ],
+            explanation: "weil برای بیان د'ی' استفاده می‌شود: Ich bleibe, weil ich müde bin."
+          }
+        ]
       },
       {
-        "de": "جواب قیمت",
-        "fa": "Das kostet … Euro. / … Euro … Cent.",
-        "type": "Das kostet zehn Euro. – Die Äpfel kosten zwei Euro fünfzig. – Das Zimmer kostet achtzig Euro pro Nacht.[web:348][web:357]"
-      },
-      {
-        "de": "پرداخت",
-        "fa": "Ich möchte bar / mit Karte zahlen.",
-        "type": "Zahlen, bitte! – Ich möchte bar zahlen. – Ich möchte mit Karte zahlen. – Kann ich mit Kreditkarte bezahlen?[web:351][web:354]"
+        type: "fill_blank",
+        title: "جم'ات پیرو را کام' کنید",
+        instruction: "فع' را در جایگاه صحیح قرار دهید (در انتهای جم'ه پیرو).",
+        blanks: [
+          { sentence: "Ich bleibe zu Hause, weil ich müde ___ (sein).", answer: "bin", hint: "weil + فع' در آخر: müde bin" },
+          { sentence: "Er glaubt, dass Deutsch schwer ___ (sein).", answer: "ist", hint: "dass + فع' در آخر: schwer ist" },
+          { sentence: "Sie kommt nicht, weil sie viel Arbeit ___ (haben).", answer: "hat", hint: "weil + فع' در آخر: Arbeit hat" },
+          { sentence: "Ich hoffe, dass du morgen Zeit ___ (haben).", answer: "hast", hint: "dass + فع' در آخر: Zeit hast" },
+          { sentence: "Wir gehen spazieren, weil das Wetter gut ___ (sein).", answer: "ist", hint: "weil + فع' در آخر: gut ist" },
+          { sentence: "Weißt du, ob er heute ___ (kommen)?", answer: "kommt", hint: "ob + فع' در آخر: heute kommt" },
+          { sentence: "Ich finde, dass das Buch interessant ___ (sein).", answer: "ist", hint: "dass + فع' در آخر: interessant ist" }
+        ]
       }
     ]
   },
-  "vocabData": [
+  vocabData: {
+    categories: [
+      {
+        title: "حروف ربط پیرو و واژگان مرتبط",
+        words: [
+          { de: "weil", fa: "چون، به‌خاطر اینکه", article: "-", plural: "-", examples: [{ de: "Ich lerne, weil ich die Prüfung bestehen will.", fa: "درس می‌خوانم، چون می‌خواهم امتحان را قبو' شوم." }] },
+          { de: "dass", fa: "که (حرف ربط مفعو'ی)", article: "-", plural: "-", examples: [{ de: "Ich glaube, dass er recht hat.", fa: "فکر می‌کنم که حق با اوست." }] },
+          { de: "wenn", fa: "وقتی/اگر", article: "-", plural: "-", examples: [{ de: "Wenn ich Zeit habe, komme ich.", fa: "اگر وقت داشته باشم، می‌آیم." }] },
+          { de: "als", fa: "وقتی که (گذشته)", article: "-", plural: "-", examples: [{ de: "Als ich jung war, spielte ich Fußball.", fa: "وقتی جوان بودم، فوتبا' بازی می‌کردم." }] },
+          { de: "ob", fa: "آیا (حرف ربط غیرمستقیم)", article: "-", plural: "-", examples: [{ de: "Ich weiß nicht, ob er kommt.", fa: "نمی‌دانم آیا او می‌آید." }] },
+          { de: "obwohl", fa: "اگرچه، با وجود اینکه", article: "-", plural: "-", examples: [{ de: "Obwohl es regnet, gehe ich spazieren.", fa: "اگرچه باران می‌آید، پیاده‌روی می‌روم." }] },
+          { de: "damit", fa: "به‌طوری که، تا", article: "-", plural: "-", examples: [{ de: "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann.", fa: "آ'مانی یاد می‌گیرم تا بتوانم در آ'مان کار کنم." }] },
+          { de: "woher", fa: "از کجا", article: "-", plural: "-", examples: [{ de: "Woher weißt du das?", fa: "از کجا این را می‌دانی؟" }] },
+          { de: "wohin", fa: "به کجا", article: "-", plural: "-", examples: [{ de: "Wohin fährst du?", fa: "به کجا می‌روی؟" }] },
+          { de: "wichtig", fa: "مهم", article: "-", plural: "-", examples: [{ de: "Es ist wichtig, gesund zu essen.", fa: "مهم است که سا'م بخوریم." }] },
+          { de: "richtig", fa: "درست، صحیح", article: "-", plural: "-", examples: [{ de: "Ist das richtig?", fa: "آیا این درست است؟" }] },
+          { de: "meinen", fa: "نظر داشتن، فکر کردن", article: "-", plural: "-", examples: [{ de: "Was meinst du dazu?", fa: "نظرت در این مورد چیست؟" }] },
+          { de: "glauben", fa: "باور کردن، فکر کردن", article: "-", plural: "-", examples: [{ de: "Ich glaube, dass er die Wahrheit sagt.", fa: "فکر می‌کنم که او حقیقت می‌گوید." }] },
+          { de: "hoffen", fa: "امیدوار بودن", article: "-", plural: "-", examples: [{ de: "Ich hoffe, dass alles gut geht.", fa: "امیدوارم که همه چیز خوب پیش برود." }] }
+        ]
+      }
+    ]
+  },
+  reading: [
     {
-      "de": "der Euro",
-      "fa": "یورو",
-      "usage": "Das kostet 5 Euro.[web:351][web:357]"
-    },
-    {
-      "de": "der Cent",
-      "fa": "سِنت",
-      "usage": "Ein Euro sind hundert Cent.[web:351]"
-    },
-    {
-      "de": "der Preis",
-      "fa": "قیمت",
-      "usage": "Der Preis ist zu hoch.[web:354]"
-    },
-    {
-      "de": "billig / günstig",
-      "fa": "ارزان / مقرون‌به‌صرفه",
-      "usage": "Das Angebot ist sehr günstig.[web:351][web:354]"
-    },
-    {
-      "de": "teuer",
-      "fa": "گران",
-      "usage": "Das ist sehr teuer.[web:351][web:357]"
-    },
-    {
-      "de": "bar",
-      "fa": "نقد",
-      "usage": "Ich zahle bar.[web:351]"
-    },
-    {
-      "de": "mit Karte zahlen",
-      "fa": "با کارت پرداخت کردن",
-      "usage": "Ich möchte mit Karte zahlen.[web:351][web:354]"
-    },
-    {
-      "de": "die Quittung / der Beleg",
-      "fa": "رسید",
-      "usage": "Ich brauche eine Quittung.[web:351]"
+      text: "Mein Freund Tom lernt sehr fleißig Deutsch, weil er nächstes Jahr nach Berlin ziehen möchte. Er glaubt, dass Berlin eine tolle Stadt ist. Ich weiß nicht, ob das stimmt, denn ich war noch nie dort. Er sagt, dass es dort viele interessante Jobs gibt. Obwohl Deutsch schwer ist, macht er gute Fortschritte. Er hofft, dass er die B1-Prüfung besteht. Ich finde, dass er sehr mutig ist, weil er alles für Deutschland aufgibt.",
+      questions: [
+        { question: "چرا تام آ'مانی یاد می‌گیرد؟", answer: "چون می‌خواهد سا' آینده به بر'ین برود." },
+        { question: "او درباره بر'ین چه فکر می‌کند؟", answer: "او فکر می‌کند که بر'ین شهر فوق‌ا'عاده‌ای است." },
+        { question: "او چه امتحانی را امیدوار است قبو' شود؟", answer: "امتحان B1." },
+        { question: "نویسنده درباره شجاعت تام چه می‌گوید؟", answer: "او فکر می‌کند که تام خی'ی شجاع است چون همه چیز را برای آ'مان رها می‌کند." }
+      ]
     }
   ],
-  "listening": [
+  writing: [
     {
-      "source": "Basic German Small Talk – Easy Conversations A1",
-      "link": "https://www.youtube.com/watch?v=yQ72TMsqWak",
-      "instructions": "۱) ویدیو را نگاه کن و به بخش‌های «Wie geht’s?», Wetter و Wochenende دقت کن.\n۲) ۵–۶ جمله‌ی کوتاه از ویدیو انتخاب کن (خصوصاً درباره‌ی هوا و آخر هفته) و ۳ بار با صدای بلند تکرار کن.[web:341]\n۳) همان جمله‌ها را با اطلاعات خودت عوض کن (مثلاً شهر، آخر هفته‌ی خودت).",
-      "title": "روز ۷۳: اسمال‌تاک – سلام و احوالپرسی + هوا + آخر هفته"
-    },
-    {
-      "source": "How to write Letter/Email in German A1 Exam",
-      "link": "https://www.asapgerman.com/email-in-german-a1-exam/",
-      "instructions": "۱) یکی از نمونه‌های Einladung یا Absage را بخوان و ساختارش را روی کاغذ خلاصه کن (سلام، دلیل، جزئیات، پایان).[web:339]\n۲) همان ساختار را با موضوع خودت (مثلاً Einladung zum Abendessen یا Absage fürs Kino) جایگزین کن.",
-      "title": "روز ۷۴: ایمیل/نامه‌ی غیررسمی کوتاه (Schreiben A1 – Freund)"
-    },
-    {
-      "source": "Telefonieren + Small Talk – Dialoge A1",
-      "link": "https://www.youtube.com/watch?v=QJW2Ltjx0Z0",
-      "instructions": "۱) یکی از دیالوگ‌های ساده را انتخاب کن و چندبار گوش بده؛ بعد سعی کن بدون نگاه به متن، همان دیالوگ را تکرار کنی.\n۲) عبارت‌های مفید را یادداشت کن (z.B. Guten Tag, hier ist … am Apparat. / Ich rufe an, weil …).[web:334][web:346]",
-      "title": "روز ۷۵: تمرین ترکیبی – تلفن + اسمال‌تاک + ایمیل (جمع‌بندی بلاک)"
-    },
-    {
-      "source": "Shopping – Wie viel kostet das? (A1)",
-      "link": "https://yourgermanway.de/courses/level-a1-beginner-anfanger/lesson/4-2-shopping-wie-viel-kostet-das/",
-      "instructions": "۱) متن درس را بخوان و به مثال‌های پرسیدن قیمت و جواب‌دادن دقت کن.\n۲) ۱۰ جمله‌ی «Wie viel kostet …?» با جواب‌های مختلف از درس روی کاغذ بنویس.\n۳) همه را با صدای بلند بخوان؛ بعد اسم محصول و عدد را با چیزهای واقعی لیست خرید خودت عوض کن.",
-      "title": "روز ۷۶: پول و قیمت – Wie viel kostet das?"
+      title: "نوشتن د'ای' یادگیری آ'مانی",
+      prompt: "توضیح دهید چرا آ'مانی یاد می‌گیرید. از weil و dass استفاده کنید.",
+      steps: [
+        { title: "مرح'ه ۱: د'ی' اص'ی", text: "چرا آ'مانی یاد می‌گیرید؟ از weil استفاده کنید.", example: { de: "Ich lerne Deutsch, weil ich in Deutschland studieren möchte.", fa: "آ'مانی یاد می‌گیرم، چون می‌خواهم در آ'مان تحصی' کنم." } },
+        { title: "مرح'ه ۲: نظر شما", text: "نظرتان درباره زبان آ'مانی چیست؟ از dass استفاده کنید.", example: { de: "Ich finde, dass Deutsch interessant ist.", fa: "فکر می‌کنم که آ'مانی جا'ب است." } },
+        { title: "مرح'ه ۳: هدف", text: "هدف شما چیست؟ از dass و weil استفاده کنید.", example: { de: "Ich hoffe, dass ich nächstes Jahr die B1-Prüfung bestehe.", fa: "امیدوارم که سا' آینده امتحان B1 را قبو' شوم." } }
+      ],
+      modelAnswer: "Ich lerne Deutsch, weil ich in Deutschland leben und arbeiten möchte. Ich finde, dass Deutsch eine schöne Sprache ist, obwohl die Grammatik manchmal schwer ist. Ich glaube, dass es wichtig ist, jeden Tag zu üben. Deshalb lerne ich jeden Tag mindestens eine Stunde. Ich hoffe, dass ich nächstes Jahr die B1-Prüfung bestehe. Meine Familie sagt, dass ich sehr fleißig bin. Das freut mich, weil es mir zeigt, dass ich auf dem richtigen Weg bin."
     }
   ],
-  "speaking": [
+  listening: [
     {
-      "pattern": "Hallo, wie geht es dir? – Mir geht es … . / Schönes Wetter heute, oder? / Was machst du am Wochenende?",
-      "exercise": "۱) یک دیالوگ ۸–۱۰ جمله‌ای بنویس که در آن دو نفر همدیگر را می‌بینند، حال هم را می‌پرسند، درباره‌ی هوا و آخر هفته صحبت می‌کنند.[web:344][web:347]\n۲) دیالوگ را ضبط کن؛ یک بار نقش هر دو طرف را خودت بازی کن.\n۳) سعی کن بعداً بدون نگاه به متن همین دیالوگ را دوباره بگویی.",
-      "title": "روز ۷۳: اسمال‌تاک – سلام و احوالپرسی + هوا + آخر هفته"
-    },
-    {
-      "pattern": "Liebe … / Lieber …, … Ich freue mich auf dich. Viele Grüße …",
-      "exercise": "۱) یک ایمیل کوتاه (۶–۸ جمله) برای دعوت به تولد یا Abendessen بنویس؛ بعد آن را با صدای بلند بخوان.[web:339]\n۲) یک ایمیل کوتاه دیگر بنویس که در آن عذرخواهی می‌کنی که نمی‌توانی بیایی (کمی شبیه مثال‌های Goethe A1).\n۳) هر دو متن را نگه‌دار؛ بعداً برای تمرین Schreiben A1 می‌توانی آن‌ها را فقط کمی تغییر بدهی.",
-      "title": "روز ۷۴: ایمیل/نامه‌ی غیررسمی کوتاه (Schreiben A1 – Freund)"
-    },
-    {
-      "pattern": "سناریو محور: ۱) مکالمه تلفنی ۲) اسمال‌تاک کوتاه ۳) خواندن ایمیلِ خودت با صدای بلند",
-      "exercise": "۱) سه دیالوگ کوتاه بنویس: یک تلفنی، یک حضوری (Small Talk)، و یک ایمیل (اما این‌بار آن را با صدای بلند بخوان انگار برای دوستت می‌خوانی).[web:341][web:338]\n۲) هر سه را پشت‌سر‌هم ضبط کن؛ این می‌شود تمرین فشرده‌ی ارتباطی روز ۷۵.\n۳) بعداً به ضبط گوش بده و دو جا را که بیشتر مکث داشتی علامت بزن؛ در روزهای بعد فقط روی همان بخش‌ها تمرکز کن.",
-      "title": "روز ۷۵: تمرین ترکیبی – تلفن + اسمال‌تاک + ایمیل (جمع‌بندی بلاک)"
-    },
-    {
-      "pattern": "Wie viel kostet …? – … kostet … Euro … Cent. / Ich zahle bar/mit Karte.",
-      "exercise": "۱) لیست خرید ۱۰ موردی بنویس و برای هر مورد سؤال/جواب قیمت بساز.\n۲) یک دیالوگ کوتاه در مغازه بساز: «Wie viel kostet das Brot? – 2 Euro 30. – Ich nehme es. Ich zahle mit Karte.» و آن را ضبط کن.\n۳) اگر خواستی خودت را چالش کنی، چند قیمت قاطی از ۱ تا ۹۹ Euro و چند Cent را سریع بلند بخوان (تمرین numbers + Preise).",
-      "title": "روز ۷۶: پول و قیمت – Wie viel kostet das?"
+      title: "weil و dass در مکا'مه",
+      source: "Deutsche Grammatik - Nebensätze",
+      link: "https://www.youtube.com/watch?v=sHFbZI7AYcY",
+      instructions: "به این ویدیو گوش دهید و توجه کنید که چطور weil و dass باعث می‌شوند فع' به انتهای جم'ه برود. ۵ مثا' بنویسید."
     }
   ],
-  "cultureTip": "[روز 73] اسمال‌تاک در آلمانی شاید به اندازه‌ی بعضی فرهنگ‌ها زیاد نباشد، ولی درباره‌ی Wetter و Wochenende تقریباً همه حرف می‌زنند؛ این دو موضوع امن‌ترین راه شروع مکالمه‌اند.[web:344][web:347]\\n\\n[روز 74] در Goethe A1، Schreiben Teil 2 تقریباً همیشه یک Brief/Email کوتاه مثل همین‌هاست؛ داشتن ۲–۳ قالب آماده (Einladung, Absage, Info fragen) کار را خیلی ساده می‌کند.[web:339]\\n\\n[روز 75] تلفن، اسمال‌تاک و ایمیل کوتاه سه فرم اصلی ارتباط در زندگی روزمره و امتحان‌های رسمی هستند؛ اگر این‌ها را در سطح A1 خوب تمرین کنی، حتی وقتی لغت زیاد بلد نیستی، می‌توانی ارتباط مؤثری بگیری.[web:344][web:338][web:339]\\n\\n[روز 76] در آلمان معمولاً قیمت‌ها روی محصول هست، اما در بازارها، هتل‌ها و حتی رستوران ممکن است نیاز داشته باشی بپرسی «Wie viel kostet das?»؛ دانستن چند عبارت کوتاه برای Preis و Zahlen استرس خرید را خیلی کم می‌کند.[web:354][web:351]"
+  speaking: [
+    {
+      title: "تمرین جم'ات پیرو",
+      pattern: "A: Warum lernst du Deutsch? B: Ich lerne Deutsch, weil ich in Deutschland leben möchte. Ich finde, dass es dort gute Möglichkeiten gibt.",
+      exercise: "به ۵ سؤا' «Warum?» جواب دهید و در هر جواب از weil و dass استفاده کنید."
+    }
+  ],
+  cultureTip: "در مکا'مات آ'مانی، استفاده از جم'ات پیرو نشان‌دهنده سطح با'اتر زبانی است. در امتحانات A2 و B1، انتظار می‌رود که بتوانید از weil و dass استفاده کنید. تفاوت denn و weil هم مهم است: denn برای مکا'مه روزمره و weil برای متن‌های رسمی‌تر ترجیح داده می‌شود.",
+  examData: {
+    questions: [
+      { question: "در جم'ه پیرو فع' کجا می‌رود؟", options: ["جایگاه دوم", "انتهای جم'ه", "قب' از فاع'", "بعد از فاع'"], answer: 1 },
+      { question: "کدام جم'ه صحیح است؟", options: ["Ich weiß, dass kommt er.", "Ich weiß, dass er kommt.", "Ich weiß, er dass kommt.", "Ich weiß, dass er kommt wird."], answer: 1 },
+      { question: "weil برای چه استفاده می‌شود؟", options: ["نتیجه", "د'ی'", "زمان", "شرط"], answer: 1 },
+      { question: "کدام جم'ه صحیح است؟", options: ["Er kommt nicht, weil ist er krank.", "Er kommt nicht, weil er krank ist.", "Er kommt nicht, weil er ist krank.", "Er kommt nicht, weil krank er ist."], answer: 1 },
+      { question: "dass چه معنایی دارد؟", options: ["چون", "که", "اگر", "وقتی"], answer: 1 },
+      { question: "کدام حرف ربط پیرو نیست؟", options: ["weil", "dass", "aber", "ob"], answer: 2 },
+      { question: "«Ich hoffe, dass du kommst.» فع' در کجاست؟", options: ["جایگاه ۲", "آخر جم'ه", "او' جم'ه", "وسط جم'ه"], answer: 1 },
+      { question: "کدام جم'ه صحیح است؟", options: ["Er sagt, dass er müde ist.", "Er sagt, dass ist er müde.", "Er sagt, er dass müde ist.", "Er sagt, dass er ist müde."], answer: 0 },
+      { question: "weil و denn هر دو برای چه هستند؟", options: ["بیان نتیجه", "بیان د'ی'", "بیان زمان", "بیان شرط"], answer: 1 },
+      { question: "کدام جم'ه از نظر گرامری صحیح است؟", options: ["Ich bin müde, weil habe ich schlecht geschlafen.", "Ich bin müde, weil ich schlecht geschlafen habe.", "Ich bin müde, weil ich habe schlecht geschlafen.", "Ich bin müde, weil geschlafen ich schlecht habe."], answer: 1 }
+    ]
+  }
 };

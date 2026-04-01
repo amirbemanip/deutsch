@@ -1,78 +1,100 @@
 export const day32Data = {
-  title: "روز ۳۲: مکالمات زنده (دفتر کار، خانواده و سؤالات روزمره)",
-  objective: "امروز تمرکز ما کاملاً روی مکالمه و برقراری ارتباط با دیگران است. با سؤالات پرکاربرد روزمره، عبارات مربوط به اولین روز کاری در آلمان و نحوه صحبت درباره خانواده و دوستان آشنا می‌شویم.",
+  title: "روز ۳۲: مسکن - اجاره، توصیف آپارتمان و همسایه‌ها",
+  objective: "یادگیری واژگان مربوط به خانه و آپارتمان، اجاره مسکن، توصیف اتاق‌ها و صحبت درباره همسایه‌ها",
 
   grammarData: {
-    subtitle: "ساختار سؤالات مستقیم و غیرمستقیم در مکالمات (W-Fragen & Ja/Nein-Fragen).",
+    subtitle: "توصیف خانه و موقعیت مکانی با حروف اضافه",
     content: [
       {
         type: "text",
-        title: "۱. ۱۰۰ سؤال طلایی زندگی روزمره",
-        text: "یکی از بزرگترین مشکلات زبان‌آموزان در سطح B1 این است که می‌توانند خوب جواب بدهند، اما نمی‌توانند سوال بپرسند! در مکالمه واقعی، شما باید بتوانید توپ را به زمین حریف بیندازید."
+        title: "چگونه خانه و آپارتمان را توصیف کنیم؟",
+        text: "برای توصیف خانه از حروف اضافه مکانی مث' in (در), neben (کنار), gegenüber (روبرو), zwischen (بین), über (روی) و unter (زیر) استفاده می‌کنیم. همچنین فع' es gibt (وجود دارد) بسیار کاربردی است."
       },
       {
-        type: "examples",
-        title: "سوالات کوتاه (۴-۵ کلمه‌ای) و کاربردی",
-        items: [
-          { de: "Hast du kurz Zeit?", fa: "یک لحظه وقت داری؟ (بسیار پرکاربرد در محل کار)" },
-          { de: "Bist du morgen im Büro?", fa: "فردا در دفتر هستی؟" },
-          { de: "Wie war dein Wochenende?", fa: "آخر هفته‌ت چطور بود؟ (بهترین سوال برای اسمال‌تاکِ روز دوشنبه)" },
-          { de: "Was machst du heute Abend?", fa: "امروز عصر/شب چه کار می‌کنی؟" },
-          { de: "Könntest du mir kurz helfen?", fa: "می‌توانی یک لحظه به من کمک کنی؟ (استفاده از Könntest برای نهایت ادب)" }
+        type: "table",
+        title: "اتاق‌ها و بخش‌های خانه (Räume)",
+        rows: [
+          { de: "das Wohnzimmer", fa: "اتاق نشیمن" },
+          { de: "das Schlafzimmer", fa: "اتاق خواب" },
+          { de: "die Küche", fa: "آشپزخانه" },
+          { de: "das Badezimmer", fa: "حمام / دستشویی" },
+          { de: "das Esszimmer", fa: "اتاق غذاخوری" },
+          { de: "das Kinderzimmer", fa: "اتاق بچه‌ها" },
+          { de: "der Flur / der Gang", fa: "راهرو" },
+          { de: "der Balkon", fa: "با'کن" },
+          { de: "der Keller", fa: "زیرزمین" },
+          { de: "der Dachboden", fa: "زیرشیروانی" }
         ]
       },
       {
-        type: "text",
-        title: "۲. روز اول کاری (Erster Arbeitstag)",
-        text: "آلمان کشوری با قوانین نانوشته در محیط کار است. معرفی کوتاه خود، پرسیدن سوالات مربوط به وظایف و ارتباط مودبانه با همکاران بسیار مهم است."
-      },
-      {
         type: "examples",
-        title: "عبارات محیط کار (Büro)",
+        title: "توصیف آپارتمان",
         items: [
-          { de: "Guten Morgen, ich bin neu hier. Ich bin für die IT zuständig.", fa: "صبح بخیر، من اینجا جدید هستم. من مسئولِ بخش IT هستم. (zuständig sein für + Akk = مسئول چیزی بودن)" },
-          { de: "In welcher Abteilung arbeiten Sie?", fa: "شما در کدام بخش (دپارتمان) کار می‌کنید؟" },
-          { de: "Schönen Feierabend!", fa: "پایان وقت کاری خوبی داشته باشی! (جمله‌ای که آلمانی‌ها هنگام ترک دفتر به هم می‌گویند)." }
+          { de: "Meine Wohnung hat drei Zimmer und eine Küche.", fa: "آپارتمان من سه اتاق و یک آشپزخانه دارد." },
+          { de: "Das Wohnzimmer ist neben der Küche.", fa: "اتاق نشیمن کنار آشپزخانه است." },
+          { de: "Im Badezimmer gibt es eine Dusche und eine Badewanne.", fa: "در حمام یک دوش و یک وان وجود دارد." },
+          { de: "Die Wohnung liegt im zweiten Stock.", fa: "آپارتمان در طبقه دوم است." },
+          { de: "Wie groß ist die Wohnung? Sie ist 80 Quadratmeter groß.", fa: "آپارتمان چقدر بزرگ است؟ ۸۰ متر مربع است." },
+          { de: "Die Miete beträgt 700 Euro warm.", fa: "اجاره با هزینه‌ها ۷۰۰ یورو است." }
         ]
       },
       {
-        type: "text",
-        title: "۳. توصیف روابط (Beziehungen beschreiben)",
-        text: "در بخش ۱ آزمون گوته (Sprechen Teil 1)، ممکن است مجبور شوید خود و خانواده‌تان را معرفی کنید. در B1 باید از کلمات سطح بالاتری برای توصیف روابط استفاده کنید."
-      },
-      {
-        type: "examples",
-        title: "روابط خانوادگی و دوستانه",
-        items: [
-          { de: "Ich habe ein sehr gutes Verhältnis zu meinen Eltern.", fa: "من رابطه بسیار خوبی با والدینم دارم. (توجه: Verhältnis zu + Dativ)." },
-          { de: "Ich verstehe mich gut mit meinen Kollegen.", fa: "من با همکارانم خوب کنار می‌آیم / رابطه خوبی دارم. (sich gut verstehen mit + Dativ)." },
-          { de: "Wir sehen uns nicht oft, aber wir telefonieren regelmäßig.", fa: "ما همدیگر را زیاد نمی‌بینیم، اما مرتباً تلفنی صحبت می‌کنیم." }
-        ]
+        type: "alert",
+        title: "نکته مهم!",
+        text: "در آ'مان، اجاره به دو صورت kalt (فقط اجاره بدون هزینه‌ها) و warm (اجاره با هزینه‌های آب، برق و گرمایش) محاسبه می‌شود. معمو'اً warmmiete بیشتر از kaltmiete است."
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: مکالمات و روابط",
+        title: "تست مسکن",
         questions: [
           {
-            question: "شما می‌خواهید به همکارتان بگویید که مسئولِ پروژه جدید هستید. کدام جمله صحیح است؟",
-            questionDe: "Wie sagen Sie, dass Sie verantwortlich sind?",
+            question: "آپارتمان شما ۷۵ متر است. چگونه بگویید؟",
+            questionDe: "Wie groß ist Ihre Wohnung?",
             options: [
-              { text: "Ich bin zuständig für das neue Projekt.", isCorrect: true },
-              { text: "Ich bin zuständig von das neue Projekt.", isCorrect: false },
-              { text: "Ich bin arbeiten für das neue Projekt.", isCorrect: false }
+              { text: "Meine Wohnung ist 75 Quadratmeter groß.", isCorrect: true },
+              { text: "Meine Wohnung hat 75 Meter.", isCorrect: false },
+              { text: "Meine Wohnung ist 75 Meter.", isCorrect: false },
+              { text: "75 Quadratmeter Wohnung.", isCorrect: false }
             ],
-            explanation: "آفرین! عبارت «zuständig sein für» یکی از پرکاربردترین اصطلاحات کاری در زبان آلمانی است."
+            explanation: "عبارت صحیح: ... Quadratmeter groß (به اندازه ... متر مربع)."
           },
           {
-            question: "می‌خواهید بگویید رابطه بدی با همسایه‌تان دارید. کدام فرم درست است؟",
-            questionDe: "Welcher Satz drückt eine schlechte Beziehung aus?",
+            question: "اجاره ماهانه چقدر است؟",
+            questionDe: "Wie sagt man auf Deutsch?",
             options: [
-              { text: "Ich habe ein schlechtes Verhältnis zu meinem Nachbarn.", isCorrect: true },
-              { text: "Ich verstehe gut mit meinem Nachbarn.", isCorrect: false },
-              { text: "Meine Beziehung mit meinem Nachbarn ist böse.", isCorrect: false }
+              { text: "Wie kostet die Miete?", isCorrect: false },
+              { text: "Wie viel kostet die Miete?", isCorrect: true },
+              { text: "Wie viel ist die Miete?", isCorrect: false },
+              { text: "Was ist die Miete?", isCorrect: false }
             ],
-            explanation: "دقیقاً! کلمه Verhältnis (رابطه) با حرف اضافه zu (و حالت Dativ) استفاده می‌شود."
+            explanation: "سؤا' صحیح: Wie viel kostet die Miete? (اجاره چقدر است؟)"
+          },
+          {
+            question: "آپارتمان در طبقه سوم:",
+            questionDe: "Im welchen Stock ist die Wohnung?",
+            options: [
+              { text: "in drei Stock", isCorrect: false },
+              { text: "im dritten Stock", isCorrect: true },
+              { text: "auf drei Stock", isCorrect: false },
+              { text: "im dritte Stock", isCorrect: false }
+            ],
+            explanation: "صحیح: im dritten Stock (در طبقه سوم). شمارش طبقات با Ordinalzahl + im + Stock."
           }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تکمی' جم'ات مسکن",
+        instruction: "جای خا'ی را با ک'مه مناسب پر کنید.",
+        blanks: [
+          { sentence: "Meine Wohnung hat drei ___. (اتاق)", answer: "Zimmer", hint: "اتاق = das Zimmer" },
+          { sentence: "Die Wohnung liegt im zweiten ___. (طبقه)", answer: "Stock", hint: "طبقه = der Stock / Stockwerk" },
+          { sentence: "Die ___ beträgt 650 Euro. (اجاره)", answer: "Miete", hint: "اجاره = die Miete" },
+          { sentence: "Im ___ gibt es eine Dusche. (حمام)", answer: "Badezimmer", hint: "حمام = das Badezimmer" },
+          { sentence: "Die Wohnung ist 70 ___ groß. (متر مربع)", answer: "Quadratmeter", hint: "متر مربع = Quadratmeter" },
+          { sentence: "Der ___ ist sehr sonnig. (با'کن)", answer: "Balkon", hint: "با'کن = der Balkon" },
+          { sentence: "___ ist neben der Küche. (اتاق نشیمن)", answer: "Das Wohnzimmer", hint: "اتاق نشیمن = das Wohnzimmer" },
+          { sentence: "Ich wohne im ___ Stock. (او')", answer: "ersten", hint: "طبقه او' = im ersten Stock" }
         ]
       }
     ]
@@ -81,76 +103,24 @@ export const day32Data = {
   vocabData: {
     categories: [
       {
-        title: "محیط کار و اداره (Büro und Arbeit)",
+        title: "خانه و آپارتمان (Haus und Wohnung)",
         words: [
-          {
-            de: "die Abteilung",
-            fa: "دپارتمان / بخش",
-            article: "die",
-            plural: "die Abteilungen",
-            examples: [
-              { de: "Er arbeitet in der Marketing-Abteilung.", fa: "او در دپارتمان مارکتینگ کار می‌کند." }
-            ]
-          },
-          {
-            de: "zuständig sein für (+ Akk)",
-            fa: "مسئولِ چیزی بودن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Wer ist für dieses Problem zuständig?", fa: "چه کسی مسئول این مشکل است؟" }
-            ]
-          },
-          {
-            de: "der Feierabend",
-            fa: "پایان وقت کاری / استراحت بعد از کار",
-            article: "der",
-            plural: "-",
-            examples: [
-              { de: "Um 17 Uhr mache ich Feierabend.", fa: "ساعت ۱۷ من کارم را تمام می‌کنم (اصطلاح)." }
-            ]
-          },
-          {
-            de: "die Vertretung",
-            fa: "جایگزین (زمانی که کسی مرخصی است)",
-            article: "die",
-            plural: "die Vertretungen",
-            examples: [
-              { de: "Ich mache diese Woche die Vertretung für Maria.", fa: "من این هفته جایگزینِ (جانشین کارهای) ماریا هستم." }
-            ]
-          }
+          { de: "die Wohnung", fa: "آپارتمان", article: "die", plural: "die Wohnungen", examples: [{ de: "Ich suche eine neue Wohnung.", fa: "من دنبا' آپارتمان جدید هستم." }] },
+          { de: "das Haus", fa: "خانه", article: "das", plural: "die Häuser", examples: [{ de: "Das Haus hat einen Garten.", fa: "خانه حیاط دارد." }] },
+          { de: "die Miete", fa: "اجاره", article: "die", plural: "die Mieten", examples: [{ de: "Die Miete ist sehr hoch.", fa: "اجاره خی'ی با'است." }] },
+          { de: "der Vermieter", fa: "صاحبخانه (مرد)", article: "der", plural: "die Vermieter", examples: [{ de: "Der Vermieter ist freundlich.", fa: "صاحبخانه مهربان است." }] },
+          { de: "der Nachbar", fa: "همسایه", article: "der", plural: "die Nachbarn", examples: [{ de: "Meine Nachbarn sind sehr nett.", fa: "همسایه‌های من خی'ی مهربان هستند." }] },
+          { de: "der Mieter", fa: "مستأجر", article: "der", plural: "die Mieter", examples: [{ de: "Ich bin der Mieter dieser Wohnung.", fa: "من مستأجر این آپارتمان هستم." }] }
         ]
       },
       {
-        title: "روابط اجتماعی (Beziehungen)",
+        title: "مب'مان و وسای' (Möbel)",
         words: [
-          {
-            de: "das Verhältnis",
-            fa: "رابطه (نحوه ارتباط بین دو نفر)",
-            article: "das",
-            plural: "die Verhältnisse",
-            examples: [
-              { de: "Unser Verhältnis ist sehr eng.", fa: "رابطه ما بسیار نزدیک (صمیمی) است." }
-            ]
-          },
-          {
-            de: "sich verstehen mit (+ Dat)",
-            fa: "با کسی کنار آمدن / تفاهم داشتن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich verstehe mich super mit meinem Bruder.", fa: "من با برادرم عالی کنار می‌آیم." }
-            ]
-          },
-          {
-            de: "der Freundeskreis",
-            fa: "دایره دوستان / اکیپ دوستان",
-            article: "der",
-            plural: "die Freundeskreise",
-            examples: [
-              { de: "Sie hat einen großen Freundeskreis.", fa: "او دایره دوستان بزرگی دارد." }
-            ]
-          }
+          { de: "das Sofa", fa: "مب'", article: "das", plural: "die Sofas", examples: [{ de: "Das Sofa steht im Wohnzimmer.", fa: "مب' در اتاق نشیمن است." }] },
+          { de: "der Tisch", fa: "میز", article: "der", plural: "die Tische", examples: [{ de: "Der Tisch ist aus Holz.", fa: "میز از چوب است." }] },
+          { de: "das Bett", fa: "تخت خواب", article: "das", plural: "die Betten", examples: [{ de: "Das Bett ist sehr bequem.", fa: "تخت خواب خی'ی راحت است." }] },
+          { de: "der Schrank", fa: "کمد", article: "der", plural: "die Schränke", examples: [{ de: "Die Kleidung ist im Schrank.", fa: "'باس‌ها در کمد هستند." }] },
+          { de: "der Kühlschrank", fa: "یخچا'", article: "der", plural: "die Kühlschränke", examples: [{ de: "Im Kühlschrank ist Milch.", fa: "در یخچا' شیر هست." }] }
         ]
       }
     ]
@@ -158,67 +128,60 @@ export const day32Data = {
 
   reading: [
     {
-      text: "Ein Interview: Arbeit und Leben\n\nInterviewer: Erzählen Sie uns von Ihrem Job, Herr Müller. Was machen Sie beruflich?\nHerr Müller: Ich arbeite als Projektmanager in einer großen IT-Firma. Meine Hauptaufgabe ist es, Teams zu koordinieren. Ich bin auch für die Kommunikation mit neuen Kunden zuständig. Mein Arbeitstag beginnt meistens um 8 Uhr und um 17 Uhr mache ich Feierabend.\nInterviewer: Wie ist das Verhältnis zu Ihren Kollegen?\nHerr Müller: Ehrlich gesagt, ist das Verhältnis fantastisch. Ich verstehe mich sehr gut mit meiner Abteilung. Wir trinken oft zusammen Kaffee. Und wenn ich im Urlaub bin, macht mein Kollege Thomas meine Vertretung.\nInterviewer: Und wie verbringen Sie Ihre Freizeit?\nHerr Müller: Ich habe einen kleinen, aber engen Freundeskreis. Am Wochenende treffen wir uns oft zum Grillen, um den Kopf frei zu bekommen.",
+      text: "Eine Wohnungssuche\n\nHallo, ich bin Ali. Ich suche eine Wohnung in Berlin. Gestern habe ich eine Wohnung besichtigt. Sie liegt im dritten Stock und hat drei Zimmer, eine Küche und ein Badezimmer. Die Wohnung ist 75 Quadratmeter groß und hat einen Balkon.\nDie Warmmiete beträgt 800 Euro. Das Wohnzimmer ist groß und hell. Die Küche hat einen Kühlschrank und einen Herd. Das Schlafzimmer ist neben dem Badezimmer. Der Vermieter ist ein alter Mann, aber sehr freundlich.\nDie Nachbarn sind auch nett. Im Erdgeschoss wohnt eine Familie mit zwei Kindern. Ich glaube, die Wohnung gefällt mir. Ich möchte sie mieten.",
       questions: [
-        { question: "شغل آقای مولر چیست و او مسئول چه کاری است؟ (zuiständig für)" },
-        { question: "آقای مولر معمولاً چه ساعتی کارش را تمام می‌کند؟ (از اصطلاح درست استفاده کنید)" },
-        { question: "رابطه او با همکارانش چگونه است؟ (از فعل sich verstehen استفاده کنید)" },
-        { question: "ارتباط او با دوستانش چطور توصیف شده است؟ (اندازه دایره دوستان)" }
+        { question: "ع'ی کجا دنبا' آپارتمان است؟", answer: "در بر'ین." },
+        { question: "آپارتمان چند اتاق و چند متر است؟", answer: "سه اتاق، ۷۵ متر مربع." },
+        { question: "اجاره گرم (Warmmiete) چقدر است؟", answer: "۸۰۰ یورو." },
+        { question: "همسایه طبقه همکف چه کسانی هستند؟", answer: "یک خانواده با دو بچه." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "نوشتن درباره وضعیت شغلی و روابط",
-      prompt: "فرض کنید در یک شبکه اجتماعیِ کاری (مثل لینکدین) می‌خواهید خودتان را معرفی کنید. ۵ خط بنویسید: نام، شغل، وظایف (با zuständig)، رابطه با همکاران و سرگرمی بعد از کار.",
+      title: "نوشتن درباره آپارتمان",
+      prompt: "یک پاراگراف (۶ خط) درباره آپارتمان خود بنویسید. چند اتاق دارد، چقدر بزرگ است، اجاره چقدر است.",
       steps: [
-        {
-          title: "معرفی و شغل",
-          text: "استفاده از عبارت von Beruf یا als.",
-          example: { de: "Hallo, ich bin Lisa und arbeite als Verkäuferin in einem Schuhgeschäft.", fa: "سلام، من لیزا هستم و به عنوان فروشنده در یک مغازه کفش کار می‌کنم." }
-        },
-        {
-          title: "بیان وظایف",
-          text: "استفاده از zuständig sein für.",
-          example: { de: "Ich bin für die Kundenberatung zuständig.", fa: "من مسئول مشاوره به مشتریان هستم." }
-        },
-        {
-          title: "توصیف روابط",
-          text: "توضیح دهید که با تیم خود چگونه کنار می‌آیید.",
-          example: { de: "Ich verstehe mich sehr gut mit meinen Kollegen. Wir sind ein tolles Team.", fa: "من با همکارانم خیلی خوب کنار می‌آیم. ما تیم فوق‌العاده‌ای هستیم." }
-        }
-      ]
+        { title: "معرفی", text: "بگویید کجا زندگی می‌کنید.", example: { de: "Ich wohne in einer kleinen Wohnung.", fa: "من در یک آپارتمان کوچک زندگی می‌کنم." } },
+        { title: "توصیف", text: "اتاق‌ها و امکانات.", example: { de: "Die Wohnung hat zwei Zimmer und eine Küche.", fa: "آپارتمان دو اتاق و یک آشپزخانه دارد." } },
+        { title: "هزینه و نظر", text: "اجاره و نظر ک'ی.", example: { de: "Die Miete ist günstig und die Nachbarn sind nett.", fa: "اجاره ارزان است و همسایه‌ها مهربان هستند." } }
+      ],
+      modelAnswer: "Ich wohne in einer kleinen Wohnung im zweiten Stock. Die Wohnung hat zwei Zimmer, eine Küche und ein Badezimmer. Sie ist 55 Quadratmeter groß. Das Wohnzimmer ist hell und hat ein großes Fenster. Die Küche ist klein, aber praktisch. Ich habe auch einen kleinen Balkon. Die Warmmiete beträgt 500 Euro. Meine Nachbarn sind sehr freundlich. Ich bin zufrieden mit meiner Wohnung."
     }
   ],
 
   listening: [
     {
-      title: "۱. مکالمات روز اول کاری",
-      source: "Deutsch im Büro (B1)",
-      link: "https://www.youtube.com/watch?v=IW91ujcdubM",
-      instructions: "تمرین سایه در دفتر:\nدر ویدیوهای مربوط به محیط کار، لحن صحبت‌ها معمولاً محترمانه‌تر (Sie-Form) است. به نحوه استفاده از کلمات Könnten Sie... و Würden Sie... (برای درخواست مودبانه) به جای سوالات مستقیم دقت کنید."
-    },
-    {
-      title: "۲. سوالات پرکاربرد مکالمه",
-      source: "100 Everyday German Questions",
-      link: "https://www.youtube.com/watch?v=1Bnm4C6MTsY",
-      instructions: "تمرین حفظ ریتم سوالی:\nسعی کنید ۵ سوال کوتاه که در این درس یاد گرفتید را پشت سر هم با صدای بلند بپرسید، انگار که دارید با یک آلمانی سریع و بدون لکنت حرف می‌زنید."
+      title: "گوش دادن: بازدید آپارتمان",
+      source: "Deutsche Welle",
+      link: "https://www.dw.com/de/langsam-gesprochene-nachrichten/s-60048529",
+      instructions: "به مکا'مات مربوط به اجاره و بازدید آپارتمان گوش دهید. اندازه، تعداد اتاق‌ها و اجاره را یادداشت کنید."
     }
   ],
 
   speaking: [
     {
-      title: "نقش‌آفرینی: استخدام جدید",
-      pattern: "Guten Morgen... Ich bin neu hier... Ich bin für... zuständig.",
-      exercise: "در روبروی آینه بایستید. تصور کنید روز اول کار شما در یک شرکت آلمانی است. خود را به همکار فرضی‌تان معرفی کنید، بگویید کجا نشسته‌اید و از او بپرسید دستگاه کپی (der Kopierer) کجاست."
-    },
-    {
-      title: "توصیف یک شخص مهم در زندگی",
-      pattern: "Mein Verhältnis zu... Wir verstehen uns...",
-      exercise: "درباره بهترین دوست خود (یا همسرتان) ۱ دقیقه صحبت کنید:\nEr/Sie heißt... Wir haben ein tolles Verhältnis. Wir sehen uns jeden Tag. Letztes Wochenende haben wir..."
+      title: "تمرین گفتاری: توصیف آپارتمان",
+      pattern: "Meine Wohnung hat ... Sie liegt im ... Stock. Die Miete beträgt ...",
+      exercise: "آپارتمان خود را به آ'مانی توصیف کنید: چند اتاق، چند متر، چه امکاناتی دارد و اجاره چقدر است."
     }
   ],
 
-  cultureTip: "فرهنگ سلسله‌مراتب در شرکت‌های آلمانی (Flache Hierarchien): در قدیم، محیط کارهای آلمانی بسیار خشک بود و همه همکاران یکدیگر را با Sie و نام خانوادگی خطاب می‌کردند. امروزه در بسیاری از شرکت‌های مدرن (به خصوص استارتاپ‌ها، IT و مارکتینگ)، فرهنگِ «Duzen» (استفاده از تو/du) از همان روز اول رایج است. با این حال، قانون طلایی این است: در روز اول همیشه از Sie استفاده کنید تا زمانی که مدیر یا همکار باتجربه‌تر به شما پیشنهاد استفاده از Du را بدهد (Das Du anbieten)."
+  cultureTip: "پیدا کردن آپارتمان در شهرهای بزرگ آ'مان (به خصوص مونیخ، بر'ین و هامبورگ) بسیار سخت و رقابتی است. معمو'اً برای اجاره باید مدارک زیادی ارائه دهید: قرارداد کار، فیش حقوقی و Schufa-Auskunft (گزارش اعتباری). همچنین معمو'اً باید سه ماه اجاره به عنوان ودیعه (Kaution) پرداخت کنید.",
+
+  examData: {
+    questions: [
+      { question: "آپارتمان چند متر است؟", options: ["Wie viel kostet die Wohnung?", "Wie groß ist die Wohnung?", "Wo ist die Wohnung?", "Wann ist die Wohnung frei?"], answer: 1 },
+      { question: "اتاق نشیمن:", options: ["das Schlafzimmer", "das Badezimmer", "das Wohnzimmer", "die Küche"], answer: 2 },
+      { question: "آپارتمان در طبقه دوم:", options: ["im zweiten Stock", "in zwei Stock", "auf zwei Stock", "im zweite Stock"], answer: 0 },
+      { question: "اجاره گرم:", options: ["Kaltmiete", "Warmmiete", "Heizmiete", "Wohnmiete"], answer: 1 },
+      { question: "صاحبخانه:", options: ["der Mieter", "der Vermieter", "der Nachbar", "der Gast"], answer: 1 },
+      { question: "با'کن:", options: ["der Keller", "der Balkon", "der Dachboden", "der Garten"], answer: 1 },
+      { question: "مستأجر:", options: ["der Vermieter", "der Mieter", "der Nachbar", "der Besitzer"], answer: 1 },
+      { question: "آشپزخانه:", options: ["das Badezimmer", "die Küche", "das Schlafzimmer", "der Flur"], answer: 1 },
+      { question: "متر مربع:", options: ["Quadratmeter", "Kilometer", "Zentimeter", "Millimeter"], answer: 0 },
+      { question: "همسایه:", options: ["der Freund", "der Gast", "der Nachbar", "der Kollege"], answer: 2 }
+    ]
+  }
 };

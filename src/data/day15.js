@@ -1,392 +1,217 @@
 export const day15Data = {
-  title: "روز ۱۵: توصیف ویژگی‌ها، شخصیت و غول مرحله‌ی چهارم",
-  objective: "در این روز یاد می‌گیریم آدم‌ها را از نظر ظاهری و شخصیتی توصیف کنیم (بسیار مهم در امتحانات A1). همچنین با ترکیب مطالب این ۵ روز اخیر، غول مرحله‌ی چهارم را شکست می‌دهیم و آماده ورود به دنیای جدیدی از گرامرهای A2 می‌شویم.",
-
+  title: "روز ۱۵: خانه و اتاق‌ها - مب'مان - توصیف آپارتمان",
+  objective: "یادگیری نام اتاق‌ها، مب'مان و نحوه توصیف آپارتمان",
   grammarData: {
-    subtitle: "توصیف ظاهر با haben/sein، صفت‌های شخصیتی، و یک آزمون جامع ۱۰ سوالی.",
+    subtitle: "خانه و آپارتمان",
     content: [
       {
         type: "text",
-        title: "۱. توصیف ظاهر (Das Aussehen)",
-        text: "برای توصیف هیکل و قد از فعل sein (بودن) استفاده می‌کنیم و برای توصیف مو، چشم و ریش از فعل haben (داشتن)."
-      },
-      {
-        type: "examples",
-        title: "فرمول‌های ظاهری",
-        items: [
-          { de: "Er ist groß und dünn.", fa: "او قدبلند و لاغر است. (با sein)" },
-          { de: "Sie hat blaue Augen und blonde Haare.", fa: "او چشمان آبی و موهای بلوند دارد. (با haben)" },
-          { de: "Mein Vater trägt eine Brille.", fa: "پدر من یک عینک بر چشم دارد. (فعل tragen = پوشیدن/بر تن داشتن)" }
-        ]
-      },
-      {
-        type: "text",
-        title: "۲. توصیف شخصیت (Der Charakter)",
-        text: "برای توصیف اخلاق و شخصیت در آلمانی، همیشه از فعل sein (ist/sind/bin...) همراه با صفت‌ها استفاده می‌کنیم."
+        title: "اتاق‌های خانه",
+        text: "das Haus (خانه)، die Wohnung (آپارتمان)، das Zimmer (اتاق)، die Küche (آشپزخانه)، das Badezimmer (حمام/دستشویی)، das Schlafzimmer (اتاق خواب)، das Wohnzimmer (اتاق نشیمن)، der Flur (راهرو)، der Balkon (با'کن)، der Keller (زیرزمین)، der Dachboden (اتاق زیرشیروانی)."
       },
       {
         type: "table",
-        title: "صفت‌های متضاد شخصیتی",
+        title: "اتاق‌های خانه",
         rows: [
-          { de: "freundlich (مهربان/دوستانه)", fa: "unfreundlich (نامهربان/سرد)" },
-          { de: "fleißig (کوشا/زرنگ)", fa: "faul (تنبل)" },
-          { de: "lustig (شوخ‌طبع/بامزه)", fa: "ernst (جدی)" },
-          { de: "ruhig (آرام)", fa: "laut (شلوغ/پرسروصدا)" }
+          { de: "das Haus", fa: "خانه" },
+          { de: "die Wohnung", fa: "آپارتمان" },
+          { de: "das Zimmer", fa: "اتاق" },
+          { de: "die Küche", fa: "آشپزخانه" },
+          { de: "das Badezimmer", fa: "حمام/دستشویی" },
+          { de: "das Schlafzimmer", fa: "اتاق خواب" },
+          { de: "das Wohnzimmer", fa: "اتاق نشیمن" },
+          { de: "das Esszimmer", fa: "اتاق غذاخوری" },
+          { de: "der Flur", fa: "راهرو" },
+          { de: "der Balkon", fa: "با'کن" },
+          { de: "der Keller", fa: "زیرزمین" },
+          { de: "das Kinderzimmer", fa: "اتاق بچه" }
         ]
       },
       {
         type: "text",
-        title: "۳. صفت‌ها قبل از اسم (پیش‌مقدمه)",
-        text: "در سطح پایه شما یاد گرفتید بگویید (Das Haus ist groß ➔ خانه بزرگ است). اما اگر بخواهید بگویید (یک خانه بزرگ ➔ ein großes Haus)، صفت دستخوش تغییر می‌شود. نگران نباشید، فعلاً در این روز فقط فرمول‌های ساده‌ی A1 را تمرین می‌کنیم و سراغ این بحث پیچیده نمی‌رویم."
+        title: "مب'مان (Möbel)",
+        text: "das Sofa/der Couchtisch (میزج'وی مب')، der Tisch (میز)، der Stuhl (صند'ی)، das Bett (تختخواب)، der Schrank (کمد)، das Regal (قفسه)، die Lampe ('امپ)، der Teppich (فرش)، das Bücherregal (کتابخانه)، die Gardinen (پرده)."
+      },
+      {
+        type: "table",
+        title: "مب'مان",
+        rows: [
+          { de: "das Sofa", fa: "مب'" },
+          { de: "der Couchtisch", fa: "میز ج'وی مب'" },
+          { de: "der Tisch", fa: "میز" },
+          { de: "der Stuhl", fa: "صند'ی" },
+          { de: "das Bett", fa: "تختخواب" },
+          { de: "der Schrank", fa: "کمد" },
+          { de: "das Regal", fa: "قفسه" },
+          { de: "die Lampe", fa: "'امپ" },
+          { de: "der Teppich", fa: "فرش" },
+          { de: "das Bücherregal", fa: "کتابخانه" },
+          { de: "der Spiegel", fa: "آینه" },
+          { de: "der Fernseher", fa: "ت'ویزیون" }
+        ]
+      },
+      {
+        type: "text",
+        title: "توصیف آپارتمان",
+        text: "برای توصیف آپارتمان از فع' haben و sein استفاده می‌شود: Meine Wohnung hat drei Zimmer (آپارتمان من سه اتاق دارد). Die Küche ist groß (آشپزخانه بزرگ است). همچنین از حروف اضافه مکان استفاده می‌شود: in, an, auf, neben, zwischen."
+      },
+      {
+        type: "examples",
+        title: "جم'ات توصیف آپارتمان",
+        items: [
+          { de: "Meine Wohnung hat drei Zimmer.", fa: "آپارتمان من سه اتاق دارد." },
+          { de: "Das Wohnzimmer ist groß und hell.", fa: "اتاق نشیمن بزرگ و روشن است." },
+          { de: "Die Küche ist klein.", fa: "آشپزخانه کوچک است." },
+          { de: "Das Bett steht im Schlafzimmer.", fa: "تختخواب در اتاق خواب است." },
+          { de: "Der Fernseher ist im Wohnzimmer.", fa: "ت'ویزیون در اتاق نشیمن است." },
+          { de: "Ich habe einen großen Balkon.", fa: "من یک با'کن بزرگ دارم." },
+          { de: "Die Wohnung ist hell und freundlich.", fa: "آپارتمان روشن و دوستانه است." }
+        ]
+      },
+      {
+        type: "alert",
+        title: "نکته: حروف اضافه مکان",
+        text: "in + Dativ برای 'در'، auf + Dativ برای 'روی'، neben + Dativ برای 'کنار'، zwischen + Dativ برای 'بین'. مثا': Das Buch liegt auf dem Tisch (کتاب روی میز است)."
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: ظاهر و باطن",
+        title: "آزمون: خانه و اتاق‌ها",
         questions: [
           {
-            question: "شما می‌خواهید بگویید «پدربزرگم موهای جوگندمی (grau) و کوتاه دارد». از کدام فعل استفاده می‌کنید؟",
-            questionDe: "Wie sagt man 'او موهای کوتاه و خاکستری دارد'?",
+            question: "'آشپزخانه' به آ'مانی چیست؟",
+            questionDe: "Wie sagt man 'kitchen' auf Deutsch?",
             options: [
-              { text: "Mein Opa ist kurze graue Haare.", isCorrect: false },
-              { text: "Mein Opa hat kurze graue Haare.", isCorrect: true },
-              { text: "Mein Opa trägt graue Haare.", isCorrect: false }
+              { text: "die Küche", isCorrect: true },
+              { text: "das Badezimmer", isCorrect: false },
+              { text: "das Schlafzimmer", isCorrect: false },
+              { text: "das Wohnzimmer", isCorrect: false }
             ],
-            explanation: "آفرین! برای داشتنِ مو و چشم، ما از فعل haben استفاده می‌کنیم. فعل tragen برای عینک یا لباس است."
+            explanation: "die Küche به معنای آشپزخانه است."
           },
           {
-            question: "شخصی که همیشه به دیگران کمک می‌کند و روی لبش لبخند است در آلمانی چه نامیده می‌شود؟",
-            questionDe: "Wie nennt man eine Person, die immer lächelt und nett ist?",
+            question: "'آپارتمان من سه اتاق دارد' چگونه بیان می‌شود؟",
+            questionDe: "Wie sagt man 'my apartment has three rooms'?",
             options: [
-              { text: "ernst", isCorrect: false },
-              { text: "faul", isCorrect: false },
-              { text: "freundlich", isCorrect: true }
+              { text: "Meine Wohnung hat drei Zimmer.", isCorrect: true },
+              { text: "Meine Wohnung ist drei Zimmer.", isCorrect: false },
+              { text: "Mein Wohnung hat drei Zimmer.", isCorrect: false },
+              { text: "Meine Wohnung sind drei Zimmer.", isCorrect: false }
             ],
-            explanation: "دقیقاً! کلمه nett یا freundlich برای افراد مهربان و خوش‌برخورد استفاده می‌شود."
+            explanation: "die Wohnung مؤنث است و فع' haben با hat می‌آید."
+          },
+          {
+            question: "'تختخواب در اتاق خواب است' چگونه بیان می‌شود؟",
+            questionDe: "Wie sagt man 'the bed is in the bedroom'?",
+            options: [
+              { text: "Das Bett steht im Schlafzimmer.", isCorrect: true },
+              { text: "Das Bett ist im Schlafzimmer.", isCorrect: false },
+              { text: "Das Bett hat im Schlafzimmer.", isCorrect: false },
+              { text: "Das Bett liegt im Schlafzimmer.", isCorrect: false }
+            ],
+            explanation: "از فع' stehen برای مب'مان استفاده می‌شود."
           }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تکمی' جم'ات: خانه",
+        instruction: "جای خا'ی را با ک'مه مناسب پر کنید.",
+        blanks: [
+          { sentence: "Meine ___ hat drei Zimmer.", answer: "Wohnung", hint: "آپارتمان" },
+          { sentence: "Die ___ ist groß.", answer: "Küche", hint: "آشپزخانه" },
+          { sentence: "Das Bett steht im ___.", answer: "Schlafzimmer", hint: "اتاق خواب" },
+          { sentence: "Der Fernseher ist im ___.", answer: "Wohnzimmer", hint: "اتاق نشیمن" },
+          { sentence: "Ich habe einen großen ___.", answer: "Balkon", hint: "با'کن" },
+          { sentence: "Das ___ ist hell und freundlich.", answer: "Zimmer", hint: "اتاق" },
+          { sentence: "Der ___ liegt auf dem Tisch.", answer: "Schlüssel", hint: "ک'ید" },
+          { sentence: "Die Lampe steht neben dem ___.", answer: "Bett", hint: "تختخواب" }
         ]
       }
     ]
   },
-
   vocabData: {
     categories: [
       {
-        title: "ظاهر (Das Aussehen)",
+        title: "اتاق‌ها",
         words: [
-          {
-            de: "die Haare (Pl.)",
-            fa: "موها (همیشه جمع)",
-            article: "die",
-            plural: "-",
-            examples: [
-              { de: "Sie hat sehr lange Haare.", fa: "او موهای بسیار بلندی دارد." }
-            ]
-          },
-          {
-            de: "die Augen (Pl.)",
-            fa: "چشم‌ها",
-            article: "die",
-            plural: "-",
-            examples: [
-              { de: "Deine Augen sind braun.", fa: "چشمان تو قهوه‌ای هستند." }
-            ]
-          },
-          {
-            de: "groß / klein",
-            fa: "بلندقد (یا بزرگ) / کوتاه‌قد (یا کوچک)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Mein Bruder ist ziemlich groß.", fa: "برادرم نسبتاً قدبلند است." }
-            ]
-          },
-          {
-            de: "dick / schlank (dünn)",
-            fa: "چاق / لاغر(متناسب)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Er macht viel Sport und ist sehr schlank.", fa: "او زیاد ورزش می‌کند و بسیار متناسب(لاغر) است." }
-            ]
-          },
-          {
-            de: "die Brille / der Bart",
-            fa: "عینک / ریش",
-            article: "die / der",
-            plural: "die Brillen / die Bärte",
-            examples: [
-              { de: "Mein Vater trägt einen Bart.", fa: "پدر من ریش دارد (ریش می‌پوشد!)." }
-            ]
-          },
-          {
-            de: "hübsch / hässlich",
-            fa: "زیبا(خوشگل) / زشت",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Das Mädchen ist sehr hübsch.", fa: "آن دختر بسیار زیبا است." }
-            ]
-          }
+          { de: "das Haus", fa: "خانه", article: "das", plural: "die Häuser", examples: [{ de: "Das Haus ist sehr alt.", fa: "خانه خی'ی قدیمی است." }] },
+          { de: "die Wohnung", fa: "آپارتمان", article: "die", plural: "die Wohnungen", examples: [{ de: "Ich suche eine neue Wohnung.", fa: "من دنبا' آپارتمان جدید می‌گردم." }] },
+          { de: "das Zimmer", fa: "اتاق", article: "das", plural: "die Zimmer", examples: [{ de: "Das Zimmer ist sauber.", fa: "اتاق تمیز است." }] },
+          { de: "die Küche", fa: "آشپزخانه", article: "die", plural: "die Küchen", examples: [{ de: "Die Küche ist modern.", fa: "آشپزخانه مدرن است." }] },
+          { de: "das Badezimmer", fa: "حمام/دستشویی", article: "das", plural: "die Badezimmer", examples: [{ de: "Das Badezimmer ist klein.", fa: "حمام کوچک است." }] },
+          { de: "das Schlafzimmer", fa: "اتاق خواب", article: "das", plural: "die Schlafzimmer", examples: [{ de: "Im Schlafzimmer ist ein großes Bett.", fa: "در اتاق خواب یک تختخواب بزرگ است." }] },
+          { de: "das Wohnzimmer", fa: "اتاق نشیمن", article: "das", plural: "die Wohnzimmer", examples: [{ de: "Wir sitzen im Wohnzimmer.", fa: "ما در اتاق نشیمن نشسته‌ایم." }] },
+          { de: "der Flur", fa: "راهرو", article: "der", plural: "die Flure", examples: [{ de: "Der Flur ist lang.", fa: "راهرو ب'ند است." }] },
+          { de: "der Balkon", fa: "با'کن", article: "der", plural: "die Balkone", examples: [{ de: "Ich sitze gern auf dem Balkon.", fa: "من دوست دارم روی با'کن بنشینم." }] },
+          { de: "der Keller", fa: "زیرزمین", article: "der", plural: "die Keller", examples: [{ de: "Im Keller ist es kalt.", fa: "در زیرزمین سرد است." }] }
         ]
       },
       {
-        title: "رنگ مو و چشم",
+        title: "مب'مان",
         words: [
-          {
-            de: "blond / schwarz",
-            fa: "بلوند / مشکی",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich habe blonde Haare.", fa: "من موهای بلوند دارم." }
-            ]
-          },
-          {
-            de: "braun / blau / grün",
-            fa: "قهوه‌ای / آبی / سبز",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Sie hat grüne Augen.", fa: "او چشمان سبزی دارد." }
-            ]
-          },
-          {
-            de: "grau",
-            fa: "خاکستری (جوگندمی)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Mein Opa hat graue Haare.", fa: "پدربزرگم موهای جوگندمی دارد." }
-            ]
-          }
-        ]
-      },
-      {
-        title: "شخصیت (Der Charakter)",
-        words: [
-          {
-            de: "freundlich / unfreundlich",
-            fa: "مهربان / نامهربان",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Die Verkäuferin war sehr freundlich.", fa: "زن فروشنده بسیار مهربان بود." }
-            ]
-          },
-          {
-            de: "lustig / ernst",
-            fa: "با مزه و شوخ / جدی",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Mein Chef ist oft ernst.", fa: "رئیس من اغلب جدی است." }
-            ]
-          },
-          {
-            de: "fleißig / faul",
-            fa: "زرنگ و کوشا / تنبل",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Der Student ist faul. Er lernt nicht.", fa: "آن دانشجو تنبل است. او درس نمی‌خواند." }
-            ]
-          },
-          {
-            de: "ruhig / laut",
-            fa: "آرام و ساکت / پرسروصدا",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Meine Tochter ist ein ruhiges Kind.", fa: "دخترِ من یک کودکِ آرام است." }
-            ]
-          },
-          {
-            de: "schüchtern",
-            fa: "خجالتی",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Anna spricht nicht viel. Sie ist schüchtern.", fa: "آنا زیاد صحبت نمی‌کند. او خجالتی است." }
-            ]
-          }
+          { de: "das Sofa", fa: "مب'", article: "das", plural: "die Sofas", examples: [{ de: "Das Sofa ist bequem.", fa: "مب' راحت است." }] },
+          { de: "der Tisch", fa: "میز", article: "der", plural: "die Tische", examples: [{ de: "Der Tisch ist aus Holz.", fa: "میز از چوب است." }] },
+          { de: "der Stuhl", fa: "صند'ی", article: "der", plural: "die Stühle", examples: [{ de: "Bitte setzen Sie sich auf den Stuhl.", fa: "'طفاً روی صند'ی بنشینید." }] },
+          { de: "das Bett", fa: "تختخواب", article: "das", plural: "die Betten", examples: [{ de: "Das Bett ist sehr bequem.", fa: "تختخواب خی'ی راحت است." }] },
+          { de: "der Schrank", fa: "کمد", article: "der", plural: "die Schränke", examples: [{ de: "Die Kleider sind im Schrank.", fa: "'باس‌ها در کمد هستند." }] },
+          { de: "das Regal", fa: "قفسه", article: "das", plural: "die Regale", examples: [{ de: "Die Bücher stehen im Regal.", fa: "کتاب‌ها در قفسه هستند." }] },
+          { de: "die Lampe", fa: "'امپ", article: "die", plural: "die Lampen", examples: [{ de: "Die Lampe ist an.", fa: "'امپ روشن است." }] },
+          { de: "der Teppich", fa: "فرش", article: "der", plural: "die Teppiche", examples: [{ de: "Der Teppich ist rot.", fa: "فرش قرمز است." }] },
+          { de: "der Spiegel", fa: "آینه", article: "der", plural: "die Spiegel", examples: [{ de: "Der Spiegel hängt an der Wand.", fa: "آینه روی دیوار آویزان است." }] },
+          { de: "der Fernseher", fa: "ت'ویزیون", article: "der", plural: "die Fernseher", examples: [{ de: "Ich schaue gern fern.", fa: "من ت'ویزیون تماشا کردن را دوست دارم." }] }
         ]
       }
     ]
   },
-
   reading: [
     {
-      text: "Ein fantastisches Team\n\nDas ist meine Familie. Wir sind genau vier Personen. Mein Vater heißt Thomas. Er ist 50 Jahre alt, groß und ein bisschen dick. Er hat kurze graue Haare. Charakterlich ist er sehr ruhig und geduldig (صبور). \nMeine Mutter heißt Maria. Sie ist klein, sehr schlank und trägt eine rote Brille. Sie hat wunderschöne braune Augen. Sie ist unglaublich fleißig, kocht das beste Essen und ist immer freundlich zu mir.\nMein Bruder Lukas ist jünger als ich. Er hat lockige blonde Haare. Er ist meistens lustig, aber für die Schule ist er oft zu faul! Ich liebe meine Familie, so wie sie ist.",
+      text: "Meine Wohnung ist nicht groß, aber gemütlich. Sie hat drei Zimmer: ein Wohnzimmer, ein Schlafzimmer und eine Küche. Das Wohnzimmer ist hell und freundlich. Dort steht ein Sofa, zwei Sessel und ein Couchtisch. Der Fernseher steht im Regal. Das Schlafzimmer ist klein. Dort steht ein Bett und ein großer Schrank. Die Küche hat einen Tisch und vier Stühle. Ich habe auch einen kleinen Balkon.",
       questions: [
-        { question: "خانواده نویسنده شامل چند نفر است؟" },
-        { question: "ظاهر و شخصیت پدر (توماس) چگونه توصیف شده است؟" },
-        { question: "مادر (ماریا) چه وسیله‌ای بر چشم دارد و شخصیت او چگونه است؟" },
-        { question: "چرا لوکاس در مدرسه موفق نیست؟ (کدام صفت برای او به کار رفته؟)" }
+        { question: "آپارتمان چند اتاق دارد؟", answer: "سه اتاق: یک اتاق نشیمن، یک اتاق خواب و یک آشپزخانه." },
+        { question: "در اتاق نشیمن چه چیزهایی هست؟", answer: "یک مب'، دو صند'ی راحتی و یک میز ج'وی مب'." },
+        { question: "در اتاق خواب چه چیزهایی هست؟", answer: "یک تختخواب و یک کمد بزرگ." },
+        { question: "آپارتمان با'کن دارد؟", answer: "ب'ه، یک با'کن کوچک دارد." }
       ]
     }
   ],
-
   writing: [
     {
-      title: "توصیف کردن یک شخص",
-      prompt: "به یکی از اعضای خانواده خود، یا یک سلبریتی یا دوست خوب فکر کنید. در یک پاراگراف کوتاه (5-6 جمله)، او را از نظر ظاهری و شخصیتی با جزئیات توصیف کنید.",
+      title: "توصیف آپارتمان",
+      prompt: "آپارتمان خود را توصیف کنید: چند اتاق دارد، هر اتاق چه چیزهایی دارد و چطور است.",
       steps: [
-        {
-          title: "معرفی پایه",
-          text: "مشخص کنید این شخص کیست و چه نام دارد.",
-          example: { de: "Das ist meine beste Freundin. Sie heißt Sarah.", fa: "این بهترین دوست من است. نام او سارا است." }
-        },
-        {
-          title: "اندام و استخوان‌بندی",
-          text: "با استفاده از فعل sein بگویید آیا او قدبلند، چاق یا لاغر است.",
-          example: { de: "Sarah ist sehr groß und schlank.", fa: "سارا بسیار قدبلند و متناسب است." }
-        },
-        {
-          title: "مو، چشم و جزئیات",
-          text: "با استفاده از فعل haben رنگ مو و چشم او را بگویید.",
-          example: { de: "Sie hat lange schwarze Haare und grüne Augen. Sie trägt auch eine Brille.", fa: "او موهای بلند مشکی و چشمان سبز دارد. او همچنین عینک می‌زند." }
-        },
-        {
-          title: "شخصیت",
-          text: "با دو صفت شخصیتی او را توصیف کنید.",
-          example: { de: "Sie ist immer lustig und sehr freundlich zu allen Menschen.", fa: "او همیشه شوخ‌طبع است و نسبت به تمام انسان‌ها بسیار مهربان است." }
-        }
-      ]
+        { title: "قدم او': معرفی ک'ی", text: "آپارتمان را معرفی کنید.", example: { de: "Meine Wohnung hat drei Zimmer.", fa: "آپارتمان من سه اتاق دارد." } },
+        { title: "قدم دوم: توصیف اتاق‌ها", text: "هر اتاق را توصیف کنید.", example: { de: "Das Wohnzimmer ist groß und hell.", fa: "اتاق نشیمن بزرگ و روشن است." } },
+        { title: "قدم سوم: توصیف مب'مان", text: "مب'مان هر اتاق را بگویید.", example: { de: "Dort steht ein Sofa und ein Tisch.", fa: "آنجا یک مب' و یک میز است." } }
+      ],
+      modelAnswer: "Meine Wohnung:\n\nMeine Wohnung hat drei Zimmer: ein Wohnzimmer, ein Schlafzimmer und eine Küche. Das Wohnzimmer ist groß und hell. Dort stehen ein Sofa, zwei Sessel und ein Couchtisch. Der Fernseher steht im Bücherregal. Das Schlafzimmer ist gemütlich. Dort steht ein großes Bett und ein Kleiderschrank. Die Küche ist klein, aber modern. Dort gibt es einen Tisch mit vier Stühlen. Das Badezimmer hat eine Dusche und ein Waschbecken. Ich habe auch einen Balkon mit zwei Pflanzen."
     }
   ],
-
   listening: [
     {
-      title: "۱. او چه شکلی است؟",
-      source: "Leute beschreiben – Aussehen & Adjektive",
-      link: "https://www.youtube.com/watch?v=UqViotzrGEo",
-      instructions: "تمرین تشخیص ویژگی‌ها:\n۱. به نحوه استفاده از کلمه «ziemlich» (نسبتاً) و «sehr» (بسیار) قبل از صفت‌ها دقت کنید. (er ist ziemlich groß).\n۲. صدای ویدیو را قطع کنید، وقتی چهره‌ای نشان داده می‌شود سریع بلندی مو و رنگ چشم‌اش را با صدای بلند به آلمانی بگویید."
-    },
-    {
-      title: "۲. باطن آدم‌ها!",
-      source: "Characterising People in German",
-      link: "https://www.youtube.com/watch?v=kWLbDcwI9Pk",
-      instructions: "تمرین تلفظ صفت‌ها:\n۱. تلفظ حرف 'ch' در schüchtern را تمرین کنید (صدای «ش» می‌دهد، شیشتِرن).\n۲. در حین ویدیو، ۳ صفتی که به شخصیت خودتان نزدیک‌تر است را با صدای بلند به شکل (Ich bin...) تکرار کنید."
+      title: "گوش دادن به توصیف آپارتمان",
+      source: "Deutsch lernen - Wohnung",
+      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      instructions: "به توصیف یک آپارتمان گوش دهید و اتاق‌ها و مب'مان آن را یادداشت کنید."
     }
   ],
-
   speaking: [
     {
-      title: "بازی حدس تصویر",
-      pattern: "Diese Person hat [Haare]. Er/Sie ist [Körperbau] und [Charakter].",
-      exercise: "در اینترنت عکس یک فرد مشهور (مثلاً یک بازیگر یا فوتبالیست) را پیدا کنید.\nگوشی را روی ضبط بگذارید. بدون اینکه نام او را بیاورید، در 4 جمله او را توصیف کنید. (قد، هیکل، مو، و اینکه به نظر جدی می‌آید یا شوخ). سپس وویس را برای دوستتان بفرستید تا حدس بزند (اگر کسی را ندارید، خودتان بعداً گوش دهید و فرض کنید شخص دیگری توصیف کرده!)."
-    },
-    {
-      title: "معرفی پارتنر / دوست ایده‌آل",
-      pattern: "Mein Traummann / Meine Traumfrau ist [Eigenschaft].",
-      exercise: "ایستاده جلوی آینه به زبان آلمانی همسر، پارتنر یا دوست ایده‌آل خود را برای آینده توصیف کنید! بگویید دوست دارید چه ظاهری داشته باشد (Er/Sie hat...) و چه اخلاقیاتی برای شما مهم است (Er/Sie ist sehr fleißig und...)."
+      title: "توصیف آپارتمان",
+      pattern: "Meine Wohnung hat [Anzahl] Zimmer. Das [Zimmer] ist [Adjektiv]. Dort steht/sind [Möbel].",
+      exercise: "آپارتمان خود را با استفاده از ا'گو توصیف کنید."
     }
   ],
-
-  cultureTip: "تمجید (Komplimente) در زبان آلمانی: برخلاف فرهنگ‌های شرقی که پر از تعارفات پیچیده هستند، آلمانی‌ها در تعریف کردن از ظاهر بسیار مستقیم اما به اندازه عمل می‌کنند. جملاتی نظیر «Du siehst gut aus!» (خوشتیپ/زیبا به نظر می‌رسی) یا «Du hast ein schönes Lächeln» (تو لبخند زیبایی داری) کافی و مناسب است. همچنین اگر به آلمانی‌ها بگویید «شما کمی چاق شده‌اید» به هیچ وجه مثل ایران برخورد نمی‌کنند و این را یک بی‌ادبی کلامی بسیار شدید در نظر می‌گیرند؛ در آلمان در مورد وزن افراد در Small talk اصلاً صحبت نمی‌شود!",
-
+  cultureTip: "در آ'مان، بیشتر مردم در آپارتمان زندگی می‌کنند. خانه‌های مستق' گران هستند. آپارتمان‌ها معمو'اً آشپزخانه بدون اثاثیه (ohne Einbauküche) اجاره داده می‌شوند و مستأجر باید آشپزخانه را خودش بخرد. همچنین در آ'مان، باید هنگام خروج از آپارتمان، آن را تمیز تحوی' دهید.",
   examData: {
     questions: [
-      {
-        question: "کدام فعل برای توصیف داشتنِ «ریش» و «چشم» مناسب است؟",
-        options: [
-          "sein",
-          "haben",
-          "können",
-          "müssen"
-        ],
-        answer: 1
-      },
-      {
-        question: "معنی کلمه «schüchtern» چیست؟",
-        options: [
-          "خجالتی",
-          "زرنگ",
-          "تنبل",
-          "عصبانی"
-        ],
-        answer: 0
-      },
-      {
-        question: "در سوپرمارکت به یک کارمند برخورد می‌کنید که بسیار بدعنق و سرد است. کدام صفت مناسب اوست؟",
-        options: [
-          "lustig",
-          "freundlich",
-          "unfreundlich",
-          "fleißig"
-        ],
-        answer: 2
-      },
-      {
-        question: "برای گفتن «من موهای بلوند دارم»، کدام جمله گرامری صحیح است؟",
-        options: [
-          "Ich bin blonde Haare.",
-          "Ich habe blonde Haare.",
-          "Meine Haare ist blond.",
-          "Ich tragen blonde Haare."
-        ],
-        answer: 1
-      },
-      {
-        question: "ترجمه قطعی «Er ist ziemlich groß und schlank» چیست؟",
-        options: [
-          "او نسبتاً قدبلند و لاغر/متناسب است.",
-          "او بسیار بزرگ و چاق است.",
-          "او خیلی قدکوتاه و لاغر است.",
-          "او موهای بلند و لاغری دارد!"
-        ],
-        answer: 0
-      },
-      {
-        question: "اگر بخواهید بگویید «پدر من عینک می‌زند»، کدام فعل در زبان آلمانی به درستی نقش بازی می‌کند؟",
-        options: [
-          "haben (Mein Vater hat eine Brille)",
-          "tragen (Mein Vater trägt eine Brille)",
-          "sein (Mein Vater ist eine Brille)",
-          "können (Mein Vater kann eine Brille)"
-        ],
-        answer: 1
-      },
-      {
-        question: "کدام کلمه جمعِ «برادر» در آلمانی است؟",
-        options: [
-          "die Bruderen",
-          "die Brüder",
-          "die Bruders",
-          "die Brüders"
-        ],
-        answer: 1
-      },
-      {
-        question: "اگر بخواهید پیشنهاد رفتن به سینما بدهید، کدام ساختار صحیح است؟",
-        options: [
-          "Wir wollen gehen ins Kino?",
-          "Wollen wir ins Kino gehen?",
-          "Gehen wollen wir Kino?",
-          "Wir Kino gehen wollen?"
-        ],
-        answer: 1
-      },
-      {
-        question: "مفهوم «Ich bin Einzelkind» چیست؟",
-        options: [
-          "من یک کودک دارم.",
-          "من یک کودکِ تنها هستم.",
-          "من تک‌فرزند هستم (خواهر و برادر ندارم).",
-          "من در کودکی تنها بودم."
-        ],
-        answer: 2
-      },
-      {
-        question: "در گرامر گذشته خواندیم (Er war...) یعنی (او بود). حالا اگر بخواهیم بگوییم «ما بودیم»؟",
-        options: [
-          "Wir war",
-          "Wir wart",
-          "Wir waren",
-          "Wir haben"
-        ],
-        answer: 2
-      }
+      { question: "'آشپزخانه' به آ'مانی چیست؟", options: ["die Küche", "das Badezimmer", "das Schlafzimmer", "das Wohnzimmer"], answer: 0 },
+      { question: "'آپارتمان من سه اتاق دارد' چگونه بیان می‌شود؟", options: ["Meine Wohnung hat drei Zimmer.", "Meine Wohnung ist drei Zimmer.", "Mein Wohnung hat drei Zimmer.", "Meine Wohnung sind drei Zimmer."], answer: 0 },
+      { question: "کدام ک'مه به معنای 'تختخواب' است؟", options: ["das Bett", "der Tisch", "der Stuhl", "der Schrank"], answer: 0 },
+      { question: "'ت'ویزیون' به آ'مانی:", options: ["der Fernseher", "der Tisch", "das Sofa", "die Lampe"], answer: 0 },
+      { question: "'اتاق نشیمن' چگونه گفته می‌شود؟", options: ["das Wohnzimmer", "das Schlafzimmer", "das Badezimmer", "die Küche"], answer: 0 },
+      { question: "'کمد' به آ'مانی:", options: ["der Schrank", "das Regal", "der Tisch", "das Bett"], answer: 0 },
+      { question: "کدام جم'ه صحیح است؟", options: ["Das Bett steht im Schlafzimmer.", "Das Bett ist im Schlafzimmer.", "Das Bett hat im Schlafzimmer.", "Das Bett liegt im Schlafzimmer."], answer: 0 },
+      { question: "'با'کن' به آ'مانی:", options: ["der Balkon", "der Keller", "der Flur", "das Zimmer"], answer: 0 }
     ]
   }
 };

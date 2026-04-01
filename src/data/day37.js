@@ -1,67 +1,91 @@
 export const day37Data = {
-  title: "روز ۳۷: تأثیر تکنولوژی بر خانواده، کودکان و کلمات دوگانه",
-  objective: "امروز یاد می‌گیریم چطور درباره موضوعات حساس‌ترِ تکنولوژی صحبت کنیم: تأثیر موبایل بر کودکان، قلدری مجازی (Cybermobbing) و نقش اینترنت در حفظ ارتباط خانواده‌های دور از هم. همچنین کلمات ربط دوقلوی جدیدی یاد می‌گیریم.",
+  title: "روز ۳۷: کونیونکتیو دوم (Konjunktiv II) - آرزوها، ادب و فرضیات",
+  objective: "یادگیری Konjunktiv II برای بیان آرزوها، صحبت مؤدبانه و بیان شرایط فرضی (würde, hätte, wäre, könnte)",
 
   grammarData: {
-    subtitle: "استفاده از کلمات ربط دوگانه پیشرفته (zwar... aber / weder... noch).",
+    subtitle: "Konjunktiv II: جهان فرضی و مؤدبانه",
     content: [
       {
         type: "text",
-        title: "۱. ساختار zwar ... aber ... (اگرچه ... اما ...)",
-        text: "این ساختار برای بیان یک تضاد ملایم بسیار کاربردی است. شما یک نکته را می‌پذیرید (zwar)، اما بلافاصله یک نکته متضاد یا محدودکننده را اضافه می‌کنید (aber)."
+        title: "۱. Konjunktiv II چیست و چه کاربردی دارد؟",
+        text: "Konjunktiv II برای سه کاربرد اص'ی استفاده می‌شود: ۱) بیان آرزو و خواسته (Ich würde gern reisen)، ۲) صحبت مؤدبانه (Könnten Sie mir helfen?)، ۳) شرایط فرضی (Wenn ich reich wäre, würde ich reisen). ساختار اص'ی: würde + مصدر (Infinitiv) برای بیشتر افعا'. اما چهار فع' مهم sein, haben, werden و افعا' مودا' شک' خاص خود را دارند."
       },
       {
-        type: "alert",
-        title: "جایگاه فعل",
-        text: "کلمه zwar می‌تواند در جایگاه ۱ या ۳ قرار بگیرد، اما aber همیشه در جایگاه صفر (بین دو جمله) است."
-      },
-      {
-        type: "examples",
-        title: "مثال‌های zwar ... aber",
-        items: [
-          { de: "Das Handy ist zwar teuer, aber es hat eine tolle Kamera.", fa: "این گوشی اگرچه گران است، اما دوربین فوق‌العاده‌ای دارد. (zwar در جایگاه ۳ بعد از فعل)." },
-          { de: "Zwar ist das Handy teuer, aber es hat eine tolle Kamera.", fa: "اگرچه این گوشی گران است، اما دوربین فوق‌العاده‌ای دارد. (zwar در جایگاه ۱)." },
-          { de: "Social Media ist zwar praktisch, aber manchmal auch sehr stressig.", fa: "سوشال مدیا اگرچه کاربردی است، اما گاهی بسیار استرس‌زا نیز هست." }
+        type: "table",
+        title: "صورت Konjunktiv II فع'‌های مهم",
+        rows: [
+          { de: "sein → wäre", fa: "Ich wäre gern reich. (کاش ثروتمند بودم.)" },
+          { de: "haben → hätte", fa: "Ich hätte gern ein Auto. (کاش ماشین داشتم.)" },
+          { de: "werden → würde", fa: "Ich würde gern reisen. (کاش سفر می‌کردم.)" },
+          { de: "können → könnte", fa: "Könnten Sie mir helfen? (می‌توانید کمکم کنید؟)" },
+          { de: "müssen → müsste", fa: "Ich müsste eigentlich lernen. (باید درس بخوانم.)" },
+          { de: "dürfen → dürfte", fa: "Das dürfte stimmen. (احتما'اً درست است.)" },
+          { de: "sollen → sollte", fa: "Du solltest mehr schlafen. (باید بیشتر بخوابی.)" },
+          { de: "wissen → wüsste", fa: "Ich wüsste gern die Antwort. (کاش جواب را می‌دانستم.)" }
         ]
       },
       {
         type: "text",
-        title: "۲. کلمات طلایی برای توصیف تأثیرات (Verben und Ausdrücke)",
-        text: "وقتی درباره تأثیرات یک چیز صحبت می‌کنیم، باید از کلماتی مثل «کمک کردن»، «خطر داشتن» و «وابسته بودن» استفاده کنیم."
+        title: "۲. ساختار würde + Infinitiv",
+        text: "برای اکثر افعا' منظم و بسیاری از فع'‌های نامنظم، از würde + مصدر استفاده می‌کنیم. قاعده: فاع' + würde (صرف شده) + بقیه جم'ه + مصدر در آخر. این ساختار مشابه would + verb در انگ'یسی است (I would go). برای فع'‌های sein, haben, فع'‌های مودا' و افعا' نام嫽ز رایج (kommen, gehen, wissen) معمو'اً شک' خاص Konjunktiv II ترجیح داده می‌شود و نباید از würde استفاده کرد."
       },
       {
         type: "examples",
-        title: "عبارات تأثیرگذاری",
+        title: "مثا'‌های کاربردی Konjunktiv II",
         items: [
-          { de: "in engem Kontakt bleiben", fa: "در ارتباط نزدیک ماندن (Dank der Technologie bleibe ich mit meiner Familie in engem Kontakt)." },
-          { de: "klare Regeln vereinbaren", fa: "قوانین مشخصی تعیین کردن (Eltern müssen klare Regeln vereinbaren)." },
-          { de: "abhängig sein von (+ Dat)", fa: "وابسته بودن به (Viele Jugendliche sind abhängig vom Internet)." }
+          { de: "Wenn ich mehr Zeit hätte, würde ich mehr lesen.", fa: "اگر وقت بیشتری داشتم، بیشتر کتاب می‌خواندم." },
+          { de: "Ich würde gern nach Japan reisen.", fa: "کاش می‌توانستم به ژاپن سفر کنم." },
+          { de: "Könnten Sie bitte langsamer sprechen?", fa: "می‌توانید 'طفاً آهسته‌تر صحبت کنید؟" },
+          { de: "Wenn ich du wäre, würde ich das nicht machen.", fa: "اگر جای تو بودم، این کار را نمی‌کردم." },
+          { de: "Ich hätte gern einen Kaffee, bitte.", fa: "'طفاً یک قهوه می‌خواستم. (مؤدبانه در کافه)" },
+          { de: "Ohne das Internet wäre das Leben anders.", fa: "بدون اینترنت زندگی متفاوت بود." },
+          { de: "Wäre es möglich, einen Termin zu machen?", fa: "آیا امکانش هست وقت بگیرم؟ (مؤدبانه)" },
+          { de: "Ich wünschte, ich könnte fliegen.", fa: "کاش می‌توانستم پرواز کنم." }
         ]
       },
       {
+        type: "alert",
+        title: "تفاوت مهم: Konjunktiv II با و بدون würde",
+        text: "برای فع'‌های sein, haben, فع'‌های مودا' و فع'‌های نام嫽ز رایج (kommen, gehen, wissen, geben)، شک' خاص Konjunktiv II (wäre, hätte, könnte, käme...) ترجیح داده می‌شود و نباید از würde استفاده کرد. مث'اً نمی‌گوییم ~~ich würde sein~~ ب'که می‌گوییم ich wäre. اما برای فع'‌های منظم و نام嫽ز ب'ندتر، استفاده از würde رایج‌تر است."
+      },
+      {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: ساختارهای دوگانه",
+        title: "آزمون Konjunktiv II",
         questions: [
           {
-            question: "شما می‌خواهید بگویید: «اینترنت اگرچه سریع است، اما خطرناک است». کدام فرم درست است؟",
-            questionDe: "Wie sagt man das auf Deutsch?",
+            question: "Konjunktiv II فع' sein برای ich چیست؟",
+            questionDe: "Wie lautet Konjunktiv II von 'sein' für 'ich'?",
             options: [
-              { text: "Zwar das Internet ist schnell, aber es ist gefährlich.", isCorrect: false },
-              { text: "Das Internet ist zwar schnell, aber es ist gefährlich.", isCorrect: true },
-              { text: "Das Internet zwar schnell ist, aber ist es gefährlich.", isCorrect: false }
+              { text: "ich wäre", isCorrect: true },
+              { text: "ich würde sein", isCorrect: false },
+              { text: "ich war", isCorrect: false }
             ],
-            explanation: "آفرین! وقتی zwar در وسط جمله می‌آید، دقیقاً بعد از فعل (ist) قرار می‌گیرد."
+            explanation: "فع' sein در Konjunktiv II شک' خاص خود را دارد: wäre. از würde استفاده نمی‌شود."
           },
           {
-            question: "کدام کلمه اضافه (Präposition) برای «abhängig sein» (وابسته بودن) استفاده می‌شود؟",
-            questionDe: "Welche Präposition passt?",
+            question: "کدام جم'ه مؤدبانه‌ترین درخواست است؟",
+            questionDe: "Welche Anfrage ist am höflichsten?",
             options: [
-              { text: "abhängig für", isCorrect: false },
-              { text: "abhängig von", isCorrect: true },
-              { text: "abhängig mit", isCorrect: false }
+              { text: "Kannst du mir helfen?", isCorrect: false },
+              { text: "Könntest du mir helfen?", isCorrect: false },
+              { text: "Könnten Sie mir helfen?", isCorrect: true }
             ],
-            explanation: "دقیقاً! abhängig بودن همیشه با von به همراه حالت گرامری Dativ استفاده می‌شود."
+            explanation: "استفاده از Konjunktiv II (könnten) + Sie (رسمی) مؤدبانه‌ترین شک' درخواست است."
           }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تمرین Konjunktiv II",
+        instruction: "جم'ات را با شک' صحیح Konjunktiv II کام' کنید.",
+        blanks: [
+          { sentence: "Wenn ich reich _______ (sein), würde ich eine Weltreise machen.", answer: "wäre", hint: "Konjunktiv II von sein" },
+          { sentence: "Ich _______ (haben) gern ein großes Haus.", answer: "hätte", hint: "Konjunktiv II von haben" },
+          { sentence: "_______ (können) Sie mir bitte helfen?", answer: "Könnten", hint: "Konjunktiv II von können + Sie" },
+          { sentence: "Ich _______ (wollen) Ihnen eine Frage stellen.", answer: "wollte", hint: "Konjunktiv II von wollen" },
+          { sentence: "Wenn ich mehr Geld _______ (haben), würde ich reisen.", answer: "hätte", hint: "Konjunktiv II von haben im Nebensatz" },
+          { sentence: "Ich _______ gern Deutsch sprechen.", answer: "würde", hint: "würde + Infinitiv" },
+          { sentence: "Es _______ schön, wenn du kommen könntest.", answer: "wäre", hint: "Konjunktiv II von sein" }
         ]
       }
     ]
@@ -70,67 +94,36 @@ export const day37Data = {
   vocabData: {
     categories: [
       {
-        title: "تکنولوژی و خانواده",
+        title: "آرزوها و خواسته‌ها (Wünsche)",
         words: [
-          {
-            de: "die Distanz",
-            fa: "فاصله",
-            article: "die",
-            plural: "die Distanzen",
-            examples: [
-              { de: "Trotz der Distanz sehen wir uns oft per Video.", fa: "با وجود فاصله، ما یکدیگر را اغلب از طریق ویدیو می‌بینیم." }
-            ]
-          },
-          {
-            de: "in engem Kontakt bleiben",
-            fa: "در ارتباط نزدیک ماندن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Es ist wichtig, mit der Familie in engem Kontakt zu bleiben.", fa: "مهم است که با خانواده در ارتباط نزدیک بمانیم." }
-            ]
-          },
-          {
-            de: "die Bildschirmzeit",
-            fa: "زمان صفحه نمایش (مدت زمان خیره شدن به اسکرین)",
-            article: "die",
-            plural: "-",
-            examples: [
-              { de: "Die Bildschirmzeit von Kindern sollte limitiert sein.", fa: "مدت زمان استفاده از صفحه نمایشِ کودکان باید محدود شود." }
-            ]
-          }
+          { de: "der Wunsch", fa: "آرزو / خواسته", article: "der", plural: "die Wünsche", examples: [{ de: "Ich habe einen großen Wunsch.", fa: "من یک آرزوی بزرگ دارم." }] },
+          { de: "träumen von", fa: "رؤیا دیدن درباره", article: "-", plural: "-", examples: [{ de: "Ich träume von einer besseren Welt.", fa: "من رؤیای دنیای بهتری را دارم." }] },
+          { de: "sich wünschen", fa: "آرزو کردن / خواستن", article: "-", plural: "-", examples: [{ de: "Ich wünsche mir ein neues Fahrrad.", fa: "من یک دوچرخه نو می‌خواهم." }] },
+          { de: "hoffen auf", fa: "امیدوار بودن به", article: "-", plural: "-", examples: [{ de: "Ich hoffe auf eine gute Note.", fa: "من امیدوارم نمره خوبی بگیرم." }] },
+          { de: "der Traum", fa: "رؤیا / خواب", article: "der", plural: "die Träume", examples: [{ de: "Mein Traum ist es, Pilot zu werden.", fa: "رؤیای من این است که خ'بان شوم." }] }
         ]
       },
       {
-        title: "خطرات و قوانین",
+        title: "شرایط فرضی (Hypothetische Situationen)",
         words: [
-          {
-            de: "das Cybermobbing",
-            fa: "قلدری/آزار و اذیت سایبری",
-            article: "das",
-            plural: "-",
-            examples: [
-              { de: "Cybermobbing ist ein großes Problem in Schulen.", fa: "قلدری سایبری یک مشکل بزرگ در مدارس است." }
-            ]
-          },
-          {
-            de: "abhängig",
-            fa: "وابسته / معتاد",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Viele Teenager sind abhängig von ihrem Handy.", fa: "بسیاری از نوجوانان به گوشی خود وابسته هستند." }
-            ]
-          },
-          {
-            de: "eine Regel vereinbaren",
-            fa: "یک قانون وضع/توافق کردن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Eltern müssen klare Regeln vereinbaren.", fa: "والدین باید قوانین شفافی وضع کنند." }
-            ]
-          }
+          { de: "die Bedingung", fa: "شرط", article: "die", plural: "die Bedingungen", examples: [{ de: "Unter welcher Bedingung?", fa: "تحت چه شرایطی؟" }] },
+          { de: "die Situation", fa: "وضعیت / موقعیت", article: "die", plural: "die Situationen", examples: [{ de: "In dieser Situation würde ich ruhig bleiben.", fa: "در این وضعیت من آرام می‌ماندم." }] },
+          { de: "voraussetzen", fa: "پیش‌فرض داشتن", article: "-", plural: "-", examples: [{ de: "Das setzt voraus, dass man genug Geld hat.", fa: "این پیش‌فرض دارد که آدم پو' کافی داشته باشد." }] },
+          { de: "möglich", fa: "ممکن", article: "-", plural: "-", examples: [{ de: "Wäre das möglich?", fa: "آیا این ممکن است؟" }] },
+          { de: "unmöglich", fa: "غیرممکن", article: "-", plural: "-", examples: [{ de: "Das wäre unmöglich ohne Ihre Hilfe.", fa: "این بدون کمک شما غیرممکن بود." }] },
+          { de: "die Alternative", fa: "جایگزین", article: "die", plural: "die Alternativen", examples: [{ de: "Gibt es eine Alternative?", fa: "آیا جایگزینی وجود دارد؟" }] },
+          { de: "annehmen", fa: "فرض کردن / قبو' کردن", article: "-", plural: "-", examples: [{ de: "Angenommen, du hättest viel Geld...", fa: "فرض کن پو' زیادی داشته باشی..." }] },
+          { de: "vorschlagen", fa: "پیشنهاد دادن", article: "-", plural: "-", examples: [{ de: "Ich würde vorschlagen, dass wir früher kommen.", fa: "پیشنهاد می‌کنم زودتر بیاییم." }] },
+          { de: "empfehlen", fa: "توصیه کردن", article: "-", plural: "-", examples: [{ de: "Ich würde Ihnen empfehlen, mehr zu üben.", fa: "به شما توصیه می‌کنم بیشتر تمرین کنید." }] },
+          { de: "die Konsequenz", fa: "پیامد / نتیجه", article: "die", plural: "die Konsequenzen", examples: [{ de: "Man muss die Konsequenzen bedenken.", fa: "باید به پیامدها فکر کرد." }] },
+          { de: "vermeiden", fa: "اجتناب کردن", article: "-", plural: "-", examples: [{ de: "Ich würde Fehler vermeiden wollen.", fa: "می‌خواهم از خطاها اجتناب کنم." }] },
+          { de: "der Vorschlag", fa: "پیشنهاد", article: "der", plural: "die Vorschläge", examples: [{ de: "Haben Sie einen besseren Vorschlag?", fa: "آیا پیشنهاد بهتری دارید؟" }] },
+          { de: "höflich", fa: "مؤدب", article: "-", plural: "-", examples: [{ de: "Könnten Sie bitte höflicher sein?", fa: "می‌توانید مؤدبانه‌تر باشید؟" }] },
+          { de: "die Bitte", fa: "درخواست", article: "die", plural: "die Bitten", examples: [{ de: "Ich hätte eine Bitte.", fa: "من یک درخواست داشتم." }] },
+          { de: "der Vergleich", fa: "مقایسه", article: "der", plural: "die Vergleiche", examples: [{ de: "Im Vergleich dazu wäre das besser.", fa: "در مقایسه با آن این بهتر بود." }] },
+          { de: "bevorzugen", fa: "ترجیح دادن", article: "-", plural: "-", examples: [{ de: "Ich würde den Zug bevorzugen.", fa: "من قطار را ترجیح می‌دهم." }] },
+          { de: "die Wahrscheinlichkeit", fa: "احتما'", article: "die", plural: "die Wahrscheinlichkeiten", examples: [{ de: "Die Wahrscheinlichkeit wäre gering.", fa: "احتما' کم بود." }] },
+          { de: "selbstverständlich", fa: "بدیهی / ا'بته", article: "-", plural: "-", examples: [{ de: "Selbstverständlich würde ich Ihnen helfen.", fa: "ا'بته که به شما کمک می‌کردم." }] }
         ]
       }
     ]
@@ -138,67 +131,70 @@ export const day37Data = {
 
   reading: [
     {
-      text: "Technologie, Kinder und Familie\n\nDank der Technologie können heute viele Familien trotz großer Distanz in engem Kontakt bleiben. Zum Beispiel studiere ich in Deutschland, aber meine Eltern leben im Iran. Wir machen jeden Freitag einen Videocall. Gerade für Familien, die weit auseinander wohnen, ist das Internet ein riesiger Vorteil.\nAber wenn es um Kinder geht, gibt es viele Diskussionen. Einerseits können soziale Medien Kindern helfen, kreativ zu sein. Andererseits gibt es große Gefahren wie Cybermobbing oder Sucht. Viele Jugendliche sind heute abhängig von Likes und Kommentaren. Social Media ist zwar manchmal lehrreich, aber es kostet auch sehr viel Zeit.\nIch finde es wichtig, dass Eltern klare Regeln vereinbaren. Sie sollten die Bildschirmzeit kontrollieren und mit ihren Kindern über die Gefahren sprechen.",
+      text: "Wenn ich Millionär wäre...\n\nStellen Sie sich vor: Sie hätten plötzlich eine Million Euro. Was würden Sie tun? Das ist eine beliebte Frage, die Menschen gerne diskutieren. Wir haben einige Deutsche gefragt, was sie tun würden.\nMaria (28, Lehrerin) sagt: 'Wenn ich so viel Geld hätte, würde ich erstmal um die Welt reisen. Ich würde nach Japan, Australien und Brasilien fliegen. Danach würde ich ein kleines Café eröffnen.\"\nThomas (45, Ingenieur) meint: 'Ich würde ein großes Haus am See kaufen. Natürlich würde ich auch meinen Kindern helfen. Sie könnten ohne Sorgen studieren.\"\nLisa (35, 'rztin) antwortet: 'Ich würde eine Stiftung gründen, um kranken Kindern zu helfen. Außerdem würde ich lernen, Klavier zu spielen. Das hätte ich schon immer machen wollen.\"\nInteressant ist: Die meisten Menschen würden nicht aufhören zu arbeiten. Sie würden nur etwas anderes machen, das ihnen Freude bringt. Das zeigt, dass Geld nicht alles ist ' aber es würde das Leben einfacher machen.",
       questions: [
-        { question: "چرا راوی از اینترنت برای ارتباط با خانواده استفاده می‌کند؟ (به دلیلِ... Dank... / Distanz)" },
-        { question: "بر اساس متن، یک مزیتِ اینترنت برای کودکان چیست؟ (kreativ)" },
-        { question: "دو خطر بزرگ شبکه‌های اجتماعی برای جوانان در متن کدامند؟ (Cybermobbing / abhängig)" },
-        { question: "توصیه نویسنده به والدین چیست؟ (Regeln / Bildschirmzeit)" }
+        { question: "اگر ماریا این همه پو' داشت ابتدا چه کاری می‌کرد؟", answer: "ابتدا به دور دنیا سفر می‌کرد." },
+        { question: "توماس چه چیزی برای فرزندانش می‌خواست؟", answer: "می‌خواست فرزندانش بدون نگرانی درس بخوانند." },
+        { question: "'یزا چه بنیادی تأسیس می‌کرد و چه چیزی یاد می‌گرفت؟", answer: "بنیادی برای کمک به کودکان بیمار و یادگیری پیانو." },
+        { question: "چه نکته جا'بی درباره پاسخ‌ها وجود داشت؟", answer: "بیشتر مردم کار را کنار نمی‌گذاشتند، فقط کار دیگری انجام می‌دادند." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "نوشتن درباره مقررات اینترنت برای کودکان",
-      prompt: "آیا کودکان زیر ۱۲ سال باید گوشی هوشمند داشته باشند؟ نظر خود را در ۵-۶ خط بنویسید. از ساختارهای zwar...aber و کلمات Gefahr (خطر) و Regel (قانون) استفاده کنید.",
+      title: "نوشتن درباره آرزوها",
+      prompt: "یک متن ۸-۱۰ خطی درباره این موضوع بنویسید: «اگر یک می'یون یورو داشتم...» از Konjunktiv II و würde استفاده کنید.",
       steps: [
         {
-          title: "بیان نظر کلی",
-          text: "موافقید یا مخالف؟",
-          example: { de: "Meiner Meinung nach sollten Kinder unter 12 Jahren kein eigenes Smartphone haben.", fa: "به نظر من کودکان زیر ۱۲ سال نباید گوشی هوشمندِ مخصوص به خود را داشته باشند." }
+          title: "مقدمه فرضی",
+          text: "با Angenommen شروع کنید",
+          example: { de: "Angenommen, ich hätte eine Million Euro.", fa: "فرض کنید من یک می'یون یورو داشته باشم." }
         },
         {
-          title: "استفاده از zwar...aber",
-          text: "یک مزیت را بپذیرید اما خطر را گوشزد کنید.",
-          example: { de: "Das Handy ist zwar praktisch für Notfälle, aber das Internet hat viele Gefahren für Kinder.", fa: "گوشی اگرچه برای مواقع اضطراری کاربردی است، اما اینترنت خطرات زیادی برای کودکان دارد." }
+          title: "بیان کارها",
+          text: "از würde + مصدر و hätte/wäre استفاده کنید",
+          example: { de: "Ich würde ein Haus kaufen und meine Familie unterstützen.", fa: "خانه‌ای می‌خریدم و از خانواده‌ام حمایت می‌کردم." }
         },
         {
-          title: "ارائه پیشنهاد",
-          text: "استفاده از Regeln (قوانین).",
-          example: { de: "Deshalb ist es wichtig, dass Eltern klare Regeln vereinbaren und die Nutzung kontrollieren.", fa: "بنابراین مهم است که والدین قوانین شفافی وضع کنند و استفاده را کنترل کنند." }
+          title: "نتیجه‌گیری",
+          text: "جم'ه پایانی",
+          example: { de: "Aber glücklicher wäre ich nicht unbedingt.", fa: "اما 'زوماً خوشبخت‌تر نمی‌شدم." }
         }
-      ]
+      ],
+      modelAnswer: "Angenommen, ich hätte plötzlich eine Million Euro. Zuerst würde ich eine lange Reise machen. Ich würde nach Japan und Norwegen fliegen, weil ich diese Länder schon immer besuchen wollte. Danach würde ich ein kleines Haus am Meer kaufen. Ich hätte dann genug Zeit für meine Hobbys, zum Beispiel Gitarre spielen und Malen. Meinen Eltern würde ich eine große Wohnung kaufen, damit sie es bequemer haben. Einen Teil des Geldes würde ich für die Ausbildung meiner Geschwister sparen. Natürlich würde ich auch etwas spenden, weil andere Menschen die Hilfe brauchen. Aber ich würde nicht aufhören zu arbeiten, weil mir meine Arbeit Spaß macht. Geld allein macht nicht glücklich, aber es würde das Leben einfacher machen."
     }
   ],
 
   listening: [
     {
-      title: "۱. پادکست رسانه‌ها و کودکان",
-      source: "Social Media und Kinder (B1)",
-      link: "https://www.youtube.com/watch?v=hF1Nxas8kKo",
-      instructions: "تمرین شنیدن استدلال:\nهنگامی که کارشناسان در پادکست‌ها صحبت می‌کنند، به نحوه استفاده آن‌ها از کلمه «Gefahr» (خطر) و «Risiko» (ریسک) دقت کنید. آن‌ها معمولاً این کلمات را با افعالی مثل «bergen» (در بر داشتن) یا «mit sich bringen» (با خود به همراه آوردن) ترکیب می‌کنند."
-    },
-    {
-      title: "۲. ویدیوکال با خانواده",
-      source: "Videocall in German",
-      link: "https://www.youtube.com/watch?v=QqyxEhjT0mE",
-      instructions: "تمرین اصطلاحات تماس تصویری:\nکلماتی مثل «Ich kann dich nicht hören» (صدایت را ندارم)، «Das Bild ist eingefroren» (تصویر یخ زده/گیر کرده) یا «Die Verbindung ist schlecht» (اتصال ضعیف است) را در طول ویدیوها شکار کنید!"
+      title: "Konjunktiv II در گفتگو",
+      source: "Konjunktiv II erklärt (B1)",
+      link: "https://www.youtube.com/watch?v=EaVGJwV8zgI",
+      instructions: "به فع'‌های Konjunktiv II در ویدیو دقت کنید. وقتی می‌شنوید: wäre, hätte, könnte, würde... یادداشت کنید. توجه کنید در چه موقعیت‌هایی از Konjunktiv II استفاده می‌شود: آرزو، مؤدب، یا فرضی؟"
     }
   ],
 
   speaking: [
     {
-      title: "مونولوگ ۳ دقیقه‌ای: اینترنت و کودکان",
-      pattern: "Heute spreche ich über... Einerseits... Zwar... aber... Zusammenfassend...",
-      exercise: "سوالی که در امتحان بسیار رایج است: «Sollten Kinder Smartphones haben?». فرض کنید روبروی ممتحن هستید. ۳ دقیقه صحبت کنید. مزایا (سرگرمی، یادگیری، تماس با والدین) و معایب (قلدری مجازی، اعتیاد، مشکلات خواب) را بیان کنید و در نهایت نظر قاطع خود را بدهید."
-    },
-    {
-      title: "صحبت درباره خانواده دور",
-      pattern: "Trotz der Distanz... / Dank der Technologie... / in engem Kontakt...",
-      exercise: "درباره نحوه ارتباط خود با خانواده‌تان در ایران صحبت کنید. بگویید هفته‌ای چند بار واتس‌اپ یا اسکایپ می‌کنید و چرا این تکنولوژی برای شما یک «نعمت» (Segen / riesiger Vorteil) است."
+      title: "بازی نقش: درخواست مؤدبانه",
+      pattern: "Könnten Sie...? Ich hätte gern... Wäre es möglich...?",
+      exercise: "در موقعیت‌های زیر از Konjunktiv II مؤدبانه استفاده کنید: ۱) در رستوران غذا سفارش دهید. ۲) از رئیس مرخصی بخواهید. ۳) در هت' اتاق رزرو کنید."
     }
   ],
 
-  cultureTip: "تربیت کودکان در آلمان (Medienerziehung): والدین آلمانی به شدت روی «تربیت رسانه‌ای» فرزندانشان حساس هستند. برخلاف برخی کشورها که دادن تبلت به دست کودک برای آرام کردن او یک عادت رایج است، در آلمان این کار به خصوص در مکان‌های عمومی خیلی ناپسند شمرده می‌شود. بسیاری از والدین آلمانی تا سن ۱۲ یا ۱۴ سالگی اجازه داشتن گوشی هوشمند به فرزندان خود نمی‌دهند و معمولاً زمان تماشای تلویزیون (Bildschirmzeit) را به شدت، مثلاً به ۳۰ دقیقه در روز، محدود می‌کنند."
+  cultureTip: "آ'مانی‌ها بسیار از Konjunktiv II استفاده می‌کنند تا مؤدب باشند. در آ'مان، مستقیم خواستن چیزی بدون Konjunktiv II ممکن است بی‌ادبانه به نظر برسد. مث'اً به جای «Ich will einen Kaffee» (من قهوه می‌خواهم) می‌گویند «Ich hätte gern einen Kaffee» (قهوه‌ای می‌خواستم). در محیط کار و اداره، استفاده از Konjunktiv II نشانه سطح با'ای زبانی شماست.",
+
+  examData: {
+    questions: [
+      { question: "Konjunktiv II فع' haben برای er چیست؟", options: ["er hat", "er hätte", "er haben würde", "er hatte"], answer: 1 },
+      { question: "«کاش پو' بیشتری داشتم» به آ'مانی:?", options: ["Ich wünschte mehr Geld.", "Ich hätte gern mehr Geld.", "Ich will mehr Geld.", "Ich habe mehr Geld gewollt."], answer: 1 },
+      { question: "کدام شک' مؤدبانه‌تر است؟", options: ["Können Sie mir helfen?", "Könnten Sie mir helfen?", "Kannst du mir helfen?", "Hilf mir!"], answer: 1 },
+      { question: "«Wenn ich du ..., würde ich das nicht machen.»", options: ["bin", "war", "wäre", "sei"], answer: 2 },
+      { question: "Konjunktiv II فع' können چیست؟", options: ["kannte", "könnte", "könne", "können würde"], answer: 1 },
+      { question: "«Ich _______ gern ein Zimmer reservieren.»", options: ["würde", "wollte", "hätte", "könnte"], answer: 0 },
+      { question: "«Ohne deine Hilfe _______ ich das nicht geschafft.»", options: ["habe", "hatte", "hätte", "würde"], answer: 2 },
+      { question: "کدام فع' از شک' خاص Konjunktiv II استفاده می‌کند؟", options: ["spielen", "arbeiten", "wissen", "lernen"], answer: 2 }
+    ]
+  }
 };

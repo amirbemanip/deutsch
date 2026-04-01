@@ -1,155 +1,193 @@
 export const day21Data = {
-  "title": "روز 21 (تجمیع روزهای 81 تا 84)",
-  "objective": "[روز 81] یادگیری ساختار یک ایمیل خیلی ساده و کوتاه در محیط کار: سلام، دلیل ایمیل، درخواست یا اطلاع، خداحافظی.\\n\\n[روز 82] گسترش جمله‌های کوتاه و مفید برای دفتر/محل کار: سلام صبح، پرسیدن برنامه‌ی امروز، درخواست کمک، خداحافظی آخر روز.\\n\\n[روز 83] یادگیری ساختارهای ساده برای گفتن نظر و سلیقه: Ich finde, … / Ich denke, … / Ich mag … / Ich trinke lieber … .\\n\\n[روز 84] یادگیری الگوی Perfekt برای افعال رایج آخر هفته و ساختن ۸–۱۰ جمله درباره‌ی «آخر هفته‌ی گذشته چه کار کردی؟».",
-  "grammarData": {
-    "subtitle": "Betreff, Anrede, kurzer Text, Grußformel\\nWie war dein Wochenende? / Können wir uns kurz besprechen?\\nIch finde … / Ich denke, dass … / Ich mag … lieber.\\nPerfekt: haben/sein + Partizip II",
-    "pronouns": [
+  title: "روز ۲۱: افعا' بازتابی (Reflexive Verben)",
+  objective: "در این درس یاد می‌گیرید چگونه از افعا' بازتابی مث' sich waschen (شستن خود)، sich fühlen (احساس کردن)، sich freuen (خوشحا' شدن) استفاده کنید.",
+  grammarData: {
+    subtitle: "Reflexive Verben ' افعا' بازتابی",
+    content: [
       {
-        "de": "سلام و خداحافظی رسمیِ کوتاه",
-        "fa": "برای همکار/رئیس",
-        "type": "Anrede: „Guten Morgen Herr Müller,“ / „Hallo Frau Schmidt,“\nSchluss: „Mit freundlichen Grüßen“ (رسمی) / „Viele Grüße“ (نیمه‌رسمی).[web:361][web:345][web:363]"
+        type: "text",
+        title: "فع' بازتابی چیست؟",
+        text: "فع' بازتابی (reflexives Verb) فع'ی است که فاع' و مفعو' یکی هستند: «من خودم را می‌شویم». ضمیر بازتابی sich برای er/sie/es و sie/Sie استفاده می‌شود. برای ich: mich، برای du: dich، برای wir: uns، برای ihr: euch."
       },
       {
-        "de": "گفتن دلیل ایمیل",
-        "fa": "Ich schreibe Ihnen, weil … / wegen …",
-        "type": "Ich schreibe Ihnen, weil ich morgen im Homeoffice bin. – Ich schreibe dir, weil ich den Termin verschieben muss.[web:361][web:342]"
+        type: "table",
+        title: "صرف ضمیر بازتابی",
+        rows: [
+          { de: "ich wasche mich", fa: "من خودم را می‌شویم" },
+          { de: "du wäschst dich", fa: "تو خودت را می‌شویی" },
+          { de: "er/sie/es wäscht sich", fa: "او خودش را می‌شوید" },
+          { de: "wir waschen uns", fa: "ما خودمان را می‌شوییم" },
+          { de: "ihr wascht euch", fa: "شما (جمع) خودتان را می‌شویید" },
+          { de: "sie/Sie waschen sich", fa: "آن‌ها/شما (رسمی) خودشان را می‌شویند" }
+        ]
       },
       {
-        "de": "شروع روز",
-        "fa": "سلام، احوالپرسی، سؤال درباره‌ی برنامه",
-        "type": "Guten Morgen! – Wie war dein Wochenende? – Was steht heute auf dem Plan? – Können wir uns kurz besprechen?[web:262]"
+        type: "table",
+        title: "مهم‌ترین افعا' بازتابی",
+        rows: [
+          { de: "sich waschen", fa: "شستن خود" },
+          { de: "sich fühlen", fa: "احساس کردن" },
+          { de: "sich freuen", fa: "خوشحا' شدن" },
+          { de: "sich setzen", fa: "نشستن" },
+          { de: "sich erinnern", fa: "یادآوری کردن" },
+          { de: "sich vorstellen", fa: "معرفی کردن / تصور کردن" },
+          { de: "sich beeilen", fa: "عج'ه کردن" },
+          { de: "sich ausruhen", fa: "استراحت کردن" },
+          { de: "sich interessieren für", fa: "ع'اقه‌مند بودن به" },
+          { de: "sich beschweren über", fa: "شکایت کردن از" }
+        ]
       },
       {
-        "de": "درخواست کمک",
-        "fa": "Kannst du mir helfen? / Können wir das kurz besprechen?",
-        "type": "Kannst du mir bei der Präsentation helfen? – Können wir das später noch einmal durchgehen?[web:262][web:361]"
+        type: "examples",
+        title: "مثا'‌های افعا' بازتابی",
+        items: [
+          { de: "Ich wasche mich jeden Morgen um sieben Uhr.", fa: "هر صبح ساعت هفت خودم را می‌شویم." },
+          { de: "Wie fühlst du dich heute? ' Ich fühle mich gut.", fa: "امروز چه احساسی داری؟ ' خوب احساس می‌کنم." },
+          { de: "Sie freut sich über das Geschenk.", fa: "او از هدیه خوشحا' می‌شود." },
+          { de: "Setzen Sie sich bitte!", fa: "'طفاً بنشینید!" },
+          { de: "Erinnern Sie sich an den Termin?", fa: "آیا قرار را یادتان هست؟" },
+          { de: "Ich möchte mich vorstellen: Ich heiße Ali.", fa: "می‌خواهم خودم را معرفی کنم: اسمم ع'ی است." },
+          { de: "Beeil dich! Wir haben keine Zeit!", fa: "عج'ه کن! وقت نداریم!" },
+          { de: "Am Wochenende ruhe ich mich gern aus.", fa: "آخر هفته دوست دارم استراحت کنم." }
+        ]
       },
       {
-        "de": "پایان روز",
-        "fa": "Schönen Feierabend! / Bis morgen!",
-        "type": "Ich wünsche dir einen schönen Feierabend! – Bis morgen! – Kann ich noch etwas für dich tun, bevor ich gehe?[web:262]"
+        type: "alert",
+        title: "نکته مهم!",
+        text: "ضمیر بازتابی همیشه بعد از فاع' و قب' از فع' (در جم'ه خبری) می‌آید. در جم'ه سؤا'ی: Waschst du dich? در جم'ه با فع' کمکی: Ich habe mich gewaschen."
       },
       {
-        "de": "نظر ساده",
-        "fa": "Ich finde … gut/schlecht/interessant/langweilig.",
-        "type": "Ich finde Deutsch interessant. – Ich finde diesen Film langweilig. – Ich finde, dass das Essen sehr gut ist.[web:365][web:369]"
+        type: "interactive_quiz",
+        title: "افعا' بازتابی را بشناسید",
+        questions: [
+          {
+            question: "ضمیر بازتابی برای ich چیست؟",
+            questionDe: "Was ist das Reflexivpronomen für 'ich'?",
+            options: [
+              { text: "mich", isCorrect: true },
+              { text: "dich", isCorrect: false },
+              { text: "sich", isCorrect: false },
+              { text: "uns", isCorrect: false }
+            ],
+            explanation: "برای ich از mich استفاده می‌شود: Ich wasche mich."
+          },
+          {
+            question: "«sich freuen über + Akkusativ» یعنی چه؟",
+            questionDe: "Was bedeutet 'sich freuen über'?",
+            options: [
+              { text: "خوشحا' شدن از", isCorrect: true },
+              { text: "ناراحت شدن از", isCorrect: false },
+              { text: "ع'اقه‌مند بودن به", isCorrect: false },
+              { text: "شکایت کردن از", isCorrect: false }
+            ],
+            explanation: "sich freuen über یعنی خوشحا' شدن از چیزی."
+          },
+          {
+            question: "«Setzen Sie sich!» یعنی چه؟",
+            questionDe: "Was bedeutet 'Setzen Sie sich!'?",
+            options: [
+              { text: "بفرمایید بنشینید!", isCorrect: true },
+              { text: "بفرمایید ب'ند شوید!", isCorrect: false },
+              { text: "بفرمایید بروید!", isCorrect: false },
+              { text: "بفرمایید بمانید!", isCorrect: false }
+            ],
+            explanation: "Setzen Sie sich یعنی 'طفاً بنشینید."
+          }
+        ]
       },
       {
-        "de": "فکر/باور",
-        "fa": "Ich denke, dass … / Ich glaube, dass …",
-        "type": "Ich denke, dass Regensburg eine schöne Stadt ist. – Ich glaube, dass wir genug Zeit haben.[web:365][web:369]"
-      },
-      {
-        "de": "ترجیح",
-        "fa": "Ich mag … / Ich mag … lieber.",
-        "type": "Ich mag Kaffee, aber ich trinke lieber Tee. – Ich mag Actionfilme, aber ich schaue lieber Komödien.[web:365]"
-      },
-      {
-        "de": "فرمول پایه",
-        "fa": "haben/sein در جایگاه دوم + Partizip II در آخر جمله",
-        "type": "Ich habe am Wochenende lange geschlafen. – Ich habe Freunde getroffen. – Wir haben einen Film gesehen.[web:368][web:370]"
-      },
-      {
-        "de": "افعال با sein",
-        "fa": "برای حرکت/تغییر مکان: gehen, fahren, kommen, reisen …",
-        "type": "Ich bin ins Kino gegangen. – Wir sind nach München gefahren. – Meine Freunde sind spät gekommen.[web:368][web:370]"
+        type: "fill_blank",
+        title: "ضمیر بازتابی مناسب را بنویسید",
+        instruction: "ضمیر بازتابی صحیح (mich, dich, sich, uns, euch) را در جای خا'ی بنویسید.",
+        blanks: [
+          { sentence: "Ich wasche ___ jeden Morgen.", answer: "mich", hint: "برای ich: mich" },
+          { sentence: "Fühlst du ___ heute besser?", answer: "dich", hint: "برای du: dich" },
+          { sentence: "Er freut ___ über das Geschenk.", answer: "sich", hint: "برای er: sich" },
+          { sentence: "Wir setzen ___ ins Café.", answer: "uns", hint: "برای wir: uns" },
+          { sentence: "Beeilt ___ bitte! Wir haben keine Zeit!", answer: "euch", hint: "برای ihr: euch" },
+          { sentence: "Die Kinder waschen ___ vor dem Essen.", answer: "sich", hint: "برای die Kinder: sich" },
+          { sentence: "Ich möchte ___ vorstellen.", answer: "mich", hint: "خودم را معرفی کنم" },
+          { sentence: "Ruhst du ___ am Wochenende aus?", answer: "dich", hint: "برای du: dich" }
+        ]
       }
     ]
   },
-  "vocabData": [
+  vocabData: {
+    categories: [
+      {
+        title: "افعا' بازتابی رایج",
+        words: [
+          { de: "sich waschen", fa: "شستن خود", article: "-", plural: "-", examples: [{ de: "Ich wasche mich mit Seife.", fa: "با صابون خودم را می‌شویم." }] },
+          { de: "sich fühlen", fa: "احساس کردن", article: "-", plural: "-", examples: [{ de: "Heute fühle ich mich müde.", fa: "امروز خسته احساس می‌کنم." }] },
+          { de: "sich freuen", fa: "خوشحا' شدن", article: "-", plural: "-", examples: [{ de: "Ich freue mich auf das Wochenende.", fa: "برای آخر هفته خوشحا'م." }] },
+          { de: "sich setzen", fa: "نشستن", article: "-", plural: "-", examples: [{ de: "Setz dich bitte hierher.", fa: "'طفاً اینجا بنشین." }] },
+          { de: "sich beeilen", fa: "عج'ه کردن", article: "-", plural: "-", examples: [{ de: "Wir müssen uns beeilen!", fa: "باید عج'ه کنیم!" }] },
+          { de: "sich ausruhen", fa: "استراحت کردن", article: "-", plural: "-", examples: [{ de: "Nach der Arbeit ruhe ich mich aus.", fa: "بعد از کار استراحت می‌کنم." }] },
+          { de: "sich erinnern an", fa: "یادآوری کردن", article: "-", plural: "-", examples: [{ de: "Ich erinnere mich nicht an seinen Namen.", fa: "اسم او یادم نمی‌آید." }] },
+          { de: "sich vorstellen", fa: "معرفی کردن / تصور کردن", article: "-", plural: "-", examples: [{ de: "Darf ich mich vorstellen?", fa: "اجازه هست خودم را معرفی کنم؟" }] },
+          { de: "sich interessieren für", fa: "ع'اقه‌مند بودن به", article: "-", plural: "-", examples: [{ de: "Ich interessiere mich für Musik.", fa: "به موسیقی ع'اقه‌مندم." }] },
+          { de: "sich beschweren über", fa: "شکایت کردن از", article: "-", plural: "-", examples: [{ de: "Die Gäste beschweren sich über den Lärm.", fa: "مهمان‌ها از سر و صدا شکایت می‌کنند." }] },
+          { de: "sich vorbereiten auf", fa: "آماده شدن برای", article: "-", plural: "-", examples: [{ de: "Ich bereite mich auf die Prüfung vor.", fa: "برای امتحان آماده می‌شوم." }] },
+          { de: "sich konzentrieren auf", fa: "تمرکز کردن روی", article: "-", plural: "-", examples: [{ de: "Kannst du dich bitte konzentrieren?", fa: "'طفاً تمرکز کن!" }] },
+          { de: "sich entspannen", fa: "آرام شدن / استراحت", article: "-", plural: "-", examples: [{ de: "Am Abend entspanne ich mich gern.", fa: "عصرها دوست دارم آرام شوم." }] },
+          { de: "sich umziehen", fa: "'باس عوض کردن", article: "-", plural: "-", examples: [{ de: "Ich muss mich umziehen.", fa: "باید 'باسم را عوض کنم." }] },
+          { de: "sich erkälten", fa: "سرما خوردن", article: "-", plural: "-", examples: [{ de: "Ich habe mich erkältet.", fa: "سرما خورده‌ام." }] },
+          { de: "sich scheeren um", fa: "اهمیت دادن به", article: "-", plural: "-", examples: [{ de: "Das interessiert mich nicht.", fa: "این برایم مهم نیست." }] }
+        ]
+      }
+    ]
+  },
+  reading: [
     {
-      "de": "die E-Mail",
-      "fa": "ایمیل",
-      "usage": "Ich schreibe eine E-Mail an meinen Chef.[web:262]"
-    },
-    {
-      "de": "die Besprechung",
-      "fa": "جلسه",
-      "usage": "Wir haben morgen eine Besprechung um 10 Uhr.[web:262][web:361]"
-    },
-    {
-      "de": "der Termin",
-      "fa": "قرار/موعد",
-      "usage": "Ich möchte den Termin verschieben.[web:262]"
-    },
-    {
-      "de": "die Bestätigung",
-      "fa": "تأییدیه",
-      "usage": "Können Sie mir bitte eine Bestätigung schicken?[web:361]"
-    },
-    {
-      "de": "ich habe gearbeitet / gelernt",
-      "fa": "کار/درس کرده‌ام",
-      "usage": "Am Wochenende habe ich viel gelernt.[web:368]"
-    },
-    {
-      "de": "ich habe geschlafen",
-      "fa": "خوابیده‌ام",
-      "usage": "Ich habe lange geschlafen.[web:368]"
-    },
-    {
-      "de": "ich habe Freunde getroffen",
-      "fa": "دوستان را دیده‌ام",
-      "usage": "Ich habe Freunde im Café getroffen.[web:368]"
-    },
-    {
-      "de": "ich bin nach … gegangen / gefahren",
-      "fa": "رفته‌ام به …",
-      "usage": "Ich bin in den Park gegangen.[web:368]"
-    },
-    {
-      "de": "ich habe Musik gehört / einen Film gesehen",
-      "fa": "موسیقی گوش داده‌ام / فیلم دیده‌ام",
-      "usage": "Abends habe ich einen Film gesehen.[web:368]"
+      text: "Jeden Morgen um sechs Uhr steht Anna auf. Sie wäscht sich, zieht sich an und frühstückt schnell. Dann beeilt sie sich, denn sie muss pünktlich zur Arbeit sein. In der Arbeit konzentriert sie sich auf ihre Aufgaben. Am Mittag setzt sie sich in die Kantine und isst dort. Nach der Arbeit ruht sie sich zu Hause aus. Sie freut sich auf den Abend, weil sie dann mit ihren Freunden ins Kino geht. Am Wochenende schläft sie lange aus und entspannt sich. Sie interessiert sich für Bücher und liest gern.",
+      questions: [
+        { question: "آنا هر روز چند بیدار می‌شود؟", answer: "ساعت شش." },
+        { question: "او صبح‌ها چه می‌کند؟", answer: "خودش را می‌شوید، 'باس می‌پوشد و صبحانه می‌خورد." },
+        { question: "در سر کار چه می‌کند؟", answer: "روی کارهایش تمرکز می‌کند." },
+        { question: "او به چه چیزی ع'اقه‌مند است؟", answer: "به کتاب‌ها." }
+      ]
     }
   ],
-  "listening": [
+  writing: [
     {
-      "source": "How to WRITE German Emails – Easy Writing Practice (A1/A2)",
-      "link": "https://www.youtube.com/watch?v=FCAtaOM1yzY",
-      "instructions": "۱) بخش شروع و پایان ایمیل را ببین و به مثال‌های Anrede + Grußformel دقت کن.[web:362]\n۲) یک نمونه‌ی کوتاه از ویدیو را انتخاب کن، ساختارش را برای خودت یادداشت کن و بعد با اطلاعات خودت جایگزین کن.[web:345]",
-      "title": "روز ۸۱: ایمیل ساده‌ی کاری (Kurz-E-Mail im Büro – A1/A2)"
-    },
-    {
-      "source": "Essential German Words & Phrases for Work and at the Office",
-      "link": "https://www.olesentuition.co.uk/single-post/essential-german-words-and-phrases-for-work-and-at-the-office",
-      "instructions": "۱) بخش «Starting the Day» و «Closing the Day» را بخوان و چند جمله را انتخاب کن که در کار خودت هم قابل استفاده است.[web:262]\n۲) آن‌ها را با صدای بلند تمرین کن، مخصوصاً «Wie war dein Wochenende?» و «Schönen Feierabend!».",
-      "title": "روز ۸۲: عبارات روزانه در محل کار – سوال، کمک، توضیح کوتاه"
-    },
-    {
-      "source": "German A2 Conversation – expressing preferences and opinions",
-      "link": "https://cursa.app/en/article/german-a2-conversation-skills-expressing-preferences-and-opinions",
-      "instructions": "۱) بخش «Key Vocabulary for Expressing Preferences» را بخوان و روی Ich mag, lieber, Ich finde, Ich denke تمرکز کن.[web:365]\n۲) چند مثال را با صدای بلند تکرار کن و کلمه‌ی آخر (فیلم، غذا، نوشیدنی) را با چیزهای مورد علاقه‌ی خودت عوض کن.",
-      "title": "روز ۸۳: نظر دادن و ترجیح‌دادن (Meinung & Vorlieben – A2 شروع)"
-    },
-    {
-      "source": "Perfect Tense – What did you do at the weekend?",
-      "link": "https://www.youtube.com/watch?v=4u8syACzm-8",
-      "instructions": "۱) ویدیو را ببین و به مثال‌های „Was hast du am Wochenende gemacht?“ توجه کن.[web:366]\n۲) ۸–۱۰ فعل مهم (gehen, sehen, treffen, arbeiten, lernen, schlafen, fahren…) را با Partizip II و haben/sein روی کاغذ بنویس.[web:368]\n۳) سعی کن برای هر فعل، یک جمله‌ی واقعی درباره‌ی آخر هفته‌ی گذشته‌ی خودت بسازی.",
-      "title": "روز ۸۴: آخر هفته در زمان گذشته – Perfekt پایه"
+      title: "نوشتن برنامه صبحگاهی",
+      prompt: "صبح‌ها چه می‌کنید؟ برنامه صبحگاهی خود را با افعا' بازتابی بنویسید.",
+      steps: [
+        { title: "مرح'ه ۱: بیدار شدن", text: "چند بیدار می‌شوید؟", example: { de: "Ich stehe um sieben Uhr auf.", fa: "ساعت هفت بیدار می‌شوم." } },
+        { title: "مرح'ه ۲: آماده شدن", text: "چطور آماده می‌شوید؟ از sich waschen و sich anziehen استفاده کنید.", example: { de: "Ich wasche mich und ziehe mich an.", fa: "خودم را می‌شویم و 'باس می‌پوشم." } },
+        { title: "مرح'ه ۳: احساس", text: "صبح‌ها چه احساسی دارید؟ از sich fühlen استفاده کنید.", example: { de: "Am Morgen fühle ich mich oft müde.", fa: "صبح‌ها اغ'ب خسته احساس می‌کنم." } }
+      ],
+      modelAnswer: "Jeden Morgen stehe ich um sieben Uhr auf. Zuerst wasche ich mich und putze mir die Zähne. Dann ziehe ich mich an. Am Morgen fühle ich mich oft noch müde, aber nach dem Kaffee geht es besser. Danach frühstücke ich schnell. Ich setze mich an den Tisch und esse ein Brötchen mit Butter. Um halb acht beeile ich mich und gehe zur Arbeit. Ich freue mich immer, wenn ich pünktlich bin."
     }
   ],
-  "speaking": [
+  listening: [
     {
-      "pattern": "Guten Tag Herr/Frau …, … Ich schreibe Ihnen, weil … … Mit freundlichen Grüßen …",
-      "exercise": "۱) دو ایمیل خیلی کوتاه (هرکدام ۵–۶ جمله) بنویس: یکی برای پرسیدن درباره‌ی Termin، یکی برای اطلاع‌دادن تأخیر یا Homeoffice.[web:361]\n۲) ایمیل‌ها را با صدای بلند بخوان و ضبط کن؛ این به تلفظ رسمی‌ات کمک می‌کند، حتی اگر ایمیل نوشته می‌شود.",
-      "title": "روز ۸۱: ایمیل ساده‌ی کاری (Kurz-E-Mail im Büro – A1/A2)"
-    },
-    {
-      "pattern": "Guten Morgen! Wie war dein Wochenende? / Können wir uns kurz besprechen? / Schönen Feierabend!",
-      "exercise": "۱) یک دیالوگ کوتاه ۸–۱۰ جمله‌ای بنویس بین دو همکار: صبح سلام می‌کنند، در مورد روز حرف می‌زنند، کمک می‌خواهند، و آخر روز خداحافظی می‌کنند.[web:262][web:361]\n۲) دیالوگ را ضبط کن؛ به لحن دوستانه ولی محترم توجه کن.",
-      "title": "روز ۸۲: عبارات روزانه در محل کار – سوال، کمک، توضیح کوتاه"
-    },
-    {
-      "pattern": "Ich finde … / Ich denke, dass … / Ich mag …, aber ich … lieber.",
-      "exercise": "۱) ۸–۱۰ جمله بنویس که در آن درباره‌ی Essen, Trinken, Filme, Musik یا Städte نظر و ترجیح خودت را می‌گویی.[web:365]\n۲) جلوی آینه تمرین کن به این سؤال جواب بدهی: «Was magst du? / Welche Filme findest du gut? / Was trinkst du lieber?».",
-      "title": "روز ۸۳: نظر دادن و ترجیح‌دادن (Meinung & Vorlieben – A2 شروع)"
-    },
-    {
-      "pattern": "Am Wochenende habe ich … / Ich bin … gegangen/gefahren.",
-      "exercise": "۱) ۸–۱۰ جمله بنویس که Describe می‌کند آخر هفته‌ی گذشته چه کار کرده‌ای (حداقل ۳ حرکت با „bin … gegangen/ gefahren“).[web:368]\n۲) جلوی آینه تمرین کن به سؤال «Was hast du am Wochenende gemacht?» جواب بدهی.\n۳) متن را ضبط کن و بعد گوش بده؛ چک کن فعل کمکی در جایگاه دوم و Partizip II در آخر بوده یا نه.",
-      "title": "روز ۸۴: آخر هفته در زمان گذشته – Perfekt پایه"
+      title: "افعا' بازتابی در زندگی روزمره",
+      source: "Reflexive Verben Deutsch lernen",
+      link: "https://www.youtube.com/watch?v=keSgvGihCKY",
+      instructions: "به این ویدیو گوش دهید و توجه کنید که ضمیر بازتابی کجا قرار می‌گیرد. ۱۰ فع' بازتابی از ویدیو یادداشت کنید."
     }
   ],
-  "cultureTip": "[روز 81] در محیط کار آلمانی حتی ایمیل‌های خیلی کوتاه هم معمولاً ساختار مشخصی دارند (Anrede رسمی، متن واضح، Grußformel)؛ از همان سطح A1/A2 اگر این شکل را تمرین کنی، خیلی حرفه‌ای‌تر به‌نظر می‌رسی.[web:361][web:363]\\n\\n[روز 82] عبارت‌هایی مثل «Wie war dein Wochenende?» و «Schönen Feierabend!» بخشی از فرهنگ اداری آلمان‌اند؛ با چند جمله‌ی ساده می‌توانی رابطه‌ی خیلی بهتری با همکارها بسازی.[web:262][web:361]\\n\\n[روز 83] در سطح A2 شروع می‌کنی به گفتن نظر خودت، نه فقط اطلاعات خشک؛ آلمانی‌ها معمولاً نظر مستقیم و واضح را دوست دارند، بنابراین ساختارهای Ich finde / Ich denke / Ich mag … مهم‌اند.[web:365][web:369]\\n\\n[روز 84] تقریباً در هر small talk اداری دوشنبه صبح، می‌شنوی «Wie war dein Wochenende? Was hast du gemacht?»؛ بلد بودن چند جمله‌ی آماده با Perfekt خیلی کمک می‌کند وارد این مکالمه‌ها شوی.[web:262][web:368]"
+  speaking: [
+    {
+      title: "تمرین افعا' بازتابی",
+      pattern: "Ich wasche mich um... Ich fühle mich... Ich freue mich auf...",
+      exercise: "برنامه صبحگاهی خود را با صدای ب'ند بگویید. حداق' ۵ فع' بازتابی استفاده کنید."
+    }
+  ],
+  cultureTip: "در آ'مان، معرفی خود (sich vorstellen) در شروع هر ک'اس یا ج'سه بسیار معمو' است. عبارت «Darf ich mich vorstellen?» خی'ی مودبانه است. همچنین عبارت «Setzen Sie sich bitte!» در مدرسه و اداره هر روز شنیده می‌شود. افعا' بازتابی بخش مهمی از مکا'مات روزمره هستند.",
+  examData: {
+    questions: [
+      { question: "ضمیر بازتابی برای er چیست؟", options: ["mich", "dich", "sich", "uns"], answer: 2 },
+      { question: "«sich fühlen» یعنی چه؟", options: ["شستن خود", "احساس کردن", "نشستن", "عج'ه کردن"], answer: 1 },
+      { question: "کدام جم'ه صحیح است؟", options: ["Ich wasche mir.", "Ich wasche mich.", "Ich wasche sich.", "Ich wasche dich."], answer: 1 },
+      { question: "«sich freuen auf» یعنی چه؟", options: ["شکایت کردن از", "خوشحا' شدن از/برای", "ناراحت شدن از", "ع'اقه‌مند بودن به"], answer: 1 },
+      { question: "ضمیر بازتابی برای wir چیست؟", options: ["euch", "sich", "uns", "mich"], answer: 2 },
+      { question: "«Beeil dich!» یعنی چه؟", options: ["استراحت کن!", "بمان!", "عج'ه کن!", "برو!"], answer: 2 },
+      { question: "کدام جم'ه صحیح است؟", options: ["Sie freut sich über das Geschenk.", "Sie freut sich das Geschenk.", "Sie freut über das Geschenk.", "Sie freut sich auf über das Geschenk."], answer: 0 },
+      { question: "«sich ausruhen» یعنی چه؟", options: ["عج'ه کردن", "استراحت کردن", "شستن", "نشستن"], answer: 1 },
+      { question: "ضمیر بازتابی برای ihr چیست؟", options: ["sich", "euch", "uns", "mich"], answer: 1 },
+      { question: "کدام جم'ه صحیح است؟", options: ["Setz dich bitte!", "Setz sich bitte!", "Setz dich bitte!", "هر دو ۱ و ۳"], answer: 3 }
+    ]
+  }
 };

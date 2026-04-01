@@ -1,195 +1,188 @@
 export const day20Data = {
-  "title": "روز 20 (تجمیع روزهای 77 تا 80)",
-  "objective": "[روز 77] یادگیری جمله‌های مودب برای سفارش غذا و نوشیدنی در رستوران/کافه و خواستن Rechnung.\\n\\n[روز 78] یادگیری کلمات و جمله‌های مهم برای رزرو اتاق در هتل/هاستل (تعداد شب، نوع اتاق، Frühstück, Preis).\\n\\n[روز 79] تمرین چک‌این در هتل، توضیح مشکل در Zimmer (z.B. Fernseher funktioniert nicht) و پرداخت/خروج (auschecken).\\n\\n[روز 80] ترکیب مهارت‌های پول/قیمت، سفارش در رستوران و رزرو/چک‌این هتل در سه سناریوی سفر کوتاه (Urlaub).",
-  "grammarData": {
-    "subtitle": "Ich hätte gern … / Ich möchte … / Die Rechnung, bitte.\\nIch möchte ein Zimmer reservieren. / Haben Sie noch Zimmer frei?\\nEinchecken, Problem melden, Auschecken\\nسه صحنه‌ی سفر: im Laden, im Restaurant, im Hotel",
-    "pronouns": [
+  title: "روز ۲۰: رستوران و کافه - سفارش غذا، منو، پرداخت",
+  objective: "در این درس یاد می‌گیرید چگونه در رستوران و کافه آ'مانی سفارش دهید، از منو انتخاب کنید، قیمت بپرسید و صورت‌حساب بخواهید.",
+  grammarData: {
+    subtitle: "Im Restaurant bestellen ' سفارش دادن در رستوران",
+    content: [
       {
-        "de": "سفارش مودبانه",
-        "fa": "Ich hätte gern … / Ich möchte …",
-        "type": "Ich hätte gern ein Schnitzel mit Pommes. – Ich möchte eine Pizza Margherita, bitte. – Für mich ein Wasser, bitte.[web:352][web:355][web:360]"
+        type: "text",
+        title: "مکا'مه رستوران",
+        text: "در رستوران آ'مانی از عبارت‌های مودبانه استفاده می‌شود. مهم‌ترین آن‌ها: Ich hätte gern... (می‌خواستم...) و Ich möchte... (می‌خواهم...). برای پرداخت: Die Rechnung, bitte! (صورت‌حساب، 'طفاً!). برای پرسیدن قیمت: Wie viel kostet das? (چقدر است؟)"
       },
       {
-        "de": "از گارسون",
-        "fa": "Anrede + آیا آماده‌ای؟ + alles zusammen?",
-        "type": "Entschuldigung! – Sind Sie bereit zu bestellen? – Ja, ich hätte gern … . – Noch etwas? – Nein, danke. – Die Rechnung, bitte.[web:352][web:207][web:355]"
+        type: "table",
+        title: "مراح' مکا'مه در رستوران",
+        rows: [
+          { de: "شروع: Guten Tag! / Einen Tisch für zwei Personen, bitte.", fa: "س'ام، یک میز برای دو نفر، 'طفاً." },
+          { de: "منو: Die Speisekarte, bitte. / Können wir bestellen?", fa: "منو، 'طفاً. / می‌توانیم سفارش دهیم؟" },
+          { de: "سفارش: Ich hätte gern... / Ich möchte..., bitte.", fa: "می‌خواستم... / می‌خواهم... 'طفاً." },
+          { de: "سؤا': Was können Sie empfehlen?", fa: "چه چیزی پیشنهاد می‌دهید؟" },
+          { de: "پرداخت: Die Rechnung, bitte! / Zahlen, bitte!", fa: "صورت‌حساب، 'طفاً!" },
+          { de: "پرداخت: Ich möchte bar / mit Karte zahlen.", fa: "می‌خواهم نقد / با کارت پرداخت کنم." }
+        ]
       },
       {
-        "de": "پرسیدن ظرفیت",
-        "fa": "Haben Sie freie Zimmer? / Haben Sie noch Zimmer frei?",
-        "type": "Guten Tag, haben Sie noch ein Einzelzimmer frei? – Haben Sie noch Zimmer frei am Wochenende?[web:353][web:358]"
+        type: "examples",
+        title: "مکا'مه نمونه رستوران",
+        items: [
+          { de: "Guten Tag! Ich hätte gern ein Tisch für zwei Personen.", fa: "س'ام! یک میز برای دو نفر می‌خواستم." },
+          { de: "Können wir bestellen? Ich hätte gern eine Tomatensuppe als Vorspeise.", fa: "می‌توانیم سفارش دهیم؟ سوپ گوجه به عنوان پیش‌غذا می‌خواستم." },
+          { de: "Als Hauptgericht nehme ich das Schnitzel mit Pommes.", fa: "به عنوان غذای اص'ی شنیتس' با سیب‌زمینی سرخ‌کرده می‌گیرم." },
+          { de: "Was trinken Sie? ' Für mich ein Wasser, bitte.", fa: "چه می‌نوشید؟ ' برای من یک آب، 'طفاً." },
+          { de: "Schmeckt es Ihnen? ' Ja, sehr gut! Danke.", fa: "خوشمزه است؟ ' ب'ه، خی'ی خوب! ممنون." },
+          { de: "Die Rechnung, bitte! ' Zusammen oder getrennt?", fa: "صورت‌حساب، 'طفاً! ' با هم یا جدا؟" },
+          { de: "Zusammen, bitte. Ich zahle mit Karte.", fa: "با هم، 'طفاً. با کارت پرداخت می‌کنم." }
+        ]
       },
       {
-        "de": "رزروکردن",
-        "fa": "Ich möchte ein Zimmer reservieren.",
-        "type": "Ich möchte ein Doppelzimmer für zwei Nächte reservieren. – Ich brauche ein Einzelzimmer vom 10. bis 12. Mai.[web:353][web:358]"
+        type: "alert",
+        title: "Ich hätte gern vs Ich möchte",
+        text: "هر دو عبارت مودبانه هستند. «Ich hätte gern» مودب‌تر و رایج‌تر است. «Ich möchte» هم صحیح و مودب است. هرگز نگویید «Ich will» چون خی'ی مستقیم و غیرمودبانه است!"
       },
       {
-        "de": "پرسیدن Preis و Frühstück",
-        "fa": "Wie viel kostet das Zimmer pro Nacht? Ist das Frühstück inbegriffen?",
-        "type": "Wie viel kostet das Zimmer pro Nacht? – 80 Euro. – Ist das Frühstück im Preis inbegriffen?[web:353][web:358]"
+        type: "table",
+        title: "انواع غذا و نوشیدنی",
+        rows: [
+          { de: "die Vorspeise", fa: "پیش‌غذا (سوپ، سا'اد)" },
+          { de: "das Hauptgericht", fa: "غذای اص'ی (گوشت، ماهی، مرغ)" },
+          { de: "die Nachspeise / der Nachtisch", fa: "دسر (کیک، بستنی)" },
+          { de: "das Getränk", fa: "نوشیدنی (آب، آب‌میوه، قهوه)" },
+          { de: "alkoholfrei", fa: "بدون ا'ک'" },
+          { de: "mit Alkohol", fa: "با ا'ک'" }
+        ]
       },
       {
-        "de": "چک‌این",
-        "fa": "Ich habe eine Reservierung. / Ich möchte einchecken.",
-        "type": "Guten Tag, ich habe eine Reservierung auf den Namen … . – Ich möchte einchecken. – Hier ist mein Pass.[web:356]"
+        type: "interactive_quiz",
+        title: "مکا'مه رستوران",
+        questions: [
+          {
+            question: "برای سفارش مودبانه کدام عبارت صحیح است؟",
+            questionDe: "Welcher Ausdruck ist höflich für eine Bestellung?",
+            options: [
+              { text: "Ich hätte gern eine Suppe.", isCorrect: true },
+              { text: "Ich will eine Suppe.", isCorrect: false },
+              { text: "Gib mir eine Suppe.", isCorrect: false },
+              { text: "Eine Suppe!", isCorrect: false }
+            ],
+            explanation: "«Ich hätte gern» مودب‌ترین و رایج‌ترین شک' سفارش است."
+          },
+          {
+            question: "«Die Rechnung, bitte!» یعنی چه؟",
+            questionDe: "Was bedeutet 'Die Rechnung, bitte!'?",
+            options: [
+              { text: "صورت‌حساب، 'طفاً!", isCorrect: true },
+              { text: "منو، 'طفاً!", isCorrect: false },
+              { text: "یک میز، 'طفاً!", isCorrect: false },
+              { text: "آب، 'طفاً!", isCorrect: false }
+            ],
+            explanation: "Die Rechnung یعنی صورت‌حساب."
+          },
+          {
+            question: "وقتی گارسون بپرسد «Zusammen oder getrennt?» منظورش چیست؟",
+            questionDe: "Was meint der Kellner mit 'Zusammen oder getrennt'?",
+            options: [
+              { text: "با هم یا جدا پرداخت می‌کنید؟", isCorrect: true },
+              { text: "با هم یا جدا می‌نشینید؟", isCorrect: false },
+              { text: "با هم یا جدا سفارش می‌دهید؟", isCorrect: false },
+              { text: "غذا را با هم یا جدا سرو کنم؟", isCorrect: false }
+            ],
+            explanation: "Zusammen oder getrennt یعنی با هم یا جدا حساب کنید."
+          }
+        ]
       },
       {
-        "de": "مشکل در Zimmer",
-        "fa": "… funktioniert nicht. / … ist kaputt.",
-        "type": "Der Fernseher in meinem Zimmer funktioniert nicht. – Die Klimaanlage ist kaputt.[web:356]"
-      },
-      {
-        "de": "پرداخت و خروج",
-        "fa": "Wir möchten auschecken. / Können wir die Rechnung bekommen?",
-        "type": "Wir möchten morgen früh auschecken. – Können wir bitte die Rechnung bekommen? – Können wir mit Karte bezahlen?[web:356]"
-      },
-      {
-        "de": "صحنه ۱ – خرید سوغاتی",
-        "fa": "Preis fragen + bezahlen",
-        "type": "Entschuldigung, wie viel kostet das T‑Shirt? – Es kostet 15 Euro neunundneunzig. – Ich nehme es. Ich zahle mit Karte.[web:357][web:359]"
-      },
-      {
-        "de": "صحنه ۲ – Abendessen im Restaurant",
-        "fa": "Bestellen + Rechnung",
-        "type": "Im Restaurant: „Ich hätte gern eine Suppe als Vorspeise und das Schnitzel als Hauptgericht. Dazu ein Glas Wasser, bitte. Die Rechnung, bitte.“[web:352][web:355]"
-      },
-      {
-        "de": "صحنه ۳ – Hotel: Reservierung + Problem + Auschecken",
-        "fa": "ترکیب روز ۷۸ و ۷۹",
-        "type": "Guten Tag, ich möchte ein Doppelzimmer für zwei Nächte reservieren. – Wie viel kostet das Zimmer pro Nacht? – Beim Check‑in: „Ich habe eine Reservierung auf den Namen …“ – Am nächsten Tag: „Die Dusche funktioniert nicht.“ – Beim Auschecken: „Wir möchten die Rechnung, bitte.“[web:353][web:356]"
+        type: "fill_blank",
+        title: "مکا'مه رستوران را کام' کنید",
+        instruction: "عبارات مناسب را در جای خا'ی بنویسید.",
+        blanks: [
+          { sentence: "Guten Tag! ___ ___ ein Tisch für zwei Personen, bitte.", answer: "Ich hätte gern", hint: "مودبانه‌ترین شک' سفارش" },
+          { sentence: "Als Vorspeise ___ ich eine Tomatensuppe.", answer: "nehme", hint: "nehme ich = می‌گیرم" },
+          { sentence: "___ ___ das Schnitzel?", answer: "Wie viel kostet", hint: "چقدر است؟" },
+          { sentence: "Die ___, bitte! Ich möchte mit Karte ___.", answer: "Rechnung, zahlen", hint: "صورت‌حساب و پرداخت" },
+          { sentence: "___ möchten Sie trinken? ' Für mich ein Wasser.", answer: "Was", hint: "چه می‌نوشید؟" },
+          { sentence: "Können wir bitte die ___ sehen?", answer: "Speisekarte", hint: "منوی غذا" },
+          { sentence: "___ oder getrennt?", answer: "Zusammen", hint: "با هم یا جدا" }
+        ]
       }
     ]
   },
-  "vocabData": [
+  vocabData: {
+    categories: [
+      {
+        title: "واژگان رستوران و کافه",
+        words: [
+          { de: "die Speisekarte", fa: "منوی غذا", article: "die", plural: "-n", examples: [{ de: "Können wir bitte die Speisekarte haben?", fa: "می‌توانیم منو داشته باشیم؟" }] },
+          { de: "die Rechnung", fa: "صورت‌حساب", article: "die", plural: "-en", examples: [{ de: "Die Rechnung, bitte!", fa: "صورت‌حساب، 'طفاً!" }] },
+          { de: "das Schnitzel", fa: "شنیتس' (گوشت سوخاری)", article: "das", plural: "-", examples: [{ de: "Ich hätte gern ein Schnitzel mit Pommes.", fa: "شنیتس' با سیب‌زمینی می‌خواستم." }] },
+          { de: "die Suppe", fa: "سوپ", article: "die", plural: "-n", examples: [{ de: "Die Suppe schmeckt sehr gut.", fa: "سوپ خی'ی خوشمزه است." }] },
+          { de: "der Salat", fa: "سا'اد", article: "der", plural: "-e", examples: [{ de: "Als Vorspeise nehme ich einen Salat.", fa: "پیش‌غذا سا'اد می‌گیرم." }] },
+          { de: "das Brot", fa: "نان", article: "das", plural: "Brote", examples: [{ de: "Können wir noch etwas Brot bekommen?", fa: "می‌توانیم کمی نان بگیریم؟" }] },
+          { de: "die Kartoffel", fa: "سیب‌زمینی", article: "die", plural: "-n", examples: [{ de: "Ich esse gern Kartoffeln.", fa: "سیب‌زمینی دوست دارم." }] },
+          { de: "das Hähnchen", fa: "مرغ", article: "das", plural: "-", examples: [{ de: "Möchten Sie das Hähnchen mit Reis?", fa: "مرغ با برنج می‌خواهید؟" }] },
+          { de: "das Eis", fa: "بستنی", article: "das", plural: "-e", examples: [{ de: "Zum Nachtisch nehme ich ein Eis.", fa: "دسر بستنی می‌گیرم." }] },
+          { de: "der Kuchen", fa: "کیک", article: "der", plural: "-", examples: [{ de: "Haben Sie auch Kuchen?", fa: "کیک هم دارید؟" }] },
+          { de: "das Mineralwasser", fa: "آب معدنی", article: "das", plural: "-", examples: [{ de: "Ein stilles Wasser, bitte.", fa: "یک آب بدون گاز، 'طفاً." }] },
+          { de: "der Orangensaft", fa: "آب پرتقا'", article: "der", plural: "Orangensäfte", examples: [{ de: "Einen Orangensaft, bitte.", fa: "یک آب پرتقا'، 'طفاً." }] },
+          { de: "der Kellner / die Kellnerin", fa: "گارسون", article: "der/die", plural: "-", examples: [{ de: "Entschuldigung, Kellner!", fa: "ببخشید، آقا گارسون!" }] },
+          { de: "die Bestellung", fa: "سفارش", article: "die", plural: "-en", examples: [{ de: "Sind Sie bereit zu bestellen?", fa: "آماده سفارش هستید؟" }] },
+          { de: "bezahlen / zahlen", fa: "پرداخت کردن", article: "-", plural: "-", examples: [{ de: "Ich möchte mit Karte bezahlen.", fa: "می‌خواهم با کارت پرداخت کنم." }] },
+          { de: "die Quittung", fa: "رسید", article: "die", plural: "-en", examples: [{ de: "Kann ich eine Quittung haben?", fa: "می‌توانم رسید داشته باشم؟" }] }
+        ]
+      }
+    ]
+  },
+  reading: [
     {
-      "de": "die Speisekarte",
-      "fa": "منوی غذا",
-      "usage": "Können wir bitte die Speisekarte sehen?[web:352]"
-    },
-    {
-      "de": "die Vorspeise",
-      "fa": "پیش‌غذا",
-      "usage": "Als Vorspeise nehme ich eine Suppe.[web:352]"
-    },
-    {
-      "de": "das Hauptgericht",
-      "fa": "غذای اصلی",
-      "usage": "Als Hauptgericht hätte ich gern das Hähnchen.[web:352]"
-    },
-    {
-      "de": "die Nachspeise / der Nachtisch",
-      "fa": "دسر",
-      "usage": "Zum Nachtisch nehme ich ein Eis.[web:352]"
-    },
-    {
-      "de": "die Rechnung",
-      "fa": "صورت‌حساب",
-      "usage": "Die Rechnung, bitte.[web:352][web:355]"
-    },
-    {
-      "de": "stilles Wasser / Mineralwasser",
-      "fa": "آب بدون گاز / گازدار",
-      "usage": "Ich möchte ein stilles Wasser.[web:360]"
-    },
-    {
-      "de": "die Reservierung / die Buchung",
-      "fa": "رزرو / بوکینگ",
-      "usage": "Ich habe eine Reservierung auf den Namen Ali.[web:356][web:353]"
-    },
-    {
-      "de": "das Einzelzimmer",
-      "fa": "اتاق یک‌نفره",
-      "usage": "Ich brauche ein Einzelzimmer.[web:353][web:356]"
-    },
-    {
-      "de": "das Doppelzimmer",
-      "fa": "اتاق دونفره",
-      "usage": "Wir möchten ein Doppelzimmer.[web:353][web:356]"
-    },
-    {
-      "de": "frei / besetzt",
-      "fa": "خالی / پر",
-      "usage": "Sind noch Zimmer frei oder ist alles besetzt?[web:356]"
-    },
-    {
-      "de": "die Rezeption",
-      "fa": "رسپشن",
-      "usage": "Ich gehe zur Rezeption.[web:356]"
-    },
-    {
-      "de": "die Rechnung",
-      "fa": "صورت‌حساب",
-      "usage": "Wir möchten die Rechnung, bitte.[web:356]"
-    },
-    {
-      "de": "einchecken / auschecken",
-      "fa": "چک‌این / چک‌اوت",
-      "usage": "Wir möchten um 14 Uhr einchecken und am Sonntag auschecken.[web:356]"
-    },
-    {
-      "de": "die Klimaanlage",
-      "fa": "کولر/تهویه",
-      "usage": "Die Klimaanlage ist kaputt.[web:356]"
-    },
-    {
-      "de": "der Schlüssel / die Schlüsselkarte",
-      "fa": "کلید / کارت اتاق",
-      "usage": "Hier ist Ihr Schlüssel für Zimmer 101.[web:356]"
-    },
-    {
-      "de": "die Kreditkarte",
-      "fa": "کارت اعتباری",
-      "usage": "Kann ich mit Kreditkarte bezahlen?[web:356]"
+      text: "Maria und ihr Freund gehen ins Restaurant. Der Kellner bringt die Speisekarte. Maria bestellt eine Tomatensuppe als Vorspeise und ein Schnitzel mit Pommes als Hauptgericht. Ihr Freund wählt einen Salat und das Hähnchen mit Reis. Für das Trinken nehmen sie zwei Gläser Orangensaft. Das Essen schmeckt sehr gut! Nach dem Essen bestellen sie noch ein Eis zum Nachtisch. Am Ende rufen sie den Kellner: 'Die Rechnung, bitte!' Sie zahlen zusammen mit Karte und geben ein Trinkgeld. Das Restaurant war sehr gemütlich und das Essen war köstlich!",
+      questions: [
+        { question: "ماریا چه پیش‌غذایی سفارش داد؟", answer: "سوپ گوجه." },
+        { question: "دوست او چه غذایی انتخاب کرد؟", answer: "سا'اد و مرغ با برنج." },
+        { question: "آن‌ها چه نوشیدنی نوشیدند؟", answer: "دو 'یوان آب پرتقا'." },
+        { question: "آن‌ها چطور پرداخت کردند؟", answer: "با هم و با کارت." },
+        { question: "آن‌ها به گارسون چقدر انعام دادند؟", answer: "در متن ذکر نشده فقط گفته Trinkgeld دادند." }
+      ]
     }
   ],
-  "listening": [
+  writing: [
     {
-      "source": "Ordering in a Restaurant or Café – Lesson 30",
-      "link": "https://www.youtube.com/watch?v=jJiE4Rfcl9w",
-      "instructions": "۱) یک‌بار کامل ویدیو را ببین و به دیالوگ کامل «Bestellen – Essen – Rechnung» دقت کن.\n۲) جملات سفارش‌دادن را پاز کن و ۳ بار با صدای بلند تکرار کن: «Ich hätte gern … / Ich möchte …, bitte.»[web:352]\n۳) دو دیالوگ کوتاه خودت بساز: یکی فقط Getränk، یکی Essen + Getränk + Rechnung.",
-      "title": "روز ۷۷: رستوران و کافه – سفارش‌دادن Essen & Trinken"
-    },
-    {
-      "source": "Essential German Phrases for Hotels and Accommodations",
-      "link": "https://www.olesentuition.co.uk/single-post/essential-german-words-and-phrases-to-book-a-hotel-or-accommodation",
-      "instructions": "۱) بخش «Making a Reservation» را بخوان و جملات کلیدی مثل «Ich möchte ein Zimmer reservieren» را هایلایت کن.[web:353]\n۲) ۵ جمله‌ی مهم را روی کاغذ بنویس و ۳ بار با صدای بلند تمرین کن.\n۳) یک دیالوگ کوتاه تلفنی برای رزرو اتاق بنویس (سلام، تاریخ، نوع Zimmer، Preis، Frühstück).",
-      "title": "روز ۷۸: هتل – رزروکردن اتاق (Reservierung)"
-    },
-    {
-      "source": "German Hotel Vocabulary – Example Sentences",
-      "link": "https://howtostudygerman.com/blog/german-vocabulary-for-hotels-and-accommodation",
-      "instructions": "۱) چند مثال از بخش Example Sentences انتخاب کن، مخصوصاً آن‌هایی که درباره‌ی Fernseher/Klimaanlage/Rechnung هستند.[web:356]\n۲) آن‌ها را با صدای بلند تمرین کن و اسم وسیله را با چیزهای اتاقی که معمولاً برایت مهم است عوض کن (Wi‑Fi, Dusche…).\n۳) یک دیالوگ کوتاه با Rezeption بساز برای گزارش یک مشکل و درخواست حل آن.",
-      "title": "روز ۷۹: هتل – چک‌این، مشکل در اتاق، پرداخت"
-    },
-    {
-      "source": "6.3 – Shopping & Money | How to Ask the Price in German",
-      "link": "https://www.youtube.com/watch?v=OJ-NPBYwvQo",
-      "instructions": "۱) قسمتی از ویدیو را ببین که درباره‌ی «Wie viel kostet das?» و جواب‌هاست.\n۲) جمله‌های قیمت را با جملات رستوران و هتل که در روزهای ۷۷–۷۹ تمرین کردی ترکیب کن تا سه سناریوی کامل سفر بسازی.[web:359]",
-      "title": "روز ۸۰: تمرین ترکیبی – Geld & Preise + Restaurant + Hotel"
+      title: "نوشتن یک مکا'مه رستوران",
+      prompt: "یک مکا'مه بین گارسون و مشتری در رستوران بنویسید. شام' سفارش، سؤا'، و پرداخت باشد.",
+      steps: [
+        { title: "مرح'ه ۱: ورود", text: "مشتری وارد رستوران می‌شود و میز می‌خواهد.", example: { de: "Guten Tag! Ich hätte gern einen Tisch für zwei.", fa: "س'ام! یک میز برای دو نفر می‌خواستم." } },
+        { title: "مرح'ه ۲: سفارش", text: "مشتری غذا و نوشیدنی سفارش می‌دهد.", example: { de: "Ich hätte gern die Tomatensuppe und das Schnitzel.", fa: "سوپ گوجه و شنیتس' می‌خواستم." } },
+        { title: "مرح'ه ۳: پرداخت", text: "مشتری صورت‌حساب می‌خواهد.", example: { de: "Die Rechnung, bitte! Ich zahle mit Karte.", fa: "صورت‌حساب! با کارت پرداخت می‌کنم." } }
+      ],
+      modelAnswer: "Kellner: Guten Tag! Haben Sie reserviert? Kunde: Nein. Ich hätte gern einen Tisch für zwei, bitte. Kellner: Natürlich, bitte hier entlang. Möchten Sie bestellen? Kunde: Ja, bitte. Die Speisekarte sehen wir gern. Kellner: Hier bitte. Kunde: Für mich eine Tomatensuppe und das Schnitzel mit Pommes. Und für meinen Freund einen Salat und das Hähnchen. Kellner: Und was möchten Sie trinken? Kunde: Zwei Gläser Orangensaft, bitte. ... Kellner: Schmeckt es Ihnen? Kunde: Ja, sehr gut! Danke. Können wir die Rechnung haben? Kellner: Natürlich. Zusammen oder getrennt? Kunde: Zusammen, bitte. Ich zahle mit Karte. Kellner: Vielen Dank. Kommen Sie gern wieder!"
     }
   ],
-  "speaking": [
+  listening: [
     {
-      "pattern": "Ich hätte gern … / Ich möchte …, bitte. / Noch etwas? – Nein, danke. / Die Rechnung, bitte.",
-      "exercise": "۱) منوی خیالی کوچکی روی کاغذ بنویس (۳ Essen + ۳ Getränke) و برای هرکدام سفارش بساز.\n۲) یک دیالوگ ۸–۱۰ جمله‌ای بنویس (Kellner/in – Gast) و آن را دو بار ضبط کن؛ یک بار آرام، یک بار با سرعت نزدیک به طبیعی.\n۳) دفعه‌ی بعدی که واقعاً به رستوران می‌روی، حداقل یک جمله از همین‌ها را عمداً به آلمانی بگو.",
-      "title": "روز ۷۷: رستوران و کافه – سفارش‌دادن Essen & Trinken"
-    },
-    {
-      "pattern": "Ich möchte ein Einzel-/Doppelzimmer für … Nächte reservieren. / Haben Sie noch Zimmer frei? / Wie viel kostet …?",
-      "exercise": "۱) دو سناریو بنویس: یکی برای سفر کاری (Einzelzimmer)، یکی برای سفر با دوست (Doppelzimmer).\n۲) هر دو را به شکل دیالوگ تلفنی تمرین و ضبط کن.\n۳) تمرکز کن روی واضح گفتن Datum (از–تا) و تعداد Nächte.",
-      "title": "روز ۷۸: هتل – رزروکردن اتاق (Reservierung)"
-    },
-    {
-      "pattern": "Ich habe eine Reservierung auf den Namen … . / In meinem Zimmer … funktioniert nicht. / Wir möchten auschecken.",
-      "exercise": "۱) سه دیالوگ کوتاه بنویس: چک‌این، Problem melden، چک‌اوت و پرداخت.\n۲) هر سه را ضبط کن؛ بعد گوش بده و ببین آیا می‌توانی آن‌ها را بدون متن هم بگویی.\n۳) تمرکز کن روی جمله‌های ثابت؛ مثلاً «Der Fernseher in meinem Zimmer funktioniert nicht.» را دقیق حفظ کن.",
-      "title": "روز ۷۹: هتل – چک‌این، مشکل در اتاق، پرداخت"
-    },
-    {
-      "pattern": "سه دیالوگ سفر: im Geschäft, im Restaurant, im Hotel",
-      "exercise": "۱) سه دیالوگ ۸–۱۰ جمله‌ای بنویس: خرید کوچک، شام در رستوران، رزرو و چک‌این/چک‌اوت در هتل.\n۲) هر سه را پشت‌سر‌هم ضبط کن؛ بعد گوش بده و ببین کجا در Zahlen/Preise، سفارش، یا هتل گیر می‌کنی.\n۳) همان بخش‌ها را جداگانه چند بار دیگر تمرین کن تا تبدیل به جمله‌های آماده‌ی ذهنی شوند.",
-      "title": "روز ۸۰: تمرین ترکیبی – Geld & Preise + Restaurant + Hotel"
+      title: "مکا'مه رستوران",
+      source: "German in the Restaurant - Dialogue",
+      link: "https://www.youtube.com/watch?v=jJiE4Rfcl9w",
+      instructions: "به دیا'وگ رستوران گوش دهید. توجه کنید که Ich hätte gern و Die Rechnung, bitte چگونه استفاده می‌شوند. مکا'مه را تکرار کنید."
     }
   ],
-  "cultureTip": "[روز 77] عبارت «Ich hätte gern …» در رستوران آلمانی بسیار طبیعی و مودب است؛ اگر فقط همین را خوب و واضح بگویی، حتی با دایره‌ی لغت کم، سفارش‌دادن برایت راحت می‌شود.[web:352][web:355]\\n\\n[روز 78] در سفر در آلمانی‌زبان‌ها، اگر بتوانی به‌صورت ساده بگویی چه نوع Zimmer، چه تاریخی و با چه قیمتی می‌خواهی، در ۹۰٪ موارد مشکل خاصی نخواهی داشت؛ اینجا دقت تلفظ از دقت گرامر مهم‌تر است.[web:353][web:356]\\n\\n[روز 79] در هتل، کارمندان معمولاً راحت انگلیسی صحبت می‌کنند، اما اگر بتوانی چند جمله‌ی اصلی را به آلمانی بگویی، برخوردشان معمولاً گرم‌تر می‌شود و خودت هم اعتماد به نفس بیشتری می‌گیری.[web:353][web:356]\\n\\n[روز 80] وقتی برای اولین‌بار به یک کشور آلمانی‌زبان سفر می‌کنی، سه مهارت حیاتی همین‌ها هستند: قیمت‌پرسیدن، سفارش‌دادن، و هتل‌مدیریت‌کردن؛ اگر این بلاک ۷۶–۸۰ را خوب ببندی، سفر واقعی خیلی کم‌استرس‌تر خواهد بود.[web:352][web:353][web:351]"
+  speaking: [
+    {
+      title: "تمرین سفارش غذا",
+      pattern: "Kellner: Was möchten Sie? Kunde: Ich hätte gern... / Die Rechnung, bitte!",
+      exercise: "با یک نفر مکا'مه رستوران تمرین کنید. یکی نقش گارسون و یکی نقش مشتری را بازی کند."
+    }
+  ],
+  cultureTip: "در آ'مان، معمو'اً انعام (Trinkgeld) حدود ۱۰٪ صورت‌حساب است. عبارت «Stimmt so!» وقتی پو' نقد می‌دهید یعنی بقیه پو' 'ازم نیست و انعام است. در اتریش و سوئیس هم رسوم مشابهی وجود دارد. صبر کنید تا گارسون صورت‌حساب را بیاورد، هرگز عج'ه نکنید!",
+  examData: {
+    questions: [
+      { question: "کدام عبارت برای سفارش مودبانه استفاده می‌شود؟", options: ["Ich will ein Bier.", "Ich hätte gern ein Bier.", "Gib mir ein Bier.", "Ein Bier hier!"], answer: 1 },
+      { question: "«Die Rechnung, bitte!» یعنی چه؟", options: ["منو 'طفاً", "صورت‌حساب 'طفاً", "آب 'طفاً", "میز 'طفاً"], answer: 1 },
+      { question: "«Zusammen oder getrennt?» یعنی چه؟", options: ["با هم یا جدا بنشینید؟", "با هم یا جدا حساب کنید؟", "با هم یا جدا سفارش دهید؟", "با هم یا جدا غذا بخورید؟"], answer: 1 },
+      { question: "«Vorspeise» یعنی چه؟", options: ["غذای اص'ی", "پیش‌غذا", "دسر", "نوشیدنی"], answer: 1 },
+      { question: "«Hauptgericht» یعنی چه؟", options: ["پیش‌غذا", "دسر", "غذای اص'ی", "نوشیدنی"], answer: 2 },
+      { question: "کدام جم'ه صحیح است؟", options: ["Ich möchte mit Karte zahlen.", "Ich möchte zahlen mit Karte.", "Ich möchte Karte mit zahlen.", "Ich mit Karte möchte zahlen."], answer: 0 },
+      { question: "«Speisekarte» یعنی چه؟", options: ["صورت‌حساب", "رسید", "منو", "انعام"], answer: 2 },
+      { question: "کدام عبارت صحیح است؟", options: ["Was kostet das? für wie viel?", "Wie viel das kostet?", "Wie viel kostet das?", "Kostet das wie viel?"], answer: 2 },
+      { question: "«Trinkgeld» یعنی چه؟", options: ["پو' نوشیدنی", "انعام", "حساب", "رسید"], answer: 1 },
+      { question: "کدام عبارت برای پرداخت با کارت است؟", options: ["Ich zahle bar.", "Ich zahle mit Karte.", "Ich zahle mit Geld.", "Ich zahle mit Trinkgeld."], answer: 1 }
+    ]
+  }
 };

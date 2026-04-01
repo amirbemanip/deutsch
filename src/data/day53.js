@@ -1,108 +1,136 @@
 export const day53Data = {
-    title: "روز ۵۳: سفارش در کافه، رستوران و خرید لباس",
-    objective: "در روز ۵۳ اصطلاحاتی را یاد می‌گیرید که برای یک شب‌نشینی در کافه و رستوران، و همچنین پرو کردن لباس در فروشگاه‌های آلمانی نیاز دارید. این جملات باعث می‌شوند مثل یک توریست حرفه‌ای رفتار کنید.",
+  title: "روز ۵۳: اصطلاحات و ضرب‌المثل‌های آلمانی",
+  objective: "در این روز اصطلاحات رایج و ضرب‌المثل‌هایی را یاد می‌گیرید که هر آلمانی‌زبانی در زندگی روزمره استفاده می‌کند.",
 
-    grammarData: {
-        subtitle: "این بخش تمرکز روی گرامر ندارد، بلکه روی حفظ کردن قالب‌های آماده‌ی گفتاری است.",
-        content: [
-            {
-                type: "text",
-                title: "۱. مکالمات کافه و رستوران (Im Café / Restaurant)",
-                text: "آلمانی‌ها معمولاً برای سفارش دادن بسیار مستقیم و مودب هستند. استفاده از hätte gern بهترین راه است."
-            },
-            {
-                type: "examples",
-                title: "سفارش غذا و پرداخت",
-                items: [
-                    { de: "Die Speisekarte, bitte.", fa: "منو (لیست غذاها) لطفاً." },
-                    { de: "Ich hätte gern einen Kaffee.", fa: "من یک قهوه می‌خواستم. (بسیار مودبانه تا ich möchte)" },
-                    { de: "Für mich bitte das Schnitzel.", fa: "برای من لطفاً شنیتسل بیاورید." },
-                    { de: "Wir möchten zahlen, bitte.", fa: "ما می‌خواهیم حساب کنیم لطفاً." },
-                    { de: "Zusammen oder getrennt?", fa: "با هم (در یک فاکتور) یا جداگانه؟ (گارسون همیشه این را می‌پرسد!)" },
-                    { de: "Stimmt so.", fa: "بقیه‌ش مال خودتون (انعام دادن در آلمان. یعنی همینی که دادم درسته)." }
-                ]
-            },
-            {
-                type: "text",
-                title: "۲. در فروشگاه لباس (Kleidung kaufen)",
-                text: "آیا سایز لباس مناسب است؟ برای امتحان کردن و نظر دادن درباره لباس‌ها از این جملات استفاده کنید:"
-            },
-            {
-                type: "examples",
-                title: "پرو کردن و اندازه بودن",
-                items: [
-                    { de: "Kann ich das anprobieren?", fa: "می‌تونم این رو پرو کنم؟ (امتحان کردن لباس)" },
-                    { de: "Wo ist die Umkleidekabine?", fa: "اتاقِ پرو کجاست؟" },
-                    { de: "Das ist mir zu groß / zu klein.", fa: "این برای من خیلی بزرگ / خیلی کوچیک است." },
-                    { de: "Haben Sie das in einer anderen Farbe?", fa: "آیا این را در رنگ دیگری دارید؟" },
-                    { de: "Das passt mir gut. Ich nehme es.", fa: "این اندازه‌م هست. برمی‌دارمش (می‌خرمش)." }
-                ]
-            }
+  grammarData: {
+    subtitle: "اصطلاحات با فعل‌های کلیدی آلمانی",
+    content: [
+      {
+        type: "text",
+        title: "۱. اصطلاحات با فعل sein",
+        text: "بسیاری از اصطلاحات آلمانی با فعل ساده sein (بودن) ساخته می‌شوند."
+      },
+      {
+        type: "examples",
+        title: "اصطلاحات با sein",
+        items: [
+          { de: "Das ist mir egal.", fa: "برام مهم نیست." },
+          { de: "Das ist nicht mein Ding.", fa: "این کار من نیست / به این علاقه ندارم." },
+          { de: "Das ist ja der Hammer!", fa: "این که خیلی باحاله!" }
         ]
-    },
-
-    vocabData: {
-        categories: [
-            {
-                title: "لغات کلیدی اندازه و غذا",
-                words: [
-                    {
-                        de: "lecker",
-                        fa: "خوشمزه",
-                        article: "-",
-                        plural: "-",
-                        examples: [
-                            { de: "Das Essen ist sehr lecker!", fa: "غذا خیلی خوشمزست!" }
-                        ]
-                    },
-                    {
-                        de: "die Rechnung",
-                        fa: "صورتحساب / فاکتور",
-                        article: "die",
-                        plural: "die Rechnungen",
-                        examples: [
-                            { de: "Die Rechnung, bitte.", fa: "صورتحساب لطفاً." }
-                        ]
-                    },
-                    {
-                        de: "die Größe",
-                        fa: "سایز / اندازه",
-                        article: "die",
-                        plural: "die Größen",
-                        examples: [
-                            { de: "Welche Größe haben Sie? - Größe M.", fa: "چه سایزی هستید؟ - سایز مدیوم." }
-                        ]
-                    },
-                    {
-                        de: "teuer / billig",
-                        fa: "گران / ارزان",
-                        article: "-",
-                        plural: "-",
-                        examples: [
-                            { de: "100 Euro? Das ist zu teuer!", fa: "۱۰۰ یورو؟ اون خیلی گرونه!" }
-                        ]
-                    }
-                ]
-            }
+      },
+      {
+        type: "text",
+        title: "۲. ضرب‌المثل‌های معروف آلمانی",
+        text: "ضرب‌المثل‌ها بخش مهمی از فرهنگ هر زبانی هستند."
+      },
+      {
+        type: "examples",
+        title: "۱۰ ضرب‌المثل پرکاربرد",
+        items: [
+          { de: "Uebung macht den Meister.", fa: "تمرین، استاد می‌سازه." },
+          { de: "Der Apfel faellt nicht weit vom Stamm.", fa: "سیب از درخت دور نمی‌افته." },
+          { de: "Wer rastet, der rostet.", fa: "هر که بیکار بشینه، زنگ می‌زنه." },
+          { de: "Morgenstund hat Gold im Mund.", fa: "صبح زود طلا دهنشه!" },
+          { de: "Aller Anfang ist schwer.", fa: "هر شروعی سخته." },
+          { de: "Luegen haben kurze Beine.", fa: "دروغ پاهاش کوتاهه." },
+          { de: "Besser spaet als nie.", fa: "بهتر دیر از هرگز!" },
+          { de: "Wo ein Wille ist, da ist auch ein Weg.", fa: "هرجا اراده باشه، راه هم هست." }
         ]
-    },
-
-    reading: [
-        {
-            text: "Am Abend im Restaurant\n\nKellner: Guten Abend! Was darf's sein?\nGast: Ich hätte gern ein Glas Rotwein.\nKellner: Und zum Essen?\nGast: Für mich das Steak mit Pommes, bitte.\n(Nach dem Essen)\nGast: Herr Ober, wir möchten zahlen!\nKellner: Zusammen oder getrennt?\nGast: Zusammen, bitte. Hier sind 30 Euro. Stimmt so (انعام).\nKellner: Vielen Dank! Schönen Abend noch.",
-            questions: [
-                { question: "مشتری برای سفارش مودبانه شراب قرمز از چه عبارتی استفاده کرد؟" },
-                { question: "گارسون هنگام حساب کردن چه پرسید؟ (کلمات آلمانی)" },
-                { question: "مشتری با گفتن «Stimmt so» چه منظوری به گارسون داشت؟" }
-            ]
-        }
-    ],
-
-    speaking: [
-        {
-            title: "تمرین کافه‌نشینی",
-            pattern: "- Ich hätte gern...\n- Wir möchten zahlen.\n- Zusammen oder getrennt?\n- Stimmt so.",
-            exercise: "جلوی آیینه بنشینید و لیوان چای خود را بردارید. تصور کنید در برلین هستید و می‌خواهید یک کیک و قهوه سفارش دهید. سفارش را با Ich hätte gern بدهید. سپس در نقش خودتان درخواست صورتحساب کنید، در نقش گارسون سوال zusammen/getrennt را بپرسید و در نهایت با یک انعام، بازی را تمام کنید!"
-        }
+      },
+      {
+        type: "fill_blank",
+        title: "ضرب‌المثل‌ها را کامل کنید",
+        blanks: [
+          { sentence: "Uebung macht den ___ .", answer: "Meister", hint: "استاد" },
+          { sentence: "Wer rastet, der ___ .", answer: "rostet", hint: "زنگ زدن" },
+          { sentence: "Aller ___ ist schwer.", answer: "Anfang", hint: "شروع" },
+          { sentence: "Besser spaet als ___ .", answer: "nie", hint: "هرگز" }
+        ]
+      },
+      {
+        type: "interactive_quiz",
+        title: "آزمون: ضرب‌المثل‌ها",
+        questions: [
+          {
+            question: "معنی Uebung macht den Meister چیست؟",
+            options: [
+              { text: "استاد خیلی مهمه", isCorrect: false },
+              { text: "تمرین، استاد می‌سازه", isCorrect: true },
+              { text: "استادها تمرین نمی‌کنن", isCorrect: false }
+            ],
+            explanation: "با تمرین مداوم، به تسلط می‌رسید."
+          }
+        ]
+      }
     ]
+  },
+
+  vocabData: {
+    categories: [
+      {
+        title: "اصطلاحات روزمره",
+        words: [
+          { de: "die Daumen druecken", fa: "آرزوی موفقیت کردن", article: "-", plural: "-", examples: [{ de: "Ich druecke dir die Daumen!", fa: "برات آرزوی موفقیت می‌کنم!" }] },
+          { de: "den Nagel auf den Kopf treffen", fa: "دقیق هدف زدن", article: "-", plural: "-", examples: [{ de: "Du hast den Nagel auf den Kopf getroffen!", fa: "دقیقاً درست گفتی!" }] },
+          { de: "Tomaten auf den Augen haben", fa: "کور بودن (کنایه‌ای)", article: "-", plural: "-", examples: [{ de: "Hast du Tomaten auf den Augen?", fa: "کوری؟ اینجا نوشته!" }] }
+        ]
+      }
+    ]
+  },
+
+  reading: [
+    {
+      text: "Sprichwoerter im Alltag\n\nMeine Oma hat mir als Kind immer Sprichwoerter beigebracht. Mein Lieblingssprichwort ist: Wo ein Wille ist, da ist auch ein Weg. Das bedeutet, dass man niemals aufgeben soll.\n\nMein Bruder sagt immer: Morgenstund hat Gold im Mund. Er steht jeden Tag um 5 Uhr auf!\n\nWenn jemand luegt, sagen wir auf Deutsch: Luegen haben kurze Beine. Das heisst, die Wahrheit kommt immer irgendwann heraus.",
+      questions: [
+        { question: "ضرب‌المثل مورد علاقه نویسنده چیست؟", answer: "Wo ein Wille ist, da ist auch ein Weg — هرگز نباید تسلیم شوی." },
+        { question: "برادر نویسنده چرا هر روز ساعت ۵ بیدار می‌شود؟", answer: "چون معتقد است Morgenstund hat Gold im Mund." },
+        { question: "Luegen haben kurze Beine یعنی چه؟", answer: "دروغ زود برملا می‌شود." }
+      ]
+    }
+  ],
+
+  writing: [
+    {
+      title: "استفاده از ضرب‌المثل در متن",
+      prompt: "یک پاراگراف درباره تجربه یادگیری آلمانی بنویسید و حداقل ۲ ضرب‌المثل استفاده کنید.",
+      steps: [
+        { title: "شروع", text: "با ضرب‌المثل شروع کنید.", example: { de: "Aller Anfang ist schwer, aber ich gebe nicht auf.", fa: "هر شروعی سخته، اما من جا نمی‌زنم." } },
+        { title: "نتیجه‌گیری", text: "با ضرب‌المثل دوم تمام کنید.", example: { de: "Uebung macht den Meister!", fa: "تمرین، استاد می‌سازه!" } }
+      ],
+      modelAnswer: "Aller Anfang ist schwer. Als ich nach Deutschland kam, konnte ich kein Wort Deutsch. Aber ich habe jeden Tag gelernt. Nach einem Jahr kann ich jetzt fließend sprechen. Wo ein Wille ist, da ist auch ein Weg!"
+    }
+  ],
+
+  listening: [
+    {
+      title: "۱. ضرب‌المثل‌های آلمانی",
+      source: "German Proverbs Explained",
+      link: "https://www.youtube.com/watch?v=3JZ_DqEL7ig",
+      instructions: "ویدیو را ببینید و ضرب‌المثل‌ها را یادداشت کنید."
+    }
+  ],
+
+  speaking: [
+    {
+      title: "تمرین ضرب‌المثل",
+      pattern: "Uebung macht den Meister!\nWo ein Wille ist, da ist auch ein Weg.",
+      exercise: "هر ضرب‌المثل را با لحن قاطع تکرار کنید."
+    }
+  ],
+
+  cultureTip: "آلمانی‌ها عاشق ضرب‌المثل‌اند! اگر در مکالمه B1 خود یک ضرب‌المثل مناسب استفاده کنید، ممتحن بسیار تحت تأثیر قرار می‌گیرد.",
+
+  examData: {
+    questions: [
+      { question: "معنی Uebung macht den Meister چیست؟", options: ["استاد خیلی مهمه", "تمرین، استاد می‌سازه", "استادها تمرین نمی‌کنن"], answer: 1 },
+      { question: "Luegen haben kurze Beine یعنی...", options: ["دروغ‌گو پاهاش کوتاهه", "دروغ زود برملا میشه", "کسی که دروغ میگه راه نمیره"], answer: 1 },
+      { question: "Das ist nicht mein Ding یعنی چه؟", options: ["این مال من نیست", "به این علاقه ندارم", "من این رو نمی‌فهمم"], answer: 1 },
+      { question: "Tomaten auf den Augen haben یعنی...", options: ["گوجه دوست داره", "کوره / نمی‌بینه", "چشماش قرمزه"], answer: 1 },
+      { question: "Besser spaet als nie یعنی...", options: ["دیر بهتر از هرگز", "هرگز دیر نیست", "دیر نرو"], answer: 0 },
+      { question: "Die Daumen druecken یعنی چه؟", options: ["آرزوی موفقیت", "انگشت شکسته", "دست دادن"], answer: 0 },
+      { question: "کدام ضرب‌المثل درباره تسلیم نشدن است؟", options: ["Wo ein Wille ist, da ist auch ein Weg", "Der Apfel faellt nicht weit vom Stamm", "Luegen haben kurze Beine"], answer: 0 },
+      { question: "Morgenstund hat Gold im Mund یعنی...", options: ["طلا خوبه", "صبح زود بیدار شدن خوبه", "دهن طلایی"], answer: 1 }
+    ]
+  }
 };

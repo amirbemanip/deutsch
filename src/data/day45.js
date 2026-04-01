@@ -1,74 +1,84 @@
 export const day45Data = {
-  title: "روز ۴۵: ایستگاه مرور کلیدی - کلمات ربط پیشرفته و برنامه‌ریزی مشترک",
-  objective: "امروز یک مرور جامع بر تمام مباحث کار، اوقات فراغت، رسانه و فرهنگ داریم. هدف اصلی این است که کلمات ربط پیشرفته (مانند deswegen, darum, dennoch) را در مکالمات خود بگنجانیم و برای بخش سوم امتحان شفاهی (برنامه‌ریزی مشترک با پارتنر) کاملاً آماده شویم.",
+  title: "روز ۴۵: روابط و زندگی اجتماعی - دوستی، احساسات و تضادها",
+  objective: "یادگیری واژگان و عبارات مربوط به روابط، احساسات، دوستی، خانواده و ح' تضادها در سطح B1",
 
   grammarData: {
-    subtitle: "ارتقای سطح جملات با کلمات ربط پیشرفته B1 و ساختارهای برنامه‌ریزی.",
+    subtitle: "Relativsätze و صفات موصو'ی در توصیف افراد",
     content: [
       {
         type: "text",
-        title: "۱. کلمات ربط دلیل و نتیجه (deshalb, deswegen, darum)",
-        text: "در سطح پایه از weil (چون) استفاده می‌کردیم که فعل را به آخر می‌برد. در B1 برای حرفه‌ای‌تر صحبت کردن، ابتدا دلیل را می‌گوییم و سپس با کلماتی مثل deshalb (بنابراین) نتیجه را بیان می‌کنیم."
+        title: "۱. جم'ات موصو'ی (Relativsätze)",
+        text: "جم'ات موصو'ی (Relativsätze) برای توصیف و ارائه اط'اعات اضافی درباره یک اسم استفاده می‌شوند. این جم'ات با ضمیر موصو'ی (Relativpronomen) شروع می‌شوند و فع' در آخر می‌آید. Relativpronomen بر اساس جنسیت و حا'ت اسم قب'ی تغییر می‌کند. در بحث روابط، این ساختار بسیار کاربرد دارد: Die Freundin, die ich kenne, ist nett."
       },
       {
         type: "table",
-        title: "جایگزین‌های حرفه‌ای",
+        title: "ضمیرهای موصو'ی (Relativpronomen)",
         rows: [
-          { de: "سطح A2 (با weil)", fa: "Ich habe keine Zeit, weil ich viel arbeite. (دلیل در جمله دوم است و فعل در آخر)." },
-          { de: "سطح B1 (با deshalb / deswegen / darum)", fa: "Ich arbeite viel, deshalb/deswegen/darum habe ich keine Zeit. (نتیجه در جمله دوم است و فعل در جایگاه 2 می‌آید)." }
+          { de: "der → der/dem/dessen", fa: "N: der Mann, der ... / D: dem Mann, dem ... / G: dessen" },
+          { de: "die → die/der/deren", fa: "N: die Frau, die ... / D: der Frau, der ... / G: deren" },
+          { de: "das → das/dem/dessen", fa: "N: das Kind, das ... / D: dem Kind, dem ... / G: dessen" },
+          { de: "die (Pl.) → die/denen/deren", fa: "N: die Leute, die ... / D: den Leuten, denen ... / G: deren" }
         ]
       },
       {
         type: "text",
-        title: "۲. کلمات ربط تضاد (trotzdem, dennoch)",
-        text: "به جای استفاده مکرر از aber (اما)، از کلمات پیشرفته‌تری برای بیان تضاد یا شگفتی استفاده کنید."
+        title: "۲. Relativsätze برای توصیف افراد",
+        text: "مثا'‌های کاربردی: Der Freund, mit dem ich arbeite, ist sehr nett. (دوستی که با او کار می‌کنم خی'ی مهربان است). Die Frau, deren Kinder hier spielen, wohnt nebenan. (زنی که بچه‌هایش اینجا بازی می‌کنند همسایه است). نکته مهم: Relativpronomen در جایگاه ۱ جم'ه موصو'ی قرار می‌گیرد و فع' در آخر می‌آید."
       },
       {
         type: "examples",
-        title: "بیان تضاد",
+        title: "مثا'‌های روابط اجتماعی",
         items: [
-          { de: "Das Museum ist teuer. Trotzdem gehe ich gerne hin.", fa: "موزه گران است. با این حال من با کمال میل به آنجا می‌روم. (فعل در جایگاه 2)." },
-          { de: "Der Film war lang. Dennoch war er sehr spannend.", fa: "فیلم طولانی بود. با وجود این (با این حال) او (فیلم) بسیار هیجان‌انگیز بود. (dennoch بسیار رسمی و شیک است)." }
+          { de: "Ich habe eine Freundin, die immer für mich da ist.", fa: "من دوستی دارم که همیشه برایم هست." },
+          { de: "Der Mann, mit dem ich zusammenwohne, ist mein Bruder.", fa: "مردی که با او زندگی می‌کنم برادرم است." },
+          { de: "Sie ist eine Person, der man vertrauen kann.", fa: "او شخصی است که می‌توان به او اعتماد کرد." },
+          { de: "Die Familie, in der ich aufgewachsen bin, ist sehr groß.", fa: "خانواده‌ای که در آن بزرگ شده‌ام خی'ی بزرگ است." },
+          { de: "Das ist der Grund, warum ich traurig bin.", fa: "این د'ی'ی است که غمگین هستم." },
+          { de: "Ich kenne niemanden, der so geduldig ist wie er.", fa: "کسی را نمی‌شناسم که به اندازه او صبور باشد." }
         ]
       },
       {
-        type: "text",
-        title: "۳. برنامه‌ریزی مشترک (Gemeinsam etwas planen - Teil 3)",
-        text: "بخش سوم امتحان شفاهی نیاز به تعامل دارد. شما باید پیشنهاد بدهید (Vorschläge machen)، مخالفت کنید (ablehnen) و جایگزین بیاورید (Alternativen nennen)."
-      },
-      {
-        type: "examples",
-        title: "عبارات طلایی برنامه‌ریزی",
-        items: [
-          { de: "پیشنهاد دادن:", fa: "Hast du Lust, ins Kino zu gehen? / Wie wäre es mit einem Konzert?" },
-          { de: "مخالفت مودبانه:", fa: "Gute Idee, aber da habe ich leider keine Zeit. / Das ist mir leider zu teuer." },
-          { de: "ارائه جایگزین:", fa: "Wir könnten stattdessen... / Wollen wir lieber...?" }
-        ]
+        type: "alert",
+        title: "نکته: تفاوت dass و Relativsatz",
+        text: "dass جم'ه وابسته‌ای می‌سازد که معمو'اً بعد از فع' می‌آید: Ich weiß, dass er nett ist. Relativsatz جم'ه‌ای است که اسم را توصیف می‌کند: Der Mann, der nett ist, wohnt hier. Relativpronomen باید با جنسیت و عدد اسم مطابقت داشته باشد."
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: کلمات ربط و برنامه‌ریزی",
+        title: "آزمون Relativsätze",
         questions: [
           {
-            question: "شما می‌خواهید بگویید: «من خسته‌ام، بنابراین در خانه می‌مانم.» کدام ساختار صحیح است؟",
-            questionDe: "Welcher Satz ist grammatikalisch richtig?",
+            question: "کدام جم'ه صحیح است؟ «دوستی که با او کار می‌کنم خی'ی مهربان است.»",
+            questionDe: "Welcher Satz ist grammatikalisch korrekt?",
             options: [
-              { text: "Ich bin müde, deswegen bleibe ich zu Hause.", isCorrect: true },
-              { text: "Ich bin müde, deswegen ich zu Hause bleibe.", isCorrect: false },
-              { text: "Ich bin müde, weil bleibe ich zu Hause.", isCorrect: false }
+              { text: "Der Freund, mit dem ich arbeite, ist sehr nett.", isCorrect: true },
+              { text: "Der Freund, mit den ich arbeite, ist sehr nett.", isCorrect: false },
+              { text: "Der Freund, der ich arbeite, ist sehr nett.", isCorrect: false }
             ],
-            explanation: "آفرین! deswegen در جایگاه اول جمله دوم قرار می‌گیرد و دقیقاً بعد از آن فعل (bleibe) در جایگاه دوم می‌آید."
+            explanation: "mit + Dativ: mit dem (männlich). Relativpronomen stimmt mit dem Nomen überein."
           },
           {
-            question: "پارتنر شما پیشنهاد می‌دهد یکشنبه به موزه بروید. شما وقت ندارید و می‌خواهید شنبه را پیشنهاد دهید. بهترین جواب کدام است؟",
-            questionDe: "Wie lehnen Sie höflich ab und machen einen neuen Vorschlag?",
+            question: "«Die Frau, _______ Kinder hier spielen, ist meine Nachbarin.»",
+            questionDe: "Welches Relativpronomen passt?",
             options: [
-              { text: "Nein, am Sonntag kann ich nicht.", isCorrect: false },
-              { text: "Gute Idee, aber am Sonntag habe ich keine Zeit. Wie wäre es mit Samstag?", isCorrect: true },
-              { text: "Ich will am Samstag ins Museum.", isCorrect: false }
+              { text: "deren", isCorrect: true },
+              { text: "derer", isCorrect: false },
+              { text: "der", isCorrect: false }
             ],
-            explanation: "دقیقاً! مخالفت مودبانه (Gute Idee, aber...) همراه با یک پیشنهاد جدید (Wie wäre es mit...) کلید گرفتن نمره کامل در بخش سوم امتحان است."
+            explanation: "deren = Genitiv feminin: Frau (die) → deren Kinder (بچه‌هایش)."
           }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تمرین Relativsätze",
+        instruction: "Relativpronomen مناسب را وارد کنید.",
+        blanks: [
+          { sentence: "Ich habe einen Freund, _______ immer für mich da ist.", answer: "der", hint: "مذکر Nominativ → der" },
+          { sentence: "Das ist die Frau, _______ ich helfe.", answer: "der", hint: "مؤنث Dativ → der" },
+          { sentence: "Die Kinder, _______ Eltern im Ausland leben, sind traurig.", answer: "deren", hint: "Genitiv Plural → deren" },
+          { sentence: "Der Mann, mit _______ ich zusammenarbeite, ist sehr freundlich.", answer: "dem", hint: "مذکر Dativ nach mit → dem" },
+          { sentence: "Sie ist eine Person, _______ man vertrauen kann.", answer: "der", hint: "مؤنث Dativ → der" },
+          { sentence: "Das ist der Ort, _______ wir uns kennengelernt haben.", answer: "wo", hint: "Ort → wo" }
         ]
       }
     ]
@@ -77,67 +87,36 @@ export const day45Data = {
   vocabData: {
     categories: [
       {
-        title: "کلمات ربط نتیجه و تضاد (Konnektoren)",
+        title: "روابط و احساسات (Beziehungen und Gefühle)",
         words: [
-          {
-            de: "deswegen / deshalb / darum",
-            fa: "به همین دلیل / بنابراین",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Es regnet, deswegen bleiben wir zu Hause.", fa: "باران می‌بارد، به همین دلیل ما در خانه می‌مانیم." }
-            ]
-          },
-          {
-            de: "dennoch / trotzdem",
-            fa: "با این وجود / با این حال",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Die Ausstellung ist teuer, dennoch lohnt sich ein Besuch.", fa: "نمایشگاه گران است، با این وجود ارزش دیدن دارد." }
-            ]
-          },
-          {
-            de: "selbst wenn",
-            fa: "حتی اگر",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Selbst wenn ich müde bin, lese ich abends ein Buch.", fa: "حتی اگر خسته باشم، عصرها کتاب می‌خوانم. (selbst wenn فعل را به آخر می‌برد)." }
-            ]
-          }
+          { de: "die Freundschaft", fa: "دوستی", article: "die", plural: "die Freundschaften", examples: [{ de: "Unsere Freundschaft ist sehr wichtig.", fa: "دوستی ما خی'ی مهم است." }] },
+          { de: "die Beziehung", fa: "رابطه (عاطفی/اجتماعی)", article: "die", plural: "die Beziehungen", examples: [{ de: "Sie haben eine gute Beziehung.", fa: "آن‌ها رابطه خوبی دارند." }] },
+          { de: "das Gefühl", fa: "احساس", article: "das", plural: "die Gefühle", examples: [{ de: "Ich habe gemischte Gefühle.", fa: "احساسات مخت'طی دارم." }] },
+          { de: "vertrauen", fa: "اعتماد کردن", article: "-", plural: "-", examples: [{ de: "Ich vertraue dir.", fa: "به تو اعتماد دارم." }] },
+          { de: "der Vertrauen", fa: "اعتماد", article: "der", plural: "-", examples: [{ de: "Vertrauen ist wichtig in einer Beziehung.", fa: "اعتماد در رابطه مهم است." }] }
         ]
       },
       {
-        title: "برنامه‌ریزی (Planung)",
+        title: "تضادها و ح' مشک' (Konflikte und Lösung)",
         words: [
-          {
-            de: "stattdessen",
-            fa: "به جای آن (در عوض)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich mag kein Theater. Wollen wir stattdessen ins Kino gehen?", fa: "من تئاتر دوست ندارم. آیا می‌خواهیم به جایش به سینما برویم؟" }
-            ]
-          },
-          {
-            de: "ablehnen",
-            fa: "رد کردن (پیشنهاد یا دعوت)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich muss deine Einladung leider ablehnen.", fa: "من متاسفانه باید دعوت تو را رد کنم." }
-            ]
-          },
-          {
-            de: "Lust haben (auf + Akk)",
-            fa: "حوصله/میل داشتن برای چیزی",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Hast du Lust auf einen Filmeabend?", fa: "آیا میل به یک عصر فیلم‌دیدن داری؟" }
-            ]
-          }
+          { de: "der Konflikt", fa: "تضاد / درگیری", article: "der", plural: "die Konflikte", examples: [{ de: "Wir haben einen Konflikt.", fa: "ما یک تضاد داریم." }] },
+          { de: "der Streit", fa: "بحث / دعوا", article: "der", plural: "die Streite", examples: [{ de: "Sie hatten einen Streit.", fa: "آن‌ها دعوا کردند." }] },
+          { de: "sich versöhnen", fa: "آشتی کردن", article: "-", plural: "-", examples: [{ de: "Nach dem Streit haben sie sich versöhnt.", fa: "بعد از دعوا آشتی کردند." }] },
+          { de: "verzeihen", fa: "بخشیدن", article: "-", plural: "-", examples: [{ de: "Kannst du mir verzeihen?", fa: "می‌توانی مرا ببخشی؟" }] },
+          { de: "verletzt", fa: "د'خور / زخمی", article: "-", plural: "-", examples: [{ de: "Ich fühle mich verletzt.", fa: "احساس د'خوری می‌کنم." }] },
+          { de: "die Enttäuschung", fa: "ناامیدی / سرخوردگی", article: "die", plural: "die Enttäuschungen", examples: [{ de: "Das war eine große Enttäuschung.", fa: "این ناامیدی بزرگی بود." }] },
+          { de: "eifersüchtig", fa: "حسود", article: "-", plural: "-", examples: [{ de: "Er ist eifersüchtig auf seinen Freund.", fa: "او به دوستش حسود است." }] },
+          { de: "die Gemeinsamkeit", fa: "وجه اشتراک", article: "die", plural: "die Gemeinsamkeiten", examples: [{ de: "Wir haben viele Gemeinsamkeiten.", fa: "وجه اشتراک زیادی داریم." }] },
+          { de: "auseinandergehen", fa: "از هم جدا شدن", article: "-", plural: "-", examples: [{ de: "Sie sind auseinandergegangen.", fa: "آن‌ها از هم جدا شدند." }] },
+          { de: "das Verständnis", fa: "درک / فهم", article: "das", plural: "-", examples: [{ de: "Er hat kein Verständnis für meine Situation.", fa: "او درکی از وضعیت من ندارد." }] },
+          { de: "mitfühlen", fa: "همد'ی کردن", article: "-", plural: "-", examples: [{ de: "Ich kann gut mitfühlen.", fa: "خوب می‌توانم همد'ی کنم." }] },
+          { de: "die Unterstützung", fa: "حمایت / پشتیبانی", article: "die", plural: "-", examples: [{ de: "Danke für deine Unterstützung!", fa: "ممنون از حمایتت!" }] },
+          { de: "streiten sich", fa: "دعوا کردن", article: "-", plural: "-", examples: [{ de: "Die Kinder streiten sich oft.", fa: "بچه‌ها اغ'ب دعوا می‌کنند." }] },
+          { de: "sich kümmern um", fa: "رسیدگی کردن به", article: "-", plural: "-", examples: [{ de: "Sie kümmert sich um ihre Familie.", fa: "او به خانواده‌اش رسیدگی می‌کند." }] },
+          { de: "die Eifersucht", fa: "حسادت", article: "die", plural: "-", examples: [{ de: "Eifersucht kann Beziehungen zerstören.", fa: "حسادت می‌تواند روابط را نابود کند." }] },
+          { de: "das Vertrauen", fa: "اعتماد", article: "das", plural: "-", examples: [{ de: "Vertrauen muss man verdienen.", fa: "اعتماد باید کسب شود." }] },
+          { de: "das Kompliment", fa: "تعریف / تمجید", article: "das", plural: "die Komplimente", examples: [{ de: "Er hat mir ein Kompliment gemacht.", fa: "او از من تعریف کرد." }] },
+          { de: "sich entschuldigen", fa: "عذرخواهی کردن", article: "-", plural: "-", examples: [{ de: "Ich möchte mich entschuldigen.", fa: "می‌خواهم عذرخواهی کنم." }] }
         ]
       }
     ]
@@ -145,67 +124,70 @@ export const day45Data = {
 
   reading: [
     {
-      text: "Ein Dialog: Konzert oder Kino?\n\nLukas: Hallo Anna! Wir haben für dieses Wochenende noch nichts geplant. Hast du Lust, etwas zusammen zu unternehmen?\nAnna: Hallo Lukas! Ja, gerne. Wie wäre es mit einem Konzert? Es gibt am Samstag ein tolles Jazz-Konzert im Stadtpark.\nLukas: Gute Idee, aber ehrlich gesagt interessiere ich mich nicht besonders für Jazzmusik. Außerdem soll es am Samstagabend regnen, deswegen wäre ein Open-Air-Konzert vielleicht keine gute Wahl.\nAnna: Das stimmt, daran habe ich nicht gedacht. Wir könnten stattdessen ins Kino gehen. Der neue Actionfilm läuft gerade.\nLukas: Super! Den wollte ich sowieso sehen. Selbst wenn er ein bisschen lang ist, lohnt es sich bestimmt.\nAnna: Perfekt. Dann kaufe ich uns die Tickets für Samstag um 20 Uhr.",
+      text: "Wahre Freundschaft\n\nWas bedeutet wahre Freundschaft? Für mich ist eine Freundin eine Person, der man alles erzählen kann, ohne Angst zu haben. Mein bester Freund, mit dem ich seit der Kindheit befreundet bin, lebt leider in einer anderen Stadt. Trotzdem telefonieren wir jede Woche.\nFreundschaften haben sowohl schöne als auch schwierige Momente. Manchmal gibt es Konflikte, weil man unterschiedliche Meinungen hat. Letztes Jahr hatten wir einen großen Streit, weil er mir nicht gesagt hatte, dass er umzieht. Ich war sehr verletzt und enttäuscht.\nAber wahre Freundschaft bedeutet auch, Fehler verzeihen zu können. Nach einigen Wochen haben wir uns ausgesprochen und versöhnt. Er hat sich entschuldigt und gesagt, dass er nicht wusste, wie er es mir sagen sollte. Ich habe ihm verziehen, weil ich weiß, dass er es nicht böse gemeint hat.\nDas Wichtigste in einer Freundschaft ist Vertrauen und Verständnis. Man sollte füreinander da sein, auch wenn es schwierig ist. Ein guter Freund ist wie ein Familienmitglied, das man sich aussucht.",
       questions: [
-        { question: "آنا ابتدا چه پیشنهادی می‌دهد؟ (چه رویدادی و چه زمانی؟)" },
-        { question: "چرا لوکاس پیشنهاد آنا را رد می‌کند؟ (دو دلیل بیاورید، از deswegen استفاده کنید)" },
-        { question: "آنا به عنوان جایگزین (Alternativen) چه پیشنهادی می‌دهد؟" },
-        { question: "لوکاس با وجود طولانی بودن فیلم، نظرش چیست؟ (با توجه به جمله با selbst wenn)" }
+        { question: "بهترین دوست نویسنده کجا زندگی می‌کند؟", answer: "در شهر دیگری." },
+        { question: "آن‌ها سا' گذشته چرا دعوا کردند؟", answer: "چون دوستش نگفته بود که نق' مکان می‌کند." },
+        { question: "نویسنده چگونه توانست ببخشد؟", answer: "فهمید که دوستش قصد بدی نداشته." },
+        { question: "به نظر نویسنده مهم‌ترین چیز در دوستی چیست؟", answer: "اعتماد (Vertrauen) و درک (Verständnis)." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "نوشتن: مکالمه برنامه‌ریزی (Gemeinsam planen)",
-      prompt: "شما و دوستتان می‌خواهید آخر هفته کاری انجام دهید. یک دیالوگ کوتاه (حدود ۸ خط) بنویسید. شما پیشنهاد رفتن به موزه می‌دهید. دوستتان به دلیل گرانی رد می‌کند و در عوض سینما را پیشنهاد می‌دهد. شما موافقت می‌کنید و ساعت قرار را تعیین می‌کنید.",
+      title: "نوشتن درباره دوستی",
+      prompt: "یک متن ۱۰-۱۲ خطی درباره بهترین دوستتان یا یک رابطه مهم در زندگی‌تان بنویسید. از Relativsätze و واژگان احساسات استفاده کنید.",
       steps: [
         {
-          title: "پیشنهاد اول",
-          text: "استفاده از Hast du Lust... / Wie wäre es mit...",
-          example: { de: "Ich: Hast du am Wochenende Zeit? Wie wäre es mit einem Museumsbesuch?", fa: "من: آخر هفته وقت داری؟ نظرت درباره رفتن به موزه چیست؟" }
+          title: "معرفی شخص",
+          text: "با Relativsatz",
+          example: { de: "Mein bester Freund ist eine Person, die mich sehr gut versteht.", fa: "بهترین دوست من شخصی است که خوب مرا می‌فهمد." }
         },
         {
-          title: "مخالفت و دلیل دوست + پیشنهاد جدید",
-          text: "استفاده از deswegen و stattdessen.",
-          example: { de: "Freund: Gute Idee, aber ich habe wenig Geld, deswegen ist mir das Museum zu teuer. Wollen wir stattdessen ins Kino gehen?", fa: "دوست: ایده خوبی است، اما من پول کمی دارم، به همین دلیل موزه برای من خیلی گران است. می‌خواهیم بجایش به سینما برویم؟" }
+          title: "توصیف رابطه",
+          text: "احساسات و خاطرات",
+          example: { de: "Mit dem ich seit vielen Jahren befreundet bin...", fa: "که سا'‌هاست با او دوست هستم..." }
         },
         {
-          title: "موافقت و تعیین زمان/مکان",
-          text: "استفاده از Treffen / Einverstanden.",
-          example: { de: "Ich: Einverstanden! Treffen wir uns am Samstag um 18 Uhr vor dem Kino.", fa: "من: موافقم! بیا شنبه ساعت 18 جلوی سینما همدیگر را ببینیم." }
+          title: "نتیجه‌گیری",
+          text: "اهمیت دوستی",
+          example: { de: "Wahre Freundschaft ist unbezahlbar.", fa: "دوستی واقعی بی‌قیمت است." }
         }
-      ]
+      ],
+      modelAnswer: "Meine beste Freundin ist Sara, mit der ich seit der Universität befreundet bin. Sie ist eine Person, der ich immer vertrauen kann. Wir haben viele Gemeinsamkeiten: Wir lieben beide Bücher, Musik und Reisen. Sara ist jemand, die mich zum Lachen bringt, auch wenn ich traurig bin. Letztes Jahr hatten wir einen kleinen Streit, weil sie mein Geheimnis erzählt hat. Ich war sehr verletzt und habe mich nicht gemeldet. Aber dann hat sie sich entschuldigt und gesagt, dass es ein Missverständnis war. Ich habe ihr verziehen, weil unsere Freundschaft wichtiger ist als ein Fehler. Sara ist wie eine Schwester für mich, die ich mir ausgesucht habe. Ich weiß, dass sie immer für mich da sein wird, egal was passiert. Wahre Freundschaft bedeutet, füreinander da zu sein."
     }
   ],
 
   listening: [
     {
-      title: "۱. ویدیو آموزشی: کلمات ربط پیشرفته",
-      source: "Master German Connectors (B1)",
-      link: "https://www.youtube.com/watch?v=2YnTIFgMzEY",
-      instructions: "تمرین شنیداری ساختار جملات:\nبه جایگاه فعل بعد از کلماتی مثل deswegen و trotzdem دقت کنید. این کلمات در واقع قید هستند، بنابراین جمله بعد از آن‌ها همیشه با فعل شروع می‌شود."
-    },
-    {
-      title: "۲. نمونه واقعی امتحان شفاهی B1",
-      source: "Gemeinsam etwas planen (Kino)",
-      link: "https://www.youtube.com/watch?v=MjKL-mP7g5w",
-      instructions: "تمرین دریافت عبارات تعاملی:\nبه نحوه تعامل دو نفر گوش دهید. آن‌ها مکث می‌کنند، حرف هم را تایید می‌کنند (Da hast du recht) و سپس پیشنهاد خود را می‌دهند."
+      title: "بحث درباره دوستی",
+      source: "Freundschaft und Beziehungen (B1)",
+      link: "https://www.youtube.com/watch?v=9Z3wJKkOqSM",
+      instructions: "به بحث درباره دوستی و روابط در ویدیو دقت کنید. Relativsätze و عبارات احساسی (verletzt, enttäuscht, verzeihen) را یادداشت کنید."
     }
   ],
 
   speaking: [
     {
-      title: "شبیه‌سازی کامل بخش ۳ امتحان شفاهی (Teil 3)",
-      pattern: "Wir müssen... / Hast du eine Idee? / Ich schlage vor... / In Ordnung.",
-      exercise: "شما و پارتنرتان وظیفه دارید برای دوستتان که به شهر شما می‌آید یک برنامه آخر هفته بچینید. (نقش دو نفر را خودتان بازی کنید یا با کسی تمرین کنید). قرار است درباره این ۳ مورد تصمیم بگیرید: 1. کجا بروید؟ (موزه/کنسرت) 2. کِی بروید؟ 3. چگونه بروید؟ (ماشین/قطار)."
-    },
-    {
-      title: "مونولوگ جمع‌بندی (Rückblick)",
-      pattern: "In den letzten Tagen habe ich gelernt... / Besonders interessant fand ich... / Deswegen...",
-      exercise: "یک فایل صوتی ۲ دقیقه‌ای ضبط کنید و به آلمانی بگویید در این ۵ روز اخیر (از روز ۴۱ تا ۴۵) درباره کار، سرگرمی‌ها و رسانه چه چیزهایی یاد گرفتید و چرا این کلمات برایتان مفیدند."
+      title: "توصیف یک شخص مهم",
+      pattern: "Das ist eine Person, die... / Mein bester Freund, mit dem ich... / Sie ist jemand, der...",
+      exercise: "مدت ۲ دقیقه درباره بهترین دوست یا یک شخص مهم در زندگی‌تان صحبت کنید. از Relativsätze استفاده کنید و احساساتتان را بیان کنید."
     }
   ],
 
-  cultureTip: "فرهنگ برنامه‌ریزی (Termine planen) در آلمان: آلمانی‌ها عاشق برنامه‌ریزی (Planung) در تقویم (Terminkalender) هستند! در آلمان بسیار غیرعادی است که به دوستتان زنگ بزنید و بگویید «۱۰ دقیقه دیگر بیا بیرون برویم کافه». قرارها معمولاً چندین روز (یا هفته) از قبل تنظیم می‌شوند. آن‌ها برای قرار کافه رفتن هم به هم «Termin» (وقت قرار) پیشنهاد می‌دهند. یادگیری ساختارهای «Gemeinsam planen» (برنامه‌ریزی مشترک) نه تنها برای امتحان B1 اسپیکینگ ضروری است، بلکه کلید داشتن یک زندگی اجتماعی موفق در آلمان است."
+  cultureTip: "در فرهنگ آ'مانی، دوستی معمو'اً عمیق و طو'انی‌مدت است اما شک'‌گیری آن ممکن است کند باشد. آ'مانی‌ها برای صداقت و رک‌گویی در دوستی ارزش قائ'ند. برعکس فرهنگ‌هایی که سریع دوست می‌شوند، آ'مانی‌ها معمو'اً ابتدا فاص'ه را حفظ می‌کنند و کم‌کم به هم نزدیک می‌شوند. مفهوم Kumpel (رفیق/دوست صمیمی) و Freund/Freundin (دوست واقعی) متفاوت است.",
+
+  examData: {
+    questions: [
+      { question: "«Ich habe einen Freund, _______ immer für mich da ist.»", options: ["der", "den", "dem", "dessen"], answer: 0 },
+      { question: "«Die Frau, mit _______ ich zusammenarbeite, ist sehr nett.»", options: ["der", "die", "den", "deren"], answer: 0 },
+      { question: "«Die Kinder, _______ Eltern arbeiten, sind allein.»", options: ["deren", "derer", "denen", "die"], answer: 0 },
+      { question: "ک'مه «اعتماد» به آ'مانی:?", options: ["der Streit", "das Vertrauen", "das Gefühl", "die Enttäuschung"], answer: 1 },
+      { question: "«Kannst du mir _______?» (بخشیدن)", options: ["vertrauen", "verzeihen", "versöhnen", "verstehen"], answer: 1 },
+      { question: "«Nach dem Streit haben sie sich _______.» (آشتی کردن)", options: ["gestritten", "versöhnt", "verletzt", "enttäuscht"], answer: 1 },
+      { question: "«Ich fühle mich _______.» (د'خور)", options: ["verletzt", "glücklich", "zufrieden", "stark"], answer: 0 },
+      { question: "Relativpronomen در جایگاه چندم جم'ه موصو'ی قرار می‌گیرد؟", options: ["جایگاه ۲", "آخر جم'ه", "جایگاه ۱", "بعد از فع'"], answer: 2 }
+    ]
+  }
 };

@@ -1,239 +1,201 @@
 export const day17Data = {
-  "title": "روز 17 (تجمیع روزهای 65 تا 68)",
-  "objective": "[روز 65] جمع‌بندی سوال‌سازها و موضوعات اصلی A1 با یک مینی‌آزمون چندگزینه‌ای و یک مونولوگ نهایی که همه‌چیز را با هم ترکیب می‌کند.\\n\\n[روز 66] یادگیری جمله‌های مودب برای پرسیدن آدرس و چند عبارت ساده برای فهمیدن پاسخ، در سطح A1/A2.\\n\\n[روز 67] گسترش دایره‌ی واژگان جاهای شهر و تمرین پرسیدن آدرس برای جاهای مختلف (Apotheke, Krankenhaus, Rathaus, Touristinfo…).\\n\\n[روز 68] یادگیری کلمات و جمله‌های مهم برای گرفتن وقت دکتر/دندانپزشک و توضیح مشکل ساده (درد، تب، سردرد، دندان‌درد).",
-  "grammarData": {
-    "subtitle": "W‑Fragen درست + جواب‌های طبیعی = آماده‌سازی کامل برای Sprechen A1\\nEntschuldigung, wo ist …? / Wie komme ich zum/zur …?\\nWo ist …? / Wie komme ich zur Apotheke / zum Krankenhaus / ins Zentrum?\\nIch habe einen Termin beim Arzt/Zahnarzt. / Ich möchte einen Termin vereinbaren.",
-    "pronouns": [
+  title: "روز ۱۷: مرور جامع A1 - آزمون آزمایشی",
+  objective: "مرور کام' تمام مباحث A1 و آمادگی برای آزمون A1",
+  grammarData: {
+    subtitle: "مرور جامع گرامر A1",
+    content: [
       {
-        "de": "آنچه سنجیده می‌شود",
-        "fa": "سوال‌سازها (wer, was, wo, wohin, woher, wann, warum, wie)، روتین روز، Familie، Freizeit.",
-        "type": "با این مینی‌آزمون و مونولوگ، می‌توانی مطمئن شوی برای ۹۰٪ سناریوهای امتحان A1 آماده‌ای.[web:315][web:130]"
+        type: "text",
+        title: "مرور Artikel و جنسیت اسم",
+        text: "در آ'مانی سه جنسیت وجود دارد: مذکر (der)، مؤنث (die) و خنثی (das). قواعد ک'ی: اسامی با -ung, -heit, -keit, -schaft معمو'اً مؤنث هستند (die Zeitung). اسامی با -chen, -lein معمو'اً خنثی هستند (das Mädchen). اسامی با -er برای اشخاص معمو'اً مذکر هستند (der Lehrer)."
       },
       {
-        "de": "جمله‌های مهم برای پرسیدن آدرس",
-        "fa": "شروع مودب + سوال درباره‌ی مکان",
-        "type": "Entschuldigung, wo ist der Bahnhof? – Entschuldigung, wo ist die Bank? – Entschuldigung, wo ist die nächste Haltestelle?\nEntschuldigung, wie komme ich zum Bahnhof? – Wie komme ich zur Post? – Wie komme ich ins Zentrum?[web:319][web:323][web:329]"
+        type: "table",
+        title: "مرور Artikel",
+        rows: [
+          { de: "der (مذکر)", fa: "der Mann, der Tisch, der Apfel" },
+          { de: "die (مؤنث)", fa: "die Frau, die Lampe, die Banane" },
+          { de: "das (خنثی)", fa: "das Kind, das Buch, das Haus" },
+          { de: "die (جمع)", fa: "die Männer, die Frauen, die Kinder" }
+        ]
       },
       {
-        "de": "کلمات جهت ساده",
-        "fa": "geradeaus, rechts, links, an der Ecke, an der Ampel",
-        "type": "Gehen Sie geradeaus. Dann gehen Sie rechts. An der Ampel gehen Sie links. Die Bank ist an der Ecke.[web:319][web:322]"
+        type: "text",
+        title: "مرور فع' sein و haben",
+        text: "sein (بودن): ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind. haben (داشتن): ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben. این دو فع' مهم‌ترین افعا' آ'مانی هستند."
       },
       {
-        "de": "جاهای مهم برای زندگی واقعی",
-        "fa": "Apotheke, Krankenhaus, Rathaus, Touristeninformation",
-        "type": "Entschuldigung, wo ist die Apotheke? – Entschuldigung, wo ist das Krankenhaus? – Wie komme ich zum Rathaus? – Wie komme ich zur Touristeninformation?[web:322][web:329]"
+        type: "table",
+        title: "مرور ضمیرها",
+        rows: [
+          { de: "ich", fa: "من" },
+          { de: "du", fa: "تو" },
+          { de: "er/sie/es", fa: "او (مذکر/مؤنث/خنثی)" },
+          { de: "wir", fa: "ما" },
+          { de: "ihr", fa: "شما (جمع خودمانی)" },
+          { de: "sie/Sie", fa: "آنها/شما (رسمی)" }
+        ]
       },
       {
-        "de": "گرفتن وقت",
-        "fa": "Ich habe / Ich brauche / Ich möchte einen Termin …",
-        "type": "Ich habe morgen einen Termin beim Arzt. – Ich möchte einen Termin beim Zahnarzt vereinbaren. – Können Sie mir bitte einen Termin geben?[web:324][web:330]"
+        type: "text",
+        title: "مرور اعداد",
+        text: "صفر تا بیست: null, eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn, elf, zwölf, dreizehn, vierzehn, fünfzehn, sechzehn, siebzehn, achtzehn, neunzehn, zwanzig. سی: dreißig. چه': vierzig. پنجzig: fünfzig."
       },
       {
-        "de": "گفتن درد/مشکل",
-        "fa": "Ich habe … / Mir tut … weh.",
-        "type": "Ich habe Kopfschmerzen / Bauchschmerzen / Zahnschmerzen. – Mir tut der Rücken weh. – Mein Zahn tut sehr weh.[web:324]"
+        type: "alert",
+        title: "نکته مهم: نفی با nicht و kein",
+        text: "nicht برای نفی فع'، صفت و قید استفاده می‌شود: Ich spreche nicht Deutsch (من آ'مانی صحبت نمی‌کنم). kein برای نفی اسم بدون artikel استفاده می‌شود: Ich habe kein Auto (من ماشین ندارم)."
+      },
+      {
+        type: "text",
+        title: "مرور افعا' باقاعده",
+        text: "افعا' باقاعده در حا' حاضر: machen (ich mache, du machst, er macht, wir machen, ihr macht, sie machen). قاعده: حذف -en و اضافه پسوند مناسب: -e, -st, -t, -en, -t, -en."
+      },
+      {
+        type: "examples",
+        title: "مرور حروف اضافه",
+        items: [
+          { de: "mit + Dativ", fa: "با: mit meinem Freund (با دوستم)" },
+          { de: "für + Akkusativ", fa: "برای: für meine Mutter (برای مادرم)" },
+          { de: "aus + Dativ", fa: "از: aus Deutschland (از آ'مان)" },
+          { de: "in + Dativ/Akkusativ", fa: "در/به: in der Schule (در مدرسه) / in die Schule (به مدرسه)" },
+          { de: "an + Dativ/Akkusativ", fa: "در/به: an der Wand (روی دیوار) / an die Wand (به دیوار)" },
+          { de: "auf + Dativ/Akkusativ", fa: "روی: auf dem Tisch (روی میز) / auf den Tisch (به روی میز)" }
+        ]
+      },
+      {
+        type: "text",
+        title: "مرور Akkusativ",
+        text: "در Akkusativ، artikel مذکر تغییر می‌کند: der → den, ein → einen. مثا': Ich sehe den Mann (من مرد را می‌بینم). Ich habe einen Bruder (من یک برادر دارم). مؤنث و خنثی تغییر نمی‌کنند."
+      },
+      {
+        type: "interactive_quiz",
+        title: "آزمون جامع A1",
+        questions: [
+          {
+            question: "کدام جم'ه صحیح است؟",
+            questionDe: "Welcher Satz ist korrekt?",
+            options: [
+              { text: "Ich bin müde.", isCorrect: true },
+              { text: "Ich habe müde.", isCorrect: false },
+              { text: "Ich ist müde.", isCorrect: false },
+              { text: "Ich sein müde.", isCorrect: false }
+            ],
+            explanation: "از فع' sein برای توصیف حا'ت استفاده می‌شود."
+          },
+          {
+            question: "نفی 'من ماشین ندارم' چگونه بیان می‌شود؟",
+            questionDe: "Wie sagt man 'I don't have a car'?",
+            options: [
+              { text: "Ich habe kein Auto.", isCorrect: true },
+              { text: "Ich habe nicht Auto.", isCorrect: false },
+              { text: "Ich nicht habe Auto.", isCorrect: false },
+              { text: "Ich bin kein Auto.", isCorrect: false }
+            ],
+            explanation: "از kein برای نفی اسم بدون artikel استفاده می‌شود."
+          },
+          {
+            question: "'با دوستم' چگونه بیان می‌شود؟",
+            questionDe: "Wie sagt man 'with my friend'?",
+            options: [
+              { text: "mit meinem Freund", isCorrect: true },
+              { text: "für meinen Freund", isCorrect: false },
+              { text: "aus meinem Freund", isCorrect: false },
+              { text: "von meinem Freund", isCorrect: false }
+            ],
+            explanation: "mit همیشه با Dativ استفاده می‌شود."
+          }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تکمی' جم'ات: مرور A1",
+        instruction: "جای خا'ی را با ک'مه مناسب پر کنید.",
+        blanks: [
+          { sentence: "Ich ___ Student.", answer: "bin", hint: "فع' sein برای ich" },
+          { sentence: "Er ___ ein Buch.", answer: "hat", hint: "فع' haben برای er" },
+          { sentence: "Ich sehe ___ Mann. (Akkusativ)", answer: "den", hint: "der → den در Akkusativ" },
+          { sentence: "Ich habe ___ Auto.", answer: "kein", hint: "نفی اسم بدون artikel" },
+          { sentence: "Sie kommt ___ Deutschland.", answer: "aus", hint: "از آ'مان" },
+          { sentence: "Ich gehe ___ Schule.", answer: "in die", hint: "به مدرسه" },
+          { sentence: "Er arbeitet ___ einer Firma.", answer: "bei", hint: "در یک شرکت" },
+          { sentence: "Wir fahren ___ Zug.", answer: "mit dem", hint: "با قطار" },
+          { sentence: "Das ist ___ Tisch.", answer: "ein", hint: "یک میز" },
+          { sentence: "Ich komme ___ Iran.", answer: "aus dem", hint: "از ایران" }
+        ]
       }
     ]
   },
-  "vocabData": [
-    {
-      "de": "geradeaus",
-      "fa": "مستقیم",
-      "usage": "Gehen Sie geradeaus.[web:319][web:322]"
-    },
-    {
-      "de": "rechts / links",
-      "fa": "راست / چپ",
-      "usage": "Biegen Sie rechts ab. / Biegen Sie links ab.[web:319][web:322]"
-    },
-    {
-      "de": "die Kreuzung",
-      "fa": "چهارراه",
-      "usage": "An der Kreuzung gehen Sie links.[web:319]"
-    },
-    {
-      "de": "die Ampel",
-      "fa": "چراغ قرمز",
-      "usage": "Gehen Sie bis zur Ampel.[web:326]"
-    },
-    {
-      "de": "die Straße",
-      "fa": "خیابان",
-      "usage": "Die Bank ist in der Bahnhofstraße."
-    },
-    {
-      "de": "die Ecke",
-      "fa": "گوشه",
-      "usage": "Die Apotheke ist an der Ecke.[web:322]"
-    },
-    {
-      "de": "in der Nähe",
-      "fa": "در نزدیکی",
-      "usage": "Ist hier ein Supermarkt in der Nähe?[web:320][web:329]"
-    },
-    {
-      "de": "weit",
-      "fa": "دور",
-      "usage": "Ist es weit?[web:320]"
-    },
-    {
-      "de": "die Apotheke",
-      "fa": "داروخانه",
-      "usage": "Die Apotheke ist in der Nähe der Post."
-    },
-    {
-      "de": "das Krankenhaus",
-      "fa": "بیمارستان",
-      "usage": "Das Krankenhaus ist am Stadtrand.[web:322]"
-    },
-    {
-      "de": "das Rathaus",
-      "fa": "شهرداری",
-      "usage": "Das Rathaus ist im Zentrum.[web:322]"
-    },
-    {
-      "de": "die Touristeninformation",
-      "fa": "اطلاعات گردشگری",
-      "usage": "Die Touristeninformation ist am Marktplatz.[web:322]"
-    },
-    {
-      "de": "der Marktplatz",
-      "fa": "میدان اصلی شهر",
-      "usage": "Wir treffen uns am Marktplatz.[web:322]"
-    },
-    {
-      "de": "der Arzt / die Ärztin",
-      "fa": "دکتر",
-      "usage": "Ich habe einen Termin beim Arzt.[web:324]"
-    },
-    {
-      "de": "der Zahnarzt / die Zahnärztin",
-      "fa": "دندانپزشک",
-      "usage": "Ich gehe zum Zahnarzt.[web:324][web:327]"
-    },
-    {
-      "de": "der Termin",
-      "fa": "وقت",
-      "usage": "Ich muss einen Termin vereinbaren.[web:324]"
-    },
-    {
-      "de": "das Wartezimmer",
-      "fa": "اتاق انتظار",
-      "usage": "Ich warte im Wartezimmer.[web:324]"
-    },
-    {
-      "de": "die Praxis",
-      "fa": "مطب",
-      "usage": "Die Praxis ist im Zentrum."
-    },
-    {
-      "de": "Termin vereinbaren",
-      "fa": "وقت گرفتن",
-      "usage": "Ich möchte einen Termin vereinbaren.[web:324]"
-    }
-  ],
-  "listening": [
-    {
-      "source": "Daily Routine & Hobbies – 125 sentences (A1–A2)",
-      "link": "https://www.youtube.com/watch?v=sP2KRz_B_4w",
-      "instructions": "۱) یک بخش ۵–۷ دقیقه‌ای از ویدیو را گوش بده و هر جمله‌ای را که تقریباً درباره‌ی زندگی خودت صدق می‌کند علامت بزن.\n۲) ۱۰ جمله‌ی نزدیک به زندگی خودت را انتخاب کن و آن‌ها را کمی تغییر بده تا کاملاً شخصی شوند.\n۳) این ۱۰ جمله را به مونولوگ روز ۶۴ت اضافه کن.",
-      "title": "روز ۶۵: مینی‌آزمون – W‑Fragen + Tagesablauf + Familie (جمع‌بندی بزرگ A1)"
-    },
-    {
-      "source": "Wegbeschreibung (A1/A2) – Weg fragen und erklären",
-      "link": "https://www.youtube.com/watch?v=mhnqzi4C70o",
-      "instructions": "۱) یک‌بار کامل نگاه کن و سعی کن الگوی پرسیدن آدرس و جواب را بگیری.\n۲) بار دوم، جمله‌های پرسیدن آدرس (Entschuldigung, wo ist …? / Wie komme ich …?) را پاز کن و ۳ بار با صدای بلند تکرار کن.[web:319][web:323]\n۳) روی کاغذ برای مکان‌های مهم شهر خودت (Bahnhof, Post, Zentrum, Supermarkt) سؤال بساز: «Wie komme ich zum Bahnhof?» و زیرش جواب کوتاه بنویس.",
-      "title": "روز ۶۶: پرسیدن آدرس (nach dem Weg fragen) – بخش ۱"
-    },
-    {
-      "source": "Asking for directions – Deutschtrainer / DW",
-      "link": "https://www.youtube.com/watch?v=KXzbY0Odf74",
-      "instructions": "۱) ویدیو را ببین و به تلفظ دقیق «geradeaus, rechts, links, an der Kreuzung» گوش بده.\n۲) تلاش کن بعد از هر دستور، در ذهنت مسیر را روی یک نقشه‌ی خیالی تصور کنی.\n۳) بعد از ویدیو، در محله‌ی خودت، برای خودت با آلمانی مسیرهای کوتاه توصیف کن (از خانه تا سوپرمارکت، از ایستگاه اتوبوس تا مرکز شهر…).",
-      "title": "روز ۶۷: پرسیدن آدرس – بخش ۲ (تمرین بیشتر با Stadt)"
-    },
-    {
-      "source": "A Dentist Appointment – essential phrases",
-      "link": "https://www.lingoneo.org/wp-content/uploads/media/pdf/pdf-phrases-article/de-en/A%20Dentist%20Appointment%20-%20Phrases%20Full%20Version.pdf",
-      "instructions": "۱) چند جمله‌ی پایه از PDF انتخاب کن (z.B. Ich habe heute einen Termin … / Ich habe Zahnschmerzen …).\n۲) آن‌ها را با صدای بلند تمرین کن و اگر امکانش هست، با صدای خودت ضبط کن.\n۳) یک دیالوگ کوچک (۴–۵ جمله‌ای) بساز که در آن به مطب زنگ می‌زنی و Termin می‌گیری.",
-      "title": "روز ۶۸: دکتر و دندانپزشک – وقت‌گرفتن و توضیح مشکل"
-    }
-  ],
-  "speaking": [
-    {
-      "pattern": "خودت سؤال بساز، خودت جواب بده – با استفاده از W‑Fragen و تمام موضوعاتی که تا حالا دیدی",
-      "exercise": "۱) یک مینی‌آزمون شفاهی برای خودت بساز: ۱۵ سؤال با W‑Fragen درباره‌ی خودت (Name, Alter, Herkunft, Wohnort, Beruf/Studium, Alltag, Familie, Hobbys, Urlaub…).[web:314][web:316]\n۲) ضبط را روشن کن، سؤال‌ها را یکی‌یکی بخوان و برای هرکدام در ۱–۲ جمله جواب بده؛ این می‌شود شبیه‌سازی نهایی امتحان Sprechen.\n۳) بعد از گوش‌دادن، ۳ سؤال/جواب را که ضعیف‌تر بودند انتخاب کن و آن‌ها را دوباره تمرین کن تا روان شوند.",
-      "title": "روز ۶۵: مینی‌آزمون – W‑Fragen + Tagesablauf + Familie (جمع‌بندی بزرگ A1)"
-    },
-    {
-      "pattern": "Entschuldigung, wo ist …? / Wie komme ich zum/zur …? / Gehen Sie …",
-      "exercise": "۱) ۶ سؤال درباره‌ی مسیر به جاهای مختلف بنویس (Bahnhof, Supermarkt, Zentrum, Post, Park, Bank).\n۲) برای هرکدام یک جواب ۲ جمله‌ای بنویس (geradeaus, rechts, links, an der Ampel…).\n۳) دیالوگ کوتاه بساز (مشتری/رهگذر) و آن را ضبط کن؛ یک بار نقش سؤال‌کننده، یک بار نقش راهنما.",
-      "title": "روز ۶۶: پرسیدن آدرس (nach dem Weg fragen) – بخش ۱"
-    },
-    {
-      "pattern": "Von … bis …: Zuerst …, dann …, danach …",
-      "exercise": "۱) برای سه مسیر مهم زندگی‌ات (خانه → Hochschule/کار، خانه → Bahnhof، خانه → سوپرمارکت) به آلمانی روی کاغذ مسیر بنویس.\n۲) متن‌ها را با صدای بلند بخوان و ضبط کن؛ بعد هنگام پیاده‌روی در همان مسیر، در گوش خودت دوباره با آلمانی تکرار کن.\n۳) یک دیالوگ نقش‌آفرینی بساز که در آن یک توریست از تو مسیر می‌پرسد و تو جواب می‌دهی.",
-      "title": "روز ۶۷: پرسیدن آدرس – بخش ۲ (تمرین بیشتر با Stadt)"
-    },
-    {
-      "pattern": "Guten Tag, ich möchte einen Termin … / Ich habe … / Mir tut … weh.",
-      "exercise": "۱) دو دیالوگ کوتاه بنویس: یکی برای Arzt، یکی برای Zahnarzt (سلام، درخواست Termin، توضیح کوتاه مشکل).\n۲) هر دو دیالوگ را چند بار با صدای بلند بخوان و ضبط کن؛ سعی کن مودبانه و واضح باشد.\n۳) ۵ جمله‌ی درد/مشکل بساز (Kopf, Bauch, Zahn, Rücken، Hals) و آن‌ها را مثل فرمول حفظ کن.",
-      "title": "روز ۶۸: دکتر و دندانپزشک – وقت‌گرفتن و توضیح مشکل"
-    }
-  ],
-  "cultureTip": "[روز 65] اگر این مینی‌آزمون و مونولوگ‌های روز ۶۴–۶۵ برایت راحت شدند، واقعاً در سطح A1 (و حتی شروع A2) برای مکالمه‌ی واقعی و امتحان آماده‌ای؛ از این به بعد فقط باید دایره‌ی لغت را بیشتر کنی.[web:315][web:130]\\n\\n[روز 66] در شهر جدید وقتی گم می‌شوی، همین چند جمله‌ی ساده «Entschuldigung, wo ist …?» و «Wie komme ich zum/zur …?» برای زنده ماندن کافی است؛ لازم نیست از همین سطح به سمت جملات خیلی پیچیده بروی.[web:319][web:322]\\n\\n[روز 67] از سطح A2 به بعد، در آزمون‌ها ممکن است از تو بخواهند Wegbeschreibung کوتاه بدهی؛ اگر از الان با چند مسیر واقعیِ زندگی‌ات تمرین کنی، هم برای امتحان آماده‌ای، هم برای کمک‌کردن به دیگران در شهر.[web:322][web:319]\\n\\n[روز 68] برای زندگی در آلمان، لازم است بتوانی تلفنی یا حضوری خیلی ساده بگویی: «Ich möchte einen Termin beim Arzt. Ich habe …»؛ هیچ‌کس از تو انتظار گرامر پیچیده ندارد، فقط واضح و مودب.[web:324]",
-  "examData": {
-    "questions": [
+  vocabData: {
+    categories: [
       {
-        "question": "کدام سؤال برای «تو کجا زندگی می‌کنی؟» درست است؟",
-        "options": [
-          "Wo wohnst du?",
-          "Woher wohnst du?",
-          "Wohin wohnst du?",
-          "Was wohnst du?"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "کدام سؤال برای «کی سر کار می‌روی؟» درست است؟",
-        "options": [
-          "Wann gehst du zur Arbeit?",
-          "Wo gehst du zur Arbeit?",
-          "Wer gehst du zur Arbeit?",
-          "Wie gehst du zur Arbeit?"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "کدام سؤال برای «چرا آلمانی یاد می‌گیری؟» درست است؟",
-        "options": [
-          "Warum lernst du Deutsch?",
-          "Wie lernst du Deutsch?",
-          "Wann lernst du Deutsch?",
-          "Wo lernst du Deutsch?"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "کدام سؤال برای «با چه وسیله‌ای به دانشگاه می‌روی؟» درست است؟",
-        "options": [
-          "Wie kommst du zur Uni?",
-          "Wo kommst du zur Uni?",
-          "Wann kommst du zur Uni?",
-          "Wer kommst du zur Uni?"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "کدام سؤال برای «چهکار می‌کنی در اوقات فراغت؟» درست است؟",
-        "options": [
-          "Was machst du in deiner Freizeit?",
-          "Wer machst du in deiner Freizeit?",
-          "Wie machst du in deiner Freizeit?",
-          "Wann machst du in deiner Freizeit?"
-        ],
-        "answer": 0
+        title: "مرور واژگان A1",
+        words: [
+          { de: "der Mensch", fa: "انسان", article: "der", plural: "die Menschen", examples: [{ de: "Die Menschen sind nett.", fa: "مردم مهربان هستند." }] },
+          { de: "das Land", fa: "کشور", article: "das", plural: "die Länder", examples: [{ de: "Deutschland ist ein schönes Land.", fa: "آ'مان کشور زیبایی است." }] },
+          { de: "die Stadt", fa: "شهر", article: "die", plural: "die Städte", examples: [{ de: "Berlin ist eine große Stadt.", fa: "بر'ین شهر بزرگی است." }] },
+          { de: "die Sprache", fa: "زبان", article: "die", plural: "die Sprachen", examples: [{ de: "Deutsch ist eine schwere Sprache.", fa: "آ'مانی زبان سختی است." }] },
+          { de: "das Geld", fa: "پو'", article: "das", plural: "-", examples: [{ de: "Ich habe kein Geld.", fa: "من پو' ندارم." }] },
+          { de: "die Arbeit", fa: "کار", article: "die", plural: "die Arbeiten", examples: [{ de: "Die Arbeit ist wichtig.", fa: "کار مهم است." }] },
+          { de: "das Essen", fa: "غذا", article: "das", plural: "die Essen", examples: [{ de: "Das Essen ist lecker.", fa: "غذا خوشمزه است." }] },
+          { de: "das Wasser", fa: "آب", article: "das", plural: "-", examples: [{ de: "Ich trinke Wasser.", fa: "من آب می‌نوشم." }] },
+          { de: "das Kind", fa: "بچه", article: "das", plural: "die Kinder", examples: [{ de: "Das Kind spielt.", fa: "بچه بازی می‌کند." }] },
+          { de: "die Zeit", fa: "وقت", article: "die", plural: "die Zeiten", examples: [{ de: "Ich habe keine Zeit.", fa: "من وقت ندارم." }] }
+        ]
       }
+    ]
+  },
+  reading: [
+    {
+      text: "Ich heiße Maria und komme aus Österreich. Ich bin 25 Jahre alt und wohne in Wien. Ich studiere Germanistik an der Universität. Ich spreche Deutsch, Englisch und ein bisschen Französisch. Meine Familie ist klein: Ich habe einen Bruder und eine Schwester. Mein Vater ist Arzt und meine Mutter ist Lehrerin. In meiner Freizeit lese ich gern und gehe ins Kino. Am Wochenende treffe ich mich mit meinen Freunden.",
+      questions: [
+        { question: "ماریا اه' کجاست؟", answer: "او اه' اتریش است." },
+        { question: "او چند سا' دارد؟", answer: "او ۲۵ سا' دارد." },
+        { question: "او چه زبان‌هایی صحبت می‌کند؟", answer: "او آ'مانی، انگ'یسی و کمی فرانسوی صحبت می‌کند." },
+        { question: "شغ' پدر و مادرش چیست؟", answer: "پدرش دکتر و مادرش مع'م است." }
+      ]
+    }
+  ],
+  writing: [
+    {
+      title: "مونو'وگ A1: خود را معرفی کنید",
+      prompt: "یک متن ۱۰۰ ک'مه‌ای درباره خودتان بنویسید: نام، سن، م'یت، شغ'/تحصی'، خانواده، سرگرمی‌ها و برنامه روزانه.",
+      steps: [
+        { title: "قدم او': معرفی", text: "نام، سن و م'یت.", example: { de: "Ich heiße Ali und bin 30 Jahre alt. Ich komme aus dem Iran.", fa: "من ع'ی نام دارم و ۳۰ سا'ه هستم. من از ایران هستم." } },
+        { title: "قدم دوم: شغ' و خانواده", text: "شغ' و اعضای خانواده.", example: { de: "Ich bin Ingenieur. Ich habe eine kleine Familie.", fa: "من مهندس هستم. من یک خانواده کوچک دارم." } },
+        { title: "قدم سوم: سرگرمی و برنامه", text: "سرگرمی‌ها و برنامه روزانه.", example: { de: "In meiner Freizeit lese ich gern.", fa: "در اوقات فراغت دوست دارم کتاب بخوانم." } }
+      ],
+      modelAnswer: "Ich heiße Ali und bin 30 Jahre alt. Ich komme aus dem Iran und wohne jetzt in Berlin. Ich bin Ingenieur und arbeite in einer Firma. Meine Familie ist klein. Ich habe einen Bruder und eine Schwester. Mein Vater ist Arzt und meine Mutter ist Lehrerin. Ich spreche Persisch, Deutsch und Englisch. In meiner Freizeit lese ich gern und gehe ins Fitnessstudio. Am Wochenende treffe ich mich mit meinen Freunden. Ich stehe um 7 Uhr auf und gehe um 23 Uhr ins Bett."
+    }
+  ],
+  listening: [
+    {
+      title: "گوش دادن به معرفی A1",
+      source: "Deutsch lernen - Sich vorstellen A1",
+      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      instructions: "به معرفی یک نفر گوش دهید و اط'اعات (نام، سن، م'یت، شغ'، خانواده) را یادداشت کنید."
+    }
+  ],
+  speaking: [
+    {
+      title: "مونو'وگ A1: معرفی کام'",
+      pattern: "Ich heiße [Name]. Ich bin [Alter] Jahre alt und komme aus [Land]. Ich wohne in [Stadt]. Ich bin [Beruf]. Meine Familie hat [Anzahl] Personen. In meiner Freizeit [Hobby]. Am [Tag] [Aktivität].",
+      exercise: "خود را کام' معرفی کنید: نام، سن، م'یت، شهر، شغ'، خانواده، سرگرمی و برنامه هفتگی."
+    }
+  ],
+  cultureTip: "آزمون A1 گوته شام' چهار بخش است: خواندن (Lesen)، نوشتن (Schreiben)، شنیدن (Hören) و صحبت کردن (Sprechen). برای قبو'ی باید حداق' ۶۰٪ امتیاز در هر بخش کسب کنید. آمادگی برای آزمون شام' تمرین هر چهار مهارت و آشنایی با فرمت سوا'ات است.",
+  examData: {
+    questions: [
+      { question: "کدام جم'ه صحیح است؟", options: ["Ich bin müde.", "Ich habe müde.", "Ich ist müde.", "Ich sein müde."], answer: 0 },
+      { question: "نفی 'من ماشین ندارم' چگونه بیان می‌شود؟", options: ["Ich habe kein Auto.", "Ich habe nicht Auto.", "Ich nicht habe Auto.", "Ich bin kein Auto."], answer: 0 },
+      { question: "'با دوستم' چگونه بیان می‌شود؟", options: ["mit meinem Freund", "für meinen Freund", "aus meinem Freund", "von meinem Freund"], answer: 0 },
+      { question: "der در Akkusativ چه می‌شود؟", options: ["den", "dem", "des", "die"], answer: 0 },
+      { question: "فع' sein برای 'du' چیست؟", options: ["bist", "bin", "ist", "sind"], answer: 0 },
+      { question: "'من آ'مانی صحبت نمی‌کنم' چگونه بیان می‌شود؟", options: ["Ich spreche nicht Deutsch.", "Ich spreche kein Deutsch.", "Ich nicht spreche Deutsch.", "Ich bin nicht Deutsch."], answer: 0 },
+      { question: "کدام artikel برای das Land صحیح است؟", options: ["das", "der", "die", "dem"], answer: 0 },
+      { question: "'او از آ'مان می‌آید' چگونه بیان می‌شود؟", options: ["Er kommt aus Deutschland.", "Er kommt von Deutschland.", "Er kommt in Deutschland.", "Er kommt nach Deutschland."], answer: 0 },
+      { question: "'من وقت ندارم' چگونه بیان می‌شود؟", options: ["Ich habe keine Zeit.", "Ich habe nicht Zeit.", "Ich bin keine Zeit.", "Ich nicht habe Zeit."], answer: 0 },
+      { question: "فع' haben برای 'wir' چیست؟", options: ["haben", "hat", "hast", "habt"], answer: 0 }
     ]
   }
 };

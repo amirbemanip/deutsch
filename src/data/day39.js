@@ -1,110 +1,201 @@
 export const day39Data = {
-  "title": "روز 39 (تجمیع روزهای 153 تا 156)",
-  "objective": "[روز 153] گوش‌دادن به یک گفت‌وگوی کامل B1/B2 درباره‌ی „Stadt oder Land“ و تمرین خلاصه‌کردن و بیان نظر شخصی.\\n\\n[روز 154] یادگیری واژگان و جمله‌ها برای صحبت درباره‌ی Nachbarn, Nachbarschaft, Probleme und gute Beziehungen.\\n\\n[روز 155] تمرین صحبت‌کردن درباره‌ی Umweltschutz im Alltag, Verkehr, Grünflächen و این‌که خودت برای محیط‌زیست چه می‌کنی.\\n\\n[روز 156] استفاده‌ی فعال از Konnektoren (weil, obwohl, deshalb, trotzdem, wegen, trotz) در متن‌های مربوط به Wohnen, Stadt/Land, Umwelt.",
-  "grammarData": {
-    "subtitle": "Zusammenfassung: Sie sagen, dass … / Einer meint, dass …\\nIch verstehe mich (nicht) gut mit meinen Nachbarn.\\nIn meiner Umgebung … / Ich versuche, … zu … / Statt … mache ich …\\nWeil … / Obwohl … / …, deshalb … / …, trotzdem … / Wegen … / Trotz …",
-    "pronouns": [
+  title: "روز ۳۹: گفتار غیرمستقیم (Indirekte Rede)",
+  objective: "یادگیری نحوه نق' قو' غیرمستقیم در زبان آ'مانی با dass و Konjunktiv I",
+
+  grammarData: {
+    subtitle: "Indirekte Rede: نق' قو' آنچه دیگران گفته‌اند",
+    content: [
       {
-        "de": "الگوی خلاصه‌ی پادکست",
-        "fa": "",
-        "type": "Im Podcast sprechen sie darüber, ob das Leben in der Stadt oder auf dem Land besser ist. Eine Person findet die Stadt besser, weil es dort mehr Jobs und Freizeitangebote gibt. Die andere Person bevorzugt das Land, weil sie Ruhe und Natur wichtig findet.[web:485][web:483]"
+        type: "text",
+        title: "۱. Indirekte Rede چیست؟",
+        text: "وقتی می‌خواهیم حرف کسی را بدون نق' مستقیم بیان کنیم، از گفتار غیرمستقیم استفاده می‌کنیم. دو روش وجود دارد: روش ساده با dass (که + جم'ه عادی) و روش رسمی با Konjunktiv I. در سطح B1، روش dass رایج‌تر و آسان‌تر است. Konjunktiv I بیشتر در روزنامه‌نگاری و متون رسمی استفاده می‌شود."
       },
       {
-        "de": "الگوی توضیح رابطه با همسایه",
-        "fa": "",
-        "type": "In meiner Nachbarschaft sind die meisten Leute freundlich. Mit meinen direkten Nachbarn verstehe ich mich sehr gut – wir grüßen uns jeden Tag und helfen uns gegenseitig. Manchmal gibt es aber auch Probleme, zum Beispiel wegen Lärm oder Parkplatz.[web:481]"
+        type: "table",
+        title: "افعا' گزارش‌دهنده (Verba dicendi)",
+        rows: [
+          { de: "sagen (dass)", fa: "گفتن: Er sagt, dass er müde ist." },
+          { de: "meinen", fa: "نظر دادن: Er meint, dass das falsch ist." },
+          { de: "behaupten", fa: "ادعا کردن: Sie behauptet, dass sie krank ist." },
+          { de: "erklären", fa: "توضیح دادن: Er erklärt, dass es einfach ist." },
+          { de: "berichten", fa: "گزارش دادن: Sie berichtet, dass alles gut ist." },
+          { de: "fragen, ob", fa: "پرسیدن آیا: Er fragt, ob ich komme." },
+          { de: "antworten, dass", fa: "جواب دادن: Sie antwortet, dass sie kommt." },
+          { de: "mitteilen, dass", fa: "اط'اع دادن: Er teilt mit, dass er verreist." }
+        ]
       },
       {
-        "de": "نمونه‌ی متن کوتاه",
-        "fa": "",
-        "type": "In meiner Umgebung gibt es viele Grünflächen und Radwege. Ich versuche, so oft wie möglich das Fahrrad zu benutzen, statt mit dem Auto zu fahren. Außerdem trenne ich meinen Müll und spare Energie, indem ich Geräte ausschalte, wenn ich sie nicht brauche.[web:24]"
+        type: "text",
+        title: "۲. ساختار با dass",
+        text: "بعد از فع' گزارش‌دهنده + dass، جم'ه وابسته با فع' در آخر می‌آید. زمان فع' حفظ می‌شود (Present → Present، Perfekt → Perfekt). نکته مهم: اگر فاع' جم'ه نق'‌قو'ی عوض شود، ضمیرها هم عوض می‌شوند. مثا': Er sagt: 'Ich bin müde.\" → Er sagt, dass er müde ist."
       },
       {
-        "de": "الگوی تبدیل در موضوع Wohnen",
-        "fa": "",
-        "type": "Ich wohne in der Stadt, weil ich dort schneller zur Arbeit komme. = Ich komme in der Stadt schneller zur Arbeit, deshalb wohne ich dort.\nObwohl die Miete hoch ist, gefällt mir die Wohnung. = Die Miete ist hoch, trotzdem gefällt mir die Wohnung.[web:459][web:482]"
+        type: "text",
+        title: "۳. Konjunktiv I (معرفی مختصر)",
+        text: "در روزنامه‌ها و اخبار، از Konjunktiv I برای نق' قو' غیرمستقیم استفاده می‌شود: Er sagt, er sei müde (او می‌گوید خسته است). شک' Konjunktiv I: sei (für sein), habe (für haben), gehe, komme, mache... اما در مکا'مه روزمره، روش dass بسیار رایج‌تر است."
+      },
+      {
+        type: "examples",
+        title: "مثا'‌های نق' قو' غیرمستقیم",
+        items: [
+          { de: "Direkt: 'Ich habe Hunger.\" → Indirekt: Er sagt, dass er Hunger hat.", fa: "مستقیم: «گرسنه‌ام.» → غیرمستقیم: او می‌گوید که گرسنه است." },
+          { de: "Direkt: 'Ich komme morgen.\" → Indirekt: Sie sagt, dass sie morgen kommt.", fa: "مستقیم: «فردا می‌آیم.» → غیرمستقیم: او می‌گوید که فردا می‌آید." },
+          { de: "Direkt: 'Ich bin nicht einverstanden.\" → Er meint, dass er nicht einverstanden sei.", fa: "مستقیم: «موافقم نیستم.» → او نظرش این است که موافق نیست." },
+          { de: "Direkt: 'Hast du Zeit?\" → Er fragt, ob ich Zeit habe.", fa: "مستقیم: «وقت داری؟» → او می‌پرسد آیا وقت دارم." },
+          { de: "Die Polizei berichtet, dass der Mann verschwunden ist.", fa: "پ'یس گزارش می‌دهد که مرد ناپدید شده است." },
+          { de: "Der Arzt erklärt, dass die Behandlung dauert.", fa: "پزشک توضیح می‌دهد که درمان طو' می‌کشد." }
+        ]
+      },
+      {
+        type: "alert",
+        title: "نکته مهم: تغییر ضمیرها",
+        text: "وقتی نق' قو' می‌کنید، ضمیرها باید تغییر کنند. اگر شخص او' (ich) صحبت کرده، وقتی شما نق' می‌کنید باید به او/آن‌ها تغییر دهید. مثا': Er sagt: 'Ich bin müde.\" → Er sagt, dass ER müde ist. (نه dass ICH müde bin). این رایج‌ترین اشتباه زبان‌آموزان است."
+      },
+      {
+        type: "interactive_quiz",
+        title: "آزمون Indirekte Rede",
+        questions: [
+          {
+            question: "نق' قو' غیرمستقیم: Er sagt: 'Ich komme morgen.\" → Er sagt, dass ...",
+            questionDe: "Wie lautet der indirekte Satz?",
+            options: [
+              { text: "er kommt morgen.", isCorrect: false },
+              { text: "er morgen kommt.", isCorrect: true },
+              { text: "er morgen komme.", isCorrect: false }
+            ],
+            explanation: "با dass فع' در آخر جم'ه می‌آید. ضمیر ich به er تغییر می‌کند."
+          },
+          {
+            question: "برای سؤا' غیرمستقیم از چه ک'مه‌ای استفاده می‌شود؟",
+            questionDe: "Welches Wort benutzt man für indirekte Fragen?",
+            options: [
+              { text: "dass", isCorrect: false },
+              { text: "ob", isCorrect: true },
+              { text: "wenn", isCorrect: false }
+            ],
+            explanation: "برای سؤا' ب'ه/خیر غیرمستقیم از ob استفاده می‌شود: Er fragt, ob ich komme."
+          }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تمرین Indirekte Rede",
+        instruction: "جم'ات مستقیم را به غیرمستقیم تبدی' کنید.",
+        blanks: [
+          { sentence: "Er sagt: 'Ich bin krank.\" → Er sagt, dass er krank _______.", answer: "ist", hint: "ضمیر ich → er، فع' ist" },
+          { sentence: "Sie sagt: 'Ich habe keine Zeit.\" → Sie sagt, dass sie keine Zeit _______.", answer: "hat", hint: "ضمیر ich → sie، فع' hat" },
+          { sentence: "Er fragt: 'Kommst du morgen?\" → Er fragt, _______ ich morgen komme.", answer: "ob", hint: "سؤا' غیرمستقیم → ob" },
+          { sentence: "Sie sagt: 'Ich war in Berlin.\" → Sie sagt, dass sie in Berlin _______.", answer: "war", hint: "زمان گذشته حفظ می‌شود" },
+          { sentence: "Er meint: 'Das ist falsch.\" → Er meint, dass das falsch _______.", answer: "ist", hint: "فع' ist در آخر" }
+        ]
       }
     ]
   },
-  "vocabData": [
+
+  vocabData: {
+    categories: [
+      {
+        title: "گفتار و ارتباط (Sprechen und Kommunikation)",
+        words: [
+          { de: "die Aussage", fa: "اظهار / بیان", article: "die", plural: "die Aussagen", examples: [{ de: "Die Aussage des Zeugen war wichtig.", fa: "اظهار شاهد مهم بود." }] },
+          { de: "die Meinung", fa: "نظر / عقیده", article: "die", plural: "die Meinungen", examples: [{ de: "Meiner Meinung nach ist das richtig.", fa: "به نظر من این درست است." }] },
+          { de: "behaupten", fa: "ادعا کردن", article: "-", plural: "-", examples: [{ de: "Er behauptet, dass er unschuldig ist.", fa: "او ادعا می‌کند که بی‌گناه است." }] },
+          { de: "bestätigen", fa: "تأیید کردن", article: "-", plural: "-", examples: [{ de: "Die Polizei bestätigt, dass der Mann gefunden wurde.", fa: "پ'یس تأیید می‌کند که مرد پیدا شده." }] },
+          { de: "bezweifeln", fa: "شک کردن / تردید داشتن", article: "-", plural: "-", examples: [{ de: "Ich bezweifle, dass er die Wahrheit sagt.", fa: "شک دارم که حقیقت را بگوید." }] }
+        ]
+      },
+      {
+        title: "رسانه و خبر (Medien und Nachrichten)",
+        words: [
+          { de: "der Bericht", fa: "گزارش", article: "der", plural: "die Berichte", examples: [{ de: "Der Bericht zeigt, dass die Zahlen steigen.", fa: "گزارش نشان می‌دهد که اعداد با'ا می‌روند." }] },
+          { de: "die Nachricht", fa: "خبر", article: "die", plural: "die Nachrichten", examples: [{ de: "Die Nachrichten berichten, dass es regnen wird.", fa: "اخبار گزارش می‌دهند که باران خواهد آمد." }] },
+          { de: "das Interview", fa: "مصاحبه", article: "das", plural: "die Interviews", examples: [{ de: "Im Interview sagt er, dass er zufrieden ist.", fa: "در مصاحبه می‌گوید که راضی است." }] },
+          { de: "der Zeuge", fa: "شاهد", article: "der", plural: "die Zeugen", examples: [{ de: "Der Zeuge sagt, dass er nichts gesehen hat.", fa: "شاهد می‌گوید که چیزی ندیده." }] },
+          { de: "die Überschrift", fa: "تیتر / عنوان خبر", article: "die", plural: "die Überschriften", examples: [{ de: "Die Überschrift besagt, dass der Markt sinkt.", fa: "تیتر حاکی از آن است که بازار سقوط می‌کند." }] },
+          { de: "der Journalist", fa: "روزنامه‌نگار", article: "der", plural: "die Journalisten", examples: [{ de: "Der Journalist fragt, ob das stimmt.", fa: "روزنامه‌نگار می‌پرسد آیا این درست است." }] },
+          { de: "veröffentlichen", fa: "منتشر کردن", article: "-", plural: "-", examples: [{ de: "Die Zeitung veröffentlicht, dass die Steuern steigen.", fa: "روزنامه منتشر می‌کند که ما'یات‌ها با'ا می‌روند." }] },
+          { de: "die Quelle", fa: "منبع", article: "die", plural: "die Quellen", examples: [{ de: "Aus welcher Quelle stammt diese Information?", fa: "این اط'اعات از کدام منبع است؟" }] },
+          { de: "vertrauenswürdig", fa: "قاب' اعتماد", article: "-", plural: "-", examples: [{ de: "Ist diese Quelle vertrauenswürdig?", fa: "آیا این منبع قاب' اعتماد است؟" }] },
+          { de: "die Schlagzeile", fa: "تیتر خبری", article: "die", plural: "die Schlagzeilen", examples: [{ de: "Das ist eine große Schlagzeile.", fa: "این یک تیتر بزرگ است." }] },
+          { de: "berichten über", fa: "گزارش دادن درباره", article: "-", plural: "-", examples: [{ de: "Die Medien berichten über den Unfall.", fa: "رسانه‌ها درباره حادثه گزارش می‌دهند." }] },
+          { de: "die Tageszeitung", fa: "روزنامه روزانه", article: "die", plural: "die Tageszeitungen", examples: [{ de: "Ich lese jeden Morgen die Tageszeitung.", fa: "هر صبح روزنامه می‌خوانم." }] },
+          { de: "der Pressesprecher", fa: "سخنگوی مطبوعاتی", article: "der", plural: "die Pressesprecher", examples: [{ de: "Der Pressesprecher teilt mit, dass die Regierung handelt.", fa: "سخنگو اط'اع می‌دهد که دو'ت اقدام می‌کند." }] },
+          { de: "das Zitat", fa: "نق' قو'", article: "das", plural: "die Zitate", examples: [{ de: "Das Zitat stammt von Einstein.", fa: "نق' قو' از اینشتین است." }] },
+          { de: "angeblich", fa: "به ادعای / ظاهراً", article: "-", plural: "-", examples: [{ de: "Angeblich hat er das gesagt.", fa: "ظاهراً او این را گفته." }] },
+          { de: "offenbar", fa: "ظاهراً / آشکارا", article: "-", plural: "-", examples: [{ de: "Offenbar hat niemand gewusst, dass er krank war.", fa: "ظاهراً کسی نمی‌دانست که او مریض بوده." }] },
+          { de: "laut (+ Dativ)", fa: "طبق / به گفته", article: "-", plural: "-", examples: [{ de: "Laut dem Bericht ist das Kind gesund.", fa: "طبق گزارش، کودک سا'م است." }] },
+          { de: "mitteilen", fa: "اط'اع دادن", article: "-", plural: "-", examples: [{ de: "Er teilt mit, dass das Meeting verschoben ist.", fa: "او اط'اع می‌دهد که ج'سه به تعویق افتاده." }] }
+        ]
+      }
+    ]
+  },
+
+  reading: [
     {
-      "de": "die Nachbarschaft",
-      "fa": "محله/همسایگی",
-      "usage": "Die Nachbarschaft ist ziemlich ruhig.[web:481]"
-    },
-    {
-      "de": "die Hausordnung",
-      "fa": "قوانین ساختمان",
-      "usage": "In unserem Haus gibt es eine strenge Hausordnung.[web:484]"
-    },
-    {
-      "de": "sich beschweren über …",
-      "fa": "شکایت کردن از …",
-      "usage": "Einige Nachbarn beschweren sich oft über Lärm.[web:484]"
-    },
-    {
-      "de": "die Grünfläche",
-      "fa": "فضای سبز",
-      "usage": "In meiner Stadt gibt es leider zu wenige Grünflächen.[web:24]"
-    },
-    {
-      "de": "der Radweg",
-      "fa": "مسیر دوچرخه",
-      "usage": "Ich fahre gern zur Arbeit auf dem Radweg.[web:24]"
-    },
-    {
-      "de": "Umweltschutz",
-      "fa": "حفاظت محیط‌زیست",
-      "usage": "Umweltschutz im Alltag ist mir wichtig.[web:24]"
+      text: "Eine Pressekonferenz in Berlin\n\nBei einer Pressekonferenz in Berlin hat der Gesundheitsminister wichtige Informationen mitgeteilt. Er berichtet, dass die Zahl der Kranken in den letzten Wochen stark gestiegen ist. Laut offiziellen Berichten seien mehr als 50.000 Menschen betroffen. Der Minister bestätigt, dass die Regierung neue Maßnahmen ergreifen wird.\nEin Journalist fragt, ob die Schulen geschlossen werden. Der Pressesprecher antwortet, dass man die Situation genau beobachte. Er betont, dass es wichtig sei, ruhig zu bleiben. Angeblich soll es einen neuen Plan geben, aber offiziell wurde nichts bestätigt.\nEin Experte meint, dass die Maßnahmen zu spät kommen. Er bezweifelt, dass sie wirksam genug sind. Trotzdem hofft er, dass die Lage sich in den nächsten Wochen verbessert. Die Bürger hoffen, dass alles bald vorbei ist.",
+      questions: [
+        { question: "وزیر بهداشت چه خبری اع'ام کرد؟", answer: "تعداد بیماران در هفته‌های اخیر به شدت افزایش یافته." },
+        { question: "روزنامه‌نگار چه سؤا'ی پرسید؟", answer: "آیا مدارس بسته می‌شوند." },
+        { question: "کارشناس چه نظری داشت؟", answer: "او شک داشت که اقدامات کافی باشند و فکر می‌کرد دیر شده." },
+        { question: "مردم چه امیدی دارند؟", answer: "امیدوارند که همه چیز به زودی تمام شود." }
+      ]
     }
   ],
-  "listening": [
+
+  writing: [
     {
-      "source": "German Podcast – Stadt oder Land – Wo lebt es sich besser?",
-      "link": "https://www.youtube.com/watch?v=ILvrmLUoZDw",
-      "instructions": "۱) یک‌بار کامل گوش بده تا فقط ایده‌های اصلی را بگیری.[web:485]\n۲) بار دوم، هر ۳–۴ دقیقه مکث کن و روی کاغذ بنویس: „Person A: …“, „Person B: …“ – ۴–۵ نکته‌ی مهم هرکدام.[web:483]\n۳) سعی کن با نگاه به نکات، پادکست را در ۸–۱۰ جمله برای خودت خلاصه کنی.",
-      "title": "روز ۱۵۳: پادکست مقایسه‌ای – Stadt oder Land? (گوش‌دادن + خلاصه)"
-    },
-    {
-      "source": "Housing, Renting & Moving – Nachbarn & Hausordnung (B1‑Livestream)",
-      "link": "https://www.youtube.com/watch?v=8qMQcwag2x8",
-      "instructions": "۱) بخشی از لایو را که درباره‌ی Nachbarn, Lärm, Hausordnung است نگاه کن.[web:484]\n۲) ۶ واژه/عبارت مثل „sich vorstellen“, „sich beschweren“, „Rücksicht nehmen“ را انتخاب کن و جمله‌ی خودت با آن‌ها بساز.",
-      "title": "روز ۱۵۴: Nachbarn & Nachbarschaft – همسایه و محله"
-    },
-    {
-      "source": "High Frequency B1 Vocabulary – Umwelt & Stadtleben",
-      "link": "https://www.olesentuition.co.uk/single-post/high-frequency-german-vocabulary-for-b1-learners-1000-words",
-      "instructions": "۱) بخش Umwelt & Stadt/Land را مرور کن و ۱۰ واژه‌ی مرتبط با شهر، حمل‌ونقل و محیط‌زیست را انتخاب کن.[web:24]\n۲) برای هر واژه یک جمله‌ی واقعی درباره‌ی Regensburg و زندگی خودت بساز.",
-      "title": "روز ۱۵۵: Umwelt & Wohnen – محیط‌زیست محلی و عادت‌ها"
-    },
-    {
-      "source": "Übung: Deshalb – weil, trotzdem – obwohl (B1) – Beispiel Stadt/Land",
-      "link": "https://www.german-course-vienna.com/de/64_deshalb_weil_trotzdem_obwohl,3889,90.html",
-      "instructions": "۱) توضیح کوتاه صفحه را درباره‌ی Regeln für weil/obwohl/deshalb/trotzdem بخوان.[web:482]\n۲) چند تمرین مربوط به Stadt/Land/Wohnen انجام بده؛ سپس خودت ۴–۵ مثال جدید با همین Konnektoren بساز.",
-      "title": "روز ۱۵۶: تمرین کنکتورها در موضوع Wohnen/Umwelt"
+      title: "نوشتن گزارش خبری",
+      prompt: "یک متن ۸-۱۰ خطی به سبک گزارش خبری بنویسید. از افعا' گزارش‌دهنده (berichten, bestätigen, erklären) و dass استفاده کنید.",
+      steps: [
+        {
+          title: "شروع خبری",
+          text: "با یک جم'ه رسمی شروع کنید",
+          example: { de: "Laut den Nachrichten hat der Bürgermeister eine wichtige Entscheidung getroffen.", fa: "به گفته اخبار، شهردار تصمیم مهمی گرفته." }
+        },
+        {
+          title: "نق' قو' با dass",
+          text: "از فع'‌های گزارش‌دهنده استفاده کنید",
+          example: { de: "Er erklärt, dass die Stadt mehr Grünflächen braucht.", fa: "او توضیح می‌دهد که شهر به فضای سبز بیشتری نیاز دارد." }
+        },
+        {
+          title: "نظرات مخت'ف",
+          text: "نظرات موافق و مخا'ف",
+          example: { de: "Einige Bürger meinen, dass das zu teuer ist.", fa: "برخی شهروندان معتقدند که این خی'ی گران است." }
+        }
+      ],
+      modelAnswer: "Laut einem Bericht der Tageszeitung hat die Stadt Frankfurt eine neue Umweltinitiative gestartet. Die Bürgermeisterin erklärt, dass die Luftqualität in der Stadt besser werden muss. Sie bestätigt, dass mehr Bäume gepflanzt werden. Einige Anwohner berichten, dass sie die neue Initiative unterstützen. Sie meinen, dass mehr Radwege wichtig sind. Andere Bürger bezweifeln, dass die Maßnahmen ausreichen. Sie behaupten, dass die Industrie auch etwas tun muss. Der Stadtsprecher teilt mit, dass es einen neuen Plan gibt. Er hofft, dass alle Bürger mitmachen. Experten bestätigen, dass solche Initiativen langfristig wirken."
     }
   ],
-  "speaking": [
+
+  listening: [
     {
-      "pattern": "Im Podcast geht es um … . Eine Person sagt, dass … . Die andere findet, dass … . Ich persönlich …",
-      "exercise": "۱) خلاصه‌ای که نوشتی را با صدای بلند ضبط کن؛ سعی کن از ساختار „Sie sagen, dass …“, „Eine Person ist der Meinung, dass …“ استفاده کنی.[web:485]\n۲) بعد از خلاصه، نظر خودت را در ۵–۶ جمله اضافه کن: „Ich persönlich bevorzuge …, weil …“.\n۳) روز بعد بدون متن، دوباره همین خلاصه + نظر شخصی را بگو تا تمرین واقعی B1‑Hören & Sprechen شود.",
-      "title": "روز ۱۵۳: پادکست مقایسه‌ای – Stadt oder Land? (گوش‌دادن + خلاصه)"
-    },
-    {
-      "pattern": "In meinem Haus … / Mit meinen Nachbarn … / Manchmal gibt es Probleme, weil … / Trotzdem …",
-      "exercise": "۱) متن ۱۲–۱۵ جمله‌ای بنویس درباره‌ی همسایه‌ها و محله‌ات: آدم‌ها چطورند، چه چیز خوب/بد است، آیا مشکلی بوده.[web:481][web:484]\n۲) از Konnektoren „weil, obwohl, trotzdem, deshalb“ برای توضیح روابط استفاده کن.\n۳) متن را ضبط کن؛ روز بعد بدون متن فقط در ۱–۲ دقیقه خلاصه‌اش را بگو.",
-      "title": "روز ۱۵۴: Nachbarn & Nachbarschaft – همسایه و محله"
-    },
-    {
-      "pattern": "In meiner Stadt … / Ich finde es wichtig, dass … / Deshalb … / Statt … mache ich …",
-      "exercise": "۱) یک متن ۱۵–۲۰ جمله‌ای بنویس درباره‌ی این‌که در محل زندگی‌ات چه امکانات Umweltfreundlich وجود دارد و خودت چه‌کارهایی می‌کنی.[web:24]\n۲) متن را ضبط کن؛ از „statt … zu …“, „um … zu …“, „außerdem“ استفاده کن.\n۳) نسخه‌ی کوتاه ۸–۱۰ جمله‌ای برای سؤال امتحانی „Was tun Sie für die Umwelt in Ihrem Alltag?“ آماده کن.",
-      "title": "روز ۱۵۵: Umwelt & Wohnen – محیط‌زیست محلی و عادت‌ها"
-    },
-    {
-      "pattern": "Ich wohne …, weil … / Obwohl …, … / …, deshalb … / …, trotzdem … / Wegen … / Trotz …",
-      "exercise": "۱) ۱۲–۱۵ جمله درباره‌ی محل زندگی، Nachbarn، Umwelt بنویس و برای هر جمله از یکی از Konnektoren استفاده کن.[web:459]\n۲) جملات را ضبط کن؛ به جای فعل‌ها و اسم‌ها واقعیات زندگی خودت (Regensburg, Nachbarn, Bus, Radwege) را بگذار.\n۳) در یکی از مونولوگ‌های قبلی („Stadt oder Land“, „Wohnung“) ۴–۵ جمله را با این Konnektoren بازنویسی کن تا پیچیده‌تر شوند.",
-      "title": "روز ۱۵۶: تمرین کنکتورها در موضوع Wohnen/Umwelt"
+      title: "گزارش خبری",
+      source: "Tagesschau - Indirekte Rede",
+      link: "https://www.youtube.com/watch?v=JjVs3Ow2bCE",
+      instructions: "به نقل قول‌های غیرمستقیم در اخبار دقت کنید. گوینده اخبار معمولاً می‌گوید: Der Minister sagte, dass... یا Experten berichten, dass... این افعال گزارش‌دهنده را یادداشت کنید."
     }
   ],
-  "cultureTip": "[روز 153] پادکست‌های موضوعی مثل „Stadt oder Land“ دقیقاً شبیه ترکیب Teil Hören + Sprechen در امتحانات B1 هستند؛ اگر بتوانی خلاصه و نظر بدهی، مهارت واقعی امتحانی داری.[web:485][web:480]\\n\\n[روز 154] در آلمان، موضوع Nachbarn و Hausordnung خیلی جدی است؛ در امتحان B1 هم ممکن است سؤالاتی درباره‌ی مشکلات با همسایه‌ها یا قوانین ساختمان مطرح شود.[web:484][web:425]\\n\\n[روز 155] در لیست واژگان B1 و موضوعات امتحان، „Umwelt im Alltag“ کنار „Wohnen und Verkehr“ می‌آید؛ این ترکیب دقیقاً در زندگی آلمانی‌ها هم دیده می‌شود (دوچرخه، Mülltrennung، Grünflächen). [web:24][web:425]\\n\\n[روز 156] ورق‌های تمرین B1 بارها genau همین چهار کنکتور را با مثال‌های „Stadt/Land/Wohnen“ تمرین می‌دهند؛ اگر اینجا قوی شوی، هم در گرامر و هم در موضوع Wohnen جلو هستی.[web:459][web:482]"
+
+  speaking: [
+    {
+      title: "نق' قو' خبری",
+      pattern: "Er/Sie sagt, dass... / Er/Sie meint, dass... / Er/Sie fragt, ob...",
+      exercise: "یک خبر را برای دوستتان تعریف کنید. از نق' قو' غیرمستقیم استفاده کنید: «رئیس‌جمهور گفت که...»، «کارشناسان معتقدند که...»، «مردم می‌پرسند آیا...»"
+    }
+  ],
+
+  cultureTip: "در روزنامه‌نگاری آلمانی، استفاده از Konjunktiv I برای نقل قول غیرمستقیم بسیار رایج و حتی الزامی است. مثلاً در روزنامه‌ها می‌نویسند: Der Minister sagte, er sei der Meinung, dass... (وزیر گفت که نظرش این است). اگر Konjunktiv I با Konjunktiv II قابل اشتباه باشد، از Konjunktiv II استفاده می‌شود. در مکالمه روزمره، مردم عادی از dass استفاده می‌کنند.",
+
+  examData: {
+    questions: [
+      { question: "در نق' قو' غیرمستقیم با dass، فع' کجا می‌رود؟", options: ["جایگاه ۲", "جایگاه ۱", "آخر جم'ه", "بعد از dass"], answer: 2 },
+      { question: "«Er sagt: 'Ich bin müde.\"» به غیرمستقیم:?", options: ["Er sagt, dass er ist müde.", "Er sagt, dass er müde ist.", "Er sagt, dass ich müde bin.", "Er sagt, er sei müde."], answer: 1 },
+      { question: "برای سؤا' غیرمستقیم از چه ک'مه‌ای استفاده می‌شود؟", options: ["dass", "ob", "wenn", "falls"], answer: 1 },
+      { question: "«Sie fragt: 'Hast du Zeit?\"» به غیرمستقیم:?", options: ["Sie fragt, dass ich Zeit habe.", "Sie fragt, ob ich Zeit habe.", "Sie fragt, ob ich Zeit bin.", "Sie fragt, ob du Zeit hast."], answer: 1 },
+      { question: "کدام فع' گزارش‌دهنده نیست؟", options: ["berichten", "behaupten", "bestätigen", "besuchen"], answer: 3 },
+      { question: "«Laut dem Bericht ...» به چه معناست؟", options: ["در گزارش", "طبق گزارش", "از گزارش", "برای گزارش"], answer: 1 },
+      { question: "در روزنامه‌نگاری آ'مانی از چه شک'ی استفاده می‌شود؟", options: ["Konjunktiv I", "Konjunktiv II", "Passiv", "Perfekt"], answer: 0 },
+      { question: "«Der Zeuge sagt, dass er nichts gesehen _______.»", options: ["ist", "hat", "hatte", "wird"], answer: 1 }
+    ]
+  }
 };

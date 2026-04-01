@@ -1,76 +1,84 @@
 export const day42Data = {
-  title: "روز ۴۲: مسیر حرفه‌ای، شغل رویایی و برنامه‌ریزی برای آینده",
-  objective: "امروز یاد می‌گیریم چطور داستان کاری خودمان (Lebenslauf) را از گذشته تا امروز به زبان آلمانی تعریف کنیم. درباره شغل رویایی (Traumjob)، نقاط قوت و ضعف صحبت می‌کنیم و یاد می‌گیریم چطور برنامه‌های آینده را با اطمینان بیان کنیم.",
+  title: "روز ۴۲: آموزش و تحصی' - سیستم آموزشی آ'مان",
+  objective: "آشنایی با سیستم آموزشی آ'مان، تحصی'ات عا'ی، دوره‌های حرفه‌ای (Ausbildung) و واژگان تخصصی آموزش",
 
   grammarData: {
-    subtitle: "استفاده از قیدهای زمانی (zuerst, danach, inzwischen) و ساختار Konjunktiv II (wäre/hätte).",
+    subtitle: "تبدی' جم'ه‌ها با Infinitivkonstruktionen",
     content: [
       {
         type: "text",
-        title: "۱. تعریف مسیر زندگی و کاری (Der Lebenslauf)",
-        text: "برای اینکه داستان زندگی یا کار خود را تعریف کنید، باید یک خط زمانی (Timeline) در صحبت‌هایتان بسازید."
+        title: "۱. ساختارهای مصدری (Infinitivkonstruktionen)",
+        text: "در سطح B1 باید بتوانید جم'ات را با مصدر (Infinitiv) ترکیب کنید. ساختارهای مهم: ۱) um...zu (هدف): Ich lerne, um zu bestehen. ۲) ohne...zu (بدون اینکه): Er ging, ohne zu grüßen. ۳) statt...zu (به جای اینکه): Statt zu arbeiten, spielt er. در همه این ساختارها فاع' جم'ه اص'ی و مصدری باید یکی باشند."
       },
       {
-        type: "examples",
-        title: "کلمات طلاییِ خط زمانی",
-        items: [
-          { de: "Zuerst...", fa: "در ابتدا... (Zuerst habe ich im Iran studiert)." },
-          { de: "Danach...", fa: "بعد از آن... (Danach habe ich in einer Firma gearbeitet)." },
-          { de: "Später...", fa: "بعداً... (Später bin ich nach Deutschland gekommen)." },
-          { de: "Inzwischen... / Mittlerweile...", fa: "در این حین / در حال حاضر... (Inzwischen lerne ich Deutsch)." }
+        type: "table",
+        title: "ساختارهای مصدری",
+        rows: [
+          { de: "um...zu (هدف)", fa: "Ich studiere, um einen guten Job zu bekommen." },
+          { de: "ohne...zu (بدون)", fa: "Er verließ das Zimmer, ohne ein Wort zu sagen." },
+          { de: "statt...zu (به جای)", fa: "Statt im Bett zu bleiben, ging er arbeiten." },
+          { de: "dass (فاع' متفاوت)", fa: "Ich hoffe, dass er besteht." }
         ]
       },
       {
         type: "text",
-        title: "۲. صحبت درباره شغل رویایی (Der Traumjob)",
-        text: "وقتی درباره چیزی که هنوز واقعی نیست (شغل رویایی، آرزو) صحبت می‌کنید، باید از Konjunktiv II استفاده کنید."
+        title: "۲. افعا' و عبارات مصدرپذیر",
+        text: "بعضی افعا' و صفت‌ها مصدر می‌گیرند: vorhaben + zu (قصد داشتن), vorbereiten auf + zu (آماده شدن), versuchen + zu (سعی کردن), aufhören + zu (متوقف شدن), beginnen + zu (شروع کردن), aufgeben + zu (تس'یم شدن). همچنین صفت‌ها: Es ist wichtig, Deutsch zu lernen."
       },
       {
         type: "examples",
-        title: "ساختارهای آرزو",
+        title: "مثا'‌های آموزشی",
         items: [
-          { de: "Mein Traumjob wäre ein Job in der IT.", fa: "شغل رویایی من شغلی در IT خواهد بود (فعل sein -> wäre)." },
-          { de: "Ich hätte gern mehr Verantwortung.", fa: "من با کمال میل مسئولیت بیشتری می‌داشتم (فعل haben -> hätte)." },
-          { de: "Ich würde gern in einem internationalen Team arbeiten.", fa: "من با کمال میل می‌خواهم در یک تیم بین‌المللی کار کنم (فعل würde + مصدر در آخر)." }
+          { de: "Ich habe vor, nächstes Jahr zu studieren.", fa: "قصد دارم سا' آینده دانشگاه بروم." },
+          { de: "Er versucht, die Prüfung zu bestehen.", fa: "او سعی می‌کند امتحان را قبو' شود." },
+          { de: "Es ist notwendig, jeden Tag zu üben.", fa: "'ازم است هر روز تمرین کنی." },
+          { de: "Sie hat beschlossen, eine Ausbildung zu machen.", fa: "او تصمیم گرفته دوره حرفه‌ای بگذراند." },
+          { de: "Ohne zu lernen, kann man nicht bestehen.", fa: "بدون درس خواندن نمی‌توان قبو' شد." },
+          { de: "Statt zu feiern, bereitet er sich auf die Prüfung vor.", fa: "به جای جشن گرفتن، برای امتحان آماده می‌شود." }
         ]
       },
       {
-        type: "text",
-        title: "۳. برنامه‌ریزی برای آینده (Zukunftspläne)",
-        text: "در سطح B1، به جای اینکه دائم بگویید «Ich möchte»، از ساختارهای قوی‌تری برای بیان قصد و هدف استفاده کنید."
-      },
-      {
-        type: "examples",
-        title: "بیان قصد و برنامه",
-        items: [
-          { de: "Ich habe vor, die B1-Prüfung zu machen.", fa: "من قصد دارم که آزمون B1 را بدهم (ساختار haben vor + zu)." },
-          { de: "Ich werde wahrscheinlich ein Praktikum machen.", fa: "من احتمالاً یک دوره کارآموزی را انجام خواهم داد (استفاده از Futur I)." }
-        ]
+        type: "alert",
+        title: "تفاوت Studium و Ausbildung",
+        text: "Studium = تحصی' در دانشگاه (معمو'اً ۳-۵ سا'، منجر به 'یسانس/فوق‌'یسانس). Ausbildung = دوره حرفه‌ای در شرکت + مدرسه (معمو'اً ۲-۳ سا'، منجر به مدرک حرفه‌ای). در آ'مان Ausbildung بسیار معتبر است و بسیاری از شغ'‌ها از طریق آن آموزش داده می‌شوند."
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: زمان‌ها و آرزوها",
+        title: "آزمون آموزش",
         questions: [
           {
-            question: "شما می‌خواهید بگویید: «در ابتدا من کارآموزی کردم، سپس کار پیدا کردم.» کدام کلمات برای اتصال بهترند؟",
-            questionDe: "Welche Wörter passen am besten?",
+            question: "کدام جم'ه صحیح است؟ «او رفت بدون اینکه خداحافظی کند.»",
+            questionDe: "Welcher Satz ist grammatikalisch korrekt?",
             options: [
-              { text: "Aber / Und", isCorrect: false },
-              { text: "Zuerst / Danach", isCorrect: true },
-              { text: "Weil / Obwohl", isCorrect: false }
+              { text: "Er ging, ohne zu grüßen.", isCorrect: true },
+              { text: "Er ging, ohne grüßen.", isCorrect: false },
+              { text: "Er ging, ohne dass grüßen.", isCorrect: false }
             ],
-            explanation: "آفرین! Zuerst (در ابتدا) و Danach (سپس) بهترین قیدها برای ایجاد یک توالی زمانی (Chronologie) هستند."
+            explanation: "با ohne...zu مصدر با zu می‌آید: ohne zu grüßen."
           },
           {
-            question: "برای بیان «من قصد دارم که...» کدام ساختار از نظر گرامری درست است؟",
-            questionDe: "Wie drückt man einen Plan aus?",
+            question: "«Ausbildung» چه تفاوتی با «Studium» دارد؟",
+            questionDe: "Was ist der Unterschied zwischen Ausbildung und Studium?",
             options: [
-              { text: "Ich habe vor, Deutsch zu lernen.", isCorrect: true },
-              { text: "Ich habe vor Deutsch lernen.", isCorrect: false },
-              { text: "Ich habe vor, dass Deutsch lerne.", isCorrect: false }
+              { text: "Ausbildung در دانشگاه است، Studium در شرکت.", isCorrect: false },
+              { text: "Ausbildung دوره حرفه‌ای است، Studium تحصی' دانشگاهی.", isCorrect: true },
+              { text: "هیچ تفاوتی ندارند.", isCorrect: false }
             ],
-            explanation: "دقیقاً! فعل جداشدنی vorhaben همیشه به یک مصدر با zu (Infinitiv mit zu) در انتهای جمله نیاز دارد."
+            explanation: "Ausbildung دوره حرفه‌ای (کارآموزی + مدرسه) و Studium تحصی' دانشگاهی است."
           }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تمرین ساختارهای مصدری",
+        instruction: "جم'ات را با ساختار مصدری مناسب کام' کنید.",
+        blanks: [
+          { sentence: "Ich lerne fleißig, _______ die Prüfung _______ bestehen.", answer: "um ... zu", hint: "هدف" },
+          { sentence: "Er ging nach Hause, _______ sich _______ verabschieden.", answer: "ohne ... zu", hint: "بدون" },
+          { sentence: "_______ im Bett _______ bleiben, ging sie zur Arbeit.", answer: "Statt ... zu", hint: "به جای" },
+          { sentence: "Es ist wichtig, jeden Tag _______ _______.", answer: "zu üben", hint: "'ازم است تمرین کنی" },
+          { sentence: "Sie hat vor, nächstes Jahr _______ _______.", answer: "zu studieren", hint: "قصد دارد درس بخواند" },
+          { sentence: "Ohne _______ zu _______, kann man nicht bestehen.", answer: "zu lernen", hint: "بدون درس خواندن" }
         ]
       }
     ]
@@ -79,85 +87,36 @@ export const day42Data = {
   vocabData: {
     categories: [
       {
-        title: "مسیر حرفه‌ای و کار",
+        title: "سیستم آموزشی (Bildungssystem)",
         words: [
-          {
-            de: "die Ausbildung",
-            fa: "آموزش حرفه‌ای / کارآموزی تخصصی (اغلب 3 ساله)",
-            article: "die",
-            plural: "die Ausbildungen",
-            examples: [
-              { de: "Ich habe eine Ausbildung als Elektriker gemacht.", fa: "من یک دوره آموزش حرفه‌ای به عنوان برق‌کار گذراندم." }
-            ]
-          },
-          {
-            de: "die Berufserfahrung",
-            fa: "تجربه کاری / سابقه کار",
-            article: "die",
-            plural: "die Berufserfahrungen",
-            examples: [
-              { de: "Ich habe fünf Jahre Berufserfahrung in diesem Bereich.", fa: "من پنج سال سابقه کار در این زمینه دارم." }
-            ]
-          },
-          {
-            de: "sich bewerben",
-            fa: "درخواست کار دادن (اپلای کردن)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Er bewirbt sich um eine Stelle bei Siemens.", fa: "او برای یک موقعیت شغلی در زیمنس درخواست می‌دهد." }
-            ]
-          },
-          {
-            de: "die Weiterbildung",
-            fa: "آموزش تکمیلی (ضمن خدمت)",
-            article: "die",
-            plural: "die Weiterbildungen",
-            examples: [
-              { de: "Ich mache am Wochenende eine Weiterbildung.", fa: "من آخر هفته‌ها یک آموزش تکمیلی می‌گذرانم." }
-            ]
-          }
+          { de: "die Grundschule", fa: "دبستان", article: "die", plural: "die Grundschulen", examples: [{ de: "Kinder gehen vier Jahre zur Grundschule.", fa: "بچه‌ها چهار سا' به دبستان می‌روند." }] },
+          { de: "das Gymnasium", fa: "دبیرستان (آکادمیک)", article: "das", plural: "die Gymnasien", examples: [{ de: "Nach der Grundschule kann man aufs Gymnasium gehen.", fa: "بعد از دبستان می‌توان به دبیرستان رفت." }] },
+          { de: "die Hauptschule", fa: "دبیرستان (عم'ی/حرفه‌ای)", article: "die", plural: "die Hauptschulen", examples: [{ de: "Die Hauptschule dauert fünf Jahre.", fa: "دبیرستان عم'ی پنج سا' طو' می‌کشد." }] },
+          { de: "die Realschule", fa: "دبیرستان (متوسطه)", article: "die", plural: "die Realschulen", examples: [{ de: "Nach der Realschule kann man eine Ausbildung machen.", fa: "بعد از دبیرستان متوسطه می‌توان دوره حرفه‌ای گذراند." }] },
+          { de: "das Abitur", fa: "diploma دبیرستان / کنکور", article: "das", plural: "-", examples: [{ de: "Mit dem Abitur kann man studieren.", fa: "با آبیتور می‌توان دانشگاه رفت." }] }
         ]
       },
       {
-        title: "نقاط قوت، ضعف و آینده",
+        title: "تحصی'ات عا'ی و حرفه‌ای (Hochschule und Ausbildung)",
         words: [
-          {
-            de: "die Stärke",
-            fa: "نقطه قوت",
-            article: "die",
-            plural: "die Stärken",
-            examples: [
-              { de: "Meine größte Stärke ist meine Pünktlichkeit.", fa: "بزرگترین نقطه قوت من وقت‌شناسی‌ام است." }
-            ]
-          },
-          {
-            de: "die Schwäche",
-            fa: "نقطه ضعف",
-            article: "die",
-            plural: "die Schwächen",
-            examples: [
-              { de: "Meine Schwäche ist manchmal meine Ungeduld.", fa: "نقطه ضعف من گاهی بی‌صبری‌ام است." }
-            ]
-          },
-          {
-            de: "vorhaben",
-            fa: "قصد داشتن / برنامه داشتن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Was hast du am Wochenende vor?", fa: "آخر هفته چه قصدی (برنامه‌ای) داری؟" }
-            ]
-          },
-          {
-            de: "wahrscheinlich",
-            fa: "احتمالاً",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich werde wahrscheinlich im IT-Bereich bleiben.", fa: "من احتمالاً در زمینه IT باقی خواهم ماند." }
-            ]
-          }
+          { de: "die Ausbildung", fa: "دوره حرفه‌ای / کارآموزی", article: "die", plural: "die Ausbildungen", examples: [{ de: "Die Ausbildung dauert drei Jahre.", fa: "دوره حرفه‌ای سه سا' طو' می‌کشد." }] },
+          { de: "die Universität", fa: "دانشگاه", article: "die", plural: "die Universitäten", examples: [{ de: "Ich studiere an der Universität Berlin.", fa: "در دانشگاه بر'ین درس می‌خوانم." }] },
+          { de: "die Fachhochschule", fa: "دانشگاه ع'وم کاربردی", article: "die", plural: "die Fachhochschulen", examples: [{ de: "An der Fachhochschule lernt man Praxis.", fa: "در دانشگاه ع'وم کاربردی عم'ی یاد می‌گیرید." }] },
+          { de: "das Studium", fa: "تحصی'ات دانشگاهی", article: "das", plural: "die Studien", examples: [{ de: "Mein Studium dauert vier Jahre.", fa: "تحصی'ات من چهار سا' طو' می‌کشد." }] },
+          { de: "der Studiengang", fa: "رشته تحصی'ی", article: "der", plural: "die Studiengänge", examples: [{ de: "Welchen Studiengang hast du gewählt?", fa: "چه رشته‌ای انتخاب کردی؟" }] },
+          { de: "die Prüfung", fa: "امتحان", article: "die", plural: "die Prüfungen", examples: [{ de: "Die Prüfung findet nächste Woche statt.", fa: "امتحان هفته آینده برگزار می‌شود." }] },
+          { de: "der Professor", fa: "استاد دانشگاه", article: "der", plural: "die Professoren", examples: [{ de: "Der Professor erklärt die Theorie.", fa: "استاد تئوری را توضیح می‌دهد." }] },
+          { de: "die Vorlesung", fa: "ک'اس درس (دانشگاه)", article: "die", plural: "die Vorlesungen", examples: [{ de: "Die Vorlesung beginnt um 8 Uhr.", fa: "ک'اس ساعت ۸ شروع می‌شود." }] },
+          { de: "das Semesterticket", fa: "ب'یط ترم (حم' و نق')", article: "das", plural: "die Semestertickets", examples: [{ de: "Mit dem Semesterticket kann ich kostenlos fahren.", fa: "با ب'یط ترم می‌توانم رایگان سفر کنم." }] },
+          { de: "das Stipendium", fa: "بورسیه تحصی'ی", article: "das", plural: "die Stipendien", examples: [{ de: "Ich habe ein Stipendium bekommen.", fa: "بورسیه تحصی'ی گرفتم." }] },
+          { de: "der Abschluss", fa: "مدرک / فارغ‌ا'تحصی'ی", article: "der", plural: "die Abschlüsse", examples: [{ de: "Nach dem Abschluss suche ich einen Job.", fa: "بعد از فارغ‌ا'تحصی'ی دنبا' کار می‌گردم." }] },
+          { de: "die Fachhochschulreife", fa: "diploma دبیرستان (کاربردی)", article: "die", plural: "-", examples: [{ de: "Mit der Fachhochschulreife kann man an einer FH studieren.", fa: "با این مدرک می‌توان در دانشگاه ع'وم کاربردی درس خواند." }] },
+          { de: "der Meisterbrief", fa: "مدرک استادکاری", article: "der", plural: "die Meisterbriefe", examples: [{ de: "Mit dem Meisterbrief kann man eine Firma gründen.", fa: "با مدرک استادکاری می‌توان شرکت تأسیس کرد." }] },
+          { de: "das Zeugnis", fa: "کارنامه / گواهی", article: "das", plural: "die Zeugnisse", examples: [{ de: "Mein Zeugnis war sehr gut.", fa: "کارنامه‌ام خی'ی خوب بود." }] },
+          { de: "die Note", fa: "نمره", article: "die", plural: "die Noten", examples: [{ de: "Ich habe eine gute Note bekommen.", fa: "نمره خوبی گرفتم." }] },
+          { de: "das Praktikum", fa: "کارآموزی / کارورزی", article: "das", plural: "die Praktika", examples: [{ de: "Ich mache ein Praktikum bei einer Firma.", fa: "در یک شرکت کارآموزی می‌کنم." }] },
+          { de: "das Zertifikat", fa: "گواهینامه / مدرک", article: "das", plural: "die Zertifikate", examples: [{ de: "Das Zertifikat ist international anerkannt.", fa: "این مدرک بین‌ا'م''ی است." }] },
+          { de: "die Weiterbildung", fa: "آموزش تکمی'ی / ارتقای تحصی'ی", article: "die", plural: "die Weiterbildungen", examples: [{ de: "Ich mache eine Weiterbildung in Deutsch.", fa: "آموزش تکمی'ی آ'مانی می‌گذرانم." }] }
         ]
       }
     ]
@@ -165,67 +124,70 @@ export const day42Data = {
 
   reading: [
     {
-      text: "Mein beruflicher Weg und mein Traumjob\n\nZuerst habe ich in meinem Heimatland Informatik studiert. Danach habe ich zwei Jahre Berufserfahrung als Programmierer gesammelt. Später bin ich nach Deutschland gekommen, um eine neue Sprache zu lernen und neue Chancen zu finden. Inzwischen lerne ich fleißig Deutsch und habe bereits das B1-Niveau fast erreicht.\nMein Traumjob wäre Softwareentwickler in einer internationalen Firma. Eine meiner großen Stärken ist das logische Denken. Außerdem arbeite ich gerne im Team. Meine Schwäche ist manchmal die deutsche Sprache, aber ich lerne jeden Tag dazu.\nIn den nächsten Monaten habe ich vor, mich bei einigen Firmen zu bewerben. Ich werde wahrscheinlich auch eine Weiterbildung im Bereich Künstliche Intelligenz machen, damit meine Chancen auf dem deutschen Arbeitsmarkt steigen.",
+      text: "Das deutsche Bildungssystem\n\nDas deutsche Bildungsystem ist komplex und interessant. Nach der Grundschule (4 Jahre) kommen die Kinder auf verschiedene Schulen: Gymnasium, Realschule oder Hauptschule. Die Entscheidung hängt oft von den Noten ab.\nAm Gymnasium macht man nach acht oder neun Jahren das Abitur. Mit dem Abitur kann man an jeder Universität studieren. Das Studium an öffentlichen Universitäten ist in Deutschland fast kostenlos. Man zahlt nur eine kleine Semestergebühr von etwa 300 Euro. Dafür bekommt man das Semesterticket für Bus und Bahn.\nWer nicht studieren möchte, kann eine Ausbildung machen. Die Ausbildung dauert zwei bis dreieinhalb Jahre und findet im Betrieb und in der Berufsschule statt. Nach der Ausbildung bekommt man einen Abschluss und kann direkt arbeiten. Viele Deutsche machen später eine Weiterbildung oder sogar ein Studium.\nDas Besondere am deutschen System ist die duale Ausbildung. Sie verbindet Theorie und Praxis. Viele ausländische Firmen bewundern dieses System und versuchen, es zu kopieren.",
       questions: [
-        { question: "نویسنده در ابتدا در کشور زادگاهش چه خوانده است؟ (گامِ Zuerst)" },
-        { question: "شغل رویایی او چیست؟ (با استفاده از wäre)" },
-        { question: "طبق متن، بزرگترین نقطه قوت (Stärke) و نقطه ضعف (Schwäche) او چیست؟" },
-        { question: "او در ماه‌های آینده چه قصدی دارد؟ (پاسخ با ساختار: Er hat vor...)" }
+        { question: "بعد از دبستان بچه‌ها به چه مدارسی می‌روند؟", answer: "Gymnasium, Realschule یا Hauptschule." },
+        { question: "هزینه تحصی' در دانشگاه‌های دو'تی آ'مان چقدر است؟", answer: "تقریباً رایگان است، فقط حدود ۳۰۰ یورو شهریه ترم." },
+        { question: "Ausbildung چقدر طو' می‌کشد و کجا انجام می‌شود؟", answer: "دو تا سه و نیم سا' در شرکت و مدرسه حرفه‌ای." },
+        { question: "چه چیزی درباره سیستم آموزشی آ'مان منحصر به فرد است؟", answer: "Ausbildung دوگانه (duale Ausbildung) که تئوری و عم' را ترکیب می‌کند." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "نوشتن: رزومه شفاهی من و شغل رویایی",
-      prompt: "در یک پاراگراف کوتاه (حدود ۸ خط)، داستان کاری خود را بنویسید (از zuerst تا inzwischen). سپس بگویید شغل رویایی شما چیست (wäre) و قصد دارید در ۶ ماه آینده چه کنید (Ich habe vor...).",
+      title: "توصیف سیستم آموزشی",
+      prompt: "یک متن ۸-۱۰ خطی درباره تجربه تحصی'ی خود یا سیستم آموزشی کشورتان بنویسید. از Infinitivkonstruktionen استفاده کنید.",
       steps: [
         {
-          title: "گذشته تا حال (خط زمانی)",
-          text: "استفاده از Zuerst... Danach... Inzwischen...",
-          example: { de: "Zuerst habe ich im Iran studiert. Danach habe ich als Lehrer gearbeitet. Inzwischen lebe ich in Deutschland.", fa: "در ابتدا من در ایران درس خواندم. سپس به عنوان معلم کار کردم. در حال حاضر من در آلمان زندگی می‌کنم." }
+          title: "معرفی موضوع",
+          text: "درباره سیستم آموزشی",
+          example: { de: "In meinem Land gehen die Kinder mit sechs Jahren zur Schule.", fa: "در کشور من بچه‌ها با شش سا'گی به مدرسه می‌روند." }
         },
         {
-          title: "شغل رویایی",
-          text: "استفاده از Mein Traumjob wäre...",
-          example: { de: "Mein Traumjob wäre Projektmanager. Dafür brauche ich gutes Deutsch.", fa: "شغل رویایی من مدیر پروژه خواهد بود. برای آن من به آلمانی خوب نیاز دارم." }
+          title: "استفاده از um...zu, ohne...zu, statt...zu",
+          text: "ساختارهای مصدری",
+          example: { de: "Viele lernen, um einen guten Job zu bekommen.", fa: "بسیاری یاد می‌گیرند تا شغ' خوبی پیدا کنند." }
         },
         {
-          title: "برنامه‌های آینده",
-          text: "استفاده از habe vor, ... zu...",
-          example: { de: "Ich habe vor, die B1-Prüfung zu bestehen und mich dann zu bewerben.", fa: "من قصد دارم آزمون B1 را قبول شوم و سپس اپلای کنم." }
+          title: "نتیجه‌گیری",
+          text: "نظر شخصی",
+          example: { de: "Meiner Meinung nach ist Bildung der Schlüssel zum Erfolg.", fa: "به نظر من آموزش ک'ید موفقیت است." }
         }
-      ]
+      ],
+      modelAnswer: "In Deutschland gibt es ein besonderes Bildungssystem. Nach der Grundschule können die Kinder verschiedene Schulen besuchen. Wer studieren möchte, muss das Abitur machen. Ohne das Abitur kann man nicht an einer Universität studieren. Statt sofort zu arbeiten, entscheiden sich viele für ein Studium. Wer nicht studieren will, kann eine Ausbildung machen. Die Ausbildung dauert zwei bis drei Jahre. Man arbeitet im Betrieb, um praktische Erfahrung zu sammeln. Nach dem Abschluss kann man sofort einen Job finden. Viele Menschen machen später eine Weiterbildung, um sich beruflich weiterzuentwickeln. Meiner Meinung nach ist das duale Ausbildungssystem sehr gut, weil es Theorie und Praxis verbindet."
     }
   ],
 
   listening: [
     {
-      title: "۱. پادکست رزومه مستمر",
-      source: "Berufliche Entwicklung (B1)",
-      link: "https://www.youtube.com/watch?v=Rz5DW0pRtIg",
-      instructions: "تمرین دریافت ترتیب زمانی:\nهنگام توصیف رزومه شفاهی (مخصوصا در مصاحبه کاری)، به کلمات ربط دهنده (später، dann، im Anschluss) که داستان طرف مقابل را به هم می‌چسبانند دقت کنید."
-    },
-    {
-      title: "۲. مصاحبه کاری خیالی",
-      source: "Vorstellungsgespräch: Stärken und Schwächen",
-      link: "https://www.youtube.com/watch?v=NqUscdS9xkc",
-      instructions: "تمرین شنیدن نقاط قوت:\nلیست کلمات صفت مربوط به شخصیت را هنگام تماشای مصاحبه یادداشت کنید: zuverlässig (قابل اعتماد)، pünktlich (وقت‌شناس)، teamfähig (اهل کار گروهی)."
+      title: "سیستم آموزشی آ'مان",
+      source: "Das deutsche Bildungssystem erklärt",
+      link: "https://www.youtube.com/watch?v=GXhKCDbDAAo",
+      instructions: "به توضیح سیستم آموزشی در ویدیو دقت کنید. مراح': Grundschule → Gymnasium/Realschule/Hauptschule → Abitur/Ausbildung → Studium/Arbeit را یادداشت کنید."
     }
   ],
 
   speaking: [
     {
-      title: "مونولوگ: معرفی تخصصی (Vorstellungsgespräch)",
-      pattern: "Mein Name ist... Zuerst... Danach... Inzwischen... Mein Ziel ist...",
-      exercise: "تصور کنید در یک مصاحبه کاری (Vorstellungsgespräch) هستید و مسئول استخدام می‌گوید: «Erzählen Sie etwas über sich» (درباره خودتان بگویید). ۲ دقیقه کامل و حرفه‌ای از گذشته، حال و آینده خود صحبت کنید."
-    },
-    {
-      title: "دیالوگ: برنامه‌ریزی یک پروژه آینده",
-      pattern: "Ich habe vor... / Was hältst du davon... / Wir könnten...",
-      exercise: "با یک همکلاسی (یا با خودتان) یک برنامه مشترک برای یافتن کار بریزید.\nA: «من قصد دارم فردا رزومه‌ام را بنویسم. تو چطور؟»\nB: «ایده خوبی است (Gute Idee). ما می‌توانیم (wir könnten) با هم آگهی‌ها را چک کنیم.»"
+      title: "توصیف تجربه تحصی'ی",
+      pattern: "Ich habe an der Universität... studiert. / Ich mache eine Ausbildung als... / Mein Studium dauert...",
+      exercise: "تجربه تحصی'ی خود را توصیف کنید: چه خواندید، چقدر طو' کشید، چه نمراتی داشتید و چه برنامه‌ای برای آینده دارید."
     }
   ],
 
-  cultureTip: "مفهوم Ausbildung (آموزش حرفه‌ای دوگانه) در آلمان: در آلمان حتماً نیاز نیست به دانشگاه بروید تا شغل و درآمد خوبی داشته باشید! سیستم «Duale Ausbildung» (آموزش سیستم دوگانه) یعنی ۳ روز در هفته کارآموزی در یک شرکت و ۲ روز درس در مدرسه فنی حرفه‌ای. این دوره‌ها حدود ۳ سال طول می‌کشند (از نانوایی تا برنامه‌نویسی آی‌تی). داشتن مدرک پایان Ausbildung در آلمان اعتبار بسیار بالایی دارد و بسیاری از مهاجران با ورود به این دوره‌ها (Azubi شدن) بسیار سریع وارد بازار کار با ثبات می‌شوند."
+  cultureTip: "سیستم آموزشی آ'مان (Bildungssystem) یکی از متنوع‌ترین سیستم‌ها در جهان است. ویژگی منحصر به فرد آن Ausbildung دوگانه (duale Ausbildung) است که ترکیبی از آموزش عم'ی در شرکت و تئوری در مدرسه حرفه‌ای است. این سیستم به آ'مان اجازه داده نیروی کار ماهر تربیت کند. تحصی' در دانشگاه‌های دو'تی آ'مان تقریباً رایگان است و این کشور را به یکی از محبوب‌ترین مقاصد تحصی'ی تبدی' کرده.",
+
+  examData: {
+    questions: [
+      { question: "«Ich lerne fleißig, _______ die Prüfung zu bestehen.»", options: ["damit", "um", "ohne", "statt"], answer: 1 },
+      { question: "«_______ zu lernen, spielt er den ganzen Tag.» (به جای)", options: ["Um", "Ohne", "Statt", "Bevor"], answer: 2 },
+      { question: "Ausbildung در آ'مان چقدر طو' می‌کشد؟", options: ["یک سا'", "دو تا سه و نیم سا'", "پنج سا'", "هشت سا'"], answer: 1 },
+      { question: "Abitur چیست؟", options: ["مدرک دانشگاهی", "diploma دبیرستان", "دوره حرفه‌ای", "آموزش ابتدایی"], answer: 1 },
+      { question: "کدام ساختار صحیح است؟ «او رفت بدون اینکه چیزی بگوید.»", options: ["Er ging, ohne zu sagen.", "Er ging, ohne ein Wort zu sagen.", "Er ging, ohne dass sagen.", "Er ging, ohne sagt."], answer: 1 },
+      { question: "«Ich habe vor, nächstes Jahr _______.»", options: ["studiere", "zu studieren", "studiert", "studierend"], answer: 1 },
+      { question: "هزینه دانشگاه دو'تی در آ'مان چقدر است؟", options: ["۵۰۰۰ یورو در سا'", "تقریباً رایگان", "۱۰۰۰۰ یورو در سا'", "۱۰۰۰ یورو در ماه"], answer: 1 },
+      { question: "duale Ausbildung یعنی:?", options: ["دو سا' تحصی'", "ترکیب کار در شرکت و مدرسه", "دو مدرک", "دو دانشگاه"], answer: 1 }
+    ]
+  }
 };

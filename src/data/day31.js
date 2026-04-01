@@ -1,65 +1,88 @@
 export const day31Data = {
-  title: "روز ۳۱: استاد شدن در Small Talk و کلمات ربطِ قیدی",
-  objective: "امروز یاد می‌گیریم چطور با همکاران و دوستان در محیط‌های غیررسمی (مثل کافه) اسمال‌تاکِ حرفه‌ای داشته باشیم. همچنین ۵ کلمه ربطِ قیدی جدید یاد می‌گیریم که مانند چسب، جملاتِ تکه‌تکه شما را به یک متن روان B1 تبدیل می‌کنند.",
+  title: "روز ۳۱: هوا + جم'ات شرطی با wenn",
+  objective: "یادگیری واژگان آب‌وهوا، بیان آب‌وهوا و استفاده از جم'ات شرطی با wenn",
 
   grammarData: {
-    subtitle: "توسعه کلمات ربط جایگاه ۱ (Adverbiale Konnektoren).",
+    subtitle: "جم'ات شرطی زمانی با wenn",
     content: [
       {
         type: "text",
-        title: "۱. کلمات ربط قیدی (Adverbiale Konnektoren)",
-        text: "همانطور که قبلاً یاد گرفتید، بعضی از کلمات ربط (مثل deshalb, trotzdem, außerdem) در ابتدای جمله دوم (جایگاه ۱) قرار می‌گیرند و بلافاصله بعد از آن‌ها فعل در جایگاه ۲ می‌آید. امروز ۵ کلمه بسیار پرکاربرد دیگر از این خانواده را یاد می‌گیریم."
+        title: "جم'ه شرطی با wenn چیست؟",
+        text: "ک'مه wenn در آ'مانی دو معنی دارد: ۱. اگر (شرطی) ۲. وقتی (زمانی). در هر دو حا'ت، wenn یک Subjunktion است، یعنی فع' را به آخر جم'ه می‌فرستد. اما فع' جم'ه اص'ی (Hauptsatz) ب'افاص'ه بعد از کاما به جایگاه ۲ می‌آید."
       },
       {
-        type: "table",
-        title: "۵ کنکتور طلاییِ سطح B1",
-        rows: [
-          { de: "also", fa: "پس / بنابراین / در نتیجه (غیررسمی‌تر از deshalb)" },
-          { de: "dann", fa: "سپس / بعدش (برای بیان ترتیب زمان)" },
-          { de: "danach", fa: "پس از آن (مترادف dann، اما کمی حرفه‌ای‌تر)" },
-          { de: "jedoch", fa: "اما / با این حال (نسخه رسمی‌ترِ aber. این کلمه جایگاه ۱ می‌گیرد!)" },
-          { de: "sonst", fa: "وگرنه / در غیر این صورت" }
-        ]
+        type: "alert",
+        title: "فرمو' مهم!",
+        text: "Wenn + فاع' + بقیه ک'مات + فع' در آخر (کاما) → فاع' + فع' در جایگاه ۲ + بقیه ک'مات. مثا': Wenn es regnet, bleibe ich zu Hause. (اگر/وقتی باران بیاید، در خانه می‌مانم.)"
       },
       {
         type: "examples",
-        title: "مثال‌های طلایی",
+        title: "مثا'‌های کاربردی آب‌وهوا با wenn",
         items: [
-          { de: "Ich habe morgen frei, also können wir uns treffen.", fa: "من فردا وقتِ آزاد دارم، پس (بنابراین) می‌توانیم همدیگر را ببینیم." },
-          { de: "Wir essen zusammen, dann sehen wir einen Film.", fa: "ما با هم غذا می‌خوریم، سپس یک فیلم می‌بینیم." },
-          { de: "Er hat viel gelernt, jedoch hat er die Prüfung nicht bestanden.", fa: "او خیلی درس خواند، با این حال در امتحان قبول نشد. (مقایسه با aber: Er hat viel gelernt, aber er hat die Prüfung nicht bestanden. کلمه aber در جایگاه صفر است)." },
-          { de: "Beeil dich, sonst verpassen wir den Bus!", fa: "عجله کن، وگرنه اتوبوس را از دست می‌دهیم! (ساختار: دستور + کاما + sonst + فعل)." }
+          { de: "Wenn es regnet, nehme ich einen Regenschirm mit.", fa: "وقتی باران می‌آید، چتر با خودم می‌برم." },
+          { de: "Wenn die Sonne scheint, gehe ich spazieren.", fa: "وقتی آفتاب می‌تابد، پیاده‌روی می‌روم." },
+          { de: "Wenn es schneit, bleiben die Kinder zu Hause.", fa: "وقتی برف می‌آید، بچه‌ها در خانه می‌مانند." },
+          { de: "Wenn es kalt ist, trage ich einen Mantel.", fa: "وقتی هوا سرد است، پا'تو می‌پوشم." },
+          { de: "Wenn es windig ist, fliegen wir keinen Drachen.", fa: "وقتی باد می‌وزد، بادبادک پرواز نمی‌دهیم." },
+          { de: "Im Sommer ist es oft heiß, deshalb gehen wir schwimmen.", fa: "تابستان اغ'ب هوا گرم است، به همین د'ی' شنا می‌رویم." }
         ]
       },
       {
-        type: "text",
-        title: "۲. هنرِ گپ زدن (Small Talk)",
-        text: "در آلمان، مکالمات کوتاه و دوستانه در محل کار، سوپرمارکت یا کافه بسیار مهم است. برای اینکه ماشینی به نظر نرسید، از کلماتی مثل «ehrlich gesagt» (صادقانه بگویم)، «eigentlich» (در واقع) و «Lass uns...» (بیا تا...) استفاده کنید."
+        type: "table",
+        title: "واژگان آب‌وهوا (Wetter)",
+        rows: [
+          { de: "es regnet", fa: "باران می‌آید" },
+          { de: "es schneit", fa: "برف می‌آید" },
+          { de: "es ist bewölkt", fa: "هوا ابری است" },
+          { de: "die Sonne scheint", fa: "آفتاب می‌تابد" },
+          { de: "es ist windig", fa: "باد می‌وزد" },
+          { de: "es ist neblig", fa: "مه‌آ'ود است" },
+          { de: "es ist heiß / warm / kalt / kühl", fa: "هوا داغ / گرم / سرد / خنک است" },
+          { de: "das Gewitter", fa: "رعد و برق" },
+          { de: "der Regenbogen", fa: "رنگین‌کمان" }
+        ]
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: کنکتورها",
+        title: "تست جم'ات wenn",
         questions: [
           {
-            question: "شما می‌خواهید بگویید: «من پول ندارم، (وگرنه) ماشین را می‌خریدم». کدام جمله درست است؟",
-            questionDe: "Welcher Satz ist grammatikalisch korrekt?",
+            question: "کدام جم'ه صحیح است؟ «وقتی باران می‌آید، در خانه می‌مانم.»",
+            questionDe: "Welcher Satz ist richtig?",
             options: [
-              { text: "Ich habe kein Geld, sonst ich kaufe das Auto.", isCorrect: false },
-              { text: "Ich habe kein Geld, sonst kaufe ich das Auto.", isCorrect: true },
-              { text: "Ich habe kein Geld, sonst kaufe das Auto ich.", isCorrect: false }
+              { text: "Wenn es regnet, ich bleibe zu Hause.", isCorrect: false },
+              { text: "Wenn es regnet, bleibe ich zu Hause.", isCorrect: true },
+              { text: "Es regnet wenn, bleibe ich zu Hause.", isCorrect: false },
+              { text: "Ich bleibe zu Hause wenn es regnet.", isCorrect: false }
             ],
-            explanation: "آفرین! sonst در جایگاه 1 می‌نشیند و فعل kaufe بلافاصله بعد از آن در جایگاه 2 قرار می‌گیرد."
+            explanation: "بعد از کاما، فع' (bleibe) به جایگاه ۲ می‌آید و سپس فاع' (ich). این قانون همیشه اجرا می‌شود."
           },
           {
-            question: "تفاوت aber و jedoch در چیست؟",
-            questionDe: "Was ist der Unterschied?",
+            question: "فع' در کدام جایگاه قرار می‌گیرد؟ Wenn die Sonne ___, ___ wir im Park.",
+            questionDe: "Wo steht das Verb?",
             options: [
-              { text: "هیچ تفاوتی ندارند.", isCorrect: false },
-              { text: "jedoch جایگاه 1 می‌گیرد (فعل می‌آید جایگاه 2)، اما aber جایگاه 0 می‌گیرد.", isCorrect: true },
-              { text: "jedoch فعل را به آخر جمله می‌فرستد.", isCorrect: false }
+              { text: "scheint / spielen", isCorrect: true },
+              { text: "spielen / scheint", isCorrect: false },
+              { text: "scheint / wir spielen", isCorrect: false },
+              { text: "spielen / wir scheint", isCorrect: false }
             ],
-            explanation: "کاملاً درست است! Er ist klug, aber er ist faul. / Er ist klug, jedoch ist er faul. (jedoch بسیار رسمی‌تر و زیباتر برای رایتینگ B1 است)."
+            explanation: "scheint در آخر جم'ه wenn و spielen در جایگاه ۲ جم'ه اص'ی."
           }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تکمی' جم'ات آب‌وهوا",
+        instruction: "جای خا'ی را با شک' صحیح فع' پر کنید.",
+        blanks: [
+          { sentence: "Wenn es ___, gehe ich nicht raus. (باران)", answer: "regnet", hint: "باران آمدن = es regnet" },
+          { sentence: "Wenn die Sonne ___, gehe ich spazieren. (می‌تابد)", answer: "scheint", hint: "آفتاب تابیدن = die Sonne scheint" },
+          { sentence: "Wenn es ___ ist, trage ich eine Jacke. (سرد)", answer: "kalt", hint: "سرد = kalt" },
+          { sentence: "Wenn es ___, bleiben die Kinder zu Hause. (برف)", answer: "schneit", hint: "برف آمدن = es schneit" },
+          { sentence: "Im Winter ist es oft ___. (ابری)", answer: "bewölkt", hint: "ابری = bewölkt" },
+          { sentence: "Wenn es ___ ist, bleibe ich drinnen. (گرم)", answer: "heiß", hint: "گرم = heiß" },
+          { sentence: "___ es regnet, nehme ich einen Schirm.", answer: "Wenn", hint: "اگر/وقتی = wenn" },
+          { sentence: "Im Frühling ___ die Sonne oft. (می‌تابد)", answer: "scheint", hint: "تابیدن = scheinen → scheint" }
         ]
       }
     ]
@@ -68,76 +91,23 @@ export const day31Data = {
   vocabData: {
     categories: [
       {
-        title: "عبارات Small Talk (اسمال‌تاک)",
+        title: "آب‌وهوا (Das Wetter)",
         words: [
-          {
-            de: "Wie läuft dein Tag?",
-            fa: "روزت چطور پیش می‌رود؟ / روزت چطوره؟",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Hallo Anna! Wie läuft dein Tag bis jetzt?", fa: "سلام آنا! روزت تا الان چطور پیش می‌رود؟" }
-            ]
-          },
-          {
-            de: "viel um die Ohren haben",
-            fa: "سرم خیلی شلوغ است (گوش‌هایم پُر از کار است!)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich habe diese Woche viel um die Ohren.", fa: "من این هفته سرم خیلی شلوغ است. (یک اصطلاح کاملاً بومی)." }
-            ]
-          },
-          {
-            de: "Was steht heute noch an?",
-            fa: "امروز چه برنامه‌های دیگری باقی مانده؟ (چه چیزی در انتظار است؟)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Was steht heute bei dir noch an?", fa: "امروز چه برنامه‌های دیگری داری؟" }
-            ]
-          },
-          {
-            de: "eigentlich ganz gut",
-            fa: "در واقع کاملا خوب / روی‌هم‌رفته بد نیست",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Eigentlich ganz gut, danke der Nachfrage.", fa: "در واقع کاملاً خوب، ممنون که پرسیدی." }
-            ]
-          }
+          { de: "der Regen", fa: "باران", article: "der", plural: "-", examples: [{ de: "Der Regen ist stark heute.", fa: "امروز باران شدید است." }] },
+          { de: "der Schnee", fa: "برف", article: "der", plural: "-", examples: [{ de: "Im Winter liegt viel Schnee.", fa: "زمستان برف زیادی می‌نشیند." }] },
+          { de: "die Sonne", fa: "آفتاب / خورشید", article: "die", plural: "-", examples: [{ de: "Die Sonne scheint hell.", fa: "آفتاب درخشان می‌تابد." }] },
+          { de: "der Wind", fa: "باد", article: "der", plural: "die Winde", examples: [{ de: "Heute ist es sehr windig.", fa: "امروز خی'ی باد می‌وزد." }] },
+          { de: "die Wolke", fa: "ابر", article: "die", plural: "die Wolken", examples: [{ de: "Am Himmel sind viele Wolken.", fa: "در آسمان ابرهای زیادی هست." }] },
+          { de: "die Temperatur", fa: "دما", article: "die", plural: "die Temperaturen", examples: [{ de: "Die Temperatur liegt bei 25 Grad.", fa: "دما ۲۵ درجه است." }] }
         ]
       },
       {
-        title: "کلمات ربط و ساختار",
+        title: "فع'‌های آب‌وهوا",
         words: [
-          {
-            de: "also",
-            fa: "پس / بنابراین",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Es regnet, also bleibe ich zu Hause.", fa: "باران می‌بارد، پس در خانه می‌مانم." }
-            ]
-          },
-          {
-            de: "jedoch",
-            fa: "با این حال / اما (רسمی)",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich hatte Zeit, jedoch hatte ich keine Lust.", fa: "من وقت داشتم، اما (با این حال) حوصله نداشتم." }
-            ]
-          },
-          {
-            de: "sonst",
-            fa: "وگرنه",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Trink Wasser, sonst bekommst du Kopfschmerzen.", fa: "آب بنوش، وگرنه سردرد می‌گیری." }
-            ]
-          }
+          { de: "regnen", fa: "باریدن (باران)", article: "-", plural: "-", examples: [{ de: "Es regnet den ganzen Tag.", fa: "تمام روز باران می‌آید." }] },
+          { de: "schneien", fa: "باریدن (برف)", article: "-", plural: "-", examples: [{ de: "Morgen wird es schneien.", fa: "فردا برف خواهد آمد." }] },
+          { de: "scheinen", fa: "تابیدن", article: "-", plural: "-", examples: [{ de: "Die Sonne scheint.", fa: "آفتاب می‌تابد." }] },
+          { de: "wehen", fa: "وزیدن (باد)", article: "-", plural: "-", examples: [{ de: "Der Wind weht stark.", fa: "باد شدید می‌وزد." }] }
         ]
       }
     ]
@@ -145,67 +115,60 @@ export const day31Data = {
 
   reading: [
     {
-      text: "Gespräch im Café\n\nMarkus: Hey Sarah, schön dich zu sehen! Wie läuft dein Tag bis jetzt?\nSarah: Hallo Markus! Eigentlich ganz gut. Am Morgen hatte ich ein wichtiges Meeting, also war ich ein bisschen nervös. Jetzt habe ich aber Pause. Und bei dir? Was steht heute noch an?\nMarkus: Ehrlich gesagt, habe ich diese Woche viel um die Ohren. Mein Chef hat mir ein neues Projekt gegeben, jedoch fehlen mir noch viele Informationen. Ich muss heute noch drei Berichte schreiben, sonst bekomme ich Probleme mit den Deadlines.\nSarah: Das klingt stressig. Lass uns erstmal Kaffee trinken, danach siehst du alles positiver!\nMarkus: Gute Idee. Ich hatte Lust auf einen starken Espresso.",
+      text: "Das Wetter in Deutschland\n\nDas Wetter in Deutschland ist sehr unterschiedlich. Im Frühling ist es oft bewölkt und es regnet viel. Wenn die Sonne scheint, gehen viele Menschen in den Park. Im Sommer kann es sehr heiß werden, manchmal über 30 Grad. Dann gehen die Leute schwimmen.\nIm Herbst wird es kühler und die Blätter werden bunt. Wenn es windig ist, fallen die Blätter von den Bäumen. Der Winter ist kalt und manchmal schneit es. Wenn es schneit, spielen die Kinder draußen im Schnee. Wenn es sehr kalt ist, bleiben sie aber zu Hause.",
       questions: [
-        { question: "چرا سارا در هنگام صبح کمی عصبی/مضطرب بود؟ (از also استفاده شده)" },
-        { question: "چرا مارکوس در این هفته سرش خیلی شلوغ است (viel um die Ohren)? " },
-        { question: "مشکل مارکوس با پروژه جدید چیست؟ (به استفاده از jedoch دقت کنید)" },
-        { question: "چرا مارکوس باید امروز سه گزارش بنویسد؟ (اگر ننویسد چه می‌شود؟ با sonst جواب دهید)" }
+        { question: "آب‌وهوا در بهار چگونه است؟", answer: "اغ'ب ابری است و باران زیادی می‌آید." },
+        { question: "مردم وقتی آفتاب می‌تابد چه کار می‌کنند؟", answer: "به پارک می‌روند." },
+        { question: "وقتی باد می‌وزد چه اتفاقی می‌افتد؟", answer: "برگ‌ها از درخت‌ها می‌ریزند." },
+        { question: "بچه‌ها در زمستان چه کار می‌کنند؟", answer: "وقتی برف می‌آید بیرون بازی می‌کنند، اما وقتی خی'ی سرد است در خانه می‌مانند." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "نوشتن یک دیالوگ Small Talk",
-      prompt: "فرض کنید با یک همکار سابق در سوپرمارکت روبرو می‌شوید. یک مکالمه ۶ خطی بنویسید که شامل احوال‌پرسی، پرسیدن از برنامه‌های امروز (Was steht an?) و استفاده از sonst و also باشد.",
+      title: "نوشتن درباره آب‌وهوا",
+      prompt: "یک پاراگراف (۶ خط) درباره آب‌وهوا در شهر خود بنویسید. از جم'ات شرطی با wenn استفاده کنید.",
       steps: [
-        {
-          title: "احوال‌پرسی پرانرژی",
-          text: "استفاده از عبارت Schön dich zu sehen.",
-          example: { de: "Hallo Ali! Schön dich zu sehen. Wie läuft dein Tag?", fa: "سلام علی! از دیدنت خوشحالم. روزت چطور پیش می‌رود؟" }
-        },
-        {
-          title: "پاسخ دادن و استفاده از also",
-          text: "بیان یک موقعیت و نتیجه‌گیری.",
-          example: { de: "Ganz gut, danke. Ich habe heute Urlaub, also bin ich sehr entspannt.", fa: "کاملاً خوب، ممنون. من امروز مرخصی دارم، پس خیلی ریلکسم." }
-        },
-        {
-          title: "خداحافظی با دلیل (sonst)",
-          text: "استفاده از sonst برای نشان دادن عجله داشتن.",
-          example: { de: "Was steht bei dir heute noch an? Ich muss schnell gehen, sonst schließt der Supermarkt.", fa: "امروز چه برنامه‌ای داری؟ من باید سریع بروم، وگرنه سوپرمارکت بسته می‌شود." }
-        }
-      ]
+        { title: "توصیف ک'ی", text: "آب‌وهوا را در فص'‌های مخت'ف توصیف کنید.", example: { de: "Im Sommer ist es sehr heiß.", fa: "تابستان خی'ی گرم است." } },
+        { title: "جم'ات شرطی", text: "از wenn برای بیان شرط استفاده کنید.", example: { de: "Wenn es regnet, bleibe ich zu Hause.", fa: "وقتی باران می‌آید در خانه می‌مانم." } },
+        { title: "نتیجه‌گیری", text: "نظر ک'ی خود را بیان کنید.", example: { de: "Ich mag den Frühling am liebsten.", fa: "من بهار را بیشتر دوست دارم." } }
+      ],
+      modelAnswer: "In meiner Stadt ist das Wetter sehr unterschiedlich. Im Sommer ist es oft heiß und die Sonne scheint. Wenn es sehr heiß ist, gehe ich schwimmen. Im Winter ist es kalt und manchmal schneit es. Wenn es schneit, bleibe ich zu Hause und trinke heißen Tee. Im Frühling regnet es viel, aber die Blumen blühen. Ich mag den Sommer am liebsten, weil ich die Sonne liebe."
     }
   ],
 
   listening: [
     {
-      title: "۱. عبارات ثابت در کافه",
-      source: "Dialogue in a Café B1",
-      link: "https://www.youtube.com/watch?v=Ah3c_KkcTEQ",
-      instructions: "تمرین تقلید لحن (Intonation):\nبه لحن کش‌دار آلمانی‌ها هنگام گفتن «Eigentlich...» (آیی‌گنت‌لیش...) یا «Ehrlich gesagt...» دقت کنید. این کلمات را تند و ماشینی نگویید. آن‌ها کلمات پُرکننده‌اند تا شما فکر کنید."
-    },
-    {
-      title: "۲. سوال و جواب سریع",
-      source: "100 Q&A Daily Routine",
-      link: "https://www.youtube.com/watch?v=pRaq_s-U1VA",
-      instructions: "تمرین واکنش سریع:\nوقتی گوینده می‌پرسد «Was steht heute bei dir an?»، ویدیو را متوقف کنید و در ۲ ثانیه برنامه‌ی واقعی امروزتان را به آلمانی بگویید (Ich muss noch einkaufen und dann lernen)."
+      title: "گوش دادن: پیش‌بینی آب‌وهوا",
+      source: "Deutsche Wettervorhersage",
+      link: "https://www.dw.com/de/langsam-gesprochene-nachrichten/s-60048529",
+      instructions: "به پیش‌بینی آب‌وهوا گوش دهید و واژگان مربوط به آب‌وهوا را شناسایی کنید."
     }
   ],
 
   speaking: [
     {
-      title: "مونولوگ: برنامه امروز من و استفاده از sonst",
-      pattern: "Heute muss ich..., sonst...",
-      exercise: "سنگین‌ترین برنامه کاری یا تحصیلی خود را تصور کنید و آن را با صدای بلند شرح دهید:\nIch muss heute viel arbeiten, jedoch habe ich auch einen Arzttermin. Deshalb muss ich mich beeilen, sonst komme ich zu spät zum Arzt."
-    },
-    {
-      title: "نقش‌آفرینی: دیدار در کافه",
-      pattern: "Lass uns... Ich habe viel um die Ohren...",
-      exercise: "تصور کنید یک دوست آلمانی با شما تماس می‌گیرد:\n- دوست: Hey, hast du Zeit für einen Kaffee?\n- شما: (صادقانه بگویم سرم شلوغ است، اما فردا می‌توانیم):\nEhrlich gesagt habe ich heute viel um die Ohren. Aber lass uns morgen treffen. Ich habe morgen Nachmittag frei!"
+      title: "تمرین گفتاری: توصیف آب‌وهوا",
+      pattern: "Wenn es ... (gehe ich / bleibe ich / trage ich ...)",
+      exercise: "درباره آب‌وهوا در ۴ فص' صحبت کنید و بگویید در هر شرایطی چه کار می‌کنید."
     }
   ],
 
-  cultureTip: "مفهوم Small Talk در محل کار (Kaffeeklatsch): آلمانی‌ها در محل کار معمولاً بسیار متمرکز (sachlich) هستند، اما در زمان استراحت یا کنار دستگاه قهوه‌ساز، Small Talk کوتاه بسیار رایج است. نپرسیدن درباره‌ی روز همکارتان (مثلاً بعد از پایان یک جلسه طولانی) می‌تواند بی‌ادبانه تلقی شود. البته موضوعات Small Talk آلمانی‌ها معمولاً محدود به آب‌وهوا، ترافیک، سفرهای آخر هفته و ورزش است؛ هرگز در Small Talk با همکاران درباره مسائل مالی، سیاست، یا مشکلات عمیق شخصی صحبت نکنید!"
+  cultureTip: "آ'مانی‌ها عاشق صحبت درباره آب‌وهوا هستند! این یک موضوع عا'ی برای شروع مکا'مه (Small Talk) است. جم'ه «Schönes Wetter heute, nicht wahr?» (امروز هوا قشنگه، نه؟) یکی از رایج‌ترین جم'ات شروع مکا'مه در آ'مان است. همچنین مراقب باشید: آب‌وهوا در آ'مان بسیار تغییرپذیر است و ممکن است صبح آفتابی و عصر بارانی باشد!",
+
+  examData: {
+    questions: [
+      { question: "وقتی باران می‌آید چتر می‌برم:", options: ["Wenn es regnet, nehme ich einen Schirm.", "Wenn es regnet, ich nehme einen Schirm.", "Es regnet wenn nehme ich Schirm.", "Ich nehme Schirm wenn es regnet."], answer: 0 },
+      { question: "برف آمدن:", options: ["es regnet", "es schneit", "es ist windig", "es ist bewölkt"], answer: 1 },
+      { question: "آفتاب می‌تابد:", options: ["Die Sonne scheint.", "Die Sonne regnet.", "Die Sonne weht.", "Die Sonne schneit."], answer: 0 },
+      { question: "هوا سرد است:", options: ["Es ist heiß.", "Es ist warm.", "Es ist kalt.", "Es ist kühl."], answer: 2 },
+      { question: "ابری:", options: ["sonnig", "bewölkt", "windig", "regnerisch"], answer: 1 },
+      { question: "وقتی هوا گرم است شنا می‌روم:", options: ["Wenn es heiß ist, gehe ich schwimmen.", "Wenn es heiß ist, ich gehe schwimmen.", "Es heiß wenn gehe ich schwimmen.", "Ich schwimme wenn heiß ist."], answer: 0 },
+      { question: "باد می‌وزد:", options: ["Es weht.", "Der Wind weht.", "Die Wolke weht.", "Der Regen weht."], answer: 1 },
+      { question: "من بهار را دوست دارم:", options: ["Ich mag den Frühling.", "Ich mag der Frühling.", "Ich mag das Frühling.", "Ich mag die Frühling."], answer: 0 },
+      { question: "در خانه ماندن:", options: ["zu Hause bleiben", "nach Hause gehen", "nach Hause kommen", "zu Hause fahren"], answer: 0 },
+      { question: "دمای هوا ۲۵ درجه:", options: ["Die Temperatur liegt bei 25 Grad.", "Das Wetter ist 25 Grad.", "Es ist 25 Grad warm.", "Die Temperatur ist 25."], answer: 0 }
+    ]
+  }
 };

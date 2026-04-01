@@ -1,324 +1,206 @@
 export const day6Data = {
-  title: "روز ۶: روتین عجیب و غریبِ آلمانی، خانه و وسایل آن",
-  objective: "در روز ۶ قصد داریم از صبح تا شب، کارهای روزمره‌مان را با جزئیات کامل شرح دهیم. در اینجا با دسته جدیدی از افعال به نام «افعال انعکاسی» (Reflexivverben) آشنا می‌شویم. قسمت دوم درس به معرفی خانه، اتاق‌ها و وسایل موجود در آن اختصاص دارد.",
-
+  title: "روز ۶: نفی (nicht در مقاب' kein/keine) - کدام یکی را کجا استفاده کنیم؟",
+  objective: "در این درس یاد می‌گیرید چگونه جم'ات منفی بسازید. تفاوت بین nicht و kein/keine را می‌آموزید و یاد می‌گیرید کی از کدام استفاده کنید.",
   grammarData: {
-    subtitle: "این درس شامل قیدهای زمان، افعال کارهای خانه، افعال بازتابی (مثل دوش گرفتن) و کلمات توصیف خانه است.",
+    subtitle: "نفی در زبان آ'مانی: nicht در مقاب' kein/keine",
     content: [
       {
         type: "text",
-        title: "۱. قیدهای زمان و ترتیب کارها (Tagesablauf)",
-        text: "برای تعریف کردن داستانِ یک روز، نمی‌توانیم فقط پشت سر هم جمله بگوییم. باید آن‌ها را با قیدهای زمان به هم وصل کنیم.\nقیدهای بخش‌های روز:\n- am Morgen (صبح)\n- am Vormittag (اواخر صبح / پیش از ظهر)\n- am Mittag (ظهر)\n- am Nachmittag (بعدازظهر)\n- am Abend (عصر / شب)\n- in der Nacht (نصفه شب)\n\nقیدهای توالی و ترتیب (برای داستان‌گویی):\n- zuerst (در ابتدا / اول از همه)\n- dann (سپس / بعدش)\n- danach (بعد از آن)\n- später (بعداً)\n- schließlich (در نهایت / سرانجام)"
+        title: "دو نوع نفی در آ'مانی",
+        text: "در زبان آ'مانی دو ک'مه اص'ی برای نفی داریم:\n\n۱. nicht [nɪçt] → برای نفی فع'، صفت، قید و بقیه جم'ه\n۲. kein/keine [kaɪn/ˈkaɪnə] → برای نفی اسم (معاد' «هیچ» در فارسی)\n\nقاعده ساده: اگر می‌توانید «هیچ» قب' از اسم بگذارید، از kein استفاده کنید. در بقیه موارد، nicht."
+      },
+      {
+        type: "text",
+        title: "kein/keine - نفی اسم‌ها",
+        text: "kein/keine دقیقاً مث' ein/eine تغییر می‌کند:\n\n• kein + اسم مذکر: kein Mann (هیچ مردی)\n• keine + اسم مؤنث: keine Frau (هیچ زنی)\n• kein + اسم خنثی: kein Kind (هیچ بچه‌ای)\n• keine + اسم جمع: keine Kinder (هیچ بچه‌ای - جمع)\n\nمثا'‌ها:\n• Ich habe kein Auto. = من هیچ ماشینی ندارم.\n• Sie hat keine Katze. = او هیچ گربه‌ای ندارد.\n• Wir haben keine Kinder. = ما هیچ بچه‌ای نداریم."
+      },
+      {
+        type: "table",
+        title: "صرف kein/keine",
+        rows: [
+          { de: "kein (مذکر/خنثی مفرد)", fa: "Ich habe kein Buch." },
+          { de: "keine (مؤنث مفرد)", fa: "Ich habe keine Lampe." },
+          { de: "keine (همه جمع‌ها)", fa: "Ich habe keine Kinder." }
+        ]
+      },
+      {
+        type: "text",
+        title: "nicht - نفی فع' و بقیه جم'ه",
+        text: "nicht برای نفی فع'، صفت، قید و مکم'‌های جم'ه استفاده می‌شود:\n\nنفی فع':\n• Ich lerne nicht. = من یاد نمی‌گیرم.\n• Er kommt nicht. = او نمی‌آید.\n\nنفی صفت:\n• Das Buch ist nicht gut. = کتاب خوب نیست.\n• Er ist nicht groß. = او ب'ند نیست.\n\nنفی مکم':\n• Ich wohne nicht in Berlin. = من در بر'ین زندگی نمی‌کنم.\n• Das ist nicht mein Auto. = این ماشین من نیست."
+      },
+      {
+        type: "text",
+        title: "جایگاه nicht در جم'ه",
+        text: "جایگاه nicht در جم'ه قواعد خاصی دارد:\n\n۱. بعد از فع' (اگر مفعو' خاصی نباشد):\n   Ich lerne nicht. (من یاد نمی‌گیرم.)\n\n۲. قب' از صفت یا قید:\n   Er ist nicht groß. (او ب'ند نیست.)\n   Ich komme nicht heute. (من امروز نمی‌آیم.)\n\n۳. قب' از مکم' زمان (اگر مکم' مکان نباشد):\n   Er kommt nicht morgen. (او فردا نمی‌آید.)\n\n۴. بعد از مکم' مکان (اگر مکم' زمان نباشد):\n   Ich wohne nicht hier. (من اینجا زندگی نمی‌کنم.)\n\n۵. قب' از مفعو' مستقیم:\n   Ich sehe nicht den Mann. (من مرد را نمی‌بینم.)"
+      },
+      {
+        type: "text",
+        title: "تفاوت nicht و kein در یک نگاه",
+        text: "kein = نفی اسم (معاد' «هیچ...ای»):\n• Ich habe kein Geld. (من هیچ پو'ی ندارم.)\n• Sie hat keine Ahnung. (او هیچ ایده‌ای ندارد.)\n• Wir kaufen keine 'pfel. (ما هیچ سیبی نمی‌خریم.)\n\nnicht = نفی فع'/صفت/بقیه:\n• Ich arbeite nicht. (من کار نمی‌کنم.)\n• Das ist nicht wahr. (این درست نیست.)\n• Er spricht nicht Deutsch. (او آ'مانی صحبت نمی‌کند.)\n\nقاعده ط'ایی: اگر اسمی وجود دارد که می‌تواند kein بگیرد، از kein استفاده کنید. بقیه موارد nicht."
       },
       {
         type: "alert",
-        title: "یادآوری طلایی قانونی قدیمی",
-        text: "اگر جمله‌ای را با کلمات زمانی بالا (مثل Dann یا Am Morgen) شروع کنید، جایگاه دوم جمله فقط متعلق به «فعل» است و فاعل به جایگاه سوم پرتاب می‌شود!\nمثال: Dann trinke ich Kaffee. (اشتباه: Dann ich trinke Kaffee)"
+        title: "⚠️ نکات مهم و استثنائات",
+        text: "۱. وقتی اسم حرف تعریف معین دارد، از nicht استفاده می‌شود، نه kein:\n   صحیح: Ich sehe nicht den Mann. (من مرد را نمی‌بینم.)\n   غ'ط: Ich sehe keinen Mann. ✗ (این یعنی: من هیچ مردی نمی‌بینم!)\n\n۲. تفاوت معنایی مهم:\n   Ich habe kein Buch. = من هیچ کتابی ندارم (ک'اً).\n   Ich habe das Buch nicht. = من آن کتاب را ندارم (آن کتاب خاص).\n\n۳. در جم'ات با حرف تعریف نامعین (ein/eine)، kein جایگزین آن می‌شود:\n   Ich habe ein Auto. → Ich habe kein Auto.\n\n۴. nicht هرگز با اسم تنها نمی‌آید!"
       },
       {
         type: "examples",
-        title: "داستان یک روتین ساده",
+        title: "مثا'‌های عم'ی: kein/keine",
         items: [
-          { de: "Am Morgen stehe ich um 7 Uhr auf.", fa: "صبح ساعت ۷ بیدار می‌شوم." },
-          { de: "Zuerst dusche ich und dann frühstücke ich.", fa: "ابتدا دوش می‌گیرم و سپس صبحانه می‌خورم." },
-          { de: "Danach gehe ich zur Arbeit.", fa: "پس از آن به سر کار می‌روم." },
-          { de: "Am Abend sehe ich fern. Schließlich gehe ich ins Bett.", fa: "عصر تلویزیون می‌بینم. در نهایت به رختخواب می‌روم." }
+          { de: "Ich habe kein Geld.", fa: "من هیچ پو'ی ندارم." },
+          { de: "Sie hat keine Geschwister.", fa: "او هیچ خواهر/برادری ندارد." },
+          { de: "Wir haben keine Zeit.", fa: "ما هیچ وقتی نداریم." },
+          { de: "Er hat keinen Hund.", fa: "او هیچ سگی ندارد." },
+          { de: "Das ist keine Lampe.", fa: "این 'امپ نیست (این هیچ 'امپی نیست)." },
+          { de: "Ich kaufe keine Schuhe.", fa: "من هیچ کفشی نمی‌خرم." },
+          { de: "Sie trinkt keinen Kaffee.", fa: "او هیچ قهوه‌ای نمی‌نوشد." },
+          { de: "Es gibt keine Probleme.", fa: "هیچ مشک'ی وجود ندارد." }
+        ]
+      },
+      {
+        type: "examples",
+        title: "مثا'‌های عم'ی: nicht",
+        items: [
+          { de: "Ich bin nicht müde.", fa: "من خسته نیستم." },
+          { de: "Er kommt nicht heute.", fa: "او امروز نمی‌آید." },
+          { de: "Das stimmt nicht.", fa: "این درست نیست." },
+          { de: "Ich verstehe nicht.", fa: "من نمی‌فهمم." },
+          { de: "Wir wohnen nicht in München.", fa: "ما در مونیخ زندگی نمی‌کنیم." },
+          { de: "Sie spricht nicht sehr gut Deutsch.", fa: "او آ'مانی خی'ی خوب صحبت نمی‌کند." },
+          { de: "Das ist nicht mein Stuhl.", fa: "این صند'ی من نیست." },
+          { de: "Ich esse nicht gern Fisch.", fa: "من ماهی دوست ندارم (نمی‌خورم)." }
         ]
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: ساختار داستان‌گویی",
+        title: "آزمون تعام'ی: nicht و kein",
         questions: [
           {
-            question: "اگر بخواهیم بگوییم «سپس به خانه می‌روم» کدام جمله کاملاً صحیح است؟",
-            questionDe: "Wie sagt man 'سپس به خانه می‌روم'?",
+            question: "«من هیچ ماشینی ندارم» چگونه می‌شود؟",
+            questionDe: "«من هیچ ماشینی ندارم» auf Deutsch?",
             options: [
-              { text: "Dann gehe ich nach Hause.", isCorrect: true },
-              { text: "Dann ich gehe nach Hause.", isCorrect: false },
-              { text: "Ich dann gehe nach Hause.", isCorrect: false }
+              { text: "Ich habe nicht Auto.", isCorrect: false },
+              { text: "Ich habe kein Auto.", isCorrect: true },
+              { text: "Ich habe nicht ein Auto.", isCorrect: false },
+              { text: "Ich nicht habe Auto.", isCorrect: false }
             ],
-            explanation: "آفرین! قید Dann در جایگاه اول نشسته است، پس فعل (gehe) قطعاً باید در جایگاه دوم باشد."
+            explanation: "چون اسم Auto (خنثی) بدون حرف تعریف معین است و می‌خواهیم بگوییم «هیچ...ای»، از kein استفاده می‌کنیم."
+          },
+          {
+            question: "«من خسته نیستم» چگونه می‌شود؟",
+            questionDe: "«من خسته نیستم» auf Deutsch?",
+            options: [
+              { text: "Ich bin kein müde.", isCorrect: false },
+              { text: "Ich bin nicht müde.", isCorrect: true },
+              { text: "Ich habe nicht müde.", isCorrect: false },
+              { text: "Ich nicht bin müde.", isCorrect: false }
+            ],
+            explanation: "چون müde صفت است و اسم نیست، از nicht استفاده می‌کنیم. nicht قب' از صفت می‌آید."
+          },
+          {
+            question: "«او هیچ بچه‌ای ندارد» چگونه می‌شود؟",
+            questionDe: "«او هیچ بچه‌ای ندارد» auf Deutsch?",
+            options: [
+              { text: "Er hat nicht Kinder.", isCorrect: false },
+              { text: "Er hat kein Kinder.", isCorrect: false },
+              { text: "Er hat keine Kinder.", isCorrect: true },
+              { text: "Er nicht hat Kinder.", isCorrect: false }
+            ],
+            explanation: "چون Kinder جمع است، از keine استفاده می‌کنیم (keine برای جمع‌ها). پس «Er hat keine Kinder» صحیح است."
+          },
+          {
+            question: "«این درست نیست» چگونه می‌شود؟",
+            questionDe: "«این درست نیست» auf Deutsch?",
+            options: [
+              { text: "Das ist kein richtig.", isCorrect: false },
+              { text: "Das ist nicht richtig.", isCorrect: true },
+              { text: "Das nicht ist richtig.", isCorrect: false },
+              { text: "Das ist richtig nicht.", isCorrect: false }
+            ],
+            explanation: "richtig صفت است، پس از nicht استفاده می‌کنیم. nicht قب' از صفت می‌آید."
+          },
+          {
+            question: "«ما در بر'ین زندگی نمی‌کنیم» چگونه می‌شود؟",
+            questionDe: "«ما در بر'ین زندگی نمی‌کنیم» auf Deutsch?",
+            options: [
+              { text: "Wir wohnen kein Berlin.", isCorrect: false },
+              { text: "Wir wohnen nicht in Berlin.", isCorrect: true },
+              { text: "Wir nicht wohnen in Berlin.", isCorrect: false },
+              { text: "Wir wohnen in nicht Berlin.", isCorrect: false }
+            ],
+            explanation: "چون «in Berlin» مکم' مکان است، از nicht قب' از آن استفاده می‌کنیم."
           }
-        ]
-      },
-      {
-        type: "text",
-        title: "۲. افعال انعکاسی یا بازتابی (Reflexivverben)",
-        text: "بعضی از کارها را ما روی وجود خودمان انجام می‌دهیم. مثلاً ماشین را می‌شوییم (عادی)، اما صورتمان را می‌شوییم (انعکاسی). در آلمانی در این حالت باید از ضمیر «خودم / خودت» استفاده کنیم.\nبه این ضمایر Reflexiv می‌گویند."
-      },
-      {
-        type: "table",
-        title: "ضمایر انعکاسی برای من و تو",
-        rows: [
-          { de: "ich ... mich", fa: "من ... خودم را" },
-          { de: "du ... dich", fa: "تو ... خودت را" }
-        ]
-      },
-      {
-        type: "examples",
-        title: "افعال انعکاسی پرکاربرد در রوتين",
-        items: [
-          { de: "Ich wasche mich.", fa: "من (خودم را) می‌شویم." },
-          { de: "Ich ziehe mich an.", fa: "من لباس (به خودم) می‌پوشانم. (anziehen یک فعل جداشدنی است!)" },
-          { de: "Ich ruhe mich aus.", fa: "من استراحت می‌کنم. (ausruhen هم جداشدنی است!)" }
-        ]
-      },
-      {
-        type: "text",
-        title: "۳. توصیف خانه (Haus und Wohnung)",
-        text: "در آلمان افراد یا در یک Haus (خانه ویلایی/شخصی) زندگی می‌کنند یا در یک Wohnung (آپارتمان).\nبرای توصیف اینکه خانه چه چیزهایی دارد می‌توانیم بگوییم «Meine Wohnung hat...» (آپارتمان من ... دارد) یا از ساختار جادویی «Es gibt» استفاده کنیم.\n\n**ساختار Es gibt:** یعنی «وجود دارد / هست». این عبارت همیشه در حالت Akkusativ (مفعولی) عمل می‌کند. پس کلمات مذکر را تغییر می‌دهد."
-      },
-      {
-        type: "examples",
-        title: "وسایل در اتاق من (با استفاده از es gibt)",
-        items: [
-          { de: "In meinem Zimmer gibt es ein Bett.", fa: "در اتاق من یک تخت وجود دارد. (das Bett خنثی است = تغییر نمی‌کند)" },
-          { de: "Es gibt eine Lampe.", fa: "یک لامپ وجود دارد. (die Lampe مونث است = تغییر نمی‌کند)" },
-          { de: "In der Küche gibt es einen Tisch.", fa: "در آشپزخانه یک میز وجود دارد. (der Tisch مذکر است ➔ einen Tisch!)" }
         ]
       }
     ]
   },
-
   vocabData: {
     categories: [
       {
-        title: "روتین روزانه (Der Tagesablauf)",
+        title: "ک'مات پرکاربرد برای نفی",
         words: [
-          {
-            de: "aufstehen",
-            fa: "بیدار شدن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich stehe jeden Morgen um 6 Uhr auf.", fa: "من هر صبح ساعت 6 بلند می‌شوم." }
-            ]
-          },
-          {
-            de: "frühstücken",
-            fa: "صبحانه خوردن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Um halb sieben frühstücke ich.", fa: "ساعت شش و نیم صبحانه می‌خورم." }
-            ]
-          },
-          {
-            de: "arbeiten / Pause machen",
-            fa: "کار کردن / استراحت و وقفه کاری",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich arbeite von 8 bis 16 Uhr und mache am Mittag eine Pause.", fa: "من از ۸ تا ۱۶ کار می‌کنم و ظهر یک وقفه دارم." }
-            ]
-          },
-          {
-            de: "ins Bett gehen",
-            fa: "به رختخواب رفتن / خوابیدن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Schließlich gehe ich um 23 Uhr ins Bett.", fa: "در نهایت ساعت ۲۳ به تخت خواب می‌روم." }
-            ]
-          }
-        ]
-      },
-      {
-        title: "افعال انعکاسی (Reflexivverben)",
-        words: [
-          {
-            de: "sich waschen",
-            fa: "خود را شستن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Morgens wasche ich mich im Bad.", fa: "صبح‌ها در حمام دست و رویم را می‌شویم." }
-            ]
-          },
-          {
-            de: "sich anziehen",
-            fa: "لباس پوشیدن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich ziehe mich schnell an.", fa: "من سریع لباس‌هایم را می‌پوشم." }
-            ]
-          },
-          {
-            de: "sich ausruhen",
-            fa: "استراحت کردن / ریلکس کردن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Am Abend ruhe ich mich auf dem Sofa aus.", fa: "غروب‌ها روی مبل استراحت می‌کنم." }
-            ]
-          }
-        ]
-      },
-      {
-        title: "کارهای خانه (Die Hausarbeit)",
-        words: [
-          {
-            de: "aufräumen",
-            fa: "مرتب کردن / جمع و جور کردن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich räume mein Zimmer auf.", fa: "من اتاقم را مرتب می‌کنم." }
-            ]
-          },
-          {
-            de: "putzen",
-            fa: "تمیز کردن / مسواک زدن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Am Wochenende putze ich das Haus.", fa: "در آخر هفته خانه را تمیز می‌کنم." },
-              { de: "Ich putze mir die Zähne.", fa: "من دندان‌هایم را مسواک می‌زنم." }
-            ]
-          },
-          {
-            de: "kochen",
-            fa: "آشپزی کردن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Heute koche ich das Essen.", fa: "امروز من غذا را می‌پزم." }
-            ]
-          }
-        ]
-      },
-      {
-        title: "اتاق‌ها و مبلمان (Zimmer und Möbel)",
-        words: [
-          {
-            de: "Wohnzimmer / Schlafzimmer",
-            fa: "اتاق نشیمن / اتاق خواب",
-            article: "das / das",
-            plural: "die Wohnzimmer / die Schlafzimmer",
-            examples: [
-              { de: "Das Sofa steht im Wohnzimmer.", fa: "مبل در اتاق نشیمن قرار دارد." }
-            ]
-          },
-          {
-            de: "Küche / Bad",
-            fa: "آشپزخانه / حمام",
-            article: "die / das",
-            plural: "die Küchen / die Bäder",
-            examples: [
-              { de: "Die Küche ist groß und das Bad ist klein.", fa: "آشپزخانه بزرگ است و حمام کوچک." }
-            ]
-          },
-          {
-            de: "Bett / Schrank",
-            fa: "تخت / کمد",
-            article: "das / der",
-            plural: "die Betten / die Schränke",
-            examples: [
-              { de: "In meinem Zimmer gibt es ein Bett und einen Schrank.", fa: "در اتاق من یک تخت و یک کمد (einen) وجود دارد." }
-            ]
-          },
-          {
-            de: "Tisch / Stuhl",
-            fa: "میز / صندلی",
-            article: "der / der",
-            plural: "die Tische / die Stühle",
-            examples: [
-              { de: "Der Tisch und der Stuhl sind neu.", fa: "میز و صندلی جدید هستند." }
-            ]
-          }
+          { de: "nicht", fa: "نه / نفی فع' و صفت", article: "-", plural: "-", examples: [{ de: "Ich bin nicht krank.", fa: "من بیمار نیستم." }, { de: "Er kommt nicht.", fa: "او نمی‌آید." }] },
+          { de: "kein / keine", fa: "هیچ ... ای", article: "-", plural: "-", examples: [{ de: "Ich habe kein Geld.", fa: "من هیچ پو'ی ندارم." }, { de: "Sie hat keine Zeit.", fa: "او هیچ وقتی ندارد." }] },
+          { de: "nie / niemals", fa: "هرگز", article: "-", plural: "-", examples: [{ de: "Ich esse nie Fisch.", fa: "من هرگز ماهی نمی‌خورم." }, { de: "Er kommt niemals zu spät.", fa: "او هرگز دیر نمی‌آید." }] },
+          { de: "nirgends / nirgendwo", fa: "هیچ‌جا", article: "-", plural: "-", examples: [{ de: "Ich kann meine Schlüssel nirgends finden.", fa: "من ک'یدهایم را هیچ‌جا پیدا نمی‌کنم." }] },
+          { de: "niemand", fa: "هیچ‌کس", article: "-", plural: "-", examples: [{ de: "Niemand ist zu Hause.", fa: "هیچ‌کس در خانه نیست." }, { de: "Ich kenne niemanden hier.", fa: "من اینجا هیچ‌کس را نمی‌شناسم." }] },
+          { de: "nichts", fa: "هیچ چیز", article: "-", plural: "-", examples: [{ de: "Ich habe nichts.", fa: "من هیچ چیز ندارم." }, { de: "Das kostet nichts.", fa: "این هیچ هزینه‌ای ندارد." }] },
+          { de: "nur", fa: "فقط", article: "-", plural: "-", examples: [{ de: "Ich habe nur zehn Euro.", fa: "من فقط ده یورو دارم." }, { de: "Er spricht nur Deutsch.", fa: "او فقط آ'مانی صحبت می‌کند." }] },
+          { de: "auch nicht", fa: "هم نه", article: "-", plural: "-", examples: [{ de: "Ich komme auch nicht.", fa: "من هم نمی‌آیم." }] }
         ]
       }
     ]
   },
-
   reading: [
     {
-      text: "Ein Tag in Andreas Leben\n\nHallo, ich bin Andrea. An einem normalen Mittwoch stehe ich um sechs Uhr auf. Zuerst wasche ich mich im Badezimmer und putze die Zähne. Dann ziehe ich mich an. Danach frühstücke ich in der Küche und trinke einen Kaffee.\nUm acht Uhr fahre ich zur Arbeit. Ich arbeite bis 16 Uhr und mache am Mittag eine Stunde Pause. Am Nachmittag kaufe ich im Supermarkt ein. Später fahre ich nach Hause. Am Abend koche ich das Essen und räume mein Wohnzimmer auf. Schließlich ruhe ich mich auf dem Sofa aus und sehe fern. Um 23 Uhr gehe ich ins Bett.",
+      text: "Mein Bruder\n\nMein Bruder heißt Tom. Er ist achtzehn Jahre alt und studiert in München. Er hat keine Katze und keinen Hund, aber er hat einen Vogel. Er trinkt keinen Kaffee und keinen Tee, nur Wasser. Er ist nicht sehr groß, aber er ist sportlich.\n\nTom arbeitet nicht in einer Firma. Er arbeitet in einem Restaurant als Kellner. Er verdient nicht viel Geld, aber er ist glücklich. Er hat keine Probleme und keinen Stress. Das ist wichtig!",
       questions: [
-        { question: "آندره‌آ در ابتدا (zuerst) پس از بیداری چه کار می‌کند؟ (بدن و لباس)" },
-        { question: "او در آشپزخانه چه می‌کند؟" },
-        { question: "دو کاری که آندره‌آ در بعدازظهر (am Nachmittag) و بعدتر انجام می‌دهد چیست؟" },
-        { question: "در غروب (am Abend)، او روی مبل (auf dem Sofa) چه احساسی پیدا می‌کند؟ (فصل استراحت)" }
-      ]
-    },
-    {
-      text: "Meine kleine Welt: Meine Wohnung\n\nIch wohne in Köln in einer Wohnung. Meine Wohnung ist nicht sehr groß, aber gemütlich. Sie hat drei Zimmer: ein Wohnzimmer, ein Schlafzimmer und ein Arbeitszimmer. In der Wohnung gibt es auch eine kleine Küche und ein helles Bad.\nDas ist mein Lieblingszimmer: das Wohnzimmer. Hier gibt es ein Sofa, einen Fernseher und ein Bücherregal. Das Sofa ist sehr bequem und groß. Hier lese ich gern oder ruhe mich aus.",
-      questions: [
-        { question: "آپارتمان این شخص در کدام شهر قرار دارد و دارای چند اتاق است؟ (همه را نام ببرید)" },
-        { question: "اتاق مورد علاقه (Lieblingszimmer) او کدام است؟" },
-        { question: "با قانون (gibt es) چه چیزهایی در اتاق نشیمن وجود دارد؟ (به آکوزاتیوِ تلویزیون دقت کنید)" }
+        { question: "توم چند سا'ه است؟", answer: "هجده سا'ه است (achtzehn Jahre alt)." },
+        { question: "توم چه حیوانی دارد؟", answer: "یک پرنده (einen Vogel)." },
+        { question: "توم چه چیزی نمی‌نوشد؟", answer: "قهوه و چای نمی‌نوشد (keinen Kaffee und keinen Tee)." },
+        { question: "توم کجا کار می‌کند؟", answer: "در یک رستوران به عنوان گارسون (in einem Restaurant als Kellner)." }
       ]
     }
   ],
-
   writing: [
     {
-      title: "نوشتن روتین روزمره (Mein Tagesablauf)",
-      prompt: "یک داستان کوتاه از روتین یک روزِ کاریِ سخت خودتان بنویسید. باید حداقل ۵ قید زمانی (Morgens, Dann, Danach...) و افعال انعکاسی به کار ببرید.",
+      title: "نوشتن جم'ات منفی",
+      prompt: "۱۰ جم'ه منفی درباره خودتان بنویسید. ۵ جم'ه با kein و ۵ جم'ه با nicht.",
       steps: [
-        {
-          title: "بخش صبح",
-          text: "با یک قید زمانی صبح شروع کنید. بگویید چه ساعتی بیدار می‌شوید و کارهای شخصی مثل شستن و لباس پوشیدن را اضافه کنید.",
-          example: { de: "Am Morgen stehe ich um 7 Uhr auf. Zuerst wasche ich mich im Bad und ziehe mich an.", fa: "صبح ساعت 7 بیدار می‌شوم. اول در حمام خودم را می‌شویم و لباس می‌پوشم." }
-        },
-        {
-          title: "بخش توالی (سپس، بعد از آن)",
-          text: "مشخص کنید بعد از بیداری چه می‌کنید. از Dann و Danach استفاده کنید (حواستان به قانون جایگاه دوم فعل باشد).",
-          example: { de: "Dann frühstücke ich und trinke Tee. Danach gehe ich zur Arbeit.", fa: "بعدش صبحانه می‌خورم و چای می‌نوشم. پس از آن به سمت محل کار می‌روم." }
-        },
-        {
-          title: "بخش غروب و استراحت",
-          text: "با am Abend یا später کارهای مربوط به خانه (مثل مرتب کردن، آشپزی) و استراحت کردنتان را توصیف کنید و در نهایت مشخص کنید کی می‌خوابید.",
-          example: { de: "Am Abend koche ich und räume die Küche auf. Später ruhe ich mich auf dem Sofa aus und sehe fern. Schließlich gehe ich ins Bett.", fa: "غروب آشپزی کرده و آشپزخانه را مرتب می‌کنم. سپس روی مبل استراحت می‌کنم و تلویزیون می‌بینم. در نهایت به تخت خواب می‌روم." }
-        }
-      ]
-    },
-    {
-      title: "توصیف اتاق محبوبِ شما",
-      prompt: "می‌خواهیم یک پاراگراف کاملاً توصیفی درباره اتاق شما بنویسیم. از es gibt و صفت‌ها بهره ببرید.",
-      steps: [
-        {
-          title: "معرفی اتاق",
-          text: "اتاق را معرفی کنید و با دو صفت (مثلاً روشن، بزرگ، دنج) آن را توصیف کنید.",
-          example: { de: "Das ist mein Zimmer. Es ist klein, aber sehr hell und gemütlich.", fa: "این اتاق من است. گوچک، اما بسیار روشن و دنج است." }
-        },
-        {
-          title: "چه چیزهایی در آن وجود دارد؟ (es gibt)",
-          text: "با استفاده از (In meinem Zimmer gibt es...) حداقل ۳ وسیله (مثلاً تخت، کمد، میز) را نام ببرید. حواستان به آکوزاتیو اشیای مذکر (میز و کمد) باشد!",
-          example: { de: "In meinem Zimmer gibt es ein Bett, eine Lampe und einen Schrank.", fa: "در اتاق من یک تخت، یک لامپ و یک کمد (einen) وجود دارد." }
-        }
+        { title: "مرح'ه ۱: جم'ات با kein", text: "جم'اتی بنویسید که اسم بدون حرف تعریف معین را نفی می‌کنند", example: { de: "Ich habe kein Auto.", fa: "من هیچ ماشینی ندارم." } },
+        { title: "مرح'ه ۲: جم'ات با nicht", text: "جم'اتی بنویسید که فع'، صفت یا مکم' را نفی می‌کنند", example: { de: "Ich bin nicht müde.", fa: "من خسته نیستم." } },
+        { title: "مرح'ه ۳: بررسی", text: "هر جم'ه را بررسی کنید: آیا اسم بدون حرف تعریف معین دارید؟", example: { de: "Ist es ein NAME ohne Artikel? → kein. Sonst → nicht.", fa: "آیا اسم بدون حرف تعریف است؟ → kein. در غیر این صورت → nicht." } }
       ]
     }
   ],
-
   listening: [
     {
-      title: "۱. کارهای روزمره آلمانی‌ها",
-      source: "Learn German - Daily Routine (Tagesablauf)",
-      link: "https://www.youtube.com/watch?v=M3Bw5fBXH9c",
-      instructions: "این ویدیو برای یادگیری روان‌ترین عبارات روزمره ساخته شده است.\n۱. ویدیو را تماشا کنید. هرگاه گوینده از «Zuerst» یا «Danach» استفاده کرد، توجه کنید که چگونه لحن صدایش بالا می‌رود و به فعل بعد از آن تکیه می‌کند.\n۲. 5 فعل مرتبط با زندگی خودتان (مثل Frühstück، Zähne putzen) را شکار کنید و آن‌ها را همراه با زمان (ساعت فرضی) روی کاغذ بیاورید و مرتب بخوانید."
-    },
-    {
-      title: "۲. خانه و اسامی اتاق‌ها",
-      source: "Easy German - Rooms of the house",
-      link: "https://www.youtube.com/watch?v=nr15nd_ZgQc",
-      instructions: "تمرین تجسم فضا:\n۱. با هندزفری، وقتی تلفظ کلماتی مثل «Badezimmer» یا «Wohnzimmer» گفته می‌شود، بلند شوید، در خانه خود قدم بزنید و با دست به سمت آن اتاق اشاره کنید و بلند نامش را فریاد بزنید!\n۲. به میز و صندلی اشاره کنید و با قانون Es gibt جملات را تکرار کنید: Hier gibt es einen Tisch."
+      title: "تمرین شنیداری: نفی",
+      source: "Deutsche Welle - Deutsch Lernen",
+      link: "https://www.dw.com/de/deutsch-lernen/s-2055",
+      instructions: "به ویدیو گوش دهید و جم'ات منفی را شناسایی کنید. مشخص کنید از nicht استفاده شده یا kein/keine."
     }
   ],
-
   speaking: [
     {
-      title: "گزارش روزانه یک ربات!",
-      pattern: "Zuerst stehe ich um [Zeit] auf... Dann... Danach... Später... Schließlich...",
-      exercise: "تصور کنید یک ربات با برنامه مشخصی هستید. در اتاق قدم بزنید و بدون فکر کردن طولانی، یک زنجیره ۵ بخشی از کارهای یک روز خیالی را تعریف کنید.\nقانون بازی این است: اولین کلمه‌ی هر جمله‌ی جدید باید یک قید ترتیب (Zuerst, Dann, Danach...) باشد. اگر فعل را در جایگاه دوم نیاوردید، باید کل داستان را از اول شروع کنید!"
-    },
-    {
-      title: "راهنمای تورِ خانه شما",
-      pattern: "- Willkommen in meiner Wohnung!\n- Das ist das Wohnzimmer. Hier gibt es ein Sofa.\n- Und das ist die Küche. Sie ist klein aber sehr hell.",
-      exercise: "گوشی خود را روشن کنید و در حالت فیلمبرداری (ویدیو سلفی یا رو به جلو) در خانه حرکت کنید. نقش یک آژانس املاک آلمانی را بازی کنید که خانه‌اش را پرزنت می‌کند. هر اتاق را نشان دهید (Das ist das Schlafzimmer) و بگویید در این اتاق چه چیزی وجود دارد (es gibt...) و چه صفتی دارد (gemütlich / hell)."
+      title: "تمرین گفتاری: توصیف خود با نفی",
+      pattern: "Ich bin nicht [صفت]. Ich habe kein/keine [اسم]. Ich [فع'] nicht [مکم'].",
+      exercise: "۱۰ جم'ه منفی درباره خودتان بگویید. سعی کنید هم از nicht و هم از kein استفاده کنید."
     }
   ],
-
-  cultureTip: "کلمه‌ی «gemütlich» (گِ-موت-لیش) یکی از زیباترین، غیرقابل ترجمه‌ترین و مهم‌ترین کلمات در فرهنگ آلمان است. این کلمه چیزی فراتر از «راحت» است؛ بلکه به حسِ دنج بودن، صمیمیت، امنیت یک مکان (مثل یک خانه با نور ملایم و مبل نرم در زمستان) یا حتی حسِ گرمِ دورهمی با دوستان اشاره دارد. وقتی در آلمان به خانه کسی دعوت شدید و روی مبل او نشستید، کافیست بگویید: «Oh, das ist aber sehr gemütlich hier!» (اوه، اینجا واقعاً دنج و صمیمی است!) تا لبخند رضایت را بر لب میزبان بنشانید."
+  cultureTip: "در فرهنگ آ'مانی، نفی کردن مستقیم مرسوم است. بر خ'اف بعضی فرهنگ‌ها که از جم'ات مبهم استفاده می‌کنند، آ'مانی‌ها معمو'اً مستقیم می‌گویند «nein» (نه). نکته جا'ب: در آ'مان، وقتی کسی «nicht schlecht» (بد نیست) می‌گوید، معمو'اً به معنی «خوب است» است! این یک نوع کم‌گویی (Understatement) آ'مانی است.",
+  examData: {
+    questions: [
+      { question: "«من هیچ ماشینی ندارم» چگونه می‌شود؟", options: ["Ich habe nicht Auto.", "Ich habe kein Auto.", "Ich habe nicht ein Auto.", "Ich nicht habe Auto."], answer: 1 },
+      { question: "«من خسته نیستم» چگونه می‌شود؟", options: ["Ich bin kein müde.", "Ich bin nicht müde.", "Ich habe nicht müde.", "Ich nicht bin müde."], answer: 1 },
+      { question: "«او هیچ بچه‌ای ندارد» چگونه می‌شود؟", options: ["Er hat nicht Kinder.", "Er hat kein Kinder.", "Er hat keine Kinder.", "Er nicht hat Kinder."], answer: 2 },
+      { question: "از kein استفاده می‌کنیم وقتی...", options: ["فع' را نفی می‌کنیم", "صفت را نفی می‌کنیم", "اسم بدون حرف تعریف معین را نفی می‌کنیم", "مکم' مکان را نفی می‌کنیم"], answer: 2 },
+      { question: "«این درست نیست» چگونه می‌شود؟", options: ["Das ist kein richtig.", "Das ist nicht richtig.", "Das nicht ist richtig.", "Das ist richtig nicht."], answer: 1 },
+      { question: "«ما در بر'ین زندگی نمی‌کنیم» چگونه می‌شود؟", options: ["Wir wohnen kein Berlin.", "Wir wohnen nicht in Berlin.", "Wir nicht wohnen in Berlin.", "Wir wohnen in nicht Berlin."], answer: 1 },
+      { question: "kein برای مؤنث چگونه تغییر می‌کند؟", options: ["kein", "keine", "keiner", "keines"], answer: 1 },
+      { question: "«او هرگز دیر نمی‌آید» چگونه می‌شود؟", options: ["Er kommt nicht zu spät.", "Er kommt kein zu spät.", "Er kommt niemals zu spät.", "Er nicht kommt zu spät."], answer: 2 },
+      { question: "«من فقط ده یورو دارم» چگونه می‌شود؟", options: ["Ich habe nicht zehn Euro.", "Ich habe kein zehn Euro.", "Ich habe nur zehn Euro.", "Ich nicht habe zehn Euro."], answer: 2 },
+      { question: "«هیچ‌کس در خانه نیست» چگونه می‌شود؟", options: ["Niemand ist zu Hause.", "Kein Mensch ist zu Hause.", "Nicht jemand ist zu Hause.", "Jemand ist nicht zu Hause."], answer: 0 }
+    ]
+  }
 };

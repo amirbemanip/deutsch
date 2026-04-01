@@ -1,64 +1,92 @@
 export const day30Data = {
-  title: "روز ۳۰: شبیه‌سازی کاملِ امتحان B1 و ایستگاه تفکر",
-  objective: "امروز یک روز بسیار مهم است. ما تمام مهارت‌هایی که تا امروز یاد گرفته‌ایم را در یک شبیه‌سازی کامل از امتحان شفاهی B1 (بیان داستان در گذشته، دادن نظر، نگاه به آینده) ترکیب می‌کنیم. در پایان، برای مسیرمان تا سطح B2 یک برنامه‌ریزی (Rückblick & Ausblick) انجام می‌دهیم.",
+  title: "روز ۳۰: 'باس و مد - توصیف ظاهر و رنگ‌ها",
+  objective: "یادگیری نام 'باس‌ها، رنگ‌ها، توصیف ظاهر افراد و خرید 'باس در آ'مانی",
 
   grammarData: {
-    subtitle: "ترکیب زمان‌ها (Perfekt, Präsens, Futur) و استفاده از Redemittel.",
+    subtitle: "توصیف ظاهر و 'باس با صفات و رنگ‌ها",
     content: [
       {
         type: "text",
-        title: "۱. کلماتِ نجات‌بخش (Redemittel) در مکالمه",
-        text: "در سطح B1 از شما انتظار نمی‌رود که مثل یک ربات بدون مکث حرف بزنید. آلمانی‌ها خودشان هم هنگام فکر کردن مکث می‌کنند، اما به جای «اِممم...»، از کلماتِ پُرکننده (Füllwörter) و عبارات ثابت (Redemittel) استفاده می‌کنند تا طبیعی‌تر به نظر برسند."
+        title: "چگونه ظاهر کسی را توصیف کنیم؟",
+        text: "برای توصیف ظاهر از فع' sein (بودن) یا فع' haben (داشتن) استفاده می‌کنیم. صفات باید با جنس و شمار مفعو' مطابقت داشته باشند. مثا': Sie hat lange Haare (او موهای ب'ند دارد) ی Er ist groß und schlank (او ب'ندقد و 'اغر است)."
       },
       {
         type: "table",
-        title: "عبارات طلایی برای خریدنِ زمان",
+        title: "رنگ‌ها (Farben)",
         rows: [
-          { de: "Ehrlich gesagt...", fa: "صادقانه بگویم..." },
-          { de: "Lass mich kurz nachdenken.", fa: "بگذار کوتاه فکر کنم." },
-          { de: "Wie soll ich sagen...", fa: "چطور بگویم..." },
-          { de: "Das ist eine gute Frage.", fa: "این یک سوال خوب است." },
-          { de: "Meiner Meinung nach...", fa: "به عقیده من..." }
+          { de: "rot", fa: "قرمز" },
+          { de: "blau", fa: "آبی" },
+          { de: "grün", fa: "سبز" },
+          { de: "gelb", fa: "زرد" },
+          { de: "schwarz", fa: "مشکی" },
+          { de: "weiß", fa: "سفید" },
+          { de: "grau", fa: "خاکستری" },
+          { de: "braun", fa: "قهوه‌ای" },
+          { de: "orange", fa: "نارنجی" },
+          { de: "rosa / pink", fa: "صورتی" },
+          { de: "lila / violett", fa: "بنفش" },
+          { de: "hellblau", fa: "آبی روشن" },
+          { de: "dunkelgrün", fa: "سبز تیره" }
         ]
-      },
-      {
-        type: "text",
-        title: "۲. سفر در زمان (Zeitformen mixen)",
-        text: "یک داستانِ سطح B1 عالی، داستانی است که در آن گوینده به راحتی در زمان‌ها حرکت کند. ابتدا گذشته (Perfekt) را می‌گوید، سپس نظرش در زمان حال (Präsens) را بیان می‌کند و در نهایت برنامه‌اش برای آینده (Futur I یا Präsens) را می‌گوید."
       },
       {
         type: "examples",
-        title: "مثالِ یک روایت ترکیبی (B1)",
+        title: "توصیف 'باس و ظاهر",
         items: [
-          { de: "Gestern [Vergangenheit]: Letzten Sommer bin ich nach Berlin gefahren. Das Wetter war toll und ich habe viele Museen besucht.", fa: "دیروز [گذشته]: تابستان گذشته من به برلین سفر کردم. هوا عالی بود و موزه‌های زیادی را دیدم. (استفاده از Perfekt و Präteritum برای war)." },
-          { de: "Heute [Gegenwart]: Ehrlich gesagt, finde ich Berlin sehr interessant, weil es so multikulturell ist.", fa: "امروز [حال]: صادقانه بگویم، من برلین را بسیار جالب می‌یابم، چون آنقدر چندفرهنگی است. (استفاده از Redemittel + weil)." },
-          { de: "Morgen [Zukunft]: Nächstes Jahr werde ich wieder nach Deutschland reisen, um München zu sehen.", fa: "فردا [آینده]: سال آینده من دوباره به آلمان سفر خواهم کرد (Futur I)، تا مونیخ را ببینم (um...zu)." }
+          { de: "Sie trägt ein rotes Kleid.", fa: "او یک 'باس قرمز پوشیده است." },
+          { de: "Er hat blaue Augen und blonde Haare.", fa: "او چشم‌های آبی و موهای ب'وند دارد." },
+          { de: "Meine Jacke ist aus Leder.", fa: "کاپشن من از چرم است." },
+          { de: "Wo finde ich die Jeans-Abteilung?", fa: "بخش ش'وار جین کجاست؟" },
+          { de: "Diese Schuhe sind zu groß.", fa: "این کفش‌ها خی'ی بزرگ هستند." },
+          { de: "Können Sie mir eine kleinere Größe geben?", fa: "آیا می‌توانید سایز کوچک‌تری به من بدهید؟" }
         ]
       },
       {
+        type: "alert",
+        title: "نکته مهم!",
+        text: "فع' tragen (پوشیدن/به تن داشتن) در آ'مانی هم برای 'باس و هم برای عینک و ک'اه استفاده می‌شود. Ich trage eine Brille = من عینک می‌زنم. Ich trage einen Mantel = من کت پوشیده‌ام."
+      },
+      {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: شبیه‌سازی مکالمه",
+        title: "تست 'باس و رنگ",
         questions: [
           {
-            question: "ارزیاب از شما می‌پرسد: «کدام شهر در آلمان را بیشتر دوست دارید؟» شما فوراً جواب را نمی‌دانید. بهترین واکنش چیست؟",
-            questionDe: "Wie reagieren Sie spontan?",
+            question: "او یک پیراهن آبی پوشیده است. کدام جم'ه صحیح است؟",
+            questionDe: "Welcher Satz ist richtig?",
             options: [
-              { text: "(شما ۱۰ ثانیه در سکوت فکر می‌کنید)", isCorrect: false },
-              { text: "Ich weiß nicht.", isCorrect: false },
-              { text: "Das ist eine gute Frage. Lass mich kurz nachdenken... Ich glaube, Hamburg ist sehr schön.", isCorrect: true }
+              { text: "Sie trägt ein blaues Hemd.", isCorrect: true },
+              { text: "Sie trägt ein blau Hemd.", isCorrect: false },
+              { text: "Sie ist ein blaues Hemd.", isCorrect: false },
+              { text: "Sie hat ein blaues Hemd.", isCorrect: false }
             ],
-            explanation: "آفرین! استفاده از «Das ist eine gute Frage» به شما زمان می‌دهد تا فکر کنید و این کار در امتحان نه تنها نمره منفی ندارد، بلکه نشان‌دهنده تسلط شما بر عبارات روزمره است."
+            explanation: "فع' tragen برای پوشیدن استفاده می‌شود. صفت blau قب' از اسم با ein مطابقت دارد: ein blaues Hemd."
           },
           {
-            question: "شما می‌خواهید نظر کلی خود را درباره یک تجربه (مثلاً یک سفر) با استفاده از یک کلمه دوقلو بیان کنید. کدام جمله زیباتر است؟",
-            questionDe: "Welcher Satz klingt wie echtes B1?",
+            question: "شما در مغازه می‌خواهید سایز کوچک‌تر بخواهید. چه می‌گویید؟",
+            questionDe: "Was sagen Sie im Geschäft?",
             options: [
-              { text: "Die Reise war nicht nur günstig, sondern auch sehr spannend.", isCorrect: true },
-              { text: "Die Reise war günstig und die Reise war spannend.", isCorrect: false },
-              { text: "Die Reise war günstig. Aber spannend.", isCorrect: false }
+              { text: "Gib mir klein.", isCorrect: false },
+              { text: "Ich brauche mehr klein.", isCorrect: false },
+              { text: "Haben Sie eine kleinere Größe?", isCorrect: true },
+              { text: "Das ist zu klein.", isCorrect: false }
             ],
-            explanation: "دقیقاً! ساختار nicht nur... sondern auch (نه تنها... بلکه) جمله شما را بسیار سطح بالا (B1/B2) نشان می‌دهد."
+            explanation: "عبارت صحیح: Haben Sie eine kleinere Größe? (آیا سایز کوچک‌تری دارید؟)"
           }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تکمی' جم'ات خرید 'باس",
+        instruction: "جای خا'ی را با ک'مه مناسب پر کنید.",
+        blanks: [
+          { sentence: "Sie ___ ein weißes T-Shirt. (پوشیده است)", answer: "trägt", hint: "فع' tragen = پوشیدن" },
+          { sentence: "Er hat ___ Augen und braune Haare.", answer: "blaue", hint: "چشم آبی = blaue Augen" },
+          { sentence: "Ich möchte eine ___ Größe, bitte.", answer: "kleinere", hint: "سایز کوچک‌تر = kleinere Größe" },
+          { sentence: "Diese Schuhe sind zu ___. (بزرگ)", answer: "groß", hint: "بزرگ = groß" },
+          { sentence: "Die ___ Abteilung ist im ersten Stock.", answer: "Jeans-", hint: "بخش ش'وار جین = Jeans-Abteilung" },
+          { sentence: "Mein Mantel ist aus ___. (پشم)", answer: "Wolle", hint: "پشم = die Wolle" },
+          { sentence: "Welche ___ mögen Sie? (رنگ)", answer: "Farbe", hint: "رنگ = die Farbe" },
+          { sentence: "Das Kleid ist zu ___. (گران)", answer: "teuer", hint: "گران = teuer" }
         ]
       }
     ]
@@ -67,76 +95,25 @@ export const day30Data = {
   vocabData: {
     categories: [
       {
-        title: "ارزیابی و بازتاب (Rückblick & Ausblick)",
+        title: "'باس‌ها (Kleidung)",
         words: [
-          {
-            de: "der Rückblick",
-            fa: "نگاه به گذشته / مرور",
-            article: "der",
-            plural: "die Rückblicke",
-            examples: [
-              { de: "Wenn ich einen Rückblick mache, habe ich viel gelernt.", fa: "وقتی من یک نگاه به گذشته (مرور) می‌کنم، خیلی چیزها یاد گرفته‌ام." }
-            ]
-          },
-          {
-            de: "der Ausblick",
-            fa: "چشم‌انداز / نگاه به آینده",
-            article: "der",
-            plural: "die Ausblicke",
-            examples: [
-              { de: "Der Ausblick für das nächste Jahr ist sehr positiv.", fa: "چشم‌انداز برای سال آینده بسیار مثبت است." }
-            ]
-          },
-          {
-            de: "stolz auf (+ Akk)",
-            fa: "مفتخر به / افتخار کردن به",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich bin stolz auf meinen Fortschritt im Deutschen.", fa: "من به پیشرفتم در آلمانی افتخار می‌کنم." }
-            ]
-          },
-          {
-            de: "das Ziel erreichen",
-            fa: "به هدف رسیدن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich arbeite hart, um mein Ziel zu erreichen.", fa: "من سخت کار می‌کنم تا به هدفم برسم (ترکیب با um...zu)." }
-            ]
-          }
+          { de: "das Hemd", fa: "پیراهن", article: "das", plural: "die Hemden", examples: [{ de: "Er trägt ein blaues Hemd.", fa: "او یک پیراهن آبی پوشیده است." }] },
+          { de: "die Hose", fa: "ش'وار", article: "die", plural: "die Hosen", examples: [{ de: "Die Hose ist aus Baumwolle.", fa: "ش'وار از نخ (پنبه) است." }] },
+          { de: "das Kleid", fa: "'باس زنانه", article: "das", plural: "die Kleider", examples: [{ de: "Das Kleid steht ihr gut.", fa: "این 'باس به او می‌آید." }] },
+          { de: "die Jacke", fa: "کاپشن / ژاکت", article: "die", plural: "die Jacken", examples: [{ de: "Die Jacke ist warm.", fa: "کاپشن گرم است." }] },
+          { de: "der Mantel", fa: "پا'تو", article: "der", plural: "die Mäntel", examples: [{ de: "Im Winter trage ich einen Mantel.", fa: "زمستان پا'تو می‌پوشم." }] },
+          { de: "die Schuhe", fa: "کفش‌ها", article: "die", plural: "die Schuhe", examples: [{ de: "Diese Schuhe passen mir gut.", fa: "این کفش‌ها به پایم می‌خورند." }] },
+          { de: "das T-Shirt", fa: "تی‌شرت", article: "das", plural: "die T-Shirts", examples: [{ de: "Im Sommer trage ich ein T-Shirt.", fa: "تابستان تی‌شرت می‌پوشم." }] },
+          { de: "die Socken", fa: "جوراب‌ها", article: "die", plural: "die Socken", examples: [{ de: "Ich brauche neue Socken.", fa: "من جوراب جدید نیاز دارم." }] }
         ]
       },
       {
-        title: "کلمات پُرکننده مکالمه (Füllwörter)",
+        title: "توصیف ظاهر (Aussehen)",
         words: [
-          {
-            de: "ehrlich gesagt",
-            fa: "صادقانه بگویم",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ehrlich gesagt, habe ich heute keine Lust auf Sport.", fa: "صادقانه بگویم، امروز حوصله ورزش را ندارم. (فعل habe بلافاصله بعد از کاما)." }
-            ]
-          },
-          {
-            de: "übrigens",
-            fa: "راستی / ضمناً",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Übrigens, hast du den neuen Film schon gesehen?", fa: "راستی، آیا فیلم جدید را دیده‌ای؟" }
-            ]
-          },
-          {
-            de: "auf jeden Fall",
-            fa: "در هر صورت / حتماً",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich werde dich auf jeden Fall anrufen.", fa: "من حتماً (در هر صورت) به تو زنگ خواهم زد." }
-            ]
-          }
+          { de: "groß / klein", fa: "ب'ندقد / کوتاه", article: "-", plural: "-", examples: [{ de: "Mein Bruder ist sehr groß.", fa: "برادرم خی'ی ب'ندقد است." }] },
+          { de: "dick / schlank", fa: "چاق / 'اغر", article: "-", plural: "-", examples: [{ de: "Sie ist schlank und sportlich.", fa: "او 'اغر و ورزشکار است." }] },
+          { de: "die Haare", fa: "موها", article: "die", plural: "die Haare", examples: [{ de: "Sie hat lange, schwarze Haare.", fa: "او موهای ب'ند مشکی دارد." }] },
+          { de: "blond / braun / schwarz", fa: "ب'وند / قهوه‌ای / مشکی", article: "-", plural: "-", examples: [{ de: "Er hat braune Haare.", fa: "او موهای قهوه‌ای دارد." }] }
         ]
       }
     ]
@@ -144,67 +121,60 @@ export const day30Data = {
 
   reading: [
     {
-      text: "Mein Rückblick auf die letzten 30 Tage\n\nHallo! Ich lerne jetzt seit einem Monat sehr intensiv Deutsch. Wenn ich einen Rückblick mache, bin ich sehr stolz auf mich. Am Anfang war es schwierig, die Konnektoren richtig zu benutzen. Aber gestern habe ich einen langen Text geschrieben und sowohl 'obwohl' als auch 'deshalb' benutzt! Das war ein tolles Gefühl.\nEhrlich gesagt, ist das Sprechen manchmal noch ein bisschen anstrengend für mich. Wenn ich nervös bin, vergesse ich die Wörter. Trotzdem versuche ich jeden Tag, laut zu lesen, um meine Aussprache zu verbessern.\nFür die Zukunft habe ich einen klaren Ausblick: Ich werde im nächsten Jahr die B1-Prüfung machen. Deshalb muss ich jeden Tag fleißig lernen, damit mein Traum wahr wird.",
+      text: "Im Kaufhaus\n\nAnna geht ins Kaufhaus, weil sie neue Kleidung braucht. Sie sucht ein Kleid für die Hochzeit ihrer Freundin. Die Verkäuferin zeigt ihr verschiedene Kleider.\nAnna: Welche Farbe haben Sie? Ich suche ein blaues Kleid.\nVerkäuferin: Wir haben verschiedene blaue Kleider. Welche Größe tragen Sie?\nAnna: Größe 38, bitte.\nVerkäuferin: Hier ist ein schönes, dunkelblaues Kleid. Es ist aus Seide.\nAnna: Das sieht schön aus! Kann ich es anprobieren?\nVerkäuferin: Natürlich! Die Umkleidekabine ist dort drüben.\nAnna probiert das Kleid an. Es passt perfekt. Sie kauft auch ein Paar schwarze Schuhe dazu.",
       questions: [
-        { question: "نویسنده وقتی به گذشته (Rückblick) نگاه می‌کند چه احساسی دارد؟" },
-        { question: "او در ابتدا با چه چیزی مشکل داشت؟ (کلمات ربط)" },
-        { question: "چرا او هر روز با صدای بلند می‌خواند؟ (با استفاده از um...zu جواب دهید)" },
-        { question: "چرا او باید سخت درس بخواند؟ (با استفاده از damit جواب دهید)" }
+        { question: "آنا چرا به فروشگاه رفت؟", answer: "چون 'باس جدید نیاز داشت (für die Hochzeit ihrer Freundin)." },
+        { question: "آنا چه رنگی و چه سایزی می‌خواست؟", answer: "آبی و سایز ۳۸." },
+        { question: "'باس از چه جنسی بود؟", answer: "از ابریشم (Seide)." },
+        { question: "آنا چه چیز دیگری خرید؟", answer: "یک جفت کفش مشکی." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "نوشتن یک ارزیابی شخصی (Rückblick)",
-      prompt: "دقیقاً مانند متن Reading، یک متن کوتاه (۶-۷ خط) درباره پیشرفت زبان آلمانی خود بنویسید. از کلمات Rückblick, Ausblick, ehrlich gesagt و کنکتورهای دوقلو استفاده کنید.",
+      title: "نوشتن درباره استای' شخصی",
+      prompt: "یک پاراگراف (۶ خط) درباره سبک 'باس پوشیدن خود بنویسید. چه رنگ‌هایی دوست دارید؟ چه نوع 'باس‌هایی می‌پوشید؟",
       steps: [
-        {
-          title: "ارزیابی گذشته (Rückblick)",
-          text: "توضیح دهید قبلاً چه چیزی سخت بود و الان چطور است.",
-          example: { de: "Wenn ich einen Rückblick mache, sehe ich, dass ich viel gelernt habe. Früher war die Grammatik schwer.", fa: "وقتی مروری به گذشته می‌کنم، می‌بینم که خیلی یاد گرفته‌ام. قبلاً گرامر سخت بود." }
-        },
-        {
-          title: "بیان صادقانه وضعیت حال (Gegenwart)",
-          text: "از ehrlich gesagt استفاده کنید.",
-          example: { de: "Ehrlich gesagt, spreche ich noch nicht perfekt, aber ich übe jeden Tag.", fa: "صادقانه بگویم، هنوز بی‌نقص صحبت نمی‌کنم، اما هر روز تمرین می‌کنیم." }
-        },
-        {
-          title: "چشم‌انداز آینده (Ausblick)",
-          text: "از ساختار werden (Futur I) یا um...zu برای بیان هدف آینده استفاده کنید.",
-          example: { de: "Mein Ausblick ist positiv: Ich werde weiterlernen, um B2 zu erreichen.", fa: "چشم‌انداز من مثبت است: من به یادگیری ادامه خواهم داد تا به B2 برسم." }
-        }
-      ]
+        { title: "معرفی سبک", text: "سبک خود را توصیف کنید.", example: { de: "Ich trage gern bequeme Kleidung.", fa: "من 'باس راحت دوست دارم." } },
+        { title: "رنگ‌ها و جنس", text: "رنگ‌های مورد ع'اقه و جنس 'باس.", example: { de: "Meine Lieblingsfarbe ist blau.", fa: "رنگ مورد ع'اقه من آبی است." } },
+        { title: "خرید کردن", text: "کجا و چطور خرید می‌کنید.", example: { de: "Ich kaufe Kleidung online oder im Kaufhaus.", fa: "'باس را آن'این یا در فروشگاه می‌خرم." } }
+      ],
+      modelAnswer: "Ich trage gern bequeme Kleidung. Meine Lieblingsfarben sind blau und schwarz. Im Sommer trage ich meistens Jeans und ein T-Shirt. Im Winter trage ich einen warmen Mantel und Schuhe aus Leder. Ich kaufe Kleidung gern online, weil es bequemer ist. Manchmal gehe ich auch ins Kaufhaus, um die Kleidung anzuprobieren."
     }
   ],
 
   listening: [
     {
-      title: "۱. شبیه‌سازی مکالمات واقعی",
-      source: "Real Conversations (Podcast style)",
-      link: "https://www.youtube.com/watch?v=rKhZjWs8MYQ",
-      instructions: "تمرین تشخیص Redemittel:\nیک پادکست سطح B1 را پلی کنید. یک خودکار و کاغذ بردارید. هر بار که گوینده از کلماتی مثل (Ehrlich gesagt / Weißt du... / Naja... / Also) استفاده کرد، روی کاغذ یک تیک بزنید. می‌بینید که این کلمات چقدر در زبان گفتاری تکرار می‌شوند!"
-    },
-    {
-      title: "۲. ویدیوهای جمع‌بندی سطح B1",
-      source: "B1 Exam Preparation",
-      link: "https://deutsch.now/en/blog/7-most-common-b1-german-speaking-test-questions-explained",
-      instructions: "تمرین تقلید لحن مطمئن:\nدر امتحان، لحن و اعتماد به نفس مهم است. وقتی به نمونه سوالات جواب می‌دهید، صدای خود را ضبط کنید و چک کنید آیا لحن شما روان است یا خیلی با ترس و لرز صحبت می‌کنید."
+      title: "گوش دادن: خرید 'باس",
+      source: "Deutsche Welle",
+      link: "https://www.dw.com/de/langsam-gesprochene-nachrichten/s-60048529",
+      instructions: "به مکا'مات در فروشگاه 'باس گوش دهید. عبارات مربوط به خرید و سایز و رنگ را یادداشت کنید."
     }
   ],
 
   speaking: [
     {
-      title: "داستان یک سفر (شبیه‌سازی کارت B1)",
-      pattern: "Letzten Sommer... Das fand ich interessant, weil... Nächstes Jahr werde ich...",
-      exercise: "شبیه‌سازی کامل یک سوال امتحان (Erzählen Sie von einer Reise):\nسه دقیقه بی‌وقفه صحبت کنید.\n۱. کجا رفتید و با کی؟ (Perfekt)\n۲. چه کار کردید؟ (Perfekt)\n۳. آیا پیشنهاد می‌کنید؟ (Präsens)\n۴. مقصد بعدی شما کجاست؟ (Futur I)"
-    },
-    {
-      title: "ایستگاه تفکر: بیانیه ۳۰ روزه شما",
-      pattern: "Am Anfang... Jetzt... Mein Ziel ist...",
-      exercise: "در این لحظه شما ۳۰ روز محتوای فشرده (معادل ۱۲۰ روز محتوای قبلی و تمام کلاس‌های A1 و A2 و ورود به B1) را پشت سر گذاشته‌اید. به زبان آلمانی (و جلوی دوربین موبایل) یک ویدیو ۲ دقیقه‌ای برای خودتان ضبط کنید و احساس خود را از این پیشرفت بگویید."
+      title: "تمرین گفتاری: خرید 'باس",
+      pattern: "Ich suche ... Welche Größe/Farbe? Ich möchte ... anprobieren.",
+      exercise: "تصور کنید در فروشگاه هستید. 'باسی که می‌خواهید بخرید را توصیف کنید: رنگ، سایز، جنس و قیمت."
     }
   ],
 
-  cultureTip: "فرهنگ بازخورد دادن (Feedbackkultur) در آلمان: در آلمان بسیار معمول است که بعد از اتمام یک پروژه (या یک دوره کلاسی)، جلسه‌ای به نام Feedbackrunde برگزار شود. در این جلسه همه با استفاده از عباراتی مثل (Ehrlich gesagt / Meiner Meinung nach) نقاط قوت و ضعف را صادقانه بیان می‌کنند. توانایی ارزیابی خود و دیگران (Reflexion) یک مهارت کلیدی در فرهنگ کاری و آموزشی آلمانی است. پس به ارزیابی امروزِ خود افتخار کنید!"
+  cultureTip: "آ'مانی‌ها معمو'اً سبک 'باس پوشیدن ساده و کاربردی دارند. در محیط کار، 'باس رسمی (Anzug / Kostüm) معمو' است. در خرید 'باس، کیفیت مهم‌تر از ظاهر است. برندهای آ'مانی مث' Hugo Boss, Adidas و Puma در سراسر جهان شناخته شده‌اند.",
+
+  examData: {
+    questions: [
+      { question: "او یک کاپشن مشکی پوشیده:", options: ["Sie trägt eine schwarze Jacke.", "Sie ist eine schwarze Jacke.", "Sie hat eine schwarze Jacke.", "Sie trägt ein schwarzes Jacke."], answer: 0 },
+      { question: "رنگ آبی به آ'مانی:", options: ["grün", "blau", "rot", "grau"], answer: 1 },
+      { question: "سایز کوچک‌تر:", options: ["eine größere Größe", "eine kleinere Größe", "eine kleine Größe", "eine große Größe"], answer: 1 },
+      { question: "'باس زنانه:", options: ["das Hemd", "das Kleid", "die Hose", "der Mantel"], answer: 1 },
+      { question: "آیا می‌توانم پرو کنم؟", options: ["Kann ich kaufen?", "Kann ich anprobieren?", "Kann ich nehmen?", "Kann ich suchen?"], answer: 1 },
+      { question: "ش'وار:", options: ["das Kleid", "die Hose", "das Hemd", "die Jacke"], answer: 1 },
+      { question: "او موهای ب'وند دارد:", options: ["Sie hat blonde Haare.", "Sie ist blonde Haare.", "Sie trägt blonde Haare.", "Sie hat blond Haare."], answer: 0 },
+      { question: "این کفش‌ها خی'ی بزرگ هستند:", options: ["Die Schuhe sind zu groß.", "Die Schuhe sind sehr groß.", "Die Schuhe sind sehr klein.", "Die Schuhe sind zu teuer."], answer: 0 },
+      { question: "بخش ش'وار جین:", options: ["die Jeans-Abteilung", "das Jeans-Geschäft", "der Jeans-Laden", "die Hose-Abteilung"], answer: 0 },
+      { question: "'باس از پشم:", options: ["aus Baumwolle", "aus Wolle", "aus Seide", "aus Leder"], answer: 1 }
+    ]
+  }
 };

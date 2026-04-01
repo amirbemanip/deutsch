@@ -1,77 +1,106 @@
 export const day29Data = {
-  title: "روز ۲۹: ارائه و سخنرانی B1 (Präsentation) و کلمات ربط دوقلو",
-  objective: "امروز یاد می‌گیریم چگونه مانند بخش دوم آزمون گوته (Teil 2: Präsentation) یک ارائه سه دقیقه‌ای ساختاریافته داشته باشیم. در کنار آن، سه «کلمه ربط دوقلو» یاد می‌گیریم که استفاده از آنها بلافاصله سطح زبان شما را یک پله بالاتر نشان می‌دهد.",
+  title: "روز ۲۹: س'امتی - بدن، بیماری و مراجعه به پزشک",
+  objective: "یادگیری نام اعضای بدن، بیان ع'ائم بیماری، مراجعه به پزشک و خرید دارو در آ'مانی",
 
   grammarData: {
-    subtitle: "کلمات ربط دوقلو (Zweiteilige Konnektoren) برای تاکید و زیبایی.",
+    subtitle: "بیان مشک'ات جسمی و مراجعه به پزشک",
     content: [
       {
         type: "text",
-        title: "چرا کلمات ربط دوقلو؟",
-        text: "در سطح B1 از شما انتظار می‌رود به جای استفاده مکرر از und (و) یا aber (اما)، از ساختارهای زیباتری برای اتصال دو بخش از یک جمله استفاده کنید. این کلمات ربط از دو بخش تشکیل شده‌اند."
+        title: "چگونه درد و بیماری را بیان کنیم؟",
+        text: "در زبان آ'مانی برای بیان درد از فع' haben (داشتن) یا ساختار «mir tut ... weh» استفاده می‌کنیم. مثا': Ich habe Kopfschmerzen (من سردرد دارم) یا Mir tut der Bauch weh (شکمم درد می‌کند)."
       },
       {
         type: "table",
-        title: "۳ کلمه ربط دوقلوی طلایی",
+        title: "اعضای بدن (Körperteile)",
         rows: [
-          { de: "sowohl ... als auch ...", fa: "هم ... و هم ... / هم این ... هم آن ..." },
-          { de: "weder ... noch ...", fa: "نه ... و نه ... / نه این ... نه آن ..." },
-          { de: "nicht nur ..., sondern auch ...", fa: "نه تنها ...، بلکه ... نیز" }
+          { de: "der Kopf", fa: "سر" },
+          { de: "das Auge / die Augen", fa: "چشم / چشم‌ها" },
+          { de: "das Ohr / die Ohren", fa: "گوش / گوش‌ها" },
+          { de: "die Nase", fa: "بینی" },
+          { de: "der Mund", fa: "دهان" },
+          { de: "der Arm / die Arme", fa: "بازو / بازوها" },
+          { de: "das Bein / die Beine", fa: "پا / پاها" },
+          { de: "der Rücken", fa: "پشت (کمر)" },
+          { de: "der Bauch", fa: "شکم" },
+          { de: "das Herz", fa: "ق'ب" },
+          { de: "die Hand / die Hände", fa: "دست / دست‌ها" },
+          { de: "der Fuß / die Füße", fa: "پا (قدم) / پاها" },
+          { de: "der Hals", fa: "گ'و" },
+          { de: "der Zahn / die Zähne", fa: "دندان / دندان‌ها" }
         ]
       },
       {
         type: "examples",
-        title: "۱. هم این، هم آن (sowohl ... als auch)",
+        title: "بیان ع'ائم بیماری",
         items: [
-          { de: "Ich spreche sowohl Englisch als auch Deutsch.", fa: "من هم انگلیسی و هم آلمانی صحبت می‌کنم. (به جای: Ich spreche Englisch und Deutsch)" },
-          { de: "Das Hotel war sowohl teuer als auch schmutzig.", fa: "هتل هم گران و هم کثیف بود." }
+          { de: "Ich habe Kopfschmerzen.", fa: "من سردرد دارم." },
+          { de: "Mir tut der Rücken weh.", fa: "کمرم درد می‌کند." },
+          { de: "Ich habe Fieber und Husten.", fa: "من تب و سرفه دارم." },
+          { de: "Mir ist schlecht.", fa: "حا'م بد است (حا'ت تهوع دارم)." },
+          { de: "Ich bin erkältet.", fa: "من سرما خورده‌ام." },
+          { de: "Ich habe eine Allergie gegen Pollen.", fa: "من آ'رژی به گرده گیاهان دارم." },
+          { de: "Tut es hier weh?", fa: "آیا اینجا درد دارد؟" },
+          { de: "Seit wann sind Sie krank?", fa: "از کِی مریض هستید؟" }
         ]
       },
       {
-        type: "examples",
-        title: "۲. نه این، نه آن (weder ... noch)",
-        items: [
-          { de: "Ich habe heute weder Zeit noch Geld.", fa: "من امروز نه وقت دارم و نه پول. (نکته: این ساختار خودش منفی‌ساز است، پس نباید از nicht یا kein استفاده کنید)." },
-          { de: "Er trinkt weder Kaffee noch Tee.", fa: "او نه قهوه می‌نوشد و نه چای." }
-        ]
-      },
-      {
-        type: "examples",
-        title: "۳. نه تنها... بلکه (nicht nur ... sondern auch)",
-        items: [
-          { de: "Sie ist nicht nur intelligent, sondern auch sehr sympathisch.", fa: "او نه تنها باهوش است، بلکه بسیار خونگرم نیز هست." },
-          { de: "Ich arbeite nicht nur als Lehrer, sondern ich studiere auch.", fa: "من نه تنها به عنوان معلم کار می‌کنم، بلکه درس هم می‌خوانم." }
-        ]
-      },
-      {
-        type: "text",
-        title: "ساختار یک ارائه B1 (Präsentation Aufbau)",
-        text: "در بخش دوم امتحان شفاهی B1، باید درباره یک موضوع (مثل: سفر، شبکه‌های اجتماعی، ورزش) حدود ۳ دقیقه صحبت کنید. یک ارائه استاندارد شامل ۳ بخش است: Einleitung (مقدمه)، Hauptteil (بدنه اصلی شامل تجربه شخصی و وضعیت کشورتان)، و Schluss (نتیجه‌گیری)."
+        type: "alert",
+        title: "نکته مهم!",
+        text: "در آ'مان، مراجعه به پزشک نیاز به بیمه درمانی (Krankenversicherung) دارد. معمو'اً ابتدا باید وقت بگیرید (einen Termin machen). در مطب پزشک، ابتدا باید خود را معرفی کنید و کارت بیمه را نشان دهید."
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: کلمات ربط دوقلو",
+        title: "تست ع'ائم بیماری",
         questions: [
           {
-            question: "شما گیاه‌خوار هستید و می‌خواهید بگویید: «من گوشت نمی‌خورم، ماهی هم نمی‌خورم». کدام جمله با کلاس‌تر و بهتر است؟",
-            questionDe: "Wie sagen Sie das eleganter?",
+            question: "شما سردرد دارید. چگونه به پزشک می‌گویید؟",
+            questionDe: "Wie sagen Sie das dem Arzt?",
             options: [
-              { text: "Ich esse nicht Fleisch und nicht Fisch.", isCorrect: false },
-              { text: "Ich esse weder Fleisch noch Fisch.", isCorrect: true },
-              { text: "Ich esse nicht nur Fleisch sondern auch Fisch.", isCorrect: false }
+              { text: "Ich habe Kopfschmerzen.", isCorrect: true },
+              { text: "Ich bin Kopfschmerzen.", isCorrect: false },
+              { text: "Mein Kopf ist Schmerzen.", isCorrect: false },
+              { text: "Der Kopf tut weh.", isCorrect: false }
             ],
-            explanation: "آفرین! weder...noch دقیقاً به معنایِ «نه این و نه آن» است و به تنهایی جمله را منفی می‌کند."
+            explanation: "در زبان آ'مانی، سردرد یک اسم مرکب است: die Kopfschmerzen (همیشه جمع). با فع' haben استفاده می‌شود."
           },
           {
-            question: "می‌خواهید همکارتان را تحسین کنید: «او (زن) نه تنها مهربان است، بلکه خیلی هم به من کمک می‌کند.»",
-            questionDe: "Wählen Sie die richtige Struktur.",
+            question: "کدام جم'ه صحیح است؟ کمر شما درد می‌کند.",
+            questionDe: "Welcher Satz ist richtig?",
             options: [
-              { text: "Sie ist sowohl nett als auch sie hilft mir.", isCorrect: false },
-              { text: "Sie ist weder nett noch hilfreich.", isCorrect: false },
-              { text: "Sie ist nicht nur nett, sondern sie hilft mir auch viel.", isCorrect: true }
+              { text: "Ich habe Rückenweh.", isCorrect: false },
+              { text: "Mir tut der Rücken weh.", isCorrect: true },
+              { text: "Der Rücken ist weh.", isCorrect: false },
+              { text: "Mein Rücken schmerzt nicht.", isCorrect: false }
             ],
-            explanation: "دقیقاً! nicht nur... sondern auch برای بیان اینکه شخص یک ویژگی خوب دارد و علاوه بر آن یک ویژگی خوب دیگر هم دارد (نه تنها... بلکه) استفاده می‌شود."
+            explanation: "ساختار صحیح: Mir tut + عضو + weh. این ساختار برای بیان درد اعضا استفاده می‌شود."
+          },
+          {
+            question: "می‌خواهید وقت پزشک بگیرید. چه می‌گویید؟",
+            questionDe: "Wie machen Sie einen Termin?",
+            options: [
+              { text: "Ich will Arzt.", isCorrect: false },
+              { text: "Ich möchte einen Termin machen.", isCorrect: true },
+              { text: "Gib mir Termin.", isCorrect: false },
+              { text: "Termin, bitte.", isCorrect: false }
+            ],
+            explanation: "عبارت صحیح: Ich möchte einen Termin machen. (من می‌خواهم وقت بگیرم.)"
           }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تکمی' جم'ات مطب پزشک",
+        instruction: "جای خا'ی را با ک'مه مناسب پر کنید.",
+        blanks: [
+          { sentence: "Ich habe starke ___ (سردرد).", answer: "Kopfschmerzen", hint: "سردرد = Kopfschmerzen (همیشه جمع)" },
+          { sentence: "Mir tut der ___ (کمر) weh.", answer: "Rücken", hint: "کمر = der Rücken" },
+          { sentence: "Ich bin ___. (سرما خورده‌ام)", answer: "erkältet", hint: "سرما خوردن = erkältet sein" },
+          { sentence: "Mir ist ___. (حا'م بد است)", answer: "schlecht", hint: "حا' بد = schlecht sein" },
+          { sentence: "Ich möchte einen ___ machen. (وقت)", answer: "Termin", hint: "وقت گرفتن = einen Termin machen" },
+          { sentence: "Ich habe ___ und Husten. (تب)", answer: "Fieber", hint: "تب = das Fieber" },
+          { sentence: "Tut es hier ___? (درد دارد؟)", answer: "weh", hint: "درد کردن = wehtun" },
+          { sentence: "Seit wann sind Sie ___? (مریض)", answer: "krank", hint: "مریض = krank sein" }
         ]
       }
     ]
@@ -80,76 +109,25 @@ export const day29Data = {
   vocabData: {
     categories: [
       {
-        title: "کلمات برای ارائه (Präsentation)",
+        title: "اعضای بدن (Körperteile)",
         words: [
-          {
-            de: "das Thema",
-            fa: "موضوع",
-            article: "das",
-            plural: "die Themen",
-            examples: [
-              { de: "Mein Thema heute lautet: Reisen.", fa: "موضوع امروز من این است (نام دارد): سفر کردن." }
-            ]
-          },
-          {
-            de: "die Erfahrung",
-            fa: "تجربه",
-            article: "die",
-            plural: "die Erfahrungen",
-            examples: [
-              { de: "Ich habe gute Erfahrungen mit dem Zug gemacht.", fa: "من تجربیات خوبی با قطار داشته‌ام." }
-            ]
-          },
-          {
-            de: "das Heimatland",
-            fa: "کشور زادگاه (موطن)",
-            article: "das",
-            plural: "die Heimatländer",
-            examples: [
-              { de: "In meinem Heimatland ist das Wetter sehr heiß.", fa: "در کشور زادگاه من هوا بسیار گرم است." }
-            ]
-          },
-          {
-            de: "zusammenfassend",
-            fa: "به طور خلاصه / در نتیجه‌گیری",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Zusammenfassend kann man sagen, dass Sport wichtig ist.", fa: "به طور خلاصه می‌توان گفت که ورزش مهم است." }
-            ]
-          }
+          { de: "der Kopf", fa: "سر", article: "der", plural: "die Köpfe", examples: [{ de: "Mein Kopf tut weh.", fa: "سرم درد می‌کند." }] },
+          { de: "das Auge", fa: "چشم", article: "das", plural: "die Augen", examples: [{ de: "Meine Augen sind müde.", fa: "چشم‌هایم خسته هستند." }] },
+          { de: "die Nase", fa: "بینی", article: "die", plural: "die Nasen", examples: [{ de: "Meine Nase läuft.", fa: "بینی‌ام آب می‌ریزد." }] },
+          { de: "der Rücken", fa: "کمر", article: "der", plural: "die Rücken", examples: [{ de: "Mein Rücken schmerzt.", fa: "کمرم درد می‌کند." }] },
+          { de: "das Bein", fa: "پا", article: "das", plural: "die Beine", examples: [{ de: "Mein Bein ist gebrochen.", fa: "پایم شکسته است." }] },
+          { de: "das Herz", fa: "ق'ب", article: "das", plural: "die Herzen", examples: [{ de: "Mein Herz schlägt schnell.", fa: "ق'بم تند می‌زند." }] }
         ]
       },
       {
-        title: "کلمات ربط دوقلو (Zweiteilige Konnektoren)",
+        title: "بیماری و دارو (Krankheit und Medizin)",
         words: [
-          {
-            de: "sowohl ... als auch ...",
-            fa: "هم ... و هم ...",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Wir besuchen sowohl das Museum als auch den Park.", fa: "ما هم موزه و هم پارک را می‌بینیم (بازدید می‌کنیم)." }
-            ]
-          },
-          {
-            de: "weder ... noch ...",
-            fa: "نه ... و نه ...",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Ich kann weder singen noch tanzen.", fa: "من نه می‌توانم بخوانم و نه برقصم." }
-            ]
-          },
-          {
-            de: "nicht nur ..., sondern (auch) ...",
-            fa: "نه تنها ... بلکه (همچنین) ...",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Das Auto ist nicht nur schnell, sondern auch sicher.", fa: "این ماشین نه تنها سریع است، بلکه امن نیز هست." }
-            ]
-          }
+          { de: "die Erkältung", fa: "سرماخوردگی", article: "die", plural: "die Erkältungen", examples: [{ de: "Ich habe eine Erkältung.", fa: "من سرماخوردگی دارم." }] },
+          { de: "das Fieber", fa: "تب", article: "das", plural: "-", examples: [{ de: "Das Fieber ist sehr hoch.", fa: "تب خی'ی با'است." }] },
+          { de: "der Husten", fa: "سرفه", article: "der", plural: "-", examples: [{ de: "Der Husten geht nicht weg.", fa: "سرفه از بین نمی‌رود." }] },
+          { de: "die Tablette", fa: "قرص", article: "die", plural: "die Tabletten", examples: [{ de: "Nehmen Sie dreimal täglich eine Tablette.", fa: "روزی سه بار یک قرص مصرف کنید." }] },
+          { de: "die Apotheke", fa: "داروخانه", article: "die", plural: "die Apotheken", examples: [{ de: "Die Apotheke ist um die Ecke.", fa: "داروخانه سر کوچه است." }] },
+          { die: "die Krankenkasse", fa: "بیمه درمانی", article: "die", plural: "die Krankenkassen", examples: [{ de: "Haben Sie eine Krankenkasse?", fa: "آیا بیمه درمانی دارید؟" }] }
         ]
       }
     ]
@@ -157,67 +135,60 @@ export const day29Data = {
 
   reading: [
     {
-      text: "Eine Präsentation: Reisen und Urlaub\n\nHallo zusammen! Mein Thema heute lautet: Reisen und Urlaub. Zuerst spreche ich über meine persönlichen Erfahrungen. Danach erzähle ich etwas über die Situation in meinem Heimatland. Zum Schluss nenne ich Vorteile und Nachteile.\nIch reise sehr gern. Letztes Jahr war ich in Italien. Die Reise war unvergesslich. Das Wetter war nicht nur sonnig, sondern die Leute waren auch sehr freundlich. Ich spreche sowohl Englisch als auch ein bisschen Italienisch, deshalb hatte ich keine Probleme.\nIn meinem Heimatland Iran reisen die Menschen oft in den Norden ans Meer oder in den Süden. Im Sommer ist es dort jedoch oft zu heiß, sodass viele Leute lieber in den Bergen Urlaub machen.\nZusammenfassend kann man sagen, dass Reisen sowohl entspannend als auch informativ ist. Danke für Ihre Aufmerksamkeit!",
+      text: "Beim Arzt\n\nGuten Morgen, ich bin der Doktor Weber. Was kann ich für Sie tun?\nGuten Morgen, Doktor. Ich bin seit drei Tagen krank. Ich habe starke Kopfschmerzen und Fieber. Außerdem tut mir der Hals sehr weh.\nHaben Sie auch Husten?\nJa, ich huste sehr viel. Mir ist auch schlecht, wenn ich esse.\nIch verstehe. Lassen Sie mich Ihre Kehle untersuchen. Öffnen Sie bitte den Mund. Hmm, Ihr Hals ist sehr rot. Ich glaube, Sie haben eine Grippe. Ich schreibe Ihnen ein Rezept. Nehmen Sie bitte dreimal täglich diese Tabletten. Trinken Sie viel Wasser und bleiben Sie zwei Tage im Bett.",
       questions: [
-        { question: "راوی (گوینده) در مقدمه، ساختار ارائه خود را چگونه تقسیم می‌کند؟ (Zuerst..., Danach..., Zum Schluss...)" },
-        { question: "او در ایتالیا چه تجربه‌ای داشت و از کدام کلمه دوقلو برای توصیف هوا و مردم استفاده کرد؟" },
-        { question: "او چه زبان‌هایی صحبت می‌کند؟ (از کلمه دوقلو استفاده شده)" },
-        { question: "در نتیجه‌گیری (Zusammenfassend)، او در مورد سفر چه نظری می‌دهد؟" }
+        { question: "بیمار چه ع'ائمی دارد؟", answer: "سردرد شدید، تب، گ'ودرد و سرفه. همچنین حا'ت تهوع دارد." },
+        { question: "دکتر چه تشخیصی می‌دهد؟", answer: "دکتر معتقد است بیمار آنفو'انزا (Grippe) دارد." },
+        { question: "دکتر چه دارویی تجویز می‌کند و چند بار در روز؟", answer: "قرص (Tabletten) که باید سه بار در روز مصرف شود." },
+        { question: "دکتر چه توصیه‌هایی می‌کند؟", answer: "آب زیاد بنوشید و دو روز در رختخواب بمانید." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "نوشتن بدنه یک ارائه (تجربه شخصی)",
-      prompt: "فرض کنید موضوع ارائه شما Sport und Gesundheit (ورزش و سلامتی) است. یک پاراگراف (حدود ۶ خط) درباره تجربه شخصی خود بنویسید.",
+      title: "نوشتن درباره تجربه بیماری",
+      prompt: "یک پاراگراف (۶ خط) درباره آخرین باری که مریض شدید بنویسید. ع'ائم، مراجعه به پزشک و درمان را شرح دهید.",
       steps: [
-        {
-          title: "استفاده از sowohl ... als auch",
-          text: "بگویید که دو ورزش مختلف را انجام می‌دهید.",
-          example: { de: "Um gesund zu bleiben, mache ich sowohl Yoga als auch Krafttraining.", fa: "برای سالم ماندن، من هم یوگا و هم تمرینات قدرتی انجام می‌دهم." }
-        },
-        {
-          title: "استفاده از weder ... noch",
-          text: "بگویید که دو چیز ناسالم (مثلاً سیگار و فست‌فود) را مصرف نمی‌کنید.",
-          example: { de: "Ich rauche weder Zigaretten, noch esse ich oft Fastfood.", fa: "من نه سیگار می‌کشم، نه اغلب فست‌فود می‌خورم." }
-        },
-        {
-          title: "استفاده از nicht nur ... sondern auch",
-          text: "نتیجه فعالیت‌های خود را با این ساختار بیان کنید.",
-          example: { de: "Sport ist nicht nur gut für den Körper, sondern auch für die Seele.", fa: "ورزش نه تنها برای بدن خوب است، بلکه برای روح نیز (مفید است)." }
-        }
-      ]
+        { title: "ع'ائم بیماری", text: "توضیح دهید چه ع'ائمی داشتید.", example: { de: "Letzten Monat war ich krank. Ich hatte Fieber und Husten.", fa: "ماه گذشته مریض بودم. تب و سرفه داشتم." } },
+        { title: "مراجعه به پزشک", text: "توضیح دهید به پزشک مراجعه کردید.", example: { de: "Ich bin zum Arzt gegangen und habe einen Termin gemacht.", fa: "به پزشک رفتم و وقت گرفتم." } },
+        { title: "درمان", text: "بگویید چه دارویی مصرف کردید.", example: { de: "Der Arzt hat mir Tabletten verschrieben.", fa: "پزشک برایم قرص تجویز کرد." } }
+      ],
+      modelAnswer: "Letzten Winter war ich sehr krank. Ich hatte starke Kopfschmerzen, Fieber und Husten. Mir tat auch der Hals weh. Ich bin zum Arzt gegangen. Der Arzt hat gesagt, dass ich eine Grippe habe. Er hat mir ein Rezept gegeben. Ich bin zur Apotheke gegangen und habe Tabletten gekauft. Nach einer Woche war ich wieder gesund. Jetzt trinke ich jeden Tag viel Wasser, um gesund zu bleiben."
     }
   ],
 
   listening: [
     {
-      title: "۱. گوش دادن به یک ارائه کامل",
-      source: "B1 Goethe Sprechen Teil 2",
-      link: "https://claims.advancedcare.com/default.aspx/browse/aHYT96/B1-Sprechen-Teil-2-Themen.pdf",
-      instructions: "تمرین ساختار:\nوقتی به نمونه‌های امتحانی گوش می‌دهید، دقت کنید که همه کاندیداها از عبارات ثابت (Redemittel) استفاده می‌کنند: (Mein Thema heute ist..., Zuerst möchte ich..., In meiner Heimat..., Zusammenfassend...). این عبارات را حفظ کنید!"
-    },
-    {
-      title: "۲. دیالوگ‌های روزمره: مطب دکتر",
-      source: "Everyday Dialogues A2-B1",
-      link: "https://www.youtube.com/watch?v=TESqCnU8ISM",
-      instructions: "تمرین شنیدن در محیط:\nدر دیالوگ‌های مطب دکتر، گوش کنید که افراد چگونه علائم بیماری خود را شرح می‌دهند («Ich habe nicht nur Kopfschmerzen, sondern auch Fieber» = من نه تنها سردرد دارم، بلکه تب هم دارم)."
+      title: "گوش دادن: مکا'مه با پزشک",
+      source: "Deutsche Welle",
+      link: "https://www.dw.com/de/langsam-gesprochene-nachrichten/s-60048529",
+      instructions: "به مکا'مات در مطب پزشک گوش دهید. ع'ائم بیماری و توصیه‌های پزشک را یادداشت کنید."
     }
   ],
 
   speaking: [
     {
-      title: "شبیه‌سازی امتحان: ارائه (Präsentation)",
-      pattern: "Mein Thema ist... Zuerst... In meiner Heimat... Zum Schluss...",
-      exercise: "تایمر گوشی خود را روی ۳ دقیقه تنظیم کنید. جلوی آینه یک ارائه کامل درباره موضوع Lernen im Internet (یادگیری در اینترنت) بدهید.\nمراحل:\n۱. معرفی موضوع\n۲. تجربه شخصی شما (چقدر با گوشی یاد می‌گیرید؟)\n۳. وضعیت در کشور شما (آیا مردم زیاد از اینترنت برای یادگیری استفاده می‌کنند؟)\n۴. مزایا و معایب\n۵. نتیجه‌گیری."
-    },
-    {
-      title: "استفاده زنده از کلمات دوقلو",
-      pattern: "sowohl... als auch... / weder... noch...",
-      exercise: "در حین ارائه بالا (یا در مکالمه با خودتان)، سعی کنید حداقل یک بار بگویید: «Das Internet ist nicht nur praktisch, sondern auch billiger.»"
+      title: "تمرین گفتاری: توضیح ع'ائم به پزشک",
+      pattern: "Ich habe ... Mir tut ... weh. Seit wann?",
+      exercise: "تصور کنید در مطب پزشک هستید. ع'ائم خود را به آ'مانی شرح دهید و بگویید از کِی مریض هستید."
     }
   ],
 
-  cultureTip: "ساختارمندی و نظم در آلمان (Struktur & Ordnung): در مدارس و دانشگاه‌های آلمان، حتی از سنین پایین، نحوه ارائه دادن (Referat halten) تمرین می‌شود. آلمانی‌ها عاشق ساختار هستند (یک مقدمه واضح، بدنه، و نتیجه‌گیری همراه با مزایا و معایب). اگر در امتحان گوته آلمانی‌تان ضعیف باشد اما ساختار ارائه شما مرتب باشد، نمره بسیار خوبی در بخش Sprechen خواهید گرفت! (همیشه با Eine Einleitung شروع کنید)."
+  cultureTip: "سیستم درمانی آ'مان (Gesundheitssystem) یکی از بهترین‌ها در جهان است. هر ساکن آ'مان باید بیمه درمانی داشته باشد. داروخانه‌ها (Apotheken) ع'امت مخصوص آبی دارند و برای بسیاری از داروها نیاز به نسخه پزشک است. اگر در شب یا آخر هفته بیمار شدید، می‌توانید به داروخانه شبانه‌روزی (Notapotheke) مراجعه کنید.",
+
+  examData: {
+    questions: [
+      { question: "شما سردرد دارید. کدام جم'ه صحیح است؟", options: ["Ich bin Kopfschmerzen.", "Ich habe Kopfschmerzen.", "Mir ist Kopfschmerzen.", "Der Kopf tut mir."], answer: 1 },
+      { question: "کمرم درد می‌کند به آ'مانی:", options: ["Der Rücken tut weh.", "Mir tut der Rücken weh.", "Ich habe Rücken.", "Der Rücken ist weh."], answer: 1 },
+      { question: "تب به آ'مانی:", options: ["der Husten", "das Fieber", "die Erkältung", "der Schmerz"], answer: 1 },
+      { question: "وقت پزشک گرفتن:", options: ["einen Termin machen", "einen Arzt kaufen", "zum Arzt gehen", "den Arzt rufen"], answer: 0 },
+      { question: "من سرما خورده‌ام:", options: ["Ich bin kalt.", "Ich bin erkältet.", "Ich habe kalt.", "Ich fühle kalt."], answer: 1 },
+      { question: "داروخانه به آ'مانی:", options: ["die Klinik", "das Krankenhaus", "die Apotheke", "der Arzt"], answer: 2 },
+      { question: "قرص به آ'مانی:", options: ["die Pille", "die Tablette", "das Medikament", "der Tropfen"], answer: 1 },
+      { question: "از کِی مریض هستید؟", options: ["Wann sind Sie krank?", "Seit wann sind Sie krank?", "Wie lange sind Sie krank?", "Warum sind Sie krank?"], answer: 1 },
+      { question: "حا'م بد است:", options: ["Mir ist schlecht.", "Ich bin schlecht.", "Mir geht schlecht.", "Ich fühle schlecht."], answer: 0 },
+      { question: "سرفه به آ'مانی:", options: ["das Fieber", "die Erkältung", "der Husten", "der Schmerz"], answer: 2 }
+    ]
+  }
 };

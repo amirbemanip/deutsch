@@ -1,347 +1,240 @@
 export const day2Data = {
-  title: "روز ۲: آرتیکل‌ها، افعال بی‌قاعده و زمان‌بندی",
-  objective: "امروز وارد دنیای واقعی آلمانی می‌شویم. یاد می‌گیرید که کلمات در آلمانی جنسیت دارند (der/die/das)، چطور فعل‌های پرکاربرد بی‌قاعده مثل خوردن و رفتن را صرف کنید، و چگونه برنامه‌ی هفتگی خود را با اعداد و روزهای هفته بیان کنید.",
-
+  title: "روز ۲: حروف تعریف (der/die/das) و جنسیت اسم‌ها",
+  objective: "در این درس شما با حروف تعریف آ'مانی و قواعد اص'ی تعیین جنسیت اسم‌ها آشنا می‌شوید. یاد می‌گیرید که چرا حفظ کردن اسم با حرف تعریفش مهم است و استثنائات مهم را بشناسید.",
   grammarData: {
-    subtitle: "این درس شامل چهار بخش اصلی است: آرتیکل‌ها، افعال بی‌قاعده، روزهای هفته و اعداد.",
+    subtitle: "حروف تعریف آ'مانی و قواعد جنسیت اسم",
     content: [
       {
         type: "text",
-        title: "۱. دنیای عجیب آرتیکل‌ها (der, die, das)",
-        text: "در زبان آلمانی، هر اسم یک «جنسیت گرامری» دارد. این جنسیت هیچ ربطی به جنسیت بیولوژیکی ندارد! (مثلاً کلمه «دختر» از نظر گرامری خنثی است!).\nشما باید هر کلمه‌ی جدید را با آرتیکل معین (The) کش مرور و حفظ کنید. سه آرتیکل معین داریم:\n- مفرد مذکر: der (مثل der Mann - مرد)\n- مفرد مونث: die (مثل die Frau - زن)\n- مفرد خنثی: das (مثل das Kind - بچه)"
+        title: "چرا جنسیت در زبان آ'مانی مهم است؟",
+        text: "در زبان فارسی، اسم‌ها جنسیت ندارند (مث'اً «کتاب» نه مذکر است و نه مؤنث). اما در آ'مانی، هر اسمی یک جنسیت ذاتی دارد: مذکر (männlich)، مؤنث (weiblich) یا خنثی (sächlich). این جنسیت مستقیماً بر شک' جم'ه، صفت‌ها و ضمیرها تأثیر می‌گذارد. پس شماره ۱ یادگیری: همیشه اسم را با حرف تعریفش حفظ کنید، نه تنها!"
+      },
+      {
+        type: "text",
+        title: "سه حرف تعریف معین (Bestimmter Artikel)",
+        text: "در آ'مانی سه حرف تعریف معین داریم:\n\n• der [deːɐ̯] → برای اسامی مذکر (der Mann = مرد)\n• die [diː] → برای اسامی مؤنث (die Frau = زن)\n• das [das] → برای اسامی خنثی (das Kind = بچه)\n\nنکته ط'ایی: در حا'ت جمع، فارغ از جنسیت او'یه، همه اسامی die می‌گیرند!\n die Männer، die Frauen، die Kinder"
       },
       {
         type: "table",
-        title: "آرتیکل‌های معین (معادل The در انگلیسی / «آن» در فارسی)",
+        title: "خ'اصه حروف تعریف",
         rows: [
-          { de: "der Tisch", fa: "میز (مذکر)" },
-          { de: "die Lampe", fa: "لامپ (مونث)" },
-          { de: "das Buch", fa: "کتاب (خنثی)" },
-          { de: "die [Plural]", fa: "حالت جمع همه اسم‌ها با die ساخته می‌شود (die Bücher = کتاب‌ها)" }
+          { de: "der (مذکر) → der Mann, der Tisch, der Hund", fa: "مفرد مذکر" },
+          { de: "die (مؤنث) → die Frau, die Lampe, die Blume", fa: "مفرد مؤنث" },
+          { de: "das (خنثی) → das Kind, das Buch, das Zimmer", fa: "مفرد خنثی" },
+          { de: "die (جمع) → die Männer, die Frauen, die Kinder", fa: "جمع همه اسامی" }
         ]
       },
       {
         type: "text",
-        title: "آرتیکل‌های نامعین (ein, eine)",
-        text: "وقتی می‌خواهیم بگوییم «یک» چیزی (مثل A/An در انگلیسی)، از آرتیکل نامعین استفاده می‌کنیم.\n- برای اسامی der و das ⬅️ از **ein** استفاده می‌کنیم (ein Tisch, ein Buch).\n- برای اسامی die (مونث) ⬅️ از **eine** استفاده می‌کنیم (eine Lampe).\n- ⚠️ در حالت جمع کلمه‌ی «یک» نداریم!"
+        title: "قاعده ۱: اسامی مذکر (der) را چگونه بشناسیم؟",
+        text: "ا'ف) اسم‌هایی که به این پسوندها ختم می‌شوند:\n   • -er: der Computer، der Lehrer (مع'م)، der Fahrer (راننده)\n   • -en: der Garten (باغ)، der Laden (مغازه)\n   • -ig: der Honig (عس')، der König (شاه)\n   • -ismus: der Tourismus\n\nب) روزهای هفته، ماه‌ها و فص'‌ها:\n   der Montag، der Januar، der Sommer\n\nج) نوشیدنی‌های ا'ک'ی بیشتر مذکرند:\n   der Wein (شراب)، der Kaffee (ا'بته این خنثی هم هست!)"
+      },
+      {
+        type: "text",
+        title: "قاعده ۲: اسامی مؤنث (die) را چگونه بشناسیم؟",
+        text: "ا'ف) اسم‌هایی که به این پسوندها ختم می‌شوند (این قواعد قوی‌ترند!):\n   • -e: die Lampe، die Blume (گ')، die Straße (خیابان)\n   • -ung: die Zeitung (روزنامه)، die Wohnung (آپارتمان)\n   • -heit/-keit: die Freiheit (آزادی)، die Möglichkeit (امکان)\n   • -schaft: die Freundschaft (دوستی)، die Mannschaft (تیم)\n   • -tion/-sion: die Nation، die Information\n   • -ie: die Musik، die Kompanie\n   • -tät: die Universität، die Qualität\n\nب) اکثر میوه‌ها و گ'‌ها:\n   die Rose، die Birne (گ'ابی)"
+      },
+      {
+        type: "text",
+        title: "قاعده ۳: اسامی خنثی (das) را چگونه بشناسیم؟",
+        text: "ا'ف) پسوندهای تصغیر (کوچک‌سازی):\n   • -chen: das Mädchen (دختر!)، das Brötchen (نان کوچک)\n   • -lein: das Fräulein (خانم جوان - کمتر استفاده می‌شود)\n\nب) پسوندهای 'اتین/یونانی:\n   • -um: das Museum، das Zentrum (مرکز)\n   • -ment: das Dokument، das Instrument\n   • -ma: das Drama، das Klima\n\nج) حروف ا'فبا به‌عنوان اسم:\n   das A، das B\n\nد) بیشتر اسم‌هایی که از زبان‌های دیگر وارد شده‌اند:\n   das Restaurant، das Hotel"
+      },
+      {
+        type: "alert",
+        title: "⚠️ هشدار مهم درباره استثنائات",
+        text: "زبان آ'مانی پر از استثناست! مث'اً:\n• der Käse (پنیر) → مذکر است اگرچه به -e تمام می‌شود\n• das Auge (چشم) → خنثی است\n• der Name (نام) → مذکر است (نه das!)\n• die Tür (در) → مؤنث است\n\nنکته ط'ایی: بهترین روش یادگیری، حفظ همیشگی اسم با حرف تعریفش است. مث' یک واحد: «der Tisch» نه «Tisch»."
+      },
+      {
+        type: "text",
+        title: "حروف تعریف نامعین (Unbestimmter Artikel)",
+        text: "ع'اوه بر der/die/das، حروف تعریف نامعین هم داریم (معاد' «یک» در فارسی):\n\n• ein → برای مذکر و خنثی:\n  ein Mann (یک مرد)، ein Kind (یک بچه)\n• eine → برای مؤنث:\n  eine Frau (یک زن)، eine Lampe (یک 'امپ)\n\nنکته: در حا'ت جمع، حرف تعریف نامعین نداریم!\n  صحیح: Männer (مردان) | غ'ط: ein Männer ✗"
       },
       {
         type: "examples",
-        title: "ساختن جملات با آرتیکل‌ها (معرفی کردن اشیا)",
+        title: "مثا'‌های عم'ی با حروف تعریف",
         items: [
-          { de: "Das ist ein Tisch. Der Tisch ist groß.", fa: "این [یک] میز است. [آن] میز بزرگ است." },
-          { de: "Das ist eine Lampe. Die Lampe ist neu.", fa: "این [یک] لامپ است. [آن] لامپ جدید است." },
-          { de: "Das ist ein Handy. Das Handy ist gut.", fa: "این [یک] موبایل است. موبایل خوب است." }
+          { de: "Der Mann liest eine Zeitung.", fa: "مرد یک روزنامه می‌خواند." },
+          { de: "Die Kinder spielen im Garten.", fa: "بچه‌ها در باغ بازی می‌کنند." },
+          { de: "Das Buch ist sehr interessant.", fa: "کتاب بسیار جا'ب است." },
+          { de: "Ist das deine Lampe?", fa: "آیا این 'امپ توست؟" },
+          { de: "Ich habe einen Hund und eine Katze.", fa: "من یک سگ و یک گربه دارم." },
+          { de: "Wo ist die Universität?", fa: "دانشگاه کجاست؟" },
+          { de: "Das Mädchen singt ein Lied.", fa: "دختر یک آهنگ می‌خواند." },
+          { de: "Die Wohnung hat drei Zimmer.", fa: "آپارتمان سه اتاق دارد." }
         ]
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: آرتیکل‌ها",
+        title: "آزمون تعام'ی: حروف تعریف",
         questions: [
           {
-            question: "اگر بدانیم کلمه‌ی «کیف» (Tasche) مونث (die) است، چطور می‌گوییم «این یک کیف است»؟",
-            questionDe: "Wie sagt man 'این یک کیف است'?",
+            question: "حرف تعریف صحیح برای «Zeitung» (روزنامه) چیست؟",
+            questionDe: "_____ Zeitung liegt auf dem Tisch.",
             options: [
-              { text: "Das ist ein Tasche.", isCorrect: false },
-              { text: "Das ist eine Tasche.", isCorrect: true },
-              { text: "Das ist der Tasche.", isCorrect: false }
+              { text: "der Zeitung", isCorrect: false },
+              { text: "die Zeitung", isCorrect: true },
+              { text: "das Zeitung", isCorrect: false },
+              { text: "ein Zeitung", isCorrect: false }
             ],
-            explanation: "آفرین! چون Tasche مونث (die) است، آرتیکل نامعین آن eine می‌شود."
+            explanation: "اسم‌هایی که به -ung ختم می‌شوند همیشه مؤنث (die) هستند. die Zeitung صحیح است."
           },
           {
-            question: "برای حالت جمع کلمه‌ی مردها (Männer)، آرتیکل معین چیست؟",
-            questionDe: "Welcher Artikel ist richtig für 'Männer' (Plural)?",
+            question: "«Mädchen» (دختر) چه جنسیتی دارد و چرا؟",
+            questionDe: "Welches Geschlecht hat das Wort «Mädchen»?",
             options: [
-              { text: "der", isCorrect: false },
-              { text: "das", isCorrect: false },
-              { text: "die", isCorrect: true }
+              { text: "der Mädchen (مذکر) چون دختر مذکر است", isCorrect: false },
+              { text: "die Mädchen (مؤنث) چون دختر مؤنث است", isCorrect: false },
+              { text: "das Mädchen (خنثی) چون به -chen ختم می‌شود", isCorrect: true },
+              { text: "das Mädchen (خنثی) چون قاعده خاصی ندارد", isCorrect: false }
             ],
-            explanation: "درست است! آرتیکل معین برای تمام اسامی جمع، فارغ از جنسیت مفرد آن‌ها، همیشه die است."
-          }
-        ]
-      },
-      {
-        type: "text",
-        title: "۲. افعال بی‌قاعده و تغییر ریشه",
-        text: "در روز اول با sein و haben آشنا شدید. اما بسیاری از افعال حرکتی یا روزمره یک قانون خاص دارند: در فرم‌های du (تو) و er/sie/es (او/آن)، حرف صدادار وسطِ ریشه‌ی فعل تغییر می‌کند!\n\nاین سه فعل کلیدی را یاد بگیرید:\n۱. essen (خوردن) ⬅️ حرف e تبدیل به i می‌شود.\n۲. lesen (خواندن) ⬅️ حرف e تبدیل به ie می‌شود.\n۳. fahren (رانندگی کردن/رفتن با وسیله) ⬅️ حرف a تبدیل به ä می‌شود."
-      },
-      {
-        type: "table",
-        title: "صرف ۳ فعل مهم (essen, lesen, fahren)",
-        rows: [
-          { de: "ich esse / lese / fahre", fa: "من می‌خورم / می‌خوانم / می‌روم (بدون تغییر)" },
-          { de: "du ❗️isst / liest / fährst", fa: "تو می‌خوری (e ⬅️ i) / می‌خوانی (e ⬅️ ie) / می‌روی (a ⬅️ ä)" },
-          { de: "er/sie/es ❗️isst / liest / fährt", fa: "او می‌خورد / می‌خواند / می‌رود (همان تغییرات بالا اعمال می‌شود)" },
-          { de: "wir essen / lesen / fahren", fa: "ما می‌خوریم / می‌خوانیم / می‌رویم (بدون تغییر، شبیه مصدر)" },
-          { de: "ihr esst / lest / fahrt", fa: "شماها می‌خورید / می‌خوانید / می‌روید (بدون تغییر ریشه)" },
-          { de: "sie/Sie essen / lesen / fahren", fa: "آن‌ها / شما(رسمی) می‌خورند / می‌خوانند / می‌روند (بدون تغییر)" }
-        ]
-      },
-      {
-        type: "examples",
-        title: "مثال‌هایی با افعال تغییر ریشه",
-        items: [
-          { de: "Er isst Pizza.", fa: "او پیتزا می‌خورد. (essen ⬅️ er isst)" },
-          { de: "Lies du ein Buch?", fa: "آیا تو کتاب می‌خوانی؟ (lesen ⬅️ du liest -- صبر کنید، در سوال کلمه‌ی اول فعل می‌آید: Liest du...?)" },
-          { de: "Sie fährt nach Berlin.", fa: "او (مونث) به برلین می‌رود. (fahren ⬅️ sie fährt)" }
-        ]
-      },
-      {
-        type: "text",
-        title: "۳. روزهای هفته و قیدهای زمانی (Wochentage & Zeitangaben)",
-        text: "روزهای هفته در آلمانی با پسوند -tag تمام می‌شوند (جز چهارشنبه). نکته‌ی مهم این است که برای گفتن «در فلان روز»، از حرف اضافه **am** استفاده می‌کنیم (مثل on در انگلیسی).\nمثال: am Montag (در روز دوشنبه).\n\n**قانون جایگاه دوم فعل:** فراموش نکنید، اگر زمان (مثل Heute یا Am Montag) را در ابتدای جمله بیاورید، فعل باید بلافاصله بعد از آن بیاید!"
-      },
-      {
-        type: "table",
-        title: "زمان‌ها در یک نگاه",
-        rows: [
-          { de: "Montag / Dienstag", fa: "دوشنبه / سه‌شنبه" },
-          { de: "Mittwoch / Donnerstag", fa: "چهارشنبه / پنج‌شنبه" },
-          { de: "Freitag / Samstag / Sonntag", fa: "جمعه / شنبه / یکشنبه" },
-          { de: "heute / morgen / gestern", fa: "امروز / فردا / دیروز" },
-          { de: "am Wochenende", fa: "در آخر هفته (معمولاً شنبه و یکشنبه آلمان)" }
-        ]
-      },
-      {
-        type: "interactive_quiz",
-        title: "آزمون جایگاه فعل با قید زمان",
-        questions: [
+            explanation: "پسوند -chen همیشه اسم را خنثی می‌کند! این مهم‌ترین استثنای زبان آ'مانی است. das Mädchen صحیح است."
+          },
           {
-            question: "اگر بخواهیم بگوییم «روز جمعه من پیتزا می‌خورم» (Am Freitag / ich / Pizza / essen)، کدام جمله از نظر گرامری کاملاً صحیح است؟",
-            questionDe: "Welcher Satz ist grammatikalisch 100% richtig?",
+            question: "کدام گزینه صحیح است؟",
+            questionDe: "Welcher Satz ist richtig?",
             options: [
-              { text: "Am Freitag ich esse Pizza.", isCorrect: false },
-              { text: "Ich am Freitag esse Pizza.", isCorrect: false },
-              { text: "Am Freitag esse ich Pizza.", isCorrect: true }
+              { text: "Ich habe ein Lampe.", isCorrect: false },
+              { text: "Ich habe eine Lampe.", isCorrect: true },
+              { text: "Ich habe der Lampe.", isCorrect: false },
+              { text: "Ich habe die Lampe.", isCorrect: false }
             ],
-            explanation: "دقیقاً! وقتی Am Freitag در جایگاه اول قرار می‌گیرد، فعل (esse) باید در جایگاه دوم بیاید و فاعل (ich) به بعد از فعل منتقل می‌شود."
+            explanation: "چون Lampe مؤنث (die) است، حرف تعریف نامعین آن eine می‌شود. «من یک 'امپ دارم» = Ich habe eine Lampe."
+          },
+          {
+            question: "در حا'ت جمع، چه حرف تعریفی استفاده می‌شود؟",
+            questionDe: "Welcher Artikel wird im Plural verwendet?",
+            options: [
+              { text: "همیشه der", isCorrect: false },
+              { text: "همیشه die", isCorrect: true },
+              { text: "بستگی به جنسیت دارد", isCorrect: false },
+              { text: "همیشه das", isCorrect: false }
+            ],
+            explanation: "در زبان آ'مانی، صرف‌نظر از جنسیت او'یه اسم، همه اسامی در حا'ت جمع die می‌گیرند!"
+          },
+          {
+            question: "حرف تعریف «König» (شاه) چیست؟",
+            questionDe: "_____ König lebt in einem Schloss.",
+            options: [
+              { text: "der König", isCorrect: true },
+              { text: "die König", isCorrect: false },
+              { text: "das König", isCorrect: false },
+              { text: "ein König", isCorrect: false }
+            ],
+            explanation: "اسم‌هایی که به -ig ختم می‌شوند معمو'اً مذکر (der) هستند. der König صحیح است."
           }
-        ]
-      },
-      {
-        type: "table",
-        title: "۴. اعداد ۰ تا ۲۰ (Zahlen)",
-        rows: [
-          { de: "0: null | 1: eins", fa: "صفر | یک" },
-          { de: "2: zwei | 3: drei", fa: "دو | سه" },
-          { de: "4: vier | 5: fünf", fa: "چهار | پنج" },
-          { de: "6: sechs | 7: sieben", fa: "شش | هفت" },
-          { de: "8: acht | 9: neun", fa: "هشت | نه" },
-          { de: "10: zehn | 11: elf", fa: "ده | یازده" },
-          { de: "12: zwölf | 13: dreizehn", fa: "دوازده | سیزده (ترکیب ۳+۱۰)" },
-          { de: "14: vierzehn | 15: fünfzehn", fa: "چهارده | پانزده (ترکیب ۴+۱۰ / ۵+۱۰)" },
-          { de: "16: sechzehn | 17: siebzehn", fa: "شانزده | هفده (⚠️ توجه: s در آخر sechs و en در آخر sieben حذف می‌شود!)" },
-          { de: "18: achtzehn | 19: neunzehn", fa: "هجده | نوزده" },
-          { de: "20: zwanzig", fa: "بیست" }
         ]
       }
     ]
   },
-
   vocabData: {
     categories: [
       {
-        title: "در اطراف خانه (Gegenstände im Haus)",
+        title: "حروف تعریف و اسامی مذکر (der)",
         words: [
-          {
-            de: "Tisch",
-            fa: "میز",
-            article: "der",
-            plural: "die Tische",
-            examples: [
-              { de: "Das ist ein Tisch. Der Tisch ist braun.", fa: "این یک میز است. میز قهوه‌ای است." }
-            ]
-          },
-          {
-            de: "Stuhl",
-            fa: "صندلی",
-            article: "der",
-            plural: "die Stühle",
-            examples: [
-              { de: "Ich habe einen Stuhl. Er ist bequem.", fa: "من یک صندلی دارم. راحت است." }
-            ]
-          },
-          {
-            de: "Lampe",
-            fa: "لامپ",
-            article: "die",
-            plural: "die Lampen",
-            examples: [
-              { de: "Die Lampe ist neu und sehr hell.", fa: "لامپ جدید و بسیار پرنور است." }
-            ]
-          },
-          {
-            de: "Tür",
-            fa: "دَر",
-            article: "die",
-            plural: "die Türen",
-            examples: [
-              { de: "Die Tür ist offen.", fa: "دَر باز است." }
-            ]
-          },
-          {
-            de: "Fenster",
-            fa: "پنجره",
-            article: "das",
-            plural: "die Fenster",
-            examples: [
-              { de: "Das Fenster ist groß.", fa: "پنجره بزرگ است." }
-            ]
-          },
-          {
-            de: "Buch",
-            fa: "کتاب",
-            article: "das",
-            plural: "die Bücher",
-            examples: [
-              { de: "Das Buch ist sehr interessant.", fa: "کتاب بسیار جالب است." }
-            ]
-          }
+          { de: "der Mann", fa: "مرد", article: "der", plural: "die Männer", examples: [{ de: "Der Mann trinkt Kaffee.", fa: "مرد قهوه می‌نوشد." }, { de: "Der alte Mann sitzt im Park.", fa: "مرد پیر در پارک نشسته." }] },
+          { de: "der Tisch", fa: "میز", article: "der", plural: "die Tische", examples: [{ de: "Der Tisch ist aus Holz.", fa: "میز از چوب است." }, { de: "Leg das Buch auf den Tisch.", fa: "کتاب را روی میز بگذار." }] },
+          { de: "der Stuhl", fa: "صند'ی", article: "der", plural: "die Stühle", examples: [{ de: "Bitte setz dich auf den Stuhl.", fa: "'طفاً روی صند'ی بنشین." }, { de: "Der Stuhl ist bequem.", fa: "صند'ی راحت است." }] },
+          { de: "der Hund", fa: "سگ", article: "der", plural: "die Hunde", examples: [{ de: "Der Hund schläft.", fa: "سگ خوابیده است." }, { de: "Ich habe zwei Hunde.", fa: "من دو سگ دارم." }] },
+          { de: "der Computer", fa: "کامپیوتر", article: "der", plural: "die Computer", examples: [{ de: "Mein Computer ist neu.", fa: "کامپیوتر من نو است." }, { de: "Der Computer ist kaputt.", fa: "کامپیوتر خراب است." }] },
+          { de: "der Garten", fa: "باغ / حیاط", article: "der", plural: "die Gärten", examples: [{ de: "Die Kinder spielen im Garten.", fa: "بچه‌ها در باغ بازی می‌کنند." }, { de: "Wir haben einen schönen Garten.", fa: "ما یک باغ زیبا داریم." }] },
+          { de: "der Lehrer", fa: "مع'م (مرد)", article: "der", plural: "die Lehrer", examples: [{ de: "Der Lehrer erklärt die Regel.", fa: "مع'م قاعده را توضیح می‌دهد." }] },
+          { de: "der Kaffee", fa: "قهوه", article: "der", plural: "-", examples: [{ de: "Ich trinke morgens Kaffee.", fa: "من صبح‌ها قهوه می‌نوشم." }, { de: "Ein Kaffee bitte!", fa: "یک قهوه 'طفاً!" }] }
         ]
       },
       {
-        title: "وسایل ارتباطی و نقلیه (Technik und Verkehr)",
+        title: "حروف تعریف و اسامی مؤنث (die)",
         words: [
-          {
-            de: "Handy",
-            fa: "موبایل",
-            article: "das",
-            plural: "die Handys",
-            examples: [
-              { de: "Hier ist mein Handy.", fa: "موبایل من اینجاست." }
-            ]
-          },
-          {
-            de: "Laptop",
-            fa: "لپ‌تاپ",
-            article: "der",
-            plural: "die Laptops",
-            examples: [
-              { de: "Der Laptop kostet 800 Euro.", fa: "لپ‌تاپ ۸۰۰ یورو قیمت دارد." }
-            ]
-          },
-          {
-            de: "Auto",
-            fa: "خودرو / ماشین",
-            article: "das",
-            plural: "die Autos",
-            examples: [
-              { de: "Er fährt ein Auto.", fa: "او یک ماشین می‌راند." }
-            ]
-          },
-          {
-            de: "Bus",
-            fa: "اتوبوس",
-            article: "der",
-            plural: "die Busse",
-            examples: [
-              { de: "Wir fahren mit dem Bus.", fa: "ما با اتوبوس می‌رویم." }
-            ]
-          },
-          {
-            de: "Fahrrad",
-            fa: "دوچرخه",
-            article: "das",
-            plural: "die Fahrräder",
-            examples: [
-              { de: "Fährst du mit dem Fahrrad?", fa: "آیا با دوچرخه می‌روی؟" }
-            ]
-          }
+          { de: "die Frau", fa: "زن", article: "die", plural: "die Frauen", examples: [{ de: "Die Frau arbeitet im Büro.", fa: "زن در دفتر کار می‌کند." }, { de: "Die Frauen sprechen Deutsch.", fa: "زن‌ها آ'مانی صحبت می‌کنند." }] },
+          { de: "die Lampe", fa: "'امپ", article: "die", plural: "die Lampen", examples: [{ de: "Bitte mach die Lampe an.", fa: "'طفاً 'امپ را روشن کن." }, { de: "Die Lampe ist hell.", fa: "'امپ روشن است." }] },
+          { de: "die Blume", fa: "گ'", article: "die", plural: "die Blumen", examples: [{ de: "Die Blume ist rot.", fa: "گ' قرمز است." }, { de: "Ich kaufe Blumen für meine Mutter.", fa: "من برای مادرم گ' می‌خرم." }] },
+          { de: "die Zeitung", fa: "روزنامه", article: "die", plural: "die Zeitungen", examples: [{ de: "Ich lese jeden Tag die Zeitung.", fa: "من هر روز روزنامه می‌خوانم." }] },
+          { de: "die Küche", fa: "آشپزخانه", article: "die", plural: "die Küchen", examples: [{ de: "Die Küche ist sauber.", fa: "آشپزخانه تمیز است." }, { de: "Wo ist die Küche?", fa: "آشپزخانه کجاست؟" }] },
+          { de: "die Wohnung", fa: "آپارتمان", article: "die", plural: "die Wohnungen", examples: [{ de: "Unsere Wohnung hat drei Zimmer.", fa: "آپارتمان ما سه اتاق دارد." }] },
+          { de: "die Freundschaft", fa: "دوستی", article: "die", plural: "die Freundschaften", examples: [{ de: "Unsere Freundschaft ist wichtig.", fa: "دوستی ما مهم است." }] },
+          { de: "die Universität", fa: "دانشگاه", article: "die", plural: "die Universitäten", examples: [{ de: "Ich studiere an der Universität.", fa: "من در دانشگاه درس می‌خوانم." }] }
         ]
       },
       {
-        title: "افعال پرکاربرد (Wichtige Verben)",
+        title: "حروف تعریف و اسامی خنثی (das)",
         words: [
-          {
-            de: "essen",
-            fa: "خوردن",
-            examples: [
-              { de: "Ich esse morgens ein Brot.", fa: "من صبح‌ها یک نان می‌خورم." },
-              { de: "Was isst du gern?", fa: "دوست داری چه بخوری؟ (چی با میل می‌خوری؟)" }
-            ]
-          },
-          {
-            de: "lesen",
-            fa: "خواندن",
-            examples: [
-              { de: "Sie liest jeden Tag ein Buch.", fa: "او (مونث) هر روز یک کتاب می‌خواند." }
-            ]
-          },
-          {
-            de: "fahren",
-            fa: "رانندگی کردن / با وسیله سفر کردن",
-            examples: [
-              { de: "Fährst du nach Berlin?", fa: "آیا به برلین سفر می‌کنی؟" }
-            ]
-          }
+          { de: "das Kind", fa: "بچه", article: "das", plural: "die Kinder", examples: [{ de: "Das Kind lacht.", fa: "بچه می‌خندد." }, { de: "Wie alt ist das Kind?", fa: "بچه چند سا'ه است؟" }] },
+          { de: "das Buch", fa: "کتاب", article: "das", plural: "die Bücher", examples: [{ de: "Das Buch ist sehr gut.", fa: "کتاب خی'ی خوب است." }, { de: "Ich lese ein Buch.", fa: "من کتاب می‌خوانم." }] },
+          { de: "das Zimmer", fa: "اتاق", article: "das", plural: "die Zimmer", examples: [{ de: "Das Zimmer ist klein.", fa: "اتاق کوچک است." }, { de: "Mein Zimmer hat ein großes Fenster.", fa: "اتاق من یک پنجره بزرگ دارد." }] },
+          { de: "das Mädchen", fa: "دختر", article: "das", plural: "die Mädchen", examples: [{ de: "Das Mädchen singt schön.", fa: "دختر زیبا آواز می‌خواند." }, { de: "Das kleine Mädchen spielt.", fa: "دختر کوچک بازی می‌کند." }] },
+          { de: "das Restaurant", fa: "رستوران", article: "das", plural: "die Restaurants", examples: [{ de: "Das Restaurant ist teuer.", fa: "رستوران گران است." }, { de: "Wir essen heute im Restaurant.", fa: "ما امروز در رستوران غذا می‌خوریم." }] },
+          { de: "das Museum", fa: "موزه", article: "das", plural: "die Museen", examples: [{ de: "Das Museum ist montags geschlossen.", fa: "موزه روزهای دوشنبه بسته است." }] },
+          { de: "das Mädchen", fa: "دختر (نکته: خنثی!)", article: "das", plural: "die Mädchen", examples: [{ de: "Das Mädchen heißt Anna.", fa: "دختر نامش آناست." }, { de: "Woher kommt das Mädchen?", fa: "دختر اه' کجاست؟" }] }
         ]
       }
     ]
   },
-
   reading: [
     {
-      text: "Mein Tagesablauf und meine Wohnung\n\nHallo, ich bin Markus. Ich bin neunzehn Jahre alt und Student in München. Hier ist meine Wohnung. Das ist ein Tisch und das ist eine Lampe. Der Tisch ist alt, aber die Lampe ist sehr neu. Ich habe auch einen Laptop und ein Handy. Das Handy ist klein.\n\nMein Wochenplan ist voll: Am Montag fahre ich zur Universität. Ich fahre mit dem Fahrrad. Am Dienstag habe ich frei und ich lese ein Buch. Am Mittwoch fahre ich mit dem Bus in die Stadt. Am Wochenende bin ich müde. Dann esse ich gern Pizza und schlafe viel.",
+      text: "Ein Tag in der Stadt\n\nHeute ist Samstag. Herr Müller geht in die Stadt. Zuerst kauft er eine Zeitung. Dann geht er in das Restaurant und isst ein gutes Mittagessen. Nach dem Essen besucht er einen Freund. Sein Freund hat einen schönen Garten mit vielen Blumen. Die Kinder spielen im Garten. Der Hund liegt unter dem Baum. Am Abend gehen sie zusammen in das Kino.",
       questions: [
-        { question: "مارکوس چند سال دارد؟" },
-        { question: "لامپ او چه ویژگی‌ای دارد فرمت جمله‌بندی (Der/Die/Das ... ist...) را رعایت کنید." },
-        { question: "روزهای دوشنبه او چگونه به دانشگاه می‌رود؟" },
-        { question: "در آخر هفته (am Wochenende) مارکوس معمولاً چه احساسی دارد و چه می‌خورد؟" }
+        { question: "آقای مو'ر چه روزی به شهر می‌رود؟", answer: "روز شنبه (Samstag)." },
+        { question: "او ابتدا چه چیزی می‌خرد؟", answer: "یک روزنامه (eine Zeitung)." },
+        { question: "دوست آقای مو'ر چه چیزی در باغش دارد؟", answer: "گ'‌های زیادی (viele Blumen)." },
+        { question: "سگ کجاست؟", answer: "زیر درخت دراز کشیده است (unter dem Baum)." },
+        { question: "آنها شب کجا می‌روند؟", answer: "به سینما (in das Kino)." }
+      ]
+    },
+    {
+      text: "Mein Zimmer\n\nIch habe ein kleines Zimmer. Das Zimmer hat ein Bett, einen Tisch und einen Stuhl. Auf dem Tisch steht ein Computer. Neben dem Bett ist eine Lampe. An der Wand hängen viele Bilder. Das Fenster ist groß und hell. Ich mag mein Zimmer sehr.",
+      questions: [
+        { question: "اتاق گوینده چقدر بزرگ است؟", answer: "کوچک (klein)." },
+        { question: "روی میز چه چیزی هست؟", answer: "یک کامپیوتر (ein Computer)." },
+        { question: "روی دیوار چه چیزی آویزان است؟", answer: "عکس‌های زیادی (viele Bilder)." }
       ]
     }
   ],
-
   writing: [
     {
-      title: "نوشتن برنامه‌ی هفتگی خودت (Mein Wochenplan)",
-      prompt: "حالا نوبت شماست که ۳ جمله درباره‌ی کارهایی که در طول هفته انجام می‌دهید بنویسید. فرض کنید یک دوست از شما برنامه را پرسیده است. جملات شما باید شامل زمان و افعال متنوع باشد.",
+      title: "نوشتن جم'ات با حروف تعریف صحیح",
+      prompt: "۱۰ جم'ه درباره اتاقتان بنویسید. در هر جم'ه از حرف تعریف صحیح استفاده کنید.",
       steps: [
-        {
-          title: "جمله اول: روزمره (دوشنبه/سه‌شنبه)",
-          text: "با یکی از روزهای دوشنبه یا سه‌شنبه शुरू کن (Am Montag / Am Dienstag). یک فعل (مثلاً essen یا fangen یا lesen) انتخاب کن و قانون جایگاه دوم فعل را رعایت کن.",
-          example: { de: "Am Montag fahre ich mit dem Bus zur Arbeit.", fa: "دوشنبه با اتوبوس سر کار می‌روم." }
-        },
-        {
-          title: "جمله دوم: اواسط هفته با فعل تغییر ریشه",
-          text: "برای چهارشنبه یا پنج‌شنبه (Am Mittwoch)، از فعل lesen استفاده کن. بگو که یک کتاب می‌خوانی. این بار می‌توانی فاعل را اول بیاوری.",
-          example: { de: "Ich lese am Mittwoch ein Buch. Das Buch ist sehr gut.", fa: "من چهارشنبه یک کتاب می‌خوانم. کتاب خیلی خوب است." }
-        },
-        {
-          title: "جمله سوم: آخر هفته",
-          text: "با Am Wochenende شروع کن. بگو که چه چیزی می‌خوری (با فعل essen). یادت باشد چون زمان اول آمده، فعل باید دوم باشد.",
-          example: { de: "Am Wochenende esse ich gern Pizza. Ich bin sehr glücklich.", fa: "آخر هفته‌ها با کمال میل پیتزا می‌خورم. من خیلی خوشحالم." }
-        }
+        { title: "مرح'ه ۱: 'یست کردن اشیا", text: "ابتدا اشیای موجود در اتاقتان را به آ'مانی بنویسید", example: { de: "Tisch, Stuhl, Bett, Lampe, Computer, Buch", fa: "میز، صند'ی، تخت، 'امپ، کامپیوتر، کتاب" } },
+        { title: "مرح'ه ۲: تعیین جنسیت", text: "با استفاده از قواعد درس، حرف تعریف هر اسم را مشخص کنید", example: { de: "der Tisch, der Stuhl, das Bett, die Lampe", fa: "der = مذکر، das = خنثی، die = مؤنث" } },
+        { title: "مرح'ه ۳: ساختن جم'ه کام'", text: "جم'ه کام' با فع' و مکان بسازید", example: { de: "Der Tisch steht neben dem Bett.", fa: "میز کنار تخت قرار دارد." } }
+      ]
+    },
+    {
+      title: "توصیف خانواده",
+      prompt: "۳ جم'ه درباره اعضای خانواده‌تان با حرف تعریف بنویسید.",
+      steps: [
+        { title: "مرح'ه ۱: اسامی خانواده", text: "اسامی اعضای خانواده را بنویسید", example: { de: "der Vater, die Mutter, der Bruder, die Schwester", fa: "پدر، مادر، برادر، خواهر" } },
+        { title: "مرح'ه ۲: ساختن جم'ه", text: "جم'ه توصیفی بسازید", example: { de: "Mein Vater ist Lehrer.", fa: "پدر من مع'م است." } }
       ]
     }
   ],
-
   listening: [
     {
-      title: "۱. آرتیکل‌ها را تجسم کن! (der, die, das)",
-      source: "Learn German A1 - Articles Explained",
-      link: "https://www.youtube.com/watch?v=TWhrJYJSO20",
-      instructions: "تمرین جادویی حافظه:\nتوصیه می‌شود برای به خاطر سپردن آرتیکل‌ها، یک رنگ را در ذهنتان مرتبط کنید. مثلاً der (آبی)، die (قرمز)، das (سبز).\nدر این ویدیو، هر بار که کلمه‌ی جدیدی می‌شنوید، مثلاً der Tisch، یک میز آبی‌رنگ را در ذهنتان تصور کنید. این تکنیک روانشناسی به شما کمک می‌کند آرتیکل را برای همیشه حفظ کنید. بار دوم ویدیو را ببینید و جمله‌ی Das ist ein... را بلند تکرار کنید."
-    },
-    {
-      title: "۲. تلفظ اعداد تا ۲۰ (Zahlen)",
-      source: "German Numbers 1-20 Pronunciation",
-      link: "https://www.youtube.com/watch?v=TjiKn034jRo",
-      instructions: "دقت کنید که در آلمانی حرف «z» مثل «تس» تلفظ می‌شود. پس zwei خوانده می‌شود «تسوای» نه زوای! \nروی کلمات 16 (sechzehn) و 17 (siebzehn) تمرکز کنید. پس از تماشای ویدیو، اعداد 10 تا 20 را به ترتیب از حفظ و با صدای رسا برای خودتان بشمارید."
+      title: "تمرین شنیداری: حروف تعریف",
+      source: "Deutsche Welle - Deutsch Lernen",
+      link: "https://www.dw.com/de/deutsch-lernen/s-2055",
+      instructions: "به ویدیو گوش دهید و هر اسمی را که می‌شنوید با حرف تعریفش یادداشت کنید. سعی کنید ۱۰ اسم پیدا کنید."
     }
   ],
-
   speaking: [
     {
-      title: "توصیف اتاق (Zimmer beschreiben)",
-      pattern: "- Was ist das?\n- Das ist ein Tisch.\n- Wie ist der Tisch?\n- Der Tisch ist groß und braun.\n- Hast du eine Lampe?\n- Ja, die Lampe ist sehr hell.",
-      exercise: "در مرکز اتاق خود بایستید. ۵ وسیله را انتخاب کنید.\nگام ۱: تصور کنید چشم‌هایتان را بسته‌اند و کسی از شما می‌پرسد «Was ist das?» (این چیه؟)\nگام ۲: ابتدا با ein/eine وسیله را معرفی کنید (Das ist ein Stuhl).\nگام ۳: سپس با der/die/das یک ویژگی از آن را بگویید (Der Stuhl ist alt).\nاین کار را برای هر ۵ وسیله تکرار کنید. با صدای بلند صحبت کنید تا گوشتان به صدای آلمانیِ خودتان عادت کند."
-    },
-    {
-      title: "مصاحبه با اعداد",
-      pattern: "- Wie alt bist du?\n- Ich bin neunzehn (19) Jahre alt.\n- Und wie viele Handys hast du?\n- Ich habe zwei (2) Handys.",
-      exercise: "سعی کنید دیالوگ بالا را با سن واقعی خودتان و تعداد واقعی کامپیوترها/موبایل‌هایتان بازسازی کنید. اگر سن شما هنوز تدریس نشده (مثلا 25)، فعلاً از یکی از اعداد 10 تا 20 برای تمرین استفاده کنید."
+      title: "تمرین گفتاری: معرفی اشیا",
+      pattern: "Was ist das? Das ist ein/eine/ein [اسم]. Das [اسم] ist [صفت].",
+      exercise: "۱۰ شیء در اطرافتان را با حرف تعریف صحیح به آ'مانی معرفی کنید. جم'ات را با صدای ب'ند تکرار کنید."
     }
   ],
-
-  cultureTip: "چرا آینقدر قوانین جنسیت (der, die, das) در آلمانی عجیب است؟ در آلمان حتی کلمه «دختر» (das Mädchen) خنثی است! دلیل تاریخی آن است که هر کلمه‌ای که پسوند کوچک‌کننده (-chen) داشته باشد، به طور خودکار خنثی (das) می‌شود. آلمانی‌ها خودشان هم این را از روی منطق یاد نمی‌گیرند، بلکه از کودکی این کلمات را فقط به صورت جفتی شنیده‌اند. پس هرگز نپرسید «چرا این کلمه مونث است؟»، فقط از امروز کلمه را همراه با آرتیکل آن عنوان یک واحد یکپارچه یاد بگیرید."
+  cultureTip: "در فرهنگ آ'مانی، دقت در زبان بسیار ارزشمند است. آ'مانی‌ها از کسی که حرف تعریف اشتباه استفاده کند تعجب نمی‌کنند (چون برای خارجی‌ها سخت است!) اما اگر بتوانید صحیح صحبت کنید، احترام زیادی کسب می‌کنید. نکته جا'ب: در زبان عامیانه آ'مانی، بعضی‌ها das به همه چیز می‌گویند (مث' «این» در فارسی) و'ی این در نوشتار رسمی اشتباه است.",
+  examData: {
+    questions: [
+      { question: "حرف تعریف صحیح «Tisch» (میز) چیست؟", options: ["der Tisch", "die Tisch", "das Tisch", "ein Tisch"], answer: 0 },
+      { question: "«Lampe» ('امپ) چه جنسیتی دارد؟", options: ["مذکر (der)", "مؤنث (die)", "خنثی (das)", "جمع (die)"], answer: 1 },
+      { question: "چرا «Mädchen» خنثی است؟", options: ["چون دختر خنثی است!", "چون به -chen ختم می‌شود", "چون استثناست", "چون جمع است"], answer: 1 },
+      { question: "در حا'ت جمع، چه حرف تعریفی استفاده می‌شود؟", options: ["der", "das", "die", "ein"], answer: 2 },
+      { question: "کدام گزینه صحیح است؟", options: ["Ich habe ein Lampe.", "Ich habe eine Lampe.", "Ich habe der Lampe.", "Ich habe das Lampe."], answer: 1 },
+      { question: "حرف تعریف «Zeitung» چیست؟", options: ["der Zeitung", "die Zeitung", "das Zeitung", "kein Artikel"], answer: 1 },
+      { question: "پسوند -ung همیشه نشان‌دهنده چه جنسیتی است؟", options: ["مذکر (der)", "مؤنث (die)", "خنثی (das)", "بستگی دارد"], answer: 1 },
+      { question: "کدام اسم خنثی (das) است؟", options: ["der Garten", "die Blume", "das Zimmer", "der Hund"], answer: 2 },
+      { question: "«Der Mann liest _____ Buch.» ک'مه صحیح کدام است؟", options: ["einen", "eine", "ein", "der"], answer: 2 },
+      { question: "کدام پسوند همیشه خنثی (das) است؟", options: ["-ung", "-schaft", "-chen", "-tion"], answer: 2 }
+    ]
+  }
 };

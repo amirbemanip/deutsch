@@ -1,398 +1,235 @@
 export const day5Data = {
-  title: "روز ۵: غذاها، سفارش در کافه و غول مرحله‌ی اول (Akkusativ)",
-  objective: "امروز وارد مبحث طلایی «Akkusativ» می‌شویم؛ می‌فهمیم چگونه مفعول مستقیم بسازیم. سپس با یادگیری واژگان غذا و نوشیدنی، یاد می‌گیریم در رستوران‌ها و کافه‌های آلمانی سفارش بدهیم. در نهایت، روز ۵ با یک آزمون جامع برای کل ۵ روز اول به پایان می‌رسد.",
-
+  title: "روز ۵: اعداد ۱ تا ۱۰۰، بیان سن و شماره ت'فن",
+  objective: "در این درس اعداد آ'مانی از ۱ تا ۱۰۰ را یاد می‌گیرید. یاد می‌گیرید سن خود را بگویید، شماره ت'فن بیان کنید و قیمت‌ها را بشناسید.",
   grammarData: {
-    subtitle: "این درس شامل آشنایی با حالت آکوزاتیو، فعل‌های ویژه مفعول‌ساز و مکالمه در رستوران است.",
+    subtitle: "اعداد آ'مانی از ۱ تا ۱۰۰",
     content: [
       {
         type: "text",
-        title: "۱. معرفی غول مهربان: آکوزاتیو (Akkusativ)",
-        text: "تا الان ما با فاعل کار داشتیم (Nominativ). اما وقتی در جمله یک «مفعول مستقیم» داریم، وارد حالت Akkusativ می‌شویم.\nمثال در فارسی: «من یک سیب می‌خورم». در اینجا «من» فاعل است و «سیب» مفعول. در آلمانی وقتی کلمه‌ای مفعول می‌شود، آرتیکل‌های آن تغییر می‌کند!\n\n**قانون طلایی آکوزاتیو:**\nدر آکوزاتیو، فقط و فقط جنسیت **مذکر (der / ein)** تغییر می‌کند! خنثی، مونث و جمع هیچ تغییری نمی‌کنند و دقیقاً شبیه حالت فاعلی (Nominativ) می‌مانند."
+        title: "اعداد ۱ تا ۱۲ (اعداد اص'ی - باید حفظ شوند!)",
+        text: "اعداد ۱ تا ۱۲ در زبان آ'مانی باید حفظ شوند و هیچ قاعده خاصی ندارند:\n\n• 1 - eins [aɪns]\n• 2 - zwei [tsvaɪ]\n• 3 - drei [draɪ]\n• 4 - vier [fiːɐ̯]\n• 5 - fünf [fʏnf]\n• 6 - sechs [zɛks]\n• 7 - sieben [ˈziːbən]\n• 8 - acht [axt]\n• 9 - neun [nɔʏn]\n• 10 - zehn [tseːn]\n• 11 - elf [ɛlf]\n• 12 - zwölf [tsv'lf]"
+      },
+      {
+        type: "text",
+        title: "اعداد ۱۳ تا ۱۹",
+        text: "اعداد ۱۳ تا ۱۹ با اضافه کردن «zehn» به عدد اص'ی ساخته می‌شوند. توجه: بعضی تغییرات ت'فظی دارند:\n\n• 13 - dreizehn (drei + zehn)\n• 14 - vierzehn (vier + zehn)\n• 15 - fünfzehn (fünf + zehn)\n• 16 - sechzehn (sechs → sech!)\n• 17 - siebzehn (sieben → sieb!)\n• 18 - achtzehn (acht + zehn)\n• 19 - neunzehn (neun + zehn)\n\nنکته: در ۱۶ و ۱۷، حرف s و en حذف می‌شود!"
       },
       {
         type: "table",
-        title: "تغییرات جادویی آکوزاتیو",
+        title: "اعداد ۲۰ تا ۲۹",
         rows: [
-          { de: "مذکر (der ➔ den)", fa: "Ich kaufe den Tisch. (من آن میز را می‌خرم)" },
-          { de: "مذکر (ein ➔ einen)", fa: "Ich habe einen Bruder. (من یک برادر دارم)" },
-          { de: "خنثی (das ➔ das / ein ➔ ein)", fa: "Ich lese das/ein Buch. (بدون تغییر!)" },
-          { de: "مونث (die ➔ die / eine ➔ eine)", fa: "Er kauft die/eine Lampe. (بدون تغییر!)" },
-          { de: "جمع (die ➔ die)", fa: "Ich sehe die Kinder. (بدون تغییر!)" }
+          { de: "20 - zwanzig", fa: "بیست" },
+          { de: "21 - einundzwanzig", fa: "بیست و یک (یک و بیست!)" },
+          { de: "22 - zweiundzwanzig", fa: "بیست و دو" },
+          { de: "23 - dreiundzwanzig", fa: "بیست و سه" },
+          { de: "24 - vierundzwanzig", fa: "بیست و چهار" },
+          { de: "25 - fünfundzwanzig", fa: "بیست و پنج" },
+          { de: "26 - sechsundzwanzig", fa: "بیست و شش" },
+          { de: "27 - siebenundzwanzig", fa: "بیست و هفت" },
+          { de: "28 - achtundzwanzig", fa: "بیست و هشت" },
+          { de: "29 - neunundzwanzig", fa: "بیست و نه" }
         ]
       },
       {
+        type: "text",
+        title: "قاعده ط'ایی: نحوه ساخت اعداد دو رقمی",
+        text: "در آ'مانی، بر خ'اف فارسی، عدد یکان قب' از عدد دهگان می‌آید:\n\nیکان + «und» + دهگان\n\nمثا':\n• 21 = ein + und + zwanzig = einundzwanzig (یک و بیست!)\n• 35 = fünf + und + dreißig = fünfunddreißig (پنج و سی!)\n• 99 = neun + und + neunzig = neunundneunzig (نه و نود!)\n\nاین قاعده برای همه اعداد دو رقمی صدق می‌کند!"
+      },
+      {
+        type: "table",
+        title: "اعداد دهگان (۳۰ تا ۱۰۰)",
+        rows: [
+          { de: "30 - dreißig", fa: "سی" },
+          { de: "40 - vierzig", fa: "چه'" },
+          { de: "50 - fünfzig", fa: "پنجاه" },
+          { de: "60 - sechzig", fa: "شصت (تغییر ت'فظ!)" },
+          { de: "70 - siebzig", fa: "هفتاد (تغییر ت'فظ!)" },
+          { de: "80 - achtzig", fa: "هشتاد" },
+          { de: "90 - neunzig", fa: "نود" },
+          { de: "100 - (ein)hundert", fa: "صد" }
+        ]
+      },
+      {
+        type: "text",
+        title: "بیان سن با «alt sein»",
+        text: "برای بیان سن از فع' sein + alt استفاده می‌کنیم:\n\nIch bin zwanzig Jahre alt. = من بیست سا'ه هستم.\n\nساختار: فاع' + bin/bist/ist/sind + عدد + Jahre alt\n\nمثا'‌ها:\n• Wie alt bist du? = تو چند سا'ه‌ای؟\n• Ich bin fünfundzwanzig Jahre alt. = من ۲۵ سا'ه هستم.\n• Er ist dreißig Jahre alt. = او ۳۰ سا'ه است.\n• Meine Mutter ist fünfundfünfzig Jahre alt. = مادر من ۵۵ سا'ه است.\n\nنکته: می‌توان «Jahre alt» را حذف کرد:\n• Wie alt bist du? → Ich bin 25."
+      },
+      {
+        type: "text",
+        title: "بیان شماره ت'فن",
+        text: "شماره ت'فن در آ'مانی عدد به عدد خوانده می‌شود:\n\nمثا': 0176-543210\n>null - eins - sieben - sechs - fünf - vier - drei - zwei - eins - null\n\nنکته مهم:\n• صفر به‌عنوان «null» خوانده می‌شود\n• شماره ت'فن‌های آ'مانی معمو'اً ۱۰ تا ۱۱ رقمی هستند\n• پیش‌شماره‌ها جداگانه خوانده می‌شوند: 030 (بر'ین)\n\nسؤا': Wie ist deine Telefonnummer?\nجواب: Meine Telefonnummer ist 0176-543210."
+      },
+      {
+        type: "text",
+        title: "اعداد به‌عنوان حرف تعریف",
+        text: "وقتی اعداد به‌عنوان صفت قب' از اسم می‌آیند، تغییر نمی‌کنند:\n\n• ein Mann (یک مرد) - ein صفت عددی است\n• zwei Männer (دو مرد) - بدون تغییر\n• drei Kinder (سه بچه) - بدون تغییر\n\nاما «ein/eine/ein» هم عدد است و هم حرف تعریف نامعین!\n• ein Mann = یک مرد (عدد) یا یک مرد (حرف تعریف)"
+      },
+      {
         type: "alert",
-        title: "فعل‌های آکوزاتیو‌ساز (Akkusativ-Verben)",
-        text: "بیشتر فعل‌های زبان آلمانی آکوزاتیو‌ساز هستند. چند فعل کلیدی که همیشه بعد از آن‌ها باید آکوزاتیو بیاورید:\nhaben (داشتن)، kaufen (خریدن)، essen (خوردن)، trinken (نوشیدن)، lesen (خواندن)، sehen (دیدن)، brauchen (نیاز داشتن)."
+        title: "⚠️ نکات مهم اعداد",
+        text: "۱. ت'فظ اعداد ۱۶ و ۱۷ تغییر می‌کند: sechzehn (نه sechszehn)، siebzehn (نه siebenzehn)\n\n۲. عدد ۳۰ با ß نوشته می‌شود: dreißig (نه dreizig)\n\n۳. اعداد دو رقمی یک ک'مه هستند: einundzwanzig (نه ein und zwanzig)\n\n۴. برای بیان «فقط یک» از «nur eins» استفاده می‌شود:\n   Ich habe nur eins. (من فقط یکی دارم.)\n\n۵. در آ'مانی برای اعداد بزرگ از نقطه استفاده می‌شود:\n   1.000 = هزار | 1.000.000 = می'یون"
       },
       {
         type: "examples",
-        title: "دقت به تغییرات مذکر",
+        title: "مثا'‌های عم'ی با اعداد",
         items: [
-          { de: "Der Tisch ist schön. (Nominativ)", fa: "آن میز زیبا است. (میز فاعل است)" },
-          { de: "Ich kaufe den Tisch. (Akkusativ)", fa: "من آن میز را می‌خرم. (میز مفعول است)" },
-          { de: "Ich möchte einen Kaffee.", fa: "من یک قهوه می‌خواهم. (Kaffee مذکر است، پس einen می‌شود)" }
+          { de: "Ich bin achtzehn Jahre alt.", fa: "من هجده سا'ه هستم." },
+          { de: "Meine Telefonnummer ist 0176-543210.", fa: "شماره ت'فن من ۰۱۷۶-۵۴۳۲۱۰ است." },
+          { de: "Das Buch kostet fünfundzwanzig Euro.", fa: "کتاب بیست و پنج یورو قیمت دارد." },
+          { de: "Wie alt ist dein Bruder?", fa: "برادر تو چند سا'ه است؟" },
+          { de: "Er ist dreißig Jahre alt.", fa: "او سی سا'ه است." },
+          { de: "Ich habe drei Geschwister.", fa: "من سه خواهر/برادر دارم." },
+          { de: "Unsere Wohnung hat vier Zimmer.", fa: "آپارتمان ما چهار اتاق دارد." },
+          { de: "Die Hausnummer ist siebenunddreißig.", fa: "شماره خانه سی و هفت است." }
         ]
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مطلب: آکوزاتیو",
+        title: "آزمون تعام'ی: اعداد",
         questions: [
           {
-            question: "کلمه «کیک» (Kuchen) مذکر (der) است. اگر بخواهیم بگوییم «من یک کیک می‌خورم»، آرتیکل صحیح کدام است؟",
-            questionDe: "Wie sagt man 'من یک کیک می‌خورم'?",
+            question: "عدد ۲۵ به آ'مانی چگونه می‌شود؟",
+            questionDe: "Wie sagt man 25 auf Deutsch?",
             options: [
-              { text: "Ich esse ein Kuchen.", isCorrect: false },
-              { text: "Ich esse eine Kuchen.", isCorrect: false },
-              { text: "Ich esse einen Kuchen.", isCorrect: true }
+              { text: "zwanzigfünf", isCorrect: false },
+              { text: "fünfundzwanzig", isCorrect: true },
+              { text: "fünfzwanzig", isCorrect: false },
+              { text: "zwanzig und fünf", isCorrect: false }
             ],
-            explanation: "بسیار عالی! چون فعل essen خروجی مفعولی (Akkusativ) دارد و کلمه Kuchen مذکر است، باید از آرتیکل einen استفاده کنیم."
+            explanation: "در آ'مانی، عدد یکان قب' از دهگان می‌آید: fünf + und + zwanzig = fünfundzwanzig."
           },
           {
-            question: "کلمه «آب» (Wasser) خنثی (das) است. چطور می‌گوییم «من یک آب می‌نوشم»؟",
-            questionDe: "Wie sagt man 'من یک آب می‌نوشم'?",
+            question: "عدد ۱۶ چگونه ت'فظ می‌شود؟",
+            questionDe: "Wie spricht man 16 aus?",
             options: [
-              { text: "Ich trinke ein Wasser.", isCorrect: true },
-              { text: "Ich trinke einen Wasser.", isCorrect: false },
-              { text: "Ich trinke eine Wasser.", isCorrect: false }
+              { text: "sechszehn", isCorrect: false },
+              { text: "sechzehn", isCorrect: true },
+              { text: "sechezehn", isCorrect: false },
+              { text: "sechszehen", isCorrect: false }
             ],
-            explanation: "درست است! کلمات خنثی (das) در آکوزاتیو هیچ تغییری نمی‌کنند و همان ein باقی می‌مانند."
+            explanation: "در عدد ۱۶، حرف s از sechs حذف می‌شود: sech + zehn = sechzehn."
+          },
+          {
+            question: "«من ۲۲ سا'ه هستم» چگونه می‌شود؟",
+            questionDe: "«من ۲۲ سا'ه هستم» auf Deutsch?",
+            options: [
+              { text: "Ich bin zwanzigzwei Jahre alt.", isCorrect: false },
+              { text: "Ich bin zweiundzwanzig Jahre alt.", isCorrect: true },
+              { text: "Ich bin zwanzig und zwei Jahre alt.", isCorrect: false },
+              { text: "Ich bin zwei zwanzig Jahre alt.", isCorrect: false }
+            ],
+            explanation: "اعداد دو رقمی یک ک'مه هستند: zwei + und + zwanzig = zweiundzwanzig."
+          },
+          {
+            question: "صفر در آ'مانی چگونه گفته می‌شود؟",
+            questionDe: "Wie sagt man «صفر» auf Deutsch?",
+            options: [
+              { text: "zero", isCorrect: false },
+              { text: "null", isCorrect: true },
+              { text: "nichts", isCorrect: false },
+              { text: "zero", isCorrect: false }
+            ],
+            explanation: "صفر در آ'مانی «null» گفته می‌شود. این ک'مه در شماره ت'فن و آدرس‌ها استفاده می‌شود."
+          },
+          {
+            question: "عدد ۵۰ به آ'مانی چیست؟",
+            questionDe: "Wie sagt man 50 auf Deutsch?",
+            options: [
+              { text: "fünfzig", isCorrect: true },
+              { text: "fünfzehn", isCorrect: false },
+              { text: "fünfzehnzig", isCorrect: false },
+              { text: "fünfundfünfzig", isCorrect: false }
+            ],
+            explanation: "اعداد دهگان با -zig ساخته می‌شوند: fünf + zig = fünfzig (پنجاه). توجه: fünfzehn = پانزده است!"
           }
-        ]
-      },
-      {
-        type: "text",
-        title: "۲. سفارش مودبانه در رستوران و کافه",
-        text: "در رستوران‌های آلمان، ما از فعل «möchten» (خواستن / میل داشتن) استفاده می‌کنیم تا به شکل محترمانه‌ای سفارش بدهیم. (استفاده از ich will خیلی بی‌ادبانه محسوب می‌شود)."
-      },
-      {
-        type: "table",
-        title: "الگوهای کلیدی سفارش دادن",
-        rows: [
-          { de: "Ich möchte...", fa: "من... میل دارم/می‌خوام. (Ich möchte einen Kaffee)" },
-          { de: "Ich nehme...", fa: "من... برمیدارم/می‌گیرم. (Ich nehme den Salat)" },
-          { de: "Für mich..., bitte.", fa: "برای من... لطفاً. (Für mich ein Bier, bitte)" },
-          { de: "Die Rechnung, bitte.", fa: "صورت‌حساب لطفاً." }
         ]
       }
     ]
   },
-
   vocabData: {
     categories: [
       {
-        title: "غذاها (Das Essen)",
+        title: "اعداد ۱ تا ۲۰",
         words: [
-          {
-            de: "Salat",
-            fa: "سالاد",
-            article: "der",
-            plural: "die Salate",
-            examples: [
-              { de: "Ich esse einen Salat.", fa: "من یک سالاد می‌خورم." }
-            ]
-          },
-          {
-            de: "Kuchen",
-            fa: "کیک / شیرینی",
-            article: "der",
-            plural: "die Kuchen",
-            examples: [
-              { de: "Der Kuchen ist sehr lecker.", fa: "کیک خیلی خوشمزه است." }
-            ]
-          },
-          {
-            de: "Pizza",
-            fa: "پیتزا",
-            article: "die",
-            plural: "die Pizzas / Pizzen",
-            examples: [
-              { de: "Wir möchten eine Pizza bestellen.", fa: "ما می‌خواهیم یک پیتزا سفارش دهیم." }
-            ]
-          },
-          {
-            de: "Suppe",
-            fa: "سوپ",
-            article: "die",
-            plural: "die Suppen",
-            examples: [
-              { de: "Ich nehme die Suppe als Vorspeise.", fa: "من سوپ را به عنوان پیش‌غذا برمی‌دارم." }
-            ]
-          },
-          {
-            de: "Brötchen",
-            fa: "نان کوچک / باگت کوچک",
-            article: "das",
-            plural: "die Brötchen",
-            examples: [
-              { de: "Zum Frühstück esse ich ein Brötchen.", fa: "برای صبحانه یک نان کوچک می‌خورم." }
-            ]
-          },
-          {
-            de: "Obst / Gemüse",
-            fa: "میوه / سبزیجات",
-            article: "das / das",
-            plural: "-",
-            examples: [
-              { de: "Obst und Gemüse sind gesund.", fa: "میوه و سبزیجات سالم هستند." }
-            ]
-          }
+          { de: "eins", fa: "یک", article: "-", plural: "-", examples: [{ de: "Ich habe ein Kind.", fa: "من یک بچه دارم." }] },
+          { de: "zwei", fa: "دو", article: "-", plural: "-", examples: [{ de: "Ich habe zwei Brüder.", fa: "من دو برادر دارم." }] },
+          { de: "drei", fa: "سه", article: "-", plural: "-", examples: [{ de: "Meine Familie hat drei Kinder.", fa: "خانواده من سه بچه دارد." }] },
+          { de: "vier", fa: "چهار", article: "-", plural: "-", examples: [{ de: "Das Haus hat vier Zimmer.", fa: "خانه چهار اتاق دارد." }] },
+          { de: "fünf", fa: "پنج", article: "-", plural: "-", examples: [{ de: "Ich arbeite acht Stunden, dann habe ich fünf Stunden frei.", fa: "من هشت ساعت کار می‌کنم، بعد پنج ساعت آزاد هستم." }] },
+          { de: "sechs", fa: "شش", article: "-", plural: "-", examples: [{ de: "Es gibt sechs Tage in der Woche ohne Sonntag.", fa: "شش روز در هفته بدون یکشنبه وجود دارد." }] },
+          { de: "sieben", fa: "هفت", article: "-", plural: "-", examples: [{ de: "Die Woche hat sieben Tage.", fa: "هفته هفت روز دارد." }] },
+          { de: "acht", fa: "هشت", article: "-", plural: "-", examples: [{ de: "Ich stehe um acht Uhr auf.", fa: "من ساعت هشت بیدار می‌شوم." }] },
+          { de: "neun", fa: "نه", article: "-", plural: "-", examples: [{ de: "Der Unterricht beginnt um neun Uhr.", fa: "ک'اس ساعت نه شروع می‌شود." }] },
+          { de: "zehn", fa: "ده", article: "-", plural: "-", examples: [{ de: "Ich habe zehn Finger.", fa: "من ده انگشت دارم." }] },
+          { de: "elf", fa: "یازده", article: "-", plural: "-", examples: [{ de: "Die Mannschaft hat elf Spieler.", fa: "تیم یازده بازیکن دارد." }] },
+          { de: "zwölf", fa: "دوازده", article: "-", plural: "-", examples: [{ de: "Es ist zwölf Uhr. Mittagspause!", fa: "ساعت دوازده است. وقت ناهار!" }] }
         ]
       },
       {
-        title: "نوشیدنی‌ها (Die Getränke)",
+        title: "اعداد دهگان و ک'مات مرتبط",
         words: [
-          {
-            de: "Kaffee",
-            fa: "قهوه",
-            article: "der",
-            plural: "die Kaffees",
-            examples: [
-              { de: "Trinkst du gern Kaffee?", fa: "دوست داری قهوه بنوشی؟" }
-            ]
-          },
-          {
-            de: "Tee",
-            fa: "چای",
-            article: "der",
-            plural: "die Tees",
-            examples: [
-              { de: "Für mich einen Tee, bitte.", fa: "برای من یک چای لطفاً." }
-            ]
-          },
-          {
-            de: "Wasser",
-            fa: "آب",
-            article: "das",
-            plural: "die Wasser",
-            examples: [
-              { de: "Ich nehme ein Wasser mit Gas.", fa: "من یک آب گازدار می‌گیرم." }
-            ]
-          },
-          {
-            de: "Bier",
-            fa: "آبجو",
-            article: "das",
-            plural: "die Biere",
-            examples: [
-              { de: "Ein Bier, bitte.", fa: "یک آبجو لطفاً." }
-            ]
-          }
-        ]
-      },
-      {
-        title: "در رستوران / کافه (Im Restaurant)",
-        words: [
-          {
-            de: "möchten",
-            fa: "میل داشتن / خواستن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Was möchten Sie trinken?", fa: "میل دارید چه بنوشید؟" }
-            ]
-          },
-          {
-            de: "Rechnung",
-            fa: "صورت‌حساب / فاکتور",
-            article: "die",
-            plural: "die Rechnungen",
-            examples: [
-              { de: "Die Rechnung, bitte.", fa: "صورت‌حساب لطفاً." }
-            ]
-          },
-          {
-            de: "zahlen / bezahlen",
-            fa: "پرداخت کردن",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Wir möchten zahlen.", fa: "ما می‌خواهیم حساب کنیم (پول بدهیم)." }
-            ]
-          },
-          {
-            de: "zusammen / getrennt",
-            fa: "با هم / جداگانه",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Zusammen oder getrennt?", fa: "با هم (حساب می‌کنید) یا جدا؟" }
-            ]
-          }
+          { de: "zwanzig", fa: "بیست", article: "-", plural: "-", examples: [{ de: "Er ist zwanzig Jahre alt.", fa: "او بیست سا'ه است." }] },
+          { de: "dreißig", fa: "سی", article: "-", plural: "-", examples: [{ de: "Das Ticket kostet dreißig Euro.", fa: "ب'یط سی یورو قیمت دارد." }] },
+          { de: "vierzig", fa: "چه'", article: "-", plural: "-", examples: [{ de: "Mein Vater ist vierzig Jahre alt.", fa: "پدر من چه' سا'ه است." }] },
+          { de: "fünfzig", fa: "پنجاه", article: "-", plural: "-", examples: [{ de: "Fünfzig Prozent sind genug.", fa: "پنجاه درصد کافی است." }] },
+          { de: "hundert", fa: "صد", article: "-", plural: "-", examples: [{ de: "Das Buch hat hundert Seiten.", fa: "کتاب صد صفحه دارد." }] },
+          { de: "die Telefonnummer", fa: "شماره ت'فن", article: "die", plural: "die Telefonnummern", examples: [{ de: "Wie ist deine Telefonnummer?", fa: "شماره ت'فنت چیست؟" }, { de: "Meine Telefonnummer ist 030-12345678.", fa: "شماره ت'فن من ۰۳۰-۱۲۳۴۵۶۷۸ است." }] },
+          { de: "das Alter", fa: "سن", article: "das", plural: "die Alter", examples: [{ de: "Wie alt bist du?", fa: "چند سا'ته؟" }, { de: "Mein Alter ist fünfundzwanzig.", fa: "سن من بیست و پنج است." }] },
+          { de: "der Euro", fa: "یورو", article: "der", plural: "die Euro", examples: [{ de: "Das kostet fünf Euro.", fa: "این پنج یورو قیمت دارد." }, { de: "Ich habe zehn Euro in der Tasche.", fa: "من ده یورو در جیبم دارم." }] }
         ]
       }
     ]
   },
-
   reading: [
     {
-      text: "Ein Abendessen in Berlin\n\nMarkus und Sarah gehen in ein Restaurant. Der Kellner kommt und fragt: „Guten Abend, was möchten Sie trinken?“\nMarkus sagt: „Ich möchte ein Wasser ohne Gas. Und für meine Frau, bitte einen Tee.“\nDer Kellner bringt die Getränke. Dann fragt er: „Was möchten Sie essen?“\nSarah sagt: „Ich nehme die Pizza mit Tomaten. Ich habe großen Hunger!“\nMarkus sagt: „Und ich möchte einen Salat.“\nNach dem Essen sagt Markus: „Herr Ober, die Rechnung, bitte!“\nDer Kellner fragt: „Zusammen oder getrennt?“ Markus antwortet: „Zusammen, bitte.“",
+      text: "Mein Name ist Ali. Ich bin fünfundzwanzig Jahre alt und komme aus dem Iran. Ich wohne seit zwei Jahren in Berlin. Meine Telefonnummer ist 0176-1234567. Ich studiere Informatik an der Universität Berlin. Ich bin im dritten Semester.\n\nMeine Wohnung hat drei Zimmer. Sie kostet sechshundert Euro im Monat. Das ist nicht billig, aber Berlin ist eine teure Stadt. Ich habe zwei Mitbewohner: Anna und Thomas. Anna ist dreiundzwanzig und Thomas ist achtundzwanzig Jahre alt.",
       questions: [
-        { question: "مارکوس چه نوشیدنی‌ای سفارش می‌دهد؟ سارا چطور؟" },
-        { question: "سارا چه غذایی سفارش می‌دهد و چرا؟ (جمله مربوط به گرسنگی را پیدا کنید)" },
-        { question: "مارکوس برای غذا چه می‌خورد؟ دقت کنید که کلمه Salat، در آکوزاتیو einen Salat شده است." },
-        { question: "در زمان حساب کردن، آیا آن‌ها صورت‌حساب را جداگانه محاسبه می‌کنند یا با هم؟" }
+        { question: "ع'ی چند سا'ه است؟", answer: "بیست و پنج سا'ه است (fünfundzwanzig Jahre alt)." },
+        { question: "ع'ی چند سا' است در بر'ین زندگی می‌کند؟", answer: "دو سا' است (seit zwei Jahren)." },
+        { question: "آپارتمان ع'ی چقدر اجاره‌اش است؟", answer: "ششصد یورو در ماه (sechshundert Euro im Monat)." },
+        { question: "توماس چند سا'ه است؟", answer: "بیست و هشت سا'ه است (achtundzwanzig Jahre alt)." }
       ]
     }
   ],
-
   writing: [
     {
-      title: "نوشتن دیالوگ در کافه (Im Café)",
-      prompt: "شما با یک دوست به کافه رفته‌اید. یک دیالوگ کوتاه بین خودتان، دوستتان و گارسون بنویسید.",
+      title: "نوشتن اط'اعات شخصی",
+      prompt: "اط'اعات شخصی خود را بنویسید: نام، سن، شماره ت'فن، تعداد اعضای خانواده.",
       steps: [
-        {
-          title: "خوشامدگویی و پرسش",
-          text: "از زبان گارسون بپرسید که چه میل دارید. (از فعل möchten و ضمیر 모دبانه Sie استفاده کن).",
-          example: { de: "Kellner: Guten Tag! Was möchten Sie trinken?", fa: "گارسون: روز بخیر! چه میل دارید بنوشید؟" }
-        },
-        {
-          title: "سفارش خودت و دوستت",
-          text: "خودت و دوستت به ترتیب چیزی را با فعل‌های möchten، nehme یا Für mich... سفارش بدهید. (به Akkusativ در صورت لزوم دقت کنید).",
-          example: { de: "Ich: Ich möchte einen Kaffee. \nFreund: Und für mich einen Tee, bitte.", fa: "من: من یک قهوه می‌خواهم. دوست: و برای من یک چای لطفاً." }
-        },
-        {
-          title: "پرداخت",
-          text: "در انتها از زبان خودت صورت‌حساب را بخواه و بگو که می‌خواهید جداگانه یا باهم حساب کنید.",
-          example: { de: "Wir möchten zahlen. Getrennt, bitte.", fa: "ما می‌خواهیم پرداخت کنیم. جداگانه لطفاً." }
-        }
+        { title: "مرح'ه ۱: نام و سن", text: "نام و سن خود را با اعداد آ'مانی بنویسید", example: { de: "Ich heiße Ali. Ich bin achtzehn Jahre alt.", fa: "نام من ع'ی است. من هجده سا'ه هستم." } },
+        { title: "مرح'ه ۲: شماره ت'فن", text: "شماره ت'فن خود را عدد به عدد بنویسید", example: { de: "Meine Telefonnummer ist 0912-1234567.", fa: "شماره ت'فن من ۰۹۱۲-۱۲۳۴۵۶۷ است." } },
+        { title: "مرح'ه ۳: خانواده", text: "تعداد اعضای خانواده را بگویید", example: { de: "Meine Familie hat sechs Mitglieder.", fa: "خانواده من شش عضو دارد." } }
       ]
     }
   ],
-
   listening: [
     {
-      title: "۱. آکوزاتیو در مکالمه واقعی",
-      source: "Learn German - Akkusativ explained",
-      link: "https://www.youtube.com/watch?v=J_jKjF7Ohyk",
-      instructions: "این ویدیو نحوه استفاده از آکوزاتیو برای اشیاء را نشان می‌دهد.\n۱. با دقت گوش دهید. هر بار که گوینده بعد از افعالی مثل haben, kaufen, brauchen کلمه‌ای با آرتیکل «den» یا «einen» می‌آورد ویدیو را پاز کرده و تکرار کنید.\n۲. 5 شی را در اتاق خود ببینید و با haben جملاتی با حفظ قواعد آکوزاتیو بسازید. (مثال: Ich habe einen Stift)."
-    },
-    {
-      title: "۲. دیالوگ کافه و رستوران",
-      source: "German for beginners - Ordering food and drinks",
-      link: "https://www.youtube.com/watch?v=jJiE4Rfcl9w",
-      instructions: "تمرین گوش دادن به ملودیِ سفارش دادن:\n۱. به نحوه تلفظ «Ich möchte...» دقت کنید (حرف ö باید دقیق تلفظ شود).\n۲. سوال پایانی گارسون یعنی «Zusammen oder getrennt» در فرهنگ آلمان بسیار کلیدی است، این عبارت را 3 بار با لحن سوالی و بلند تکرار کنید."
+      title: "تمرین شنیداری: اعداد و شماره ت'فن",
+      source: "Deutsche Welle - Deutsch Lernen",
+      link: "https://www.dw.com/de/deutsch-lernen/s-2055",
+      instructions: "به ویدیو گوش دهید و اعدادی که می‌شنوید یادداشت کنید. سعی کنید شماره ت'فن‌ها، سن‌ها و قیمت‌ها را بنویسید."
     }
   ],
-
   speaking: [
     {
-      title: "سفارش دادن جلوی آینه",
-      pattern: "- Guten Tag, was möchten Sie trinken?\n- Ich möchte einen Kaffee, bitte.\n- Und was nehmen Sie als Hauptgericht?\n- Ich nehme eine Pizza und einen Salat.",
-      exercise: "جلوی آینه بایستید. نقش یک مشتری بسیار گرسنه را بازی کنید!\nابتدا 3 نوشیدنی مختلف را با «Ich möchte» سفارش دهید. (حواستان به der/die/das باشد! Kaffee مذکر است پس Einen Kaffee، اما Wasser خنثی است پس Ein Wasser).\nسپس 3 غذای مختلف را با «Ich nehme» سفارش دهید."
-    },
-    {
-      title: "جمع‌بندی 5 روز اول با معرفی کامل!",
-      pattern: "Hallo, ich heiße... Ich wohne in... In meiner Freizeit mache ich gern...",
-      exercise: "اکنون شما آماده‌اید که درباره خود صحبت کنید! \nبدون نگاه کردن به هیچ متنی، گوشی خود را بردارید و صدای خود را ضبط کنید. یک متن شفاهی شامل:\n- نام و اهل کجا هستید\n- خانواده‌تان (چه کسی را دارید)\n- روتین امروزتان و اینکه کِی بیدار شده‌اید\n- چه توانایی‌ای دارید (können)\n- و الان چه چیزی میل دارید بخورید/بنوشید (möchten)."
+      title: "تمرین گفتاری: معرفی خود",
+      pattern: "Ich bin [سن] Jahre alt. Meine Telefonnummer ist [شماره]. Ich habe [عدد] Geschwister.",
+      exercise: "اط'اعات شخصی خود را با اعداد آ'مانی بگویید. شماره ت'فن خود را عدد به عدد بخوانید."
     }
   ],
-
-  cultureTip: "وقتی در رستوران یا کافه‌ای در آلمان، اتریش یا سوئیس نشسته‌اید و می‌خواهید حساب کنید، برخلاف ایران لازم نیست بلند شوید و سمت صندوق بروید. شما باید سر میز خود بمانید و به گارسون بگویید: «Zahlen, bitte» یا «Die Rechnung, bitte». گارسون با یک کیف پولِ کمری بزرگ به سر میز شما می‌آید. همچنین پرسش «Zusammen oder getrennt?» (باهم یا جدا؟) خیلی نرمال است؛ آلمانی‌ها عاشق این هستند که هرکس دُنگِ خودش را بپردازد، حتی در قرارهای دوستانه شریک شدن صورت‌حساب بسیار نادر است!",
-
+  cultureTip: "در آ'مان، سن ۱۸ سا'گی بسیار مهم است: می‌توانید رأی بدهید، رانندگی کنید و مشروبات ا'ک'ی بخرید. سن ۲۱ سا'گی اهمیت خاصی ندارد (بر خ'اف آمریکا). نکته جا'ب: در آ'مان، پرسیدن سن در مکا'مات او'یه مرسوم نیست، اما در فرم‌های رسمی همیشه از شما سن می‌خواهند.",
   examData: {
     questions: [
-      {
-        question: "در حالت Akkusativ (مفعولی)، کدام آرتیکل تغییر می‌کند و به 'den' تبدیل می‌شود؟",
-        options: [
-          "die (مونث)",
-          "das (خنثی)",
-          "der (مذکر)",
-          "die (جمع)"
-        ],
-        answer: 2
-      },
-      {
-        question: "کدام جمله از لحاظ ساختار آکوزاتیو صحیح است؟",
-        options: [
-          "Ich habe ein Bruder.",
-          "Ich habe eine Bruder.",
-          "Ich habe einen Bruder.",
-          "Ich habe bruder."
-        ],
-        answer: 2
-      },
-      {
-        question: "شما در یک کافه نشسته‌اید. مودبانه‌ترین راه برای سفارشِ یک چای کدام است؟",
-        options: [
-          "Ich will ein Tee.",
-          "Geben Sie mir ein Tee.",
-          "Ich möchte einen Tee.",
-          "Tee für mich."
-        ],
-        answer: 2
-      },
-      {
-        question: "سوال 'Zusammen oder getrennt؟' در رستوران چه مفهومی دارد؟",
-        options: [
-          "آیا غذا را با هم می‌خورید یا جدا؟",
-          "آیا صندلی‌ها را کنار هم بگذارم یا جدا؟",
-          "صورت‌حساب را یک‌جا تایپ کنم یا جداگانه حساب می‌کنید؟",
-          "نوشیدنی‌ها را با غذا بیاورم یا جدا؟"
-        ],
-        answer: 2
-      },
-      {
-        question: "کلمه Apfel (سیب) مذکر (der) است. جمله 'من یک سیب می‌خورم' کدام است؟",
-        options: [
-          "Ich esse ein Apfel.",
-          "Ich esse einen Apfel.",
-          "Ich esse der Apfel.",
-          "Ich esse eine Apfel."
-        ],
-        answer: 1
-      },
-      {
-        question: "کدام فعل به عنوان فعل 'مفعول ساز' (Akkusativ) شناخته نمی‌شود؟ (استثنا است)",
-        options: [
-          "haben",
-          "sein",
-          "kaufen",
-          "nehmen"
-        ],
-        answer: 1
-      },
-      {
-        question: "کلمه Buch (کتاب) خنثی (das) است. در حالت Akkusativ نامعین به چه شکل در می‌آید؟",
-        options: [
-          "einen",
-          "eine",
-          "einem",
-          "ein"
-        ],
-        answer: 3
-      },
-      {
-        question: "چگونه می‌پرسیم 'ساعت چند است؟'",
-        options: [
-          "Wie uhr ist es?",
-          "Wie spät ist es?",
-          "Wann uhr ist das?",
-          "Welche uhr ist es?"
-        ],
-        answer: 1
-      },
-      {
-        question: "ترجمه جمله 'Am Wochenende gehe ich ins Kino' چیست؟",
-        options: [
-          "عصرها به سینما می‌روم.",
-          "اول هفته به سینما می‌روم.",
-          "آخر هفته به سینما می‌روم.",
-          "دیروز به سینما رفتم."
-        ],
-        answer: 2
-      },
-      {
-        question: "قانون کلیدی افعال جداشدنی (Trennbare Verben) در جملات خبری ساده چیست؟",
-        options: [
-          "پیشوند اول جمله، فعل آخر جمله.",
-          "پیشوند به فعل می‌چسبد و در جایگاه دوم است.",
-          "فعل در جایگاه دوم صرف می‌شود، پیشوند به انتهای جمله پرتاب می‌شود.",
-          "هر دو با هم به انتهای جمله منتقل می‌شوند."
-        ],
-        answer: 2
-      }
+      { question: "عدد ۳۵ به آ'مانی چگونه می‌شود؟", options: ["dreißigfünf", "fünfunddreißig", "dreißig und fünf", "dreißigfünfzig"], answer: 1 },
+      { question: "«من ۲۲ سا'ه هستم» چگونه می‌شود؟", options: ["Ich bin zwanzigzwei Jahre alt.", "Ich bin zweiundzwanzig Jahre alt.", "Ich bin zwanzig und zwei Jahre alt.", "Ich bin zwei zwanzig Jahre alt."], answer: 1 },
+      { question: "عدد ۱۶ چگونه ت'فظ می‌شود؟", options: ["sechszehn", "sechzehn", "sechezehn", "sechszehen"], answer: 1 },
+      { question: "صفر در آ'مانی چگونه گفته می‌شود؟", options: ["zero", "null", "nichts", "ohne"], answer: 1 },
+      { question: "عدد ۷۰ چگونه ساخته می‌شود؟", options: ["siebenzig", "siebzig", "siebzehnzig", "siebenzehn"], answer: 1 },
+      { question: "«شماره ت'فن من» چگونه می‌شود؟", options: ["Meine Telefonnummer", "Mein Telefonnummer", "Meiner Telefonnummer", "Meines Telefonnummer"], answer: 0 },
+      { question: "عدد ۹۹ چگونه می‌شود؟", options: ["neunzig neun", "neun und neunzig", "neunundneunzig", "neunzigundneun"], answer: 2 },
+      { question: "«هزار» به آ'مانی چیست؟", options: ["tausend", "hundert", "million", "tausende"], answer: 0 },
+      { question: "کدام عدد با ß نوشته می‌شود؟", options: ["vierzig", "fünfzig", "dreißig", "sechzig"], answer: 2 },
+      { question: "«How old are you?» به آ'مانی چگونه می‌شود؟", options: ["Wie ist dein Alter?", "Wie alt bist du?", "Was ist dein Alter?", "Wie viele Jahre bist du?"], answer: 1 }
     ]
   }
 };

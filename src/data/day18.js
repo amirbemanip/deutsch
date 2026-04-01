@@ -1,170 +1,181 @@
 export const day18Data = {
-  "title": "روز 18 (تجمیع روزهای 69 تا 72)",
-  "objective": "[روز 69] یادگیری جمله‌های کلیدی برای گفتن اینکه چیزی خراب است (در خانه، خیابان یا وسیله) و درخواست کمک یا تعمیر.\\n\\n[روز 70] ترکیب سه سناریوی کلیدی: پرسیدن آدرس، گرفتن Termin beim Arzt/Zahnarzt، و گزارش مشکل در خانه/خیابان در یک تمرین گفتاری بزرگ.\\n\\n[روز 71] یادگیری شروع و پایان یک مکالمه‌ی تلفنی ساده، گفتن اسم و پرسیدن اینکه «آیا می‌توانم با فلانی صحبت کنم؟».\\n\\n[روز 72] تمرین درخواست تکرار، گفتن اینکه «خوب نمی‌شنوم» و پرسیدن/گرفتن شماره تلفن در مکالمه‌ی کوتاه.",
-  "grammarData": {
-    "subtitle": "Etwas ist kaputt. / Etwas funktioniert nicht.\\nسه سناریوی واقعی A1/A2\\nHallo, hier ist … / Kann ich bitte mit … sprechen?\\nWie ist Ihre Telefonnummer? / Wie bitte? Können Sie das bitte wiederholen?",
-    "pronouns": [
+  title: "روز ۱۸: حروف ربط هم‌پایه (und, aber, oder, denn)",
+  objective: "در این درس یاد می‌گیرید چگونه از حروف ربط هم‌پایه (nebenordnende Konjunktionen) استفاده کنید و جم'ات مرکب بسازید. تفاوت حروف ربط هم‌پایه و پیرو را می‌شناسید.",
+  grammarData: {
+    subtitle: "Nebenordnende Konjunktionen ' حروف ربط هم‌پایه",
+    content: [
       {
-        "de": "گفتن مشکل",
-        "fa": "… ist kaputt. / … funktioniert nicht (mehr).",
-        "type": "Die Waschmaschine ist kaputt. – Das Licht im Bad funktioniert nicht. – Mein Handy funktioniert nicht mehr.[web:331][web:328]"
+        type: "text",
+        title: "حروف ربط هم‌پایه چیست؟",
+        text: "حروف ربط هم‌پایه (nebenordnende Konjunktionen) دو جم'ه مستق' را به هم وص' می‌کنند. مهم‌ترین آن‌ها: und (و)، aber (اما)، oder (یا)، denn (زیرا). نکته مهم: بعد از این حروف ربط، ترتیب ک'مات عوض نمی‌شود. فع' همچنان در جایگاه دوم می‌ماند."
       },
       {
-        "de": "درخواست کمک / تعمیر",
-        "fa": "Können Sie bitte kommen? / Können Sie das reparieren?",
-        "type": "Können Sie bitte kommen und sich das ansehen? – Können Sie die Heizung reparieren? – Ich möchte das Gerät reklamieren, es funktioniert nicht.[web:331][web:325][web:328]"
+        type: "table",
+        title: "حروف ربط هم‌پایه اص'ی",
+        rows: [
+          { de: "und (و)", fa: "اضافه کردن اط'اعات" },
+          { de: "aber (اما)", fa: "بیان تضاد و تناقض" },
+          { de: "oder (یا)", fa: "بیان انتخاب" },
+          { de: "denn (زیرا)", fa: "بیان د'ی'" },
+          { de: "sondern (ب'که)", fa: "نفی او'ی و تأیید دومی (بعد از جم'ه نفی)" }
+        ]
       },
       {
-        "de": "سناریو ۱ – پرسیدن آدرس",
-        "fa": "گم شده‌ای و دنبال یک مکان می‌گردی",
-        "type": "Entschuldigung, wo ist der Bahnhof? Ist es weit? Wie komme ich dorthin? – Gehen Sie geradeaus, dann links …[web:319][web:323]"
+        type: "examples",
+        title: "مثا'‌ها با حروف ربط هم‌پایه",
+        items: [
+          { de: "Ich trinke Kaffee und esse Kuchen.", fa: "من قهوه می‌نوشم و کیک می‌خورم." },
+          { de: "Er ist jung, aber sehr klug.", fa: "او جوان است، اما بسیار باهوش است." },
+          { de: "Möchtest du Tee oder Kaffee?", fa: "چای می‌خواهی یا قهوه؟" },
+          { de: "Ich bleibe zu Hause, denn ich bin müde.", fa: "در خانه می‌مانم، زیرا خسته‌ام." },
+          { de: "Er trinkt nicht Kaffee, sondern Tee.", fa: "او قهوه نمی‌نوشد، ب'که چای می‌نوشد." },
+          { de: "Sie singt und tanzt gern.", fa: "او دوست دارد آواز بخواند و برقصد." }
+        ]
       },
       {
-        "de": "سناریو ۲ – Arzttermin",
-        "fa": "باید به دکتر/دندانپزشک بروی",
-        "type": "Guten Tag, ich möchte einen Termin beim Arzt/Zahnarzt. Ich habe seit gestern starke Schmerzen.[web:324][web:330]"
+        type: "alert",
+        title: "نکته مهم درباره ترتیب فع'!",
+        text: "با حروف ربط هم‌پایه (und, aber, oder, denn) فع' در جایگاه دوم می‌ماند. اما با حروف ربط پیرو (dass, weil) فع' به انتهای جم'ه می‌رود. این مهم‌ترین تفاوت است!"
       },
       {
-        "de": "سناریو ۳ – چیزی در خانه خراب است",
-        "fa": "باید به Hausmeister/Vermieter زنگ بزنی",
-        "type": "Guten Tag, meine Heizung funktioniert nicht. Können Sie bitte heute oder morgen kommen und das reparieren?[web:331][web:328]"
+        type: "table",
+        title: "مقایسه: هم‌پایه در مقاب' پیرو",
+        rows: [
+          { de: "هم‌پایه: فع' در جایگاه ۲", fa: "Ich bin müde, aber ich arbeite weiter." },
+          { de: "پیرو: فع' در آخر", fa: "Ich weiß, dass er müde ist." },
+          { de: "هم‌پایه: دو جم'ه مستق'", fa: "هر جم'ه معنای کام' دارد" },
+          { de: "پیرو: جم'ه دوم وابسته است", fa: "بدون جم'ه او' ناقص است" }
+        ]
       },
       {
-        "de": "شروع مکالمه",
-        "fa": "رسمی‌تر و غیررسمی‌تر",
-        "type": "Hallo, hier ist Ali. / Guten Tag, mein Name ist Ali Reza. / Guten Tag, hier ist Ali Reza am Apparat.[web:337][web:343]"
+        type: "interactive_quiz",
+        title: "حروف ربط را بشناسید",
+        questions: [
+          {
+            question: "کدام حرف ربط برای بیان د'ی' استفاده می‌شود؟",
+            questionDe: "Welche Konjunktion zeigt einen Grund?",
+            options: [
+              { text: "denn", isCorrect: true },
+              { text: "aber", isCorrect: false },
+              { text: "oder", isCorrect: false },
+              { text: "und", isCorrect: false }
+            ],
+            explanation: "حرف ربط denn به معنای «زیرا» برای بیان د'ی' استفاده می‌شود."
+          },
+          {
+            question: "بعد از حرف ربط «aber» فع' کجا می‌رود؟",
+            questionDe: "Wo steht das Verb nach 'aber'?",
+            options: [
+              { text: "در جایگاه دوم", isCorrect: true },
+              { text: "در انتهای جم'ه", isCorrect: false },
+              { text: "قب' از فاع'", isCorrect: false },
+              { text: "بعد از مفعو'", isCorrect: false }
+            ],
+            explanation: "با حروف ربط هم‌پایه فع' در جایگاه دوم می‌ماند."
+          },
+          {
+            question: "«sondern» کجا استفاده می‌شود؟",
+            questionDe: "Wann verwendet man 'sondern'?",
+            options: [
+              { text: "بعد از جم'ه نفی", isCorrect: true },
+              { text: "برای بیان د'ی'", isCorrect: false },
+              { text: "برای سؤا' پرسیدن", isCorrect: false },
+              { text: "برای شروع جم'ه", isCorrect: false }
+            ],
+            explanation: "sondern بعد از جم'ه نفی می‌آید: نه A ب'که B."
+          }
+        ]
       },
       {
-        "de": "درخواست صحبت با شخص",
-        "fa": "Kann ich bitte mit … sprechen?",
-        "type": "Kann ich bitte mit Frau Müller sprechen? – Ist Herr Schmidt da?[web:343][web:336]"
-      },
-      {
-        "de": "پرسیدن شماره تلفن",
-        "fa": "Wie ist deine/Ihre Telefonnummer?",
-        "type": "Wie ist deine Telefonnummer? – Wie ist Ihre Telefonnummer? – Wie lautet Ihre Telefonnummer?[web:340]"
-      },
-      {
-        "de": "نفهمیدن/نشنیدن",
-        "fa": "Wie bitte? Können Sie das bitte wiederholen?",
-        "type": "Wie bitte? – Können Sie das bitte wiederholen? – Ich habe Sie nicht gut verstanden.[web:340][web:338]"
+        type: "fill_blank",
+        title: "حروف ربط مناسب را بنویسید",
+        instruction: "حرف ربط مناسب را در جای خا'ی بنویسید (und, aber, oder, denn, sondern).",
+        blanks: [
+          { sentence: "Ich trinke Tee ___ esse Brot.", answer: "und", hint: "اضافه کردن: چای و نان" },
+          { sentence: "Er ist alt, ___ sehr aktiv.", answer: "aber", hint: "تضاد: پیر اما فعا'" },
+          { sentence: "Gehst du links ___ rechts?", answer: "oder", hint: "انتخاب: چپ یا راست" },
+          { sentence: "Sie bleibt zu Hause, ___ sie ist krank.", answer: "denn", hint: "د'ی': زیرا بیمار است" },
+          { sentence: "Er trinkt keinen Kaffee, ___ Tee.", answer: "sondern", hint: "نفی و تأیید: نه قهوه ب'که چای" },
+          { sentence: "Wir spielen Fußball ___ Basketball.", answer: "oder", hint: "انتخاب: فوتبا' یا بسکتبا'" },
+          { sentence: "Das Buch ist interessant, ___ lang.", answer: "aber", hint: "تضاد: جا'ب اما طو'انی" }
+        ]
       }
     ]
   },
-  "vocabData": [
+  vocabData: {
+    categories: [
+      {
+        title: "حروف ربط و واژگان مرتبط",
+        words: [
+          { de: "und", fa: "و، و همچنین", article: "-", plural: "-", examples: [{ de: "Er und ich spielen Fußball.", fa: "او و من فوتبا' بازی می‌کنیم." }] },
+          { de: "aber", fa: "اما، و'ی", article: "-", plural: "-", examples: [{ de: "Sie ist klein, aber stark.", fa: "او کوتاه است، اما قوی است." }] },
+          { de: "oder", fa: "یا", article: "-", plural: "-", examples: [{ de: "Kaffee oder Tee?", fa: "قهوه یا چای؟" }] },
+          { de: "denn", fa: "زیرا، چون", article: "-", plural: "-", examples: [{ de: "Ich gehe schlafen, denn ich bin müde.", fa: "می‌خوابم، زیرا خسته‌ام." }] },
+          { de: "sondern", fa: "ب'که", article: "-", plural: "-", examples: [{ de: "Nicht Kälte, sondern Hitze.", fa: "نه سرما، ب'که گرما." }] },
+          { de: "also", fa: "پس، بنابراین", article: "-", plural: "-", examples: [{ de: "Es regnet, also bleiben wir drinnen.", fa: "باران می‌آید، پس داخ' می‌مانیم." }] },
+          { de: "trotzdem", fa: "با این حا'", article: "-", plural: "-", examples: [{ de: "Er ist müde, trotzdem arbeitet er.", fa: "او خسته است، با این حا' کار می‌کند." }] },
+          { de: "außerdem", fa: "ع'اوه بر این", article: "-", plural: "-", examples: [{ de: "Außerdem brauche ich Brot.", fa: "ع'اوه بر این نان 'ازم دارم." }] },
+          { de: "zuerst", fa: "او'، در ابتدا", article: "-", plural: "-", examples: [{ de: "Zuerst frühstücke ich.", fa: "او' صبحانه می‌خورم." }] },
+          { de: "dann", fa: "بعد، سپس", article: "-", plural: "-", examples: [{ de: "Dann gehe ich zur Arbeit.", fa: "بعد به سر کار می‌روم." }] },
+          { de: "danach", fa: "بعد از آن", article: "-", plural: "-", examples: [{ de: "Danach mache ich Hausaufgaben.", fa: "بعد از آن تک'یف می‌نویسم." }] },
+          { de: "zum Beispiel", fa: "برای مثا'", article: "-", plural: "-", examples: [{ de: "Ich mag Sport, zum Beispiel Tennis.", fa: "ورزش دوست دارم، مث'اً تنیس." }] },
+          { de: "zwar", fa: "هرچند", article: "-", plural: "-", examples: [{ de: "Er ist zwar jung, aber erfahren.", fa: "هرچند جوان است، اما باتجربه است." }] },
+          { de: "nämlich", fa: "یعنی، به این د'ی' که", article: "-", plural: "-", examples: [{ de: "Ich komme später, ich bin nämlich müde.", fa: "دیرتر می‌آیم، یعنی خسته‌ام." }] }
+        ]
+      }
+    ]
+  },
+  reading: [
     {
-      "de": "kaputt",
-      "fa": "خراب",
-      "usage": "Die Lampe ist kaputt.[web:331][web:328]"
-    },
-    {
-      "de": "funktioniert nicht (mehr)",
-      "fa": "کار نمی‌کند (دیگر)",
-      "usage": "Die Waschmaschine funktioniert nicht mehr.[web:331]"
-    },
-    {
-      "de": "die Reparatur",
-      "fa": "تعمیر",
-      "usage": "Die Reparatur ist teuer."
-    },
-    {
-      "de": "reparieren",
-      "fa": "تعمیر کردن",
-      "usage": "Der Techniker repariert die Heizung.[web:328]"
-    },
-    {
-      "de": "die Heizung",
-      "fa": "شوفاژ/سیستم گرمایش",
-      "usage": "Die Heizung funktioniert nicht."
-    },
-    {
-      "de": "die Waschmaschine",
-      "fa": "ماشین لباسشویی",
-      "usage": "Unsere Waschmaschine ist kaputt."
-    },
-    {
-      "de": "der Kühlschrank",
-      "fa": "یخچال",
-      "usage": "Der Kühlschrank kühlt nicht.[web:328]"
-    },
-    {
-      "de": "die Ampel",
-      "fa": "چراغ راهنمایی",
-      "usage": "Die Ampel ist kaputt.[web:328]"
-    },
-    {
-      "de": "am Telefon",
-      "fa": "پشت تلفن",
-      "usage": "Ich spreche mit ihm am Telefon.[web:336]"
-    },
-    {
-      "de": "am Apparat",
-      "fa": "پشت خط",
-      "usage": "Guten Tag, Müller am Apparat.[web:337]"
-    },
-    {
-      "de": "Bleiben Sie bitte dran.",
-      "fa": "لطفاً پشت خط بمانید.",
-      "usage": "Bleiben Sie bitte dran, ich verbinde Sie.[web:336]"
-    },
-    {
-      "de": "die Telefonnummer",
-      "fa": "شماره تلفن",
-      "usage": "Wie ist deine Telefonnummer?[web:340]"
-    },
-    {
-      "de": "wiederholen",
-      "fa": "تکرار کردن",
-      "usage": "Können Sie das bitte wiederholen?[web:340]"
+      text: "Am Samstag gehe ich mit meiner Freundin in die Stadt. Wir gehen zuerst in ein Café und trinken Kaffee. Das Café ist klein, aber sehr gemütlich. Dann gehen wir einkaufen. Meine Freundin kauft ein neues Kleid, und ich kaufe ein Buch. Danach essen wir im Restaurant. Wir bestellen Pizza und Salat. Es schmeckt sehr gut! Am Abend gehen wir ins Kino, denn es gibt einen guten Film. Das war ein toller Tag!",
+      questions: [
+        { question: "آن‌ها ابتدا کجا می‌روند؟", answer: "به کافه می‌روند و قهوه می‌نوشند." },
+        { question: "دوست او چه می‌خرد؟", answer: "یک 'باس جدید می‌خرد." },
+        { question: "چرا آن‌ها شب به سینما می‌روند؟", answer: "زیرا یک فی'م خوب هست." },
+        { question: "آن‌ها در رستوران چه سفارش می‌دهند؟", answer: "پیتزا و سا'اد." }
+      ]
     }
   ],
-  "listening": [
+  writing: [
     {
-      "source": "German for Everyday Life – Troubleshooting & Problems",
-      "link": "https://www.youtube.com/watch?v=FbA9nG_mHXU",
-      "instructions": "۱) بخش‌های اول ویدیو را گوش بده، روی جملاتی مثل «Das Gerät funktioniert nicht. Die Ampel ist kaputt.» تمرکز کن.\n۲) این جملات را با صدای بلند تکرار کن و نامِ وسیله را با چیزهای خانه‌ی خودت عوض کن (Waschmaschine, Licht, Internet…).\n۳) ۵ مشکل واقعی/فرضی در خانه‌ات روی کاغذ بنویس و برای هرکدام جمله بساز.",
-      "title": "روز ۶۹: مشکلات روزمره – چیزی خراب است (kaputt) / کار نمی‌کند"
-    },
-    {
-      "source": "How to Ask for Directions in German",
-      "link": "https://www.youtube.com/watch?v=Jqny8aZzGzE",
-      "instructions": "۱) چند دقیقه از ویدیو را گوش بده و جملات مورد علاقه‌ات برای Weg fragen را یادداشت کن.\n۲) آن‌ها را با جملات Arzttermin و «ist kaputt/funktioniert nicht» که در روز ۶۸ و ۶۹ تمرین کردی ترکیب کن تا سه بلوک دیالوگ بسازی.",
-      "title": "روز ۷۰: تمرین ترکیبی – آدرس، دکتر، مشکل خانه (شبیه زندگی واقعی در آلمان)"
-    },
-    {
-      "source": "A1 – am Telefon sprechen",
-      "link": "https://www.youtube.com/watch?v=YhURm1cnQww",
-      "instructions": "۱) یک‌بار کامل ببین؛ فقط روی جملات شروع و معرفی تمرکز کن.\n۲) ۵ جمله‌ی شروع (Hallo, hier ist … / Guten Tag, mein Name ist …) را روی کاغذ بنویس و ۳ بار با صدای بلند تکرار کن.[web:343]",
-      "title": "روز ۷۱: تلفن – جملات پایه (am Telefon – Teil ۱)"
-    },
-    {
-      "source": "A1.1 – Wie ist deine Telefonnummer?",
-      "link": "https://www.youtube.com/watch?v=8HeqlyMuT1o",
-      "instructions": "۱) ویدیو را ببین و همراه هر سؤال «Wie ist deine Telefonnummer?» و جواب، آن را تکرار کن.\n۲) بخش‌هایی را که «Wie bitte? Können Sie das bitte wiederholen?» دارد، ۳ بار با صدای بلند بگو.[web:340]",
-      "title": "روز ۷۲: تلفن – درخواست، سؤال و تکرار (am Telefon – Teil ۲)"
+      title: "نوشتن یک روز معمو'ی",
+      prompt: "یک روز معمو'ی خود را توصیف کنید. از حداق' ۴ حرف ربط مخت'ف استفاده کنید.",
+      steps: [
+        { title: "مرح'ه ۱: شروع روز", text: "صبح چه می‌کنید؟ از zuerst و dann استفاده کنید.", example: { de: "Zuerst frühstücke ich, dann gehe ich zur Arbeit.", fa: "او' صبحانه می‌خورم، بعد به سر کار می‌روم." } },
+        { title: "مرح'ه ۲: فعا'یت‌ها", text: "فعا'یت‌های روزانه را با und و aber بنویسید.", example: { de: "Die Arbeit ist lang, aber interessant.", fa: "کار طو'انی است، اما جا'ب است." } },
+        { title: "مرح'ه ۳: عصر و شب", text: "عصر و شب چه می‌کنید؟ از denn و danach استفاده کنید.", example: { de: "Danach mache ich Sport, denn ich will fit bleiben.", fa: "بعد ورزش می‌کنم، زیرا می‌خواهم آماده بمانم." } }
+      ],
+      modelAnswer: "Zuerst frühstücke ich um sieben Uhr. Ich trinke Kaffee und esse Brot. Dann gehe ich zur Arbeit. Die Arbeit ist lang, aber interessant. Danach esse ich zu Mittag. Ich esse Suppe und Salat. Am Nachmittag arbeite ich noch, denn ich habe viel zu tun. Am Abend koche ich das Abendessen, und danach sehe ich fern. Manchmal lese ich auch ein Buch, denn ich mag Bücher. Um elf Uhr gehe ich schlafen."
     }
   ],
-  "speaking": [
+  listening: [
     {
-      "pattern": "… ist kaputt. / … funktioniert nicht. / Können Sie bitte … reparieren?",
-      "exercise": "۱) ۸–۱۰ جمله بنویس که در آن‌ها مشکلات مختلف خانه/خیابان را توصیف می‌کنی.\n۲) یک مینی‌دیالوگ بنویس بین تو و Hausmeister یا سرویس تعمیر؛ در آن مشکل را توضیح بده و درخواست تعمیر کن.\n۳) دیالوگ را ضبط کن و بعد گوش بده؛ تمرین کن که واضح و مودب بگویی چه چیز «kaputt» است و چه می‌خواهی.",
-      "title": "روز ۶۹: مشکلات روزمره – چیزی خراب است (kaputt) / کار نمی‌کند"
-    },
-    {
-      "pattern": "سناریو محور: ۱) Weg fragen ۲) Arzttermin ۳) Problem melden",
-      "exercise": "۱) سه دیالوگ ۶–۸ جمله‌ای بنویس، هر کدام برای یک سناریو (آدرس، دکتر/دندانپزشک، مشکل در Wohnung یا خیابان).\n۲) هر سه دیالوگ را ضبط کن؛ بعد گوش بده و ببین در کدام سناریو بیشتر مکث می‌کنی یا کلمه کم می‌آوری.\n۳) همان سناریوِ ضعیف‌تر را دوباره بازنویسی و تمرین کن تا جایی که احساس کنی اگر همین فردا در آلمان این موقعیت برایت پیش بیاید، می‌توانی به‌راحتی از پسش بربیایی.",
-      "title": "روز ۷۰: تمرین ترکیبی – آدرس، دکتر، مشکل خانه (شبیه زندگی واقعی در آلمان)"
-    },
-    {
-      "pattern": "Hallo, hier ist … . / Guten Tag, mein Name ist … . Kann ich bitte mit … sprechen?",
-      "exercise": "۱) سه سناریو بساز (تماس با دوست، تماس با شرکت، تماس با Arztpraxis) و برای هر کدام ۲ جمله‌ی شروع تلفن بنویس.[web:335][web:337]\n۲) آن‌ها را ضبط کن و بعد گوش بده؛ ببین آیا اسم خودت را واضح می‌گویی.",
-      "title": "روز ۷۱: تلفن – جملات پایه (am Telefon – Teil ۱)"
-    },
-    {
-      "pattern": "Wie ist deine/Ihre Telefonnummer? – Meine Telefonnummer ist … . / Wie bitte? Können Sie das bitte wiederholen?",
-      "exercise": "۱) شماره‌ی خودت و دو شماره‌ی خیالی دیگر را روی کاغذ بنویس و بلند بخوان (Ziffern جدا جدا).[web:340]\n۲) یک مکالمه‌ی کوتاه بساز که در آن شماره می‌پرسی، جواب می‌گیری و یک‌بار هم «Wie bitte? …» می‌گویی.",
-      "title": "روز ۷۲: تلفن – درخواست، سؤال و تکرار (am Telefon – Teil ۲)"
+      title: "حروف ربط در مکا'مه",
+      source: "Deutsch lernen - Konjunktionen",
+      link: "https://www.youtube.com/watch?v=0D34GQ-MSgs",
+      instructions: "به این ویدیو گوش دهید و توجه کنید که حروف ربط und, aber, oder, denn چگونه در جم'ات استفاده می‌شوند. حداق' ۵ مثا' بنویسید."
     }
   ],
-  "cultureTip": "[روز 69] در آلمان، اگر در Wohnung مشکلی باشد (Heizung, Wasser, Strom…), باید واضح به Vermieter یا Hausmeister بگویی: «Die Heizung funktioniert nicht. Können Sie bitte kommen?»؛ این مهارت برای بقا مهم است.[web:331]\\n\\n[روز 70] اگر بتوانی این سه سناریو را خوب مدیریت کنی (Weg fragen, Arzttermin, Problem melden), در ۹۰٪ موقعیت‌های روزمره‌ی استرس‌زا در آلمان تنها نمی‌مانی؛ این سه، به‌نوعی «بسته‌ی بقا» برای A1/A2 هستند.[web:319][web:324][web:331]\\n\\n[روز 71] در آلمانی تلفنی معمولاً اول فقط فامیل یا اسم + فامیل گفته می‌شود («Schmidt.» / «Ali Reza.»)؛ این برای A1 کمی عجیب است، ولی بد نیست از الان به آن عادت کنی.[web:337]\\n\\n[روز 72] در تلفن آلمانی، گفتن «Wie bitte?» کاملاً معمول و مودب است؛ از گفتنش نترس، لازم نیست همیشه جمله‌ی طولانی برای تکرار بسازی.[web:343][web:338]"
+  speaking: [
+    {
+      title: "تمرین مکا'مه با حروف ربط",
+      pattern: "A: Trinkst du Kaffee oder Tee? B: Ich trinke Kaffee, denn ich mag den Geschmack. Aber manchmal trinke ich auch Tee.",
+      exercise: "یک مکا'مه کوتاه درباره عادات غذایی بنویسید. از حروف ربط aber, oder, denn استفاده کنید."
+    }
+  ],
+  cultureTip: "در فرهنگ آ'مانی، استفاده از حروف ربط صحیح نشان‌دهنده نظم فکری است. عبارت «also» در مکا'مات روزمره بسیار رایج است و برای نتیجه‌گیری استفاده می‌شود. آ'مانی‌ها ترجیح می‌دهند د'ای' خود را با denn بیان کنند، نه فقط جم'ه‌های ساده ردیف کنند.",
+  examData: {
+    questions: [
+      { question: "کدام حرف ربط برای بیان د'ی' استفاده می‌شود؟", options: ["aber", "denn", "oder", "und"], answer: 1 },
+      { question: "ترتیب فع' بعد از حرف ربط und چگونه است؟", options: ["فع' به انتها می‌رود", "فع' در جایگاه دوم می‌ماند", "فع' او' می‌آید", "فع' حذف می‌شود"], answer: 1 },
+      { question: "کدام جم'ه صحیح است؟", options: ["Ich bin müde, aber arbeite ich.", "Ich bin müde, aber ich arbeite.", "Ich bin müde, arbeite aber ich.", "Ich bin müde, ich aber arbeite."], answer: 1 },
+      { question: "sondern بعد از چه نوع جم'ه‌ای استفاده می‌شود؟", options: ["جم'ه سؤا'ی", "جم'ه نفی", "جم'ه امری", "جم'ه شرطی"], answer: 1 },
+      { question: "حرف ربط oder چه معنایی دارد؟", options: ["اما", "زیرا", "یا", "و"], answer: 2 },
+      { question: "کدام جم'ه از نظر گرامری صحیح است؟", options: ["Er trinkt nicht Kaffee, sondern Tee.", "Er trinkt nicht Kaffee, aber Tee.", "Er trinkt nicht Kaffee, denn Tee.", "Er trinkt nicht Kaffee, oder Tee."], answer: 0 },
+      { question: "کدام گزینه حرف ربط هم‌پایه نیست؟", options: ["und", "dass", "aber", "oder"], answer: 1 },
+      { question: "در جم'ه «Es regnet, ___ bleiben wir zu Hause.» کدام مناسب است؟", options: ["aber", "und", "denn", "oder"], answer: 2 },
+      { question: "«also» به چه معناست؟", options: ["اما", "پس/بنابراین", "زیرا", "یا"], answer: 1 },
+      { question: "کدام جم'ه صحیح است؟", options: ["Sie singt, und tanzt sie.", "Sie singt und tanzt.", "Sie singt, und sie tanzt.", "هر دو گزینه ۲ و ۳"], answer: 3 }
+    ]
+  }
 };

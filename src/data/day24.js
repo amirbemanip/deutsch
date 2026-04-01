@@ -1,105 +1,170 @@
 export const day24Data = {
-  "title": "روز 24 (تجمیع روزهای 93 تا 96)",
-  "objective": "[روز 93] شناخت مهم‌ترین گروه‌های واژگان A2 (خانواده‌ی گسترده، مدرسه/آموزش، کار، سفر، خرید، سلامتی، روتین، اعداد/زمان، احساسات، ارتباطات) و برداشتن واژه‌های کلیدی برای خودت.\\n\\n[روز 94] تمرین صحبت‌کردن روی ۵ موضوع رایج آزمون A2 (Beruf, Wohnen, Freizeit, Essen & Trinken, Reisen) با استفاده از کلمات ربط و Perfekt/Zukunft.\\n\\n[روز 95] اجرای یک شبیه‌سازی کامل امتحان گفتاری A2: معرفی، کارت موضوع (Dialog/Monolog کوتاه)، و گفت‌وگو با سوال‌وجواب.\\n\\n[روز 96] طراحی یک برنامه‌ی شخصی مرور برای هفته‌های قبل از امتحان A2، با تمرکز روی واژگان پُراستفاده، کلمات ربط، Perfekt/Zukunft و موضوعات امتحان.",
-  "grammarData": {
-    "subtitle": "گسترش دایره‌ی لغت: از A1 ساده به A2 متنوع‌تر\\nThemen für A2‑Dialoge: Beruf, Wohnen, Freizeit, Essen, Reisen\\nسه فاز: Vorstellung, Thema-Karte, gemeinsames Gespräch\\nPlan für die letzten Wochen vor der Prüfung",
-    "pronouns": [
+  title: "روز ۲۴: صفت‌ها — Komparativ و Superlativ",
+  objective: "در این روز یاد می‌گیرید چطور چیزها را مقایسه کنید. «برلین بزرگ‌تر از مونیخ است» یا «این رستوران بهترین است» — همه این‌ها با Komparativ و Superlativ ساخته می‌شوند.",
+
+  grammarData: {
+    subtitle: "Komparativ (مقایسه دو چیز) و Superlativ (برترین)",
+    content: [
       {
-        "de": "چرا لیست‌های فرکانس بالا مهم‌اند؟",
-        "fa": "تمرکز روی واژگانی که واقعاً در مکالمه و امتحان زیاد می‌آیند",
-        "type": "در سطح A2 لازم نیست هزاران کلمه‌ی سخت یاد بگیری؛ اما حدود چندصد کلمه‌ی پرکاربرد را باید فعال بلد باشی، مخصوصاً در موضوعاتی مثل Alltag, Arbeit, Reisen, Gesundheit.[web:381][web:390]"
+        type: "text",
+        title: "۱. Komparativ — مقایسه دو چیز (مثلاً بزرگ‌تر، زیباتر)",
+        text: "برای مقایسه دو چیز، به آخر صفت پسوند -er اضافه می‌کنیم و از کلمه als (از) استفاده می‌کنیم.\nفرمول: صفت + er + als"
       },
       {
-        "de": "موضوعات معمول A2‑Sprechen",
-        "fa": "طبق نمونه‌سؤالات و کارت‌های امتحانی",
-        "type": "بر اساس جمع‌بندی موضوعات آزمون A2، باید بتوانی درباره‌ی Beruf, Familie, Wohnen, Alltag, Freizeit, Essen & Trinken, Reisen, Gesundheit صحبت کنی و سؤال بپرسی/جواب بدهی.[web:389][web:392][web:397]"
+        type: "table",
+        title: "قاعده Komparativ",
+        rows: [
+          { de: "groß → größer als", fa: "بزرگ → بزرگ‌تر از: Berlin ist größer als München." },
+          { de: "schön → schöner als", fa: "زیبا → زیباتر از: Die Stadt ist schöner als das Dorf." },
+          { de: "schnell → schneller als", fa: "سریع → سریع‌تر از: Der Zug ist schneller als der Bus." },
+          { de: "alt → älter als", fa: "قدیمی/پیر → قدیمی‌تر از (Umlaut! a→ä)" },
+          { de: "jung → jünger als", fa: "جوان → جوان‌تر از (Umlaut! u→ü)" },
+          { de: "gut → besser als", fa: "خوب → بهتر از (بی‌قاعده!)" },
+          { de: "viel → mehr als", fa: "زیاد → بیشتر از (بی‌قاعده!)" },
+          { de: "gern → lieber als", fa: "با لذت → ترجیح‌تر از (بی‌قاعده!)" }
+        ]
       },
       {
-        "de": "ساختار معمول Goethe A2‑Sprechen",
-        "fa": "پیشنهاد برای تمرین سه‌بخشی",
-        "type": "۱) Vorstellung: Name, Alter, Herkunft, Wohnort, Beruf/Studium, Familie, Hobbys (حدود ۱ دقیقه).\n۲) Karte/Thema: درباره‌ی یک موضوع (z.B. Urlaub, Essen, Verkehr, Freizeit) چند جمله می‌گویی و ۲–۳ سؤال می‌پرسی.\n۳) Gemeinsames Gespräch: با شریک/دوستتان درباره‌ی موضوع سؤال‌جواب می‌کنید (ترجیحاً با weil/aber und Perfekt).[web:392][web:397][web:394]"
+        type: "text",
+        title: "۲. Superlativ — برترین (بهترین، بزرگ‌ترین)",
+        text: "برای بیان برترین، از صفت + -st + آرتیکل am/der die das استفاده می‌کنیم.\nفرمول با am: am + صفت + st + en\nفرمول با آرتیکل: der/die/das + صفت + st + e/en"
       },
       {
-        "de": "آنچه باید تثبیت شود",
-        "fa": "چهار ستون اصلی A2",
-        "type": "۱) واژگان پُراستفاده A2 در موضوعات Alltag, Arbeit, Reisen, Gesundheit, Wohnen.[web:381][web:391]\n۲) کلمات ربط und, aber, oder, denn, weil, trotzdem.[web:387][web:391]\n۳) گذشته (Perfekt) برای «Gestern/Letztes Wochenende/Früher».[web:368]\n۴) Zukunft با Präsens + Zeitwort و کمی Futur I برای Pläne und Vorhersagen.[web:372][web:373]"
+        type: "table",
+        title: "قاعده Superlativ",
+        rows: [
+          { de: "groß → am größten / der größte", fa: "بزرگ‌ترین: Das ist am größten. / der größte Mann" },
+          { de: "schön → am schönsten / das schönste", fa: "زیباترین: Der Sommer ist am schönsten." },
+          { de: "gut → am besten / das beste", fa: "بهترین: Das Restaurant ist am besten." },
+          { de: "schnell → am schnellsten / der schnellste", fa: "سریع‌ترین: Er ist am schnellsten." },
+          { de: "billig → am billigsten / das billigste", fa: "ارزان‌ترین: Das ist am billigsten." }
+        ]
+      },
+      {
+        type: "alert",
+        title: "نکته مهم: صفت‌های با Umlaut",
+        text: "بعضی صفت‌های تک‌هجایی با حروف صدادار a, o, u هنگام اضافه شدن -er و -st Umlaut می‌گیرند:\nalt → älter → am ältesten\njung → jünger → am jüngsten\ngroß → größer → am größten\nkalt → kälter → am kältesten"
+      },
+      {
+        type: "examples",
+        title: "مثال‌های کاربردی",
+        items: [
+          { de: "Berlin ist größer als München.", fa: "برلین بزرگ‌تر از مونیخ است." },
+          { de: "Der Sommer ist die schönste Jahreszeit.", fa: "تابستان زیباترین فصل است." },
+          { de: "Ich trinke lieber Tee als Kaffee.", fa: "من چای را ترجیح می‌دهم تا قهوه." },
+          { de: "Das ist das beste Restaurant der Stadt.", fa: "این بهترین رستوران شهر است." },
+          { de: "Wer ist älter? Du oder dein Bruder?", fa: "کی قدیمی‌تره؟ تو یا برادرت؟" }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "Komparativ و Superlativ را کامل کنید",
+        instruction: "شکل درست صفت را بنویسید:",
+        blanks: [
+          { sentence: "Berlin ist ___ (groß) als München.", answer: "größer", hint: "Komparativ: صفت + er" },
+          { sentence: "Der Sommer ist am ___ (schön).", answer: "schönsten", hint: "Superlativ: am + adj + st + en" },
+          { sentence: "Das ist das ___ (gut) Restaurant.", answer: "beste", hint: "gut → besser → best" },
+          { sentence: "Mein Bruder ist ___ (jung) als ich.", answer: "jünger", hint: "Umlaut: u → ü" },
+          { sentence: "Ich esse ___ (gern) Pizza als Salat.", answer: "lieber", hint: "gern → lieber (بی‌قاعده)" }
+        ]
+      },
+      {
+        type: "interactive_quiz",
+        title: "آزمون: Komparativ و Superlativ",
+        questions: [
+          {
+            question: "کدام جمله Komparativ را درست نشان می‌دهد؟",
+            questionDe: "Welcher Komparativ ist richtig?",
+            options: [
+              { text: "Berlin ist mehr groß als München.", isCorrect: false },
+              { text: "Berlin ist größ als München.", isCorrect: false },
+              { text: "Berlin ist größer als München.", isCorrect: true }
+            ],
+            explanation: "برای Komparativ صفت‌های تک‌هجایی -er می‌گیرند: groß → größer."
+          },
+          {
+            question: "کدام Superlativ درست است؟",
+            questionDe: "Welcher Superlativ ist richtig?",
+            options: [
+              { text: "Das ist am besten.", isCorrect: true },
+              { text: "Das ist am gutsten.", isCorrect: false },
+              { text: "Das ist am bessersten.", isCorrect: false }
+            ],
+            explanation: "gut → besser → am besten (بی‌قاعده)"
+          }
+        ]
       }
     ]
   },
-  "vocabData": [
+
+  vocabData: {
+    categories: [
+      {
+        title: "صفت‌های پرکاربرد برای مقایسه",
+        words: [
+          { de: "groß / größer / am größten", fa: "بزرگ / بزرگ‌تر / بزرگ‌ترین", article: "-", plural: "-", examples: [{ de: "Wer ist der größte in der Klasse?", fa: "بزرگ‌ترین کلاس کیه؟" }] },
+          { de: "klein / kleiner / am kleinsten", fa: "کوچک / کوچک‌تر / کوچک‌ترین", article: "-", plural: "-", examples: [{ de: "Das ist das kleinste Zimmer.", fa: "این کوچک‌ترین اتاقه." }] },
+          { de: "schön / schöner / am schönsten", fa: "زیبا / زیباتر / زیباترین", article: "-", plural: "-", examples: [{ de: "Das Bild ist schöner als das Foto.", fa: "تصویر زیباتر از عکسه." }] },
+          { de: "teuer / teurer / am teuersten", fa: "گران / گران‌تر / گران‌ترین", article: "-", plural: "-", examples: [{ de: "Das Auto ist das teuerste.", fa: "این ماشین گران‌ترینه." }] },
+          { de: "billig / billiger / am billigsten", fa: "ارزان / ارزان‌تر / ارزان‌ترین", article: "-", plural: "-", examples: [{ de: "Lidl ist billiger als Rewe.", fa: "لیدل ارزان‌تر از روهه." }] }
+        ]
+      }
+    ]
+  },
+
+  reading: [
     {
-      "de": "die Ausbildung",
-      "fa": "آموزش حرفه‌ای",
-      "usage": "Ich mache eine Ausbildung als Verkäuferin.[web:381][web:391]"
-    },
-    {
-      "de": "der Vertrag",
-      "fa": "قرارداد",
-      "usage": "Ich habe gestern meinen neuen Arbeitsvertrag unterschrieben.[web:381]"
-    },
-    {
-      "de": "die Hausaufgabe",
-      "fa": "تکلیف منزل",
-      "usage": "Ich mache jeden Tag meine Hausaufgaben.[web:381]"
-    },
-    {
-      "de": "die Erfahrung",
-      "fa": "تجربه",
-      "usage": "Das war eine interessante Erfahrung.[web:381]"
-    },
-    {
-      "de": "bald / später / vorher",
-      "fa": "به‌زودی / بعداً / قبلش",
-      "usage": "Wir sehen uns bald. Ich rufe dich später an.[web:381]"
+      text: "Meine Stadt\n\nMeine Stadt ist kleiner als Berlin, aber sie ist schoener als viele andere Staedte. Die Altstadt ist am schoensten, besonders im Sommer. Hier gibt es das beste Restaurant der Stadt. Dort ist das Essen am leckersten und die Preise sind guenstiger als in anderen Restaurants. Mein Lieblingsessen dort ist die Suppe. Der Sommer ist die schoenste Jahreszeit hier, weil die Tage am laengsten sind. Im Winter ist es kaelter, aber der Weihnachtsmarkt ist am gemuetlichsten. Ich finde, meine Stadt ist am besten zum Wohnen!",
+      questions: [
+        { question: "نویسنده شهرش را با برلین مقایسه می‌کند. کدام کوچک‌تر است؟", answer: "شهر نویسنده کوچک‌تر است." },
+        { question: "کدام فصل زیباترین فصل در شهر نویسنده است؟", answer: "تابستان — Die Tage sind am laengsten." },
+        { question: "چرا قیمت‌های رستوران مورد علاقه خوب است؟", answer: "قیمت‌ها ارزان‌تر از رستوران‌های دیگر است (guenstiger)." }
+      ]
     }
   ],
-  "listening": [
+
+  writing: [
     {
-      "source": "High-Frequency German Vocabulary for A2 Learners – 900+ words",
-      "link": "https://www.olesentuition.co.uk/single-post/high-frequency-german-vocabulary-for-a2-learners-900-words",
-      "instructions": "۱) در این مقاله، ۲–۳ بخش که برای زندگی‌ات مهم‌تر است انتخاب کن (مثلاً Household, Education, Experiences).[web:381]\n۲) از هر بخش ۸–۱۰ کلمه‌ی واقعاً مفید بیرون بکش و با هرکدام یک جمله‌ی ساده بساز؛ آن‌ها را تبدیل به «واژه‌های فعال شخصی» کن، نه فقط لیست حفظی.[web:381]",
-      "title": "روز ۹۳: واژگان A2 پُراستفاده – ۱۰ دسته‌ی مهم"
-    },
-    {
-      "source": "All current topics for A2 dialogues in the German exam",
-      "link": "https://deutsch-vorbereitung.com/en/a2-themen-dialoge-auf-deutsch.html",
-      "instructions": "۱) صفحه را نگاه کن و ۵ موضوعی را که برایت حیاتی‌تر است علامت بزن (مثلاً Beruf, Freizeit, Reisen…).[web:389]\n۲) برای هر موضوع، چند سؤال نمونه یادداشت کن (z.B. „Was machen Sie beruflich?“, „Wie wohnen Sie?“, „Was machen Sie gern in Ihrer Freizeit?“).[web:392]",
-      "title": "روز ۹۴: تمرین گفتاری A2 – ۵ موضوع اصلی (طبق امتحان‌ها)"
-    },
-    {
-      "source": "Goethe A2 Sprechen Topics with Examples + A1/A2 Top Questions",
-      "link": "https://zinglanguages.com/knowledgehub/goethe-a2-sprechen-topics-examples/",
-      "instructions": "۱) یک کارت موضوعی (مثلاً Urlaub, Hobby, Geld, Wohnung) از صفحه انتخاب کن و مثال جواب را بخوان.[web:392]\n۲) ویدیوهای تمرین A1/A2 سَخَن‌گفتن را نگاه کن (مثل ویدیو Top Questions & Answers) و ببین چطور جواب‌ها کوتاه ولی کامل هستند.[web:394]\n۳) همان ساختار را با اطلاعات خودت بازنویسی کن.",
-      "title": "روز ۹۵: شبیه‌سازی کامل Sprechen A2 – سه بخش"
-    },
-    {
-      "source": "5 einfache Alltagsthemen zum Sprechen auf A2‑Niveau",
-      "link": "https://www.youtube.com/watch?v=uUH3nbMvdL4",
-      "instructions": "۱) یکی از موضوع‌های ویدیو (z.B. Tagesablauf, Einkaufen, Freizeit) را انتخاب کن و چندبار گوش بده تا ساختار و واژگانش «به گوش»ت عادت کند.[web:395]\n۲) تلاش کن همان موضوع را با کلمات خودت بازگویی کنی؛ ابتدا با نگاه به متن، بعد بدون متن.",
-      "title": "روز ۹۶: جمع‌بندی بزرگ – نقشه‌ی شخصی A2 برای خودت"
+      title: "مقایسه دو شهر/کشور",
+      prompt: "دو شهر یا دو کشور را با هم مقایسه کنید. از Komparativ و Superlativ استفاده کنید.",
+      steps: [
+        { title: "معرفی دو مورد", text: "دو شهر/کشور را نام ببرید.", example: { de: "Ich vergleiche Berlin und Wien.", fa: "من برلین و وین را مقایسه می‌کنم." } },
+        { title: "مقایسه با Komparativ", text: "از ...als استفاده کنید.", example: { de: "Berlin ist groesser als Wien, aber Wien ist schoener.", fa: "برلین بزرگ‌تر از وین است، اما وین زیباتر است." } },
+        { title: "برترین با Superlativ", text: "از am ...sten استفاده کنید.", example: { de: "Das Essen ist in Wien am besten.", fa: "غذا در وین بهترین است." } }
+      ],
+      modelAnswer: "Berlin und Wien sind beide schoene Staedte. Berlin ist groesser als Wien und hat mehr Einwohner. Aber Wien ist aelter und hat die schoensten Gebaeude. Das Essen ist in Wien am besten, besonders die Sachertorte. Ich finde, Wien ist gemuetlicher als Berlin, aber Berlin ist interessanter fuer junge Leute."
     }
   ],
-  "speaking": [
+
+  listening: [
     {
-      "pattern": "جمله‌سازی آزاد با واژگان جدید در موضوع‌های مختلف",
-      "exercise": "۱) از ۲۰–۳۰ واژه‌ای که انتخاب کردی، حداقل ۱۵ را در یک متن آزاد ۱۵–۲۰ جمله‌ای استفاده کن (می‌توانی موضوع را «یک روز از زندگی من در آلمان» یا «من و کار/درس/خانواده‌ام» بگذاری).[web:381]\n۲) متن را ضبط کن؛ بعد علامت بزن کدام واژه‌ها هنوز برایت «غریب» هستند و آن‌ها را جداگانه دوباره در ۳–۴ جمله‌ی جدید تمرین کن.\n۳) اگر دیدی یک حوزه‌ی واژگانی (مثلاً Schule/Arbeit یا Gesundheit) خیلی ضعیف‌تر است، برای آن یک «مینی‌لیست ۱۰ کلمه‌ای» بساز و طی هفته‌ی بعد مدام تکرار کن.",
-      "title": "روز ۹۳: واژگان A2 پُراستفاده – ۱۰ دسته‌ی مهم"
-    },
-    {
-      "pattern": "برای هر موضوع: ۳–۴ جمله‌ی توضیح + ۱–۲ جمله با weil/aber + ۱ جمله در Perfekt یا Zukunft",
-      "exercise": "۱) برای ۵ موضوع انتخابی (Beruf, Wohnen, Freizeit, Essen & Trinken, Reisen) هرکدام یک پاراگراف ۵–۶ جمله‌ای بنویس که در آن از weil/aber و حداقل یک جمله Perfekt یا آینده استفاده کرده‌ای.[web:391][web:392]\n۲) پاراگراف‌ها را ضبط کن؛ بعد هر کدام را به یک «جواب امتحانی کوتاه» تبدیل کن که در ۴۵–۶۰ ثانیه بشود گفت.\n۳) از یک دوست/همکلاسی/معلم یا خودت (مقابل آینه) بخواه این سؤال‌ها را یکی‌یکی بپرسد و تو جواب‌های آماده‌ات را بگویی.",
-      "title": "روز ۹۴: تمرین گفتاری A2 – ۵ موضوع اصلی (طبق امتحان‌ها)"
-    },
-    {
-      "pattern": "۱) „Hallo, ich heiße …“ ۲) ۵–۶ جمله درباره‌ی یک موضوع ۳) Frage–Antwort mit Partner",
-      "exercise": "۱) شبیه‌سازی را کامل انجام بده: اول یک دقیقه معرفی، بعد ۱ موضوع (مثلاً Urlaub) با ۶–۸ جمله و ۲–۳ سؤال، بعد ۱۰ سؤال‌و‌جواب کوتاه در ۲ طرف.[web:392]\n۲) همه‌ی این سه بخش را پشت‌سر‌هم ضبط کن؛ این فایل می‌شود معیار سنجش پیشرفتت.\n۳) پس از گوش‌دادن، برای هر بخش سه چیز را علامت بزن: (a) قوت، (b) مشکل در واژگان، (c) مشکل در گرامر (مثلاً weil, Perfekt). روی (b) و (c) در روز ۹۶ کار کن.",
-      "title": "روز ۹۵: شبیه‌سازی کامل Sprechen A2 – سه بخش"
-    },
-    {
-      "pattern": "برنامه‌ریزی هفتگی: هر روز یک موضوع، یک مونولوگ ۲ دقیقه‌ای",
-      "exercise": "۱) با توجه به لیست موضوعات A2 (Familie, Beruf, Wohnen, Alltag, Freizeit, Essen & Trinken, Reisen, Gesundheit, Verkehr, Einkaufen)، برای ۷ روز آینده ۷ موضوع انتخاب کن.[web:389][web:391]\n۲) برای هر روز یک مونولوگ ۲–۳ دقیقه‌ای برنامه‌ریزی کن؛ از همین حالا Stichwortهایی که می‌خواهی بگویی را بنویس.\n۳) تصمیم بگیر در هر مونولوگ حتماً موارد زیر را استفاده کنی: حداقل ۲ کلمه‌ی ربط (z.B. weil, aber), ۱ جمله در Perfekt, ۱ جمله درباره‌ی Zukunft (Präsens + Zeitwort یا „ich werde …“). بعد از یک هفته، دوباره ضبط‌های خودت را گوش بده و پیشرفتت را ببین.",
-      "title": "روز ۹۶: جمع‌بندی بزرگ – نقشه‌ی شخصی A2 برای خودت"
+      title: "۱. آموزش Komparativ و Superlativ",
+      source: "Deutschlernen — Komparativ und Superlativ",
+      link: "https://www.youtube.com/watch?v=9s7UaGBXOxE",
+      instructions: "۱. ویدیو را ببینید و قواعد را یادداشت کنید.\n۲. ۵ جمله مقایسه‌ای با صدای بلند بسازید.\n۳. Umlaut‌ها (a→ae, o→oe, u→ue) را تمرین کنید."
     }
   ],
-  "cultureTip": "[روز 93] لیست‌های واژگان فرکانس بالا اگر با جمله‌سازی شخصی ترکیب شوند، تو را برای امتحان و زندگی واقعی همزمان آماده می‌کنند؛ این خیلی مؤثرتر از حفظ‌کردن واژه‌های پراکنده از اینستاگرام است.[web:381][web:393]\\n\\n[روز 94] صفحات آماده‌سازی رسمی A2 نشان می‌دهند که امتحان دقیقاً روی همین موضوعات روزمره می‌چرخد؛ اگر برای هرکدام یک مینی‌مونولوگ ۵–۶ جمله‌ای داشته باشی، در روز آزمون فقط باید آن‌ها را اجرا کنی.[web:389][web:392][web:397]\\n\\n[روز 95] تقریباً تمام منابع آماده‌سازی A2 می‌گویند مهم‌ترین چیز در Sprechen «ساختار و روانی» است، نه کلمات سخت؛ اگر قالب سه‌بخشی‌ات را خوب تمرین کرده باشی، حتی با واژگان ساده هم می‌توانی نمره‌ی خوبی بگیری.[web:392][web:397][web:394]\\n\\n[روز 96] سرفصل‌های رسمی A2 (در مدرسه‌ها و مؤسسه‌ها) دقیقاً روی همین ترکیب تکیه می‌کنند: واژگان روزمره + Perfekt + کلمات ربط + کمی Zukunft؛ اگر این چهار ستون را با تمرین شخصی ببندی، نه‌تنها از امتحان، بلکه از زندگی واقعی در آلمان هم کمتر می‌ترسی.[web:391][web:390][web:397]"
+
+  speaking: [
+    {
+      title: "تمرین مقایسه",
+      pattern: "... ist groesser als ...\n... ist am schoensten.\nIch trinke lieber Tee als Kaffee.",
+      exercise: "۵ چیز در زندگی خود را با هم مقایسه کنید. مثلاً: «غذای ایرانی خوشمزه‌تر از غذای آلمانی است» یا «تابستان بهترین فصل است.»"
+    }
+  ],
+
+  cultureTip: "نکته جالب: در آلمان وقتی می‌خواهید بگویید «ترجیح می‌دهم» از lieber (ترجیح‌تر) استفاده می‌کنید. مثلاً Ich trinke lieber Tee یعنی «ترجیح می‌دهم چای بنوشم». این خیلی رایج‌تر از Ich bevorzuge Tee است. همچنین در مکالمه روزمره، از am besten برای توصیه استفاده می‌کنند: Am besten kommst du um 8 Uhr. (بهتره ساعت ۸ بیایی.)",
+
+  examData: {
+    questions: [
+      { question: "Komparativ فعل «groß» چیست؟", options: ["großer", "größer", "größerer", "grössest"], answer: 1 },
+      { question: "Superlativ فعل «gut» چیست؟", options: ["am gutsten", "am bessersten", "am besten", "am gutesten"], answer: 2 },
+      { question: "کدام جمله درست است؟", options: ["Berlin ist mehr groß als München.", "Berlin ist größer als München.", "Berlin ist großter als München."], answer: 1 },
+      { question: "«Ich esse lieber Pizza» یعنی...", options: ["من پیتزا نمی‌خورم", "ترجیح می‌دهم پیتزا بخورم", "من پیتزای زیاد می‌خورم"], answer: 1 },
+      { question: "Superlativ «schön» چیست؟", options: ["am schönersten", "am schönsten", "am schonten"], answer: 1 },
+      { question: "کدام صفت Umlaut نمی‌گیرد؟", options: ["alt", "groß", "schnell", "jung"], answer: 2 },
+      { question: "«Das ist das beste Restaurant» — این چه نوع مقایسه‌ای است؟", options: ["Komparativ", "Superlativ", "Positiv"], answer: 1 },
+      { question: "کدام جمله Superlativ را درست نشان می‌دهد؟", options: ["Das ist das billiger Restaurant.", "Das ist das billigste Restaurant.", "Das ist das am billigste Restaurant."], answer: 1 }
+    ]
+  }
 };
