@@ -1,133 +1,145 @@
 export const day23Data = {
-  title: "Ø±ÙˆØ² Û²Û³: Perfekt Ø¨Ø®Ø´ Û² - Ø§ÙØ¹Ø§ل Ù†Ø§Ù…Ù†Ø¸Ù… Ùˆ Ø§ÙØ¹Ø§ل Ø¨Ø§ sein",
-  objective: "Ø¯Ø± Ø§ÛŒÙ† Ø¯Ø±Ø³ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØ¯ Ú†Ú¯ÙˆÙ†Ù‡ Ø§Ø² Perfekt Ø¨Ø±Ø§ÛŒ Ø§ÙØ¹Ø§ل Ù†Ø§Ù…Ù†Ø¸Ù… (irregelmÃ¤ÃŸige Verben) Ùˆ Ø§ÙØ¹Ø§لÛŒ Ú©Ù‡ Ø¨Ø§ sein ØµØ±Ù Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯ (Ø­Ø±Ú©Øª Ùˆ ØªØºÛŒÛŒØ± Ø­Ø§لØª) Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.",
+  title: "روز ۲۳: زمان گذشته Perfekt - بخش ۲: افعال نامنظم + افعال با sein",
+  objective: "در این درس یاد می‌گیرید چگونه Perfekt افعال نامنظم را بسازید و کی از فعل کمکی sein استفاده می‌شود.قاعده: حرکت/تغییر حالت → sein.",
   grammarData: {
-    subtitle: "Perfekt mit sein ل Ø§ÙØ¹Ø§ل Ø­Ø±Ú©ØªÛŒ Ùˆ ØªØºÛŒÛŒØ± Ø­Ø§لØª",
+    subtitle: "Perfekt mit sein + افعال نامنظم",
     content: [
       {
         type: "text",
-        title: "Ú©ÙÛŒ Ø§Ø² sein Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…ØŸ",
-        text: "Ø§Ø² ÙØ¹ل Ú©Ù…Ú©ÛŒ sein Ø¨Ø±Ø§ÛŒ: Û±) Ø§ÙØ¹Ø§ل Ø­Ø±Ú©ØªÛŒ (gehen, fahren, kommen, laufen, fliegen, reisen) Û²) ØªØºÛŒÛŒØ± Ø­Ø§لØª (aufstehen, einschlafen, sterben, werden) Û³) ÙØ¹ل sein Ùˆ bleiben. Ø¨Ù‚ÛŒÙ‡ Ø§ÙØ¹Ø§ل Ù…Ø¹Ù…ÙˆلØ§Ù‹ Ø¨Ø§ haben Ù‡Ø³ØªÙ†Ø¯."
+        title: "کی از sein استفاده می‌کنیم؟",
+        text: "از فعل کمکی sein برای: ۱) افعال حرکتی (gehen, fahren, kommen, laufen, fliegen) ۲) افعال تغییر حالت (aufstehen, einschlafen, sterben, werden) ۳) فعل bleiben (ماندن) و sein (بودن) استفاده می‌شود.قاعده کلی: اگر فعل حرکت یا تغییر حالت باشد → sein. بقیه → haben."
       },
       {
         type: "table",
-        title: "ØµØ±Ù ÙØ¹ل Ú©Ù…Ú©ÛŒ sein Ø¯Ø± Perfekt",
+        title: "صرف فعل کمکی sein در Perfekt",
         rows: [
-          { de: "ich bin", fa: "Ù…Ù† ... Ø±ÙØªÙ‡/Ø¢Ù…Ø¯Ù‡/Ø´Ø¯Ù‡â€ŒØ§Ù…" },
-          { de: "du bist", fa: "ØªÙˆ ... Ø±ÙØªÙ‡/Ø¢Ù…Ø¯Ù‡/Ø´Ø¯Ù‡â€ŒØ§ÛŒ" },
-          { de: "er/sie/es ist", fa: "Ø§Ùˆ ... Ø±ÙØªÙ‡/Ø¢Ù…Ø¯Ù‡/Ø´Ø¯Ù‡" },
-          { de: "wir sind", fa: "Ù…Ø§ ... Ø±ÙØªÙ‡/Ø¢Ù…Ø¯Ù‡/Ø´Ø¯Ù‡â€ŒØ§ÛŒÙ…" },
-          { de: "ihr seid", fa: "Ø´Ù…Ø§ (Ø¬Ù…Ø¹) ... Ø±ÙØªÙ‡/Ø¢Ù…Ø¯Ù‡/Ø´Ø¯Ù‡â€ŒØ§ÛŒØ¯" },
-          { de: "sie/Sie sind", fa: "Ø¢Ù†â€ŒÙ‡Ø§/Ø´Ù…Ø§ (Ø±Ø³Ù…ÛŒ) ... Ø±ÙØªÙ‡/Ø¢Ù…Ø¯Ù‡/Ø´Ø¯Ù‡â€ŒØ§Ù†Ø¯" }
+          { de: "ich bin ... gegangen", fa: "من رفته‌ام" },
+          { de: "du bist ... gegangen", fa: "تو رفته‌ای" },
+          { de: "er/sie/es ist ... gegangen", fa: "او رفته" },
+          { de: "wir sind ... gegangen", fa: "ما رفته‌ایم" },
+          { de: "ihr seid ... gegangen", fa: "شما رفته‌اید" },
+          { de: "sie/Sie sind ... gegangen", fa: "آن‌ها رفته‌اند" }
         ]
       },
       {
         type: "table",
-        title: "Ø§ÙØ¹Ø§ل Ø±Ø§ÛŒØ¬ Ø¨Ø§ sein Ùˆ Partizip II Ø¢Ù†â€ŒÙ‡Ø§",
+        title: "افعال مهم با sein و Partizip II",
         rows: [
-          { de: "gehen â†’ gegangen", fa: "Ø±ÙØªÙ†" },
-          { de: "fahren â†’ gefahren", fa: "Ø±Ø§Ù†Ù†Ø¯Ú¯ÛŒ Ú©Ø±Ø¯Ù† / Ø³ÙˆØ§Ø± Ø´Ø¯Ù†" },
-          { de: "kommen â†’ gekommen", fa: "Ø¢Ù…Ø¯Ù†" },
-          { de: "laufen â†’ gelaufen", fa: "Ø¯ÙˆÛŒØ¯Ù†" },
-          { de: "fliegen â†’ geflogen", fa: "Ù¾Ø±ÙˆØ§Ø² Ú©Ø±Ø¯Ù†" },
-          { de: "reisen â†’ gereist", fa: "Ø³ÙØ± Ú©Ø±Ø¯Ù†" },
-          { de: "aufstehen â†’ aufgestanden", fa: "Ø¨لÙ†Ø¯ Ø´Ø¯Ù† / Ø¨ÛŒØ¯Ø§Ø± Ø´Ø¯Ù†" },
-          { de: "einschlafen â†’ eingeschlafen", fa: "Ø®ÙˆØ§Ø¨ÛŒØ¯Ù† (Ø®ÙˆØ§Ø¨ Ø±ÙØªÙ†)" },
-          { de: "bleiben â†’ geblieben", fa: "Ù…Ø§Ù†Ø¯Ù†" },
-          { de: "sein â†’ gewesen", fa: "Ø¨ÙˆØ¯Ù†" },
-          { de: "werden â†’ geworden", fa: "Ø´Ø¯Ù†" },
-          { de: "passieren â†’ passiert", fa: "Ø§ØªÙØ§Ù‚ Ø§ÙØªØ§Ø¯Ù†" }
+          { de: "gehen → ist gegangen [ɡəˈɡaŋən]", fa: "رفتن" },
+          { de: "fahren → ist gefahren [ɡəˈfaːʁən]", fa: "رانندگی / رفتن با وسیله" },
+          { de: "kommen → ist gekommen [ɡəˈkɔmən]", fa: "آمدن" },
+          { de: "laufen → ist gelaufen [ɡəˈlaʊ̯fən]", fa: "دویدن" },
+          { de: "fliegen → ist geflogen [ɡəˈfloːɡən]", fa: "پرواز کردن" },
+          { de: "aufstehen → ist aufgestanden [ˈaʊ̯fɡəʃtandən]", fa: "بلند شدن" },
+          { de: "einschlafen → ist eingeschlafen [ˈaɪ̯nɡəʃlaːfən]", fa: "خوابیدن" },
+          { de: "bleiben → ist geblieben [ɡəˈbliːbn̩]", fa: "ماندن" },
+          { de: "sein → ist gewesen [ɡəˈveːzən]", fa: "بودن" },
+          { de: "werden → ist geworden [ɡəˈvɔʁdn̩]", fa: "شدن" },
+          { de: "passieren → ist passiert [paˈsiːʁt]", fa: "اتفاق افتادن" }
+        ]
+      },
+      {
+        type: "table",
+        title: "افعال نامنظم مهم و Partizip II",
+        rows: [
+          { de: "trinken → getrunken [ɡəˈtʁʊŋkn̩]", fa: "نوشیدن" },
+          { de: "singen → gesungen [ɡəˈzʊŋən]", fa: "خواندن (آواز)" },
+          { de: "schwimmen → geschwommen [ɡəˈʃvɔmən]", fa: "شنا کردن" },
+          { de: "finden → gefunden [ɡəˈfʊndən]", fa: "پیدا کردن" },
+          { de: "beginnen → begonnen [bəˈɡɔnən]", fa: "شروع کردن" },
+          { de: "schreiben → geschrieben [ɡəˈʃʁiːbn̩]", fa: "نوشتن" },
+          { de: "lesen → gelesen [ɡəˈleːzən]", fa: "خواندن" },
+          { de: "essen → gegessen [ɡəˈɡɛsn̩]", fa: "خوردن" },
+          { de: "geben → gegeben [ɡəˈɡeːbn̩]", fa: "دادن" },
+          { de: "sehen → gesehen [ɡəˈzeːən]", fa: "دیدن" },
+          { de: "nehmen → genommen [ɡəˈnɔmən]", fa: "گرفتن" },
+          { de: "sprechen → gesprochen [ɡəˈʃpʁɔxn̩]", fa: "صحبت کردن" },
+          { de: "treffen → getroffen [ɡəˈtʁɔfn̩]", fa: "ملاقات کردن" }
+        ]
+      },
+      {
+        type: "table",
+        title: "صرف Perfekt با sein + gehen",
+        rows: [
+          { de: "ich bin gegangen", fa: "من رفته‌ام" },
+          { de: "du bist gegangen", fa: "تو رفته‌ای" },
+          { de: "er ist gegangen", fa: "او رفته" },
+          { de: "wir sind gegangen", fa: "ما رفته‌ایم" },
+          { de: "ihr seid gegangen", fa: "شما رفته‌اید" },
+          { de: "sie sind gegangen", fa: "آن‌ها رفته‌اند" }
         ]
       },
       {
         type: "examples",
-        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ Perfekt Ø¨Ø§ sein",
+        title: "مثال‌های Perfekt با sein",
         items: [
-          { de: "Ich bin gestern nach Berlin gefahren.", fa: "Ø¯ÛŒØ±ÙˆØ² Ø¨Ù‡ Ø¨Ø±لÛŒÙ† Ø±ÙØªÙ‡â€ŒØ§Ù…." },
-          { de: "Sie ist um acht Uhr nach Hause gekommen.", fa: "Ø§Ùˆ Ø³Ø§Ø¹Øª Ù‡Ø´Øª Ø¨Ù‡ Ø®Ø§Ù†Ù‡ Ø¢Ù…Ø¯Ù‡ Ø§Ø³Øª." },
-          { de: "Wir sind ins Kino gegangen.", fa: "Ù…Ø§ Ø¨Ù‡ Ø³ÛŒÙ†Ù…Ø§ Ø±ÙØªÙ‡â€ŒØ§ÛŒÙ…." },
-          { de: "Er ist sehr schnell gelaufen.", fa: "Ø§Ùˆ Ø®ÛŒلÛŒ Ø³Ø±ÛŒØ¹ Ø¯ÙˆÛŒØ¯Ù‡ Ø§Ø³Øª." },
-          { de: "Das Kind ist eingeschlafen.", fa: "Ø¨Ú†Ù‡ Ø®ÙˆØ§Ø¨ÛŒØ¯Ù‡ Ø§Ø³Øª." },
-          { de: "Ich bin um sieben Uhr aufgestanden.", fa: "Ø³Ø§Ø¹Øª Ù‡ÙØª Ø¨ÛŒØ¯Ø§Ø± Ø´Ø¯Ù‡â€ŒØ§Ù…." },
-          { de: "Was ist passiert?", fa: "Ú†Ù‡ Ø§ØªÙØ§Ù‚ÛŒ Ø§ÙØªØ§Ø¯Ù‡ØŸ" },
-          { de: "Sie ist Lehrerin geworden.", fa: "Ø§Ùˆ Ù…Ø¹لÙ… Ø´Ø¯Ù‡ Ø§Ø³Øª." }
+          { de: "Ich bin nach Hause gegangen.", fa: "به خانه رفته‌ام." },
+          { de: "Sie ist mit dem Bus gefahren.", fa: "او با اتوبوس رفته." },
+          { de: "Wir sind spät gekommen.", fa: "دیر آمده‌ایم." },
+          { de: "Er ist um sechs Uhr aufgestanden.", fa: "او ساعت شش بیدار شده." },
+          { de: "Das Baby ist eingeschlafen.", fa: "نوزاد خوابیده." },
+          { de: "Ich bin drei Tage in Berlin geblieben.", fa: "سه روز در برلین مانده‌ام." },
+          { de: "Was ist passiert?", fa: "چه اتفاقی افتاده؟" },
+          { de: "Wohin bist du gegangen?", fa: "کجا رفته‌ای؟" }
         ]
       },
       {
         type: "alert",
-        title: "Ù†Ú©ØªÙ‡ Ø¨Ø³ÛŒØ§Ø± Ù…Ù‡Ù…!",
-        text: "Ù‡Ù…ÛŒØ´Ù‡ Ù‚Ø¨ل Ø§Ø² Ø³Ø§Ø®ØªÙ† Perfekt Ø¨Ù¾Ø±Ø³ÛŒØ¯: Ø¢ÛŒØ§ Ø§ÛŒÙ† ÙØ¹ل Ø­Ø±Ú©ØªÛŒ ÛŒØ§ ØªØºÛŒÛŒØ± Ø­Ø§لØª Ø§Ø³ØªØŸ Ø§Ú¯Ø± Ø¨لÙ‡ â†’ sein. Ø§Ú¯Ø± Ù†Ù‡ â†’ haben. Ø§ÙØ¹Ø§لÛŒ Ù…Ø«ل sitzen Ùˆ liegen Ø¨Ø§ ÙˆØ¬ÙˆØ¯ Ø§ÛŒÙ†Ú©Ù‡ Ù†Ø´Ø³ØªÙ† Ùˆ Ø¯Ø±Ø§Ø² Ú©Ø´ÛŒØ¯Ù† Ù‡Ø³ØªÙ†Ø¯ØŒ Ø­Ø±Ú©ØªÛŒ Ù†ÛŒØ³ØªÙ†Ø¯ Ùˆ Ø¨Ø§ haben ØµØ±Ù Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯!"
-      },
-      {
-        type: "table",
-        title: "Ø§ÙØ¹Ø§ل Ù†Ø§Ù…Ù†Ø¸Ù… Ø±Ø§ÛŒØ¬ Ø¨Ø§ haben Ùˆ Partizip II",
-        rows: [
-          { de: "essen â†’ gegessen", fa: "Ø®ÙˆØ±Ø¯Ù†" },
-          { de: "trinken â†’ getrunken", fa: "Ù†ÙˆØ´ÛŒØ¯Ù†" },
-          { de: "lesen â†’ gelesen", fa: "Ø®ÙˆØ§Ù†Ø¯Ù†" },
-          { de: "sehen â†’ gesehen", fa: "Ø¯ÛŒØ¯Ù†" },
-          { de: "schreiben â†’ geschrieben", fa: "Ù†ÙˆØ´ØªÙ†" },
-          { de: "sprechen â†’ gesprochen", fa: "ØµØ­Ø¨Øª Ú©Ø±Ø¯Ù†" },
-          { de: "nehmen â†’ genommen", fa: "Ú¯Ø±ÙØªÙ†" },
-          { de: "geben â†’ gegeben", fa: "Ø¯Ø§Ø¯Ù†" },
-          { de: "treffen â†’ getroffen", fa: "Ù…لØ§Ù‚Ø§Øª Ú©Ø±Ø¯Ù†" },
-          { de: "wissen â†’ gewusst", fa: "Ø¯Ø§Ù†Ø³ØªÙ†" },
-          { de: "bringen â†’ gebracht", fa: "Ø¢ÙˆØ±Ø¯Ù†" },
-          { de: "denken â†’ gedacht", fa: "ÙÚ©Ø± Ú©Ø±Ø¯Ù†" }
-        ]
+        title: "نکته مهم!",
+        text: "بعضی افعال هم با sein و هم با haben ساخته می‌شوند بسته به معنی: «Ich bin nach Berlin gefahren» (حرکت → sein) ولی «Ich habe einen Wagen gefahren» (رانندگی → haben).قاعده کلی: اگر فعل حرکت یا تغییر حالت باشد → sein. بقیه → haben."
       },
       {
         type: "interactive_quiz",
-        title: "haben ÛŒØ§ seinØŸ",
+        title: "sein یا haben؟",
         questions: [
           {
-            question: "Ú©Ø¯Ø§Ù… ÙØ¹ل Ø¨Ø§ sein ØµØ±Ù Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Welches Verb wird mit لseinل gebildet?",
+            question: "کدام فعل با sein ساخته می‌شود؟",
+            questionDe: "Welches Verb wird mit 'sein' gebildet?",
             options: [
-              { text: "gehen", isCorrect: true },
               { text: "spielen", isCorrect: false },
-              { text: "lesen", isCorrect: false },
-              { text: "schreiben", isCorrect: false }
+              { text: "gehen", isCorrect: true },
+              { text: "machen", isCorrect: false },
+              { text: "lernen", isCorrect: false }
             ],
-            explanation: "gehen ÛŒÚ© ÙØ¹ل Ø­Ø±Ú©ØªÛŒ Ø§Ø³Øª Ùˆ Ø¨Ø§ sein ØµØ±Ù Ù…ÛŒâ€ŒØ´ÙˆØ¯."
+            explanation: "gehen فعل حرکتی است و با sein ساخته می‌شود."
           },
           {
-            question: "Partizip II ÙØ¹ل Â«essenÂ» Ú†ÛŒØ³ØªØŸ",
-            questionDe: "Was ist das Partizip II von لessenل?",
+            question: "«Ich bin aufgestanden» یعنی چه؟",
+            questionDe: "Was bedeutet 'Ich bin aufgestanden'?",
             options: [
-              { text: "gegessen", isCorrect: true },
-              { text: "geessen", isCorrect: false },
-              { text: "gesst", isCorrect: false },
-              { text: "gessen", isCorrect: false }
+              { text: "من نشسته‌ام", isCorrect: false },
+              { text: "من بیدار شده‌ام", isCorrect: true },
+              { text: "من خوابیده‌ام", isCorrect: false },
+              { text: "من رفته‌ام", isCorrect: false }
             ],
-            explanation: "essen â†’ gegessen (ÙØ¹ل Ù†Ø§Ù…Ù†Ø¸Ù…)"
+            explanation: "aufstehen یعنی بلند شدن / بیدار شدن و با sein ساخته می‌شود."
           },
           {
-            question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ",
-            questionDe: "Welcher Satz ist richtig?",
+            question: "Partizip II فعل kommen چیست؟",
+            questionDe: "Was ist das Partizip II von 'kommen'?",
             options: [
-              { text: "Ich bin nach Hause gegangen.", isCorrect: true },
-              { text: "Ich habe nach Hause gegangen.", isCorrect: false },
-              { text: "Ich bin nach Hause gemacht.", isCorrect: false },
-              { text: "Ich habe nach Hause gekommen.", isCorrect: false }
+              { text: "gekommt", isCorrect: false },
+              { text: "gekommen", isCorrect: true },
+              { text: "kommen", isCorrect: false },
+              { text: "kommt", isCorrect: false }
             ],
-            explanation: "gehen Ø¨Ø§ sein ØµØ±Ù Ù…ÛŒâ€ŒØ´ÙˆØ¯: bin gegangen."
+            explanation: "kommen → gekommen (با sein)."
           }
         ]
       },
       {
         type: "fill_blank",
-        title: "Perfekt Ø¨Ø§ sein Ùˆ haben Ø±Ø§ Ú©Ø§Ù…ل Ú©Ù†ÛŒØ¯",
-        instruction: "ÙØ¹ل Ú©Ù…Ú©ÛŒ Ùˆ Partizip II ØµØ­ÛŒØ­ Ø±Ø§ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯.",
+        title: "sein یا haben و Partizip II",
+        instruction: "فعل کمکی صحیح و Partizip II را بنویسید.",
         blanks: [
-          { sentence: "Ich ___ gestern nach Berlin ___ (fahren).", answer: "bin, gefahren", hint: "fahren Ø¨Ø§ sein: bin gefahren" },
-          { sentence: "Er ___ das Buch ___ (lesen).", answer: "hat, gelesen", hint: "lesen Ø¨Ø§ haben: hat gelesen" },
-          { sentence: "Wir ___ ins Kino ___ (gehen).", answer: "sind, gegangen", hint: "gehen Ø¨Ø§ sein: sind gegangen" },
-          { sentence: "Sie ___ viel ___ (arbeiten).", answer: "hat, gearbeitet", hint: "arbeiten Ø¨Ø§ haben: hat gearbeitet" },
-          { sentence: "Das Kind ___ schnell ___ (einschlafen).", answer: "ist, eingeschlafen", hint: "einschlafen Ø¨Ø§ sein: ist eingeschlafen" },
-          { sentence: "Ich ___ heute Morgen Kaffee ___ (trinken).", answer: "habe, getrunken", hint: "trinken Ø¨Ø§ haben: habe getrunken" },
-          { sentence: "Sie ___ um acht Uhr ___ (ankommen).", answer: "ist, angekommen", hint: "ankommen Ø¨Ø§ sein: ist angekommen" },
-          { sentence: "Was ___ ___ (passieren)?", answer: "ist, passiert", hint: "passieren Ø¨Ø§ sein: ist passiert" }
+          { sentence: "Ich ___ nach Hause ___ (gehen).", answer: "bin gegangen", hint: "gehen → bin gegangen (حرکت → sein)" },
+          { sentence: "Er hat viel ___ (trinken).", answer: "getrunken", hint: "trinken → getrunken (نامنظم)" },
+          { sentence: "Wir ___ spät ___ (kommen).", answer: "sind gekommen", hint: "kommen → ist/sind gekommen" },
+          { sentence: "Sie hat ein Buch ___ (schreiben).", answer: "geschrieben", hint: "schreiben → geschrieben" },
+          { sentence: "Das Baby ___ eingeschlafen.", answer: "ist", hint: "einschlafen → ist eingeschlafen" },
+          { sentence: "Ich habe den Film ___ (sehen).", answer: "gesehen", hint: "sehen → gesehen" },
+          { sentence: "Er ___ schnell ___ (fahren).", answer: "ist gefahren", hint: "fahren → ist gefahren" },
+          { sentence: "Wir haben zusammen ___ (essen).", answer: "gegessen", hint: "essen → gegessen" }
         ]
       }
     ]
@@ -135,77 +147,90 @@ export const day23Data = {
   vocabData: {
     categories: [
       {
-        title: "Ø§ÙØ¹Ø§ل Ù†Ø§Ù…ÑÑ‚Ñ€Ð°Ð¸Ð²Ð° Ùˆ Partizip II",
+        title: "افعال مهم با sein",
         words: [
-          { de: "essen â†’ gegessen", fa: "Ø®ÙˆØ±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Was hast du gegessen?", fa: "Ú†Ù‡ Ø®ÙˆØ±Ø¯Ù‡â€ŒØ§ÛŒØŸ" }] },
-          { de: "trinken â†’ getrunken", fa: "Ù†ÙˆØ´ÛŒØ¯Ù†", article: "-", plural: "-", examples: [{ de: "Ich habe Tee getrunken.", fa: "Ú†Ø§ÛŒ Ù†ÙˆØ´ÛŒØ¯Ù‡â€ŒØ§Ù…." }] },
-          { de: "sehen â†’ gesehen", fa: "Ø¯ÛŒØ¯Ù†", article: "-", plural: "-", examples: [{ de: "Hast du den Film gesehen?", fa: "ÙÛŒلÙ… Ø±Ø§ Ø¯ÛŒØ¯Ù‡â€ŒØ§ÛŒØŸ" }] },
-          { de: "lesen â†’ gelesen", fa: "Ø®ÙˆØ§Ù†Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Ich habe das Buch gelesen.", fa: "Ú©ØªØ§Ø¨ Ø±Ø§ Ø®ÙˆØ§Ù†Ø¯Ù‡â€ŒØ§Ù…." }] },
-          { de: "schreiben â†’ geschrieben", fa: "Ù†ÙˆØ´ØªÙ†", article: "-", plural: "-", examples: [{ de: "Sie hat einen Brief geschrieben.", fa: "Ø§Ùˆ Ù†Ø§Ù…Ù‡ Ù†ÙˆØ´ØªÙ‡ Ø§Ø³Øª." }] },
-          { de: "sprechen â†’ gesprochen", fa: "ØµØ­Ø¨Øª Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Wir haben Deutsch gesprochen.", fa: "Ø¢لÙ…Ø§Ù†ÛŒ ØµØ­Ø¨Øª Ú©Ø±Ø¯Ù‡â€ŒØ§ÛŒÙ…." }] },
-          { de: "treffen â†’ getroffen", fa: "Ù…لØ§Ù‚Ø§Øª Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Ich habe Freunde getroffen.", fa: "Ø¯ÙˆØ³ØªØ§Ù†Ù… Ø±Ø§ Ø¯ÛŒØ¯Ù‡â€ŒØ§Ù…." }] },
-          { de: "nehmen â†’ genommen", fa: "Ú¯Ø±ÙØªÙ†", article: "-", plural: "-", examples: [{ de: "Hast du die Tabletten genommen?", fa: "Ù‚Ø±Øµâ€ŒÙ‡Ø§ Ø±Ø§ Ø®ÙˆØ±Ø¯Ù‡â€ŒØ§ÛŒØŸ" }] },
-          { de: "gehen â†’ gegangen", fa: "Ø±ÙØªÙ† (Ø¨Ø§ sein)", article: "-", plural: "-", examples: [{ de: "Ich bin nach Hause gegangen.", fa: "Ø¨Ù‡ Ø®Ø§Ù†Ù‡ Ø±ÙØªÙ‡â€ŒØ§Ù…." }] },
-          { de: "fahren â†’ gefahren", fa: "Ø±Ø§Ù†Ù†Ø¯Ú¯ÛŒ (Ø¨Ø§ sein)", article: "-", plural: "-", examples: [{ de: "Wir sind nach MÃ¼nchen gefahren.", fa: "Ø¨Ù‡ Ù…ÙˆÙ†ÛŒØ® Ø±ÙØªÙ‡â€ŒØ§ÛŒÙ…." }] },
-          { de: "kommen â†’ gekommen", fa: "Ø¢Ù…Ø¯Ù† (Ø¨Ø§ sein)", article: "-", plural: "-", examples: [{ de: "Er ist spÃ¤t gekommen.", fa: "Ø§Ùˆ Ø¯ÛŒØ± Ø¢Ù…Ø¯Ù‡ Ø§Ø³Øª." }] },
-          { de: "bleiben â†’ geblieben", fa: "Ù…Ø§Ù†Ø¯Ù† (Ø¨Ø§ sein)", article: "-", plural: "-", examples: [{ de: "Sie ist zu Hause geblieben.", fa: "Ø§Ùˆ Ø¯Ø± Ø®Ø§Ù†Ù‡ Ù…Ø§Ù†Ø¯Ù‡ Ø§Ø³Øª." }] },
-          { de: "aufstehen â†’ aufgestanden", fa: "Ø¨ÛŒØ¯Ø§Ø± Ø´Ø¯Ù† (Ø¨Ø§ sein)", article: "-", plural: "-", examples: [{ de: "Ich bin frÃ¼h aufgestanden.", fa: "Ø²ÙˆØ¯ Ø¨ÛŒØ¯Ø§Ø± Ø´Ø¯Ù‡â€ŒØ§Ù…." }] },
-          { de: "einschlafen â†’ eingeschlafen", fa: "Ø®ÙˆØ§Ø¨ÛŒØ¯Ù† (Ø¨Ø§ sein)", article: "-", plural: "-", examples: [{ de: "Das Baby ist eingeschlafen.", fa: "Ù†ÙˆØ²Ø§Ø¯ Ø®ÙˆØ§Ø¨ÛŒØ¯Ù‡ Ø§Ø³Øª." }] }
+          { de: "gehen", fa: "رفتن", ipa: "[ˈɡeːən]", article: "-", plural: "-", conjugation: { ich: "gehe", du: "gehst", er: "geht", wir: "gehen", ihr: "geht", sie: "gehen" }, examples: [{ de: "Ich bin nach Hause gegangen.", fa: "به خانه رفته‌ام." }, { de: "Wohin bist du gegangen?", fa: "کجا رفته‌ای؟" }] },
+          { de: "fahren", fa: "رانندگی / رفتن با وسیله", ipa: "[ˈfaːʁən]", article: "-", plural: "-", conjugation: { ich: "fahre", du: "fährst", er: "fährt", wir: "fahren", ihr: "fahrt", sie: "fahren" }, examples: [{ de: "Sie ist mit dem Zug gefahren.", fa: "با قطار رفته." }, { de: "Ich bin nach München gefahren.", fa: "به مونیخ رفته‌ام." }] },
+          { de: "kommen", fa: "آمدن", ipa: "[ˈkɔmən]", article: "-", plural: "-", conjugation: { ich: "komme", du: "kommst", er: "kommt", wir: "kommen", ihr: "kommt", sie: "kommen" }, examples: [{ de: "Wann bist du gekommen?", fa: "کی آمده‌ای؟" }, { de: "Er ist gestern gekommen.", fa: "او دیروز آمده." }] },
+          { de: "laufen", fa: "دویدن", ipa: "[ˈlaʊ̯fən]", article: "-", plural: "-", conjugation: { ich: "laufe", du: "läufst", er: "läuft", wir: "laufen", ihr: "lauft", sie: "laufen" }, examples: [{ de: "Er ist schnell gelaufen.", fa: "او سریع دویده." }, { de: "Ich bin im Park gelaufen.", fa: "در پارک دویده‌ام." }] },
+          { de: "aufstehen", fa: "بلند شدن / بیدار شدن", ipa: "[ˈaʊ̯fʃteːən]", article: "-", plural: "-", conjugation: { ich: "stehe auf", du: "stehst auf", er: "steht auf", wir: "stehen auf", ihr: "steht auf", sie: "stehen auf" }, examples: [{ de: "Ich bin um sieben aufgestanden.", fa: "ساعت هفت بیدار شده‌ام." }, { de: "Wann bist du aufgestanden?", fa: "کی بیدار شده‌ای؟" }] },
+          { de: "einschlafen", fa: "خوابیدن", ipa: "[ˈaɪ̯nʃlaːfən]", article: "-", plural: "-", conjugation: { ich: "schlafe ein", du: "schläfst ein", er: "schläft ein", wir: "schlafen ein", ihr: "schlaft ein", sie: "schlafen ein" }, examples: [{ de: "Das Baby ist schnell eingeschlafen.", fa: "نوزاد سریع خوابیده." }, { de: "Ich bin spät eingeschlafen.", fa: "دیر خوابیده‌ام." }] },
+          { de: "bleiben", fa: "ماندن", ipa: "[ˈblaɪ̯bn̩]", article: "-", plural: "-", conjugation: { ich: "bleibe", du: "bleibst", er: "bleibt", wir: "bleiben", ihr: "bleibt", sie: "bleiben" }, examples: [{ de: "Ich bin zu Hause geblieben.", fa: "در خانه مانده‌ام." }, { de: "Wie lange bist du geblieben?", fa: "چقدر مانده‌ای؟" }] },
+          { de: "fliegen", fa: "پرواز کردن", ipa: "[ˈfliːɡən]", article: "-", plural: "-", conjugation: { ich: "fliege", du: "fliegst", er: "fliegt", wir: "fliegen", ihr: "fliegt", sie: "fliegen" }, examples: [{ de: "Wir sind nach Paris geflogen.", fa: "به پاریس پرواز کرده‌ایم." }, { de: "Das Flugzeug ist pünktlich geflogen.", fa: "هواپیما سر وقت پرواز کرده." }] },
+          { de: "passieren", fa: "اتفاق افتادن", ipa: "[paˈsiːʁən]", article: "-", plural: "-", conjugation: { ich: "passiere", du: "passierst", er: "passiert", wir: "passieren", ihr: "passiert", sie: "passieren" }, examples: [{ de: "Was ist passiert?", fa: "چه اتفاقی افتاده؟" }, { de: "Das ist mir passiert.", fa: "این برایم اتفاق افتاده." }] }
+        ]
+      },
+      {
+        title: "افعال مهم نامنظم با haben",
+        words: [
+          { de: "trinken", fa: "نوشیدن", ipa: "[ˈtʁɪŋkn̩]", article: "-", plural: "-", conjugation: { ich: "trinke", du: "trinkst", er: "trinkt", wir: "trinken", ihr: "trinkt", sie: "trinken" }, examples: [{ de: "Ich habe Wasser getrunken.", fa: "آب نوشیده‌ام." }, { de: "Was hast du getrunken?", fa: "چه نوشیده‌ای؟" }] },
+          { de: "schreiben", fa: "نوشتن", ipa: "[ˈʃʁaɪ̯bn̩]", article: "-", plural: "-", conjugation: { ich: "schreibe", du: "schreibst", er: "schreibt", wir: "schreiben", ihr: "schreibt", sie: "schreiben" }, examples: [{ de: "Sie hat einen Brief geschrieben.", fa: "نامه نوشته." }, { de: "Ich habe eine E-Mail geschrieben.", fa: "ایمیل نوشته‌ام." }] },
+          { de: "finden", fa: "پیدا کردن", ipa: "[ˈfɪndən]", article: "-", plural: "-", conjugation: { ich: "finde", du: "findest", er: "findet", wir: "finden", ihr: "findet", sie: "finden" }, examples: [{ de: "Ich habe meinen Schlüssel gefunden.", fa: "کلیدم را پیدا کرده‌ام." }, { de: "Hast du das Restaurant gefunden?", fa: "رستوران را پیدا کرده‌ای؟" }] },
+          { de: "singen", fa: "خواندن (آواز)", ipa: "[ˈzɪŋən]", article: "-", plural: "-", conjugation: { ich: "singe", du: "singst", er: "singt", wir: "singen", ihr: "singt", sie: "singen" }, examples: [{ de: "Wir haben ein Lied gesungen.", fa: "آهنگی خوانده‌ایم." }, { de: "Sie hat schön gesungen.", fa: "او قشنگ خوانده." }] },
+          { de: "treffen", fa: "ملاقات کردن", ipa: "[ˈtʁɛfn̩]", article: "-", plural: "-", conjugation: { ich: "treffe", du: "triffst", er: "trifft", wir: "treffen", ihr: "trefft", sie: "treffen" }, examples: [{ de: "Ich habe einen Freund getroffen.", fa: "دوستی را ملاقات کرده‌ام." }, { de: "Wen hast du getroffen?", fa: "چه کسی را ملاقات کرده‌ای؟" }] },
+          { de: "nehmen", fa: "گرفتن", ipa: "[ˈneːmən]", article: "-", plural: "-", conjugation: { ich: "nehme", du: "nimmst", er: "nimmt", wir: "nehmen", ihr: "nehmt", sie: "nehmen" }, examples: [{ de: "Er hat das Buch genommen.", fa: "کتاب را گرفته." }, { de: "Ich habe den Bus genommen.", fa: "اتوبوس گرفته‌ام." }] }
         ]
       }
     ]
   },
   reading: [
     {
-      text: "Letzten Sommer bin ich mit meiner Familie nach Italien gefahren. Wir sind mit dem Auto gefahren und haben acht Stunden gebraucht. In Rom sind wir ins Hotel gegangen und haben uns ausgeruht. Am nÃ¤chsten Tag haben wir die Stadt besichtigt. Wir haben das Kolosseum und den Vatikan gesehen. Ich habe viele Fotos gemacht. Am Abend haben wir in einem Restaurant italienisches Essen gegessen. Ich habe Pizza gegessen und meinen Bruder hat Pasta gegessen. Am letzten Tag sind wir zum Flughafen gefahren und nach Hause geflogen. Das war ein unvergesslicher Urlaub!",
+      text: "Letzten Sommer bin ich mit meiner Familie nach Italien gefahren. Wir sind am Flughafen früh aufgestanden und sind mit dem Flugzeug geflogen. Die Reise war lang. In Rom sind wir im Hotel geblieben. Wir sind viel gelaufen und haben die Stadt besucht. Am Abend sind wir ins Restaurant gegangen und haben Pizza gegessen. Mein Vater hat Wein getrunken und meine Mutter hat Eis gegessen. Am letzten Tag sind wir zum Flughafen gefahren und sind nach Hause geflogen. Es war ein schöner Urlaub! Wir haben viele Fotos gemacht.",
+      translation: "تابستان گذشته با خانواده‌ام به ایتالیا رفتیم. در فرودگاه زود بیدار شدیم و با هواپیما پرواز کردیم. سفر طولانی بود. در رم در هتل ماندیم. زیاد راه رفتیم و شهر را دیدیم. شب به رستوران رفتیم و پیتزا خوردیم. پدرم شراب نوشید و مادرم بستنی خورد. روز آخر به فرودگاه رفتیم و به خانه پرواز کردیم. تعطیلات خوبی بود! عکس‌های زیادی گرفتیم.",
       questions: [
-        { question: "Ø¢Ù†â€ŒÙ‡Ø§ Ø¨Ø§ Ú†Ù‡ ÙˆØ³ÛŒلÙ‡â€ŒØ§ÛŒ Ø¨Ù‡ Ø§ÛŒØªØ§لÛŒØ§ Ø±ÙØªÙ†Ø¯ØŸ", answer: "Ø¨Ø§ Ù…Ø§Ø´ÛŒÙ†." },
-        { question: "Ø³ÙØ± Ú†Ù†Ø¯ Ø³Ø§Ø¹Øª Ø·Ùˆل Ú©Ø´ÛŒØ¯ØŸ", answer: "Ù‡Ø´Øª Ø³Ø§Ø¹Øª." },
-        { question: "Ø¢Ù†â€ŒÙ‡Ø§ Ú†Ù‡ Ú†ÛŒØ²Ù‡Ø§ÛŒÛŒ Ø¯Ø± Ø±Ù… Ø¯ÛŒØ¯Ù†Ø¯ØŸ", answer: "Ú©ÙˆلÙˆØ³Ø¦ÙˆÙ… Ùˆ ÙˆØ§ØªÛŒÚ©Ø§Ù†." },
-        { question: "Ø¢Ù†â€ŒÙ‡Ø§ Ú†Ø·ÙˆØ± Ø¨Ù‡ Ø®Ø§Ù†Ù‡ Ø¨Ø±Ú¯Ø´ØªÙ†Ø¯ØŸ", answer: "Ø¨Ø§ Ù‡ÙˆØ§Ù¾ÛŒÙ…Ø§." }
+        { question: "آن‌ها کجا رفتند؟", answer: "به ایتالیا." },
+        { question: "با چه وسیله‌ای رفتند؟", answer: "با هواپیما." },
+        { question: "شب‌ها چه کردند؟", answer: "به رستوران رفتند و غذا خوردند." },
+        { question: "پدر چه نوشید؟", answer: "شراب." }
       ]
     }
   ],
   writing: [
     {
-      title: "Ù†ÙˆØ´ØªÙ† ÛŒÚ© Ø³ÙØ± Ú¯Ø°Ø´ØªÙ‡",
-      prompt: "ÛŒÚ© Ø³ÙØ± ÛŒØ§ Ø¢Ø®Ø± Ù‡ÙØªÙ‡ Ø®ÙˆØ¨ Ø±Ø§ ØªÙˆØµÛŒÙ Ú©Ù†ÛŒØ¯. Ø§Ø² Ù‡Ù… Perfekt Ø¨Ø§ haben Ùˆ sein Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.",
+      title: "نوشتن درباره سفر",
+      prompt: "آخرین سفرتان را تعریف کنید. از Perfekt با sein و haben استفاده کنید.",
       steps: [
-        { title: "Ù…Ø±Ø­لÙ‡ Û±: Ø±ÙØªÙ†", text: "Ú©Ø¬Ø§ Ø±ÙØªÛŒØ¯ØŸ Ø§Ø² sein Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.", example: { de: "Wir sind nach Berlin gefahren.", fa: "Ø¨Ù‡ Ø¨Ø±لÛŒÙ† Ø±ÙØªÛŒÙ…." } },
-        { title: "Ù…Ø±Ø­لÙ‡ Û²: ÙØ¹Ø§لÛŒØªâ€ŒÙ‡Ø§", text: "Ú†Ù‡ Ú©Ø§Ø±Ù‡Ø§ÛŒÛŒ Ú©Ø±Ø¯ÛŒØ¯ØŸ Ø§Ø² haben Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.", example: { de: "Wir haben die Stadt besichtigt.", fa: "Ø´Ù‡Ø± Ø±Ø§ Ø¯ÛŒØ¯ÛŒÙ…." } },
-        { title: "Ù…Ø±Ø­لÙ‡ Û³: Ø¨Ø±Ú¯Ø´Øª", text: "Ú†Ø·ÙˆØ± Ø¨Ø±Ú¯Ø´ØªÛŒØ¯ØŸ Ø§Ø² sein Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.", example: { de: "Am Sonntag sind wir nach Hause gefahren.", fa: "ÛŒÚ©Ø´Ù†Ø¨Ù‡ Ø¨Ù‡ Ø®Ø§Ù†Ù‡ Ø¨Ø±Ú¯Ø´ØªÛŒÙ…." } }
+        { title: "مرحله ۱: کجا رفتید؟", text: "مقصد سفرتان را بگویید.", example: { de: "Ich bin nach München gefahren.", fa: "به مونیخ رفتم." } },
+        { title: "مرحله ۲: چه کردید؟", text: "فعالیت‌هایتان را بگویید.", example: { de: "Ich habe die Stadt besucht.", fa: "شهر را دیدم." } },
+        { title: "مرحله ۳: چطور برگشتید؟", text: "بازگشتتان را توضیح دهید.", example: { de: "Ich bin mit dem Zug zurückgefahren.", fa: "با قطار برگشتم." } }
       ],
-      modelAnswer: "Letzten Monat bin ich mit meinen Freunden nach Wien gefahren. Wir sind mit dem Zug gefahren und hatten viel SpaÃŸ. In Wien haben wir den Stephansdom besichtigt und viele Fotos gemacht. Am Abend haben wir Wiener Schnitzel gegessen und Bier getrunken. Ich habe auch ein Konzert im Musikverein gesehen. Am nÃ¤chsten Tag sind wir spazieren gegangen und haben Sachen gekauft. Am Sonntag sind wir nach Hause gefahren. Es war ein wunderbares Wochenende!"
+      modelAnswer: "Letzten Monat bin ich mit dem Zug nach Wien gefahren. Ich bin am Bahnhof um acht Uhr gewesen. Die Fahrt war schön. In Wien bin ich im Hotel geblieben. Ich habe das Schloss Schönbrunn besucht und viele Fotos gemacht. Am Abend habe ich Wiener Schnitzel gegessen. Am nächsten Tag bin ich im Park spazierengegangen. Am Abend bin ich mit dem Zug nach Hause gefahren. Es war ein toller Ausflug."
     }
   ],
   listening: [
     {
-      title: "Perfekt Ø¨Ø§ sein",
-      source: "German Perfekt with sein - Motion Verbs",
-      link: "https://www.youtube.com/watch?v=F9O3giZp9Ko",
-      instructions: "Ø¨Ù‡ Ø§ÛŒÙ† ÙˆÛŒØ¯ÛŒÙˆ Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ ØªÙˆØ¬Ù‡ Ú©Ù†ÛŒØ¯ Ú©Ù‡ Ú©Ø¯Ø§Ù… Ø§ÙØ¹Ø§ل Ø¨Ø§ sein Ùˆ Ú©Ø¯Ø§Ù… Ø¨Ø§ haben ØµØ±Ù Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯. لÛŒØ³ØªÛŒ Ø§Ø² Ø§ÙØ¹Ø§ل Ø­Ø±Ú©ØªÛŒ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯."
+      title: "جملات Perfekt با sein",
+      instruction: "به جملات گوش دهید و آن‌ها را بنویسید.",
+      sentences: [
+        { de: "Ich bin nach Hause gegangen.", fa: "به خانه رفته‌ام.", tts: "slow" },
+        { de: "Er ist mit dem Bus gefahren.", fa: "او با اتوبوس رفته.", tts: "slow" },
+        { de: "Wir sind spät gekommen.", fa: "دیر آمده‌ایم.", tts: "slow" },
+        { de: "Sie ist um sechs aufgestanden.", fa: "او ساعت شش بیدار شده.", tts: "slow" },
+        { de: "Das Baby ist eingeschlafen.", fa: "نوزاد خوابیده.", tts: "slow" },
+        { de: "Ich bin drei Tage geblieben.", fa: "سه روز مانده‌ام.", tts: "slow" }
+      ]
     }
   ],
   speaking: [
     {
-      title: "ØªÙ…Ø±ÛŒÙ† ØµØ­Ø¨Øª Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø³ÙØ±",
-      pattern: "Ich bin nach... gefahren/geflogen/gekommen. Dort habe ich... gemacht/gesehen/gegessen.",
-      exercise: "ÛŒÚ© Ø³ÙØ± Ú¯Ø°Ø´ØªÙ‡ Ø±Ø§ ØªÙˆØµÛŒÙ Ú©Ù†ÛŒØ¯. Ø­Ø¯Ø§Ù‚ل Ûµ ÙØ¹ل Ø¨Ø§ sein Ùˆ Ûµ ÙØ¹ل Ø¨Ø§ haben Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯."
+      title: "گفتگو: تعریف کردن از سفر",
+      pattern: "A: Wo bist du letztes Jahr gewesen? B: Ich bin in Spanien gewesen. A: Wie bist du hingefahren? B: Ich bin mit dem Flugzeug geflogen. A: Was hast du dort gemacht? B: Ich habe am Strand gelegen und Museen besucht. A: Wie lange bist du geblieben? B: Eine Woche.",
+      exercise: "با یک دوست درباره آخرین سفرتان صحبت کنید. حداقل ۳ فعل با sein و ۳ فعل با haben استفاده کنید."
     }
   ],
-  cultureTip: "Ø¯Ø± Ø¢لÙ…Ø§Ù†ØŒ ØµØ­Ø¨Øª Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø³ÙØ±Ù‡Ø§ÛŒ Ú¯Ø°Ø´ØªÙ‡ ÛŒÚ©ÛŒ Ø§Ø² Ù…ÙˆØ¶ÙˆØ¹Ø§Øª Ù…Ø­Ø¨ÙˆØ¨ Ù…Ú©Ø§لÙ…Ù‡ Ø§Ø³Øª. Ø§ÙØ¹Ø§لÛŒ Ù…Ø«ل Â«fahren, fliegen, reisen, kommenÂ» Ù‡Ù…Ú¯ÛŒ Ø¨Ø§ sein ØµØ±Ù Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯. ØªÙØ§ÙˆØª Â«fahrenÂ» Ùˆ Â«fliegenÂ» Ù…Ù‡Ù… Ø§Ø³Øª: fahren Ø¨Ø±Ø§ÛŒ Ø²Ù…ÛŒÙ†ÛŒ (Ù…Ø§Ø´ÛŒÙ†ØŒ Ù‚Ø·Ø§Ø±) Ùˆ fliegen Ø¨Ø±Ø§ÛŒ Ù‡ÙˆØ§ÛŒÛŒ.",
+  cultureTip: "آلمانی‌ها عاشق سفر هستند و درباره سفرهایشان زیاد صحبت می‌کنند. فعل «fahren» بسیار رایج است و برای هر وسیله نقلیه (غیر از هواپیما) استفاده می‌شود. عبارت «Wo bist du gewesen?» (کجا بوده‌ای؟) سؤال رایجی است. نکته مهم: در Perfekt، فعل کمکی (bin/habe) در جایگاه دوم و Partizip II در انتهای جمله قرار می‌گیرد.",
   examData: {
     questions: [
-      { question: "Ú©Ø¯Ø§Ù… ÙØ¹ل Ø¨Ø§ sein ØµØ±Ù Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["spielen", "gehen", "lesen", "schreiben"], answer: 1 },
-      { question: "Partizip II ÙØ¹ل Â«essenÂ» Ú†ÛŒØ³ØªØŸ", options: ["geessen", "gegessen", "gesst", "gessen"], answer: 1 },
-      { question: "Â«Ich bin nach Hause gegangen.Â» ÙØ¹ل Ú©Ù…Ú©ÛŒ Ú†ÛŒØ³ØªØŸ", options: ["haben", "sein", "werden", "kÃ¶nnen"], answer: 1 },
-      { question: "Partizip II ÙØ¹ل Â«kommenÂ» Ú†ÛŒØ³ØªØŸ", options: ["gekommen", "gekomen", "gekommten", "kommen"], answer: 0 },
-      { question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ", options: ["Ich habe nach Berlin gefahren.", "Ich bin nach Berlin gefahren.", "Ich bin nach Berlin gemacht.", "Ich habe nach Berlin gegangen."], answer: 1 },
-      { question: "Partizip II ÙØ¹ل Â«trinkenÂ» Ú†ÛŒØ³ØªØŸ", options: ["getrinkt", "getrunken", "getrinken", "getronken"], answer: 1 },
-      { question: "Â«fahrenÂ» Ø¨Ø§ Ú†Ù‡ ÙØ¹ل Ú©Ù…Ú©ÛŒ ØµØ±Ù Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["haben", "sein", "Ù‡Ø± Ø¯Ùˆ", "Ù‡ÛŒÚ†â€ŒÚ©Ø¯Ø§Ù…"], answer: 1 },
-      { question: "Partizip II ÙØ¹ل Â«sehenÂ» Ú†ÛŒØ³ØªØŸ", options: ["geseht", "gesehen", "gesieht", "gesehn"], answer: 1 },
-      { question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ", options: ["Er ist viel gearbeitet.", "Er hat viel gearbeitet.", "Er ist viel gegangen gearbeitet.", "Er hat viel gegangen."], answer: 1 },
-      { question: "Â«bleibenÂ» Ø¨Ø§ Ú†Ù‡ ÙØ¹ل Ú©Ù…Ú©ÛŒ ØµØ±Ù Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["haben", "sein", "Ù‡Ø± Ø¯Ùˆ", "Ù‡ÛŒÚ†â€ŒÚ©Ø¯Ø§Ù…"], answer: 1 }
+      { question: "کدام فعل با sein ساخته می‌شود؟", options: ["spielen", "gehen", "machen", "lernen"], answer: 1 },
+      { question: "Partizip II فعل gehen چیست؟", options: ["gegangen", "gegang", "geht", "gegangenen"], answer: 0 },
+      { question: "«Ich bin aufgestanden» یعنی چه؟", options: ["من نشسته‌ام", "من بیدار شده‌ام", "من خوابیده‌ام", "من رفته‌ام"], answer: 1 },
+      { question: "Partizip II فعل kommen چیست؟", options: ["gekommt", "gekommen", "kommen", "kommt"], answer: 1 },
+      { question: "کدام فعل با sein ساخته می‌شود؟", options: ["trinken", "fahren", "schreiben", "finden"], answer: 1 },
+      { question: "Partizip II فعل trinken چیست؟", options: ["getrunkten", "getrunken", "trinkt", "getrinken"], answer: 1 },
+      { question: "کدام جمله صحیح است؟", options: ["Ich bin gegangen.", "Ich habe gegangen.", "Ich bin gegangen haben.", "Ich gegangen bin."], answer: 0 },
+      { question: "Partizip II فعل schreiben چیست؟", options: ["geschrieben", "geschriben", "schreibt", "geschreiben"], answer: 0 },
+      { question: "کدام فعل با sein ساخته می‌شود؟", options: ["essen", "bleiben", "trinken", "schreiben"], answer: 1 },
+      { question: "«Ich bin nach Berlin gefahren» یعنی چه؟", options: ["من برلین را رانندگی کرده‌ام", "من به برلین رفته‌ام", "من در برلین رانندگی کرده‌ام", "من از برلین آمده‌ام"], answer: 1 }
     ]
   }
 };

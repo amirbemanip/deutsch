@@ -1,120 +1,153 @@
 export const day22Data = {
-  title: "Ø±ÙˆØ² Û²Û²: Ø²Ù…Ø§Ù† Ú¯Ø°Ø´ØªÙ‡ Perfekt - Ø¨Ø®Ø´ Û±: Ø§ÙØ¹Ø§ل Ù…Ù†Ø¸Ù… Ø¨Ø§ haben",
-  objective: "Ø¯Ø± Ø§ÛŒÙ† Ø¯Ø±Ø³ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØ¯ Ú†Ú¯ÙˆÙ†Ù‡ Ø§Ø² Ø²Ù…Ø§Ù† Perfekt (Ú¯Ø°Ø´ØªÙ‡) Ø¨Ø±Ø§ÛŒ Ø§ÙØ¹Ø§ل Ù…Ù†Ø¸Ù… Ø¨Ø§ ÙØ¹ل Ú©Ù…Ú©ÛŒ haben Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯. Ø³Ø§Ø®ØªØ§Ø±: ge- + Ø±ÛŒØ´Ù‡ ÙØ¹ل + -t + haben.",
+  title: "روز ۲۲: زمان گذشته Perfekt - بخش ۱: افعال منظم با haben",
+  objective: "در این درس یاد می‌گیرید چگونه از زمان Perfekt (گذشته) برای افعال منظم با فعل کمکی haben استفاده کنید. ساختار: ge- + ریشه فعل + -t + haben.",
   grammarData: {
-    subtitle: "Perfekt mit haben ل Ø²Ù…Ø§Ù† Ú¯Ø°Ø´ØªÙ‡ Ø¨Ø§ ÙØ¹ل Ú©Ù…Ú©ÛŒ haben",
+    subtitle: "Perfekt mit haben - زمان گذشته با فعل کمکی haben",
     content: [
       {
         type: "text",
-        title: "Perfekt Ú†ÛŒØ³ØªØŸ",
-        text: "Ø²Ù…Ø§Ù† Perfekt (Ú¯Ø°Ø´ØªÙ‡) Ø¯Ø± Ù…Ú©Ø§لÙ…Ø§Øª Ø±ÙˆØ²Ù…Ø±Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ Ø¨Ø³ÛŒØ§Ø± Ø±Ø§ÛŒØ¬ Ø§Ø³Øª. Ø¨Ø±Ø§ÛŒ ØµØ­Ø¨Øª Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ú†ÛŒØ²Ù‡Ø§ÛŒÛŒ Ú©Ù‡ Ù‚Ø¨لØ§Ù‹ Ø§ØªÙØ§Ù‚ Ø§ÙØªØ§Ø¯Ù‡â€ŒØ§Ù†Ø¯ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯. Ø³Ø§Ø®ØªØ§Ø±: ÙØ§Ø¹ل + ÙØ¹ل Ú©Ù…Ú©ÛŒ (haben/sein) + ... + Partizip II (Ø¯Ø± Ø§Ù†ØªÙ‡Ø§). Ø§Ù…Ø±ÙˆØ² ÙÙ‚Ø· Ø§ÙØ¹Ø§ل Ù…Ù†Ø¸Ù… Ø¨Ø§ haben Ø±Ø§ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒÙ…."
+        title: "Perfekt چیست؟",
+        text: "زمان Perfekt (گذشته) در مکالمات روزمره آلمانی بسیار رایج است. برای صحبت درباره چیزهایی که قبلاً اتفاق افتاده‌اند استفاده می‌شود. ساختار: فاعل + فعل کمکی (haben/sein) + ... + Partizip II (در انتها). امروز فقط افعال منظم با haben را یاد می‌گیریم. در مکالمات غیررسمی، Perfekt خیلی بیشتر از Präteritum استفاده می‌شود."
       },
       {
         type: "table",
-        title: "ØµØ±Ù ÙØ¹ل Ú©Ù…Ú©ÛŒ haben Ø¯Ø± Perfekt",
+        title: "صرف فعل کمکی haben در Perfekt",
         rows: [
-          { de: "ich habe", fa: "Ù…Ù† Ø¯Ø§Ø´ØªÙ‡â€ŒØ§Ù… / ... Ú©Ø±Ø¯Ù‡â€ŒØ§Ù…" },
-          { de: "du hast", fa: "ØªÙˆ Ø¯Ø§Ø´ØªÙ‡â€ŒØ§ÛŒ / ... Ú©Ø±Ø¯Ù‡â€ŒØ§ÛŒ" },
-          { de: "er/sie/es hat", fa: "Ø§Ùˆ Ø¯Ø§Ø´ØªÙ‡ / ... Ú©Ø±Ø¯Ù‡" },
-          { de: "wir haben", fa: "Ù…Ø§ Ø¯Ø§Ø´ØªÙ‡â€ŒØ§ÛŒÙ… / ... Ú©Ø±Ø¯Ù‡â€ŒØ§ÛŒÙ…" },
-          { de: "ihr habt", fa: "Ø´Ù…Ø§ (Ø¬Ù…Ø¹) Ø¯Ø§Ø´ØªÙ‡â€ŒØ§ÛŒØ¯ / ... Ú©Ø±Ø¯Ù‡â€ŒØ§ÛŒØ¯" },
-          { de: "sie/Sie haben", fa: "Ø¢Ù†â€ŒÙ‡Ø§/Ø´Ù…Ø§ (Ø±Ø³Ù…ÛŒ) Ø¯Ø§Ø´ØªÙ‡â€ŒØ§Ù†Ø¯ / ... Ú©Ø±Ø¯Ù‡â€ŒØ§Ù†Ø¯" }
+          { de: "ich habe ... gemacht", fa: "من ... کرده‌ام" },
+          { de: "du hast ... gemacht", fa: "تو ... کرده‌ای" },
+          { de: "er/sie/es hat ... gemacht", fa: "او ... کرده" },
+          { de: "wir haben ... gemacht", fa: "ما ... کرده‌ایم" },
+          { de: "ihr habt ... gemacht", fa: "شما (جمع) ... کرده‌اید" },
+          { de: "sie/Sie haben ... gemacht", fa: "آن‌ها/شما (رسمی) ... کرده‌اند" }
+        ]
+      },
+      {
+        type: "table",
+        title: "صرف Perfekt با machen",
+        rows: [
+          { de: "ich habe gemacht", fa: "من کرده‌ام" },
+          { de: "du hast gemacht", fa: "تو کرده‌ای" },
+          { de: "er hat gemacht", fa: "او کرده" },
+          { de: "wir haben gemacht", fa: "ما کرده‌ایم" },
+          { de: "ihr habt gemacht", fa: "شما کرده‌اید" },
+          { de: "sie haben gemacht", fa: "آن‌ها کرده‌اند" }
         ]
       },
       {
         type: "text",
-        title: "Ø³Ø§Ø®Øª Partizip II Ø¨Ø±Ø§ÛŒ Ø§ÙØ¹Ø§ل Ù…Ù†Ø¸Ù…",
-        text: "Ø¨Ø±Ø§ÛŒ Ø§ÙØ¹Ø§ل Ù…Ù†Ø¸Ù… (regelmÃ¤ÃŸige Verben): ge- + Ø±ÛŒØ´Ù‡ ÙØ¹ل + -t. Ù…Ø«Ø§ل: machen â†’ gemacht, kaufen â†’ gekauft, spielen â†’ gespielt, lernen â†’ gelernt, arbeiten â†’ gearbeitet. ØªÙˆØ¬Ù‡: Ø§Ú¯Ø± ÙØ¹ل Ø¨Ø§ be-, ver-, er-, ent- Ø´Ø±ÙˆØ¹ Ø´ÙˆØ¯ØŒ ge- Ø§Ø¶Ø§ÙÙ‡ Ù†Ù…ÛŒâ€ŒØ´ÙˆØ¯! Ù…Ø«ل: besucht (Ø§Ø² besuchen), verstanden (Ø§Ø² verstehen)."
+        title: "ساخت Partizip II برای افعال منظم",
+        text: "برای افعال منظم (regelmäßige Verben): ge- + ریشه فعل + -t. مثل: machen → gemacht, kaufen → gekauft, spielen → gespielt, lernen → gelernt, arbeiten → gearbeitet. توجه: اگر فعل با be-, ver-, er-, ent- شروع شود، ge- اضافه نمی‌شود! مثل: besucht (از besuchen), verstanden (از verstehen). همچنین افعالی که با -ieren تمام می‌شوند ge- نمی‌گیرند: studiert (از studieren)."
+      },
+      {
+        type: "table",
+        title: "۱۵ فعل منظم رایج و Partizip II آن‌ها",
+        rows: [
+          { de: "machen → gemacht [ˈmaxt]", fa: "کردن / ساختن" },
+          { de: "spielen → gespielt [ɡəˈʃpiːlt]", fa: "بازی کردن" },
+          { de: "kaufen → gekauft [ɡəˈkaʊ̯ft]", fa: "خریدن" },
+          { de: "lernen → gelernt [ɡəˈlɛʁnt]", fa: "یاد گرفتن" },
+          { de: "arbeiten → gearbeitet [ɡəˈʔaʁbaɪ̯tət]", fa: "کار کردن" },
+          { de: "fragen → gefragt [ɡəˈfʁaːkt]", fa: "پرسیدن" },
+          { de: "sagen → gesagt [ɡəˈzaːkt]", fa: "گفتن" },
+          { de: "kochen → gekocht [ɡəˈkɔxt]", fa: "پختن" },
+          { de: "wohnen → gewohnt [ɡəˈvoːnt]", fa: "زندگی کردن" },
+          { de: "brauchen → gebraucht [ɡəˈbʁaʊ̯xt]", fa: "نیاز داشتن" },
+          { de: "suchen → gesucht [ɡəˈzʊxt]", fa: "جستجو کردن" },
+          { de: "frühstücken → gefrühstückt [ɡəˈfʁyːʃtykt]", fa: "صبحانه خوردن" },
+          { de: "glauben → geglaubt [ɡəˈɡlaʊ̯pt]", fa: "باور کردن" },
+          { de: "besuchen → besucht [bəˈzuːxt]", fa: "دیدن / ملاقات کردن" },
+          { de: "verstehen → verstanden [fɛɐ̯ˈʃtandən]", fa: "فهمیدن" }
+        ]
+      },
+      {
+        type: "table",
+        title: "۱۰ فعل منظم دیگر",
+        rows: [
+          { de: "brauchen → gebraucht", fa: "نیاز داشتن" },
+          { de: "holen → geholt", fa: "آوردن / گرفتن" },
+          { de: "probieren → probiert", fa: "امتحان کردن" },
+          { de: "telefonieren → telefoniert", fa: "تلفنی صحبت کردن" },
+          { de: "reservieren → reserviert", fa: "رزرو کردن" },
+          { de: "studieren → studiert", fa: "تحصیل کردن" },
+          { de: "putzen → geputzt", fa: "تمیز کردن" },
+          { de: "duschen → geduscht", fa: "دوش گرفتن" },
+          { de: "frühstücken → gefrühstückt", fa: "صبحانه خوردن" },
+          { de: "brauchen → gebraucht", fa: "نیاز داشتن" }
+        ]
       },
       {
         type: "examples",
-        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ Perfekt Ø¨Ø§ haben",
+        title: "مثال‌های Perfekt با haben",
         items: [
-          { de: "Ich habe heute Kaffee getrunken.", fa: "Ø§Ù…Ø±ÙˆØ² Ù‚Ù‡ÙˆÙ‡ Ù†ÙˆØ´ÛŒØ¯Ù‡â€ŒØ§Ù…." },
-          { de: "Er hat gestern ein Buch gekauft.", fa: "Ø§Ùˆ Ø¯ÛŒØ±ÙˆØ² ÛŒÚ© Ú©ØªØ§Ø¨ Ø®Ø±ÛŒØ¯Ù‡ Ø§Ø³Øª." },
-          { de: "Wir haben FuÃŸball gespielt.", fa: "ÙÙˆØªØ¨Ø§ل Ø¨Ø§Ø²ÛŒ Ú©Ø±Ø¯Ù‡â€ŒØ§ÛŒÙ…." },
-          { de: "Hast du das gegessen?", fa: "Ø¢ÛŒØ§ Ø§ÛŒÙ† Ø±Ø§ Ø®ÙˆØ±Ø¯Ù‡â€ŒØ§ÛŒØŸ" },
-          { de: "Sie hat viel gelernt.", fa: "Ø§Ùˆ Ø²ÛŒØ§Ø¯ Ø¯Ø±Ø³ Ø®ÙˆØ§Ù†Ø¯Ù‡ Ø§Ø³Øª." },
-          { de: "Ich habe lange geschlafen.", fa: "Ø·ÙˆلØ§Ù†ÛŒ Ø®ÙˆØ§Ø¨ÛŒØ¯Ù‡â€ŒØ§Ù…." },
-          { de: "Wir haben Deutsch gesprochen.", fa: "Ø¢لÙ…Ø§Ù†ÛŒ ØµØ­Ø¨Øª Ú©Ø±Ø¯Ù‡â€ŒØ§ÛŒÙ…." },
-          { de: "Er hat das nicht verstanden.", fa: "Ø§Ùˆ Ø§ÛŒÙ† Ø±Ø§ Ù†ÙÙ‡Ù…ÛŒØ¯Ù‡ Ø§Ø³Øª." }
+          { de: "Ich habe heute Kaffee getrunken.", fa: "امروز قهوه نوشیده‌ام." },
+          { de: "Er hat gestern ein Buch gekauft.", fa: "او دیروز یک کتاب خریده است." },
+          { de: "Wir haben Fußball gespielt.", fa: "فوتبال بازی کرده‌ایم." },
+          { de: "Hast du das gegessen?", fa: "آیا این را خورده‌ای؟" },
+          { de: "Sie hat viel gelernt.", fa: "او زیاد درس خوانده است." },
+          { de: "Ich habe lange geschlafen.", fa: "طولانی خوابیده‌ام." },
+          { de: "Wir haben Deutsch gesprochen.", fa: "آلمانی صحبت کرده‌ایم." },
+          { de: "Er hat das nicht verstanden.", fa: "او این را نفهمیده است." },
+          { de: "Haben Sie schon gefrühstückt?", fa: "آیا صبحانه خورده‌اید؟" },
+          { de: "Was hast du gemacht?", fa: "چه کار کرده‌ای؟" }
         ]
       },
       {
         type: "alert",
-        title: "Ù†Ú©ØªÙ‡ Ù…Ù‡Ù…!",
-        text: "Ø¯Ø± Ø¬Ù…لØ§Øª PerfektØŒ ÙØ¹ل Ú©Ù…Ú©ÛŒ (haben) Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Ø¯ÙˆÙ… Ùˆ Partizip II Ø¯Ø± Ø§Ù†ØªÙ‡Ø§ÛŒ Ø¬Ù…لÙ‡ Ù‚Ø±Ø§Ø± Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯. Ø³Ø§Ø®ØªØ§Ø±: ÙØ§Ø¹ل + haben + ... + Partizip II. Ù…Ø«Ø§ل: Ich habe gestern einen Film gesehen."
-      },
-      {
-        type: "table",
-        title: "Ø§ÙØ¹Ø§ل Ù…Ù†Ø¸Ù… Ø±Ø§ÛŒØ¬ Ùˆ Partizip II Ø¢Ù†â€ŒÙ‡Ø§",
-        rows: [
-          { de: "machen â†’ gemacht", fa: "Ø§Ù†Ø¬Ø§Ù… Ø¯Ø§Ø¯Ù†" },
-          { de: "spielen â†’ gespielt", fa: "Ø¨Ø§Ø²ÛŒ Ú©Ø±Ø¯Ù†" },
-          { de: "kaufen â†’ gekauft", fa: "Ø®Ø±ÛŒØ¯Ù†" },
-          { de: "kochen â†’ gekocht", fa: "Ù¾Ø®ØªÙ†" },
-          { de: "fragen â†’ gefragt", fa: "Ù¾Ø±Ø³ÛŒØ¯Ù†" },
-          { de: "sagen â†’ gesagt", fa: "Ú¯ÙØªÙ†" },
-          { de: "suchen â†’ gesucht", fa: "Ø¬Ø³ØªØ¬Ùˆ Ú©Ø±Ø¯Ù†" },
-          { de: "brauchen â†’ gebraucht", fa: "Ù†ÛŒØ§Ø² Ø¯Ø§Ø´ØªÙ†" },
-          { de: "lernen â†’ gelernt", fa: "ÛŒØ§Ø¯ Ú¯Ø±ÙØªÙ†" },
-          { de: "arbeiten â†’ gearbeitet", fa: "Ú©Ø§Ø± Ú©Ø±Ø¯Ù†" },
-          { de: "wohnen â†’ gewohnt", fa: "Ø²Ù†Ø¯Ú¯ÛŒ Ú©Ø±Ø¯Ù†" },
-          { de: "besuchen â†’ besucht", fa: "Ø¯ÛŒØ¯Ù† / Ù…لØ§Ù‚Ø§Øª Ú©Ø±Ø¯Ù†" }
-        ]
+        title: "نکته مهم!",
+        text: "در جملات Perfekt، فعل کمکی (haben) در جایگاه دوم و Partizip II در انتهای جمله قرار می‌گیرد. ساختار: فاعل + haben + ... + Partizip II. مثل: Ich habe gestern einen Film gesehen. در جمله سؤالی: فعل کمکی در ابتدا: Hast du das gemacht? در جمله فرعی: ..., dass ich das gemacht habe."
       },
       {
         type: "interactive_quiz",
-        title: "Partizip II Ø±Ø§ Ø¨Ø´Ù†Ø§Ø³ÛŒØ¯",
+        title: "Perfekt را بشناسید",
         questions: [
           {
-            question: "Partizip II ÙØ¹ل Â«machenÂ» Ú†ÛŒØ³ØªØŸ",
-            questionDe: "Was ist das Partizip II von لmachenل?",
+            question: "Partizip II فعل machen چیست؟",
+            questionDe: "Was ist das Partizip II von 'machen'?",
             options: [
               { text: "gemacht", isCorrect: true },
-              { text: "machen", isCorrect: false },
-              { text: "gemachen", isCorrect: false },
-              { text: "gemachet", isCorrect: false }
+              { text: "gemachet", isCorrect: false },
+              { text: "gemach", isCorrect: false },
+              { text: "macht", isCorrect: false }
             ],
-            explanation: "Ø¨Ø±Ø§ÛŒ Ø§ÙØ¹Ø§ل Ù…Ù†Ø¸Ù…: ge- + Ø±ÛŒØ´Ù‡ + -t: gemacht."
+            explanation: "برای افعال منظم: ge- + ریشه + -t: machen → gemacht."
           },
           {
-            question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ Perfekt ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ",
-            questionDe: "Welcher Satz im Perfekt ist richtig?",
+            question: "کدام جمله Perfekt صحیح است؟",
+            questionDe: "Welcher Satz ist im Perfekt richtig?",
             options: [
-              { text: "Ich habe heute Kaffee getrunken.", isCorrect: true },
-              { text: "Ich habe heute getrunken Kaffee.", isCorrect: false },
-              { text: "Ich heute habe Kaffee getrunken.", isCorrect: false },
-              { text: "Habe ich heute Kaffee getrunken.", isCorrect: false }
+              { text: "Ich habe gelernt.", isCorrect: true },
+              { text: "Ich gelernt habe.", isCorrect: false },
+              { text: "Ich habe lernen.", isCorrect: false },
+              { text: "Gelernt ich habe.", isCorrect: false }
             ],
-            explanation: "ÙØ¹ل Ú©Ù…Ú©ÛŒ Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Û² Ùˆ Partizip II Ø¯Ø± Ø§Ù†ØªÙ‡Ø§."
+            explanation: "ساختار صحیح: فاعل + haben + ... + Partizip II."
           },
           {
-            question: "Ú†Ø±Ø§ Â«besuchtÂ» ge- Ù†Ø¯Ø§Ø±Ø¯ØŸ",
-            questionDe: "Warum hat لbesuchtل kein لge-ل?",
+            question: "چرا در «besucht» ge- نیست؟",
+            questionDe: "Warum gibt es kein 'ge-' in 'besucht'?",
             options: [
-              { text: "Ú†ÙˆÙ† Ø¨Ø§ be- Ø´Ø±ÙˆØ¹ Ù…ÛŒâ€ŒØ´ÙˆØ¯", isCorrect: true },
-              { text: "Ú†ÙˆÙ† ÙØ¹ل Ù†Ø§Ù…Ù†Ø¸Ù… Ø§Ø³Øª", isCorrect: false },
-              { text: "Ú†ÙˆÙ† Ú©ÙˆØªØ§Ù‡ Ø§Ø³Øª", isCorrect: false },
-              { text: "Ú†ÙˆÙ† ÙØ¹ل Ø­Ø±Ú©ØªÛŒ Ø§Ø³Øª", isCorrect: false }
+              { text: "چون فعل با be- شروع شده", isCorrect: true },
+              { text: "چون فعل منظم نیست", isCorrect: false },
+              { text: "چون با sein ساخته شده", isCorrect: false },
+              { text: "چون فعل بازتابی است", isCorrect: false }
             ],
-            explanation: "Ø§ÙØ¹Ø§لÛŒ Ú©Ù‡ Ø¨Ø§ be-, ver-, er-, ent- Ø´Ø±ÙˆØ¹ Ø´ÙˆÙ†Ø¯ ge- Ù†Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯."
+            explanation: "افعالی که با be-, ver-, er-, ent- شروع شوند ge- نمی‌گیرند."
           }
         ]
       },
       {
         type: "fill_blank",
-        title: "Ø¬Ù…لØ§Øª Perfekt Ø±Ø§ Ú©Ø§Ù…ل Ú©Ù†ÛŒØ¯",
-        instruction: "Partizip II ÙØ¹ل Ù…Ù†Ø§Ø³Ø¨ Ø±Ø§ Ø¯Ø± Ø¬Ø§ÛŒ Ø®Ø§لÛŒ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯.",
+        title: "Partizip II صحیح را بنویسید",
+        instruction: "فعل را به Partizip II تبدیل کنید و جمله Perfekt را کامل کنید.",
         blanks: [
-          { sentence: "Ich habe heute Deutsch ___ (lernen).", answer: "gelernt", hint: "lernen â†’ gelernt" },
-          { sentence: "Er hat gestern ein Buch ___ (kaufen).", answer: "gekauft", hint: "kaufen â†’ gekauft" },
-          { sentence: "Wir haben FuÃŸball ___ (spielen).", answer: "gespielt", hint: "spielen â†’ gespielt" },
-          { sentence: "Hast du das schon ___ (machen)?", answer: "gemacht", hint: "machen â†’ gemacht" },
-          { sentence: "Sie hat den Film ___ (sehen - Ù†Ø§Ù…Ù†Ø¸Ù…: gesehen).", answer: "gesehen", hint: "sehen â†’ gesehen" },
-          { sentence: "Ich habe lange ___ (schlafen).", answer: "geschlafen", hint: "schlafen â†’ geschlafen" },
-          { sentence: "Wir haben den Lehrer ___ (fragen).", answer: "gefragt", hint: "fragen â†’ gefragt" },
-          { sentence: "Sie hat das nicht ___ (verstehen).", answer: "verstanden", hint: "verstehen â†’ verstanden (Ø¨Ø¯ÙˆÙ† ge-)" }
+          { sentence: "Ich habe gestern einen Film ___ (sehen).", answer: "gesehen", hint: "sehen → gesehen (غیرمنظم)" },
+          { sentence: "Sie hat das Buch ___ (lesen).", answer: "gelesen", hint: "lesen → gelesen" },
+          { sentence: "Wir haben Fußball ___ (spielen).", answer: "gespielt", hint: "spielen → gespielt (منظم)" },
+          { sentence: "Hast du Deutsch ___ (lernen)?", answer: "gelernt", hint: "lernen → gelernt" },
+          { sentence: "Er hat ein Auto ___ (kaufen).", answer: "gekauft", hint: "kaufen → gekauft" },
+          { sentence: "Ich habe das nicht ___ (verstehen).", answer: "verstanden", hint: "verstehen → verstanden (بدون ge-)" },
+          { sentence: "Wir haben zusammen ___ (frühstücken).", answer: "gefrühstückt", hint: "frühstücken → gefrühstückt" },
+          { sentence: "Hast du das ___ (machen)?", answer: "gemacht", hint: "machen → gemacht" }
         ]
       }
     ]
@@ -122,75 +155,86 @@ export const day22Data = {
   vocabData: {
     categories: [
       {
-        title: "Ø§ÙØ¹Ø§ل Ù…Ù†Ø¸Ù… Ùˆ Partizip II Ø¢Ù†â€ŒÙ‡Ø§",
+        title: "افعال منظم رایج با Partizip II",
         words: [
-          { de: "machen â†’ gemacht", fa: "Ø§Ù†Ø¬Ø§Ù… Ø¯Ø§Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Was hast du gemacht?", fa: "Ú†Ù‡ Ú©Ø§Ø± Ú©Ø±Ø¯ÛŒØŸ" }] },
-          { de: "spielen â†’ gespielt", fa: "Ø¨Ø§Ø²ÛŒ Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Die Kinder haben drauÃŸen gespielt.", fa: "Ø¨Ú†Ù‡â€ŒÙ‡Ø§ Ø¨ÛŒØ±ÙˆÙ† Ø¨Ø§Ø²ÛŒ Ú©Ø±Ø¯Ù‡â€ŒØ§Ù†Ø¯." }] },
-          { de: "kaufen â†’ gekauft", fa: "Ø®Ø±ÛŒØ¯Ù†", article: "-", plural: "-", examples: [{ de: "Ich habe neue Schuhe gekauft.", fa: "Ú©ÙØ´ Ø¬Ø¯ÛŒØ¯ Ø®Ø±ÛŒØ¯Ù‡â€ŒØ§Ù…." }] },
-          { de: "kochen â†’ gekocht", fa: "Ù¾Ø®ØªÙ†", article: "-", plural: "-", examples: [{ de: "Wer hat das Essen gekocht?", fa: "Ú†Ù‡ Ú©Ø³ÛŒ ØºØ°Ø§ Ù¾Ø®ØªÙ‡ØŸ" }] },
-          { de: "fragen â†’ gefragt", fa: "Ù¾Ø±Ø³ÛŒØ¯Ù†", article: "-", plural: "-", examples: [{ de: "Hast du den Lehrer gefragt?", fa: "Ø§Ø² Ù…Ø¹لÙ… Ù¾Ø±Ø³ÛŒØ¯ÛŒØŸ" }] },
-          { de: "sagen â†’ gesagt", fa: "Ú¯ÙØªÙ†", article: "-", plural: "-", examples: [{ de: "Er hat nichts gesagt.", fa: "Ø§Ùˆ Ù‡ÛŒÚ† Ù†Ú¯ÙØªÙ‡ Ø§Ø³Øª." }] },
-          { de: "suchen â†’ gesucht", fa: "Ø¬Ø³ØªØ¬Ùˆ Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Ich habe Ã¼berall gesucht.", fa: "Ù‡Ù…Ù‡ Ø¬Ø§ Ø¬Ø³ØªØ¬Ùˆ Ú©Ø±Ø¯Ù‡â€ŒØ§Ù…." }] },
-          { de: "lernen â†’ gelernt", fa: "ÛŒØ§Ø¯ Ú¯Ø±ÙØªÙ†", article: "-", plural: "-", examples: [{ de: "Sie hat viel gelernt.", fa: "Ø§Ùˆ Ø²ÛŒØ§Ø¯ Ø¯Ø±Ø³ Ø®ÙˆØ§Ù†Ø¯Ù‡ Ø§Ø³Øª." }] },
-          { de: "arbeiten â†’ gearbeitet", fa: "Ú©Ø§Ø± Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Ich habe den ganzen Tag gearbeitet.", fa: "ØªÙ…Ø§Ù… Ø±ÙˆØ² Ú©Ø§Ø± Ú©Ø±Ø¯Ù‡â€ŒØ§Ù…." }] },
-          { de: "wohnen â†’ gewohnt", fa: "Ø²Ù†Ø¯Ú¯ÛŒ Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Wo hast du gewohnt?", fa: "Ú©Ø¬Ø§ Ø²Ù†Ø¯Ú¯ÛŒ Ú©Ø±Ø¯Ù‡â€ŒØ§ÛŒØŸ" }] },
-          { de: "brauchen â†’ gebraucht", fa: "Ù†ÛŒØ§Ø² Ø¯Ø§Ø´ØªÙ†", article: "-", plural: "-", examples: [{ de: "Ich habe Hilfe gebraucht.", fa: "Ø¨Ù‡ Ú©Ù…Ú© Ù†ÛŒØ§Ø² Ø¯Ø§Ø´ØªÙ…." }] },
-          { de: "besuchen â†’ besucht", fa: "Ø¯ÛŒØ¯Ù† / Ù…لØ§Ù‚Ø§Øª", article: "-", plural: "-", examples: [{ de: "Wir haben Berlin besucht.", fa: "Ø¨Ø±لÛŒÙ† Ø±Ø§ Ø¯ÛŒØ¯Ù‡â€ŒØ§ÛŒÙ…." }] }
+          { de: "machen", fa: "کردن / ساختن", ipa: "[ˈmaxn̩]", article: "-", plural: "-", conjugation: { ich: "mache", du: "machst", er: "macht", wir: "machen", ihr: "macht", sie: "machen" }, examples: [{ de: "Ich habe die Hausaufgaben gemacht.", fa: "تکلیف را انجام داده‌ام." }, { de: "Was hast du am Wochenende gemacht?", fa: "آخر هفته چه کار کردی؟" }] },
+          { de: "spielen", fa: "بازی کردن", ipa: "[ˈʃpiːlən]", article: "-", plural: "-", conjugation: { ich: "spiele", du: "spielst", er: "spielt", wir: "spielen", ihr: "spielt", sie: "spielen" }, examples: [{ de: "Die Kinder haben im Garten gespielt.", fa: "بچه‌ها در باغ بازی کرده‌اند." }, { de: "Hast du schon einmal Fußball gespielt?", fa: "آیا تا به حال فوتبال بازی کرده‌ای؟" }] },
+          { de: "kaufen", fa: "خریدن", ipa: "[ˈkaʊ̯fən]", article: "-", plural: "-", conjugation: { ich: "kaufe", du: "kaufst", er: "kauft", wir: "kaufen", ihr: "kauft", sie: "kaufen" }, examples: [{ de: "Ich habe Brot gekauft.", fa: "نان خریده‌ام." }, { de: "Sie hat ein neues Auto gekauft.", fa: "او ماشین جدیدی خریده." }] },
+          { de: "lernen", fa: "یاد گرفتن", ipa: "[ˈlɛʁnən]", article: "-", plural: "-", conjugation: { ich: "lerne", du: "lernst", er: "lernt", wir: "lernen", ihr: "lernt", sie: "lernen" }, examples: [{ de: "Sie hat viel für die Prüfung gelernt.", fa: "او برای امتحان زیاد درس خوانده." }, { de: "Ich habe Deutsch in Berlin gelernt.", fa: "آلمانی را در برلین یاد گرفته‌ام." }] },
+          { de: "arbeiten", fa: "کار کردن", ipa: "[ˈʔaʁbaɪ̯tn̩]", article: "-", plural: "-", conjugation: { ich: "arbeite", du: "arbeitest", er: "arbeitet", wir: "arbeiten", ihr: "arbeitet", sie: "arbeiten" }, examples: [{ de: "Er hat heute lange gearbeitet.", fa: "او امروز طولانی کار کرده." }, { de: "Wo hast du gearbeitet?", fa: "کجا کار کرده‌ای؟" }] },
+          { de: "fragen", fa: "پرسیدن", ipa: "[ˈfʁaːɡn̩]", article: "-", plural: "-", conjugation: { ich: "frage", du: "fragst", er: "fragt", wir: "fragen", ihr: "fragt", sie: "fragen" }, examples: [{ de: "Ich habe den Lehrer gefragt.", fa: "از معلم پرسیده‌ام." }, { de: "Hast du nach dem Weg gefragt?", fa: "آدرس پرسیده‌ای؟" }] },
+          { de: "sagen", fa: "گفتن", ipa: "[ˈzaːɡn̩]", article: "-", plural: "-", conjugation: { ich: "sage", du: "sagst", er: "sagt", wir: "sagen", ihr: "sagt", sie: "sagen" }, examples: [{ de: "Was hast du gesagt?", fa: "چه گفته‌ای؟" }, { de: "Er hat nichts gesagt.", fa: "او چیزی نگفته." }] },
+          { de: "kochen", fa: "پختن", ipa: "[ˈkɔxn̩]", article: "-", plural: "-", conjugation: { ich: "koche", du: "kochst", er: "kocht", wir: "kochen", ihr: "kocht", sie: "kochen" }, examples: [{ de: "Meine Mutter hat Pasta gekocht.", fa: "مادرم پاستا پخته." }, { de: "Ich habe heute Abendessen gekocht.", fa: "امروز شام پخته‌ام." }] },
+          { de: "wohnen", fa: "زندگی کردن", ipa: "[ˈvoːnən]", article: "-", plural: "-", conjugation: { ich: "wohne", du: "wohnst", er: "wohnt", wir: "wohnen", ihr: "wohnt", sie: "wohnen" }, examples: [{ de: "Er hat lange in Berlin gewohnt.", fa: "او مدت‌ها در برلین زندگی کرده." }, { de: "Wo hast du gewohnt?", fa: "کجا زندگی کرده‌ای؟" }] },
+          { de: "brauchen", fa: "نیاز داشتن", ipa: "[ˈbʁaʊ̯xn̩]", article: "-", plural: "-", conjugation: { ich: "brauche", du: "brauchst", er: "braucht", wir: "brauchen", ihr: "braucht", sie: "brauchen" }, examples: [{ de: "Ich habe Hilfe gebraucht.", fa: "به کمک نیاز داشته‌ام." }, { de: "Hast du das gebraucht?", fa: "این را نیاز داشته‌ای؟" }] },
+          { de: "suchen", fa: "جستجو کردن", ipa: "[ˈzuːxn̩]", article: "-", plural: "-", conjugation: { ich: "suche", du: "suchst", er: "sucht", wir: "suchen", ihr: "sucht", sie: "suchen" }, examples: [{ de: "Hast du deinen Schlüssel gefunden? – Ja, ich habe ihn gesucht und gefunden.", fa: "کلیدت را پیدا کرده‌ای؟ – بله، جستجو کردم و پیدا کردم." }] },
+          { de: "frühstücken", fa: "صبحانه خوردن", ipa: "[ˈfʁyːʃtykn̩]", article: "-", plural: "-", conjugation: { ich: "frühstücke", du: "frühstückst", er: "frühstückt", wir: "frühstücken", ihr: "frühstückt", sie: "frühstücken" }, examples: [{ de: "Wir haben zusammen gefrühstückt.", fa: "با هم صبحانه خورده‌ایم." }, { de: "Hast du schon gefrühstückt?", fa: "صبحانه خورده‌ای؟" }] },
+          { de: "glauben", fa: "باور کردن", ipa: "[ˈɡlaʊ̯bn̩]", article: "-", plural: "-", conjugation: { ich: "glaube", du: "glaubst", er: "glaubt", wir: "glauben", ihr: "glaubt", sie: "glauben" }, examples: [{ de: "Ich habe ihm nicht geglaubt.", fa: "باورش نکرده‌ام." }, { de: "Das habe ich nicht geglaubt.", fa: "این را باور نکرده‌ام." }] },
+          { de: "besuchen", fa: "دیدن / ملاقات کردن", ipa: "[bəˈzuːxn̩]", article: "-", plural: "-", conjugation: { ich: "besuche", du: "besuchst", er: "besucht", wir: "besuchen", ihr: "besucht", sie: "besuchen" }, examples: [{ de: "Wir haben unsere Großeltern besucht.", fa: "پدربزرگ و مادربزرگمان را دیده‌ایم." }, { de: "Hast du das Museum besucht?", fa: "موزه را دیده‌ای؟" }] },
+          { de: "verstehen", fa: "فهمیدن", ipa: "[fɛɐ̯ˈʃteːən]", article: "-", plural: "-", conjugation: { ich: "verstehe", du: "verstehst", er: "versteht", wir: "verstehen", ihr: "versteht", sie: "verstehen" }, examples: [{ de: "Hast du die Aufgabe verstanden?", fa: "تمرین را فهمیده‌ای؟" }, { de: "Ich habe das nicht verstanden.", fa: "این را نفهمیده‌ام." }] }
         ]
       }
     ]
   },
   reading: [
     {
-      text: "Am Wochenende habe ich viel gemacht. Am Samstag bin ich lange geschlafen und habe dann ein leckeres FrÃ¼hstÃ¼ck gekocht. Danach habe ich mit meinen Freunden FuÃŸball gespielt. Am Nachmittag haben wir zusammen in der Stadt eingekauft. Ich habe ein neues T-Shirt gekauft und meine Freundin hat ein Buch gesucht. Am Abend haben wir Pizza gegessen und einen Film gesehen. Es war ein toller Tag!",
+      text: "Gestern war ein langer Tag. Ich bin um sechs Uhr aufgestanden und habe mich schnell gewaschen. Dann habe ich gefrühstückt und Kaffee getrunken. Um acht habe ich gearbeitet. Ich habe viele E-Mails geschrieben und telefoniert. Am Mittag habe ich mit meiner Kollegin gegessen. Sie hat mir von ihrem Wochenende erzählt. Nach der Arbeit habe ich eingekauft und Brot und Milch gekauft. Am Abend habe ich gekocht und einen Film gesehen. Um zehn Uhr habe ich das Licht ausgemacht und bin eingeschlafen. Es war ein produktiver Tag.",
+      translation: "دیروز یک روز طولانی بود. ساعت شش بیدار شدم و سریع خودم را شستم. بعد صبحانه خوردم و قهوه نوشیدم. ساعت هشت کار کردم. ایمیل‌های زیادی نوشتم و تلفنی صحبت کردم. ظهر با همکارم غذا خوردم. او از آخر هفته‌اش برایم گفت. بعد از کار خرید کردم و نان و شیر خریدم. شب آشپزی کردم و فیلم دیدم. ساعت ده چراغ را خاموش کردم و خوابیدم. یک روز پربار بود.",
       questions: [
-        { question: "Ù†ÙˆÛŒØ³Ù†Ø¯Ù‡ ØµØ¨Ø­ Ø´Ù†Ø¨Ù‡ Ú†Ù‡ Ú©Ø§Ø± Ú©Ø±Ø¯ØŸ", answer: "Ø®ÙˆØ§Ø¨ÛŒØ¯ Ùˆ ØµØ¨Ø­Ø§Ù†Ù‡ Ø¯Ø±Ø³Øª Ú©Ø±Ø¯." },
-        { question: "Ø¢Ù†â€ŒÙ‡Ø§ Ø¨Ø¹Ø¯Ø§Ø²Ø¸Ù‡Ø± Ú†Ù‡ Ú©Ø±Ø¯Ù†Ø¯ØŸ", answer: "Ø¨Ø§ Ù‡Ù… Ø®Ø±ÛŒØ¯ Ú©Ø±Ø¯Ù†Ø¯." },
-        { question: "Ù†ÙˆÛŒØ³Ù†Ø¯Ù‡ Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ø®Ø±ÛŒØ¯ØŸ", answer: "ÛŒÚ© ØªÛŒâ€ŒØ´Ø±Øª Ø¬Ø¯ÛŒØ¯." },
-        { question: "Ø¢Ù†â€ŒÙ‡Ø§ Ø´Ø¨ Ú†Ù‡ Ú©Ø±Ø¯Ù†Ø¯ØŸ", answer: "Ù¾ÛŒØªØ²Ø§ Ø®ÙˆØ±Ø¯Ù†Ø¯ Ùˆ ÙÛŒلÙ… Ø¯ÛŒØ¯Ù†Ø¯." }
+        { question: "او چند بیدار شد؟", answer: "ساعت شش." },
+        { question: "ظهر با چه کسی غذا خورد؟", answer: "با همکارش." },
+        { question: "او چه خرید؟", answer: "نان و شیر." },
+        { question: "شب چه کرد؟", answer: "آشپزی کرد و فیلم دید." }
       ]
     }
   ],
   writing: [
     {
-      title: "Ù†ÙˆØ´ØªÙ† Ø¢Ø®Ø± Ù‡ÙØªÙ‡ Ú¯Ø°Ø´ØªÙ‡",
-      prompt: "Ø¢Ø®Ø± Ù‡ÙØªÙ‡ Ú¯Ø°Ø´ØªÙ‡ Ø®ÙˆØ¯ Ø±Ø§ ØªÙˆØµÛŒÙ Ú©Ù†ÛŒØ¯. Ø§Ø² Perfekt Ø¨Ø§ Ø­Ø¯Ø§Ù‚ل Û¶ ÙØ¹ل Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.",
+      title: "نوشتن درباره دیروز",
+      prompt: "دیروز چه کردید؟ از Perfekt با haben استفاده کنید.",
       steps: [
-        { title: "Ù…Ø±Ø­لÙ‡ Û±: Ø´Ù†Ø¨Ù‡", text: "ØµØ¨Ø­ Ø´Ù†Ø¨Ù‡ Ú†Ù‡ Ú©Ø±Ø¯ÛŒØ¯ØŸ", example: { de: "Am Samstag habe ich lange geschlafen.", fa: "Ø´Ù†Ø¨Ù‡ Ø·ÙˆلØ§Ù†ÛŒ Ø®ÙˆØ§Ø¨ÛŒØ¯Ù…." } },
-        { title: "Ù…Ø±Ø­لÙ‡ Û²: ÙØ¹Ø§لÛŒØªâ€ŒÙ‡Ø§", text: "Ú†Ù‡ ÙØ¹Ø§لÛŒØªâ€ŒÙ‡Ø§ÛŒÛŒ Ø§Ù†Ø¬Ø§Ù… Ø¯Ø§Ø¯ÛŒØ¯ØŸ", example: { de: "Ich habe Freunde getroffen und wir haben FuÃŸball gespielt.", fa: "Ø¯ÙˆØ³ØªØ§Ù†Ù… Ø±Ø§ Ø¯ÛŒØ¯Ù… Ùˆ ÙÙˆØªØ¨Ø§ل Ø¨Ø§Ø²ÛŒ Ú©Ø±Ø¯ÛŒÙ…." } },
-        { title: "Ù…Ø±Ø­لÙ‡ Û³: Ø´Ø¨ Ùˆ ÛŒÚ©Ø´Ù†Ø¨Ù‡", text: "Ø´Ø¨ Ùˆ ÛŒÚ©Ø´Ù†Ø¨Ù‡ Ú†Ù‡ Ú©Ø±Ø¯ÛŒØ¯ØŸ", example: { de: "Am Sonntag habe ich mich ausgeruht.", fa: "ÛŒÚ©Ø´Ù†Ø¨Ù‡ Ø§Ø³ØªØ±Ø§Ø­Øª Ú©Ø±Ø¯Ù…." } }
+        { title: "مرحله ۱: صبح", text: "صبح چه کردید؟", example: { de: "Ich habe Kaffee getrunken.", fa: "قهوه نوشیدم." } },
+        { title: "مرحله ۲: کار", text: "در سر کار چه کردید؟", example: { de: "Ich habe gearbeitet und E-Mails geschrieben.", fa: "کار کردم و ایمیل نوشتم." } },
+        { title: "مرحله ۳: شب", text: "شب چه کردید؟", example: { de: "Ich habe gekocht und einen Film gesehen.", fa: "آشپزی کردم و فیلم دیدم." } }
       ],
-      modelAnswer: "Am Wochenende war ich sehr beschÃ¤ftigt. Am Samstag bin ich um neun Uhr aufgestanden und habe gefrÃ¼hstÃ¼ckt. Danach bin ich in die Stadt gefahren und habe eingekauft. Ich habe ein neues Handy gekauft. Am Nachmittag habe ich mit meinen Freunden FuÃŸball gespielt. Am Abend haben wir zusammen Pizza gegessen und einen Film gesehen. Am Sonntag habe ich lange geschlafen und mich ausgeruht. Ich habe auch Deutsch gelernt, denn nÃ¤chste Woche habe ich eine PrÃ¼fung. Es war ein schÃ¶nes Wochenende!"
+      modelAnswer: "Gestern war ein ruhiger Tag. Ich bin früh aufgestanden und habe gefrühstückt. Danach habe ich gearbeitet. Ich habe viel am Computer gemacht und E-Mails geschrieben. Am Mittag habe ich Pizza gegessen. Nach der Arbeit habe ich eingekauft und Obst gekauft. Am Abend habe ich für meine Familie gekocht. Wir haben zusammen gegessen und geredet. Danach habe ich ein Buch gelesen und bin früh ins Bett gegangen. Es war ein guter Tag."
     }
   ],
   listening: [
     {
-      title: "Perfekt - Ø²Ù…Ø§Ù† Ú¯Ø°Ø´ØªÙ‡",
-      source: "German Perfekt Tense - Regular Verbs",
-      link: "https://www.youtube.com/watch?v=4u8syACzm-8",
-      instructions: "Ø¨Ù‡ Ø§ÛŒÙ† ÙˆÛŒØ¯ÛŒÙˆ Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ ØªÙˆØ¬Ù‡ Ú©Ù†ÛŒØ¯ Ú©Ù‡ Ú†Ø·ÙˆØ± ge- Ø¨Ù‡ Ø§Ø¨ØªØ¯Ø§ÛŒ ÙØ¹ل Ø§Ø¶Ø§ÙÙ‡ Ùˆ -t Ø¨Ù‡ Ø§Ù†ØªÙ‡Ø§ Ø§Ø¶Ø§ÙÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯. Û±Û° ÙØ¹ل Ù…Ù†Ø¸Ù… Ø¨Ø§ Partizip II Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯."
+      title: "جملات Perfekt با haben",
+      instruction: "به جملات گوش دهید و آن‌ها را بنویسید. هر جمله شامل Perfekt با haben است.",
+      sentences: [
+        { de: "Ich habe heute Kaffee getrunken.", fa: "امروز قهوه نوشیده‌ام.", tts: "slow" },
+        { de: "Er hat gestern ein Buch gekauft.", fa: "او دیروز کتاب خریده.", tts: "slow" },
+        { de: "Wir haben zusammen gefrühstückt.", fa: "با هم صبحانه خورده‌ایم.", tts: "slow" },
+        { de: "Hast du die Aufgabe verstanden?", fa: "تمرین را فهمیده‌ای؟", tts: "slow" },
+        { de: "Sie hat lange gearbeitet.", fa: "او طولانی کار کرده.", tts: "slow" },
+        { de: "Was hast du gemacht?", fa: "چه کار کرده‌ای؟", tts: "slow" },
+        { de: "Ich habe das nicht gesagt.", fa: "این را نگفته‌ام.", tts: "slow" }
+      ]
     }
   ],
   speaking: [
     {
-      title: "ØªÙ…Ø±ÛŒÙ† ØµØ­Ø¨Øª Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ú¯Ø°Ø´ØªÙ‡",
-      pattern: "Was hast du am Wochenende gemacht? ل Ich habe... gespielt/gekauft/gelernt.",
-      exercise: "Ø¨Ù‡ Ûµ Ø³Ø¤Ø§ل Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ú¯Ø°Ø´ØªÙ‡ Ø¬ÙˆØ§Ø¨ Ø¯Ù‡ÛŒØ¯. Ø§Ø² Perfekt Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯."
+      title: "گفتگو: تعریف کردن از دیروز",
+      pattern: "A: Was hast du gestern gemacht? B: Ich habe gearbeitet. Und du? A: Ich habe eingekauft und gekocht. B: Was hast du gekocht? A: Ich habe Pasta gemacht. B: Hast du auch ferngesehen? A: Ja, ich habe einen Film gesehen. B: Welchen Film? A: Einen deutschen Film. Er war sehr gut.",
+      exercise: "با یک دوست درباره دیروزتان صحبت کنید. حداقل ۵ فعل در Perfekt استفاده کنید."
     }
   ],
-  cultureTip: "Ø²Ù…Ø§Ù† Perfekt Ø±Ø§ÛŒØ¬â€ŒØªØ±ÛŒÙ† Ø²Ù…Ø§Ù† Ú¯Ø°Ø´ØªÙ‡ Ø¯Ø± Ù…Ú©Ø§لÙ…Ø§Øª Ø¢لÙ…Ø§Ù†ÛŒ Ø§Ø³Øª. Ø­ØªÛŒ Ø¯Ø± Ø¬لØ³Ø§Øª Ø±Ø³Ù…ÛŒ Ùˆ Ø§Ø®Ø¨Ø§Ø±ØŒ Perfekt Ø¨Ø³ÛŒØ§Ø± Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯. ØªÙØ§ÙˆØª Perfekt Ùˆ PrÃ¤teritum Ø¯Ø± Ø§ÛŒÙ† Ø§Ø³Øª Ú©Ù‡ Perfekt Ø¨ÛŒØ´ØªØ± Ø¯Ø± Ù…Ú©Ø§لÙ…Ù‡ Ùˆ PrÃ¤teritum Ø¨ÛŒØ´ØªØ± Ø¯Ø± Ù†ÙˆØ´ØªØ§Ø± Ø±Ø³Ù…ÛŒ Ùˆ Ø¯Ø§Ø³ØªØ§Ù† Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯.",
+  cultureTip: "در مکالمات غیررسمی آلمانی، Perfekt پرکاربردترین زمان برای صحبت درباره گذشته است. حتی در مکالمات رسمی هم اغلب از Perfekt استفاده می‌شود. زمان Präteritum بیشتر در نوشتن و داستان‌ها استفاده می‌شود. فعل «haben» در Perfekt همیشه با بیشتر افعال می‌آید، مگر افعال حرکتی و تغییر حالت که با sein ساخته می‌شوند.",
   examData: {
     questions: [
-      { question: "Partizip II ÙØ¹ل Â«machenÂ» Ú†ÛŒØ³ØªØŸ", options: ["machen", "gemacht", "gemachen", "machte"], answer: 1 },
-      { question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ Perfekt ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ", options: ["Ich habe heute Kaffee getrunken.", "Ich habe heute getrunken Kaffee.", "Ich heute habe Kaffee getrunken.", "Habe ich heute Kaffee getrunken."], answer: 0 },
-      { question: "ÙØ¹ل Ú©Ù…Ú©ÛŒ Â«habenÂ» Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Ú†Ù†Ø¯Ù… Ù‚Ø±Ø§Ø± Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯ØŸ", options: ["Ø§Ùˆل", "Ø¯ÙˆÙ…", "Ø³ÙˆÙ…", "Ø¢Ø®Ø±"], answer: 1 },
-      { question: "Partizip II ÙØ¹ل Â«spielenÂ» Ú†ÛŒØ³ØªØŸ", options: ["spielen", "gespielt", "gespielen", "spielte"], answer: 1 },
-      { question: "Â«Ich habe Deutsch gelernt.Â» ÛŒØ¹Ù†ÛŒ Ú†Ù‡ØŸ", options: ["Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù….", "Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ú¯Ø±ÙØªÙ‡â€ŒØ§Ù….", "Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ø®ÙˆØ§Ù‡Ù… Ú¯Ø±ÙØª.", "Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒØ¯Ø§Ø¯Ù…."], answer: 1 },
-      { question: "Ú©Ø¯Ø§Ù… ÙØ¹ل Ø¯Ø± Perfekt ge- Ù†Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯ØŸ", options: ["machen", "spielen", "besuchen", "kaufen"], answer: 2 },
-      { question: "Partizip II ÙØ¹ل Â«kaufenÂ» Ú†ÛŒØ³ØªØŸ", options: ["kaufen", "gekaufen", "gekauft", "kaufte"], answer: 2 },
-      { question: "Â«Hast du das gemacht?Â» Ø¯Ø± Ú†Ù‡ Ø²Ù…Ø§Ù†ÛŒ Ø§Ø³ØªØŸ", options: ["PrÃ¤sens", "Perfekt", "PrÃ¤teritum", "Futur"], answer: 1 },
-      { question: "Partizip II ÙØ¹ل Â«lernenÂ» Ú†ÛŒØ³ØªØŸ", options: ["lernen", "gelernt", "gelernen", "lernte"], answer: 1 },
-      { question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ", options: ["Er hat heute gearbeitet viel.", "Er hat heute viel gearbeitet.", "Er gearbeitet hat heute viel.", "Heute er hat viel gearbeitet."], answer: 1 }
+      { question: "Partizip II فعل spielen چیست؟", options: ["gespielt", "gespielten", "spielt", "gespielen"], answer: 0 },
+      { question: "کدام فعل با sein ساخته می‌شود؟", options: ["spielen", "gehen", "machen", "lernen"], answer: 1 },
+      { question: "ساختار Perfekt با haben چیست؟", options: ["فاعل + Partizip II + haben", "فاعل + haben + ... + Partizip II", "haben + فاعل + Partizip II", "Partizip II + فاعل + haben"], answer: 1 },
+      { question: "Partizip II فعل kaufen چیست؟", options: ["gekauft", "gekaufen", "kauft", "gekauften"], answer: 0 },
+      { question: "چرا در «besucht» ge- نیست؟", options: ["چون فعل با be- شروع شده", "چون فعل منظم نیست", "چون با sein ساخته شده", "چون فعل بازتابی است"], answer: 0 },
+      { question: "«Ich habe gelernt» یعنی چه؟", options: ["من یاد می‌گیرم", "من یاد گرفته‌ام", "من یاد خواهم گرفت", "من یاد می‌دادم"], answer: 1 },
+      { question: "Partizip II فعل lernen چیست؟", options: ["gelernt", "gelernen", "lernt", "gelernten"], answer: 0 },
+      { question: "کدام جمله Perfekt صحیح است؟", options: ["Ich gelernt habe.", "Ich habe gelernt.", "Gelernt ich habe.", "Habe ich gelernt."], answer: 1 },
+      { question: "Partizip II فعل arbeiten چیست؟", options: ["gearbeitet", "gearbeiten", "arbeitet", "gearbeiteten"], answer: 0 },
+      { question: "کدام فعل Partizip II بدون ge- دارد؟", options: ["machen", "spielen", "verstehen", "kaufen"], answer: 2 }
     ]
   }
 };

@@ -1,139 +1,121 @@
 export const day13Data = {
-  title: "Ø±ÙˆØ² Û±Û³: ØªÙ‚ÙˆÛŒÙ… - Ø±ÙˆØ²Ù‡Ø§ÛŒ Ù‡ÙØªÙ‡ØŒ Ù…Ø§Ù‡â€ŒÙ‡Ø§ØŒ ÙØµلâ€ŒÙ‡Ø§ Ùˆ Ù‚Ø±Ø§Ø± Ù…لØ§Ù‚Ø§Øª",
-  objective: "ÛŒØ§Ø¯Ú¯ÛŒØ±ÛŒ Ù†Ø§Ù… Ù…Ø§Ù‡â€ŒÙ‡Ø§ Ùˆ ÙØµلâ€ŒÙ‡Ø§ØŒ ØªØ§Ø±ÛŒØ® Ú¯ÙØªÙ† Ùˆ Ù†Ø­ÙˆÙ‡ ØªØ¹ÛŒÛŒÙ† Ù‚Ø±Ø§Ø± Ù…لØ§Ù‚Ø§Øª",
+  title: "روز ۱۳: زمان - ساعت + فعالیت‌های روزانه",
+  objective: "در پایان این روز، شما می‌توانید ساعت را بگویید، فعالیت‌های روزانه را توصیف کنید و از افعال جداشدنی استفاده کنید.",
+  level: "A1",
   grammarData: {
-    subtitle: "ØªÙ‚ÙˆÛŒÙ… Ùˆ Ù‚Ø±Ø§Ø± Ù…لØ§Ù‚Ø§Øª",
+    subtitle: "زمان و فعالیت‌های روزانه",
     content: [
       {
         type: "text",
-        title: "Ù…Ø§Ù‡â€ŒÙ‡Ø§ÛŒ Ø³Ø§ل Ø¯Ø± Ø¢لÙ…Ø§Ù†ÛŒ",
-        text: "der Januar (Ú˜Ø§Ù†ÙˆÛŒÙ‡)ØŒ der Februar (ÙÙˆØ±ÛŒÙ‡)ØŒ der MÃ¤rz (Ù…Ø§Ø±Ø³)ØŒ der April (Ø¢ÙˆØ±ÛŒل)ØŒ der Mai (Ù…Ù‡)ØŒ der Juni (Ú˜ÙˆØ¦Ù†)ØŒ der Juli (Ú˜ÙˆØ¦ÛŒÙ‡)ØŒ der August (Ø¢Ú¯ÙˆØ³Øª)ØŒ der September (Ø³Ù¾ØªØ§Ù…Ø¨Ø±)ØŒ der Oktober (Ø§Ú©ØªØ¨Ø±)ØŒ der November (Ù†ÙˆØ§Ù…Ø¨Ø±)ØŒ der Dezember (Ø¯Ø³Ø§Ù…Ø¨Ø±)."
+        title: "گفتن ساعت در آلمانی",
+        text: "برای گفتن ساعت از «Wie viel Uhr ist es?» یا «Wie spät ist es?» استفاده می‌کنیم. پاسخ: Es ist ein Uhr (ساعت یک)، Es ist zwei Uhr (ساعت دو). برای ربع و نیم: Es ist Viertel nach drei (ربع به بعد از سه)، Es ist halb vier (نیم به چهار یعنی سه و نیم)."
       },
       {
         type: "table",
-        title: "Ù…Ø§Ù‡â€ŒÙ‡Ø§ÛŒ Ø³Ø§ل",
+        title: "ساعت‌ها",
         rows: [
-          { de: "der Januar", fa: "Ú˜Ø§Ù†ÙˆÛŒÙ‡" },
-          { de: "der Februar", fa: "ÙÙˆØ±ÛŒÙ‡" },
-          { de: "der MÃ¤rz", fa: "Ù…Ø§Ø±Ø³" },
-          { de: "der April", fa: "Ø¢ÙˆØ±ÛŒل" },
-          { de: "der Mai", fa: "Ù…Ù‡" },
-          { de: "der Juni", fa: "Ú˜ÙˆØ¦Ù†" },
-          { de: "der Juli", fa: "Ú˜ÙˆØ¦ÛŒÙ‡" },
-          { de: "der August", fa: "Ø¢Ú¯ÙˆØ³Øª" },
-          { de: "der September", fa: "Ø³Ù¾ØªØ§Ù…Ø¨Ø±" },
-          { de: "der Oktober", fa: "Ø§Ú©ØªØ¨Ø±" },
-          { de: "der November", fa: "Ù†ÙˆØ§Ù…Ø¨Ø±" },
-          { de: "der Dezember", fa: "Ø¯Ø³Ø§Ù…Ø¨Ø±" }
-        ]
-      },
-      {
-        type: "text",
-        title: "ÙØµلâ€ŒÙ‡Ø§ÛŒ Ø³Ø§ل",
-        text: "der FrÃ¼hling (Ø¨Ù‡Ø§Ø±)ØŒ der Sommer (ØªØ§Ø¨Ø³ØªØ§Ù†)ØŒ der Herbst (Ù¾Ø§ÛŒÛŒØ²)ØŒ der Winter (Ø²Ù…Ø³ØªØ§Ù†). Ø¨Ø§ Ø­Ø±Ù Ø§Ø¶Ø§ÙÙ‡ im: im FrÃ¼hling (Ø¯Ø± Ø¨Ù‡Ø§Ø±)ØŒ im Sommer (Ø¯Ø± ØªØ§Ø¨Ø³ØªØ§Ù†)."
-      },
-      {
-        type: "table",
-        title: "ÙØµلâ€ŒÙ‡Ø§",
-        rows: [
-          { de: "der FrÃ¼hling", fa: "Ø¨Ù‡Ø§Ø±" },
-          { de: "der Sommer", fa: "ØªØ§Ø¨Ø³ØªØ§Ù†" },
-          { de: "der Herbst", fa: "Ù¾Ø§ÛŒÛŒØ²" },
-          { de: "der Winter", fa: "Ø²Ù…Ø³ØªØ§Ù†" }
-        ]
-      },
-      {
-        type: "text",
-        title: "ØªØ§Ø±ÛŒØ® Ú¯ÙØªÙ†",
-        text: "Ø¨Ø±Ø§ÛŒ Ú¯ÙØªÙ† ØªØ§Ø±ÛŒØ® Ø§Ø² der + Ø±ÙˆØ² + Ù…Ø§Ù‡ + Ø³Ø§ل Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯: der erste Mai (Ø§Ùˆل Ù…Ù‡). Ø³Ø§ل: neunzehnhundertneunundneunzig (Û±Û¹Û¹Û¹)ØŒ zweitausend (Û²Û°Û°Û°). Ø¨Ø§ Ø­Ø±Ù Ø§Ø¶Ø§ÙÙ‡ am: am ersten Mai (Ø¯Ø± Ø§Ùˆل Ù…Ù‡)."
-      },
-      {
-        type: "examples",
-        title: "Ø¬Ù…لØ§Øª ØªØ§Ø±ÛŒØ®",
-        items: [
-          { de: "Heute ist der erste April.", fa: "Ø§Ù…Ø±ÙˆØ² Ø§Ùˆل Ø¢ÙˆØ±ÛŒل Ø§Ø³Øª." },
-          { de: "Mein Geburtstag ist am fÃ¼nften Mai.", fa: "ØªÙˆلØ¯ Ù…Ù† Ø¯Ø± Ù¾Ù†Ø¬Ù… Ù…Ù‡ Ø§Ø³Øª." },
-          { de: "Im Sommer ist es warm.", fa: "Ø¯Ø± ØªØ§Ø¨Ø³ØªØ§Ù† Ù‡ÙˆØ§ Ú¯Ø±Ù… Ø§Ø³Øª." },
-          { de: "Im Winter schneit es oft.", fa: "Ø¯Ø± Ø²Ù…Ø³ØªØ§Ù† Ø§ØºلØ¨ Ø¨Ø±Ù Ù…ÛŒâ€ŒØ¨Ø§Ø±Ø¯." },
-          { de: "Der FrÃ¼hling beginnt im MÃ¤rz.", fa: "Ø¨Ù‡Ø§Ø± Ø¯Ø± Ù…Ø§Ø±Ø³ Ø´Ø±ÙˆØ¹ Ù…ÛŒâ€ŒØ´ÙˆØ¯." },
-          { de: "Die BlÃ¤tter fallen im Herbst.", fa: "Ø¨Ø±Ú¯â€ŒÙ‡Ø§ Ø¯Ø± Ù¾Ø§ÛŒÛŒØ² Ù…ÛŒâ€ŒØ±ÛŒØ²Ù†Ø¯." }
+          { de: "Es ist ein Uhr.", fa: "ساعت یک (صبح)." },
+          { de: "Es ist zwei Uhr.", fa: "ساعت دو." },
+          { de: "Es ist drei Uhr.", fa: "ساعت سه." },
+          { de: "Es ist halb vier.", fa: "ساعت سه و نیم." },
+          { de: "Es ist Viertel nach drei.", fa: "ساعت سه و ربع." },
+          { de: "Es ist Viertel vor vier.", fa: "ساعت سه و ربع به چهار." },
+          { de: "Es ist fünf nach vier.", fa: "ساعت چهار و پنج دقیقه." },
+          { de: "Es ist zehn vor fünf.", fa: "ساعت چهار و پنجاه دقیقه." },
+          { de: "Es ist halb sechs.", fa: "ساعت پنج و نیم." },
+          { de: "Es ist zwanzig nach sieben.", fa: "ساعت هفت و بیست دقیقه." }
         ]
       },
       {
         type: "alert",
-        title: "Ù†Ú©ØªÙ‡: ØªØ±ØªÛŒØ¨ÛŒ Ø¨ÙˆØ¯Ù† Ø§Ø¹Ø¯Ø§Ø¯ ØªØ§Ø±ÛŒØ®",
-        text: "Ø¯Ø± ØªØ§Ø±ÛŒØ® Ø§Ø² Ø§Ø¹Ø¯Ø§Ø¯ ØªØ±ØªÛŒØ¨ÛŒ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯: der erste (Ø§Ùˆل)ØŒ der zweite (Ø¯ÙˆÙ…)ØŒ der dritte (Ø³ÙˆÙ…)ØŒ der vierte (Ú†Ù‡Ø§Ø±Ù…)ØŒ der fÃ¼nfte (Ù¾Ù†Ø¬Ù…). Ø¨Ø¹Ø¯ Ø§Ø² Ù¾Ù†Ø¬Ù…ØŒ ÙÙ‚Ø· -te Ø§Ø¶Ø§ÙÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯: der sechste (Ø´Ø´Ù…)."
+        title: "توجه مهم: ساعت halb",
+        text: "در آلمانی وقتی می‌گوییم halb drei یعنی ساعت سه و نیم در فارسی، اما عدد بعد از halb می‌آید! halb vier = ساعت ۳:۳۰ (نیم به چهار). این یکی از پیچیده‌ترین بخش‌های زبان آلمانی است پس باید دقت کنید."
       },
       {
         type: "text",
-        title: "Ù‚Ø±Ø§Ø± Ù…لØ§Ù‚Ø§Øª (Termin)",
-        text: "Ø¨Ø±Ø§ÛŒ ØªØ¹ÛŒÛŒÙ† Ù‚Ø±Ø§Ø± Ù…لØ§Ù‚Ø§Øª Ø§Ø² ÙØ¹ل haben ÛŒØ§ machen Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯: Ich habe einen Termin (Ù…Ù† Ù‚Ø±Ø§Ø± Ø¯Ø§Ø±Ù…). Ich mÃ¶chte einen Termin machen (Ù…Ù† Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ù… Ù‚Ø±Ø§Ø± Ø¨Ú¯Ø°Ø§Ø±Ù…)."
+        title: "افعال فعالیت‌های روزانه با پیشوند جداشدنی",
+        text: "افعال جداشدنی (trennbare Verben) افعالی هستند که پیشوند آنها در جمله اصلی از فعل جدا می‌شود و به آخر جمله می‌رود: aufstehen (بلند شدن) → Ich stehe um sieben Uhr auf. frühstücken (صبحانه خوردن) → Ich frühstücke um acht Uhr. zu Bett gehen (به رختخواب رفتن) → Ich gehe um zehn Uhr zu Bett."
       },
       {
-        type: "examples",
-        title: "Ø¬Ù…لØ§Øª Ù‚Ø±Ø§Ø± Ù…لØ§Ù‚Ø§Øª",
-        items: [
-          { de: "Haben Sie am Montag Zeit?", fa: "Ø¢ÛŒØ§ Ø¯ÙˆØ´Ù†Ø¨Ù‡ ÙˆÙ‚Øª Ø¯Ø§Ø±ÛŒØ¯ØŸ" },
-          { de: "Ich habe am Dienstag einen Termin.", fa: "Ù…Ù† Ø³Ù‡â€ŒØ´Ù†Ø¨Ù‡ Ù‚Ø±Ø§Ø± Ø¯Ø§Ø±Ù…." },
-          { de: "Wann passt es Ihnen?", fa: "Ú†Ù‡ Ø²Ù…Ø§Ù†ÛŒ Ø¨Ø±Ø§ÛŒ Ø´Ù…Ø§ Ù…Ù†Ø§Ø³Ø¨ Ø§Ø³ØªØŸ" },
-          { de: "Passt es Ihnen am Mittwoch um 14 Uhr?", fa: "Ø¢ÛŒØ§ Ú†Ù‡Ø§Ø±Ø´Ù†Ø¨Ù‡ Ø³Ø§Ø¹Øª Û±Û´ Ø¨Ø±Ø§ÛŒØªØ§Ù† Ù…Ù†Ø§Ø³Ø¨ Ø§Ø³ØªØŸ" },
-          { de: "Ja, das passt mir.", fa: "Ø¨لÙ‡ØŒ Ù…Ù†Ø§Ø³Ø¨ Ø§Ø³Øª." },
-          { de: "Nein, da habe ich keine Zeit.", fa: "Ù†Ù‡ØŒ Ø¢Ù† ÙˆÙ‚Øª ÙˆÙ‚Øª Ù†Ø¯Ø§Ø±Ù…." },
-          { de: "KÃ¶nnen wir den Termin verschieben?", fa: "Ø¢ÛŒØ§ Ù…ÛŒâ€ŒØªÙˆØ§Ù†ÛŒÙ… Ù‚Ø±Ø§Ø± Ø±Ø§ Ø¹Ù‚Ø¨ Ø¨ÛŒÙ†Ø¯Ø§Ø²ÛŒÙ…ØŸ" }
+        type: "table",
+        title: "افعال جداشدنی روزانه",
+        rows: [
+          { de: "aufstehen", fa: "بلند شدن / بیدار شدن" },
+          { de: "frühstücken", fa: "صبحانه خوردن" },
+          { de: "zur Arbeit gehen", fa: "رفتن به سر کار" },
+          { de: "Mittag essen", fa: "ناهار خوردن" },
+          { de: "Feierabend machen", fa: "تمام شدن کار روزانه" },
+          { de: "zu Abend essen", fa: "شام خوردن" },
+          { de: "zu Bett gehen", fa: "به رختخواب رفتن" },
+          { de: "fernsehen", fa: "تلویزیون دیدن" },
+          { de: "einkaufen", fa: "خرید کردن" },
+          { de: "schlafen gehen", fa: "خواب رفتن" }
         ]
       },
       {
-        type: "interactive_quiz",
-        title: "Ø¢Ø²Ù…ÙˆÙ†: ØªÙ‚ÙˆÛŒÙ… Ùˆ Ù‚Ø±Ø§Ø±",
-        questions: [
-          {
-            question: "لØªØ§Ø¨Ø³ØªØ§Ù†ل Ø¨Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ Ú†ÛŒØ³ØªØŸ",
-            questionDe: "Wie sagt man لsummerل auf Deutsch?",
-            options: [
-              { text: "der Sommer", isCorrect: true },
-              { text: "der FrÃ¼hling", isCorrect: false },
-              { text: "der Herbst", isCorrect: false },
-              { text: "der Winter", isCorrect: false }
-            ],
-            explanation: "der Sommer Ø¨Ù‡ Ù…Ø¹Ù†Ø§ÛŒ ØªØ§Ø¨Ø³ØªØ§Ù† Ø§Ø³Øª."
-          },
-          {
-            question: "لØ¯Ø± Ø¨Ù‡Ø§Ø±ل Ú†Ú¯ÙˆÙ†Ù‡ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Wie sagt man لin springل?",
-            options: [
-              { text: "im FrÃ¼hling", isCorrect: true },
-              { text: "in FrÃ¼hling", isCorrect: false },
-              { text: "am FrÃ¼hling", isCorrect: false },
-              { text: "auf FrÃ¼hling", isCorrect: false }
-            ],
-            explanation: "Ø¨Ø§ ÙØµلâ€ŒÙ‡Ø§ Ø§Ø² im (in + dem) Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯."
-          },
-          {
-            question: "لØ¢ÛŒØ§ Ø¯ÙˆØ´Ù†Ø¨Ù‡ ÙˆÙ‚Øª Ø¯Ø§Ø±ÛŒØ¯ØŸل Ú†Ú¯ÙˆÙ†Ù‡ Ù¾Ø±Ø³ÛŒØ¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Wie fragt man لAre you free on Monday?ل?",
-            options: [
-              { text: "Haben Sie am Montag Zeit?", isCorrect: true },
-              { text: "Sind Sie am Montag Zeit?", isCorrect: false },
-              { text: "Haben Sie der Montag Zeit?", isCorrect: false },
-              { text: "Ist am Montag Zeit?", isCorrect: false }
-            ],
-            explanation: "Ø§Ø² ÙØ¹ل haben Ø¨Ø±Ø§ÛŒ Ø¯Ø§Ø´ØªÙ† ÙˆÙ‚Øª Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯."
-          }
+        type: "examples",
+        title: "مثال‌های فعالیت‌های روزانه",
+        items: [
+          { de: "Ich stehe um sechs Uhr auf.", fa: "ساعت شش بیدار می‌شوم." },
+          { de: "Ich frühstücke um sieben Uhr.", fa: "ساعت هفت صبحانه می‌خورم." },
+          { de: "Ich gehe um acht Uhr zur Arbeit.", fa: "ساعت هشت به سر کار می‌روم." },
+          { de: "Ich esse um zwölf Uhr zu Mittag.", fa: "ساعت دوازده ناهار می‌خورم." },
+          { de: "Ich sehe um zehn Uhr fern.", fa: "ساعت ده تلویزیون می‌بینم." },
+          { de: "Ich gehe um elf Uhr zu Bett.", fa: "ساعت یازده به رختخواب می‌روم." }
         ]
       },
       {
         type: "fill_blank",
-        title: "ØªÚ©Ù…ÛŒل Ø¬Ù…لØ§Øª: ØªÙ‚ÙˆÛŒÙ…",
-        instruction: "Ø¬Ø§ÛŒ Ø®Ø§لÛŒ Ø±Ø§ Ø¨Ø§ Ú©لÙ…Ù‡ Ù…Ù†Ø§Ø³Ø¨ Ù¾Ø± Ú©Ù†ÛŒØ¯.",
+        title: "تمرین: زمان و فعالیت‌ها",
+        instruction: "جملات را کامل کنید.",
         blanks: [
-          { sentence: "Der ___ ist der erste Monat.", answer: "Januar", hint: "Ú˜Ø§Ù†ÙˆÛŒÙ‡" },
-          { sentence: "___ Sommer ist es warm.", answer: "Im", hint: "Ø¯Ø± ØªØ§Ø¨Ø³ØªØ§Ù†" },
-          { sentence: "Mein Geburtstag ist am ___ Mai.", answer: "fÃ¼nften", hint: "Ù¾Ù†Ø¬Ù… Ù…Ù‡" },
-          { sentence: "Haben Sie am ___ Zeit?", answer: "Montag", hint: "Ø¯ÙˆØ´Ù†Ø¨Ù‡" },
-          { sentence: "Der ___ beginnt im MÃ¤rz.", answer: "FrÃ¼hling", hint: "Ø¨Ù‡Ø§Ø±" },
-          { sentence: "Heute ist der erste ___.", answer: "April", hint: "Ø¢ÙˆØ±ÛŒل" },
-          { sentence: "Ich habe am Dienstag einen ___.", answer: "Termin", hint: "Ù‚Ø±Ø§Ø±" },
-          { sentence: "___ Herbst fallen die BlÃ¤tter.", answer: "Im", hint: "Ø¯Ø± Ù¾Ø§ÛŒÛŒØ²" }
+          { sentence: "Es ist ___ Uhr.", answer: "drei", hint: "سه" },
+          { sentence: "Ich stehe um sechs Uhr ___.", answer: "auf", hint: "بلند می‌شوم" },
+          { sentence: "Um sieben Uhr ___ ich.", answer: "frühstücke", hint: "صبحانه می‌خورم" },
+          { sentence: "Es ist halb ___.", answer: "vier", hint: "چهار" },
+          { sentence: "Ich ___ um acht Uhr zur Arbeit.", answer: "gehe", hint: "می‌روم" },
+          { sentence: "Ich sehe ___ zehn Uhr fern.", answer: "um", hint: "در ساعت" },
+          { sentence: "Es ist ___ nach fünf.", answer: "Viertel", hint: "ربع" },
+          { sentence: "Ich gehe um elf Uhr zu ___.", answer: "Bett", hint: "رختخواب" }
+        ]
+      },
+      {
+        type: "interactive_quiz",
+        title: "آزمون: زمان و روزانه",
+        questions: [
+          {
+            question: "«ساعت سه و نیم» چگونه گفته می‌شود؟",
+            questionDe: "Wie sagt man \"half past three\" auf Deutsch?",
+            options: [
+              { text: "Es ist halb vier.", isCorrect: true },
+              { text: "Es ist halb drei.", isCorrect: false },
+              { text: "Es ist drei Uhr dreißig.", isCorrect: false },
+              { text: "Es ist drei und halb.", isCorrect: false }
+            ],
+            explanation: "halb همیشه با عدد بعدی می‌آید: halb vier = ۳:۳۰"
+          },
+          {
+            question: "پیشوند کدام فعل جداشدنی است؟",
+            questionDe: "Welches Verb ist trennbar?",
+            options: [
+              { text: "aufstehen", isCorrect: true },
+              { text: "arbeiten", isCorrect: false },
+              { text: "sprechen", isCorrect: false },
+              { text: "finden", isCorrect: false }
+            ],
+            explanation: "auf یک پیشوند جداشدنی است."
+          },
+          {
+            question: "«ربع به بعد از سه» چگونه گفته می‌شود؟",
+            questionDe: "Wie heißt \"quarter past three\"?",
+            options: [
+              { text: "Viertel nach drei", isCorrect: true },
+              { text: "Viertel vor drei", isCorrect: false },
+              { text: "Drittel nach drei", isCorrect: false },
+              { text: "Viertel drei", isCorrect: false }
+            ],
+            explanation: "nach یعنی به بعد."
+          }
         ]
       }
     ]
@@ -141,84 +123,106 @@ export const day13Data = {
   vocabData: {
     categories: [
       {
-        title: "Ù…Ø§Ù‡â€ŒÙ‡Ø§ Ùˆ ÙØµلâ€ŒÙ‡Ø§",
+        title: "زمان و ساعت",
         words: [
-          { de: "der Januar", fa: "Ú˜Ø§Ù†ÙˆÛŒÙ‡", article: "der", plural: "-", examples: [{ de: "Im Januar ist es kalt.", fa: "Ø¯Ø± Ú˜Ø§Ù†ÙˆÛŒÙ‡ Ù‡ÙˆØ§ Ø³Ø±Ø¯ Ø§Ø³Øª." }] },
-          { de: "der Februar", fa: "ÙÙˆØ±ÛŒÙ‡", article: "der", plural: "-", examples: [{ de: "Der Februar hat 28 oder 29 Tage.", fa: "ÙÙˆØ±ÛŒÙ‡ Û²Û¸ ÛŒØ§ Û²Û¹ Ø±ÙˆØ² Ø¯Ø§Ø±Ø¯." }] },
-          { de: "der MÃ¤rz", fa: "Ù…Ø§Ø±Ø³", article: "der", plural: "-", examples: [{ de: "Der FrÃ¼hling beginnt im MÃ¤rz.", fa: "Ø¨Ù‡Ø§Ø± Ø¯Ø± Ù…Ø§Ø±Ø³ Ø´Ø±ÙˆØ¹ Ù…ÛŒâ€ŒØ´ÙˆØ¯." }] },
-          { de: "der April", fa: "Ø¢ÙˆØ±ÛŒل", article: "der", plural: "-", examples: [{ de: "Im April regnet es oft.", fa: "Ø¯Ø± Ø¢ÙˆØ±ÛŒل Ø§ØºلØ¨ Ø¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¨Ø§Ø±Ø¯." }] },
-          { de: "der Mai", fa: "Ù…Ù‡", article: "der", plural: "-", examples: [{ de: "Der Mai ist ein schÃ¶ner Monat.", fa: "Ù…Ù‡ Ù…Ø§Ù‡ Ø²ÛŒØ¨Ø§ÛŒÛŒ Ø§Ø³Øª." }] },
-          { de: "der Juni", fa: "Ú˜ÙˆØ¦Ù†", article: "der", plural: "-", examples: [{ de: "Im Juni beginnt der Sommer.", fa: "Ø¯Ø± Ú˜ÙˆØ¦Ù† ØªØ§Ø¨Ø³ØªØ§Ù† Ø´Ø±ÙˆØ¹ Ù…ÛŒâ€ŒØ´ÙˆØ¯." }] },
-          { de: "der Juli", fa: "Ú˜ÙˆØ¦ÛŒÙ‡", article: "der", plural: "-", examples: [{ de: "Im Juli ist es heiÃŸ.", fa: "Ø¯Ø± Ú˜ÙˆØ¦ÛŒÙ‡ Ù‡ÙˆØ§ Ú¯Ø±Ù… Ø§Ø³Øª." }] },
-          { de: "der August", fa: "Ø¢Ú¯ÙˆØ³Øª", article: "der", plural: "-", examples: [{ de: "Im August haben viele Menschen Urlaub.", fa: "Ø¯Ø± Ø¢Ú¯ÙˆØ³Øª Ø¨Ø³ÛŒØ§Ø±ÛŒ ØªØ¹Ø·ÛŒلØ§Øª Ø¯Ø§Ø±Ù†Ø¯." }] },
-          { de: "der September", fa: "Ø³Ù¾ØªØ§Ù…Ø¨Ø±", article: "der", plural: "-", examples: [{ de: "Die Schule beginnt im September.", fa: "Ù…Ø¯Ø±Ø³Ù‡ Ø¯Ø± Ø³Ù¾ØªØ§Ù…Ø¨Ø± Ø´Ø±ÙˆØ¹ Ù…ÛŒâ€ŒØ´ÙˆØ¯." }] },
-          { de: "der Oktober", fa: "Ø§Ú©ØªØ¨Ø±", article: "der", plural: "-", examples: [{ de: "Im Oktober sind die BlÃ¤tter bunt.", fa: "Ø¯Ø± Ø§Ú©ØªØ¨Ø± Ø¨Ø±Ú¯â€ŒÙ‡Ø§ Ø±Ù†Ú¯Ø§Ø±Ù†Ú¯ Ù‡Ø³ØªÙ†Ø¯." }] },
-          { de: "der November", fa: "Ù†ÙˆØ§Ù…Ø¨Ø±", article: "der", plural: "-", examples: [{ de: "Im November wird es frÃ¼h dunkel.", fa: "Ø¯Ø± Ù†ÙˆØ§Ù…Ø¨Ø± Ø²ÙˆØ¯ ØªØ§Ø±ÛŒÚ© Ù…ÛŒâ€ŒØ´ÙˆØ¯." }] },
-          { de: "der Dezember", fa: "Ø¯Ø³Ø§Ù…Ø¨Ø±", article: "der", plural: "-", examples: [{ de: "Weihnachten ist im Dezember.", fa: "Ú©Ø±ÛŒØ³Ù…Ø³ Ø¯Ø± Ø¯Ø³Ø§Ù…Ø¨Ø± Ø§Ø³Øª." }] }
+          { de: "die Uhr [uːɐ̯]", fa: "ساعت", article: "die", plural: "die Uhren", examples: [{ de: "Wie viel Uhr ist es?", fa: "چند ساعت است؟" }] },
+          { de: "die Stunde [ˈʃtʊndə]", fa: "ساعت (واحد زمان)", article: "die", plural: "die Stunden", examples: [{ de: "Eine Stunde dauert sechzig Minuten.", fa: "یک ساعت شصت دقیقه طول می‌کشد." }] },
+          { de: "die Minute [miˈnuːtə]", fa: "دقیقه", article: "die", plural: "die Minuten", examples: [{ de: "Fünf Minuten noch!", fa: "پنج دقیقه دیگر!" }] },
+          { de: "der Feierabend [ˈfaɪɛˌʁaːbənt]", fa: "پایان کار روزانه", article: "der", plural: "die Feierabende", examples: [{ de: "Um fünfzehn Uhr ist Feierabend.", fa: "ساعت پنج کار تمام می‌شود." }] },
+          { de: "der Morgen [ˈmɔʁɡən]", fa: "صبح", article: "der", plural: "die Morgen", examples: [{ de: "Guten Morgen!", fa: "صبح بخیر!" }] },
+          { de: "der Mittag [ˈmɪtaːk]", fa: "ظهر", article: "der", plural: "die Mittage", examples: [{ de: "Mittagessen um zwölf Uhr.", fa: "ناهار ساعت دوازده." }] },
+          { de: "der Abend [ˈaːbənt]", fa: "شب", article: "der", plural: "die Abende", examples: [{ de: "Guten Abend!", fa: "شب بخیر!" }] }
         ]
       },
       {
-        title: "ÙØµلâ€ŒÙ‡Ø§ Ùˆ Ù‚Ø±Ø§Ø±Ù‡Ø§",
+        title: "افعال روزانه",
         words: [
-          { de: "der FrÃ¼hling", fa: "Ø¨Ù‡Ø§Ø±", article: "der", plural: "-", examples: [{ de: "Im FrÃ¼hling blÃ¼hen die Blumen.", fa: "Ø¯Ø± Ø¨Ù‡Ø§Ø± Ú¯لâ€ŒÙ‡Ø§ Ù…ÛŒâ€ŒØ´Ú©ÙÙ†Ø¯." }] },
-          { de: "der Sommer", fa: "ØªØ§Ø¨Ø³ØªØ§Ù†", article: "der", plural: "die Sommer", examples: [{ de: "Der Sommer ist meine Lieblingsjahreszeit.", fa: "ØªØ§Ø¨Ø³ØªØ§Ù† ÙØµل Ù…ÙˆØ±Ø¯ Ø¹لØ§Ù‚Ù‡ Ù…Ù† Ø§Ø³Øª." }] },
-          { de: "der Herbst", fa: "Ù¾Ø§ÛŒÛŒØ²", article: "der", plural: "die Herbste", examples: [{ de: "Im Herbst wird es kÃ¼hler.", fa: "Ø¯Ø± Ù¾Ø§ÛŒÛŒØ² Ù‡ÙˆØ§ Ø®Ù†Ú©â€ŒØªØ± Ù…ÛŒâ€ŒØ´ÙˆØ¯." }] },
-          { de: "der Winter", fa: "Ø²Ù…Ø³ØªØ§Ù†", article: "der", plural: "die Winter", examples: [{ de: "Im Winter schneit es.", fa: "Ø¯Ø± Ø²Ù…Ø³ØªØ§Ù† Ø¨Ø±Ù Ù…ÛŒâ€ŒØ¨Ø§Ø±Ø¯." }] },
-          { de: "der Termin", fa: "Ù‚Ø±Ø§Ø±", article: "der", plural: "die Termine", examples: [{ de: "Ich habe einen Termin beim Arzt.", fa: "Ù…Ù† Ù‚Ø±Ø§Ø± Ø¯Ú©ØªØ± Ø¯Ø§Ø±Ù…." }] },
-          { de: "die Zeit", fa: "ÙˆÙ‚Øª", article: "die", plural: "die Zeiten", examples: [{ de: "Haben Sie Zeit?", fa: "Ø¢ÛŒØ§ ÙˆÙ‚Øª Ø¯Ø§Ø±ÛŒØ¯ØŸ" }] }
+          { de: "aufstehen", fa: "بلند شدن / بیدار شدن", article: "", plural: "", ipa: "[ˈaʊfʃtantən]", conjugation: { ich:"stehe...auf", du:"stehst...auf", er:"steht...auf", wir:"stehen...auf", ihr:"steht...auf", sie:"stehen...auf" }, examples: [{ de: "Ich stehe um sechs Uhr auf.", fa: "ساعت شش بیدار می‌شوم." }] },
+          { de: "frühstücken", fa: "صبحانه خوردن", article: "", plural: "", ipa: "[fʁyːˈʃtʏkən]", conjugation: { ich:"frühstücke", du:"frühstückst", er:"frühstückt", wir:"frühstücken", ihr:"frühstückt", sie:"frühstücken" }, examples: [{ de: "Ich frühstücke um sieben Uhr.", fa: "ساعت هفت صبحانه می‌خورم." }] },
+          { de: "arbeiten", fa: "کار کردن", article: "", plural: "", ipa: "[ˈaʁbaɪtən]", conjugation: { ich:"arbeite", du:"arbeitest", er:"arbeitet", wir:"arbeiten", ihr:"arbeitet", sie:"arbeiten" }, examples: [{ de: "Ich arbeite von acht bis fünf.", fa: "از هشت تا پنج کار می‌کنم." }] },
+          { de: "essen", fa: "خوردن", article: "", plural: "", ipa: "[ˈɛsən]", conjugation: { ich:"esse", du:"isst", er:"isst", wir:"essen", ihr:"esst", sie:"essen" }, examples: [{ de: "Ich esse zu Mittag.", fa: "ناهار می‌خورم." }] },
+          { de: "fernsehen", fa: "تلویزیون دیدن", article: "", plural: "", ipa: "[fɛʁnˈzeːən]", conjugation: { ich:"sehe...fern", du:"siehst...fern", er:"sieht...fern", wir:"sehen...fern", ihr:"seht...fern", sie:"sehen...fern" }, examples: [{ de: "Ich sehe abends fern.", fa: "شب‌ها تلویزیون می‌بینم." }] },
+          { de: "schlafen", fa: "خوابیدن", article: "", plural: "", ipa: "[ˈʃlaːfən]", conjugation: { ich:"schlafe", du:"schläfst", er:"schläft", wir:"schlafen", ihr:"schlaft", sie:"schlafen" }, examples: [{ de: "Ich schlafe acht Stunden.", fa: "هشت ساعت می‌خوابم." }] },
+          { de: "einkaufen", fa: "خرید کردن", article: "", plural: "", ipa: "[ˈaɪnkaʊfən]", conjugation: { ich:"kaufe...ein", du:"kaufst...ein", er:"kauft...ein", wir:"kaufen...ein", ihr:"kauft...ein", sie:"kaufen...ein" }, examples: [{ de: "Ich kaufe am Samstag ein.", fa: "شنبه خرید می‌کنم." }] },
+          { de: "zu Bett gehen", fa: "به رختخواب رفتن", article: "", plural: "", ipa: "[tsuː bɛt ˈɡeːən]", conjugation: { ich:"gehe...zu Bett", du:"gehst...zu Bett", er:"geht...zu Bett", wir:"gehen...zu Bett", ihr:"geht...zu Bett", sie:"gehen...zu Bett" }, examples: [{ de: "Ich gehe um elf Uhr zu Bett.", fa: "ساعت یازده به رختخواب می‌روم." }] }
+        ]
+      },
+      {
+        title: "کلمات زمانی",
+        words: [
+          { de: "früh", fa: "زود / صبح زود", article: "", plural: "", ipa: "[fʁyː]", examples: [{ de: "Ich stehe früh auf.", fa: "زود بیدار می‌شوم." }] },
+          { de: "spät", fa: "دیر", article: "", plural: "", ipa: "[ʃpɛːt]", examples: [{ de: "Ich komme spät nach Hause.", fa: "دیر به خانه می‌رسم." }] },
+          { de: "immer", fa: "همیشه", article: "", plural: "", ipa: "[ˈɪmɐ̯]", examples: [{ de: "Ich arbeite immer viel.", fa: "همیشه زیاد کار می‌کنم." }] },
+          { de: "manchmal", fa: "گاهی", article: "", plural: "", ipa: "[ˈmançmaːl]", examples: [{ de: "Manchmal schlafe ich unterwegs.", fa: "گاهی در مسیر خوابم می‌رود." }] },
+          { de: "täglich", fa: "روزانه", article: "", plural: "", ipa: "[ˈtɛːglɪç]", examples: [{ de: "Ich esse täglich dreimal.", fa: "روزانه سه بار می‌خورم." }] }
         ]
       }
     ]
   },
   reading: [
     {
-      text: "Mein Kalender: Am 15. MÃ¤rz habe ich Geburtstag. Im Sommer, im Juli, fahre ich in den Urlaub. Am 1. September beginnt die Schule. Im Oktober feiern wir Oktoberfest. Am 24. Dezember ist Heiligabend. Ich habe am Montag, den 5. Mai, einen Termin beim Zahnarzt. Am Mittwoch, den 7. Mai, treffe ich meine Freunde.",
+      text: "Mein Tag. Ich stehe um sechs Uhr auf. Um halb sieben dusche ich. Um sieben Uhr frühstücke ich. Um acht Uhr gehe ich zur Arbeit. Ich arbeite bis sechzehn Uhr. Um zwölf Uhr esse ich zu Mittag. Um sechzehn Uhr dreißig mache ich Feierabend. Um neunzehn Uhr esse ich zu Abend. Um zweiundzwanzig Uhr sehe ich fern. Um elf Uhr gehe ich zu Bett. Um elf Uhr dreißig schlafe ich.",
+      translation: "روز من. ساعت شش بیدار می‌شوم. ساعت شش و نیم دوش می‌گیرم. ساعت هفت صبحانه می‌خورم. ساعت هشت به سر کار می‌روم. تا ساعت شانزده کار می‌کنم. ساعت دوازده ناهار می‌خورم. ساعت شانزده و نیم کار تمام می‌شود. ساعت نوزده شام می‌خورم. ساعت بیست و دو تلویزیون می‌بینم. ساعت یازده به رختخواب می‌روم. ساعت یازده و نیم می‌خوابم.",
       questions: [
-        { question: "ØªÙˆلØ¯ Ù†ÙˆÛŒØ³Ù†Ø¯Ù‡ Ú†Ù‡ Ø±ÙˆØ²ÛŒ Ø§Ø³ØªØŸ", answer: "Ø§Ùˆ Ø¯Ø± Û±Ûµ Ù…Ø§Ø±Ø³ ØªÙˆلØ¯ Ø¯Ø§Ø±Ø¯." },
-        { question: "Ù†ÙˆÛŒØ³Ù†Ø¯Ù‡ Ú†Ù‡ Ø²Ù…Ø§Ù†ÛŒ Ø¨Ù‡ ØªØ¹Ø·ÛŒلØ§Øª Ù…ÛŒâ€ŒØ±ÙˆØ¯ØŸ", answer: "Ø§Ùˆ Ø¯Ø± Ú˜ÙˆØ¦ÛŒÙ‡ Ø¨Ù‡ ØªØ¹Ø·ÛŒلØ§Øª Ù…ÛŒâ€ŒØ±ÙˆØ¯." },
-        { question: "Ù…Ø¯Ø±Ø³Ù‡ Ú†Ù‡ Ø±ÙˆØ²ÛŒ Ø´Ø±ÙˆØ¹ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", answer: "Ù…Ø¯Ø±Ø³Ù‡ Ø§Ùˆل Ø³Ù¾ØªØ§Ù…Ø¨Ø± Ø´Ø±ÙˆØ¹ Ù…ÛŒâ€ŒØ´ÙˆØ¯." },
-        { question: "Ù†ÙˆÛŒØ³Ù†Ø¯Ù‡ Ú†Ù‡ Ø±ÙˆØ²ÛŒ Ù‚Ø±Ø§Ø± Ø¯Ú©ØªØ± Ø¯Ø§Ø±Ø¯ØŸ", answer: "Ø§Ùˆ Ø¯ÙˆØ´Ù†Ø¨Ù‡ Ûµ Ù…Ù‡ Ù‚Ø±Ø§Ø± Ø¯Ú©ØªØ± Ø¯Ø§Ø±Ø¯." }
+        { question: "چه ساعتی کار تمام می‌شود؟", answer: "ساعت شانزده و نیم" },
+        { question: "چه ساعتی شام می‌خورد؟", answer: "ساعت نوزده" },
+        { question: "چند ساعت می‌خوابد؟", answer: "حدود نه و نیم ساعت" }
+      ]
+    },
+    {
+      text: "Der Tag meiner Freundin. Anna: Um wie viel Uhr stehst du auf? Sara: Ich stehe um fünf Uhr dreißig auf. Anna: Das ist aber früh! Sara: Ja, ich arbeite um sechs Uhr dreißig. Ich muss früh aufstehen. Anna: Wann frühstückst du? Sara: Um sechs Uhr. Dann putze ich die Zähne und dusche. Um sieben Uhr dreißig verlasse ich das Haus. Anna: Und wann kommst du nach Hause? Sara: Um fünfzehn Uhr. Dann esse ich zu Mittag und mache Hausaufgaben.",
+      translation: "روز دوستم. آنا: ساعت چند بیدار می‌شوی؟ سارا: ساعت پنج و نیم بیدار می‌شوم. آنا: خیلی زود است! سارا: بله، ساعت شش و نیم کار می‌کنم. باید زود بیدار شوم. آنا: کی صبحانه می‌خوری؟ سارا: ساعت شش. بعد مسواک می‌زنم و دوش می‌گیرم. ساعت هفت و نیم از خانه بیرون می‌روم. آنا: و کی به خانه برمی‌گردی؟ سارا: ساعت پانزده. بعد ناهار می‌خورم و تکالیف را انجام می‌دهم.",
+      questions: [
+        { question: "سارا چه ساعتی بیدار می‌شود؟", answer: "پنج و نیم" },
+        { question: "سارا چه ساعتی به خانه برمی‌گردد؟", answer: "ساعت پانزده" }
       ]
     }
   ],
   writing: [
     {
-      title: "Ù†ÙˆØ´ØªÙ† Ø¨Ø±Ù†Ø§Ù…Ù‡ Ù…Ø§Ù‡Ø§Ù†Ù‡",
-      prompt: "Ø¨Ø±Ù†Ø§Ù…Ù‡ ÛŒÚ© Ù…Ø§Ù‡ Ø®ÙˆØ¯ Ø±Ø§ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯: Ù‚Ø±Ø§Ø±Ù‡Ø§ØŒ Ø±ÙˆÛŒØ¯Ø§Ø¯Ù‡Ø§ Ùˆ ØªØ¹Ø·ÛŒلØ§Øª.",
+      title: "روز معمول من",
+      prompt: "روز معمول خود را به ترتیب بنویسید. از ساعت و افعال استفاده کنید.",
       steps: [
-        { title: "Ù‚Ø¯Ù… Ø§Ùˆل: Ø¹Ù†ÙˆØ§Ù† Ù…Ø§Ù‡", text: "Ù…Ø§Ù‡ Ù…ÙˆØ±Ø¯ Ù†Ø¸Ø± Ø±Ø§ Ù…Ø´Ø®Øµ Ú©Ù†ÛŒØ¯.", example: { de: "Mein Plan fÃ¼r den Mai.", fa: "Ø¨Ø±Ù†Ø§Ù…Ù‡ Ù…Ù† Ø¨Ø±Ø§ÛŒ Ù…Ù‡." } },
-        { title: "Ù‚Ø¯Ù… Ø¯ÙˆÙ…: Ù‚Ø±Ø§Ø±Ù‡Ø§", text: "Ù‚Ø±Ø§Ø±Ù‡Ø§ÛŒ Ù…Ø§Ù‡ Ø±Ø§ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯.", example: { de: "Am 5. Mai habe ich einen Termin beim Arzt.", fa: "Ø¯Ø± Ûµ Ù…Ù‡ Ù‚Ø±Ø§Ø± Ø¯Ú©ØªØ± Ø¯Ø§Ø±Ù…." } },
-        { title: "Ù‚Ø¯Ù… Ø³ÙˆÙ…: Ø±ÙˆÛŒØ¯Ø§Ø¯Ù‡Ø§", text: "Ø±ÙˆÛŒØ¯Ø§Ø¯Ù‡Ø§ÛŒ Ù…Ø§Ù‡ Ø±Ø§ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯.", example: { de: "Am 15. Mai ist Geburtstag meiner Schwester.", fa: "Ø¯Ø± Û±Ûµ Ù…Ù‡ ØªÙˆلØ¯ Ø®ÙˆØ§Ù‡Ø±Ù… Ø§Ø³Øª." } }
+        { title: "صبح", text: "از بیدار شدن تا رفتن به کار/مدرسه.", example: { de: "Ich stehe um sechs Uhr auf.", fa: "ساعت شش بیدار می‌شوم." } },
+        { title: "ظهر", text: "ناهار و استراحت.", example: { de: "Ich esse um zwölf Uhr zu Mittag.", fa: "ساعت دوازده ناهار می‌خورم." } },
+        { title: "شب", text: "شام و خواب.", example: { de: "Um elf Uhr gehe ich zu Bett.", fa: "ساعت یازده به رختخواب می‌روم." } }
       ],
-      modelAnswer: "Mein Plan fÃ¼r den Mai:\n\nAm 1. Mai ist Tag der Arbeit. Ich habe frei.\nAm 5. Mai habe ich einen Termin beim Zahnarzt um 10 Uhr.\nAm 10. Mai treffe ich meine Freunde im CafÃ©.\nAm 15. Mai hat meine Schwester Geburtstag. Wir feiern zusammen.\nAm 20. Mai habe ich einen Deutschkurs.\nAm 25. Mai fahre ich am Wochenende nach MÃ¼nchen.\nAm 31. Mai ist der letzte Tag im Mai."
+      modelAnswer: "Ich stehe um halb sieben auf. Um sieben Uhr frühstücke ich. Um acht Uhr gehe ich zur Universität. Ich lerne von neun bis dreizehn Uhr. Um dreizehn Uhr esse ich zu Mittag. Um vierzehn Uhr lerne ich weiter. Um sechzehn Uhr mache ich Sport. Um neunzehn Uhr esse ich zu Abend. Um einundzwanzig Uhr sehe ich fern. Um elf Uhr gehe ich zu Bett."
     }
   ],
   listening: [
     {
-      title: "Ú¯ÙˆØ´ Ø¯Ø§Ø¯Ù† Ø¨Ù‡ Ù…Ú©Ø§لÙ…Ù‡ Ù‚Ø±Ø§Ø± Ù…لØ§Ù‚Ø§Øª",
-      source: "Deutsch lernen - Termin machen",
-      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      instructions: "Ø¨Ù‡ Ù…Ú©Ø§لÙ…Ù‡ Ø¨Ø±Ø§ÛŒ ØªØ¹ÛŒÛŒÙ† Ù‚Ø±Ø§Ø± Ù…لØ§Ù‚Ø§Øª Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ ØªØ§Ø±ÛŒØ® Ùˆ Ø³Ø§Ø¹Øª Ù‚Ø±Ø§Ø± Ø±Ø§ ÛŒØ§Ø¯Ø¯Ø§Ø´Øª Ú©Ù†ÛŒØ¯."
+      title: "گوش دادن به برنامه روزانه",
+      instruction: "به برنامه روزانه گوش دهید و ترتیب فعالیت‌ها را بنویسید.",
+      sentences: [
+        { de: "Ich stehe um sechs Uhr auf.", fa: "ساعت شش بیدار می‌شوم.", tts: "Ich stehe um sechs Uhr auf." },
+        { de: "Ich frühstücke um halb sieben.", fa: "ساعت شش و نیم صبحانه می‌خورم.", tts: "Ich frühstücke um halb sieben." },
+        { de: "Um acht Uhr gehe ich zur Arbeit.", fa: "ساعت هشت به سر کار می‌روم.", tts: "Um acht Uhr gehe ich zur Arbeit." },
+        { de: "Um zwölf Uhr esse ich zu Mittag.", fa: "ساعت دوازده ناهار می‌خورم.", tts: "Um zwölf Uhr esse ich zu Mittag." },
+        { de: "Ich gehe um fünf Uhr nach Hause.", fa: "ساعت پنج به خانه می‌روم.", tts: "Ich gehe um fünf Uhr nach Hause." }
+      ]
     }
   ],
   speaking: [
     {
-      title: "ØªØ¹ÛŒÛŒÙ† Ù‚Ø±Ø§Ø± Ù…لØ§Ù‚Ø§Øª",
-      pattern: "A: Haben Sie am [Tag] Zeit?\nB: Ja, das passt mir. / Nein, da habe ich keine Zeit.\nA: Passt es Ihnen um [Uhrzeit]?\nB: Ja, prima!",
-      exercise: "Ø¨Ø§ ÛŒÚ© Ù†ÙØ± Ø¨Ø±Ø§ÛŒ ØªØ¹ÛŒÛŒÙ† Ù‚Ø±Ø§Ø± Ù…لØ§Ù‚Ø§Øª Ù…Ú©Ø§لÙ…Ù‡ Ú©Ù†ÛŒØ¯."
+      title: "توصیف روز معمول",
+      pattern: "Um [ساعت] [فعل]. ich [فعالم] [زمان].",
+      exercise: "یک روز کامل را به ترتیب توصیف کنید."
     }
   ],
-  cultureTip: "Ø¯Ø± Ø¢لÙ…Ø§Ù†ØŒ ØªØ¹ÛŒÛŒÙ† Ù‚Ø±Ø§Ø± Ù…لØ§Ù‚Ø§Øª Ø¨Ø³ÛŒØ§Ø± Ù…Ù‡Ù… Ø§Ø³Øª. Ø¨Ø±Ø§ÛŒ Ø¯ÛŒØ¯Ù† Ø¯Ú©ØªØ±ØŒ Ø¢Ø±Ø§ÛŒØ´Ú¯Ø± ÛŒØ§ Ø­ØªÛŒ Ø¯ÙˆØ³ØªØ§Ù† Ø¨Ø§ÛŒØ¯ Ø§Ø² Ù‚Ø¨ل ÙˆÙ‚Øª Ø¨Ú¯ÛŒØ±ÛŒØ¯. Ø¢لÙ…Ø§Ù†ÛŒâ€ŒÙ‡Ø§ Ø¯ÙˆØ³Øª Ù†Ø¯Ø§Ø±Ù†Ø¯ Ø¨Ø¯ÙˆÙ† Ø§Ø·لØ§Ø¹ Ù‚Ø¨لÛŒ Ø¨Ù‡ Ø®Ø§Ù†Ù‡ Ú©Ø³ÛŒ Ø¨Ø±ÙˆÙ†Ø¯. Ù‡Ù…Ú†Ù†ÛŒÙ†ØŒ Ø±ÙˆØ² Û³ Ø§Ú©ØªØ¨Ø± Ø±ÙˆØ² ÙˆØ­Ø¯Øª Ø¢لÙ…Ø§Ù† Ø§Ø³Øª Ùˆ ØªØ¹Ø·ÛŒل Ø±Ø³Ù…ÛŒ Ø§Ø³Øª.",
+  cultureTip: "در آلمان، دقت به وقت بسیار مهم است. آلمانی‌ها به وقت‌شناسی اهمیت زیادی می‌دهند و迟到 در محیط کار بسیار منفی است. معمولاً ساعت کاری از ۸ یا ۹ صبح شروع می‌شود و تا ۱۶ یا ۱۷ بعدازظهر ادامه دارد. ناهار معمولاً کوتاه است (۳۰ دقیقه تا یک ساعت).",
   examData: {
     questions: [
-      { question: "لØªØ§Ø¨Ø³ØªØ§Ù†ل Ø¨Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ Ú†ÛŒØ³ØªØŸ", options: ["der Sommer", "der FrÃ¼hling", "der Herbst", "der Winter"], answer: 0 },
-      { question: "لØ¯Ø± Ø¨Ù‡Ø§Ø±ل Ú†Ú¯ÙˆÙ†Ù‡ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["im FrÃ¼hling", "in FrÃ¼hling", "am FrÃ¼hling", "auf FrÃ¼hling"], answer: 0 },
-      { question: "Ú©Ø¯Ø§Ù… Ù…Ø§Ù‡ Ø§Ùˆل Ø³Ø§ل Ø§Ø³ØªØŸ", options: ["der Januar", "der Februar", "der Dezember", "der MÃ¤rz"], answer: 0 },
-      { question: "لÙ…Ù† Ù‚Ø±Ø§Ø± Ø¯Ø§Ø±Ù…ل Ú†Ú¯ÙˆÙ†Ù‡ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Ich habe einen Termin.", "Ich bin einen Termin.", "Ich mache einen Termin.", "Ich nehme einen Termin."], answer: 0 },
-      { question: "لØ¢ÛŒØ§ Ø¯ÙˆØ´Ù†Ø¨Ù‡ ÙˆÙ‚Øª Ø¯Ø§Ø±ÛŒØ¯ØŸل Ú†Ú¯ÙˆÙ†Ù‡ Ù¾Ø±Ø³ÛŒØ¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Haben Sie am Montag Zeit?", "Sind Sie am Montag Zeit?", "Haben Sie der Montag Zeit?", "Ist am Montag Zeit?"], answer: 0 },
-      { question: "لÙ¾Ø§ÛŒÛŒØ²ل Ø¨Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ:", options: ["der Herbst", "der FrÃ¼hling", "der Sommer", "der Winter"], answer: 0 },
-      { question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ", options: ["Heute ist der erste April.", "Heute ist der eins April.", "Heute ist ein April.", "Heute ist erste April."], answer: 0 },
-      { question: "لØ²Ù…Ø³ØªØ§Ù†ل Ú†Ù‡ ÙØµلÛŒ Ø§Ø³ØªØŸ", options: ["der Winter", "der Sommer", "der FrÃ¼hling", "der Herbst"], answer: 0 }
+      { question: "«ساعت سه و ربع» چگونه گفته می‌شود؟", options: ["Viertel nach drei", "Viertel drei", "Drei Viertel", "halb drei"], answer: 0 },
+      { question: "«نیم به چهار» چیست؟", options: ["halb vier", "halb drei", "Viertel vor vier", "Viertel nach vier"], answer: 0 },
+      { question: "فعل «بلند شدن» چیست؟", options: ["aufstehen", "aufmachen", "aufhören", "aufgeben"], answer: 0 },
+      { question: "پیشوند کدام فعل جداشدنی است؟", options: ["fernsehen", "sprechen", "essen", "trinken"], answer: 0 },
+      { question: "«ساعت کاری» چیست؟", options: ["die Arbeitszeit", "die Feierabend", "die Uhrzeit", "die Zeit"], answer: 0 },
+      { question: "«صبحانه» در آلمانی چیست؟", options: ["das Frühstück", "das Mittagessen", "das Abendessen", "das Essen"], answer: 0 },
+      { question: "ساعت «یازده ربع به دوازده» چند است؟", options: ["11:45", "12:15", "11:15", "12:45"], answer: 0 },
+      { question: "«به خانه برگشتن» چیست؟", options: ["nach Hause kommen", "zu Hause bleiben", "von Hause gehen", "nach Hause gehen"], answer: 0 },
+      { question: "«تلویزیون دیدن» چیست؟", options: ["fernsehen", "sehen", "TV gucken", "fern gucken"], answer: 0 },
+      { question: "کدام جمله صحیح است؟", options: ["Ich stehe um sieben Uhr auf.", "Ich aufstehe um sieben Uhr.", "Ich stehe um sieben auf.", "Um sieben Uhr ich aufstehe."], answer: 0 }
     ]
   }
 };

@@ -1,227 +1,418 @@
 export const day10Data = {
-  title: "Ø±ÙˆØ² Û±Û°: Ø®Ø±ÛŒØ¯ Ùˆ ÙˆØ§Ø­Ø¯Ù‡Ø§ + Ø§Ø¹Ø¶Ø§ÛŒ Ø¨Ø¯Ù† Ùˆ Ø¨ÛŒØ§Ù† Ø¯Ø±Ø¯",
-  objective: "ÛŒØ§Ø¯Ú¯ÛŒØ±ÛŒ Ø®Ø±ÛŒØ¯ Ú©Ø±Ø¯Ù†ØŒ ÙˆØ§Ø­Ø¯Ù‡Ø§ÛŒ Ø§Ù†Ø¯Ø§Ø²Ù‡â€ŒÚ¯ÛŒØ±ÛŒØŒ Ø§Ø¹Ø¶Ø§ÛŒ Ø¨Ø¯Ù† Ùˆ Ù†Ø­ÙˆÙ‡ Ø¨ÛŒØ§Ù† Ø¯Ø±Ø¯",
+  title: "روز ۱۰: مرور کلی A1 + آزمون مینی",
+  objective: "در پایان این روز، شما تمام گرامر سطح A1 (روزهای ۱ تا ۹) را مرور کرده‌اید و با یک آزمون ۲۰ سوالی، آمادگی خود را محک می‌زنید. این نقطه عطف یادگیری شماست!",
+  level: "A1",
+
   grammarData: {
-    subtitle: "Ø®Ø±ÛŒØ¯ØŒ ÙˆØ§Ø­Ø¯Ù‡Ø§ Ùˆ Ø§Ø¹Ø¶Ø§ÛŒ Ø¨Ø¯Ù†",
+    subtitle: "مرور جامع گرامر A1",
     content: [
       {
         type: "text",
-        title: "ÙˆØ§Ø­Ø¯Ù‡Ø§ÛŒ Ø§Ù†Ø¯Ø§Ø²Ù‡â€ŒÚ¯ÛŒØ±ÛŒ Ø¯Ø± Ø¢لÙ…Ø§Ù†ÛŒ",
-        text: "Ø¯Ø± Ø¢لÙ…Ø§Ù†ÛŒ Ø¨Ø±Ø§ÛŒ Ø®Ø±ÛŒØ¯ Ø§Ø² ÙˆØ§Ø­Ø¯Ù‡Ø§ÛŒ Ù…Ø®ØªلÙ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯: das Kilo/kg (Ú©ÛŒلÙˆ)ØŒ der Liter/l (لÛŒØªØ±)ØŒ das Gramm/g (Ú¯Ø±Ù…)ØŒ das StÃ¼ck (Ø¹Ø¯Ø¯/ØªÚ©Ù‡). Ù…Ø«Ø§ل: ein Kilo Tomaten (ÛŒÚ© Ú©ÛŒلÙˆ Ú¯ÙˆØ¬Ù‡)ØŒ zwei Liter Milch (Ø¯Ùˆ لÛŒØªØ± Ø´ÛŒØ±)ØŒ fÃ¼nfhundert Gramm KÃ¤se (Ù¾Ø§Ù†ØµØ¯ Ú¯Ø±Ù… Ù¾Ù†ÛŒØ±)."
+        title: "مرور سریع: الفبا و تلفظ (روز ۱)",
+        text: "۲۶ حرف + ä, ö, ü, ß. ترکیب‌های مهم: ei=[aɪ], ie=[iː], eu=[ɔʏ], au=[aʊ], sch=[ʃ], ch=[x/ç], sp=[ʃp], st=[ʃt]."
       },
       {
         type: "table",
-        title: "ÙˆØ§Ø­Ø¯Ù‡Ø§ÛŒ Ø§Ù†Ø¯Ø§Ø²Ù‡â€ŒÚ¯ÛŒØ±ÛŒ",
+        title: "جدول مرور: آرتیکل‌ها و جنسیت (روز ۲)",
         rows: [
-          { de: "das Kilo / das Kilogramm", fa: "Ú©ÛŒلÙˆÚ¯Ø±Ù…" },
-          { de: "der Liter", fa: "لÛŒØªØ±" },
-          { de: "das Gramm", fa: "Ú¯Ø±Ù…" },
-          { de: "das StÃ¼ck", fa: "Ø¹Ø¯Ø¯ / ØªÚ©Ù‡" },
-          { de: "das Pfund", fa: "Ù†ÛŒÙ… Ú©ÛŒلÙˆ (Ù¾ÙˆÙ†Ø¯)" },
-          { de: "die Flasche", fa: "Ø¨Ø·Ø±ÛŒ" },
-          { de: "die Packung", fa: "Ø¨Ø³ØªÙ‡" },
-          { de: "die Dose", fa: "Ù‚ÙˆØ·ÛŒ" },
-          { de: "der Beutel", fa: "Ú©ÛŒØ³Ù‡" },
-          { de: "die Scheibe", fa: "ÙˆØ±Ù‚Ù‡" }
+          { de: "der (مذکر): -er, روزها، ماه‌ها، مایعات", fa: "der Lehrer, der Montag, der Kaffee" },
+          { de: "die (مؤنث): -ung, -e, -heit, -keit, -schaft, -tion, -tät", fa: "die Zeitung, die Lampe, die Universität" },
+          { de: "das (خنثی): -chen, -lein, -ment, -um", fa: "das Mädchen, das Dokument, das Museum" },
+          { de: "die (جمع): همه اسم‌ها", fa: "die Männer, die Frauen, die Kinder" }
         ]
       },
       {
-        type: "examples",
-        title: "Ø¬Ù…لØ§Øª Ú©Ø§Ø±Ø¨Ø±Ø¯ÛŒ Ø¯Ø± Ø®Ø±ÛŒØ¯",
-        items: [
-          { de: "Was kostet das?", fa: "Ø§ÛŒÙ† Ú†Ù‚Ø¯Ø± Ù‚ÛŒÙ…Øª Ø¯Ø§Ø±Ø¯ØŸ" },
-          { de: "Ich hÃ¤tte gern ein Kilo لpfel.", fa: "Ù…Ù† ÛŒÚ© Ú©ÛŒلÙˆ Ø³ÛŒØ¨ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ù…." },
-          { de: "Geben Sie mir bitte zweihundert Gramm Schinken.", fa: "لØ·ÙØ§Ù‹ Ø¯ÙˆÛŒØ³Øª Ú¯Ø±Ù… Ú˜Ø§Ù…Ø¨ÙˆÙ† Ø¨Ù‡ Ù…Ù† Ø¨Ø¯Ù‡ÛŒØ¯." },
-          { de: "Macht zusammen fÃ¼nf Euro.", fa: "Ø±ÙˆÛŒ Ù‡Ù… Ù¾Ù†Ø¬ ÛŒÙˆØ±Ùˆ Ù…ÛŒâ€ŒØ´ÙˆØ¯." },
-          { de: "Kann ich mit Karte zahlen?", fa: "Ø¢ÛŒØ§ Ù…ÛŒâ€ŒØªÙˆØ§Ù†Ù… Ø¨Ø§ Ú©Ø§Ø±Øª Ù¾Ø±Ø¯Ø§Ø®Øª Ú©Ù†Ù…ØŸ" },
-          { de: "Das ist zu teuer!", fa: "Ø§ÛŒÙ† Ø®ÛŒلÛŒ Ú¯Ø±Ø§Ù† Ø§Ø³Øª!" },
-          { de: "Haben Sie das auch billiger?", fa: "Ø¢ÛŒØ§ Ø§Ø±Ø²Ø§Ù†â€ŒØªØ± Ù‡Ù… Ø¯Ø§Ø±ÛŒØ¯ØŸ" },
-          { de: "Das reicht, danke.", fa: "Ú©Ø§ÙÛŒ Ø§Ø³ØªØŒ Ù…Ù…Ù†ÙˆÙ†." }
+        type: "table",
+        title: "جدول مرور: افعال sein و haben (روز ۳)",
+        rows: [
+          { de: "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind", fa: "Ich bin müde. Sie ist Lehrerin. Er ist 25 Jahre alt." },
+          { de: "haben: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben", fa: "Ich habe Hunger. Sie haben keine Zeit. Er hat recht." }
+        ]
+      },
+      {
+        type: "table",
+        title: "جدول مرور: ضمایر ملکی (روز ۴)",
+        rows: [
+          { de: "مذکر/خنثی: mein, dein, sein, ihr, unser, euer, ihr, Ihr", fa: "mein Bruder, sein Auto, unser Kind" },
+          { de: "مؤنث/جمع: meine, deine, seine, ihre, unsere, eure, ihre, Ihre", fa: "meine Mutter, seine Katze, unsere Kinder" }
+        ]
+      },
+      {
+        type: "table",
+        title: "جدول مرور: اعداد (روز ۵)",
+        rows: [
+          { de: "۰-۱۲: null, eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn, elf, zwölf", fa: "اعداد اصلی که باید حفظ شوند" },
+          { de: "۱۳-۱۹: dreizehn, vierzehn... (عدد + zehn)", fa: "dreizehn = drei + zehn" },
+          { de: "دهگان‌ها: zwanzig, dreißig, vierzig... (عدد + zig)", fa: "zwanzig, dreißig, vierzig, fünfzig" },
+          { de: "اعداد ترکیبی: یکان + und + دهگان", fa: "25 = fünfundzwanzig (۵ و ۲۰)" }
+        ]
+      },
+      {
+        type: "table",
+        title: "جدول مرور: نفی (روز ۶)",
+        rows: [
+          { de: "nicht: نفی فعل، صفت، قید", fa: "Ich bin nicht müde. Das ist nicht gut." },
+          { de: "kein/keine: نفی اسم با آرتیکل", fa: "Ich habe keinen Hund. Sie hat keine Kinder." },
+          { de: "kein = مذکر/خنثی، keine = مؤنث/جمع", fa: "kein Auto, keine Katze, keine Kinder" }
+        ]
+      },
+      {
+        type: "table",
+        title: "جدول مرور: صرف فعل منظم (روز ۷)",
+        rows: [
+          { de: "الگو: -e, -st, -t, -en, -t, -en", fa: "lernen: lerne, lernst, lernt, lernen, lernt, lernen" },
+          { de: "فعل با t/d در du: -est", fa: "arbeiten: du arbeitest (نه arbeitst!)" },
+          { de: "تغییر صدا: fahren→fährst/fährt", fa: "fahren: du fährst, er fährt (a→ä)" },
+          { de: "تغییر صدا: sprechen→sprichst/spricht", fa: "sprechen: du sprichst, er spricht (e→i)" }
+        ]
+      },
+      {
+        type: "table",
+        title: "جدول مرور: حروف اضافه (روز ۸)",
+        rows: [
+          { de: "in: در / به داخل", fa: "Ich wohne in Berlin. / Ich gehe in die Schule." },
+          { de: "auf: روی / به روی", fa: "Das Buch liegt auf dem Tisch." },
+          { de: "aus: از / اهل", fa: "Ich komme aus dem Iran." },
+          { de: "mit: با / همراه", fa: "Ich fahre mit dem Bus." },
+          { de: "nach: به (شهرها) / بعد از", fa: "Ich fahre nach Berlin." },
+          { de: "zu: به / نزد", fa: "Ich gehe zum Arzt." },
+          { de: "von: از / از طرف", fa: "Ich komme von der Arbeit." }
+        ]
+      },
+      {
+        type: "table",
+        title: "جدول مرور: Akkusativ (روز ۹)",
+        rows: [
+          { de: "فقط der → den (مذکر)", fa: "Ich sehe den Mann. Ich kaufe den Tisch." },
+          { de: "die, das, جمع: بدون تغییر", fa: "Ich sehe die Frau. Ich kaufe das Buch." },
+          { de: "ein → einen (مذکر)", fa: "Ich habe einen Bruder." },
+          { de: "فعل‌های Akkusativ: sehen, kaufen, essen, trinken, lesen, suchen, brauchen, haben, machen, lieben", fa: "Ich esse den Apfel. Er liest das Buch." }
         ]
       },
       {
         type: "text",
-        title: "Ø§Ø¹Ø¶Ø§ÛŒ Ø¨Ø¯Ù† Ø¨Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ",
-        text: "der Kopf (Ø³Ø±)ØŒ das Auge (Ú†Ø´Ù… - Ø¬Ù…Ø¹ die Augen)ØŒ die Nase (Ø¨ÛŒÙ†ÛŒ)ØŒ der Mund (Ø¯Ù‡Ø§Ù†)ØŒ das Ohr (Ú¯ÙˆØ´ - Ø¬Ù…Ø¹ die Ohren)ØŒ der Arm (Ø¨Ø§Ø²Ùˆ)ØŒ die Hand (Ø¯Ø³Øª)ØŒ das Bein (Ù¾Ø§)ØŒ der RÃ¼cken (Ù¾Ø´Øª)ØŒ der Bauch (Ø´Ú©Ù…)."
-      },
-      {
-        type: "table",
-        title: "Ø§Ø¹Ø¶Ø§ÛŒ Ø¨Ø¯Ù†",
-        rows: [
-          { de: "der Kopf", fa: "Ø³Ø±" },
-          { de: "das Auge (die Augen)", fa: "Ú†Ø´Ù…" },
-          { de: "die Nase", fa: "Ø¨ÛŒÙ†ÛŒ" },
-          { de: "der Mund", fa: "Ø¯Ù‡Ø§Ù†" },
-          { de: "das Ohr (die Ohren)", fa: "Ú¯ÙˆØ´" },
-          { de: "der Arm / die Arme", fa: "Ø¨Ø§Ø²Ùˆ" },
-          { de: "die Hand / die HÃ¤nde", fa: "Ø¯Ø³Øª" },
-          { de: "das Bein / die Beine", fa: "Ù¾Ø§" },
-          { de: "der RÃ¼cken", fa: "Ù¾Ø´Øª" },
-          { de: "der Bauch", fa: "Ø´Ú©Ù…" },
-          { de: "der Zahn / die ZÃ¤hne", fa: "Ø¯Ù†Ø¯Ø§Ù†" },
-          { de: "das Herz", fa: "Ù‚لØ¨" },
-          { de: "der Finger", fa: "Ø§Ù†Ú¯Ø´Øª" },
-          { de: "die Schulter", fa: "Ø´Ø§Ù†Ù‡" }
-        ]
+        title: "ساختار جمله خبری: همیشه فعل در جایگاه ۲!",
+        text: "فرمول: [فاعل/زمان/مکان] + [فعل] + [بقیه]\nIch lerne heute Deutsch. / Heute lerne ich Deutsch. / In Berlin lerne ich Deutsch.\nنکته: اگر زمان یا مکان اول بیاید، فعل در جایگاه ۲ و فاعل در جایگاه ۳ می‌رود."
       },
       {
         type: "alert",
-        title: "Ù†Ú©ØªÙ‡ Ù…Ù‡Ù…: Ø¨ÛŒØ§Ù† Ø¯Ø±Ø¯",
-        text: "Ø¨Ø±Ø§ÛŒ Ø¨ÛŒØ§Ù† Ø¯Ø±Ø¯ Ø§Ø² ÙØ¹ل tun/sein Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯: لMein Kopf tut wehل ÛŒØ§ لIch habe Kopfschmerzenل (Ø³Ø±Ù… Ø¯Ø±Ø¯ Ù…ÛŒâ€ŒÚ©Ù†Ø¯). Ø³Ø§Ø®ØªØ§Ø±: mein/mein + Ø¹Ø¶Ùˆ + tut weh"
-      },
-      {
-        type: "examples",
-        title: "Ø¨ÛŒØ§Ù† Ø¯Ø±Ø¯",
-        items: [
-          { de: "Mein Kopf tut weh.", fa: "Ø³Ø±Ù… Ø¯Ø±Ø¯ Ù…ÛŒâ€ŒÚ©Ù†Ø¯." },
-          { de: "Ich habe Bauchschmerzen.", fa: "Ø¯ل Ø¯Ø±Ø¯ Ø¯Ø§Ø±Ù…." },
-          { de: "Mein RÃ¼cken tut weh.", fa: "Ú©Ù…Ø±Ù… Ø¯Ø±Ø¯ Ù…ÛŒâ€ŒÚ©Ù†Ø¯." },
-          { de: "Ich habe Zahnschmerzen.", fa: "Ø¯Ù†Ø¯Ø§Ù† Ø¯Ø±Ø¯ Ø¯Ø§Ø±Ù…." },
-          { de: "Meine Augen tun weh.", fa: "Ú†Ø´Ù…â€ŒÙ‡Ø§ÛŒÙ… Ø¯Ø±Ø¯ Ù…ÛŒâ€ŒÚ©Ù†Ø¯." },
-          { de: "Ich habe Halsschmerzen.", fa: "Ú¯لÙˆ Ø¯Ø±Ø¯ Ø¯Ø§Ø±Ù…." }
-        ]
+        title: "نکات طلایی برای آزمون",
+        text: "۱. آرتیکل همراه اسم یاد بگیرید. ۲. فعل sein و haben را حفظ باشید. ۳. فقط der→den در Akkusativ تغییر می‌کند. ۴. فعل همیشه در جایگاه ۲. ۵. اعداد: یکان + und + دهگان."
       },
       {
         type: "interactive_quiz",
-        title: "Ø¢Ø²Ù…ÙˆÙ†: Ø®Ø±ÛŒØ¯ Ùˆ ÙˆØ§Ø­Ø¯Ù‡Ø§",
+        title: "آزمون مروری: ترکیبی",
         questions: [
           {
-            question: "ÙˆØ§Ø­Ø¯ Ú©ÛŒلÙˆÚ¯Ø±Ù… Ø¨Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ Ú†ÛŒØ³ØªØŸ",
-            questionDe: "Wie sagt man لkiloل auf Deutsch?",
+            question: "صرف فعل sein با «wir» چیست؟",
+            questionDe: "Wie konjugiert man 'sein' mit 'wir'?",
             options: [
-              { text: "das Kilo", isCorrect: true },
-              { text: "der Liter", isCorrect: false },
-              { text: "das Gramm", isCorrect: false },
-              { text: "das StÃ¼ck", isCorrect: false }
+              { text: "wir bin", isCorrect: false },
+              { text: "wir sind", isCorrect: true },
+              { text: "wir seid", isCorrect: false }
             ],
-            explanation: "das Kilo ÛŒØ§ das Kilogramm ÙˆØ§Ø­Ø¯ Ú©ÛŒلÙˆÚ¯Ø±Ù… Ø§Ø³Øª."
+            explanation: "درست! wir sind = ما هستیم."
           },
           {
-            question: "لÙ…Ù† Ø¯ÙˆÛŒØ³Øª Ú¯Ø±Ù… Ù¾Ù†ÛŒØ± Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ù…ل Ø¨Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ:",
-            questionDe: "Wie sagt man لI want 200 grams of cheeseل?",
+            question: "آرتیکل «der Hund» در Akkusativ چه می‌شود؟",
+            questionDe: "Was wird aus 'der Hund' im Akkusativ?",
             options: [
-              { text: "Ich hÃ¤tte gern zweihundert Gramm KÃ¤se.", isCorrect: true },
-              { text: "Ich hÃ¤tte gern zweihundert Kilo KÃ¤se.", isCorrect: false },
-              { text: "Ich will zweihundert Gramm KÃ¤se.", isCorrect: false },
-              { text: "Ich mÃ¶chte zweihundert KÃ¤se.", isCorrect: false }
+              { text: "der Hund", isCorrect: false },
+              { text: "den Hund", isCorrect: true },
+              { text: "dem Hund", isCorrect: false }
             ],
-            explanation: "Ø§Ø² لIch hÃ¤tte gernل Ø¨Ø±Ø§ÛŒ Ù…Ø¤Ø¯Ø¨Ø§Ù†Ù‡ Ø¯Ø±Ø®ÙˆØ§Ø³Øª Ú©Ø±Ø¯Ù† Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯."
+            explanation: "عالی! der → den در Akkusativ."
           },
           {
-            question: "لØ³Ø±Ù… Ø¯Ø±Ø¯ Ù…ÛŒâ€ŒÚ©Ù†Ø¯ل Ú†Ú¯ÙˆÙ†Ù‡ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Wie sagt man لI have a headacheل?",
+            question: "عدد ۴۷ به آلمانی چیست؟",
+            questionDe: "Wie sagt man 47 auf Deutsch?",
             options: [
-              { text: "Mein Kopf tut weh.", isCorrect: true },
-              { text: "Mein Kopf ist weh.", isCorrect: false },
-              { text: "Ich bin Kopfschmerzen.", isCorrect: false },
-              { text: "Ich tue Kopfschmerzen.", isCorrect: false }
+              { text: "vierzigsieben", isCorrect: false },
+              { text: "siebenundvierzig", isCorrect: true },
+              { text: "siebzigundvier", isCorrect: false }
             ],
-            explanation: "Ø³Ø§Ø®ØªØ§Ø± ØµØ­ÛŒØ­: Mein/mein + Ø¹Ø¶Ùˆ + tut weh"
+            explanation: "درست! sieben (۷) + und (و) + vierzig (۴۰) = siebenundvierzig."
+          },
+          {
+            question: "کدام جمله صحیح است؟",
+            questionDe: "Welcher Satz ist richtig?",
+            options: [
+              { text: "Ich habe nicht Hund.", isCorrect: false },
+              { text: "Ich habe keinen Hund.", isCorrect: true },
+              { text: "Ich habe kein Hund.", isCorrect: false }
+            ],
+            explanation: "عالی! Hund مذکر است، پس keinen در Akkusativ."
           }
-        ]
-      },
-      {
-        type: "fill_blank",
-        title: "ØªÚ©Ù…ÛŒل Ø¬Ù…لØ§Øª: Ø®Ø±ÛŒØ¯",
-        instruction: "Ø¬Ø§ÛŒ Ø®Ø§لÛŒ Ø±Ø§ Ø¨Ø§ Ú©لÙ…Ù‡ Ù…Ù†Ø§Ø³Ø¨ Ù¾Ø± Ú©Ù†ÛŒØ¯.",
-        blanks: [
-          { sentence: "Ich hÃ¤tte gern ___ Kilo Tomaten.", answer: "ein", hint: "ÛŒÚ© Ú©ÛŒلÙˆ" },
-          { sentence: "Was ___ das?", answer: "kostet", hint: "Ù‚ÛŒÙ…Øª Ú†Ù‚Ø¯Ø± Ø§Ø³ØªØŸ" },
-          { sentence: "Geben Sie mir bitte zweihundert ___ KÃ¤se.", answer: "Gramm", hint: "ÙˆØ§Ø­Ø¯ Ú¯Ø±Ù…" },
-          { sentence: "Kann ich mit ___ zahlen?", answer: "Karte", hint: "Ù¾Ø±Ø¯Ø§Ø®Øª Ø¨Ø§ Ú©Ø§Ø±Øª" },
-          { sentence: "Mein RÃ¼cken ___ weh.", answer: "tut", hint: "Ø¯Ø±Ø¯ Ù…ÛŒâ€ŒÚ©Ù†Ø¯" },
-          { sentence: "Ich habe Bauch___.", answer: "schmerzen", hint: "Ø¯ل Ø¯Ø±Ø¯" },
-          { sentence: "Das ist zu ___!", answer: "teuer", hint: "Ú¯Ø±Ø§Ù†" },
-          { sentence: "___ zusammen fÃ¼nf Euro.", answer: "Macht", hint: "Ø±ÙˆÛŒ Ù‡Ù… ... Ù…ÛŒâ€ŒØ´ÙˆØ¯" }
         ]
       }
     ]
   },
+
   vocabData: {
     categories: [
       {
-        title: "Ø®Ø±ÛŒØ¯ Ùˆ Ù…ÙˆØ§Ø¯ ØºØ°Ø§ÛŒÛŒ",
+        title: "کلمات ضروری A1 - مرور",
         words: [
-          { de: "der Supermarkt", fa: "Ø³ÙˆÙ¾Ø±Ù…Ø§Ø±Ú©Øª", article: "der", plural: "die SupermÃ¤rkte", examples: [{ de: "Ich gehe in den Supermarkt.", fa: "Ù…Ù† Ø¨Ù‡ Ø³ÙˆÙ¾Ø±Ù…Ø§Ø±Ú©Øª Ù…ÛŒâ€ŒØ±ÙˆÙ…." }] },
-          { de: "das GemÃ¼se", fa: "Ø³Ø¨Ø²ÛŒØ¬Ø§Øª", article: "das", plural: "-", examples: [{ de: "Ich kaufe frisches GemÃ¼se.", fa: "Ù…Ù† Ø³Ø¨Ø²ÛŒØ¬Ø§Øª ØªØ§Ø²Ù‡ Ù…ÛŒâ€ŒØ®Ø±Ù…." }] },
-          { de: "das Obst", fa: "Ù…ÛŒÙˆÙ‡", article: "das", plural: "-", examples: [{ de: "MÃ¶chten Sie Obst?", fa: "Ø¢ÛŒØ§ Ù…ÛŒÙˆÙ‡ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡ÛŒØ¯ØŸ" }] },
-          { de: "die Tomate", fa: "Ú¯ÙˆØ¬Ù‡â€ŒÙØ±Ù†Ú¯ÛŒ", article: "die", plural: "die Tomaten", examples: [{ de: "Die Tomaten sind rot.", fa: "Ú¯ÙˆØ¬Ù‡â€ŒÙ‡Ø§ Ù‚Ø±Ù…Ø² Ù‡Ø³ØªÙ†Ø¯." }] },
-          { de: "der Apfel", fa: "Ø³ÛŒØ¨", article: "der", plural: "die لpfel", examples: [{ de: "Ich esse einen Apfel.", fa: "Ù…Ù† ÛŒÚ© Ø³ÛŒØ¨ Ù…ÛŒâ€ŒØ®ÙˆØ±Ù…." }] },
-          { de: "die Kartoffel", fa: "Ø³ÛŒØ¨â€ŒØ²Ù…ÛŒÙ†ÛŒ", article: "die", plural: "die Kartoffeln", examples: [{ de: "Kartoffeln sind sehr beliebt.", fa: "Ø³ÛŒØ¨â€ŒØ²Ù…ÛŒÙ†ÛŒ Ø®ÛŒلÛŒ Ù…Ø­Ø¨ÙˆØ¨ Ø§Ø³Øª." }] },
-          { de: "die Milch", fa: "Ø´ÛŒØ±", article: "die", plural: "-", examples: [{ de: "Ich trinke Milch.", fa: "Ù…Ù† Ø´ÛŒØ± Ù…ÛŒâ€ŒÙ†ÙˆØ´Ù…." }] },
-          { de: "der KÃ¤se", fa: "Ù¾Ù†ÛŒØ±", article: "der", plural: "die KÃ¤se", examples: [{ de: "Der KÃ¤se ist lecker.", fa: "Ù¾Ù†ÛŒØ± Ø®ÙˆØ´Ù…Ø²Ù‡ Ø§Ø³Øª." }] },
-          { de: "das Brot", fa: "Ù†Ø§Ù†", article: "das", plural: "die Brote", examples: [{ de: "Ich kaufe frisches Brot.", fa: "Ù…Ù† Ù†Ø§Ù† ØªØ§Ø²Ù‡ Ù…ÛŒâ€ŒØ®Ø±Ù…." }] },
-          { de: "das Fleisch", fa: "Ú¯ÙˆØ´Øª", article: "das", plural: "-", examples: [{ de: "Ich esse kein Fleisch.", fa: "Ù…Ù† Ú¯ÙˆØ´Øª Ù†Ù…ÛŒâ€ŒØ®ÙˆØ±Ù…." }] },
-          { de: "der Fisch", fa: "Ù…Ø§Ù‡ÛŒ", article: "der", plural: "die Fische", examples: [{ de: "Fisch ist gesund.", fa: "Ù…Ø§Ù‡ÛŒ Ø³Ø§لÙ… Ø§Ø³Øª." }] },
-          { de: "der Reis", fa: "Ø¨Ø±Ù†Ø¬", article: "der", plural: "-", examples: [{ de: "Wir essen Reis mit HÃ¤hnchen.", fa: "Ù…Ø§ Ø¨Ø±Ù†Ø¬ Ø¨Ø§ Ù…Ø±Øº Ù…ÛŒâ€ŒØ®ÙˆØ±ÛŒÙ…." }] }
-        ]
-      },
-      {
-        title: "Ø§Ø¹Ø¶Ø§ÛŒ Ø¨Ø¯Ù†",
-        words: [
-          { de: "der Kopf", fa: "Ø³Ø±", article: "der", plural: "die KÃ¶pfe", examples: [{ de: "Mein Kopf tut weh.", fa: "Ø³Ø±Ù… Ø¯Ø±Ø¯ Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }] },
-          { de: "das Auge", fa: "Ú†Ø´Ù…", article: "das", plural: "die Augen", examples: [{ de: "Sie hat blaue Augen.", fa: "Ø§Ùˆ Ú†Ø´Ù…â€ŒÙ‡Ø§ÛŒ Ø¢Ø¨ÛŒ Ø¯Ø§Ø±Ø¯." }] },
-          { de: "die Nase", fa: "Ø¨ÛŒÙ†ÛŒ", article: "die", plural: "die Nasen", examples: [{ de: "Die Nase lÃ¤uft.", fa: "Ø¨ÛŒÙ†ÛŒ Ø¢Ø¨ Ù…ÛŒâ€ŒØ±ÛŒØ²Ø¯ (Ø³Ø±Ù…Ø§ Ø®ÙˆØ±Ø¯Ù‡)." }] },
-          { de: "der Mund", fa: "Ø¯Ù‡Ø§Ù†", article: "der", plural: "die MÃ¼nder", examples: [{ de: "Mach den Mund auf!", fa: "Ø¯Ù‡Ø§Ù†Øª Ø±Ø§ Ø¨Ø§Ø² Ú©Ù†!" }] },
-          { de: "die Hand", fa: "Ø¯Ø³Øª", article: "die", plural: "die HÃ¤nde", examples: [{ de: "Wasch die HÃ¤nde!", fa: "Ø¯Ø³Øªâ€ŒÙ‡Ø§ÛŒØª Ø±Ø§ Ø¨Ø´ÙˆØ±!" }] },
-          { de: "das Bein", fa: "Ù¾Ø§", article: "das", plural: "die Beine", examples: [{ de: "Mein Bein tut weh.", fa: "Ù¾Ø§ÛŒÙ… Ø¯Ø±Ø¯ Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }] },
-          { de: "der RÃ¼cken", fa: "Ù¾Ø´Øª/Ú©Ù…Ø±", article: "der", plural: "die RÃ¼cken", examples: [{ de: "Ich habe RÃ¼ckenschmerzen.", fa: "Ú©Ù…Ø±Ø¯Ø±Ø¯ Ø¯Ø§Ø±Ù…." }] },
-          { de: "der Bauch", fa: "Ø´Ú©Ù…", article: "der", plural: "die BÃ¤uche", examples: [{ de: "Mein Bauch tut weh.", fa: "Ø´Ú©Ù…Ù… Ø¯Ø±Ø¯ Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }] },
-          { de: "der Zahn", fa: "Ø¯Ù†Ø¯Ø§Ù†", article: "der", plural: "die ZÃ¤hne", examples: [{ de: "Ich habe Zahnschmerzen.", fa: "Ø¯Ù†Ø¯Ø§Ù† Ø¯Ø±Ø¯ Ø¯Ø§Ø±Ù…." }] },
-          { de: "der Finger", fa: "Ø§Ù†Ú¯Ø´Øª", article: "der", plural: "die Finger", examples: [{ de: "Er hat zehn Finger.", fa: "Ø§Ùˆ Ø¯Ù‡ Ø§Ù†Ú¯Ø´Øª Ø¯Ø§Ø±Ø¯." }] }
+          {
+            de: "der Mensch",
+            fa: "انسان",
+            ipa: "[mɛnʃ]",
+            article: "der",
+            plural: "die Menschen",
+            examples: [{ de: "Der Mensch ist sozial.", fa: "انسان اجتماعی است." }]
+          },
+          {
+            de: "die Welt",
+            fa: "جهان",
+            ipa: "[vɛlt]",
+            article: "die",
+            examples: [{ de: "Die Welt ist schön.", fa: "جهان زیباست." }]
+          },
+          {
+            de: "das Leben",
+            fa: "زندگی",
+            ipa: "[ˈleːbn̩]",
+            article: "das",
+            examples: [{ de: "Das Leben ist gut.", fa: "زندگی خوب است." }]
+          },
+          {
+            de: "die Arbeit",
+            fa: "کار",
+            ipa: "[ˈaʁbaɪ̯t]",
+            article: "die",
+            plural: "die Arbeiten",
+            examples: [{ de: "Ich habe viel Arbeit.", fa: "کار زیاد دارم." }]
+          },
+          {
+            de: "das Glück",
+            fa: "شانس / خوشبختی",
+            ipa: "[ɡlʏk]",
+            article: "das",
+            examples: [{ de: "Viel Glück!", fa: "موفق باش!" }]
+          },
+          {
+            de: "die Freude",
+            fa: "شادی",
+            ipa: "[ˈfʁɔʏ̯də]",
+            article: "die",
+            examples: [{ de: "Das macht mir Freude.", fa: "این به من شادی می‌دهد." }]
+          },
+          {
+            de: "der Fehler",
+            fa: "اشتباه",
+            ipa: "[ˈfeːlɐ]",
+            article: "der",
+            plural: "die Fehler",
+            examples: [{ de: "Kein Fehler!", fa: "اشتباه نکن!" }]
+          },
+          {
+            de: "die Erfahrung",
+            fa: "تجربه",
+            ipa: "[ɛɐ̯ˈfaːʁʊŋ]",
+            article: "die",
+            plural: "die Erfahrungen",
+            examples: [{ de: "Das ist eine gute Erfahrung.", fa: "این یک تجربه خوب است." }]
+          },
+          {
+            de: "die Sprache",
+            fa: "زبان",
+            ipa: "[ˈʃpʁaːxə]",
+            article: "die",
+            plural: "die Sprachen",
+            examples: [{ de: "Deutsch ist eine schöne Sprache.", fa: "آلمانی یک زبان زیباست." }]
+          },
+          {
+            de: "das Ziel",
+            fa: "هدف",
+            ipa: "[tsiːl]",
+            article: "das",
+            plural: "die Ziele",
+            examples: [{ de: "Mein Ziel ist B1.", fa: "هدف من سطح B1 است." }]
+          }
         ]
       }
     ]
   },
+
   reading: [
     {
-      text: "Herr MÃ¼ller geht in den Supermarkt. Er braucht GemÃ¼se und Obst. Er kauft ein Kilo Tomaten fÃ¼r zwei Euro, eine Packung Nudeln fÃ¼r einen Euro und zwei Liter Milch fÃ¼r drei Euro. An der Kasse bezahlt er mit Karte. Die Kassiererin sagt: لDas macht zusammen sechs Euro.ل Herr MÃ¼ller sagt: لDanke! Auf Wiedersehen!ل",
+      text: "Mein Weg zum Deutsch (مسیر من به آلمانی)\n\nIch heiße Amir und bin 28 Jahre alt. Ich komme aus dem Iran und wohne jetzt in München. Ich bin Ingenieur und arbeite bei Siemens.\nVor einem Jahr konnte ich kein Deutsch. Meine erste Lehrerin war Frau Müller. Sie erklärt sehr gut. Jeden Tag lerne ich zwei Stunden Deutsch.\nMein Ziel ist B1. Ich möchte in Deutschland bleiben und eine gute Arbeit finden. Meine Familie unterstützt mich. Mein Vater sagt: «Deutsch ist wichtig!»\nHeute bin ich nicht mehr müde, sondern glücklich. Das Leben in Deutschland ist gut. Ich freue mich auf die Zukunft!",
+      translation: [
+        { de: "Mein Weg zum Deutsch", fa: "مسیر من به آلمانی" },
+        { de: "Ich heiße Amir und bin 28 Jahre alt.", fa: "نام من امیر است و ۲۸ ساله‌ام." },
+        { de: "Ich komme aus dem Iran und wohne jetzt in München.", fa: "از ایران هستم و الان در مونیخ زندگی می‌کنم." },
+        { de: "Ich bin Ingenieur und arbeite bei Siemens.", fa: "مهندس هستم و در زیمنس کار می‌کنم." },
+        { de: "Vor einem Jahr konnte ich kein Deutsch.", fa: "یک سال پیش آلمانی بلد نبودم." },
+        { de: "Meine erste Lehrerin war Frau Müller.", fa: "اولین معلمم خانم مولر بود." },
+        { de: "Sie erklärt sehr gut.", fa: "او خیلی خوب توضیح می‌دهد." },
+        { de: "Jeden Tag lerne ich zwei Stunden Deutsch.", fa: "هر روز دو ساعت آلمانی یاد می‌گیرم." },
+        { de: "Mein Ziel ist B1.", fa: "هدف من B1 است." },
+        { de: "Ich möchte in Deutschland bleiben.", fa: "می‌خواهم در آلمان بمانم." },
+        { de: "Meine Familie unterstützt mich.", fa: "خانواده‌ام حمایتم می‌کنند." },
+        { de: "Heute bin ich nicht mehr müde, sondern glücklich.", fa: "امروز دیگر خسته نیستم، بلکه خوشحالم." },
+        { de: "Ich freue mich auf die Zukunft!", fa: "به آینده امیدوارم!" }
+      ],
       questions: [
-        { question: "Ø¢Ù‚Ø§ÛŒ Ù…ÙˆلØ± Ø¨Ù‡ Ú©Ø¬Ø§ Ù…ÛŒâ€ŒØ±ÙˆØ¯ØŸ", answer: "Ø§Ùˆ Ø¨Ù‡ Ø³ÙˆÙ¾Ø±Ù…Ø§Ø±Ú©Øª Ù…ÛŒâ€ŒØ±ÙˆØ¯." },
-        { question: "Ø§Ùˆ Ú†Ù‡ Ú†ÛŒØ²Ù‡Ø§ÛŒÛŒ Ù…ÛŒâ€ŒØ®Ø±Ø¯ØŸ", answer: "ÛŒÚ© Ú©ÛŒلÙˆ Ú¯ÙˆØ¬Ù‡ØŒ ÛŒÚ© Ø¨Ø³ØªÙ‡ Ù†ÙˆØ¯ل Ùˆ Ø¯Ùˆ لÛŒØªØ± Ø´ÛŒØ±." },
-        { question: "Ø§Ùˆ Ú†Ù‚Ø¯Ø± Ù¾Ø±Ø¯Ø§Ø®Øª Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ", answer: "Ø§Ùˆ Ø´Ø´ ÛŒÙˆØ±Ùˆ Ù¾Ø±Ø¯Ø§Ø®Øª Ù…ÛŒâ€ŒÚ©Ù†Ø¯." },
-        { question: "Ø¢Ù‚Ø§ÛŒ Ù…ÙˆلØ± Ú†Ú¯ÙˆÙ†Ù‡ Ù¾Ø±Ø¯Ø§Ø®Øª Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ", answer: "Ø¨Ø§ Ú©Ø§Ø±Øª Ù¾Ø±Ø¯Ø§Ø®Øª Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }
+        { question: "امیر چند ساله است و کجا زندگی می‌کند؟", answer: "۲۸ ساله و در مونیخ." },
+        { question: "امیر کجا کار می‌کند؟", answer: "در زیمنس." },
+        { question: "هدف امیر چیست؟", answer: "رسیدن به سطح B1 و ماندن در آلمان." },
+        { question: "امیر امروز چه احساسی دارد؟", answer: "دیگر خسته نیست، بلکه خوشحال است." }
       ]
     }
   ],
+
   writing: [
     {
-      title: "Ù†ÙˆØ´ØªÙ† لÛŒØ³Øª Ø®Ø±ÛŒØ¯",
-      prompt: "ÛŒÚ© لÛŒØ³Øª Ø®Ø±ÛŒØ¯ Ø¨Ø±Ø§ÛŒ ÛŒÚ© Ù‡ÙØªÙ‡ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯ Ùˆ Ù…Ù‚Ø¯Ø§Ø± Ù‡Ø± Ú©Ø§لØ§ Ø±Ø§ Ù…Ø´Ø®Øµ Ú©Ù†ÛŒØ¯.",
+      title: "نوشتن خلاصه یادگیری ۱۰ روزه",
+      prompt: "مسیر یادگیری خود را در ۱۰ روز گذشته خلاصه کنید.",
       steps: [
-        { title: "Ù‚Ø¯Ù… Ø§Ùˆل: لÛŒØ³Øª Ú©Ø§لØ§Ù‡Ø§", text: "Ú©Ø§لØ§Ù‡Ø§ÛŒ Ù…ÙˆØ±Ø¯ Ù†ÛŒØ§Ø² Ø±Ø§ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯.", example: { de: "Brot, Milch, KÃ¤se, Tomaten...", fa: "Ù†Ø§Ù†ØŒ Ø´ÛŒØ±ØŒ Ù¾Ù†ÛŒØ±ØŒ Ú¯ÙˆØ¬Ù‡..." } },
-        { title: "Ù‚Ø¯Ù… Ø¯ÙˆÙ…: Ù…Ø´Ø®Øµ Ú©Ø±Ø¯Ù† Ù…Ù‚Ø¯Ø§Ø±", text: "Ù…Ù‚Ø¯Ø§Ø± Ù‡Ø± Ú©Ø§لØ§ Ø±Ø§ Ø¨Ø§ ÙˆØ§Ø­Ø¯ Ù…Ù†Ø§Ø³Ø¨ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯.", example: { de: "zwei Brote, ein Liter Milch, dreihundert Gramm KÃ¤se", fa: "Ø¯Ùˆ Ù†Ø§Ù†ØŒ ÛŒÚ© لÛŒØªØ± Ø´ÛŒØ±ØŒ Ø³ÛŒØµØ¯ Ú¯Ø±Ù… Ù¾Ù†ÛŒØ±" } },
-        { title: "Ù‚Ø¯Ù… Ø³ÙˆÙ…: Ù†ÙˆØ´ØªÙ† Ø¬Ù…لØ§Øª Ú©Ø§Ù…ل", text: "Ø¬Ù…لØ§Øª Ú©Ø§Ù…ل Ø¨Ø§ ÙØ¹ل Ø®Ø±ÛŒØ¯Ù† Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯.", example: { de: "Ich mÃ¶chte zwei Brote kaufen.", fa: "Ù…Ù† Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ù… Ø¯Ùˆ Ù†Ø§Ù† Ø¨Ø®Ø±Ù…." } }
+        {
+          title: "شروع",
+          text: "روز اول چه چیزهایی یاد گرفتید.",
+          example: { de: "Am Tag 1 habe ich das Alphabet gelernt.", fa: "روز ۱ الفبا را یاد گرفتم." }
+        },
+        {
+          title: "میانه",
+          text: "مهم‌ترین چیزهایی که یاد گرفتید.",
+          example: { de: "Ich habe Akkusativ und Präpositionen gelernt.", fa: "Akkusativ و حروف اضافه را یاد گرفتم." }
+        },
+        {
+          title: "هدف",
+          text: "هدف شما بعد از این ۱۰ روز.",
+          example: { de: "Mein Ziel ist jetzt B1.", fa: "هدف من الان B1 است." }
+        }
       ],
-      modelAnswer: "Meine Einkaufsliste fÃ¼r diese Woche:\n\n1. Ein Kilo لpfel - Ich mÃ¶chte einen Kilo لpfel kaufen.\n2. Zweihundert Gramm KÃ¤se - Geben Sie mir bitte zweihundert Gramm KÃ¤se.\n3. Zwei Liter Milch - Ich brauche zwei Liter Milch.\n4. Ein Brot - Ich hÃ¤tte gern ein Brot.\n5. Eine Packung Nudeln - Ich kaufe eine Packung Nudeln.\n6. Ein Kilo Tomaten - Die Tomaten kosten zwei Euro das Kilo.\n7. FÃ¼nfhundert Gramm Fleisch - Ich hÃ¤tte gern fÃ¼nfhundert Gramm Fleisch."
+      modelAnswer: "In 10 Tagen habe ich viel gelernt. Am Tag 1 habe ich das Alphabet und die Aussprache gelernt. Dann habe ich Artikel, sein und haben gelernt. Am Tag 5 habe ich Zahlen gelernt. Am Tag 9 habe ich Akkusativ gelernt. Das war schwer, aber interessant. Mein Ziel ist B1. Ich freue mich!"
     }
   ],
+
   listening: [
     {
-      title: "Ú¯ÙˆØ´ Ø¯Ø§Ø¯Ù† Ø¨Ù‡ Ù…Ú©Ø§لÙ…Ù‡ Ø¯Ø± Ø³ÙˆÙ¾Ø±Ù…Ø§Ø±Ú©Øª",
-      source: "Deutsch lernen - Einkaufen",
-      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      instructions: "Ø¨Ù‡ Ù…Ú©Ø§لÙ…Ù‡ Ø¨ÛŒÙ† Ù…Ø´ØªØ±ÛŒ Ùˆ ÙØ±ÙˆØ´Ù†Ø¯Ù‡ Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ Ú©Ø§لØ§Ù‡Ø§ÛŒ Ø®Ø±ÛŒØ¯Ø§Ø±ÛŒ Ø´Ø¯Ù‡ Ùˆ Ù‚ÛŒÙ…Øª Ø¢Ù†Ù‡Ø§ Ø±Ø§ ÛŒØ§Ø¯Ø¯Ø§Ø´Øª Ú©Ù†ÛŒØ¯."
+      title: "۱. مرور کلی (A1 hören)",
+      instruction: "تمرین شنیداری:\n۱. جملات را بشنوید و مباحث گرامری هر جمله را مشخص کنید.\n۲. جملات را با صدای بلند تکرار کنید.",
+      sentences: [
+        { de: "Ich heiße Maria und bin 25 Jahre alt.", fa: "نام من ماریاست و ۲۵ ساله‌ام. (sein + سن)", tts: "Ich heiße Maria und bin 25 Jahre alt." },
+        { de: "Ich komme aus dem Iran.", fa: "از ایران هستم. (kommen aus)", tts: "Ich komme aus dem Iran." },
+        { de: "Ich habe keine Kinder.", fa: "بچه ندارم. (kein + نفی)", tts: "Ich habe keine Kinder." },
+        { de: "Ich fahre mit dem Bus zur Arbeit.", fa: "با اتوبوس به سر کار می‌روم. (mit + nach/zu)", tts: "Ich fahre mit dem Bus zur Arbeit." },
+        { de: "Ich sehe den Film.", fa: "فیلم را می‌بینم. (Akkusativ)", tts: "Ich sehe den Film." },
+        { de: "Mein Vater ist Ingenieur.", fa: "پدرم مهندس است. (ضمیر ملکی + sein)", tts: "Mein Vater ist Ingenieur." }
+      ]
     }
   ],
+
   speaking: [
     {
-      title: "Ù†Ù‚Ø´ Ø¨Ø§Ø²ÛŒ Ú©Ø±Ø¯Ù† Ø¯Ø± Ø³ÙˆÙ¾Ø±Ù…Ø§Ø±Ú©Øª",
-      pattern: "A: Guten Tag! Was mÃ¶chten Sie?\nB: Ich hÃ¤tte gern [Ware].\nA: Wie viel?\nB: [Menge], bitte.\nA: Das macht [Preis] Euro.\nB: Kann ich mit Karte zahlen?",
-      exercise: "Ø¨Ø§ ÛŒÚ© Ù†ÙØ± Ù†Ù‚Ø´ Ø®Ø±ÛŒØ¯Ø§Ø± Ùˆ ÙØ±ÙˆØ´Ù†Ø¯Ù‡ Ø±Ø§ Ø¨Ø§Ø²ÛŒ Ú©Ù†ÛŒØ¯. Ú©Ø§لØ§Ù‡Ø§ Ùˆ Ù…Ù‚Ø¯Ø§Ø± Ø¢Ù†Ù‡Ø§ Ø±Ø§ Ù…Ø´Ø®Øµ Ú©Ù†ÛŒØ¯."
+      title: "تمرین نهایی: معرفی کامل",
+      pattern: "- Guten Tag! Wie heißen Sie?\n- Ich heiße Ali und bin 28 Jahre alt.\n- Woher kommen Sie?\n- Ich komme aus dem Iran, aber ich wohne jetzt in München.\n- Was machen Sie?\n- Ich bin Ingenieur und arbeite bei Siemens. Ich lerne Deutsch.\n- Haben Sie Familie?\n- Ja, ich habe eine Frau und ein Kind. Wir sind glücklich.",
+      exercise: "تمرین نهایی:\nگام ۱: بخش pattern را بشنوید.\nگام ۲: خودتان را با اطلاعات واقعی معرفی کنید.\nگام ۳: بدون نگاه کردن به متن، مکالمه کامل انجام دهید."
     }
   ],
-  cultureTip: "Ø¯Ø± Ø¢لÙ…Ø§Ù† Ø®Ø±ÛŒØ¯ Ø§Ø² Ø³ÙˆÙ¾Ø±Ù…Ø§Ø±Ú©Øª Ø¨Ø³ÛŒØ§Ø± Ø±Ø§ÛŒØ¬ Ø§Ø³Øª. Ø¢لØ¯ÛŒ (Aldi) Ùˆ لÛŒØ¯ل (Lidl) Ø§Ø² Ø§Ø±Ø²Ø§Ù†â€ŒØªØ±ÛŒÙ† Ø³ÙˆÙ¾Ø±Ù…Ø§Ø±Ú©Øªâ€ŒÙ‡Ø§ Ù‡Ø³ØªÙ†Ø¯. Ù…Ø±Ø¯Ù… Ø¢لÙ…Ø§Ù† Ù…Ø¹Ù…ÙˆلØ§Ù‹ Ø¨Ø§ Ú©Ø§Ø±Øª Ù¾Ø±Ø¯Ø§Ø®Øª Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯ Ø§Ù…Ø§ Ù¾Ùˆل Ù†Ù‚Ø¯ Ù‡Ù… Ø±Ø§ÛŒØ¬ Ø§Ø³Øª. Ø¯Ø± Ø¢لÙ…Ø§Ù† Ú©ÛŒØ³Ù‡â€ŒÙ‡Ø§ÛŒ Ù¾لØ§Ø³ØªÛŒÚ©ÛŒ Ø±Ø§ÛŒÚ¯Ø§Ù† Ù†ÛŒØ³Øª Ùˆ Ø¨Ø§ÛŒØ¯ Ú©ÛŒØ³Ù‡ Ø®ÙˆØ¯ Ø±Ø§ Ø¨ÛŒØ§ÙˆØ±ÛŒØ¯.",
+
+  cultureTip: "تبریک! شما ۱۰ روز اول یادگیری آلمانی را تمام کردید. در فرهنگ آلمانی، پشتکار و نظم (Disziplin) بسیار ارزشمند است. اگر هر روز فقط ۳۰ دقیقه آلمانی بخوانید، در ۶ ماه به سطح B1 می‌رسید. نکته مهم: در آلمان، امتحان‌های رسمی مثل Goethe-Zertifikat A1 و B1 برای مهاجرت و کار لازم است. هزینه امتحان A1 حدود ۲۰۰ یورو و B1 حدود ۲۵۰ یورو است. موفق باشید!",
+
   examData: {
     questions: [
-      { question: "ÙˆØ§Ø­Ø¯ لÚ©ÛŒلÙˆÚ¯Ø±Ù…ل Ø¨Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ Ú†ÛŒØ³ØªØŸ", options: ["das Kilo", "der Liter", "das Gramm", "das StÃ¼ck"], answer: 0 },
-      { question: "Ú©Ø¯Ø§Ù… Ø¹Ø¨Ø§Ø±Øª ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ", options: ["Ich hÃ¤tte gern ein Kilo Tomaten.", "Ich hÃ¤tte gern ein Liter Tomaten.", "Ich hÃ¤tte gern ein Gramm Tomaten.", "Ich hÃ¤tte gern ein StÃ¼ck Tomaten."], answer: 0 },
-      { question: "لØ³Ø±Ù… Ø¯Ø±Ø¯ Ù…ÛŒâ€ŒÚ©Ù†Ø¯ل Ú†Ú¯ÙˆÙ†Ù‡ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Mein Kopf tut weh.", "Mein Kopf ist weh.", "Ich bin Kopfschmerzen.", "Ich habe Kopfschmerzen."], answer: 0 },
-      { question: "Ú©Ø¯Ø§Ù… Ú©لÙ…Ù‡ Ø¨Ù‡ Ù…Ø¹Ù†Ø§ÛŒ لÙ¾Ù†ÛŒØ±ل Ø§Ø³ØªØŸ", options: ["der KÃ¤se", "das Fleisch", "das Brot", "die Milch"], answer: 0 },
-      { question: "لØ¢Ù† Ø®ÛŒلÛŒ Ú¯Ø±Ø§Ù† Ø§Ø³Øªل Ú†Ú¯ÙˆÙ†Ù‡ Ú¯ÙØªÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Das ist zu teuer!", "Das ist zu billig!", "Das ist zu viel!", "Das ist zu wenig!"], answer: 0 },
-      { question: "لØ¨Ø§ Ú©Ø§Ø±Øª Ù¾Ø±Ø¯Ø§Ø®Øª Ù…ÛŒâ€ŒÚ©Ù†Ù…ل Ø¨Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ:", options: ["Ich zahle mit Karte.", "Ich zahle mit Geld.", "Ich zahle mit Bargeld.", "Ich zahle mit Schein."], answer: 0 },
-      { question: "Ú©Ø¯Ø§Ù… ÙˆØ§Ø­Ø¯ Ø¨Ø±Ø§ÛŒ Ù…Ø§ÛŒØ¹Ø§Øª Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["der Liter", "das Kilo", "das Gramm", "das StÃ¼ck"], answer: 0 },
-      { question: "لØ±ÙˆÛŒ Ù‡Ù… Ù¾Ù†Ø¬ ÛŒÙˆØ±Ùˆ Ù…ÛŒâ€ŒØ´ÙˆØ¯ل Ú†Ú¯ÙˆÙ†Ù‡ Ú¯ÙØªÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Macht zusammen fÃ¼nf Euro.", "Kostet zusammen fÃ¼nf Euro.", "Ist zusammen fÃ¼nf Euro.", "Sind zusammen fÃ¼nf Euro."], answer: 0 }
+      {
+        question: "آرتیکل صحیح «Mädchen» (دختر) چیست؟",
+        options: ["die Mädchen", "das Mädchen", "der Mädchen"],
+        answer: 1
+      },
+      {
+        question: "صرف فعل sein با «ihr» چیست؟",
+        options: ["seid", "sind", "bist"],
+        answer: 0
+      },
+      {
+        question: "آرتیکل «der Mann» در Akkusativ چه می‌شود؟",
+        options: ["der Mann", "den Mann", "dem Mann"],
+        answer: 1
+      },
+      {
+        question: "عدد ۳۵ به آلمانی چیست؟",
+        options: ["dreißigfünf", "fünfunddreißig", "dreißigundfünf"],
+        answer: 1
+      },
+      {
+        question: "«Ich habe keine Zeit» یعنی چه؟",
+        options: ["من وقت دارم", "من وقت ندارم", "من زمان هستم"],
+        answer: 1
+      },
+      {
+        question: "کدام حرف اضافه برای «اهل ایران بودن» استفاده می‌شود؟",
+        options: ["von", "aus", "nach"],
+        answer: 1
+      },
+      {
+        question: "صرف فعل «fahren» با «er» (با تغییر صدا) چیست؟",
+        options: ["er fahrt", "er fährt", "er fahret"],
+        answer: 1
+      },
+      {
+        question: "در جمله خبری، فعل در کجا قرار می‌گیرد؟",
+        options: ["جایگاه ۱", "جایگاه ۲", "جایگاه ۳"],
+        answer: 1
+      },
+      {
+        question: "کدام جمله صحیح است؟",
+        options: ["Ich sehe der Film.", "Ich sehe den Film.", "Ich sehe dem Film."],
+        answer: 1
+      },
+      {
+        question: "«nicht» برای چه چیزی استفاده می‌شود؟",
+        options: ["نفی اسم", "نفی فعل/صفت", "نفی جمع"],
+        answer: 1
+      },
+      {
+        question: "«meine Schwester» در Akkusativ چه می‌شود؟",
+        options: ["meinen Schwester", "meine Schwester", "meinem Schwester"],
+        answer: 1
+      },
+      {
+        question: "فعل «sehen» چه حالتی می‌گیرد؟",
+        options: ["Nominativ", "Dativ", "Akkusativ"],
+        answer: 2
+      },
+      {
+        question: "«Ich fahre ___ dem Bus» یعنی چه؟",
+        options: ["با اتوبوس می‌روم", "به اتوبوس می‌روم", "از اتوبوس می‌آیم"],
+        answer: 0
+      },
+      {
+        question: "پسوند -ung نشان‌دهنده چه جنسیتی است؟",
+        options: ["der (مذکر)", "die (مؤنث)", "das (خنثی)"],
+        answer: 1
+      },
+      {
+        question: "«Ich bin 25 Jahre alt» یعنی چه؟",
+        options: ["من ۲۵ سال دارم", "من ۲۵ ساله‌ام", "من ۲۵ سال شدم"],
+        answer: 1
+      },
+      {
+        question: "کدام فعل در du و er تغییر صدا دارد؟",
+        options: ["lernen", "spielen", "sprechen", "arbeiten"],
+        answer: 2
+      },
+      {
+        question: "«Das ist kein Problem» یعنی چه؟",
+        options: ["این مشکل است", "این مشکلی نیست", "این مشکل ندارد"],
+        answer: 1
+      },
+      {
+        question: "ضمیر «Sie» (رسمی) همیشه چطور نوشته می‌شود؟",
+        options: ["با s کوچک", "با S بزرگ", "با S بزرگ فقط در ابتدای جمله"],
+        answer: 1
+      },
+      {
+        question: "۱۰۰ به آلمانی چیست؟",
+        options: ["hundert", "tausend", "zehnzig"],
+        answer: 0
+      },
+      {
+        question: "کدام جمله ساختار صحیح دارد؟",
+        options: ["Heute ich bin müde.", "Heute bin ich müde.", "Ich bin heute müde."],
+        answer: 1
+      }
     ]
   }
 };

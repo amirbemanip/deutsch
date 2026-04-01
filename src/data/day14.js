@@ -1,113 +1,151 @@
 export const day14Data = {
-  title: "Ø±ÙˆØ² Û±Û´: Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ Ùˆ ÙØµلâ€ŒÙ‡Ø§ - ØªÙˆØµÛŒÙ Ù‡ÙˆØ§",
-  objective: "ÛŒØ§Ø¯Ú¯ÛŒØ±ÛŒ ØªÙˆØµÛŒÙ Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ØŒ ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ù…Ø±Ø¨ÙˆØ· Ø¨Ù‡ Ù‡ÙˆØ§ Ùˆ ÙØµلâ€ŒÙ‡Ø§",
+  title: "روز ۱۴: تقویم - روزهای هفته، ماه‌ها، فصول + قرار ملاقات",
+  objective: "در پایان این روز، شما می‌توانید روزهای هفته، ماه‌ها و فصول را نام ببرید و قرار ملاقات بسازید.",
+  level: "A1",
   grammarData: {
-    subtitle: "Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ Ùˆ ÙØµلâ€ŒÙ‡Ø§",
+    subtitle: "تقویم و قرار ملاقات",
     content: [
       {
         type: "text",
-        title: "ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¨Ø¯ÙˆÙ† ÙØ§Ø¹ل (Impersonal Verbs)",
-        text: "Ø¯Ø± Ø¢لÙ…Ø§Ù†ÛŒ Ø¨Ø±Ø§ÛŒ ØªÙˆØµÛŒÙ Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ Ø§Ø² ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¨Ø¯ÙˆÙ† ÙØ§Ø¹ل Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯. ÙØ§Ø¹ل Ù‡Ù…ÛŒØ´Ù‡ لesل Ø§Ø³Øª: es regnet (Ø¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¨Ø§Ø±Ø¯)ØŒ es schneit (Ø¨Ø±Ù Ù…ÛŒâ€ŒØ¨Ø§Ø±Ø¯)ØŒ es ist heiÃŸ/schÃ¶n/kalt (Ù‡ÙˆØ§ Ú¯Ø±Ù…/Ø®ÙˆØ¨/Ø³Ø±Ø¯ Ø§Ø³Øª)."
+        title: "روزهای هفته",
+        text: "روزهای هفته در آلمانی: der Montag (دوشنبه)، der Dienstag (سه‌شنبه)، der Mittwoch (چهارشنبه)، der Donnerstag (پنج‌شنبه)، der Freitag (جمعه)، der Samstag (شنبه)، der Sonntag (یکشنبه). توجه: در آلمانی روزهای هفته حرف تعریف ندارند وقتی می‌گوییم am Montag."
       },
       {
         type: "table",
-        title: "ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§",
+        title: "روزهای هفته",
         rows: [
-          { de: "es regnet", fa: "Ø¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¨Ø§Ø±Ø¯" },
-          { de: "es schneit", fa: "Ø¨Ø±Ù Ù…ÛŒâ€ŒØ¨Ø§Ø±Ø¯" },
-          { de: "es blitzt", fa: "Ø¨Ø±Ù‚ Ù…ÛŒâ€ŒØ²Ù†Ø¯" },
-          { de: "es donnert", fa: "Ø±Ø¹Ø¯ Ù…ÛŒâ€ŒØ²Ù†Ø¯" },
-          { de: "es ist sonnig", fa: "Ù‡ÙˆØ§ Ø¢ÙØªØ§Ø¨ÛŒ Ø§Ø³Øª" },
-          { de: "es ist bewÃ¶lkt", fa: "Ù‡ÙˆØ§ Ø§Ø¨Ø±ÛŒ Ø§Ø³Øª" },
-          { de: "es ist windig", fa: "Ù‡ÙˆØ§ Ø¨Ø§Ø¯ÛŒ Ø§Ø³Øª" },
-          { de: "es ist neblig", fa: "Ù‡ÙˆØ§ Ù…Ù‡â€ŒØ¢لÙˆØ¯ Ø§Ø³Øª" },
-          { de: "es ist heiÃŸ", fa: "Ù‡ÙˆØ§ Ú¯Ø±Ù… Ø§Ø³Øª" },
-          { de: "es ist kalt", fa: "Ù‡ÙˆØ§ Ø³Ø±Ø¯ Ø§Ø³Øª" },
-          { de: "es ist warm", fa: "Ù‡ÙˆØ§ Ú¯Ø±Ù… Ø§Ø³Øª" },
-          { de: "es ist kÃ¼hl", fa: "Ù‡ÙˆØ§ Ø®Ù†Ú© Ø§Ø³Øª" }
+          { de: "der Montag [ˈmoːntaːk]", fa: "دوشنبه" },
+          { de: "der Dienstag [ˈdiːnstaːk]", fa: "سه‌شنبه" },
+          { de: "der Mittwoch [ˈmɪtvɔx]", fa: "چهارشنبه" },
+          { de: "der Donnerstag [ˈdɔnɐ̯staːk]", fa: "پنج‌شنبه" },
+          { de: "der Freitag [ˈfʁaɪtaːk]", fa: "جمعه" },
+          { de: "der Samstag [ˈzamstaːk]", fa: "شنبه" },
+          { de: "der Sonntag [ˈzɔntaːk]", fa: "یکشنبه" }
+        ]
+      },
+      {
+        type: "table",
+        title: "ماه‌ها",
+        rows: [
+          { de: "der Januar [ˈjanʊaːɐ̯]", fa: "ژانویه" },
+          { de: "der Februar [ˈfeːbʁʊaːɐ̯]", fa: "فوریه" },
+          { de: "der März [mɛʁts]", fa: "مارس" },
+          { de: "der April [aˈpʁɪl]", fa: "آوریل" },
+          { de: "der Mai [maɪ]", fa: "مه" },
+          { de: "der Juni [ˈjuːni]", fa: "ژوئن" },
+          { de: "der Juli [ˈjuːli]", fa: "ژوئیه" },
+          { de: "der August [aʊˈɡʊst]", fa: "آگوست" },
+          { de: "der September [zɛpˈtɛmbɐ̯]", fa: "سپتامبر" },
+          { de: "der Oktober [ɔkˈtoːbɐ̯]", fa: "اکتبر" },
+          { de: "der November [noˈvɛmbɐ̯]", fa: "نوامبر" },
+          { de: "der Dezember [dɛˈtsɛmbɐ̯]", fa: "دسامبر" }
+        ]
+      },
+      {
+        type: "table",
+        title: "فصول",
+        rows: [
+          { de: "der Frühling [ˈfʁyːlɪŋ]", fa: "بهار" },
+          { de: "der Sommer [ˈzɔmɐ̯]", fa: "تابستان" },
+          { de: "der Herbst [hɛʁpst]", fa: "پاییز" },
+          { de: "der Winter [ˈvɪntɐ̯]", fa: "زمستان" }
         ]
       },
       {
         type: "text",
-        title: "ØªÙˆØµÛŒÙ Ù‡ÙˆØ§ Ø¨Ø§ ØµÙØª",
-        text: "Ø¨Ø±Ø§ÛŒ ØªÙˆØµÛŒÙ Ù‡ÙˆØ§ Ø§Ø² ØµÙØªâ€ŒÙ‡Ø§ Ø¨Ø§ ÙØ¹ل sein Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯: Heute ist es sonnig (Ø§Ù…Ø±ÙˆØ² Ù‡ÙˆØ§ Ø¢ÙØªØ§Ø¨ÛŒ Ø§Ø³Øª). Morgen wird es regnen (ÙØ±Ø¯Ø§ Ø¨Ø§Ø±Ø§Ù† Ø®ÙˆØ§Ù‡Ø¯ Ø¨Ø§Ø±ÛŒØ¯). Die Temperatur betrÃ¤gt 20 Grad (Ø¯Ù…Ø§ Û²Û° Ø¯Ø±Ø¬Ù‡ Ø§Ø³Øª)."
+        title: "ساختن قرار ملاقات",
+        text: "برای ساختن قرار ملاقات از am + روز استفاده می‌کنیم: Am Montag habe ich einen Termin (دوشنبه قرار ملاقات دارم). Ich treffe dich am Samstag (شنبه ملاقات می‌کنیم). Wann hast du Zeit? (کی وقت داری؟) Ich habe am Dienstag Zeit (سه‌شنبه وقت دارم)."
       },
       {
         type: "examples",
-        title: "Ø¬Ù…لØ§Øª Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§",
+        title: "مثال‌های قرار ملاقات",
         items: [
-          { de: "Wie ist das Wetter heute?", fa: "Ø§Ù…Ø±ÙˆØ² Ù‡ÙˆØ§ Ú†Ø·ÙˆØ± Ø§Ø³ØªØŸ" },
-          { de: "Heute ist es sonnig und warm.", fa: "Ø§Ù…Ø±ÙˆØ² Ù‡ÙˆØ§ Ø¢ÙØªØ§Ø¨ÛŒ Ùˆ Ú¯Ø±Ù… Ø§Ø³Øª." },
-          { de: "Morgen wird es regnen.", fa: "ÙØ±Ø¯Ø§ Ø¨Ø§Ø±Ø§Ù† Ø®ÙˆØ§Ù‡Ø¯ Ø¨Ø§Ø±ÛŒØ¯." },
-          { de: "Es ist 25 Grad.", fa: "Ù‡ÙˆØ§ Û²Ûµ Ø¯Ø±Ø¬Ù‡ Ø§Ø³Øª." },
-          { de: "Im Winter ist es oft kalt.", fa: "Ø¯Ø± Ø²Ù…Ø³ØªØ§Ù† Ø§ØºلØ¨ Ø³Ø±Ø¯ Ø§Ø³Øª." },
-          { de: "Im Sommer ist es heiÃŸ.", fa: "Ø¯Ø± ØªØ§Ø¨Ø³ØªØ§Ù† Ù‡ÙˆØ§ Ú¯Ø±Ù… Ø§Ø³Øª." },
-          { de: "Die Sonne scheint.", fa: "Ø®ÙˆØ±Ø´ÛŒØ¯ Ù…ÛŒâ€ŒØªØ§Ø¨Ø¯." },
-          { de: "Der Wind weht stark.", fa: "Ø¨Ø§Ø¯ Ø´Ø¯ÛŒØ¯ Ù…ÛŒâ€ŒÙˆØ²Ø¯." }
+          { de: "Am Montag habe ich einen Arzttermin.", fa: "دوشنبه قرار پزشک دارم." },
+          { de: "Treffen wir uns am Samstag?", fa: "شنبه ملاقات می‌کنیم؟" },
+          { de: "Am Sonntag bin ich zu Hause.", fa: "یکشنبه خانه هستم." },
+          { de: "Der Termin ist am Mittwoch.", fa: "قرار چهارشنبه است." },
+          { de: "Am Freitag habe ich keine Zeit.", fa: "جمعه وقت ندارم." }
         ]
       },
       {
         type: "alert",
-        title: "Ù†Ú©ØªÙ‡: ÙØµلâ€ŒÙ‡Ø§ Ùˆ Ù‡ÙˆØ§",
-        text: "Ø¯Ø± Ù‡Ø± ÙØµل Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ÛŒ Ù…Ø¹Ù…Ùˆل Ø¢Ù† ÙØµل Ø±Ø§ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…: Ø¨Ù‡Ø§Ø± (warm, sonnig)ØŒ ØªØ§Ø¨Ø³ØªØ§Ù† (heiÃŸ, sonnig)ØŒ Ù¾Ø§ÛŒÛŒØ² (kÃ¼hl, regnerisch)ØŒ Ø²Ù…Ø³ØªØ§Ù† (kalt, schneereich)."
-      },
-      {
-        type: "text",
-        title: "ÙØµلâ€ŒÙ‡Ø§ Ùˆ ÙˆÛŒÚ˜Ú¯ÛŒâ€ŒÙ‡Ø§ÛŒØ´Ø§Ù†",
-        text: "Ø¯Ø± Ø¢لÙ…Ø§Ù†ØŒ ÙØµلâ€ŒÙ‡Ø§ ØªØ£Ø«ÛŒØ± Ø²ÛŒØ§Ø¯ÛŒ Ø¨Ø± Ø²Ù†Ø¯Ú¯ÛŒ Ù…Ø±Ø¯Ù… Ø¯Ø§Ø±Ù†Ø¯. Ø¯Ø± Ø²Ù…Ø³ØªØ§Ù† Ú©Ø±ÛŒØ³Ù…Ø³ Ø¬Ø´Ù† Ú¯Ø±ÙØªÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯. Ø¯Ø± Ø¨Ù‡Ø§Ø± Ø¬Ø´Ù†â€ŒÙ‡Ø§ÛŒ Ø¹ÛŒØ¯ Ù¾Ø§Ú© Ø¨Ø±Ú¯Ø²Ø§Ø± Ù…ÛŒâ€ŒØ´ÙˆØ¯. Ø¯Ø± ØªØ§Ø¨Ø³ØªØ§Ù† Ù…Ø±Ø¯Ù… Ø¨Ù‡ ØªØ¹Ø·ÛŒلØ§Øª Ù…ÛŒâ€ŒØ±ÙˆÙ†Ø¯ Ùˆ Ø¯Ø± Ù¾Ø§ÛŒÛŒØ² Ø¬Ø´Ù†â€ŒÙ‡Ø§ÛŒ Ø¨Ø±Ø¯Ø§Ø´Øª Ù…Ø­ØµÙˆل Ø¨Ø±Ú¯Ø²Ø§Ø± Ù…ÛŒâ€ŒØ´ÙˆØ¯."
-      },
-      {
-        type: "interactive_quiz",
-        title: "Ø¢Ø²Ù…ÙˆÙ†: Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§",
-        questions: [
-          {
-            question: "لØ¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¨Ø§Ø±Ø¯ل Ú†Ú¯ÙˆÙ†Ù‡ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Wie sagt man لit rainsل?",
-            options: [
-              { text: "es regnet", isCorrect: true },
-              { text: "es schneit", isCorrect: false },
-              { text: "es blitzt", isCorrect: false },
-              { text: "es donnert", isCorrect: false }
-            ],
-            explanation: "es regnet Ø¨Ù‡ Ù…Ø¹Ù†Ø§ÛŒ Ø¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¨Ø§Ø±Ø¯ Ø§Ø³Øª."
-          },
-          {
-            question: "لÙ‡ÙˆØ§ Ø¢ÙØªØ§Ø¨ÛŒ Ø§Ø³Øªل Ú†Ú¯ÙˆÙ†Ù‡ Ú¯ÙØªÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Wie sagt man لit is sunnyل?",
-            options: [
-              { text: "Es ist sonnig.", isCorrect: true },
-              { text: "Es ist regnerisch.", isCorrect: false },
-              { text: "Es ist windig.", isCorrect: false },
-              { text: "Es ist bewÃ¶lkt.", isCorrect: false }
-            ],
-            explanation: "sonnig ØµÙØª Ø¢ÙØªØ§Ø¨ÛŒ Ø§Ø³Øª."
-          },
-          {
-            question: "لØ¯Ø± Ø²Ù…Ø³ØªØ§Ù† Ø³Ø±Ø¯ Ø§Ø³Øªل Ú†Ú¯ÙˆÙ†Ù‡ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Wie sagt man لin winter it is coldل?",
-            options: [
-              { text: "Im Winter ist es kalt.", isCorrect: true },
-              { text: "Im Winter schneit es.", isCorrect: false },
-              { text: "Im Winter regnet es.", isCorrect: false },
-              { text: "Im Winter ist es heiÃŸ.", isCorrect: false }
-            ],
-            explanation: "Ø§Ø² im + ÙØµل Ùˆ ist es + ØµÙØª Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯."
-          }
-        ]
+        title: "توجه: آم + روز",
+        text: "در آلمانی برای بیان روز خاص می‌گوییم am + روز: am Montag، am Samstag. این ساختار از حروف تعریف جلوگیری می‌کند. برای تاریخ: der erste Mai (اول ماه مه)، am ersten Mai (در اول ماه مه)."
       },
       {
         type: "fill_blank",
-        title: "ØªÚ©Ù…ÛŒل Ø¬Ù…لØ§Øª: Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§",
-        instruction: "Ø¬Ø§ÛŒ Ø®Ø§لÛŒ Ø±Ø§ Ø¨Ø§ Ú©لÙ…Ù‡ Ù…Ù†Ø§Ø³Ø¨ Ù¾Ø± Ú©Ù†ÛŒØ¯.",
+        title: "تمرین: تقویم و قرار",
+        instruction: "جملات را تکمیل کنید.",
         blanks: [
-          { sentence: "Heute ist es ___.", answer: "sonnig", hint: "Ø¢ÙØªØ§Ø¨ÛŒ" },
-          { sentence: "Es ___ heute.", answer: "regnet", hint: "Ø¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¨Ø§Ø±Ø¯" },
-          { sentence: "Im Winter ist es ___.", answer: "kalt", hint: "Ø³Ø±Ø¯" },
-          { sentence: "Morgen wird es ___.", answer: "schneien", hint: "Ø¨Ø±Ù Ø®ÙˆØ§Ù‡Ø¯ Ø¨Ø§Ø±ÛŒØ¯" },
-          { sentence: "Es ist 25 ___.", answer: "Grad", hint: "Ø¯Ø±Ø¬Ù‡" },
-          { sentence: "Die Sonne ___.", answer: "scheint", hint: "Ù…ÛŒâ€ŒØªØ§Ø¨Ø¯" },
-          { sentence: "Im Sommer ist es ___.", answer: "heiÃŸ", hint: "Ú¯Ø±Ù…" },
-          { sentence: "Der Wind weht ___.", answer: "stark", hint: "Ø´Ø¯ÛŒØ¯" }
+          { sentence: "___ ist der erste Tag der Woche.", answer: "Sonntag", hint: "یکشنبه" },
+          { sentence: "Am ___ bin ich frei.", answer: "Freitag", hint: "جمعه" },
+          { sentence: "Der ___ ist der kälteste Monat.", answer: "Januar", hint: "ژانویه" },
+          { sentence: "Im ___ blühen die Blumen.", answer: "Frühling", hint: "بهار" },
+          { sentence: "Ich habe einen Termin ___ Mittwoch.", answer: "am", hint: "در" },
+          { de: "Der ___ hat 31 Tage.", answer: "Juli", hint: "ژوئیه" },
+          { sentence: "___ Samstag muss ich arbeiten.", answer: "Am", hint: "شنبه" },
+          { sentence: "Im ___ ist es kalt.", answer: "Winter", hint: "زمستان" }
+        ]
+      },
+      {
+        type: "interactive_quiz",
+        title: "آزمون: تقویم",
+        questions: [
+          {
+            question: "«دوشنبه» چگونه گفته می‌شود؟",
+            questionDe: "Wie heißt \"Montag\" auf Deutsch?",
+            options: [
+              { text: "der Montag", isCorrect: true },
+              { text: "der Montag", isCorrect: false },
+              { text: "die Montag", isCorrect: false },
+              { text: "ein Montag", isCorrect: false }
+            ],
+            explanation: "روزهای هفته مذکر هستند و با der می‌آیند."
+          },
+          {
+            question: "کدام ماه اول تابستان است؟",
+            questionDe: "Welcher Monat ist der erste Sommermonat?",
+            options: [
+              { text: "Juni", isCorrect: true },
+              { text: "Mai", isCorrect: false },
+              { text: "Juli", isCorrect: false },
+              { text: "August", isCorrect: false }
+            ],
+            explanation: "ژوئن اولین ماه تابستان است."
+          },
+          {
+            question: "«در دوشنبه» چگونه گفته می‌شود؟",
+            questionDe: "Wie sagt man \"am Montag\"?",
+            options: [
+              { text: "Am Montag", isCorrect: true },
+              { text: "Im Montag", isCorrect: false },
+              { text: "Auf Montag", isCorrect: false },
+              { text: "Nach Montag", isCorrect: false }
+            ],
+            explanation: "«am» = «an dem» = «در» + روز."
+          },
+          {
+            question: "کدام فصل پاییز است؟",
+            questionDe: "Welche Jahreszeit ist Herbst?",
+            options: [
+              { text: "der Herbst", isCorrect: true },
+              { text: "der Sommer", isCorrect: false },
+              { text: "der Winter", isCorrect: false },
+              { text: "der Frühling", isCorrect: false }
+            ],
+            explanation: "پاییز = der Herbst"
+          },
+          {
+            question: "قرار ملاقات چیست؟",
+            questionDe: "Wie heißt \"Termin\" auf Deutsch?",
+            options: [
+              { text: "der Termin", isCorrect: true },
+              { text: "die Termin", isCorrect: false },
+              { text: "das Termin", isCorrect: false },
+              { text: "Termine", isCorrect: false }
+            ],
+            explanation: "Termin مذکر است."
+          }
         ]
       }
     ]
@@ -115,82 +153,112 @@ export const day14Data = {
   vocabData: {
     categories: [
       {
-        title: "ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§",
+        title: "روزهای هفته",
         words: [
-          { de: "regnen", fa: "Ø¨Ø§Ø±ÛŒØ¯Ù† (Ø¨Ø§Ø±Ø§Ù†)", article: "-", plural: "-", examples: [{ de: "Es regnet heute.", fa: "Ø§Ù…Ø±ÙˆØ² Ø¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¨Ø§Ø±Ø¯." }] },
-          { de: "schneien", fa: "Ø¨Ø§Ø±ÛŒØ¯Ù† (Ø¨Ø±Ù)", article: "-", plural: "-", examples: [{ de: "Im Winter schneit es oft.", fa: "Ø¯Ø± Ø²Ù…Ø³ØªØ§Ù† Ø§ØºلØ¨ Ø¨Ø±Ù Ù…ÛŒâ€ŒØ¨Ø§Ø±Ø¯." }] },
-          { de: "blitzen", fa: "Ø¨Ø±Ù‚ Ø²Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Es blitzt und donnert.", fa: "Ø¨Ø±Ù‚ Ùˆ Ø±Ø¹Ø¯ Ù…ÛŒâ€ŒØ²Ù†Ø¯." }] },
-          { de: "donnern", fa: "Ø±Ø¹Ø¯ Ø²Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Es donnert stark.", fa: "Ø±Ø¹Ø¯ Ø´Ø¯ÛŒØ¯ Ù…ÛŒâ€ŒØ²Ù†Ø¯." }] },
-          { de: "scheinen", fa: "ØªØ§Ø¨ÛŒØ¯Ù†", article: "-", plural: "-", examples: [{ de: "Die Sonne scheint.", fa: "Ø®ÙˆØ±Ø´ÛŒØ¯ Ù…ÛŒâ€ŒØªØ§Ø¨Ø¯." }] },
-          { de: "wehen", fa: "ÙˆØ²ÛŒØ¯Ù† (Ø¨Ø§Ø¯)", article: "-", plural: "-", examples: [{ de: "Der Wind weht.", fa: "Ø¨Ø§Ø¯ Ù…ÛŒâ€ŒÙˆØ²Ø¯." }] }
+          { de: "der Montag", fa: "دوشنبه", article: "der", plural: "die Montage", ipa: "[ˈmoːntaːk]", examples: [{ de: "Am Montag arbeite ich.", fa: "دوشنبه‌ها کار می‌کنم." }] },
+          { de: "der Dienstag", fa: "سه‌شنبه", article: "der", plural: "die Dienstage", ipa: "[ˈdiːnstaːk]", examples: [{ de: "Dienstag ist der dritte Tag.", fa: "سه‌شنبه سومین روز است." }] },
+          { de: "der Mittwoch", fa: "چهارشنبه", article: "der", plural: "die Mittwoche", ipa: "[ˈmɪtvɔx]", examples: [{ de: "Mittwoch ist in der Mitte der Woche.", fa: "چهارشنبه در وسط هفته است." }] },
+          { de: "der Donnerstag", fa: "پنج‌شنبه", article: "der", plural: "die Donnerstage", ipa: "[ˈdɔnɐ̯staːk]", examples: [{ de: "Donnerstag ist vor Freitag.", fa: "پنج‌شنبه قبل از جمعه است." }] },
+          { de: "der Freitag", fa: "جمعه", article: "der", plural: "die Freitage", ipa: "[ˈfʁaɪtaːk]", examples: [{ de: "Freitag ist der letzte Arbeitstag.", fa: "جمعه آخرین روز کاری هفته است." }] },
+          { de: "der Samstag", fa: "شنبه", article: "der", plural: "die Samstage", ipa: "[ˈzamstaːk]", examples: [{ de: "Am Samstag gehe ich einkaufen.", fa: "شنبه‌ها خرید می‌روم." }] },
+          { de: "der Sonntag", fa: "یکشنبه", article: "der", plural: "die Sonntage", ipa: "[ˈzɔntaːk]", examples: [{ de: "Sonntag ist der Ruhetag.", fa: "یکشنبه روز استراحت است." }] },
+          { de: "die Woche [ˈvɔxə]", fa: "هفته", article: "die", plural: "die Wochen", examples: [{ de: "Eine Woche hat sieben Tage.", fa: "یک هفته هفت روز دارد." }] },
+          { de: "das Wochenende", fa: "آخر هفته", article: "das", plural: "die Wochenenden", examples: [{ de: "Am Wochenende ruhen wir.", fa: "آخر هفته استراحت می‌کنیم." }] }
         ]
       },
       {
-        title: "ØµÙØªâ€ŒÙ‡Ø§ÛŒ Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§",
+        title: "ماه‌ها",
         words: [
-          { de: "sonnig", fa: "Ø¢ÙØªØ§Ø¨ÛŒ", article: "-", plural: "-", examples: [{ de: "Heute ist es sonnig.", fa: "Ø§Ù…Ø±ÙˆØ² Ø¢ÙØªØ§Ø¨ÛŒ Ø§Ø³Øª." }] },
-          { de: "bewÃ¶lkt", fa: "Ø§Ø¨Ø±ÛŒ", article: "-", plural: "-", examples: [{ de: "Morgen wird es bewÃ¶lkt.", fa: "ÙØ±Ø¯Ø§ Ø§Ø¨Ø±ÛŒ Ø®ÙˆØ§Ù‡Ø¯ Ø¨ÙˆØ¯." }] },
-          { de: "regnerisch", fa: "Ø¨Ø§Ø±Ø§Ù†ÛŒ", article: "-", plural: "-", examples: [{ de: "Das Wetter ist regnerisch.", fa: "Ù‡ÙˆØ§ Ø¨Ø§Ø±Ø§Ù†ÛŒ Ø§Ø³Øª." }] },
-          { de: "windig", fa: "Ø¨Ø§Ø¯ÛŒ", article: "-", plural: "-", examples: [{ de: "Heute ist es sehr windig.", fa: "Ø§Ù…Ø±ÙˆØ² Ø®ÛŒلÛŒ Ø¨Ø§Ø¯ÛŒ Ø§Ø³Øª." }] },
-          { de: "neblig", fa: "Ù…Ù‡â€ŒØ¢لÙˆØ¯", article: "-", plural: "-", examples: [{ de: "Am Morgen ist es neblig.", fa: "ØµØ¨Ø­ Ù…Ù‡â€ŒØ¢لÙˆØ¯ Ø§Ø³Øª." }] },
-          { de: "heiÃŸ", fa: "Ú¯Ø±Ù…", article: "-", plural: "-", examples: [{ de: "Im Sommer ist es heiÃŸ.", fa: "Ø¯Ø± ØªØ§Ø¨Ø³ØªØ§Ù† Ú¯Ø±Ù… Ø§Ø³Øª." }] },
-          { de: "kalt", fa: "Ø³Ø±Ø¯", article: "-", plural: "-", examples: [{ de: "Im Winter ist es kalt.", fa: "Ø¯Ø± Ø²Ù…Ø³ØªØ§Ù† Ø³Ø±Ø¯ Ø§Ø³Øª." }] },
-          { de: "warm", fa: "Ú¯Ø±Ù… (Ù…Ø·Ø¨ÙˆØ¹)", article: "-", plural: "-", examples: [{ de: "Der FrÃ¼hling ist warm.", fa: "Ø¨Ù‡Ø§Ø± Ú¯Ø±Ù… Ø§Ø³Øª." }] },
-          { de: "kÃ¼hl", fa: "Ø®Ù†Ú©", article: "-", plural: "-", examples: [{ de: "Der Herbst ist kÃ¼hl.", fa: "Ù¾Ø§ÛŒÛŒØ² Ø®Ù†Ú© Ø§Ø³Øª." }] },
-          { de: "schÃ¶n", fa: "Ø²ÛŒØ¨Ø§/Ø®ÙˆØ¨", article: "-", plural: "-", examples: [{ de: "Das Wetter ist schÃ¶n.", fa: "Ù‡ÙˆØ§ Ø®ÙˆØ¨ Ø§Ø³Øª." }] }
+          { de: "der Januar", fa: "ژانویه", article: "der", ipa: "[ˈjanʊaːɐ̯]", examples: [{ de: "Im Januar ist es kalt.", fa: "ژانویه سرد است." }] },
+          { de: "der Februar", fa: "فوریه", article: "der", ipa: "[ˈfeːbʁʊaːɐ̯]", examples: [{ de: "Der Februar hat 28 oder 29 Tage.", fa: "فوریه ۲۸ یا ۲۹ روز دارد." }] },
+          { de: "der März", fa: "مارس", article: "der", ipa: "[mɛʁts]", examples: [{ de: "Im März beginnt der Frühling.", fa: "مارس شروع بهار است." }] },
+          { de: "der April", fa: "آوریل", article: "der", ipa: "[aˈpʁɪl]", examples: [{ de: "Im April regnet es oft.", fa: "آوریل اغلب بارانی است." }] },
+          { de: "der Mai", fa: "مه", article: "der", ipa: "[maɪ]", examples: [{ de: "Der Mai ist der Monat der Blumen.", fa: "مه ماه گل‌ها است." }] },
+          { de: "der Juni", fa: "ژوئن", article: "der", ipa: "[ˈjuːni]", examples: [{ de: "Im Juni beginnt der Sommer.", fa: "ژوئن شروع تابستان است." }] },
+          { de: "der Juli", fa: "ژوئیه", article: "der", ipa: "[ˈjuːli]", examples: [{ de: "Der Juli ist der wärmste Monat.", fa: "ژوئیه گرم‌ترین ماه است." }] },
+          { de: "der August", fa: "آگوست", article: "der", ipa: "[aʊˈɡʊst]", examples: [{ de: "Im August sind Ferien.", fa: "آگوست تعطیلات تابستانی است." }] },
+          { de: "der September", fa: "سپتامبر", article: "der", ipa: "[zɛpˈtɛmbɐ̯]", examples: [{ de: "Im September beginnt die Schule.", fa: "سپتامبر شروع مدرسه است." }] },
+          { de: "der Oktober", fa: "اکتبر", article: "der", ipa: "[ɔkˈtoːbɐ̯]", examples: [{ de: "Im Oktober werden die Blätter bunt.", fa: "اکتبر برگ‌ها رنگی می‌شوند." }] },
+          { de: "der November", fa: "نوامبر", article: "der", ipa: "[noˈvɛmbɐ̯]", examples: [{ de: "Im November ist es oft neblig.", fa: "نوامبر اغلب مه‌آلود است." }] },
+          { de: "der Dezember", fa: "دسامبر", article: "der", ipa: "[dɛˈtsɛmbɐ̯]", examples: [{ de: "Im Dezember ist Weihnachten.", fa: "دسامبر کریسمس است." }] }
+        ]
+      },
+      {
+        title: "فصول و قرار ملاقات",
+        words: [
+          { de: "der Frühling", fa: "بهار", article: "der", ipa: "[ˈfʁyːlɪŋ]", examples: [{ de: "Im Frühling blühen die Blumen.", fa: "بهار گل‌ها شکوفه می‌دهند." }] },
+          { de: "der Sommer", fa: "تابستان", article: "der", ipa: "[ˈzɔmɐ̯]", examples: [{ de: "Im Sommer ist es warm.", fa: "تابستان گرم است." }] },
+          { de: "der Herbst", fa: "پاییز", article: "der", ipa: "[hɛʁpst]", examples: [{ de: "Im Herbst fallen die Blätter.", fa: "پاییز برگ‌ها می‌ریزند." }] },
+          { de: "der Winter", fa: "زمستان", article: "der", ipa: "[ˈvɪntɐ̯]", examples: [{ de: "Im Winter schneit es oft.", fa: "زمستان اغثل می‌برفد." }] },
+          { de: "der Termin", fa: "قرار ملاقات", article: "der", plural: "die Termine", ipa: "[tɛʁˈmiːn]", examples: [{ de: "Ich habe einen Termin.", fa: "قرار ملاقات دارم." }] },
+          { de: "die Zeit [tsaɪt]", fa: "وقت", article: "die", plural: "die Zeiten", examples: [{ de: "Ich habe keine Zeit.", fa: "وقت ندارم." }] },
+          { de: "treffen", fa: "ملاقات کردن", article: "", plural: "", ipa: "[ˈtʁɛfən]", conjugation: { ich:"treffe", du:"triffst", er:"trifft", wir:"treffen", ihr:"trefft", sie:"treffen" }, examples: [{ de: "Wir treffen uns am Samstag.", fa: "شنبه ملاقات می‌کنیم." }] }
         ]
       }
     ]
   },
   reading: [
     {
-      text: "Das Wetter in Deutschland: Im FrÃ¼hling ist das Wetter oft wechselhaft. Manchmal scheint die Sonne, manchmal regnet es. Im Sommer ist es heiÃŸ und sonnig. Die Temperaturen sind oft 25 bis 30 Grad. Im Herbst wird es kÃ¼hl und regnerisch. Die BlÃ¤tter werden bunt und fallen von den BÃ¤umen. Im Winter ist es kalt und oft schneit es. Die Temperaturen sind oft unter null Grad.",
+      text: "Meine Woche. Am Montag arbeite ich von acht bis fünf. Am Dienstag habe ich einen Arzttermin um vierzehn Uhr. Am Mittwoch treffe ich meine Freundin um achtzehn Uhr. Am Donnerstag gehe ich einkaufen. Am Freitagabend gehe ich ins Kino. Am Samstagmorgen schlafe ich lange. Am Sonntag bin ich mit meiner Familie zusammen.",
+      translation: "هفته من. دوشنبه از هشت تا پنج کار می‌کنم. سه‌شنبه ساعت چهارده قرار پزشک دارم. چهارشنبه ساعت هجده با دوستم ملاقات می‌کنم. پنج‌شنبه خرید می‌روم. جمعه شب به سینما می‌روم. شنبه صبح طولانی می‌خوابم. یکشنبه با خانواده‌ام می‌مانم.",
       questions: [
-        { question: "Ø¯Ø± Ø¨Ù‡Ø§Ø± Ù‡ÙˆØ§ Ú†Ø·ÙˆØ± Ø§Ø³ØªØŸ", answer: "Ø¯Ø± Ø¨Ù‡Ø§Ø± Ù‡ÙˆØ§ Ù…ØªØºÛŒØ± Ø§Ø³Øª: Ú¯Ø§Ù‡ÛŒ Ø¢ÙØªØ§Ø¨ÛŒ Ùˆ Ú¯Ø§Ù‡ÛŒ Ø¨Ø§Ø±Ø§Ù†ÛŒ." },
-        { question: "Ø¯Ø± ØªØ§Ø¨Ø³ØªØ§Ù† Ø¯Ù…Ø§ Ú†Ù‚Ø¯Ø± Ø§Ø³ØªØŸ", answer: "Ø¯Ø± ØªØ§Ø¨Ø³ØªØ§Ù† Ø¯Ù…Ø§ Ø§ØºلØ¨ Û²Ûµ ØªØ§ Û³Û° Ø¯Ø±Ø¬Ù‡ Ø§Ø³Øª." },
-        { question: "Ø¯Ø± Ù¾Ø§ÛŒÛŒØ² Ú†Ù‡ Ø§ØªÙØ§Ù‚ÛŒ Ø¨Ø±Ø§ÛŒ Ø¨Ø±Ú¯â€ŒÙ‡Ø§ Ù…ÛŒâ€ŒØ§ÙØªØ¯ØŸ", answer: "Ø¨Ø±Ú¯â€ŒÙ‡Ø§ Ø±Ù†Ú¯Ø§Ø±Ù†Ú¯ Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯ Ùˆ Ø§Ø² Ø¯Ø±Ø®Øªâ€ŒÙ‡Ø§ Ù…ÛŒâ€ŒØ±ÛŒØ²Ù†Ø¯." },
-        { question: "Ø¯Ø± Ø²Ù…Ø³ØªØ§Ù† Ø¯Ù…Ø§ Ú†Ù‚Ø¯Ø± Ø§Ø³ØªØŸ", answer: "Ø¯Ø± Ø²Ù…Ø³ØªØ§Ù† Ø¯Ù…Ø§ Ø§ØºلØ¨ Ø²ÛŒØ± ØµÙØ± Ø¯Ø±Ø¬Ù‡ Ø§Ø³Øª." }
+        { question: "چه روزی قرار پزشک دارد؟", answer: "سه‌شنبه" },
+        { question: "چه روزی به سینما می‌رود؟", answer: "جمعه شب" },
+        { question: "کی با خانواده است؟", answer: "یکشنبه" }
+      ]
+    },
+    {
+      text: "Lisa: Hast du am Samstag Zeit? Max: Ja, warum? Lisa: Wir könnten ins Museum gehen. Max: Das ist eine gute Idee! Um wie viel Uhr treffen wir uns? Lisa: Um zehn Uhr am Eingang? Max: Perfekt! Ich komme um zehn. Lisa: Bis Samstag then! Max: Bis Samstag!",
+      translation: "لیزا: شنبه وقت داری؟ ماکس: بله، چرا؟ لیزا: می‌توانیم به موزه برویم. ماکس: این ایده خوبی است! ساعت چند ملاقات کنیم؟ لیزا: ساعت ده ورودی؟ ماکس: عالی! ساعت ده می‌آیم. لیزا: تا شنبه! ماکس: تا شنبه!",
+      questions: [
+        { question: "کجا می‌روند؟", answer: "به موزه" },
+        { question: "چه ساعتی ملاقات می‌کنند؟", answer: "ساعت ده" }
       ]
     }
   ],
   writing: [
     {
-      title: "ØªÙˆØµÛŒÙ Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ Ø¯Ø± ÛŒÚ© Ù‡ÙØªÙ‡",
-      prompt: "Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ÛŒ ÛŒÚ© Ù‡ÙØªÙ‡ Ø±Ø§ ØªÙˆØµÛŒÙ Ú©Ù†ÛŒØ¯: Ù‡Ø± Ø±ÙˆØ² Ù‡ÙˆØ§ Ú†Ø·ÙˆØ± Ø§Ø³Øª Ùˆ Ø¯Ù…Ø§ Ú†Ù‚Ø¯Ø± Ø§Ø³Øª.",
+      title: "برنامه هفتگی",
+      prompt: "برنامه هفتگی خود را بنویسید با ذکر روزها و فعالیت‌ها.",
       steps: [
-        { title: "Ù‚Ø¯Ù… Ø§Ùˆل: Ù…Ø¹Ø±ÙÛŒ", text: "Ø¬Ù…لÙ‡ Ø§Ùˆل Ù‡ÙØªÙ‡ Ø±Ø§ Ù…Ø¹Ø±ÙÛŒ Ú©Ù†ÛŒØ¯.", example: { de: "Das Wetter in dieser Woche:", fa: "Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ Ø¯Ø± Ø§ÛŒÙ† Ù‡ÙØªÙ‡:" } },
-        { title: "Ù‚Ø¯Ù… Ø¯ÙˆÙ…: ØªÙˆØµÛŒÙ Ø±ÙˆØ²Ù‡Ø§", text: "Ù‡Ø± Ø±ÙˆØ² Ø±Ø§ Ø¨Ø§ Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ Ùˆ Ø¯Ù…Ø§ ØªÙˆØµÛŒÙ Ú©Ù†ÛŒØ¯.", example: { de: "Am Montag ist es sonnig und 20 Grad.", fa: "Ø¯ÙˆØ´Ù†Ø¨Ù‡ Ù‡ÙˆØ§ Ø¢ÙØªØ§Ø¨ÛŒ Ùˆ Û²Û° Ø¯Ø±Ø¬Ù‡ Ø§Ø³Øª." } },
-        { title: "Ù‚Ø¯Ù… Ø³ÙˆÙ…: Ù†ØªÛŒØ¬Ù‡â€ŒÚ¯ÛŒØ±ÛŒ", text: "Ø®لØ§ØµÙ‡ Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ÛŒ Ù‡ÙØªÙ‡.", example: { de: "Das Wetter ist sehr schÃ¶n diese Woche.", fa: "Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ Ø¯Ø± Ø§ÛŒÙ† Ù‡ÙØªÙ‡ Ø®ÛŒلÛŒ Ø®ÙˆØ¨ Ø§Ø³Øª." } }
+        { title: "روزهای کاری", text: "دوشنبه تا جمعه چه کاری انجام می‌دهید؟", example: { de: "Am Montag arbeite ich.", fa: "دوشنبه کار می‌کنم." } },
+        { title: "آخر هفته", text: "شنبه و یکشنبه چه کاری انجام می‌دهید؟", example: { de: "Am Wochenende ruhe ich mich aus.", fa: "آخر هفته استراحت می‌کنم." } }
       ],
-      modelAnswer: "Das Wetter in dieser Woche:\n\nAm Montag ist es sonnig und warm. Die Temperatur betrÃ¤gt 22 Grad.\nAm Dienstag ist es bewÃ¶lkt, aber es regnet nicht. Es ist 18 Grad.\nAm Mittwoch regnet es den ganzen Tag. Es ist nur 15 Grad.\nAm Donnerstag ist es neblig am Morgen, aber nachmittags scheint die Sonne. Es ist 19 Grad.\nAm Freitag ist es windig und kÃ¼hl. Es ist 14 Grad.\nAm Samstag ist es sonnig und schÃ¶n. Es ist 21 Grad.\nAm Sonntag ist es warm und sonnig. Es ist 24 Grad.\n\nDas Wetter ist sehr schÃ¶n diese Woche, besonders am Wochenende!"
+      modelAnswer: "Am Montag arbeite ich von neun bis fünf. Am Dienstag habe ich einen Termin beim Arzt. Am Mittwoch treffe ich meine Freundin. Am Donnerstag lerne ich Deutsch. Am Freitagabend gehe ich aus. Am Samstagmorgen schlafe ich lange. Am Sonntag bin ich mit meiner Familie."
     }
   ],
   listening: [
     {
-      title: "Ú¯ÙˆØ´ Ø¯Ø§Ø¯Ù† Ø¨Ù‡ Ú¯Ø²Ø§Ø±Ø´ Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§",
-      source: "Deutsch lernen - Wetterbericht",
-      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      instructions: "Ø¨Ù‡ Ú¯Ø²Ø§Ø±Ø´ Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ÛŒ Ù‡Ø± Ø±ÙˆØ² Ùˆ Ø¯Ù…Ø§ Ø±Ø§ ÛŒØ§Ø¯Ø¯Ø§Ø´Øª Ú©Ù†ÛŒØ¯."
+      title: "گوش دادن به قرار ملاقات",
+      instruction: "به مکالمه گوش دهید و روز و ساعت قرار را بنویسید.",
+      sentences: [
+        { de: "Hast du am Dienstag Zeit?", fa: "سه‌شنبه وقت داری؟", tts: "Hast du am Dienstag Zeit?" },
+        { de: "Ja, um vierzehn Uhr.", fa: "بله، ساعت چهارده.", tts: "Ja, um vierzehn Uhr." },
+        { de: "Wir treffen uns am Samstag.", fa: "شنبه ملاقات می‌کنیم.", tts: "Wir treffen uns am Samstag." },
+        { de: "Am Sonntag bin ich zu Hause.", fa: "یکشنبه خانه هستم.", tts: "Am Sonntag bin ich zu Hause." }
+      ]
     }
   ],
   speaking: [
     {
-      title: "ØªÙˆØµÛŒÙ Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§",
-      pattern: "A: Wie ist das Wetter heute?\nB: Heute ist es [Adjektiv]. Die Temperatur betrÃ¤gt [Zahl] Grad.\nA: Und morgen?\nB: Morgen wird es [Verb/Adjektiv].",
-      exercise: "Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ÛŒ Ø§Ù…Ø±ÙˆØ² Ùˆ ÙØ±Ø¯Ø§ Ø±Ø§ ØªÙˆØµÛŒÙ Ú©Ù†ÛŒØ¯."
+      title: "ساختن قرار",
+      pattern: "Hast du am [روز] Zeit? - Ja, um [ساعت] Uhr.",
+      exercise: "سه قرار ملاقات با دوستان بسازید."
     }
   ],
-  cultureTip: "Ø¢لÙ…Ø§Ù†ÛŒâ€ŒÙ‡Ø§ Ø¹Ø§Ø´Ù‚ ØµØ­Ø¨Øª Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ Ù‡Ø³ØªÙ†Ø¯! Ø§ÛŒÙ† ÛŒÚ© Ù…ÙˆØ¶ÙˆØ¹ Ù…Ú©Ø§لÙ…Ù‡ Ø±Ø§ÛŒØ¬ Ø§Ø³Øª. Ø¯Ø± Ø¢لÙ…Ø§Ù†ØŒ Ø¢Ø¨ Ùˆ Ù‡ÙˆØ§ Ù…ÛŒâ€ŒØªÙˆØ§Ù†Ø¯ Ø¯Ø± ÛŒÚ© Ø±ÙˆØ² ØªØºÛŒÛŒØ± Ú©Ù†Ø¯ØŒ Ø¨Ù‡ Ù‡Ù…ÛŒÙ† Ø¯لÛŒل Ù…Ø±Ø¯Ù… Ø§ØºلØ¨ Ú†ØªØ± Ø¨Ø§ Ø®ÙˆØ¯ Ø­Ù…ل Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯. Ù‡ÙˆØ§Ø´Ù†Ø§Ø³ÛŒ Ø¢لÙ…Ø§Ù† (Deutscher Wetterdienst) Ø¨Ø³ÛŒØ§Ø± Ø¯Ù‚ÛŒÙ‚ Ø§Ø³Øª.",
+  cultureTip: "در آلمان، قرار ملاقات بسیار مهم است و迟到 مردود است. معمولاً از قبل برنامه‌ریزی می‌کنند. آخر هفته‌ها (Wochenende) برای خانواده و استراحت اختصاص دارد. شنبه‌ها معمولاً روز خرید است چون مغازه‌ها باز هستند.",
   examData: {
     questions: [
-      { question: "لØ¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¨Ø§Ø±Ø¯ل Ú†Ú¯ÙˆÙ†Ù‡ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["es regnet", "es schneit", "es blitzt", "es donnert"], answer: 0 },
-      { question: "لÙ‡ÙˆØ§ Ø¢ÙØªØ§Ø¨ÛŒ Ø§Ø³Øªل Ú†Ú¯ÙˆÙ†Ù‡ Ú¯ÙØªÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Es ist sonnig.", "Es ist regnerisch.", "Es ist windig.", "Es ist bewÃ¶lkt."], answer: 0 },
-      { question: "لØ¯Ø± Ø²Ù…Ø³ØªØ§Ù† Ø³Ø±Ø¯ Ø§Ø³Øªل Ú†Ú¯ÙˆÙ†Ù‡ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Im Winter ist es kalt.", "Im Winter schneit es.", "Im Winter regnet es.", "Im Winter ist es heiÃŸ."], answer: 0 },
-      { question: "لØ¨Ø±Ù Ù…ÛŒâ€ŒØ¨Ø§Ø±Ø¯ل Ú†Ú¯ÙˆÙ†Ù‡ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["es schneit", "es regnet", "es blitzt", "es donnert"], answer: 0 },
-      { question: "Ú©Ø¯Ø§Ù… ØµÙØª Ø¨Ø±Ø§ÛŒ ØªØ§Ø¨Ø³ØªØ§Ù† Ù…Ù†Ø§Ø³Ø¨ Ø§Ø³ØªØŸ", options: ["heiÃŸ", "kalt", "kÃ¼hl", "neblig"], answer: 0 },
-      { question: "لØ®ÙˆØ±Ø´ÛŒØ¯ Ù…ÛŒâ€ŒØªØ§Ø¨Ø¯ل Ú†Ú¯ÙˆÙ†Ù‡ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Die Sonne scheint.", "Die Sonne regnet.", "Die Sonne schneit.", "Die Sonne weht."], answer: 0 },
-      { question: "Ú©Ø¯Ø§Ù… ÙØµل Ø³Ø±Ø¯ Ùˆ Ø¨Ø±ÙÛŒ Ø§Ø³ØªØŸ", options: ["der Winter", "der Sommer", "der FrÃ¼hling", "der Herbst"], answer: 0 },
-      { question: "لÙ‡ÙˆØ§ Û²Ûµ Ø¯Ø±Ø¬Ù‡ Ø§Ø³Øªل Ú†Ú¯ÙˆÙ†Ù‡ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Es ist 25 Grad.", "Es ist 25 Uhr.", "Es ist 25 Meter.", "Es ist 25 Kilo."], answer: 0 }
+      { question: "«دوشنبه» چیست؟", options: ["der Montag", "der Dienstag", "der Mittwoch", "der Freitag"], answer: 0 },
+      { question: "«سپتامبر» چیست؟", options: ["der September", "der Oktober", "der November", "der August"], answer: 0 },
+      { question: "«بهار» چیست؟", options: ["der Frühling", "der Sommer", "der Herbst", "der Winter"], answer: 0 },
+      { question: "ساختار «در دوشنبه» چیست؟", options: ["am Montag", "im Montag", "auf Montag", "nach Montag"], answer: 0 },
+      { question: "«قرار ملاقات» چیست؟", options: ["der Termin", "die Termin", "das Termin", "Termine"], answer: 0 },
+      { question: "کدام شنبه است؟", options: ["Samstag", "Sonntag", "Montag", "Freitag"], answer: 0 },
+      { question: "«من وقت دارم» چگونه گفته می‌شود؟", options: ["Ich habe Zeit.", "Ich bin Zeit.", "Ich mache Zeit.", "Ich spare Zeit."], answer: 0 },
+      { question: "«ملاقات کردن» چیست؟", options: ["treffen", "finden", "kommen", "gehen"], answer: 0 },
+      { question: "کدام ماه سردترین است؟", options: ["Dezember", "Januar", "Februar", "März"], answer: 0 },
+      { question: "«یکشنبه» چیست؟", options: ["Sonntag", "Samstag", "Montag", "Dienstag"], answer: 0 }
     ]
   }
 };

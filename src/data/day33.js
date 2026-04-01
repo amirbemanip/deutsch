@@ -1,61 +1,66 @@
 export const day33Data = {
-  title: "Ø±ÙˆØ² Û³Û³: um...zu Ùˆ damit - Ø¬Ù…لØ§Øª Ù‡Ø¯ÙÛŒ",
-  objective: "ÛŒØ§Ø¯Ú¯ÛŒØ±ÛŒ Ø¨ÛŒØ§Ù† Ù‡Ø¯Ù Ùˆ Ù…Ù†Ø¸ÙˆØ± Ø¨Ø§ Ø³Ø§Ø®ØªØ§Ø±Ù‡Ø§ÛŒ um...zu Ùˆ damit Ø¯Ø± Ø¬Ù…لØ§Øª Ø¢لÙ…Ø§Ù†ÛŒ",
+  title: "روز ۳۳: um...zu و damit - جملات هدفی",
+  objective: "یادگیری بیان هدف و منظور با ساختارهای um...zu و damit در جملات آلمانی",
+  level: "A2",
 
   grammarData: {
-    subtitle: "Ø¬Ù…لØ§Øª Ù‡Ø¯ÙÛŒ (FinalsÃ¤tze)",
+    subtitle: "جملات هدفی (Finalsätze)",
     content: [
       {
         type: "text",
-        title: "um...zu Ú†ÛŒØ³Øª Ùˆ Ú†Ù‡ ÙˆÙ‚Øª Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-        text: "ÙˆÙ‚ØªÛŒ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡ÛŒÙ… Ù‡Ø¯Ù ÛŒÚ© Ú©Ø§Ø± Ø±Ø§ Ø¨ÛŒØ§Ù† Ú©Ù†ÛŒÙ… (Ø¨Ø±Ø§ÛŒ Ú†Ù‡ Ú©Ø§Ø±ÛŒØŸ)ØŒ Ø§Ø² um...zu Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…. Ø´Ø±Ø· Ù…Ù‡Ù…: ÙØ§Ø¹ل Ù‡Ø± Ø¯Ùˆ Ø¬Ù…لÙ‡ Ø¨Ø§ÛŒØ¯ ÛŒÚ©Ø³Ø§Ù† Ø¨Ø§Ø´Ø¯. ÙØ±Ù…Ùˆل: Ø¬Ù…لÙ‡ Ø§ØµلÛŒ + Ú©Ø§Ù…Ø§ + um + Ø¨Ù‚ÛŒÙ‡ Ú©لÙ…Ø§Øª + zu + Ù…ØµØ¯Ø± ÙØ¹ل Ø¯Ø± Ø¢Ø®Ø±."
+        title: "um...zu چیست و چه وقت استفاده می‌شود؟",
+        text: "وقتی می‌خواهیم هدف یک کار را بیان کنیم (برای چه کاری؟)، از um...zu استفاده می‌کنیم. شرط مهم: فاعل هر دو جمله باید یکسان باشد. فرمول: جمله اصلی + کاما + um + بقیه کلمات + zu + مصدر فعل در آخر."
       },
       {
         type: "alert",
-        title: "ÙØ±Ù…Ùˆل um...zu!",
-        text: "Subject + Verb + ..., um + ... + zu + Infinitiv. Ù…Ø«Ø§ل: Ich lerne Deutsch, um in Deutschland zu arbeiten. (Ù…Ù† Ø¢لÙ…Ø§Ù†ÛŒ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù†Ù… ØªØ§ Ø¯Ø± Ø¢لÙ…Ø§Ù† Ú©Ø§Ø± Ú©Ù†Ù….) ÙØ§Ø¹ل Ù‡Ø± Ø¯Ùˆ Ø¨Ø®Ø´ Ich Ø§Ø³Øª."
+        title: "فرمول um...zu!",
+        text: "Subject + Verb + ..., um + ... + zu + Infinitiv. مثال: Ich lerne Deutsch, um in Deutschland zu arbeiten. (من آلمانی می‌خوانم تا در آلمان کار کنم.) فاعل هر دو بخش Ich است."
       },
       {
         type: "text",
-        title: "damit Ú†ÛŒØ³Øª Ùˆ Ú†Ù‡ ÙˆÙ‚Øª Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-        text: "ÙˆÙ‚ØªÛŒ ÙØ§Ø¹ل Ø¬Ù…لÙ‡ Ø§Ùˆل Ø¨Ø§ ÙØ§Ø¹ل Ø¬Ù…لÙ‡ Ø¯ÙˆÙ… Ù…ØªÙØ§ÙˆØª Ø¨Ø§Ø´Ø¯ØŒ Ø§Ø² damit Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…. damit ÛŒÚ© Subjunktion Ø§Ø³Øª Ùˆ ÙØ¹ل Ø±Ø§ Ø¨Ù‡ Ø¢Ø®Ø± Ø¬Ù…لÙ‡ Ù…ÛŒâ€ŒÙØ±Ø³ØªØ¯."
+        title: "damit چیست و چه وقت استفاده می‌شود؟",
+        text: "وقتی فاعل جمله اول با فاعل جمله دوم متفاوت است، از damit استفاده می‌کنیم. damit یک Subjunktion است و فعل را به آخر جمله می‌فرستد."
       },
       {
         type: "table",
-        title: "ØªÙØ§ÙˆØª um...zu Ùˆ damit",
+        title: "تفاوت um...zu و damit",
         rows: [
-          { de: "um...zu + Infinitiv", fa: "ÙØ§Ø¹ل Ù‡Ø± Ø¯Ùˆ Ø¬Ù…لÙ‡ ÛŒÚ©Ø³Ø§Ù† Ø§Ø³Øª" },
-          { de: "damit + Verb Ø¯Ø± Ø¢Ø®Ø±", fa: "ÙØ§Ø¹ل Ø¬Ù…لÙ‡â€ŒÙ‡Ø§ Ù…ØªÙØ§ÙˆØª Ø§Ø³Øª" },
-          { de: "Ich spare Geld, um ein Auto zu kaufen.", fa: "Ù…Ù† Ù¾Ùˆل Ù¾Ø³â€ŒØ§Ù†Ø¯Ø§Ø² Ù…ÛŒâ€ŒÚ©Ù†Ù… ØªØ§ Ù…Ø§Ø´ÛŒÙ† Ø¨Ø®Ø±Ù…. (ÙØ§Ø¹ل: Ù…Ù†)" },
-          { de: "Ich spare Geld, damit meine Frau ein Auto kaufen kann.", fa: "Ù…Ù† Ù¾Ùˆل Ù¾Ø³â€ŒØ§Ù†Ø¯Ø§Ø² Ù…ÛŒâ€ŒÚ©Ù†Ù… ØªØ§ Ù‡Ù…Ø³Ø±Ù… Ø¨ØªÙˆØ§Ù†Ø¯ Ù…Ø§Ø´ÛŒÙ† Ø¨Ø®Ø±Ø¯. (ÙØ§Ø¹ل: Ù…Ù† â†’ Ù‡Ù…Ø³Ø±Ù…)" }
+          { de: "um...zu + Infinitiv", fa: "فاعل هر دو جمله یکسان است" },
+          { de: "damit + Verb در آخر", fa: "فاعل جمله‌ها متفاوت است" },
+          { de: "Ich spare Geld, um ein Auto zu kaufen.", fa: "من پول پس‌انداز می‌کنم تا ماشین بخرم. (فاعل: من)" },
+          { de: "Ich spare Geld, damit meine Frau ein Auto kaufen kann.", fa: "من پول پس‌انداز می‌کنم تا همسرم بتواند ماشین بخرد. (فاعل: من → همسرم)" },
+          { de: "Er lernt viel, um die Prüfung zu bestehen.", fa: "او زیاد درس می‌خواند تا در امتحان قبول شود." },
+          { de: "Er lernt viel, damit seine Eltern stolz sind.", fa: "او زیاد درس می‌خواند تا والدینش مفتخر باشند." }
         ]
       },
       {
         type: "examples",
-        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ um...zu",
+        title: "مثال‌های um...zu",
         items: [
-          { de: "Ich lerne jeden Tag, um die PrÃ¼fung zu bestehen.", fa: "Ù‡Ø± Ø±ÙˆØ² Ø¯Ø±Ø³ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù†Ù… ØªØ§ Ø¯Ø± Ø§Ù…ØªØ­Ø§Ù† Ù‚Ø¨Ùˆل Ø´ÙˆÙ…." },
-          { de: "Er geht frÃ¼h schlafen, um morgen fit zu sein.", fa: "Ø§Ùˆ Ø²ÙˆØ¯ Ù…ÛŒâ€ŒØ®ÙˆØ§Ø¨Ø¯ ØªØ§ ÙØ±Ø¯Ø§ Ø³Ø±Ø­Ø§ل Ø¨Ø§Ø´Ø¯." },
-          { de: "Wir fahren nach Berlin, um unsere Freunde zu besuchen.", fa: "Ù…Ø§ Ø¨Ù‡ Ø¨Ø±لÛŒÙ† Ù…ÛŒâ€ŒØ±ÙˆÛŒÙ… ØªØ§ Ø¯ÙˆØ³ØªØ§Ù†Ù…Ø§Ù† Ø±Ø§ Ø¨Ø¨ÛŒÙ†ÛŒÙ…." },
-          { de: "Sie arbeitet viel, um Geld zu sparen.", fa: "Ø§Ùˆ Ø²ÛŒØ§Ø¯ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ø¯ ØªØ§ Ù¾Ùˆل Ù¾Ø³â€ŒØ§Ù†Ø¯Ø§Ø² Ú©Ù†Ø¯." }
+          { de: "Ich lerne jeden Tag, um die Prüfung zu bestehen.", fa: "هر روز درس می‌خوانم تا در امتحان قبول شوم." },
+          { de: "Er geht früh schlafen, um morgen fit zu sein.", fa: "او زود می‌خوابد تا فردا سرحال باشد." },
+          { de: "Wir fahren nach Berlin, um unsere Freunde zu besuchen.", fa: "ما به برلین می‌رویم تا دوستانمان را ببینیم." },
+          { de: "Sie arbeitet viel, um Geld zu sparen.", fa: "او زیاد کار می‌کند تا پول پس‌انداز کند." },
+          { de: "Ich gehe ins Fitnessstudio, um gesund zu bleiben.", fa: "به باشگاه می‌روم تا سالم بمانم." },
+          { de: "Wir lernen zusammen, um schneller besser zu werden.", fa: "با هم درس می‌خوانیم تا سریع‌تر بهتر شویم." }
         ]
       },
       {
         type: "examples",
-        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ damit",
+        title: "مثال‌های damit",
         items: [
-          { de: "Ich erklÃ¤re es dir, damit du es verstehst.", fa: "Ø¨Ø±Ø§ÛŒØª ØªÙˆØ¶ÛŒØ­ Ù…ÛŒâ€ŒØ¯Ù‡Ù… ØªØ§ ØªÙˆ Ø¢Ù† Ø±Ø§ Ø¨ÙÙ‡Ù…ÛŒ." },
-          { de: "Die Mutter kocht, damit die Kinder satt werden.", fa: "Ù…Ø§Ø¯Ø± Ø¢Ø´Ù¾Ø²ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ø¯ ØªØ§ Ø¨Ú†Ù‡â€ŒÙ‡Ø§ Ø³ÛŒØ± Ø´ÙˆÙ†Ø¯." },
-          { de: "Er spricht langsam, damit alle ihn verstehen.", fa: "Ø§Ùˆ Ø¢Ø±Ø§Ù… ØµØ­Ø¨Øª Ù…ÛŒâ€ŒÚ©Ù†Ø¯ ØªØ§ Ù‡Ù…Ù‡ Ø§Ùˆ Ø±Ø§ Ø¨ÙÙ‡Ù…Ù†Ø¯." },
-          { de: "Wir kaufen Geschenke, damit sich die Kinder freuen.", fa: "Ù…Ø§ Ù‡Ø¯ÛŒÙ‡ Ù…ÛŒâ€ŒØ®Ø±ÛŒÙ… ØªØ§ Ø¨Ú†Ù‡â€ŒÙ‡Ø§ Ø®ÙˆØ´Ø­Ø§ل Ø´ÙˆÙ†Ø¯." }
+          { de: "Ich erkläre es dir, damit du es verstehst.", fa: "برایت توضیح می‌دهم تا تو آن را بفهمی." },
+          { de: "Die Mutter kocht, damit die Kinder satt werden.", fa: "مادر آشپزی می‌کند تا بچه‌ها سیر شوند." },
+          { de: "Er spricht langsam, damit alle ihn verstehen.", fa: "او آرام صحبت می‌کند تا همه او را بفهمند." },
+          { de: "Wir kaufen Geschenke, damit sich die Kinder freuen.", fa: "ما هدیه می‌خریم تا بچه‌ها خوشحال شوند." }
         ]
       },
       {
         type: "interactive_quiz",
-        title: "ØªØ³Øª um...zu Ùˆ damit",
+        title: "تست um...zu و damit",
         questions: [
           {
-            question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ Ù…Ù† Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ù… ØªØ§ Ù¾Ùˆل Ø¯Ø±Ø¨ÛŒØ§ÙˆØ±Ù….",
+            question: "کدام جمله صحیح است؟ من کار می‌کنم تا پول دربیاورم.",
             questionDe: "Welcher Satz ist richtig?",
             options: [
               { text: "Ich arbeite, um Geld zu verdienen.", isCorrect: true },
@@ -63,21 +68,21 @@ export const day33Data = {
               { text: "Ich arbeite, um Geld verdienen.", isCorrect: false },
               { text: "Ich arbeite, zu Geld verdienen.", isCorrect: false }
             ],
-            explanation: "Ú†ÙˆÙ† ÙØ§Ø¹ل Ù‡Ø± Ø¯Ùˆ Ø¨Ø®Ø´ ÛŒÚ©Ø³Ø§Ù† Ø§Ø³Øª (Ù…Ù†)ØŒ Ø§Ø² um...zu Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…."
+            explanation: "چون فاعل هر دو بخش یکسان است (من)، از um...zu استفاده می‌کنیم."
           },
           {
-            question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ Ù…Ù† Ø¢Ø±Ø§Ù… ØµØ­Ø¨Øª Ù…ÛŒâ€ŒÚ©Ù†Ù… ØªØ§ Ø¯ÙˆØ³ØªÙ… Ù…Ø±Ø§ Ø¨ÙÙ‡Ù…Ø¯.",
-            questionDe: "FÃ¤lle mit verschiedenem Subjekt brauchen damit.",
+            question: "کدام جمله صحیح است؟ من آرام صحبت می‌کنم تا دوستم مرا بفهمد.",
+            questionDe: "Fälle mit verschiedenem Subjekt brauchen damit.",
             options: [
               { text: "Ich spreche langsam, um mein Freund mich versteht.", isCorrect: false },
               { text: "Ich spreche langsam, damit mein Freund mich versteht.", isCorrect: true },
               { text: "Ich spreche langsam, um mein Freund zu verstehen.", isCorrect: false },
               { text: "Ich spreche langsam, damit mein Freund mich zu verstehen.", isCorrect: false }
             ],
-            explanation: "Ú†ÙˆÙ† ÙØ§Ø¹لâ€ŒÙ‡Ø§ Ù…ØªÙØ§ÙˆØª Ù‡Ø³ØªÙ†Ø¯ (Ù…Ù† Ùˆ Ø¯ÙˆØ³ØªÙ…)ØŒ Ø¨Ø§ÛŒØ¯ Ø§Ø² damit Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒÙ…."
+            explanation: "چون فاعل‌ها متفاوت هستند (من و دوستم)، باید از damit استفاده کنیم."
           },
           {
-            question: "Ú©Ø¯Ø§Ù… Ø³Ø§Ø®ØªØ§Ø± ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ Ich gehe frÃ¼h ins Bett, ___",
+            question: "کدام ساختار صحیح است؟ Ich gehe früh ins Bett, ___",
             questionDe: "um...zu oder damit?",
             options: [
               { text: "um morgen fit zu sein.", isCorrect: true },
@@ -85,23 +90,23 @@ export const day33Data = {
               { text: "um morgen fit sein.", isCorrect: false },
               { text: "zu morgen fit sein.", isCorrect: false }
             ],
-            explanation: "ÙØ§Ø¹ل Ù‡Ø± Ø¯Ùˆ Ich Ø§Ø³ØªØŒ Ù¾Ø³ um...zu ØµØ­ÛŒØ­ Ø§Ø³Øª."
+            explanation: "فاعل هر دو Ich است، پس um...zu صحیح است."
           }
         ]
       },
       {
         type: "fill_blank",
-        title: "ØªÚ©Ù…ÛŒل Ø¬Ù…لØ§Øª Ù‡Ø¯ÙÛŒ",
-        instruction: "Ø¬Ø§ÛŒ Ø®Ø§لÛŒ Ø±Ø§ Ø¨Ø§ um...zu ÛŒØ§ damit Ù¾Ø± Ú©Ù†ÛŒØ¯.",
+        title: "تکمیل جملات هدفی",
+        instruction: "جای خالی را با um...zu یا damit پر کنید.",
         blanks: [
-          { sentence: "Ich lerne Deutsch, ___ in Deutschland zu arbeiten.", answer: "um", hint: "ÙØ§Ø¹ل ÛŒÚ©Ø³Ø§Ù† â†’ um...zu" },
-          { sentence: "Ich helfe dir, ___ du schneller fertig wirst.", answer: "damit", hint: "ÙØ§Ø¹ل Ù…ØªÙØ§ÙˆØª â†’ damit" },
-          { sentence: "Sie spart Geld, ___ ein neues Auto zu kaufen.", answer: "um", hint: "ÙØ§Ø¹ل ÛŒÚ©Ø³Ø§Ù† â†’ um...zu" },
-          { sentence: "Er spricht laut, ___ alle ihn hÃ¶ren kÃ¶nnen.", answer: "damit", hint: "ÙØ§Ø¹ل Ù…ØªÙØ§ÙˆØª â†’ damit" },
-          { sentence: "Wir gehen ins Kino, ___ einen Film zu sehen.", answer: "um", hint: "ÙØ§Ø¹ل ÛŒÚ©Ø³Ø§Ù† â†’ um...zu" },
-          { sentence: "Die Lehrerin erklÃ¤rt es, ___ die SchÃ¼ler es verstehen.", answer: "damit", hint: "ÙØ§Ø¹ل Ù…ØªÙØ§ÙˆØª â†’ damit" },
-          { sentence: "Ich trinke Kaffee, ___ wach zu bleiben.", answer: "um", hint: "ÙØ§Ø¹ل ÛŒÚ©Ø³Ø§Ù† â†’ um...zu" },
-          { sentence: "Ich rufe dich an, ___ du Bescheid weiÃŸt.", answer: "damit", hint: "ÙØ§Ø¹ل Ù…ØªÙØ§ÙˆØª â†’ damit" }
+          { sentence: "Ich lerne Deutsch, ___ in Deutschland zu arbeiten.", answer: "um", hint: "فاعل یکسان → um...zu" },
+          { sentence: "Ich helfe dir, ___ du schneller fertig wirst.", answer: "damit", hint: "فاعل متفاوت → damit" },
+          { sentence: "Sie spart Geld, ___ ein neues Auto zu kaufen.", answer: "um", hint: "فاعل یکسان → um...zu" },
+          { sentence: "Er spricht laut, ___ alle ihn hören können.", answer: "damit", hint: "فاعل متفاوت → damit" },
+          { sentence: "Wir gehen ins Kino, ___ einen Film zu sehen.", answer: "um", hint: "فاعل یکسان → um...zu" },
+          { sentence: "Die Lehrerin erklärt es, ___ die Schüler es verstehen.", answer: "damit", hint: "فاعل متفاوت → damit" },
+          { sentence: "Ich trinke Kaffee, ___ wach zu bleiben.", answer: "um", hint: "فاعل یکسان → um...zu" },
+          { sentence: "Ich rufe dich an, ___ du Bescheid weißt.", answer: "damit", hint: "فاعل متفاوت → damit" }
         ]
       }
     ]
@@ -110,21 +115,23 @@ export const day33Data = {
   vocabData: {
     categories: [
       {
-        title: "Ù‡Ø¯Ù Ùˆ Ù…Ù†Ø¸ÙˆØ± (Ziel und Zweck)",
+        title: "هدف و منظور (Ziel und Zweck)",
         words: [
-          { de: "um...zu", fa: "Ø¨Ù‡ Ù…Ù†Ø¸ÙˆØ± / ØªØ§ Ø§ÛŒÙ†Ú©Ù‡ (ÙØ§Ø¹ل ÛŒÚ©Ø³Ø§Ù†)", article: "-", plural: "-", examples: [{ de: "Ich spare, um eine Reise zu machen.", fa: "Ù¾Ø³â€ŒØ§Ù†Ø¯Ø§Ø² Ù…ÛŒâ€ŒÚ©Ù†Ù… ØªØ§ Ø³ÙØ± Ú©Ù†Ù…." }] },
-          { de: "damit", fa: "ØªØ§ Ø§ÛŒÙ†Ú©Ù‡ (ÙØ§Ø¹ل Ù…ØªÙØ§ÙˆØª)", article: "-", plural: "-", examples: [{ de: "Ich sage es dir, damit du es weiÃŸt.", fa: "Ø¨Ù‡ ØªÙˆ Ù…ÛŒâ€ŒÚ¯ÙˆÛŒÙ… ØªØ§ Ø¨Ø¯Ø§Ù†ÛŒ." }] },
-          { de: "der Zweck", fa: "Ù‡Ø¯Ù / Ù…Ù†Ø¸ÙˆØ±", article: "der", plural: "die Zwecke", examples: [{ de: "Was ist der Zweck davon?", fa: "Ù…Ù†Ø¸ÙˆØ± Ø§Ø² Ø§ÛŒÙ† Ú†ÛŒØ³ØªØŸ" }] },
-          { de: "das Ziel", fa: "Ù‡Ø¯Ù", article: "das", plural: "die Ziele", examples: [{ de: "Mein Ziel ist es, Deutsch zu lernen.", fa: "Ù‡Ø¯Ù Ù…Ù† ÛŒØ§Ø¯Ú¯ÛŒØ±ÛŒ Ø¢لÙ…Ø§Ù†ÛŒ Ø§Ø³Øª." }] }
+          { de: "um...zu", fa: "به منظور / تا اینکه (فاعل یکسان)", ipa: "[ʊm tsuː]", article: "-", plural: "-", examples: [{ de: "Ich spare, um eine Reise zu machen.", fa: "پس‌انداز می‌کنم تا سفر کنم." }] },
+          { de: "damit", fa: "تا اینکه (فاعل متفاوت)", ipa: "[daˈmɪt]", article: "-", plural: "-", examples: [{ de: "Ich sage es dir, damit du es weißt.", fa: "به تو می‌گویم تا بدانی." }] },
+          { de: "der Zweck", fa: "هدف / منظور", ipa: "[tsvɛk]", article: "der", plural: "die Zwecke", examples: [{ de: "Was ist der Zweck davon?", fa: "منظور از این چیست؟" }] },
+          { de: "das Ziel", fa: "هدف", ipa: "[tsiːl]", article: "das", plural: "die Ziele", examples: [{ de: "Mein Ziel ist es, Deutsch zu lernen.", fa: "هدف من یادگیری آلمانی است." }] },
+          { de: "der Grund", fa: "دلیل", ipa: "[ɡʁʊnt]", article: "der", plural: "die Gründe", examples: [{ de: "Aus welchem Grund lernst du Deutsch?", fa: "به چه دلیلی آلمانی یاد می‌گیری؟" }] }
         ]
       },
       {
-        title: "Ø§ÙØ¹Ø§ل Ú©Ø§Ø±Ø¨Ø±Ø¯ÛŒ Ø¨Ø±Ø§ÛŒ Ø¬Ù…لØ§Øª Ù‡Ø¯ÙÛŒ",
+        title: "افعال کاربردی برای جملات هدفی",
         words: [
-          { de: "lernen", fa: "ÛŒØ§Ø¯ Ú¯Ø±ÙØªÙ†", article: "-", plural: "-", examples: [{ de: "Ich lerne, um besser zu werden.", fa: "ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù… ØªØ§ Ø¨Ù‡ØªØ± Ø´ÙˆÙ…." }] },
-          { de: "sparen", fa: "Ù¾Ø³â€ŒØ§Ù†Ø¯Ø§Ø² Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Er spart, um ein Haus zu kaufen.", fa: "Ø§Ùˆ Ù¾Ø³â€ŒØ§Ù†Ø¯Ø§Ø² Ù…ÛŒâ€ŒÚ©Ù†Ø¯ ØªØ§ Ø®Ø§Ù†Ù‡ Ø¨Ø®Ø±Ø¯." }] },
-          { de: "Ã¼ben", fa: "ØªÙ…Ø±ÛŒÙ† Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Sie Ã¼bt, um perfekt zu spielen.", fa: "Ø§Ùˆ ØªÙ…Ø±ÛŒÙ† Ù…ÛŒâ€ŒÚ©Ù†Ø¯ ØªØ§ Ø¨ÛŒâ€ŒÙ†Ù‚Øµ Ø¨Ù†ÙˆØ§Ø²Ø¯." }] },
-          { de: "sich bemÃ¼hen", fa: "ØªلØ§Ø´ Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Ich bemÃ¼he mich, um pÃ¼nktlich zu sein.", fa: "ØªلØ§Ø´ Ù…ÛŒâ€ŒÚ©Ù†Ù… ØªØ§ Ø³Ø± ÙˆÙ‚Øª Ø¨Ø§Ø´Ù…." }] }
+          { de: "lernen", fa: "یاد گرفتن", ipa: "[ˈlɛʁnən]", article: "-", plural: "-", conjugation: { ich: "lerne", du: "lernst", er: "lernt", wir: "lernen", ihr: "lernt", sie: "lernen" }, examples: [{ de: "Ich lerne, um besser zu werden.", fa: "یاد می‌گیرم تا بهتر شوم." }] },
+          { de: "sparen", fa: "پس‌انداز کردن", ipa: "[ˈʃpaːʁən]", article: "-", plural: "-", conjugation: { ich: "spare", du: "sparst", er: "spart", wir: "sparen", ihr: "spart", sie: "sparen" }, examples: [{ de: "Er spart, um ein Haus zu kaufen.", fa: "او پس‌انداز می‌کند تا خانه بخرد." }] },
+          { de: "üben", fa: "تمرین کردن", ipa: "[ˈyːbn̩]", article: "-", plural: "-", conjugation: { ich: "übe", du: "übst", er: "übt", wir: "üben", ihr: "übt", sie: "üben" }, examples: [{ de: "Sie übt, um perfekt zu spielen.", fa: "او تمرین می‌کند تا بی‌نقص بنوازد." }] },
+          { de: "sich bemühen", fa: "تلاش کردن", ipa: "[zɪç bəˈmyːən]", article: "-", plural: "-", conjugation: { ich: "bemühe mich", du: "bemühst dich", er: "bemüht sich", wir: "bemühen uns", ihr: "bemüht euch", sie: "bemühen sich" }, examples: [{ de: "Ich bemühe mich, um pünktlich zu sein.", fa: "تلاش می‌کنم تا سر وقت باشم." }] },
+          { de: "versuchen", fa: "سعی کردن", ipa: "[fɛɐ̯ˈzuːxn̩]", article: "-", plural: "-", conjugation: { ich: "versuche", du: "versuchst", er: "versucht", wir: "versuchen", ihr: "versucht", sie: "versuchen" }, examples: [{ de: "Er versucht, um besser zu sprechen.", fa: "او سعی می‌کند تا بهتر صحبت کند." }] }
         ]
       }
     ]
@@ -132,60 +139,66 @@ export const day33Data = {
 
   reading: [
     {
-      text: "Warum lernen wir Deutsch?\n\nViele Menschen lernen Deutsch, um in Deutschland zu studieren oder zu arbeiten. Anna zum Beispiel kommt aus Polen. Sie lernt seit zwei Jahren Deutsch, um an einer deutschen UniversitÃ¤t Medizin zu studieren.\nIhr Bruder TomÃ¡s arbeitet schon in MÃ¼nchen. Er hat frÃ¼her Deutsch gelernt, um dort einen Job zu finden. Jetzt hilft er seiner Schwester, damit sie schneller Deutsch lernt. Er erklÃ¤rt ihr die Grammatik, damit sie die PrÃ¼fung besteht.\nAnna Ã¼bt jeden Tag, um flieÃŸend zu sprechen. Sie hÃ¶rt Podcasts, damit ihr HÃ¶rverstÃ¤ndnis besser wird. Ihr Ziel ist klar: Sie mÃ¶chte nÃ¤chstes Jahr die B2-PrÃ¼fung bestehen.",
+      text: "Warum lernen wir Deutsch?\n\nViele Menschen lernen Deutsch, um in Deutschland zu studieren oder zu arbeiten. Anna zum Beispiel kommt aus Polen. Sie lernt seit zwei Jahren Deutsch, um an einer deutschen Universität Medizin zu studieren.\nIhr Bruder Tomás arbeitet schon in München. Er hat früher Deutsch gelernt, um dort einen Job zu finden. Jetzt hilft er seiner Schwester, damit sie schneller Deutsch lernt. Er erkl\u00e4rt ihr die Grammatik, damit sie die Prüfung besteht.\nAnna übt jeden Tag, um fließend zu sprechen. Sie hört Podcasts, damit ihr Hörverständnis besser wird. Ihr Ziel ist klar: Sie möchte nächstes Jahr die B2-Prüfung bestehen.",
+      translation: "چرا آلمانی یاد می‌گیریم؟\n\nخیلی از مردم آلمانی یاد می‌گیرند تا در آلمان تحصیل یا کار کنند. مثلاً آنا از لهستان آمده. او دو سال است آلمانی یاد می‌گیرد تا در دانشگاه آلمانی پزشکی بخواند.\nبرادرش توماس در مونیخ کار می‌کند. او قبلاً آلمانی یاد گرفته تا آنجا کار پیدا کند. حالا به خواهرش کمک می‌کند تا سریع‌تر آلمانی یاد بگیرد. گرامر را توضیح می‌دهد تا خواهرش در امتحان قبول شود.\nآنا هر روز تمرین می‌کند تا روان صحبت کند. به پادکست گوش می‌دهد تا مهارت شنیداری‌اش بهتر شود. هدفش واضح است: می‌خواهد سال آینده امتحان B2 را قبول شود.",
       questions: [
-        { question: "Ø¢Ù†Ø§ Ú†Ø±Ø§ Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯ØŸ", answer: "Ø¨Ù‡ Ù…Ù†Ø¸ÙˆØ± ØªØ­ØµÛŒل Ù¾Ø²Ø´Ú©ÛŒ Ø¯Ø± Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ Ø¢لÙ…Ø§Ù†." },
-        { question: "ØªÙˆÙ…Ø§Ø³ Ú†Ø±Ø§ Ù‚Ø¨لØ§Ù‹ Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ú¯Ø±ÙØªØŸ", answer: "Ø¨Ù‡ Ù…Ù†Ø¸ÙˆØ± Ù¾ÛŒØ¯Ø§ Ú©Ø±Ø¯Ù† Ú©Ø§Ø± Ø¯Ø± Ù…ÙˆÙ†ÛŒØ®." },
-        { question: "ØªÙˆÙ…Ø§Ø³ Ú†Ú¯ÙˆÙ†Ù‡ Ø¨Ù‡ Ø®ÙˆØ§Ù‡Ø±Ø´ Ú©Ù…Ú© Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ (damit)", answer: "Ø§Ùˆ Ú¯Ø±Ø§Ù…Ø± ØªÙˆØ¶ÛŒØ­ Ù…ÛŒâ€ŒØ¯Ù‡Ø¯ ØªØ§ Ø®ÙˆØ§Ù‡Ø±Ø´ Ø¯Ø± Ø§Ù…ØªØ­Ø§Ù† Ù‚Ø¨Ùˆل Ø´ÙˆØ¯." },
-        { question: "Ù‡Ø¯Ù Ù†Ù‡Ø§ÛŒÛŒ Ø¢Ù†Ø§ Ú†ÛŒØ³ØªØŸ", answer: "Ù‚Ø¨ÙˆلÛŒ Ø¯Ø± Ø§Ù…ØªØ­Ø§Ù† B2 Ø³Ø§ل Ø¢ÛŒÙ†Ø¯Ù‡." }
+        { question: "آنا چرا آلمانی یاد می‌گیرد؟", answer: "به منظور تحصیل پزشکی در دانشگاه آلمان." },
+        { question: "توماس قبلاً چرا آلمانی یاد گرفت؟", answer: "به منظور پیدا کردن کار در مونیخ." },
+        { question: "توماس چگونه به خواهرش کمک می‌کند؟ (damit)", answer: "او گرامر توضیح می‌دهد تا خواهرش در امتحان قبول شود." },
+        { question: "هدف نهایی آنا چیست؟", answer: "قبولی در امتحان B2 سال آینده." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "Ù†ÙˆØ´ØªÙ† Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø§Ù‡Ø¯Ø§Ù",
-      prompt: "ÛŒÚ© Ù¾Ø§Ø±Ø§Ú¯Ø±Ø§Ù (Û¶-Û· Ø®Ø·) Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø§Ù‡Ø¯Ø§Ù Ø®ÙˆØ¯ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯. Ø§Ø² Ø­Ø¯Ø§Ù‚ل Û³ Ø¨Ø§Ø± um...zu Ùˆ Û² Ø¨Ø§Ø± damit Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.",
+      title: "نوشتن درباره هدف",
+      prompt: "یک پاراگراف (۶-۷ خط) درباره هدف خود بنویسید. از حداقل ۳ بار um...zu و ۲ بار damit استفاده کنید.",
       steps: [
-        { title: "Ù‡Ø¯Ù Ø§ØµلÛŒ", text: "Ù‡Ø¯Ù Ø§ØµلÛŒ Ø®ÙˆØ¯ Ø±Ø§ Ø¨ÛŒØ§Ù† Ú©Ù†ÛŒØ¯.", example: { de: "Ich lerne Deutsch, um in Deutschland zu arbeiten.", fa: "Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù… ØªØ§ Ø¯Ø± Ø¢لÙ…Ø§Ù† Ú©Ø§Ø± Ú©Ù†Ù…." } },
-        { title: "Ø§Ù‡Ø¯Ø§Ù ÙØ±Ø¹ÛŒ", text: "Ø§Ù‡Ø¯Ø§Ù Ú©ÙˆÚ†Ú©â€ŒØªØ± Ø±Ø§ Ø¨ÛŒØ§Ù† Ú©Ù†ÛŒØ¯.", example: { de: "Ich Ã¼be jeden Tag, um besser zu sprechen.", fa: "Ù‡Ø± Ø±ÙˆØ² ØªÙ…Ø±ÛŒÙ† Ù…ÛŒâ€ŒÚ©Ù†Ù… ØªØ§ Ø¨Ù‡ØªØ± ØµØ­Ø¨Øª Ú©Ù†Ù…." } },
-        { title: "Ú©Ù…Ú© Ø¨Ù‡ Ø¯ÛŒÚ¯Ø±Ø§Ù†", text: "Ø§Ø² damit Ø¨Ø±Ø§ÛŒ Ú©Ù…Ú© Ø¨Ù‡ Ø¯ÛŒÚ¯Ø±Ø§Ù† Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.", example: { de: "Ich helfe meinem Bruder, damit er auch Deutsch lernt.", fa: "Ø¨Ù‡ Ø¨Ø±Ø§Ø¯Ø±Ù… Ú©Ù…Ú© Ù…ÛŒâ€ŒÚ©Ù†Ù… ØªØ§ Ø§Ùˆ Ù‡Ù… Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ø¨Ú¯ÛŒØ±Ø¯." } }
+        { title: "هدف اصلی", text: "هدف اصلی خود را بیان کنید.", example: { de: "Ich lerne Deutsch, um in Deutschland zu arbeiten.", fa: "آلمانی یاد می‌گیرم تا در آلمان کار کنم." } },
+        { title: "اهداف فرعی", text: "هدف کوچک‌تر را بیان کنید.", example: { de: "Ich übe jeden Tag, um besser zu sprechen.", fa: "هر روز تمرین می‌کنم تا بهتر صحبت کنم." } },
+        { title: "کمک به دیگران", text: "از damit برای کمک به دیگران استفاده کنید.", example: { de: "Ich helfe meinem Bruder, damit er auch Deutsch lernt.", fa: "به برادرم کمک می‌کنم تا او هم آلمانی یاد بگیرد." } }
       ],
-      modelAnswer: "Ich lerne Deutsch, um in Deutschland zu studieren. Jeden Tag Ã¼be ich, um meine Aussprache zu verbessern. Ich lese deutsche BÃ¼cher, um meinen Wortschatz zu erweitern. AuÃŸerdem helfe ich meiner Freundin, damit sie auch Deutsch lernt. Wir lernen zusammen, damit es mehr SpaÃŸ macht. Mein Ziel ist es, nÃ¤chstes Jahr die B1-PrÃ¼fung zu bestehen."
+      modelAnswer: "Ich lerne Deutsch, um in Deutschland zu studieren. Jeden Tag übe ich, um meine Aussprache zu verbessern. Ich lese deutsche Bücher, um meinen Wortschatz zu erweitern. Außerdem helfe ich meiner Freundin, damit sie auch Deutsch lernt. Wir lernen zusammen, damit es mehr Spaß macht. Mein Ziel ist es, nächstes Jahr die B1-Prüfung zu bestehen."
     }
   ],
 
   listening: [
     {
-      title: "Ú¯ÙˆØ´ Ø¯Ø§Ø¯Ù†: Ø¨ÛŒØ§Ù† Ù‡Ø¯Ù",
-      source: "Deutsche Welle",
-      link: "https://www.dw.com/de/langsam-gesprochene-nachrichten/s-60048529",
-      instructions: "Ø¨Ù‡ Ù…Ú©Ø§لÙ…Ø§Øª Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ Ø³Ø§Ø®ØªØ§Ø±Ù‡Ø§ÛŒ um...zu Ùˆ damit Ø±Ø§ Ø´Ù†Ø§Ø³Ø§ÛŒÛŒ Ú©Ù†ÛŒØ¯. Ù‡Ø¯Ù Ù‡Ø± Ú©Ø§Ø± Ø±Ø§ ÛŒØ§Ø¯Ø¯Ø§Ø´Øª Ú©Ù†ÛŒØ¯."
+      title: "گوش دادن: بیان هدف",
+      instruction: "به جملات زیر گوش دهید و تکرار کنید.",
+      sentences: [
+        { de: "Ich lerne Deutsch, um in Deutschland zu arbeiten.", fa: "آلمانی یاد می‌گیرم تا در آلمان کار کنم.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Ich lerne Deutsch, um in Deutschland zu arbeiten" },
+        { de: "Er hilft ihr, damit sie die Prüfung besteht.", fa: "به او کمک می‌کند تا در امتحان قبول شود.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Er hilft ihr, damit sie die Prüfung besteht" },
+        { de: "Wir sparen Geld, um ein Auto zu kaufen.", fa: "پول پس‌انداز می‌کنیم تا ماشین بخریم.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Wir sparen Geld, um ein Auto zu kaufen" },
+        { de: "Sie spricht langsam, damit alle verstehen.", fa: "آرام صحبت می‌کند تا همه بفهمند.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Sie spricht langsam, damit alle verstehen" },
+        { de: "Mein Ziel ist es, gesund zu bleiben.", fa: "هدف من این است که سالم بمانم.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Mein Ziel ist es, gesund zu bleiben" }
+      ]
     }
   ],
 
   speaking: [
     {
-      title: "ØªÙ…Ø±ÛŒÙ† Ú¯ÙØªØ§Ø±ÛŒ: Ú†Ø±Ø§ Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù…ØŸ",
-      pattern: "Ich lerne Deutsch, um... AuÃŸerdem lerne ich, damit...",
-      exercise: "Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø¯لØ§ÛŒل ÛŒØ§Ø¯Ú¯ÛŒØ±ÛŒ Ø¢لÙ…Ø§Ù†ÛŒ ØµØ­Ø¨Øª Ú©Ù†ÛŒØ¯. Ø§Ø² um...zu Ùˆ damit Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯ Ùˆ Ø­Ø¯Ø§Ù‚ل Û² Ø¯Ù‚ÛŒÙ‚Ù‡ ØµØ­Ø¨Øª Ú©Ù†ÛŒØ¯."
+      title: "تمرین گفتاری: چرا آلمانی یاد می‌گیرم؟",
+      pattern: "Ich lerne Deutsch, um... Außerdem lerne ich, damit...",
+      exercise: "درباره دلیل یادگیری آلمانی صحبت کنید. از um...zu و damit استفاده کنید و حداقل ۲ دقیقه صحبت کنید."
     }
   ],
 
-  cultureTip: "Ø¯Ø± ÙØ±Ù‡Ù†Ú¯ Ø¢لÙ…Ø§Ù†ÛŒØŒ Ù‡Ø¯ÙÙ…Ù†Ø¯ÛŒ (Zielstrebigkeit) Ø¨Ø³ÛŒØ§Ø± Ø§Ø±Ø²Ø´Ù…Ù†Ø¯ Ø§Ø³Øª. Ø¢لÙ…Ø§Ù†ÛŒâ€ŒÙ‡Ø§ Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ù†Ø¯ Ø¨Ø¯Ø§Ù†Ù†Ø¯ Ù‡Ø± Ú©Ø§Ø±ÛŒ Ø¨Ø±Ø§ÛŒ Ú†Ù‡ Ù‡Ø¯ÙÛŒ Ø§Ù†Ø¬Ø§Ù… Ù…ÛŒâ€ŒØ´ÙˆØ¯. ÙˆÙ‚ØªÛŒ Ø¯Ø± Ù…ØµØ§Ø­Ø¨Ù‡ Ø´ØºلÛŒ Ù…ÛŒâ€ŒÙ¾Ø±Ø³Ù†Ø¯ Â«Warum mÃ¶chten Sie bei uns arbeitenØŸÂ» Ø§Ù†ØªØ¸Ø§Ø± ÛŒÚ© Ù¾Ø§Ø³Ø® Ù‡Ø¯ÙÙ…Ù†Ø¯ Ø¯Ø§Ø±Ù†Ø¯. Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² um...zu Ø¯Ø± Ù¾Ø§Ø³Ø® Ù†Ø´Ø§Ù† Ù…ÛŒâ€ŒØ¯Ù‡Ø¯ Ú©Ù‡ Ø´Ù…Ø§ ÙØ±Ø¯ÛŒ Ù‡Ø¯ÙÙ…Ù†Ø¯ Ùˆ Ù…Ù†Ø¸Ù… Ù‡Ø³ØªÛŒØ¯.",
+  cultureTip: "در فرهنگ آلمانی، هدفمندی (Zielstrebigkeit) بسیار ارزشمند است. آلمانی‌ها دوست دارند بدانند هر کاری برای چه هدفی انجام می‌شود. وقتی در مصاحبه شغلی می‌پرسند «Warum möchten Sie bei uns arbeiten؟» انتظار یک پاسخ هدفمند دارند. استفاده از um...zu در پاسخ نشان می‌دهد که شما فردی هدفمند و منظم هستید.",
 
   examData: {
     questions: [
-      { question: "Ù…Ù† Ø¢لÙ…Ø§Ù†ÛŒ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù†Ù… ØªØ§ Ø¯Ø± Ø¢لÙ…Ø§Ù† Ú©Ø§Ø± Ú©Ù†Ù…:", options: ["Ich lerne Deutsch, um in Deutschland zu arbeiten.", "Ich lerne Deutsch, damit in Deutschland zu arbeiten.", "Ich lerne Deutsch, um in Deutschland arbeite.", "Ich lerne Deutsch, zu arbeiten in Deutschland."], answer: 0 },
-      { question: "Ú©Ø¯Ø§Ù… Ø³Ø§Ø®ØªØ§Ø± Ø¨Ø±Ø§ÛŒ ÙØ§Ø¹لâ€ŒÙ‡Ø§ÛŒ Ù…ØªÙØ§ÙˆØª Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["um...zu", "damit", "zu", "fÃ¼r"], answer: 1 },
-      { question: "Ø§Ùˆ Ø¢Ø±Ø§Ù… ØµØ­Ø¨Øª Ù…ÛŒâ€ŒÚ©Ù†Ù… ØªØ§ Ù‡Ù…Ù‡ Ø§Ùˆ Ø±Ø§ Ø¨ÙÙ‡Ù…Ù†Ø¯:", options: ["Er spricht langsam, um alle ihn verstehen.", "Er spricht langsam, damit alle ihn verstehen.", "Er spricht langsam, um alle ihn zu verstehen.", "Er spricht langsam, damit alle ihn zu verstehen."], answer: 1 },
-      { question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ", options: ["Ich helfe dir, um du fertig wirst.", "Ich helfe dir, damit du fertig wirst.", "Ich helfe dir, um du zu fertig wirst.", "Ich helfe dir, damit du zu fertig wirst."], answer: 1 },
-      { question: "Ù‡Ø¯Ù Ø¨Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ:", options: ["der Zweck", "das Ziel", "der Grund", "die Ursache"], answer: 1 },
-      { question: "Ù…Ù† Ø²ÙˆØ¯ Ù…ÛŒâ€ŒØ®ÙˆØ§Ø¨Ù… ØªØ§ ÙØ±Ø¯Ø§ Ø³Ø±Ø­Ø§ل Ø¨Ø§Ø´Ù…:", options: ["Ich gehe frÃ¼h schlafen, um morgen fit zu sein.", "Ich gehe frÃ¼h schlafen, damit morgen fit zu sein.", "Ich gehe frÃ¼h schlafen, um morgen fit sein.", "Ich gehe frÃ¼h schlafen, zu morgen fit sein."], answer: 0 },
-      { question: "Ù¾Ø³â€ŒØ§Ù†Ø¯Ø§Ø² Ú©Ø±Ø¯Ù†:", options: ["sparen", "sparen um", "fÃ¼r sparen", "zu sparen"], answer: 0 },
-      { question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ÙØ§Ø¹لâ€ŒÙ‡Ø§ÛŒ Ù…ØªÙØ§ÙˆØª Ø¯Ø§Ø±Ø¯ØŸ", options: ["Ich lerne, um zu bestehen.", "Ich helfe dir, damit du bestehst.", "Er arbeitet, um Geld zu verdienen.", "Sie Ã¼bt, um besser zu spielen."], answer: 1 },
-      { question: "ØªÙ…Ø±ÛŒÙ† Ú©Ø±Ø¯Ù† Ø¨Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ:", options: ["spielen", "Ã¼ben", "machen", "tun"], answer: 1 },
-      { question: "Ø¢ÛŒÙ†Ø¯Ù‡ Ù†Ø²Ø¯ÛŒÚ©:", options: ["Ich lerne, um zu bestehen.", "Ich lerne, damit ich bestehe.", "Ich lerne, zu bestehen.", "Ich lerne, damit zu bestehen."], answer: 0 }
+      { question: "من آلمانی می‌خوانم تا در آلمان کار کنم:", options: ["Ich lerne Deutsch, um in Deutschland zu arbeiten.", "Ich lerne Deutsch, damit in Deutschland zu arbeiten.", "Ich lerne Deutsch, um in Deutschland arbeite.", "Ich lerne Deutsch, zu arbeiten in Deutschland."], answer: 0 },
+      { question: "کدام ساختار برای فاعل‌های متفاوت استفاده می‌شود؟", options: ["um...zu", "damit", "zu", "für"], answer: 1 },
+      { question: "او آرام صحبت می‌کند تا همه او را بفهمند:", options: ["Er spricht langsam, um alle ihn verstehen.", "Er spricht langsam, damit alle ihn verstehen.", "Er spricht langsam, um alle ihn zu verstehen.", "Er spricht langsam, damit alle ihn zu verstehen."], answer: 1 },
+      { question: "کدام جمله صحیح است؟", options: ["Ich helfe dir, um du fertig wirst.", "Ich helfe dir, damit du fertig wirst.", "Ich helfe dir, um du zu fertig wirst.", "Ich helfe dir, damit du zu fertig wirst."], answer: 1 },
+      { question: "هدف به آلمانی:", options: ["der Zweck", "das Ziel", "der Grund", "die Ursache"], answer: 1 },
+      { question: "من زود می‌خوابم تا فردا سرحال باشم:", options: ["Ich gehe früh schlafen, um morgen fit zu sein.", "Ich gehe früh schlafen, damit morgen fit zu sein.", "Ich gehe früh schlafen, um morgen fit sein.", "Ich gehe früh schlafen, zu morgen fit sein."], answer: 0 },
+      { question: "پس‌انداز کردن:", options: ["sparen", "sparen um", "für sparen", "zu sparen"], answer: 0 },
+      { question: "کدام جمله فاعل‌های متفاوت دارد؟", options: ["Ich lerne, um zu bestehen.", "Ich helfe dir, damit du bestehst.", "Er arbeitet, um Geld zu verdienen.", "Sie übt, um besser zu spielen."], answer: 1 },
+      { question: "تمرین کردن به آلمانی:", options: ["spielen", "üben", "machen", "tun"], answer: 1 },
+      { question: "آینده نزدیک:", options: ["Ich lerne, um zu bestehen.", "Ich lerne, damit ich bestehe.", "Ich lerne, zu bestehen.", "Ich lerne, damit zu bestehen."], answer: 0 }
     ]
   }
 };

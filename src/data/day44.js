@@ -1,87 +1,96 @@
 export const day44Data = {
-  title: "Ø±ÙˆØ² Û´Û´: Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ùˆ Ø·Ø¨ÛŒØ¹Øª - ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒ Ùˆ Ø¨Ø§Ø²ÛŒØ§ÙØª",
-  objective: "ÛŒØ§Ø¯Ú¯ÛŒØ±ÛŒ ÙˆØ§Ú˜Ú¯Ø§Ù† Ùˆ Ø¹Ø¨Ø§Ø±Ø§Øª Ù…Ø±Ø¨ÙˆØ· Ø¨Ù‡ Ù…Ø­ÛŒØ· Ø²ÛŒØ³ØªØŒ ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒØŒ Ø¨Ø§Ø²ÛŒØ§ÙØª Ùˆ Ø¨Ø­Ø« Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ù…Ø³Ø¦ÙˆلÛŒØª ÙØ±Ø¯ÛŒ Ùˆ Ø¬Ù…Ø¹ÛŒ",
+  title: "روز ۴۴: محیط زیست و طبیعت - تغییرات اقلیمی",
+  objective: "یادگیری واژگان و عبارات مربوط به محیط زیست، تغییرات اقلیمی، بازیافت و بحث درباره مسئولیت فردی و جمعی",
+  level: "B1",
 
   grammarData: {
-    subtitle: "Passiv Ùˆ Konjunktiv II Ø¯Ø± Ù…ÙˆØ¶ÙˆØ¹ Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª",
+    subtitle: "Passiv گذشته و آینده + بیان نظرات",
     content: [
       {
         type: "text",
-        title: "Û±. Passiv Ø¨Ø±Ø§ÛŒ Ø¨ÛŒØ§Ù† ÙØ±Ø¢ÛŒÙ†Ø¯Ù‡Ø§ÛŒ Ø²ÛŒØ³Øªâ€ŒÙ…Ø­ÛŒØ·ÛŒ",
-        text: "Ø¯Ø± Ø¨Ø­Ø« Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ø§Ø² Passiv Ø¨Ø³ÛŒØ§Ø± Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ Ú†ÙˆÙ† ØªØ£Ú©ÛŒØ¯ Ø±ÙˆÛŒ ÙØ±Ø¢ÛŒÙ†Ø¯ Ø§Ø³Øª Ù†Ù‡ ÙØ§Ø¹ل. Ø³Ø§Ø®ØªØ§Ø±: werden + Partizip II. Ù…Ø«Ø§ل: CO2 wird in die Luft freigesetzt (CO2 Ø¯Ø± Ù‡ÙˆØ§ Ø¢Ø²Ø§Ø¯ Ù…ÛŒâ€ŒØ´ÙˆØ¯). MÃ¼ll wird recycelt (Ø²Ø¨Ø§لÙ‡ Ø¨Ø§Ø²ÛŒØ§ÙØª Ù…ÛŒâ€ŒØ´ÙˆØ¯). Ù‡Ù…Ú†Ù†ÛŒÙ† Passiv Ø²Ù…Ø§Ù† Ú¯Ø°Ø´ØªÙ‡ (wurde + Partizip II) Ùˆ Passiv Ø¢ÛŒÙ†Ø¯Ù‡ (wird + Partizip II + werden) Ù†ÛŒØ² Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯."
+        title: "۱. مجهول گذشته (Präteritum Passiv)",
+        text: "ساختار: wurde + Partizip II. مثال: Das Wald wurde zerstört. (جنگل نابود شد.) در بحث محیط زیست، از مجهول گذشته برای توصیف آسیب‌ها استفاده می‌کنیم. تفاوت با Perfekt Passiv: Das Wald ist zerstört worden. (هر دو صحیح هستند.)"
       },
       {
         type: "table",
-        title: "Passiv Ø¯Ø± Ø²Ù…Ø§Ù†â€ŒÙ‡Ø§ÛŒ Ù…Ø®ØªلÙ",
+        title: "انواع مجهول",
         rows: [
-          { de: "PrÃ¤sens: MÃ¼ll wird recycelt.", fa: "Ø²Ø¨Ø§لÙ‡ Ø¨Ø§Ø²ÛŒØ§ÙØª Ù…ÛŒâ€ŒØ´ÙˆØ¯." },
-          { de: "Perfekt: MÃ¼ll ist recycelt worden.", fa: "Ø²Ø¨Ø§لÙ‡ Ø¨Ø§Ø²ÛŒØ§ÙØª Ø´Ø¯Ù‡ Ø§Ø³Øª." },
-          { de: "PrÃ¤teritum: MÃ¼ll wurde recycelt.", fa: "Ø²Ø¨Ø§لÙ‡ Ø¨Ø§Ø²ÛŒØ§ÙØª Ø´Ø¯." },
-          { de: "Futur I: MÃ¼ll wird recycelt werden.", fa: "Ø²Ø¨Ø§لÙ‡ Ø¨Ø§Ø²ÛŒØ§ÙØª Ø®ÙˆØ§Ù‡Ø¯ Ø´Ø¯." }
+          { de: "Präsens Passiv: wird gemacht", fa: "الان انجام می‌شود" },
+          { de: "Präteritum Passiv: wurde gemacht", fa: "انجام شد (گذشته)" },
+          { de: "Perfekt Passiv: ist gemacht worden", fa: "انجام شده است" },
+          { de: "Futur I Passiv: wird gemacht werden", fa: "انجام خواهد شد" }
         ]
       },
       {
         type: "text",
-        title: "Û². Konjunktiv II Ø¨Ø±Ø§ÛŒ Ø¨ÛŒØ§Ù† ØªÙˆØµÛŒÙ‡â€ŒÙ‡Ø§ÛŒ Ø²ÛŒØ³Øªâ€ŒÙ…Ø­ÛŒØ·ÛŒ",
-        text: "Ø¨Ø±Ø§ÛŒ ØªÙˆØµÛŒÙ‡ Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ø§Ø² Konjunktiv II + sollte Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…: Man sollte weniger Plastik benutzen (Ø¨Ø§ÛŒØ¯ Ù¾لØ§Ø³ØªÛŒÚ© Ú©Ù…ØªØ±ÛŒ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø´ÙˆØ¯). AuÃŸerdem kÃ¶nnte man mehr Fahrrad fahren (Ù‡Ù…Ú†Ù†ÛŒÙ† Ù…ÛŒâ€ŒØªÙˆØ§Ù† Ø¯ÙˆÚ†Ø±Ø®Ù‡ Ø¨ÛŒØ´ØªØ± Ø³ÙˆØ§Ø± Ø´Ø¯). Ø§ÛŒÙ† Ø³Ø§Ø®ØªØ§Ø± ØªÙˆØµÛŒÙ‡ Ø±Ø§ Ù…Ø¤Ø¯Ø¨Ø§Ù†Ù‡â€ŒØªØ± Ù…ÛŒâ€ŒÚ©Ù†Ø¯."
+        title: "۲. عبارات بیان نظر درباره محیط زیست",
+        text: "برای بیان نظر از این عبارات استفاده کنید: Meiner Meinung nach (به نظر من)، Ich bin der Ansicht that (من این نظر را دارم که)، Ich finde es wichtig (مهم می‌دانم)، Es ist notwendig (لازم است). همچنین از Konjunktiv II برای پیشنهاد استفاده کنید: Man sollte mehr recyceln."
       },
       {
         type: "examples",
-        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ Ù…Ø­ÛŒØ· Ø²ÛŒØ³ØªÛŒ",
+        title: "مثال‌های محیط زیستی",
         items: [
-          { de: "Die Meere werden durch Plastik verschmutzt.", fa: "Ø§Ù‚ÛŒØ§Ù†ÙˆØ³â€ŒÙ‡Ø§ ØªÙˆØ³Ø· Ù¾لØ§Ø³ØªÛŒÚ© Ø¢لÙˆØ¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯." },
-          { de: "Man sollte weniger Fleisch essen, um die Umwelt zu schÃ¼tzen.", fa: "Ø¨Ø§ÛŒØ¯ Ú¯ÙˆØ´Øª Ú©Ù…ØªØ±ÛŒ Ø®ÙˆØ±Ø¯ ØªØ§ Ø§Ø² Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ù…Ø­Ø§ÙØ¸Øª Ø´ÙˆØ¯." },
-          { de: "Wenn jeder mitmachen wÃ¼rde, kÃ¶nnte man viel erreichen.", fa: "Ø§Ú¯Ø± Ù‡Ù…Ù‡ Ø´Ø±Ú©Øª Ú©Ù†Ù†Ø¯ØŒ Ù…ÛŒâ€ŒØªÙˆØ§Ù† Ø®ÛŒلÛŒ Ú©Ø§Ø±Ù‡Ø§ Ø§Ù†Ø¬Ø§Ù… Ø¯Ø§Ø¯." },
-          { de: "Die Luft wird in den StÃ¤dten immer schlechter.", fa: "Ù‡ÙˆØ§ Ø¯Ø± Ø´Ù‡Ø±Ù‡Ø§ Ù‡Ø± Ø±ÙˆØ² Ø¨Ø¯ØªØ± Ù…ÛŒâ€ŒØ´ÙˆØ¯." },
-          { de: "MÃ¼ll wird in verschiedene BehÃ¤lter getrennt.", fa: "Ø²Ø¨Ø§لÙ‡ Ø¯Ø± Ø¸Ø±ÙˆÙ Ù…Ø®ØªلÙ ØªÙÚ©ÛŒÚ© Ù…ÛŒâ€ŒØ´ÙˆØ¯." },
-          { de: "Es wÃ¤re besser, wenn wir mehr erneuerbare Energie nutzen wÃ¼rden.", fa: "Ø¨Ù‡ØªØ± Ø¨ÙˆØ¯ Ø§Ú¯Ø± Ø§Ø² Ø§Ù†Ø±Ú˜ÛŒ ØªØ¬Ø¯ÛŒØ¯Ù¾Ø°ÛŒØ± Ø¨ÛŒØ´ØªØ± Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒÚ©Ø±Ø¯ÛŒÙ…." },
-          { de: "Der Klimawandel wird die Erde stark verÃ¤ndern.", fa: "ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒ Ø²Ù…ÛŒÙ† Ø±Ø§ Ø¨Ù‡ Ø´Ø¯Øª ØªØºÛŒÛŒØ± Ø®ÙˆØ§Ù‡Ø¯ Ø¯Ø§Ø¯." },
-          { de: "Jeder Einzelne kann einen Beitrag leisten.", fa: "Ù‡Ø± ÙØ±Ø¯ÛŒ Ù…ÛŒâ€ŒØªÙˆØ§Ù†Ø¯ Ø³Ù‡Ù…ÛŒ Ø¯Ø§Ø´ØªÙ‡ Ø¨Ø§Ø´Ø¯." }
+          { de: "Die Wälder wurden in den letzten Jahren zerstört.", fa: "جنگل‌ها در سال‌های اخیر نابود شدند." },
+          { de: "Mehr Solarpanels werden installiert werden.", fa: "پنل‌های خورشیدی بیشتری نصب خواهند شد." },
+          { de: "Meiner Meinung nach muss jeder Einzelne etwas tun.", fa: "به نظر من هر فردی باید کاری انجام دهد." },
+          { de: "Es ist notwendig, erneuerbare Energien zu nutzen.", fa: "لازم است از انرژی‌های تجدیدپذیر استفاده شود." },
+          { de: "Müll sollte getrennt werden.", fa: "زباله باید تفکیک شود." },
+          { de: "Die Luftverschmutzung wird durch Autos verursacht.", fa: "آلودگی هوا توسط اتومبیل‌ها ایجاد می‌شود." }
         ]
       },
       {
         type: "alert",
-        title: "Ù†Ú©ØªÙ‡: Passiv Perfekt (worden)",
-        text: "Ø¯Ø± Passiv Perfekt Ø§Ø² ist + Partizip II + worden Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ (Ù†Ù‡ gewesen!). Ù…Ø«Ø§ل: Das Haus ist zerstÃ¶rt worden (Ø®Ø§Ù†Ù‡ ØªØ®Ø±ÛŒØ¨ Ø´Ø¯Ù‡ Ø§Ø³Øª). Ú©لÙ…Ù‡ worden ÙÙ‚Ø· Ø¯Ø± Passiv Perfekt Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ Ùˆ Ø¨Ø§ werden Ù…ØªÙØ§ÙˆØª Ø§Ø³Øª."
+        title: "نکته: Umwelt vs Natur vs Klima",
+        text: "Umwelt = محیط زیست (کل محیط شامل هوا، آب، خاک، حیوانات). Natur = طبیعت (جنگل، کوه، دریا). Klima = آب و هوا / اقلیم. Klimawandel = تغییرات اقلیمی. Umweltschutz = حفاظت از محیط زیست. Umweltverschmutzung = آلودگی محیط زیست."
       },
       {
         type: "interactive_quiz",
-        title: "Ø¢Ø²Ù…ÙˆÙ† Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª",
+        title: "آزمون محیط زیست",
         questions: [
           {
-            question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ Passiv PrÃ¤sens ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ Â«Ø¯Ø±Ø®ØªØ§Ù† Ú©Ø§Ø´ØªÙ‡ Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯.Â»",
-            questionDe: "Welcher Satz ist korrektes Passiv PrÃ¤sens?",
+            question: "کدام جمله مجهول گذشته است؟",
+            questionDe: "Welcher Satz steht im Präteritum Passiv?",
             options: [
-              { text: "BÃ¤ume werden gepflanzt.", isCorrect: true },
-              { text: "BÃ¤ume sind gepflanzt.", isCorrect: false },
-              { text: "BÃ¤ume werden pflanzen.", isCorrect: false }
+              { text: "Die Wälder werden zerstört.", isCorrect: false },
+              { text: "Die Wälder wurden zerstört.", isCorrect: true },
+              { text: "Die Wälder sind zerstört worden.", isCorrect: false }
             ],
-            explanation: "Passiv PrÃ¤sens: werden + Partizip II (gepflanzt)."
+            explanation: "wurde/wurden + Partizip II = مجهول گذشته."
           },
           {
-            question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØªÙˆØµÛŒÙ‡ Ù…Ø¤Ø¯Ø¨Ø§Ù†Ù‡ Ø§Ø³ØªØŸ",
-            questionDe: "Welcher Satz ist eine hÃ¶fliche Empfehlung?",
+            question: "«Meiner Meinung nach» یعنی:؟",
+            questionDe: "Was bedeutet 'Meiner Meinung nach'?",
             options: [
-              { text: "Du musst weniger Fleisch essen.", isCorrect: false },
-              { text: "Man sollte weniger Fleisch essen.", isCorrect: true },
-              { text: "Du isst zu viel Fleisch.", isCorrect: false }
+              { text: "در واقع", isCorrect: false },
+              { text: "به نظر من", isCorrect: true },
+              { text: "به هر حال", isCorrect: false }
             ],
-            explanation: "man sollte + Ù…ØµØ¯Ø± = ØªÙˆØµÛŒÙ‡ Ù…Ø¤Ø¯Ø¨Ø§Ù†Ù‡ Ùˆ Ú©لÛŒ."
+            explanation: "Meiner Meinung nach = به نظر من."
+          },
+          {
+            question: "«erneuerbare Energie» یعنی:؟",
+            questionDe: "Was bedeutet 'erneuerbare Energie'?",
+            options: [
+              { text: "انرژی هسته‌ای", isCorrect: false },
+              { text: "انرژی تجدیدپذیر", isCorrect: true },
+              { text: "انرژی فسیلی", isCorrect: false }
+            ],
+            explanation: "erneuerbare Energie = انرژی تجدیدپذیر (خورشیدی، بادی و غیره)."
           }
         ]
       },
       {
         type: "fill_blank",
-        title: "ØªÙ…Ø±ÛŒÙ† Passiv Ùˆ Konjunktiv II",
-        instruction: "Ø¬Ù…لØ§Øª Ø±Ø§ Ø¨Ø§ Ø³Ø§Ø®ØªØ§Ø± Ù…Ù†Ø§Ø³Ø¨ Ú©Ø§Ù…ل Ú©Ù†ÛŒØ¯.",
+        title: "تمرین مجهول و محیط زیست",
+        instruction: "جملات را با شکل مناسب Passiv یا عبارت نظر کامل کنید.",
         blanks: [
-          { sentence: "PlastikmÃ¼ll _______ (recyceln) in der Fabrik.", answer: "wird recycelt", hint: "Passiv PrÃ¤sens: werden + Partizip II" },
-          { sentence: "Die WÃ¤lder _______ (zerstÃ¶ren) durch die Industrie.", answer: "werden zerstÃ¶rt", hint: "Passiv PrÃ¤sens Plural: werden" },
-          { sentence: "Man _______ (sollten) mehr Fahrrad fahren.", answer: "sollte", hint: "Konjunktiv II von sollen" },
-          { sentence: "Die Luft _______ in vielen StÃ¤dten _______ (verschmutzen).", answer: "wird ... verschmutzt", hint: "Passiv PrÃ¤sens" },
-          { sentence: "Wenn jeder helfen _______, kÃ¶nnte man viel erreichen.", answer: "wÃ¼rde", hint: "Konjunktiv II" },
-          { sentence: "Es _______ besser, wenn wir weniger Auto fahren wÃ¼rden.", answer: "wÃ¤re", hint: "Konjunktiv II von sein" },
-          { sentence: "Mehr BÃ¤ume _______ (pflanzen) in der Stadt.", answer: "sollten gepflanzt werden", hint: "sollte + Passiv Infinitiv" }
+          { sentence: "Die Wälder _______ in den letzten Jahren _______. (تخریب - مجهول گذشته)", answer: "wurden ... zerstört", hint: "Präteritum Passiv" },
+          { sentence: "_______ Meinung nach muss jeder etwas für die Umwelt tun.", answer: "Meiner", hint: "به نظر من" },
+          { sentence: "Müll _______ _______ werden. (باید تفکیک شود)", answer: "sollte getrennt", hint: "Konjunktiv II + مجهول" },
+          { sentence: "Es ist _______, erneuerbare Energien zu nutzen.", answer: "notwendig", hint: "لازم است" },
+          { sentence: "Mehr Solarpanels _______ installiert _______. (آینده)", answer: "werden ... werden", hint: "Futur I Passiv" },
+          { sentence: "Die Luft _______ durch Autos _______. (آلودگی - مجهول حال)", answer: "wird ... verschmutzt", hint: "Vorgangspassiv" },
+          { sentence: "Ich _______ es _______, weniger Plastik zu benutzen.", answer: "finde ... wichtig", hint: "مهم می‌دانم" }
         ]
       }
     ]
@@ -90,36 +99,34 @@ export const day44Data = {
   vocabData: {
     categories: [
       {
-        title: "Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª (Umwelt)",
+        title: "محیط زیست (Umwelt und Natur)",
         words: [
-          { de: "die Umwelt", fa: "Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª", article: "die", plural: "-", examples: [{ de: "Wir mÃ¼ssen die Umwelt schÃ¼tzen.", fa: "Ø¨Ø§ÛŒØ¯ Ø§Ø² Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ù…Ø­Ø§ÙØ¸Øª Ú©Ù†ÛŒÙ…." }] },
-          { de: "der Klimawandel", fa: "ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒ", article: "der", plural: "-", examples: [{ de: "Der Klimawandel ist ein groÃŸes Problem.", fa: "ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒ Ù…Ø´Ú©ل Ø¨Ø²Ø±Ú¯ÛŒ Ø§Ø³Øª." }] },
-          { de: "das Recycling", fa: "Ø¨Ø§Ø²ÛŒØ§ÙØª", article: "das", plural: "-", examples: [{ de: "Recycling ist wichtig fÃ¼r die Umwelt.", fa: "Ø¨Ø§Ø²ÛŒØ§ÙØª Ø¨Ø±Ø§ÛŒ Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ù…Ù‡Ù… Ø§Ø³Øª." }] },
-          { de: "der MÃ¼ll", fa: "Ø²Ø¨Ø§لÙ‡", article: "der", plural: "-", examples: [{ de: "Wir produzieren zu viel MÃ¼ll.", fa: "Ù…Ø§ Ø²Ø¨Ø§لÙ‡ Ø²ÛŒØ§Ø¯ÛŒ ØªÙˆلÛŒØ¯ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…." }] },
-          { de: "die Luftverschmutzung", fa: "Ø¢لÙˆØ¯Ú¯ÛŒ Ù‡ÙˆØ§", article: "die", plural: "-", examples: [{ de: "Die Luftverschmutzung in StÃ¤dten ist schlimm.", fa: "Ø¢لÙˆØ¯Ú¯ÛŒ Ù‡ÙˆØ§ Ø¯Ø± Ø´Ù‡Ø±Ù‡Ø§ Ø¨Ø¯ Ø§Ø³Øª." }] }
+          { de: "die Umwelt", fa: "محیط زیست", ipa: "[ˈʔʊmvɛlt]", article: "die", plural: "-", examples: [{ de: "Wir müssen die Umwelt schützen.", fa: "باید از محیط زیست محافظت کنیم." }] },
+          { de: "der Klimawandel", fa: "تغییرات اقلیمی", ipa: "[ˈkliːmaˌvandl̩]", article: "der", plural: "-", examples: [{ de: "Der Klimawandel ist ein großes Problem.", fa: "تغییرات اقلیمی مشکل بزرگی است." }] },
+          { de: "das Recycling", fa: "بازیافت", ipa: "[ʁiˈsaɪ̯klɪŋ]", article: "das", plural: "-", examples: [{ de: "Recycling ist wichtig für die Umwelt.", fa: "بازیافت برای محیط زیست مهم است." }] },
+          { de: "die erneuerbare Energie", fa: "انرژی تجدیدپذیر", ipa: "[ɛɐ̯ˈnɔɪ̯əʁbaʁə ɛnɛʁˈɡiː]", article: "die", plural: "die erneuerbaren Energien", examples: [{ de: "Solar ist eine erneuerbare Energie.", fa: "انرژی خورشیدی یک انرژی تجدیدپذیر است." }] },
+          { de: "der Wald", fa: "جنگل", ipa: "[valt]", article: "der", plural: "die Wälder", examples: [{ de: "Der Wald ist grün.", fa: "جنگل سبز است." }] },
+          { de: "die Umweltverschmutzung", fa: "آلودگی محیط زیست", ipa: "[ˈʊmvɛltfɛɐ̯ˌʃmʊtnʊŋ]", article: "die", plural: "-", examples: [{ de: "Die Umweltverschmutzung nimmt zu.", fa: "آلودگی محیط زیست رو به افزایش است." }] },
+          { de: "die Luftverschmutzung", fa: "آلودگی هوا", ipa: "[ˈlʊftfɛɐ̯ˌʃmʊtnʊŋ]", article: "die", plural: "-", examples: [{ de: "Die Luftverschmutzung ist in Städten schlimm.", fa: "آلودگی هوا در شهرها بد است." }] },
+          { de: "der Müll", fa: "زباله", ipa: "[mʏl]", article: "der", plural: "-", examples: [{ de: "Bitte trennen Sie den Müll.", fa: "لطفاً زباله را تفکیک کنید." }] },
+          { de: "das Klima", fa: "آب و هوا / اقلیم", ipa: "[ˈkliːma]", article: "das", plural: "die Klimate", examples: [{ de: "Das Klima verändert sich.", fa: "اقلیم در حال تغییر است." }] }
         ]
       },
       {
-        title: "Ø§Ù†Ø±Ú˜ÛŒ Ùˆ Ø·Ø¨ÛŒØ¹Øª (Energie und Natur)",
+        title: "انرژی و حفاظت (Energie und Schutz)",
         words: [
-          { de: "die erneuerbare Energie", fa: "Ø§Ù†Ø±Ú˜ÛŒ ØªØ¬Ø¯ÛŒØ¯Ù¾Ø°ÛŒØ±", article: "die", plural: "die erneuerbaren Energien", examples: [{ de: "Solar- und Windenergie sind erneuerbare Energien.", fa: "Ø§Ù†Ø±Ú˜ÛŒ Ø®ÙˆØ±Ø´ÛŒØ¯ÛŒ Ùˆ Ø¨Ø§Ø¯ÛŒ ØªØ¬Ø¯ÛŒØ¯Ù¾Ø°ÛŒØ±Ù†Ø¯." }] },
-          { de: "die Solarnergie", fa: "Ø§Ù†Ø±Ú˜ÛŒ Ø®ÙˆØ±Ø´ÛŒØ¯ÛŒ", article: "die", plural: "-", examples: [{ de: "Auf dem Dach sind Solarpaneele.", fa: "Ø±ÙˆÛŒ Ø³Ù‚Ù Ù¾Ù†لâ€ŒÙ‡Ø§ÛŒ Ø®ÙˆØ±Ø´ÛŒØ¯ÛŒ Ø§Ø³Øª." }] },
-          { de: "das CO2", fa: "Ø¯ÛŒâ€ŒØ§Ú©Ø³ÛŒØ¯ Ú©Ø±Ø¨Ù†", article: "das", plural: "-", examples: [{ de: "CO2 wird durch Autos freigesetzt.", fa: "CO2 ØªÙˆØ³Ø· Ù…Ø§Ø´ÛŒÙ†â€ŒÙ‡Ø§ Ø¢Ø²Ø§Ø¯ Ù…ÛŒâ€ŒØ´ÙˆØ¯." }] },
-          { de: "die Natur", fa: "Ø·Ø¨ÛŒØ¹Øª", article: "die", plural: "-", examples: [{ de: "Die Natur ist wunderschÃ¶n.", fa: "Ø·Ø¨ÛŒØ¹Øª Ø²ÛŒØ¨Ø§Ø³Øª." }] },
-          { de: "der Wald", fa: "Ø¬Ù†Ú¯ل", article: "der", plural: "die WÃ¤lder", examples: [{ de: "Die WÃ¤lder werden abgeholzt.", fa: "Ø¬Ù†Ú¯لâ€ŒÙ‡Ø§ Ù‚Ø·Ø¹ Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯." }] },
-          { de: "das Ozonloch", fa: "Ø³ÙˆØ±Ø§Ø® لØ§ÛŒÙ‡ Ø§ÙˆØ²ÙˆÙ†", article: "das", plural: "die OzonlÃ¶cher", examples: [{ de: "Das Ozonloch wird grÃ¶ÃŸer.", fa: "Ø³ÙˆØ±Ø§Ø® Ø§ÙˆØ²ÙˆÙ† Ø¨Ø²Ø±Ú¯â€ŒØªØ± Ù…ÛŒâ€ŒØ´ÙˆØ¯." }] },
-          { de: "die Artenvielfalt", fa: "ØªÙ†ÙˆØ¹ Ø²ÛŒØ³ØªÛŒ", article: "die", plural: "-", examples: [{ de: "Die Artenvielfalt nimmt ab.", fa: "ØªÙ†ÙˆØ¹ Ø²ÛŒØ³ØªÛŒ Ú©Ø§Ù‡Ø´ Ù…ÛŒâ€ŒÛŒØ§Ø¨Ø¯." }] },
-          { de: "schÃ¼tzen", fa: "Ù…Ø­Ø§ÙØ¸Øª Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Wir schÃ¼tzen die Tiere.", fa: "Ù…Ø§ Ø§Ø² Ø­ÛŒÙˆØ§Ù†Ø§Øª Ù…Ø­Ø§ÙØ¸Øª Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…." }] },
-          { de: "verschmutzen", fa: "Ø¢لÙˆØ¯Ù‡ Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Fabriken verschmutzen die Luft.", fa: "Ú©Ø§Ø±Ø®Ø§Ù†Ù‡â€ŒÙ‡Ø§ Ù‡ÙˆØ§ Ø±Ø§ Ø¢لÙˆØ¯Ù‡ Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯." }] },
-          { de: "abholzen", fa: "Ù‚Ø·Ø¹ Ø¯Ø±Ø®ØªØ§Ù†", article: "-", plural: "-", examples: [{ de: "Die WÃ¤lder werden abgeholzt.", fa: "Ø¬Ù†Ú¯لâ€ŒÙ‡Ø§ Ù‚Ø·Ø¹ Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯." }] },
-          { de: "erneuerbar", fa: "ØªØ¬Ø¯ÛŒØ¯Ù¾Ø°ÛŒØ±", article: "-", plural: "-", examples: [{ de: "Windkraft ist erneuerbar.", fa: "Ø§Ù†Ø±Ú˜ÛŒ Ø¨Ø§Ø¯ÛŒ ØªØ¬Ø¯ÛŒØ¯Ù¾Ø°ÛŒØ± Ø§Ø³Øª." }] },
-          { de: "nachhaltig", fa: "Ù¾Ø§ÛŒØ¯Ø§Ø±", article: "-", plural: "-", examples: [{ de: "Nachhaltiger Konsum ist wichtig.", fa: "Ù…ØµØ±Ù Ù¾Ø§ÛŒØ¯Ø§Ø± Ù…Ù‡Ù… Ø§Ø³Øª." }] },
-          { de: "der Treibhauseffekt", fa: "Ø§Ø«Ø± Ú¯لØ®Ø§Ù†Ù‡â€ŒØ§ÛŒ", article: "der", plural: "-", examples: [{ de: "Der Treibhauseffekt erwÃ¤rmt die Erde.", fa: "Ø§Ø«Ø± Ú¯لØ®Ø§Ù†Ù‡â€ŒØ§ÛŒ Ø²Ù…ÛŒÙ† Ø±Ø§ Ú¯Ø±Ù… Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }] },
-          { de: "die MÃ¼lltrennung", fa: "ØªÙÚ©ÛŒÚ© Ø²Ø¨Ø§لÙ‡", article: "die", plural: "-", examples: [{ de: "In Deutschland ist MÃ¼lltrennung Pflicht.", fa: "ØªÙÚ©ÛŒÚ© Ø²Ø¨Ø§لÙ‡ Ø¯Ø± Ø¢لÙ…Ø§Ù† Ø§Ø¬Ø¨Ø§Ø±ÛŒ Ø§Ø³Øª." }] },
-          { de: "der PlastikmÃ¼ll", fa: "Ø²Ø¨Ø§لÙ‡ Ù¾لØ§Ø³ØªÛŒÚ©ÛŒ", article: "der", plural: "-", examples: [{ de: "PlastikmÃ¼ll verschmutzt die Meere.", fa: "Ø²Ø¨Ø§لÙ‡ Ù¾لØ§Ø³ØªÛŒÚ©ÛŒ Ø§Ù‚ÛŒØ§Ù†ÙˆØ³â€ŒÙ‡Ø§ Ø±Ø§ Ø¢لÙˆØ¯Ù‡ Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }] },
-          { de: "aussterben", fa: "Ù…Ù†Ù‚Ø±Ø¶ Ø´Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Viele Tierarten sind vom Aussterben bedroht.", fa: "Ú¯ÙˆÙ†Ù‡â€ŒÙ‡Ø§ÛŒ Ø²ÛŒØ§Ø¯ÛŒ Ø¯Ø± Ø®Ø·Ø± Ø§Ù†Ù‚Ø±Ø§Ø¶Ù†Ø¯." }] },
-          { de: "die Katastrophe", fa: "ÙØ§Ø¬Ø¹Ù‡", article: "die", plural: "die Katastrophen", examples: [{ de: "Der Klimawandel kann zu Katastrophen fÃ¼hren.", fa: "ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒ Ù…ÛŒâ€ŒØªÙˆØ§Ù†Ø¯ Ø¨Ù‡ ÙØ§Ø¬Ø¹Ù‡ Ù…Ù†Ø¬Ø± Ø´ÙˆØ¯." }] },
-          { de: "das Trinkwasser", fa: "Ø¢Ø¨ Ø¢Ø´Ø§Ù…ÛŒØ¯Ù†ÛŒ", article: "das", plural: "-", examples: [{ de: "Sauberes Trinkwasser ist ein Menschenrecht.", fa: "Ø¢Ø¨ Ø¢Ø´Ø§Ù…ÛŒØ¯Ù†ÛŒ Ø³Ø§لÙ… Ø­Ù‚ Ù‡Ø± Ø§Ù†Ø³Ø§Ù†ÛŒ Ø§Ø³Øª." }] }
+          { de: "die Sonnenenergie", fa: "انرژی خورشیدی", ipa: "[ˈzɔnənɛnɛʁˌɡiː]", article: "die", plural: "-", examples: [{ de: "Sonnenenergie ist umweltfreundlich.", fa: "انرژی خورشیدی دوستدار محیط زیست است." }] },
+          { de: "die Windenergie", fa: "انرژی بادی", ipa: "[ˈvɪntɛnɛʁˌɡiː]", article: "die", plural: "-", examples: [{ de: "Windkraftwerke produzieren Strom.", fa: "نیروگاه‌های بادی برق تولید می‌کنند." }] },
+          { de: "das Solarpanel", fa: "پنل خورشیدی", ipa: "[zoˈlaːɐ̯ˌpanɛl]", article: "das", plural: "die Solarpanels", examples: [{ de: "Auf dem Dach sind Solarpanels.", fa: "روی سقف پنل‌های خورشیدی هست." }] },
+          { de: "schützen", fa: "محافظت کردن", ipa: "[ˈʃyːt͡sn̩]", article: "-", plural: "-", conjugation: { ich: "schütze", du: "schützt", er: "schützt", wir: "schützen", ihr: "schützt", sie: "schützen" }, examples: [{ de: "Wir müssen die Natur schützen.", fa: "باید از طبیعت محافظت کنیم." }] },
+          { de: "recyceln", fa: "بازیافت کردن", ipa: "[ʁiˈtsaɪ̯kl̩n]", article: "-", plural: "-", conjugation: { ich: "recycle", du: "recycelst", er: "recycelt", wir: "recyceln", ihr: "recycelt", sie: "recyceln" }, examples: [{ de: "Wir recyceln Plastik.", fa: "پلاستیک را بازیافت می‌کنیم." }] },
+          { de: "trennen", fa: "تفکیک کردن / جدا کردن", ipa: "[ˈtʁɛnən]", article: "-", plural: "-", conjugation: { ich: "trenne", du: "trennst", er: "trennt", wir: "trennen", ihr: "trennt", sie: "trennen" }, examples: [{ de: "Man sollte Müll trennen.", fa: "باید زباله را تفکیک کرد." }] },
+          { de: "zerstören", fa: "نابود کردن", ipa: "[t͡sɛɐ̯ˈʃtøːʁən]", article: "-", plural: "-", conjugation: { ich: "zerstöre", du: "zerstörst", er: "zerstört", wir: "zerstören", ihr: "zerstört", sie: "zerstören" }, examples: [{ de: "Die Fabrik zerstört die Natur.", fa: "کارخانه طبیعت را نابود می‌کند." }] },
+          { de: "verschmutzen", fa: "آلوده کردن", ipa: "[fɛɐ̯ˈʃmʊt͡sn̩]", article: "-", plural: "-", conjugation: { ich: "verschmutze", du: "verschmutzt", er: "verschmutzt", wir: "verschmutzen", ihr: "verschmutzt", sie: "verschmutzen" }, examples: [{ de: "Fabriken verschmutzen die Luft.", fa: "کارخانه‌ها هوا را آلوده می‌کنند." }] },
+          { de: "umweltfreundlich", fa: "دوستدار محیط زیست", ipa: "[ˈʔʊmvɛltˌfʁɔʏ̯ntlɪç]", article: "-", plural: "-", examples: [{ de: "Dieses Produkt ist umweltfreundlich.", fa: "این محصول دوستدار محیط زیست است." }] },
+          { de: "nachhaltig", fa: "پایدار", ipa: "[ˈnaːxˌhaltɪç]", article: "-", plural: "-", examples: [{ de: "Wir müssen nachhaltig leben.", fa: "باید پایدار زندگی کنیم." }] },
+          { de: "der CO2-Ausstoß", fa: "انتشار دی‌اکسید کربن", ipa: "[tseːoːˈt͡svaɪ̯ ˈʔaʊ̯sʃtoːs]", article: "der", plural: "-", examples: [{ de: "Der CO2-Ausstoß muss reduziert werden.", fa: "انتشار CO2 باید کاهش یابد." }] },
+          { de: "das Ozonloch", fa: "سوراخ لایه ازن", ipa: "[oˈt͡soːnˌlɔx]", article: "das", plural: "-", examples: [{ de: "Das Ozonloch wird größer.", fa: "سوراخ ازن بزرگ‌تر می‌شود." }] }
         ]
       }
     ]
@@ -127,70 +134,80 @@ export const day44Data = {
 
   reading: [
     {
-      text: "Umweltschutz in Deutschland\n\nDeutschland ist eines der fÃ¼hrenden LÃ¤nder beim Umweltschutz. Schon in den 1980er Jahren wurde die Umweltbewegung stark. Heute wird in Deutschland viel fÃ¼r die Umwelt getan.\nEiner der wichtigsten Punkte ist das Recycling. In Deutschland wird MÃ¼ll streng getrennt: Papier in die blaue Tonne, Glas in den Container, Plastik in die gelbe Tonne und Bio-MÃ¼ll in die braune Tonne. Diese MÃ¼lltrennung wird von fast allen BÃ¼rgern befolgt. Der MÃ¼ll wird dann in Fabriken recycelt oder verbrannt.\nEin groÃŸes Thema ist der Klimawandel. Die Temperaturen steigen und Extremwetter wird hÃ¤ufiger. Deshalb investiert Deutschland stark in erneuerbare Energien. Windkraft und Solarnergie werden immer wichtiger. Trotzdem gibt es noch Probleme: Die Autofahrten nehmen zu und die Luft in den StÃ¤dten wird verschmutzt.\nJeder Einzelne kann einen Beitrag leisten: Weniger Plastik benutzen, mehr Fahrrad fahren und weniger Fleisch essen. Wenn alle mitmachen wÃ¼rden, kÃ¶nnte die Erde gerettet werden.",
+      text: "Klimawandel und was wir tun können\n\nDer Klimawandel ist eines der größten Probleme unserer Zeit. Die Temperaturen steigen, die Gletscher schmelzen und der Meeresspiegel steigt. In den letzten 100 Jahren wurde die Erde um etwa 1 Grad wärmer. Das klingt wenig, aber es hat große Auswirkungen.\nDie Hauptursache ist der CO2-Ausstoß durch Fabriken und Autos. Wälder wurden zerstört, um Platz für Straßen und Gebäude zu schaffen. Die Luft wurde durch Abgase verschmutzt.\nAber es gibt Hoffnung. Immer mehr Menschen nutzen erneuerbare Energien wie Sonnen- und Windenergie. Müll wird getrennt und recycelt. Viele Städte werden umweltfreundlicher: Es gibt mehr Fahrradwege und weniger Autos in der Innenstadt.\nJeder Einzelne kann etwas tun: Weniger Plastik benutzen, das Fahrrad statt das Auto nehmen und sparsam mit Energie umgehen. Meiner Meinung nach ist es noch nicht zu spät, aber wir müssen jetzt handeln.",
+      translation: "تغییرات اقلیمی و کارهایی که می‌توانیم بکنیم\n\nتغییرات اقلیمی یکی از بزرگ‌ترین مشکلات زمان ماست. دما بالا می‌رود، یخچال‌ها ذوب می‌شوند و سطح دریا بالا می‌آید. در ۱۰۰ سال اخیر زمین حدود ۱ درجه گرم‌تر شده. کم به نظر می‌رسد اما تأثیرات بزرگی دارد.\nعلت اصلی انتشار CO2 توسط کارخانه‌ها و اتومبیل‌هاست. جنگل‌ها نابود شدند تا جا برای جاده‌ها و ساختمان‌ها باز شود. هوا توسط دود آلوده شد.\nاما امید هست. هر روز افراد بیشتری از انرژی‌های تجدیدپذیر مثل خورشیدی و بادی استفاده می‌کنند. زباله تفکیک و بازیافت می‌شود. شهرها دوستدار محیط زیست‌تر می‌شوند: مسیرهای دوچرخه بیشتر و اتومبیل کمتر در مرکز شهر.\nهر فردی می‌تواند کاری کند: پلاستیک کمتر، دوچرخه به جای ماشین و مصرف هوشمندانه انرژی. به نظر من هنوز دیر نشده اما باید الان عمل کنیم.",
       questions: [
-        { question: "Ø¢لÙ…Ø§Ù† Ú†Ù†Ø¯ Ù†ÙˆØ¹ Ø³Ø·ل Ø²Ø¨Ø§لÙ‡ Ø¯Ø§Ø±Ø¯ Ùˆ Ù‡Ø± Ú©Ø¯Ø§Ù… Ø¨Ø±Ø§ÛŒ Ú†ÛŒØ³ØªØŸ", answer: "Ú†Ù‡Ø§Ø± Ù†ÙˆØ¹: Ø¢Ø¨ÛŒ (Ú©Ø§ØºØ°)ØŒ Ø´ÛŒØ´Ù‡ØŒ Ø²Ø±Ø¯ (Ù¾لØ§Ø³ØªÛŒÚ©)ØŒ Ù‚Ù‡ÙˆÙ‡â€ŒØ§ÛŒ (Ø²Ø¨Ø§لÙ‡ Ø¨ÛŒÙˆلÙˆÚ˜ÛŒÚ©ÛŒ)." },
-        { question: "Ø¨Ø²Ø±Ú¯â€ŒØªØ±ÛŒÙ† Ù…Ø´Ú©ل ÙØ¹لÛŒ Ú†ÛŒØ³ØªØŸ", answer: "ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒ Ùˆ Ø§ÙØ²Ø§ÛŒØ´ Ø¯Ù…Ø§." },
-        { question: "Ø¢لÙ…Ø§Ù† Ø±ÙˆÛŒ Ú†Ù‡ Ù†ÙˆØ¹ Ø§Ù†Ø±Ú˜ÛŒâ€ŒØ§ÛŒ Ø³Ø±Ù…Ø§ÛŒÙ‡â€ŒÚ¯Ø°Ø§Ø±ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ", answer: "Ø§Ù†Ø±Ú˜ÛŒ ØªØ¬Ø¯ÛŒØ¯Ù¾Ø°ÛŒØ±: Ø¨Ø§Ø¯ÛŒ Ùˆ Ø®ÙˆØ±Ø´ÛŒØ¯ÛŒ." },
-        { question: "Ù‡Ø± ÙØ±Ø¯ Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØªÙˆØ§Ù†Ø¯ Ú©Ù…Ú© Ú©Ù†Ø¯ØŸ", answer: "Ù¾لØ§Ø³ØªÛŒÚ© Ú©Ù…ØªØ±ØŒ Ø¯ÙˆÚ†Ø±Ø®Ù‡ Ø¨ÛŒØ´ØªØ± Ùˆ Ú¯ÙˆØ´Øª Ú©Ù…ØªØ±." }
+        { question: "علت اصلی تغییرات اقلیمی چیست؟", answer: "انتشار CO2 توسط کارخانه‌ها و اتومبیل‌ها." },
+        { question: "در ۱۰۰ سال اخیر زمین چقدر گرم‌تر شده؟", answer: "حدود ۱ درجه." },
+        { question: "چه انرژی‌هایی جایگزین شده‌اند؟", answer: "انرژی خورشیدی و بادی." },
+        { question: "هر فرد چه کارهایی می‌تواند بکند؟", answer: "پلاستیک کمتر، دوچرخه به جای ماشین و مصرف هوشمندانه انرژی." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "Ù†ÙˆØ´ØªÙ† Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª",
-      prompt: "ÛŒÚ© Ù…ØªÙ† Û±Û°-Û±Û² Ø®Ø·ÛŒ Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø§Ù‚Ø¯Ø§Ù…Ø§Øª Ø²ÛŒØ³Øªâ€ŒÙ…Ø­ÛŒØ·ÛŒ Ø´Ø®ØµÛŒ Ø´Ù…Ø§ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯. Ø§Ø² Passiv Ùˆ Konjunktiv II (sollte, kÃ¶nnte, wÃ¤re) Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.",
+      title: "نوشتن درباره حفاظت از محیط زیست",
+      prompt: "یک متن ۱۰-۱۲ خطی درباره کارهایی که برای حفاظت از محیط زیست انجام می‌دهید یا باید انجام دهید بنویسید. از Passiv استفاده کنید.",
       steps: [
         {
-          title: "Ù…Ø¹Ø±ÙÛŒ Ù…Ø´Ú©ل",
-          text: "Ù…Ø´Ú©ل Ø²ÛŒØ³Øªâ€ŒÙ…Ø­ÛŒØ·ÛŒ",
-          example: { de: "Der Klimawandel ist eines der grÃ¶ÃŸten Probleme unserer Zeit.", fa: "ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒ ÛŒÚ©ÛŒ Ø§Ø² Ø¨Ø²Ø±Ú¯â€ŒØªØ±ÛŒÙ† Ù…Ø´Ú©لØ§Øª Ø²Ù…Ø§Ù† Ù…Ø§Ø³Øª." }
+          title: "معرفی مشکل",
+          text: "مشکلات محیط زیستی",
+          example: { de: "Die Umwelt wird jeden Tag mehr verschmutzt.", fa: "محیط زیست هر روز بیشتر آلوده می‌شود." }
         },
         {
-          title: "Ø§Ù‚Ø¯Ø§Ù…Ø§Øª Ø´Ø®ØµÛŒ",
-          text: "Ø§Ø² Passiv Ùˆ Konjunktiv II Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯",
-          example: { de: "MÃ¼ll sollte getrennt werden. Man kÃ¶nnte mehr Fahrrad fahren.", fa: "Ø²Ø¨Ø§لÙ‡ Ø¨Ø§ÛŒØ¯ ØªÙÚ©ÛŒÚ© Ø´ÙˆØ¯. Ù…ÛŒâ€ŒØªÙˆØ§Ù† Ø¨ÛŒØ´ØªØ± Ø¯ÙˆÚ†Ø±Ø®Ù‡ Ø³ÙˆØ§Ø± Ø´Ø¯." }
+          title: "راه‌حل‌ها",
+          text: "پیشنهادات",
+          example: { de: "Müll sollte getrennt werden.", fa: "زباله باید تفکیک شود." }
         },
         {
-          title: "Ù†ØªÛŒØ¬Ù‡â€ŒÚ¯ÛŒØ±ÛŒ",
-          text: "Ø¯Ø¹ÙˆØª Ø¨Ù‡ Ø¹Ù…ل",
-          example: { de: "Jeder Einzelne kann etwas tun, um die Erde zu schÃ¼tzen.", fa: "Ù‡Ø± ÙØ±Ø¯ÛŒ Ù…ÛŒâ€ŒØªÙˆØ§Ù†Ø¯ Ø¨Ø±Ø§ÛŒ Ø­ÙØ§Ø¸Øª Ø§Ø² Ø²Ù…ÛŒÙ† Ú©Ø§Ø±ÛŒ Ø§Ù†Ø¬Ø§Ù… Ø¯Ù‡Ø¯." }
+          title: "نتیجه‌گیری",
+          text: "نظر شخصی",
+          example: { de: "Jeder kann einen Beitrag leisten.", fa: "هر کسی می‌تواند سهمی داشته باشد." }
         }
       ],
-      modelAnswer: "Der Klimawandel betrifft uns alle. Die Temperaturen steigen und die Natur wird zerstÃ¶rt. Ich persÃ¶nlich versuche, jeden Tag etwas fÃ¼r die Umwelt zu tun. MÃ¼ll wird von mir immer getrennt: Papier, Plastik, Glas und Bio-MÃ¼ll. Ich sollte weniger Fleisch essen, weil die Fleischproduktion viel CO2 verursacht. AuÃŸerdem kÃ¶nnte ich mehr Fahrrad fahren statt Auto zu fahren. In meiner Wohnung wird sparsam mit Energie umgegangen: LED-Lampen werden benutzt und das Licht wird ausgeschaltet, wenn es nicht gebraucht wird. Es wÃ¤re besser, wenn alle Menschen mitmachen wÃ¼rden. Jeder sollte seinen Beitrag leisten. Wenn jeder nur eine kleine VerÃ¤nderung machen wÃ¼rde, kÃ¶nnte die Welt gerettet werden."
+      modelAnswer: "Der Klimawandel ist ein ernstes Problem. Die Luft wird durch Autos und Fabriken verschmutzt. Wälder wurden in vielen Ländern zerstört. Plastikmüll wird ins Meer geworfen. Aber jeder Einzelne kann etwas tun. Müll sollte getrennt und recycelt werden. Weniger Plastik sollte benutzt werden. Das Fahrrad kann statt des Autos genommen werden. Erneuerbare Energien sollten mehr genutzt werden. In meiner Stadt werden neue Fahrradwege gebaut. Meiner Meinung nach ist es wichtig, dass jeder seinen Beitrag leistet. Wenn alle zusammenarbeiten, kann die Umwelt geschützt werden."
     }
   ],
 
   listening: [
     {
-      title: "ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒ",
-      source: "Klimawandel einfach erklÃ¤rt (B1)",
-      link: "https://www.youtube.com/watch?v=G4H1N_yXBiA",
-      instructions: "Ø¨Ù‡ ØªÙˆØ¶ÛŒØ­Ø§Øª Ø¯Ø±Ø¨Ø§Ø±Ù‡ ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒ Ùˆ Passiv Ø¯Ø± ÙˆÛŒØ¯ÛŒÙˆ Ø¯Ù‚Øª Ú©Ù†ÛŒØ¯.ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ù…Ø¬Ù‡Ùˆل Ùˆ ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Konjunktiv II (sollte, kÃ¶nnte) Ø±Ø§ ÛŒØ§Ø¯Ø¯Ø§Ø´Øª Ú©Ù†ÛŒØ¯."
+      title: "محیط زیست",
+      instruction: "به جملات زیر گوش دهید و بنویسید (Dictation).",
+      sentences: [
+        { de: "Wir müssen die Umwelt schützen.", fa: "باید از محیط زیست محافظت کنیم.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Wir müssen die Umwelt schützen" },
+        { de: "Der Klimawandel ist ein großes Problem.", fa: "تغییرات اقلیمی مشکل بزرگی است.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Der Klimawandel ist ein großes Problem" },
+        { de: "Müll sollte getrennt werden.", fa: "زباله باید تفکیک شود.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Müll sollte getrennt werden" },
+        { de: "Erneuerbare Energien sind umweltfreundlich.", fa: "انرژی‌های تجدیدپذیر دوستدار محیط زیست هستند.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Erneuerbare Energien sind umweltfreundlich" },
+        { de: "Die Wälder wurden zerstört.", fa: "جنگل‌ها نابود شدند.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Die Wälder wurden zerstört" },
+        { de: "Jeder kann einen Beitrag leisten.", fa: "هر کسی می‌تواند سهمی داشته باشد.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Jeder kann einen Beitrag leisten" },
+        { de: "Recycling ist wichtig für die Natur.", fa: "بازیافت برای طبیعت مهم است.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Recycling ist wichtig für die Natur" }
+      ]
     }
   ],
 
   speaking: [
     {
-      title: "Ø¨Ø­Ø«: Ù…Ø³Ø¦ÙˆلÛŒØª Ø²ÛŒØ³Øªâ€ŒÙ…Ø­ÛŒØ·ÛŒ",
-      pattern: "Man sollte... / Man kÃ¶nnte... / Es wÃ¤re besser, wenn...",
-      exercise: "Ù…Ø¯Øª Û² Ø¯Ù‚ÛŒÙ‚Ù‡ Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø§Ù‚Ø¯Ø§Ù…Ø§Øª Ø²ÛŒØ³Øªâ€ŒÙ…Ø­ÛŒØ·ÛŒ Ø´Ø®ØµÛŒ ØµØ­Ø¨Øª Ú©Ù†ÛŒØ¯. Ú†Ù‡ Ú©Ø§Ø±Ù‡Ø§ÛŒÛŒ Ø¨Ø±Ø§ÛŒ Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ø§Ù†Ø¬Ø§Ù… Ù…ÛŒâ€ŒØ¯Ù‡ÛŒØ¯ØŸ Ú†Ù‡ Ú©Ø§Ø±Ù‡Ø§ÛŒÛŒ Ø¨Ø§ÛŒØ¯ Ø§Ù†Ø¬Ø§Ù… Ø´ÙˆØ¯ØŸ"
+      title: "بحث درباره تغییرات اقلیمی",
+      pattern: "Meiner Meinung nach ist Klimawandel... / Ich finde es wichtig, dass... / Man sollte mehr... / Jeder Einzelne kann...",
+      exercise: "درباره تغییرات اقلیمی و کارهایی که می‌توانید انجام دهید صحبت کنید. نظرتان را بیان کنید و پیشنهاد بدهید."
     }
   ],
 
-  cultureTip: "Ø¢لÙ…Ø§Ù† ÛŒÚ©ÛŒ Ø§Ø² Ù¾ÛŒØ´Ø±ÙˆØ§Ù† Ø¬Ù‡Ø§Ù† Ø¯Ø± Ø­ÙØ§Ø¸Øª Ø§Ø² Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ø§Ø³Øª. Ø­Ø²Ø¨ Ø³Ø¨Ø² (Die GrÃ¼nen) Ø¯Ø± Ø¢لÙ…Ø§Ù† Ø³Ø§Ø¨Ù‚Ù‡ Ø·ÙˆلØ§Ù†ÛŒ Ø¯Ø§Ø±Ø¯ Ùˆ ÛŒÚ©ÛŒ Ø§Ø² Ø§Ø­Ø²Ø§Ø¨ Ù…Ù‡Ù… Ø³ÛŒØ§Ø³ÛŒ Ø§Ø³Øª. ØªÙÚ©ÛŒÚ© Ø²Ø¨Ø§لÙ‡ (MÃ¼lltrennung) Ø¯Ø± Ø¢لÙ…Ø§Ù† Ø¨Ø³ÛŒØ§Ø± Ø¯Ù‚ÛŒÙ‚ Ùˆ Ø§Ø¬Ø¨Ø§Ø±ÛŒ Ø§Ø³Øª. Ø¢لÙ…Ø§Ù†ÛŒâ€ŒÙ‡Ø§ Ø¹Ø§Ø´Ù‚ Ø·Ø¨ÛŒØ¹Øª Ù‡Ø³ØªÙ†Ø¯ Ùˆ Ø¢Ø®Ø± Ù‡ÙØªÙ‡â€ŒÙ‡Ø§ Ø²ÛŒØ§Ø¯ Ø¨Ù‡ Ø¬Ù†Ú¯ل Ùˆ Ú©ÙˆÙ‡ Ù…ÛŒâ€ŒØ±ÙˆÙ†Ø¯. Pfand (Ø³ÛŒØ³ØªÙ… Ø¨Ø§Ø²Ú¯Ø´Øª Ø¨Ø·Ø±ÛŒ) Ù†ÛŒØ² Ø¨Ø³ÛŒØ§Ø± Ø±Ø§ÛŒØ¬ Ø§Ø³Øª Ùˆ Ù…Ø±Ø¯Ù… Ø¨Ø·Ø±ÛŒâ€ŒÙ‡Ø§ Ø±Ø§ Ø¨Ù‡ Ù…Ø§Ø´ÛŒÙ†â€ŒÙ‡Ø§ÛŒ Ø®ÙˆØ¯Ú©Ø§Ø± ØªØ­ÙˆÛŒل Ù…ÛŒâ€ŒØ¯Ù‡Ù†Ø¯.",
+  cultureTip: "آلمان یکی از پیشروان حفاظت از محیط زیست است. جنبش سبز (Die Grünen) از آلمان شروع شد. آلمانی‌ها زباله را دقیق تفکیک می‌کنند: کاغذ، شیشه، پلاستیک و بیولوژیک. مفهوم Energiewende (گذار انرژی) یعنی حرکت از انرژی هسته‌ای و فسیلی به انرژی‌های تجدیدپذیر. Pfand (بازپرداخت) برای بطری‌ها وجود دارد: وقتی بطری را پس می‌دهید، پولش را می‌گیرید.",
 
   examData: {
     questions: [
-      { question: "Â«MÃ¼ll _______ recycelt.Â» (Passiv PrÃ¤sens)", options: ["ist", "wird", "hat", "wurde"], answer: 1 },
-      { question: "Â«Man _______ weniger Plastik benutzen.Â» (ØªÙˆØµÛŒÙ‡)", options: ["muss", "kann", "sollte", "will"], answer: 2 },
-      { question: "Ú©Ø¯Ø§Ù… Ø§Ù†Ø±Ú˜ÛŒ Â«ØªØ¬Ø¯ÛŒØ¯Ù¾Ø°ÛŒØ±Â» Ø§Ø³ØªØŸ", options: ["Kohle", " Ã–l", "Windkraft", "Gas"], answer: 2 },
-      { question: "Â«Die Luft _______ durch Fabriken _______.Â» (Ø¢لÙˆØ¯Ù‡ Ø´Ø¯Ù†)", options: ["wird ... verschmutzt", "ist ... verschmutzt", "wird ... verschmutzen", "hat ... verschmutzt"], answer: 0 },
-      { question: "Â«CO2 wird durch _______ freigesetzt.Â»", options: ["BÃ¤ume", "Autos", "Wasser", "Wind"], answer: 1 },
-      { question: "Ú©Ø¯Ø§Ù… Ú©لÙ…Ù‡ Ø¨Ù‡ Ù…Ø¹Ù†Ø§ÛŒ Â«ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒÂ» Ø§Ø³ØªØŸ", options: ["Umwelt", "Klimawandel", "Natur", "Wetter"], answer: 1 },
-      { question: "Â«Wenn alle mitmachen _______, kÃ¶nnte man viel erreichen.Â»", options: ["wÃ¼rden", "werden", "wurden", "wÃ¤ren"], answer: 0 },
-      { question: "Â«MÃ¼lltrennungÂ» ÛŒØ¹Ù†ÛŒ:?", options: ["Ø¬Ù…Ø¹â€ŒØ¢ÙˆØ±ÛŒ Ø²Ø¨Ø§لÙ‡", "ØªÙÚ©ÛŒÚ© Ø²Ø¨Ø§لÙ‡", "Ø¨Ø§Ø²ÛŒØ§ÙØª Ø²Ø¨Ø§لÙ‡", "ØªÙˆلÛŒØ¯ Ø²Ø¨Ø§لÙ‡"], answer: 1 }
+      { question: "«Die Wälder _______ zerstört.» (مجهول گذشته)", options: ["werden", "wurden", "sind", "haben"], answer: 1 },
+      { question: "«Meiner Meinung nach» یعنی:؟", options: ["در واقع", "به نظر من", "به هر حال", "متأسفانه"], answer: 1 },
+      { question: "«erneuerbare Energie» یعنی:؟", options: ["انرژی هسته‌ای", "انرژی تجدیدپذیر", "انرژی فسیلی", "انرژی برق"], answer: 1 },
+      { question: "کدام فعل یعنی «نابود کردن»؟", options: ["schützen", "recyceln", "zerstören", "trennen"], answer: 2 },
+      { question: "«Müll sollte _______ werden.»", options: ["trennt", "getrennt", "trennen", "trennte"], answer: 1 },
+      { question: "«Umweltverschmutzung» یعنی:؟", options: ["حفاظت محیط زیست", "آلودگی محیط زیست", "بازیافت", "انرژی پاک"], answer: 1 },
+      { question: "کدام عبارت صحیح است؟", options: ["Ich finde es wichtig.", "Ich finde es Wichtig.", "Ich finde wichtig es.", "Wichtig finde ich es."], answer: 0 },
+      { question: "«umweltfreundlich» یعنی:؟", options: ["آلوده", "خطرناک", "دوستدار محیط زیست", "گران"], answer: 2 },
+      { question: "«CO2-Ausstoß» یعنی:؟", options: ["جذب کربن", "انتشار دی‌اکسید کربن", "تصفیه هوا", "گرمایش زمین"], answer: 1 },
+      { question: "«nachhaltig» یعنی:؟", options: ["سریع", "ارزان", "پایدار", "جدید"], answer: 2 }
     ]
   }
 };

@@ -1,215 +1,379 @@
 export const day8Data = {
-  title: "Ø±ÙˆØ² Û¸: Ø­Ø±ÙˆÙ Ø§Ø¶Ø§ÙÙ‡ Ù¾Ø§ÛŒÙ‡ (in, auf, an, aus, mit, nach, zu, von)",
-  objective: "Ø¯Ø± Ø§ÛŒÙ† Ø¯Ø±Ø³ Ø­Ø±ÙˆÙ Ø§Ø¶Ø§ÙÙ‡ Ù¾Ø±Ú©Ø§Ø±Ø¨Ø±Ø¯ Ø¢لÙ…Ø§Ù†ÛŒ Ùˆ Ù†Ø­ÙˆÙ‡ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø¢Ù†Ù‡Ø§ Ø¨Ø§ Ù…Ú©Ø§Ù† Ùˆ Ø²Ù…Ø§Ù† Ø±Ø§ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØ¯.",
+  title: "روز ۸: حروف اضافه پایه‌ای (in, auf, an, aus, mit, nach, zu, von)",
+  objective: "در پایان این روز، شما قادر خواهید بود ۸ حرف اضافه پایه‌ای آلمانی را با معنی و کاربردشان یاد بگیرید، تفاوت استفاده برای مکان و جهت را بدانید و ۱۵ اسم جدید یاد بگیرید.",
+  level: "A1",
+
   grammarData: {
-    subtitle: "Ø­Ø±ÙˆÙ Ø§Ø¶Ø§ÙÙ‡ Ø¢لÙ…Ø§Ù†ÛŒ: Ù…Ú©Ø§Ù† Ùˆ Ø²Ù…Ø§Ù†",
+    subtitle: "درس‌های گرامری با تمرین تعاملی",
     content: [
       {
         type: "text",
-        title: "Ø­Ø±ÙˆÙ Ø§Ø¶Ø§ÙÙ‡ Ú†ÛŒØ³Øª Ùˆ Ú†Ø±Ø§ Ù…Ù‡Ù… Ù‡Ø³ØªÙ†Ø¯ØŸ",
-        text: "Ø­Ø±ÙˆÙ Ø§Ø¶Ø§ÙÙ‡ Ú©لÙ…Ø§Øª Ú©ÙˆÚ†Ú©ÛŒ Ù‡Ø³ØªÙ†Ø¯ Ú©Ù‡ Ø±Ø§Ø¨Ø·Ù‡ Ø¨ÛŒÙ† Ø§Ø¬Ø²Ø§ÛŒ Ø¬Ù…لÙ‡ Ø±Ø§ Ù†Ø´Ø§Ù† Ù…ÛŒâ€ŒØ¯Ù‡Ù†Ø¯. Ø¯Ø± ÙØ§Ø±Ø³ÛŒ Â«Ø¯Ø±ØŒ Ø±ÙˆÛŒØŒ Ø§Ø²ØŒ Ø¨Ø§ØŒ Ø¨Ù‡Â» Ùˆ Ø¯Ø± Ø¢لÙ…Ø§Ù†ÛŒ in, auf, an, aus, mit, nach, zu, von. Ù†Ú©ØªÙ‡ Ù…Ù‡Ù…: Ø¨Ø¹Ø¶ÛŒ Ø­Ø±ÙˆÙ Ø§Ø¶Ø§ÙÙ‡ Akkusativ Ùˆ Ø¨Ø¹Ø¶ÛŒ Dativ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯!"
-      },
-      {
-        type: "text",
-        title: "in (Ø¯Ø± / Ø¯Ø§Ø®ل)",
-        text: "in Ø¨Ø±Ø§ÛŒ Ø¨ÛŒØ§Ù† Ù…Ú©Ø§Ù† Ø¯Ø§Ø®لÛŒ Ùˆ Ø²Ù…Ø§Ù† Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯:\n\nÙ…Ú©Ø§Ù† (Ú©Ø¬Ø§ØŸ):\nâ€¢ Ich bin in der KÃ¼che. = Ù…Ù† Ø¯Ø± Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ Ù‡Ø³ØªÙ….\nâ€¢ Das Buch ist in der Tasche. = Ú©ØªØ§Ø¨ Ø¯Ø± Ú©ÛŒÙ Ø§Ø³Øª.\nâ€¢ Wir wohnen in Berlin. = Ù…Ø§ Ø¯Ø± Ø¨Ø±لÛŒÙ† Ø²Ù†Ø¯Ú¯ÛŒ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ….\n\nØ²Ù…Ø§Ù† (Ú©ÛŒØŸ):\nâ€¢ Im Sommer (= in dem Sommer) = Ø¯Ø± ØªØ§Ø¨Ø³ØªØ§Ù†\nâ€¢ In einer Stunde = Ø¯Ø± ÛŒÚ© Ø³Ø§Ø¹Øª\nâ€¢ In den Ferien = Ø¯Ø± ØªØ¹Ø·ÛŒلØ§Øª\n\nÙ†Ú©ØªÙ‡: in + Dativ = Ù…Ú©Ø§Ù† Ø«Ø§Ø¨Øª\n     in + Akkusativ = Ø­Ø±Ú©Øª Ø¨Ù‡ Ø¯Ø§Ø®ل"
-      },
-      {
-        type: "text",
-        title: "auf (Ø±ÙˆÛŒ)",
-        text: "auf Ø¨Ø±Ø§ÛŒ Ø¨ÛŒØ§Ù† Ø³Ø·ÙˆØ­ Ùˆ Ù…ÙˆÙ‚Ø¹ÛŒØª Ø±ÙˆÛŒ Ú†ÛŒØ²ÛŒ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯:\n\nâ€¢ Das Buch liegt auf dem Tisch. = Ú©ØªØ§Ø¨ Ø±ÙˆÛŒ Ù…ÛŒØ² Ø§Ø³Øª.\nâ€¢ Ich sitze auf dem Stuhl. = Ù…Ù† Ø±ÙˆÛŒ ØµÙ†Ø¯لÛŒ Ù†Ø´Ø³ØªÙ‡â€ŒØ§Ù….\nâ€¢ Die Katze schlÃ¤ft auf dem Bett. = Ú¯Ø±Ø¨Ù‡ Ø±ÙˆÛŒ ØªØ®Øª Ø®ÙˆØ§Ø¨ÛŒØ¯Ù‡.\nâ€¢ Auf der StraÃŸe = Ø¯Ø± Ø®ÛŒØ§Ø¨Ø§Ù†\n\nØ³Ø¤Ø§ل: Wo ist das Buch? â†’ Es ist auf dem Tisch.\nØ³Ø¤Ø§ل: Wohin legst du das Buch? â†’ Auf den Tisch! (Akkusativ!)"
-      },
-      {
-        type: "text",
-        title: "an (Ú©Ù†Ø§Ø± / Ø±ÙˆÛŒ Ø¯ÛŒÙˆØ§Ø± / Ø³Ø§Ø¹Øª)",
-        text: "an Ø¨Ø±Ø§ÛŒ Ø¨ÛŒØ§Ù† Ù…ÙˆÙ‚Ø¹ÛŒØª Ú©Ù†Ø§Ø± Ú†ÛŒØ²ÛŒ ÛŒØ§ Ø±ÙˆÛŒ Ø³Ø·ÙˆØ­ Ø¹Ù…ÙˆØ¯ÛŒ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯:\n\nâ€¢ Das Bild hÃ¤ngt an der Wand. = Ø¹Ú©Ø³ Ø±ÙˆÛŒ Ø¯ÛŒÙˆØ§Ø± Ø¢ÙˆÛŒØ²Ø§Ù† Ø§Ø³Øª.\nâ€¢ Ich warte an der Haltestelle. = Ù…Ù† Ø¯Ø± Ø§ÛŒØ³ØªÚ¯Ø§Ù‡ Ù…Ù†ØªØ¸Ø±Ù….\nâ€¢ An der TÃ¼r klopfen = Ø¨Ù‡ Ø¯Ø± Ø²Ø¯Ù†\n\nØ²Ù…Ø§Ù† (Ø³Ø§Ø¹Øª):\nâ€¢ Um acht Uhr = Ø³Ø§Ø¹Øª Ù‡Ø´Øª\nâ€¢ Am Montag (= an dem Montag) = Ø±ÙˆØ² Ø¯ÙˆØ´Ù†Ø¨Ù‡\nâ€¢ Am Morgen = ØµØ¨Ø­â€ŒÙ‡Ø§\n\nÙ†Ú©ØªÙ‡: an Ø¨Ø±Ø§ÛŒ Ø³Ø§Ø¹Øª Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù†Ù…ÛŒâ€ŒØ´ÙˆØ¯! Ø¨Ø±Ø§ÛŒ Ø³Ø§Ø¹Øª Â«umÂ» Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯."
-      },
-      {
-        type: "text",
-        title: "aus (Ø§Ø² Ø¯Ø§Ø®ل / Ø§Ù‡ل)",
-        text: "aus Ø¨Ø±Ø§ÛŒ Ø¨ÛŒØ§Ù† Ù…Ù†Ø´Ø£ Ùˆ Ø®Ø±ÙˆØ¬ Ø§Ø² Ù…Ú©Ø§Ù† Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯:\n\nâ€¢ Ich komme aus dem Iran. = Ù…Ù† Ø§Ø² Ø§ÛŒØ±Ø§Ù† Ù…ÛŒâ€ŒØ¢ÛŒÙ… (Ø§Ù‡ل Ø§ÛŒØ±Ø§Ù† Ù‡Ø³ØªÙ…).\nâ€¢ Er kommt aus der TÃ¼rkei. = Ø§Ùˆ Ø§Ø² ØªØ±Ú©ÛŒÙ‡ Ù…ÛŒâ€ŒØ¢ÛŒØ¯.\nâ€¢ Das Buch ist aus der Bibliothek. = Ú©ØªØ§Ø¨ Ø§Ø² Ú©ØªØ§Ø¨Ø®Ø§Ù†Ù‡ Ø§Ø³Øª.\nâ€¢ Aus dem Haus gehen = Ø§Ø² Ø®Ø§Ù†Ù‡ Ø¨ÛŒØ±ÙˆÙ† Ø±ÙØªÙ†\n\nØ³Ø¤Ø§ل: Woher kommst du? â†’ Aus dem Iran.\nØ³Ø¤Ø§ل: Woher ist das Buch? â†’ Aus der Bibliothek."
-      },
-      {
-        type: "text",
-        title: "mit (Ø¨Ø§)",
-        text: "mit Ø¨Ø±Ø§ÛŒ Ø¨ÛŒØ§Ù† Ù‡Ù…Ø±Ø§Ù‡ÛŒ Ùˆ ÙˆØ³ÛŒلÙ‡ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯:\n\nâ€¢ Ich gehe mit meiner Freundin. = Ù…Ù† Ø¨Ø§ Ø¯ÙˆØ³Øª Ø¯Ø®ØªØ±Ù… Ù…ÛŒâ€ŒØ±ÙˆÙ….\nâ€¢ Er fÃ¤hrt mit dem Bus. = Ø§Ùˆ Ø¨Ø§ Ø§ØªÙˆØ¨ÙˆØ³ Ù…ÛŒâ€ŒØ±ÙˆØ¯.\nâ€¢ Ich schreibe mit einem Stift. = Ù…Ù† Ø¨Ø§ Ø®ÙˆØ¯Ú©Ø§Ø± Ù…ÛŒâ€ŒÙ†ÙˆÛŒØ³Ù….\nâ€¢ Mit dem Auto fahren = Ø¨Ø§ Ù…Ø§Ø´ÛŒÙ† Ø±ÙØªÙ†\n\nÙ†Ú©ØªÙ‡ Ù…Ù‡Ù…: mit Ù‡Ù…ÛŒØ´Ù‡ Dativ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯!\nmit dem BusØŒ mit der BahnØŒ mit dem Fahrrad"
-      },
-      {
-        type: "text",
-        title: "nach (Ø¨Ø¹Ø¯ Ø§Ø² / Ø¨Ù‡ Ø³Ù…Øª)",
-        text: "nach Ø¨Ø±Ø§ÛŒ Ø¨ÛŒØ§Ù† Ø²Ù…Ø§Ù† Ø¨Ø¹Ø¯ Ùˆ Ø­Ø±Ú©Øª Ø¨Ù‡ Ø³Ù…Øª Ù…Ú©Ø§Ù† Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯:\n\nØ²Ù…Ø§Ù†:\nâ€¢ Nach dem Essen = Ø¨Ø¹Ø¯ Ø§Ø² ØºØ°Ø§\nâ€¢ Nach der Arbeit = Ø¨Ø¹Ø¯ Ø§Ø² Ú©Ø§Ø±\nâ€¢ Nach einer Stunde = Ø¨Ø¹Ø¯ Ø§Ø² ÛŒÚ© Ø³Ø§Ø¹Øª\n\nÙ…Ú©Ø§Ù† (Ø´Ù‡Ø±Ù‡Ø§ Ùˆ Ú©Ø´ÙˆØ±Ù‡Ø§ Ø¨Ø¯ÙˆÙ† Ø­Ø±Ù ØªØ¹Ø±ÛŒÙ):\nâ€¢ Ich fahre nach Berlin. = Ù…Ù† Ø¨Ù‡ Ø¨Ø±لÛŒÙ† Ù…ÛŒâ€ŒØ±ÙˆÙ….\nâ€¢ Nach Deutschland fliegen = Ø¨Ù‡ Ø¢لÙ…Ø§Ù† Ù¾Ø±ÙˆØ§Ø² Ú©Ø±Ø¯Ù†\nâ€¢ Nach Hause gehen = Ø¨Ù‡ Ø®Ø§Ù†Ù‡ Ø±ÙØªÙ†\n\nÙ†Ú©ØªÙ‡: nach Ø¨Ø±Ø§ÛŒ Ø´Ù‡Ø±Ù‡Ø§ Ùˆ Ú©Ø´ÙˆØ±Ù‡Ø§ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŒ zu Ø¨Ø±Ø§ÛŒ Ø³Ø§Ø®ØªÙ…Ø§Ù†â€ŒÙ‡Ø§."
-      },
-      {
-        type: "text",
-        title: "zu (Ø¨Ù‡ Ø³Ù…Øª) Ùˆ von (Ø§Ø² Ø³Ù…Øª)",
-        text: "zu Ø¨Ø±Ø§ÛŒ Ø­Ø±Ú©Øª Ø¨Ù‡ Ø³Ù…Øª Ù…Ú©Ø§Ù† (Ù…Ø¹Ù…ÙˆلØ§Ù‹ Ø³Ø§Ø®ØªÙ…Ø§Ù†â€ŒÙ‡Ø§):\nâ€¢ Ich gehe zur Schule. (= zu der Schule) = Ù…Ù† Ø¨Ù‡ Ù…Ø¯Ø±Ø³Ù‡ Ù…ÛŒâ€ŒØ±ÙˆÙ….\nâ€¢ Zur Arbeit gehen = Ø¨Ù‡ Ø³Ø± Ú©Ø§Ø± Ø±ÙØªÙ†\nâ€¢ Zum Arzt gehen = Ø¨Ù‡ Ø¯Ú©ØªØ± Ø±ÙØªÙ†\n\nvon Ø¨Ø±Ø§ÛŒ Ø¨ÛŒØ§Ù† Ù…Ù†Ø´Ø£ Ùˆ Ø´Ø±ÙˆØ¹:\nâ€¢ Ich komme von der Arbeit. = Ù…Ù† Ø§Ø² Ø³Ø± Ú©Ø§Ø± Ù…ÛŒâ€ŒØ¢ÛŒÙ….\nâ€¢ Das Buch ist von Goethe. = Ú©ØªØ§Ø¨ Ø§Ø² Ú¯ÙˆØªÙ‡ Ø§Ø³Øª.\nâ€¢ Von Berlin nach MÃ¼nchen = Ø§Ø² Ø¨Ø±لÛŒÙ† Ø¨Ù‡ Ù…ÙˆÙ†ÛŒØ®\n\nÙ†Ú©ØªÙ‡: zu Ùˆ von Ù‡Ø± Ø¯Ùˆ Dativ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯!\nzu dem â†’ zum / zu der â†’ zur"
+        title: "حروف اضافه در آلمانی",
+        text: "حروف اضافه کلمات کوچکی هستند که رابطه بین کلمات جمله را نشان می‌دهند. در زبان آلمانی، بعضی حروف اضافه همیشه با Dativ و بعضی همیشه با Akkusativ می‌روند.\nاما در سطح A1، فقط معنی و کاربرد اصلی را یاد می‌گیریم."
       },
       {
         type: "table",
-        title: "Ø®لØ§ØµÙ‡ Ø­Ø±ÙˆÙ Ø§Ø¶Ø§ÙÙ‡",
+        title: "۸ حرف اضافه پایه‌ای",
         rows: [
-          { de: "in (Ø¯Ø± / Ø¨Ù‡ Ø¯Ø§Ø®ل)", fa: "in der KÃ¼che (Ø¯Ø± Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡) | in die KÃ¼che (Ø¨Ù‡ Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡)" },
-          { de: "auf (Ø±ÙˆÛŒ)", fa: "auf dem Tisch (Ø±ÙˆÛŒ Ù…ÛŒØ²) | auf den Tisch (Ø±ÙˆÛŒ Ù…ÛŒØ² - Ø­Ø±Ú©Øª)" },
-          { de: "an (Ú©Ù†Ø§Ø± / Ø±ÙˆÛŒ)", fa: "an der Wand (Ø±ÙˆÛŒ Ø¯ÛŒÙˆØ§Ø±) | an die Wand (Ø¨Ù‡ Ø¯ÛŒÙˆØ§Ø±)" },
-          { de: "aus (Ø§Ø² Ø¯Ø§Ø®ل / Ø§Ù‡ل)", fa: "aus dem Haus (Ø§Ø² Ø®Ø§Ù†Ù‡) | aus Berlin (Ø§Ù‡ل Ø¨Ø±لÛŒÙ†)" },
-          { de: "mit (Ø¨Ø§)", fa: "mit dem Bus (Ø¨Ø§ Ø§ØªÙˆØ¨ÙˆØ³) | mit meiner Schwester (Ø¨Ø§ Ø®ÙˆØ§Ù‡Ø±Ù…)" },
-          { de: "nach (Ø¨Ø¹Ø¯ Ø§Ø² / Ø¨Ù‡ Ø³Ù…Øª)", fa: "nach dem Essen (Ø¨Ø¹Ø¯ Ø§Ø² ØºØ°Ø§) | nach Berlin (Ø¨Ù‡ Ø¨Ø±لÛŒÙ†)" },
-          { de: "zu (Ø¨Ù‡ Ø³Ù…Øª)", fa: "zur Schule (Ø¨Ù‡ Ù…Ø¯Ø±Ø³Ù‡) | zum Bahnhof (Ø¨Ù‡ Ø§ÛŒØ³ØªÚ¯Ø§Ù‡)" },
-          { de: "von (Ø§Ø² Ø³Ù…Øª / Ø§Ø²)", fa: "von der Arbeit (Ø§Ø² Ø³Ø± Ú©Ø§Ø±) | von Berlin (Ø§Ø² Ø¨Ø±لÛŒÙ†)" }
+          { de: "in (در / به داخل)", fa: "Ich wohne in Berlin. (در برلین زندگی می‌کنم.) / Ich gehe in die Schule. (به مدرسه می‌روم.)" },
+          { de: "auf (روی / به روی)", fa: "Das Buch liegt auf dem Tisch. (کتاب روی میز است.) / Ich lege das Buch auf den Tisch. (کتاب را روی میز می‌گذارم.)" },
+          { de: "an (به / کنار / به کنار)", fa: "Das Bild hängt an der Wand. (عکس روی دیوار است.) / Ich gehe an die Tür. (به در می‌روم.)" },
+          { de: "aus (از / اهل)", fa: "Ich komme aus dem Iran. (از ایران می‌آیم.) / Er kommt aus der Türkei. (او اهل ترکیه است.)" },
+          { de: "mit (با / همراه)", fa: "Ich fahre mit dem Bus. (با اتوبوس می‌روم.) / Er kommt mit seiner Freundin. (او با دوست دخترش می‌آید.)" },
+          { de: "nach (به / بعد از)", fa: "Ich fahre nach Berlin. (به برلین می‌روم.) / Nach dem Essen lerne ich. (بعد از غذا یاد می‌گیرم.)" },
+          { de: "zu (به / نزد)", fa: "Ich gehe zum Arzt. (به دکتر می‌روم.) / Er geht zu seiner Mutter. (او نزد مادرش می‌رود.)" },
+          { de: "von (از / از طرف)", fa: "Das ist von mir. (این از طرف من است.) / Ich komme von der Arbeit. (از سر کار می‌آیم.)" }
         ]
       },
       {
         type: "alert",
-        title: "âš ï¸ Ù†Ú©Ø§Øª Ù…Ù‡Ù…",
-        text: "Û±. in + Dativ = Ù…Ú©Ø§Ù† Ø«Ø§Ø¨Øª: Ich bin in der KÃ¼che.\n   in + Akkusativ = Ø­Ø±Ú©Øª: Ich gehe in die KÃ¼che.\n\nÛ². nach Hause (Ø¨Ù‡ Ø®Ø§Ù†Ù‡) vs zu Hause (Ø¯Ø± Ø®Ø§Ù†Ù‡):\n   Ich gehe nach Hause. (Ø¨Ù‡ Ø®Ø§Ù†Ù‡ Ù…ÛŒâ€ŒØ±ÙˆÙ….)\n   Ich bin zu Hause. (Ø¯Ø± Ø®Ø§Ù†Ù‡ Ù‡Ø³ØªÙ….)\n\nÛ³. zu + dem = zum / zu + der = zur:\n   zum Bahnhof / zur Schule\n\nÛ´. von + dem = vom:\n   vom Bahnhof\n\nÛµ. Ø¨Ø±Ø§ÛŒ Ú©Ø´ÙˆØ±Ù‡Ø§:\n   nach Deutschland (Ø¨Ù‡ Ø¢لÙ…Ø§Ù† - Ø­Ø±Ú©Øª)\n   aus Deutschland (Ø§Ø² Ø¢لÙ…Ø§Ù† - Ù…Ù†Ø´Ø£)\n   in Deutschland (Ø¯Ø± Ø¢لÙ…Ø§Ù† - Ù…Ú©Ø§Ù†)"
+        title: "تفاوت مهم: aus در مقابل von",
+        text: "برای گفتن «اهل کجایی» اگر کشور باشد: Ich komme aus dem Iran. اگر شهر باشد: Ich komme aus Berlin. اما برای «از کجا می‌آییم» (جهت): Ich komme von der Arbeit. (از سر کار.)"
+      },
+      {
+        type: "text",
+        title: "تفاوت مکان ثابت و جهت حرکت",
+        text: "این یکی از مهم‌ترین مفاهیم زبان آلمانی است:\n- مکان ثابت (wo? = کجا؟): فعل‌هایی مثل wohnen, sein, liegen, sitzen, stehen\n- جهت حرکت (wohin? = به کجا؟): فعل‌هایی مثل gehen, fahren, kommen, legen, stellen"
+      },
+      {
+        type: "table",
+        title: "مثال‌های مکان ثابت و جهت حرکت",
+        rows: [
+          { de: "مکان ثابت (wo?)", fa: "Ich bin in der Schule. (در مدرسه هستم.) / Das Buch liegt auf dem Tisch. (کتاب روی میز است.)" },
+          { de: "جهت حرکت (wohin?)", fa: "Ich gehe in die Schule. (به مدرسه می‌روم.) / Ich lege das Buch auf den Tisch. (کتاب را روی میز می‌گذارم.)" },
+          { de: "تفاوت: in + Dativ (مکان)", fa: "in der Küche (در آشپزخانه), im (= in dem) Garten (در باغ)" },
+          { de: "تفاوت: in + Akkusativ (جهت)", fa: "in die Küche (به آشپزخانه), in den Garten (به باغ)" }
+        ]
       },
       {
         type: "examples",
-        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ Ø¹Ù…لÛŒ",
+        title: "مثال‌های کاربردی هر حرف اضافه",
         items: [
-          { de: "Ich bin in der Schule.", fa: "Ù…Ù† Ø¯Ø± Ù…Ø¯Ø±Ø³Ù‡ Ù‡Ø³ØªÙ…." },
-          { de: "Das Buch liegt auf dem Tisch.", fa: "Ú©ØªØ§Ø¨ Ø±ÙˆÛŒ Ù…ÛŒØ² Ø§Ø³Øª." },
-          { de: "Er fÃ¤hrt mit dem Bus zur Arbeit.", fa: "Ø§Ùˆ Ø¨Ø§ Ø§ØªÙˆØ¨ÙˆØ³ Ø¨Ù‡ Ø³Ø± Ú©Ø§Ø± Ù…ÛŒâ€ŒØ±ÙˆØ¯." },
-          { de: "Sie kommt aus der TÃ¼rkei.", fa: "Ø§Ùˆ Ø§Ø² ØªØ±Ú©ÛŒÙ‡ Ù…ÛŒâ€ŒØ¢ÛŒØ¯." },
-          { de: "Nach dem Unterricht gehe ich nach Hause.", fa: "Ø¨Ø¹Ø¯ Ø§Ø² Ú©لØ§Ø³ Ø¨Ù‡ Ø®Ø§Ù†Ù‡ Ù…ÛŒâ€ŒØ±ÙˆÙ…." },
-          { de: "Ich warte am Bahnhof.", fa: "Ù…Ù† Ø¯Ø± Ø§ÛŒØ³ØªÚ¯Ø§Ù‡ Ù…Ù†ØªØ¸Ø±Ù…." },
-          { de: "Das Bild hÃ¤ngt an der Wand.", fa: "Ø¹Ú©Ø³ Ø±ÙˆÛŒ Ø¯ÛŒÙˆØ§Ø± Ø¢ÙˆÛŒØ²Ø§Ù† Ø§Ø³Øª." },
-          { de: "Von Montag bis Freitag arbeite ich.", fa: "Ø§Ø² Ø¯ÙˆØ´Ù†Ø¨Ù‡ ØªØ§ Ø¬Ù…Ø¹Ù‡ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ù…." }
+          { de: "in: Ich wohne in einer Wohnung.", fa: "در یک آپارتمان زندگی می‌کنم." },
+          { de: "auf: Das Handy ist auf dem Tisch.", fa: "گوشی روی میز است." },
+          { de: "an: Das Bild hängt an der Wand.", fa: "عکس به دیوار آویزان است." },
+          { de: "aus: Er kommt aus der Türkei.", fa: "او اهل ترکیه است." },
+          { de: "mit: Ich fahre mit dem Auto.", fa: "با ماشین می‌روم." },
+          { de: "nach: Wir fahren nach Wien.", fa: "ما به وین می‌رویم." },
+          { de: "zu: Gehst du zum Supermarkt?", fa: "به سوپرمارکت می‌روی؟" },
+          { de: "von: Das Geschenk ist von meiner Mutter.", fa: "این هدیه از مادرم است." }
+        ]
+      },
+      {
+        type: "table",
+        title: "حروف اضافه + آرتیکل ترکیبی",
+        rows: [
+          { de: "in + dem = im", fa: "im Haus (در خانه), im Garten (در باغ), im Büro (در دفتر)" },
+          { de: "in + das = ins", fa: "ins Kino (به سینما), ins Bett (به تختخواب), ins Krankenhaus (به بیمارستان)" },
+          { de: "zu + dem = zum", fa: "zum Arzt (به دکتر), zum Bahnhof (به ایستگاه قطار), zum Frühstück (برای صبحانه)" },
+          { de: "zu + der = zur", fa: "zur Schule (به مدرسه), zur Uni (به دانشگاه), zur Arbeit (به سر کار)" },
+          { de: "von + dem = vom", fa: "vom Arzt (از دکتر), vom Bahnhof (از ایستگاه), vom Lehrer (از معلم)" }
         ]
       },
       {
         type: "interactive_quiz",
-        title: "Ø¢Ø²Ù…ÙˆÙ† ØªØ¹Ø§Ù…لÛŒ: Ø­Ø±ÙˆÙ Ø§Ø¶Ø§ÙÙ‡",
+        title: "آزمون: حروف اضافه",
         questions: [
           {
-            question: "Â«Ù…Ù† Ø¯Ø± Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ Ù‡Ø³ØªÙ…Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Â«Ù…Ù† Ø¯Ø± Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ Ù‡Ø³ØªÙ…Â» auf Deutsch?",
+            question: "کدام حرف اضافه صحیح است؟ «Ich komme ___ dem Iran.»",
+            questionDe: "Welche Präposition ist richtig?",
             options: [
-              { text: "Ich bin in die KÃ¼che.", isCorrect: false },
-              { text: "Ich bin in der KÃ¼che.", isCorrect: true },
-              { text: "Ich bin auf der KÃ¼che.", isCorrect: false },
-              { text: "Ich bin an der KÃ¼che.", isCorrect: false }
+              { text: "von", isCorrect: false },
+              { text: "aus", isCorrect: true },
+              { text: "nach", isCorrect: false }
             ],
-            explanation: "Ø¯Ø± DativØŒ die KÃ¼che â†’ der KÃ¼che ØªØºÛŒÛŒØ± Ù…ÛŒâ€ŒÚ©Ù†Ø¯. in + der = Ø¯Ø± Ù…Ú©Ø§Ù† Ø«Ø§Ø¨Øª."
+            explanation: "درست! برای گفتن «اهل کجایی» از aus استفاده می‌کنیم."
           },
           {
-            question: "Â«Ø§Ùˆ Ø¨Ø§ Ø§ØªÙˆØ¨ÙˆØ³ Ù…ÛŒâ€ŒØ±ÙˆØ¯Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Â«Ø§Ùˆ Ø¨Ø§ Ø§ØªÙˆØ¨ÙˆØ³ Ù…ÛŒâ€ŒØ±ÙˆØ¯Â» auf Deutsch?",
+            question: "کدام حرف اضافه صحیح است؟ «Ich fahre ___ Berlin.»",
+            questionDe: "Welche Präposition ist richtig?",
             options: [
-              { text: "Er fÃ¤hrt mit den Bus.", isCorrect: false },
-              { text: "Er fÃ¤hrt mit dem Bus.", isCorrect: true },
-              { text: "Er fÃ¤hrt mit der Bus.", isCorrect: false },
-              { text: "Er fÃ¤hrt mit das Bus.", isCorrect: false }
+              { text: "aus", isCorrect: false },
+              { text: "von", isCorrect: false },
+              { text: "nach", isCorrect: true }
             ],
-            explanation: "mit Ù‡Ù…ÛŒØ´Ù‡ Dativ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯. der Bus â†’ dem Bus Ø¯Ø± Dativ."
+            explanation: "عالی! برای جهت حرکت به شهرها از nach استفاده می‌کنیم."
+          }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تمرین جای خالی: حروف اضافه",
+        instructions: "حرف اضافه مناسب را در جای خالی بنویسید.",
+        sentences: [
+          { de: "Ich komme ___ Deutschland.", answer: "aus", hint: "برای بیان اهل کجا بودن" },
+          { de: "Ich fahre ___ dem Bus.", answer: "mit", hint: "برای بیان وسیله نقلیه" },
+          { de: "Das Buch ist ___ dem Tisch.", answer: "auf", hint: "برای بیان مکان روی چیزی" },
+          { de: "Ich gehe ___ dem Arzt.", answer: "zum", hint: "برای بیان رفتن نزد کسی" },
+          { de: "Ich wohne ___ Berlin.", answer: "in", hint: "برای بیان مکان در شهر" },
+          { de: "Ich komme ___ der Arbeit.", answer: "von", hint: "برای بیان از کجا آمدن" }
+        ]
+      }
+    ]
+  },
+
+  vocabData: {
+    categories: [
+      {
+        title: "مکان‌ها",
+        words: [
+          {
+            de: "die Schule",
+            fa: "مدرسه",
+            ipa: "[ˈʃuːlə]",
+            article: "die",
+            plural: "die Schulen",
+            examples: [{ de: "Ich gehe zur Schule.", fa: "به مدرسه می‌روم." }]
           },
           {
-            question: "Â«Ù…Ù† Ø§Ø² Ø§ÛŒØ±Ø§Ù† Ù‡Ø³ØªÙ…Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Â«Ù…Ù† Ø§Ø² Ø§ÛŒØ±Ø§Ù† Ù‡Ø³ØªÙ…Â» auf Deutsch?",
-            options: [
-              { text: "Ich komme nach dem Iran.", isCorrect: false },
-              { text: "Ich komme von dem Iran.", isCorrect: false },
-              { text: "Ich komme aus dem Iran.", isCorrect: true },
-              { text: "Ich komme zum Iran.", isCorrect: false }
-            ],
-            explanation: "Ø¨Ø±Ø§ÛŒ Ø¨ÛŒØ§Ù† Ù…Ù†Ø´Ø£ Ùˆ Â«Ø§Ù‡ل Ø¨ÙˆØ¯Ù†Â» Ø§Ø² aus Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…: aus dem Iran."
+            de: "der Supermarkt",
+            fa: "سوپرمارکت",
+            ipa: "[ˈzuːpɐmaʁkt]",
+            article: "der",
+            plural: "die Supermärkte",
+            examples: [{ de: "Ich gehe zum Supermarkt.", fa: "به سوپرمارکت می‌روم." }]
           },
           {
-            question: "zu + der Ú†Ú¯ÙˆÙ†Ù‡ Ú©ÙˆØªØ§Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Wie wird Â«zu + derÂ» kurz geschrieben?",
-            options: [
-              { text: "zum", isCorrect: false },
-              { text: "zur", isCorrect: true },
-              { text: "zun", isCorrect: false },
-              { text: "zus", isCorrect: false }
-            ],
-            explanation: "zu + der = zur (Ù…Ø«ل zur Schule = Ø¨Ù‡ Ù…Ø¯Ø±Ø³Ù‡). zu + dem = zum (Ù…Ø«ل zum Bahnhof = Ø¨Ù‡ Ø§ÛŒØ³ØªÚ¯Ø§Ù‡)."
+            de: "die Küche",
+            fa: "آشپزخانه",
+            ipa: "[ˈkʏçə]",
+            article: "die",
+            plural: "die Küchen",
+            examples: [{ de: "Meine Mutter ist in der Küche.", fa: "مادرم در آشپزخانه است." }]
           },
           {
-            question: "Â«Ø¨Ù‡ Ø®Ø§Ù†Ù‡ Ø±ÙØªÙ†Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Â«Ø¨Ù‡ Ø®Ø§Ù†Ù‡ Ø±ÙØªÙ†Â» auf Deutsch?",
-            options: [
-              { text: "zu Hause gehen", isCorrect: false },
-              { text: "nach Hause gehen", isCorrect: true },
-              { text: "in Hause gehen", isCorrect: false },
-              { text: "aus Hause gehen", isCorrect: false }
-            ],
-            explanation: "nach Hause = Ø¨Ù‡ Ø®Ø§Ù†Ù‡ (Ø­Ø±Ú©Øª). zu Hause = Ø¯Ø± Ø®Ø§Ù†Ù‡ (Ù…Ú©Ø§Ù† Ø«Ø§Ø¨Øª)."
+            de: "das Krankenhaus",
+            fa: "بیمارستان",
+            ipa: "[ˈkʁaŋkn̩haʊ̯s]",
+            article: "das",
+            plural: "die Krankenhäuser",
+            examples: [{ de: "Er ist im Krankenhaus.", fa: "او در بیمارستان است." }]
+          },
+          {
+            de: "der Bahnhof",
+            fa: "ایستگاه قطار",
+            ipa: "[ˈbaːnhoːf]",
+            article: "der",
+            plural: "die Bahnhöfe",
+            examples: [{ de: "Ich gehe zum Bahnhof.", fa: "به ایستگاه قطار می‌روم." }]
+          },
+          {
+            de: "die Bibliothek",
+            fa: "کتابخانه",
+            ipa: "[bibli̯oˈteːk]",
+            article: "die",
+            plural: "die Bibliotheken",
+            examples: [{ de: "Ich lerne in der Bibliothek.", fa: "در کتابخانه درس می‌خوانم." }]
+          },
+          {
+            de: "das Büro",
+            fa: "دفتر کار",
+            ipa: "[byˈʁoː]",
+            article: "das",
+            plural: "die Büros",
+            examples: [{ de: "Mein Vater ist im Büro.", fa: "پدرم در دفتر است." }]
+          },
+          {
+            de: "das Restaurant",
+            fa: "رستوران",
+            ipa: "[ʁɛstoˈʁɑ̃ː]",
+            article: "das",
+            plural: "die Restaurants",
+            examples: [{ de: "Wir gehen ins Restaurant.", fa: "ما به رستوران می‌رویم." }]
+          }
+        ]
+      },
+      {
+        title: "وسایل نقلیه",
+        words: [
+          {
+            de: "der Bus",
+            fa: "اتوبوس",
+            ipa: "[bʊs]",
+            article: "der",
+            plural: "die Busse",
+            examples: [{ de: "Ich fahre mit dem Bus.", fa: "با اتوبوس می‌روم." }]
+          },
+          {
+            de: "der Zug",
+            fa: "قطار",
+            ipa: "[tsuːk]",
+            article: "der",
+            plural: "die Züge",
+            examples: [{ de: "Ich fahre mit dem Zug.", fa: "با قطار می‌روم." }]
+          },
+          {
+            de: "die Straßenbahn",
+            fa: "tram / قطار شهری",
+            ipa: "[ˈʃtʁaːsn̩baːn]",
+            article: "die",
+            plural: "die Straßenbahnen",
+            examples: [{ de: "Die Straßenbahn kommt.", fa: "tram می‌آید." }]
+          },
+          {
+            de: "das Fahrrad",
+            fa: "دوچرخه",
+            ipa: "[ˈfaːɐ̯ʁaːt]",
+            article: "das",
+            plural: "die Fahrräder",
+            examples: [{ de: "Ich fahre mit dem Fahrrad.", fa: "با دوچرخه می‌روم." }]
+          },
+          {
+            de: "die U-Bahn",
+            fa: "مترو",
+            ipa: "[ˈuːbaːn]",
+            article: "die",
+            plural: "die U-Bahnen",
+            examples: [{ de: "Ich nehme die U-Bahn.", fa: "مترو سوار می‌شوم." }]
+          },
+          {
+            de: "das Taxi",
+            fa: "تاکسی",
+            ipa: "[ˈtaksi]",
+            article: "das",
+            plural: "die Taxis",
+            examples: [{ de: "Wir nehmen ein Taxi.", fa: "تاکسی می‌گیریم." }]
+          },
+          {
+            de: "die Haltestelle",
+            fa: "ایستگاه اتوبوس/ tram",
+            ipa: "[ˈhaltəˌʃtɛlə]",
+            article: "die",
+            plural: "die Haltestellen",
+            examples: [{ de: "Wo ist die Haltestelle?", fa: "ایستگاه کجاست؟" }]
           }
         ]
       }
     ]
   },
-  vocabData: {
-    categories: [
-      {
-        title: "Ø­Ø±ÙˆÙ Ø§Ø¶Ø§ÙÙ‡ Ùˆ Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ Ú©Ø§Ø±Ø¨Ø±Ø¯ÛŒ",
-        words: [
-          { de: "in + Dativ (Ù…Ú©Ø§Ù† Ø«Ø§Ø¨Øª)", fa: "Ø¯Ø±", article: "-", plural: "-", examples: [{ de: "Ich bin in der KÃ¼che.", fa: "Ù…Ù† Ø¯Ø± Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ Ù‡Ø³ØªÙ…." }, { de: "Wir wohnen in Berlin.", fa: "Ù…Ø§ Ø¯Ø± Ø¨Ø±لÛŒÙ† Ø²Ù†Ø¯Ú¯ÛŒ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…." }] },
-          { de: "in + Akkusativ (Ø­Ø±Ú©Øª)", fa: "Ø¨Ù‡ Ø¯Ø§Ø®ل", article: "-", plural: "-", examples: [{ de: "Ich gehe in die Schule.", fa: "Ù…Ù† Ø¨Ù‡ Ù…Ø¯Ø±Ø³Ù‡ Ù…ÛŒâ€ŒØ±ÙˆÙ…." }, { de: "Leg das Buch in die Tasche.", fa: "Ú©ØªØ§Ø¨ Ø±Ø§ Ø¯Ø± Ú©ÛŒÙ Ø¨Ú¯Ø°Ø§Ø±." }] },
-          { de: "auf (Ø±ÙˆÛŒ)", fa: "Ø±ÙˆÛŒ", article: "-", plural: "-", examples: [{ de: "Das Buch ist auf dem Tisch.", fa: "Ú©ØªØ§Ø¨ Ø±ÙˆÛŒ Ù…ÛŒØ² Ø§Ø³Øª." }, { de: "Setz dich auf den Stuhl.", fa: "Ø±ÙˆÛŒ ØµÙ†Ø¯لÛŒ Ø¨Ù†Ø´ÛŒÙ†." }] },
-          { de: "an (Ú©Ù†Ø§Ø± / Ø±ÙˆÛŒ Ø¯ÛŒÙˆØ§Ø±)", fa: "Ú©Ù†Ø§Ø± / Ø±ÙˆÛŒ", article: "-", plural: "-", examples: [{ de: "Das Bild hÃ¤ngt an der Wand.", fa: "Ø¹Ú©Ø³ Ø±ÙˆÛŒ Ø¯ÛŒÙˆØ§Ø± Ø§Ø³Øª." }, { de: "Am Montag habe ich frei.", fa: "Ø±ÙˆØ² Ø¯ÙˆØ´Ù†Ø¨Ù‡ Ø¢Ø²Ø§Ø¯ Ù‡Ø³ØªÙ…." }] },
-          { de: "aus (Ø§Ø² / Ø§Ù‡ل)", fa: "Ø§Ø² Ø¯Ø§Ø®ل / Ø§Ù‡ل", article: "-", plural: "-", examples: [{ de: "Ich komme aus dem Iran.", fa: "Ù…Ù† Ø§Ø² Ø§ÛŒØ±Ø§Ù† Ù‡Ø³ØªÙ…." }, { de: "Das ist aus Holz.", fa: "Ø§ÛŒÙ† Ø§Ø² Ú†ÙˆØ¨ Ø§Ø³Øª." }] },
-          { de: "mit (Ø¨Ø§)", fa: "Ø¨Ø§ (Ù‡Ù…Ø±Ø§Ù‡ÛŒ / ÙˆØ³ÛŒلÙ‡)", article: "-", plural: "-", examples: [{ de: "Ich fahre mit dem Bus.", fa: "Ù…Ù† Ø¨Ø§ Ø§ØªÙˆØ¨ÙˆØ³ Ù…ÛŒâ€ŒØ±ÙˆÙ…." }, { de: "Ich trinke Kaffee mit Milch.", fa: "Ù…Ù† Ù‚Ù‡ÙˆÙ‡ Ø¨Ø§ Ø´ÛŒØ± Ù…ÛŒâ€ŒÙ†ÙˆØ´Ù…." }] },
-          { de: "nach (Ø¨Ø¹Ø¯ Ø§Ø² / Ø¨Ù‡ Ø³Ù…Øª)", fa: "Ø¨Ø¹Ø¯ Ø§Ø² / Ø¨Ù‡ Ø³Ù…Øª", article: "-", plural: "-", examples: [{ de: "Nach dem Essen gehe ich spazieren.", fa: "Ø¨Ø¹Ø¯ Ø§Ø² ØºØ°Ø§ Ù‚Ø¯Ù… Ù…ÛŒâ€ŒØ²Ù†Ù…." }, { de: "Ich fliege nach Deutschland.", fa: "Ù…Ù† Ø¨Ù‡ Ø¢لÙ…Ø§Ù† Ù¾Ø±ÙˆØ§Ø² Ù…ÛŒâ€ŒÚ©Ù†Ù…." }] },
-          { de: "zu (Ø¨Ù‡ Ø³Ù…Øª)", fa: "Ø¨Ù‡ Ø³Ù…Øª (Ø³Ø§Ø®ØªÙ…Ø§Ù†)", article: "-", plural: "-", examples: [{ de: "Ich gehe zur Schule.", fa: "Ù…Ù† Ø¨Ù‡ Ù…Ø¯Ø±Ø³Ù‡ Ù…ÛŒâ€ŒØ±ÙˆÙ…." }, { de: "Zum Bahnhof bitte!", fa: "Ø¨Ù‡ Ø§ÛŒØ³ØªÚ¯Ø§Ù‡ لØ·ÙØ§Ù‹!" }] },
-          { de: "von (Ø§Ø² Ø³Ù…Øª / Ø§Ø²)", fa: "Ø§Ø² Ø³Ù…Øª", article: "-", plural: "-", examples: [{ de: "Ich komme von der Arbeit.", fa: "Ù…Ù† Ø§Ø² Ø³Ø± Ú©Ø§Ø± Ù…ÛŒâ€ŒØ¢ÛŒÙ…." }, { de: "Das Buch ist von Goethe.", fa: "Ú©ØªØ§Ø¨ Ø§Ø² Ú¯ÙˆØªÙ‡ Ø§Ø³Øª." }] },
-          { de: "der Bahnhof", fa: "Ø§ÛŒØ³ØªÚ¯Ø§Ù‡ Ù‚Ø·Ø§Ø±", article: "der", plural: "die BahnhÃ¶fe", examples: [{ de: "Der Bahnhof ist groÃŸ.", fa: "Ø§ÛŒØ³ØªÚ¯Ø§Ù‡ Ø¨Ø²Ø±Ú¯ Ø§Ø³Øª." }, { de: "Ich warte am Bahnhof.", fa: "Ù…Ù† Ø¯Ø± Ø§ÛŒØ³ØªÚ¯Ø§Ù‡ Ù…Ù†ØªØ¸Ø±Ù…." }] },
-          { de: "die Haltestelle", fa: "Ø§ÛŒØ³ØªÚ¯Ø§Ù‡ Ø§ØªÙˆØ¨ÙˆØ³", article: "die", plural: "die Haltestellen", examples: [{ de: "Die Haltestelle ist dort drÃ¼ben.", fa: "Ø§ÛŒØ³ØªÚ¯Ø§Ù‡ Ø¢Ù†Ø·Ø±Ù Ø§Ø³Øª." }] }
-        ]
-      }
-    ]
-  },
+
   reading: [
     {
-      text: "Mein Weg zur Arbeit\n\nJeden Morgen stehe ich um sechs Uhr auf. Nach dem FrÃ¼hstÃ¼ck gehe ich zur Bushaltestelle. Dort warte ich auf den Bus. Mit dem Bus fahre ich zum Bahnhof. Am Bahnhof nehme ich die U-Bahn zur Arbeit.\n\nIch arbeite in einer groÃŸen Firma in der Stadtmitte. Die Firma ist in einem alten GebÃ¤ude. Mein BÃ¼ro ist im dritten Stock. Dort arbeite ich mit meinen Kollegen zusammen.\n\nNach der Arbeit gehe ich nach Hause. Ich wohne in einer kleinen Wohnung am Stadtrand. Dort bin ich um sechs Uhr abends.",
+      text: "Der Weg zur Arbeit (راه سر کار)\n\nIch heiße Thomas und wohne in München. Jeden Tag gehe ich zur Arbeit.\nUm 7 Uhr frühstücke ich. Dann gehe ich zur U-Bahn-Station. Ich nehme die U-Bahn und fahre zum Büro. Das Büro ist im Stadtzentrum.\nMittags gehe ich ins Restaurant und esse mit meinen Kollegen. Nachmittags arbeite ich bis 5 Uhr.\nAm Abend fahre ich mit dem Bus nach Hause. Manchmal gehe ich noch zum Supermarkt oder zur Bibliothek. Am Wochenende fahre ich mit dem Zug nach Berlin.",
+      translation: [
+        { de: "Der Weg zur Arbeit", fa: "راه سر کار" },
+        { de: "Ich heiße Thomas und wohne in München.", fa: "نام من توماس است و در مونیخ زندگی می‌کنم." },
+        { de: "Jeden Tag gehe ich zur Arbeit.", fa: "هر روز به سر کار می‌روم." },
+        { de: "Um 7 Uhr frühstücke ich.", fa: "ساعت ۷ صبحانه می‌خورم." },
+        { de: "Dann gehe ich zur U-Bahn-Station.", fa: "بعد به ایستگاه مترو می‌روم." },
+        { de: "Ich nehme die U-Bahn und fahre zum Büro.", fa: "مترو سوار می‌شوم و به دفتر می‌روم." },
+        { de: "Das Büro ist im Stadtzentrum.", fa: "دفتر در مرکز شهر است." },
+        { de: "Mittags gehe ich ins Restaurant.", fa: "ظهرها به رستوران می‌روم." },
+        { de: "Nachmittags arbeite ich bis 5 Uhr.", fa: "بعدازظهرها تا ساعت ۵ کار می‌کنم." },
+        { de: "Am Abend fahre ich mit dem Bus nach Hause.", fa: "شب‌ها با اتوبوس به خانه می‌روم." },
+        { de: "Am Wochenende fahre ich mit dem Zug nach Berlin.", fa: "آخر هفته با قطار به برلین می‌روم." }
+      ],
       questions: [
-        { question: "Ú¯ÙˆÛŒÙ†Ø¯Ù‡ ØµØ¨Ø­â€ŒÙ‡Ø§ Ú†Ù†Ø¯ Ø³Ø§Ø¹Øª Ø¨ÛŒØ¯Ø§Ø± Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", answer: "Ø³Ø§Ø¹Øª Ø´Ø´ (um sechs Uhr)." },
-        { question: "Ø§Ùˆ Ø¨Ø§ Ú†Ù‡ ÙˆØ³ÛŒلÙ‡â€ŒØ§ÛŒ Ø¨Ù‡ Ø§ÛŒØ³ØªÚ¯Ø§Ù‡ Ù…ØªØ±Ùˆ Ù…ÛŒâ€ŒØ±ÙˆØ¯ØŸ", answer: "Ø¨Ø§ Ø§ØªÙˆØ¨ÙˆØ³ (mit dem Bus)." },
-        { question: "Ø¯ÙØªØ± Ø§Ùˆ Ø¯Ø± Ú©Ø¯Ø§Ù… Ø·Ø¨Ù‚Ù‡ Ø§Ø³ØªØŸ", answer: "Ø·Ø¨Ù‚Ù‡ Ø³ÙˆÙ… (im dritten Stock)." },
-        { question: "Ø®Ø§Ù†Ù‡ Ø§Ùˆ Ú©Ø¬Ø§Ø³ØªØŸ", answer: "Ø¯Ø± Ø­ÙˆÙ…Ù‡ Ø´Ù‡Ø± (am Stadrand)." }
+        { question: "توماس کجا زندگی می‌کند؟", answer: "در مونیخ." },
+        { question: "توماس چطور به سر کار می‌رود؟", answer: "با مترو." },
+        { question: "توماس ناهار را کجا می‌خورد؟", answer: "در رستوران." },
+        { question: "توماس آخر هفته‌ها کجا می‌رود؟", answer: "با قطار به برلین." }
       ]
     }
   ],
+
   writing: [
     {
-      title: "Ù†ÙˆØ´ØªÙ† Ù…Ø³ÛŒØ± Ø±ÙˆØ²Ø§Ù†Ù‡",
-      prompt: "Ù…Ø³ÛŒØ± Ø±ÙˆØ²Ø§Ù†Ù‡ Ø®ÙˆØ¯ Ø±Ø§ Ø§Ø² Ø®Ø§Ù†Ù‡ ØªØ§ Ù…Ø­ل Ú©Ø§Ø±/ØªØ­ØµÛŒل Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯.",
+      title: "نوشتن مسیر روزانه (Wegbeschreibung)",
+      prompt: "مسیر روزانه خود را از خانه تا محل کار/تحصیل بنویسید.",
       steps: [
-        { title: "Ù…Ø±Ø­لÙ‡ Û±: Ø´Ø±ÙˆØ¹", text: "Ø§Ø² Ú©Ø¬Ø§ Ø´Ø±ÙˆØ¹ Ù…ÛŒâ€ŒÚ©Ù†ÛŒØ¯ØŸ", example: { de: "Ich wohne in Teheran. Nach dem FrÃ¼hstÃ¼ck gehe ich zur U-Bahn-Station.", fa: "Ù…Ù† Ø¯Ø± ØªÙ‡Ø±Ø§Ù† Ø²Ù†Ø¯Ú¯ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ù…. Ø¨Ø¹Ø¯ Ø§Ø² ØµØ¨Ø­Ø§Ù†Ù‡ Ø¨Ù‡ Ø§ÛŒØ³ØªÚ¯Ø§Ù‡ Ù…ØªØ±Ùˆ Ù…ÛŒâ€ŒØ±ÙˆÙ…." } },
-        { title: "Ù…Ø±Ø­لÙ‡ Û²: Ù…Ø³ÛŒØ±", text: "Ø¨Ø§ Ú†Ù‡ ÙˆØ³ÛŒلÙ‡â€ŒØ§ÛŒ Ùˆ Ø§Ø² Ú©Ø¬Ø§ Ù…ÛŒâ€ŒØ±ÙˆÛŒØ¯ØŸ", example: { de: "Mit der U-Bahn fahre ich zur UniversitÃ¤t.", fa: "Ø¨Ø§ Ù…ØªØ±Ùˆ Ø¨Ù‡ Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ Ù…ÛŒâ€ŒØ±ÙˆÙ…." } },
-        { title: "Ù…Ø±Ø­لÙ‡ Û³: Ù…Ù‚ØµØ¯", text: "Ú©Ø¬Ø§ Ù…ÛŒâ€ŒØ±Ø³ÛŒØ¯ØŸ", example: { de: "Die UniversitÃ¤t ist in der Stadtmitte.", fa: "Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ Ø¯Ø± Ù…Ø±Ú©Ø² Ø´Ù‡Ø± Ø§Ø³Øª." } }
+        {
+          title: "شروع روز",
+          text: "صبحانه و آماده شدن را توصیف کنید.",
+          example: { de: "Um 7 Uhr frühstücke ich in der Küche.", fa: "ساعت ۷ در آشپزخانه صبحانه می‌خورم." }
+        },
+        {
+          title: "مسیر",
+          text: "با چه وسیله‌ای و به کجا می‌روید.",
+          example: { de: "Dann gehe ich zur U-Bahn-Station und fahre mit der U-Bahn.", fa: "بعد به ایستگاه مترو می‌روم و با مترو می‌روم." }
+        },
+        {
+          title: "برگشت",
+          text: "عصر چطور به خانه برمی‌گردید.",
+          example: { de: "Am Abend fahre ich mit dem Bus nach Hause.", fa: "شب‌ها با اتوبوس به خانه می‌روم." }
+        }
+      ],
+      modelAnswer: "Ich heiße Sara und wohne in Hamburg. Um 7 Uhr frühstücke ich. Dann gehe ich zur Bushaltestelle. Ich fahre mit dem Bus zum Büro. Das Büro ist im Stadtzentrum. Mittags esse ich im Restaurant. Nachmittags arbeite ich bis 5 Uhr. Am Abend fahre ich mit der U-Bahn nach Hause."
+    }
+  ],
+
+  listening: [
+    {
+      title: "۱. حروف اضافه (A1 hören)",
+      instruction: "تمرین شنیداری:\n۱. جملات را بشنوید و حرف اضافه را تشخیص دهید.\n۲. مشخص کنید مکان ثابت است یا جهت حرکت.\n۳. جملات را با صدای بلند تکرار کنید.",
+      sentences: [
+        { de: "Ich wohne in Berlin.", fa: "در برلین زندگی می‌کنم.", tts: "Ich wohne in Berlin." },
+        { de: "Ich fahre mit dem Bus.", fa: "با اتوبوس می‌روم.", tts: "Ich fahre mit dem Bus." },
+        { de: "Ich komme aus dem Iran.", fa: "از ایران می‌آیم.", tts: "Ich komme aus dem Iran." },
+        { de: "Ich gehe zum Arzt.", fa: "به دکتر می‌روم.", tts: "Ich gehe zum Arzt." },
+        { de: "Das Buch liegt auf dem Tisch.", fa: "کتاب روی میز است.", tts: "Das Buch liegt auf dem Tisch." },
+        { de: "Nach dem Essen lerne ich.", fa: "بعد از غذا یاد می‌گیرم.", tts: "Nach dem Essen lerne ich." }
       ]
     }
   ],
-  listening: [
-    {
-      title: "ØªÙ…Ø±ÛŒÙ† Ø´Ù†ÛŒØ¯Ø§Ø±ÛŒ: Ø­Ø±ÙˆÙ Ø§Ø¶Ø§ÙÙ‡",
-      source: "Deutsche Welle - Deutsch Lernen",
-      link: "https://www.dw.com/de/deutsch-lernen/s-2055",
-      instructions: "Ø¨Ù‡ ÙˆÛŒØ¯ÛŒÙˆ Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ Ø­Ø±ÙˆÙ Ø§Ø¶Ø§ÙÙ‡ Ø±Ø§ Ø´Ù†Ø§Ø³Ø§ÛŒÛŒ Ú©Ù†ÛŒØ¯. Ù…Ø´Ø®Øµ Ú©Ù†ÛŒØ¯ Ù‡Ø± Ø­Ø±Ù Ø§Ø¶Ø§ÙÙ‡ Ø¨Ø§ Dativ Ø§Ø³Øª ÛŒØ§ Akkusativ."
-    }
-  ],
+
   speaking: [
     {
-      title: "ØªÙ…Ø±ÛŒÙ† Ú¯ÙØªØ§Ø±ÛŒ: ØªÙˆØµÛŒÙ Ù…Ø³ÛŒØ±",
-      pattern: "Ich gehe von [Ù…Ø¨Ø¯Ø£] nach [Ù…Ù‚ØµØ¯]. Mit [ÙˆØ³ÛŒلÙ‡] fahre ich zu [Ù…Ù‚ØµØ¯].",
-      exercise: "Ù…Ø³ÛŒØ± Ø±ÙˆØ²Ø§Ù†Ù‡ Ø®ÙˆØ¯ Ø±Ø§ Ø¨Ø§ ØµØ¯Ø§ÛŒ Ø¨لÙ†Ø¯ ØªÙˆØµÛŒÙ Ú©Ù†ÛŒØ¯. Ø§Ø² Ûµ Ø­Ø±Ù Ø§Ø¶Ø§ÙÙ‡ Ù…Ø®ØªلÙ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯."
+      title: "تمرین مسیر با حروف اضافه",
+      pattern: "- Wo wohnst du?\n- Ich wohne in München.\n- Wie fährst du zur Arbeit?\n- Ich fahre mit der U-Bahn.\n- Wo arbeitest du?\n- Ich arbeite im Stadtzentrum. Nach der Arbeit gehe ich zum Supermarkt.",
+      exercise: "تمرین:\nگام ۱: بخش pattern را بشنوید.\nگام ۲: مسیر واقعی خود را توضیح دهید.\nگام ۳: از حروف اضافه مختلف استفاده کنید."
     }
   ],
-  cultureTip: "Ø¯Ø± Ø¢لÙ…Ø§Ù†ØŒ Ø³ÛŒØ³ØªÙ… Ø­Ù…ل Ùˆ Ù†Ù‚ل Ø¹Ù…ÙˆÙ…ÛŒ Ø¨Ø³ÛŒØ§Ø± ØªÙˆØ³Ø¹Ù‡ ÛŒØ§ÙØªÙ‡ Ø§Ø³Øª. Ø§Ú©Ø«Ø± Ø´Ù‡Ø±Ù‡Ø§ Ù…ØªØ±Ùˆ (U-Bahn)ØŒ ØªØ±Ø§Ù…ÙˆØ§ (StraÃŸenbahn) Ùˆ Ø§ØªÙˆØ¨ÙˆØ³ Ø¯Ø§Ø±Ù†Ø¯. Ù†Ú©ØªÙ‡ Ø¬Ø§لØ¨: Ø¯Ø± Ø¢لÙ…Ø§Ù†ØŒ Ø¨لÛŒØ· Ø­Ù…ل Ùˆ Ù†Ù‚ل Ø¹Ù…ÙˆÙ…ÛŒ Ø¨Ø¯ÙˆÙ† Ù…Ù‡Ø± (Entwertung) Ø¨ÛŒâ€ŒØ§Ø¹ØªØ¨Ø§Ø± Ø§Ø³Øª! Ø¨Ø§ÛŒØ¯ Ù‚Ø¨ل Ø§Ø² Ø³ÙˆØ§Ø± Ø´Ø¯Ù† Ø¨لÛŒØ· Ø±Ø§ Ø¯Ø± Ø¯Ø³ØªÚ¯Ø§Ù‡ Ù…Ø®ØµÙˆØµ Ù…Ù‡Ø± Ú©Ù†ÛŒØ¯.",
+
+  cultureTip: "در آلمان، سیستم حمل و نقل عمومی (ÖPNV) بسیار عالی است. مترو (U-Bahn)، tram (Straßenbahn) و اتوبوس به‌خوبی به هم متصل هستند. نکته مهم: بلیط باید قبل از سوار شدن خریداری شود و بازرسان (Kontrolleure) به‌صورت تصادفی بلیط را چک می‌کنند. اگر بلیط نداشته باشید، جریمه سنگین (۶۰ یورو) می‌شوید! همچنین در آلمان، ساعت قطارها بسیار دقیق است و حتی ۲ دقیقه تأخیر هم نشان‌دهنده مشکل است.",
+
   examData: {
     questions: [
-      { question: "Â«Ù…Ù† Ø¯Ø± Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ Ù‡Ø³ØªÙ…Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Ich bin in die KÃ¼che.", "Ich bin in der KÃ¼che.", "Ich bin auf der KÃ¼che.", "Ich bin an der KÃ¼che."], answer: 1 },
-      { question: "Â«Ø§Ùˆ Ø¨Ø§ Ø§ØªÙˆØ¨ÙˆØ³ Ù…ÛŒâ€ŒØ±ÙˆØ¯Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Er fÃ¤hrt mit den Bus.", "Er fÃ¤hrt mit dem Bus.", "Er fÃ¤hrt mit der Bus.", "Er fÃ¤hrt mit das Bus."], answer: 1 },
-      { question: "Â«Ù…Ù† Ø§Ø² Ø§ÛŒØ±Ø§Ù† Ù‡Ø³ØªÙ…Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Ich komme nach dem Iran.", "Ich komme von dem Iran.", "Ich komme aus dem Iran.", "Ich komme zum Iran."], answer: 2 },
-      { question: "zu + der Ú†Ú¯ÙˆÙ†Ù‡ Ú©ÙˆØªØ§Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["zum", "zur", "zun", "zus"], answer: 1 },
-      { question: "Â«Ø¨Ù‡ Ø®Ø§Ù†Ù‡ Ø±ÙØªÙ†Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["zu Hause gehen", "nach Hause gehen", "in Hause gehen", "aus Hause gehen"], answer: 1 },
-      { question: "mit Ú†Ù‡ Ø­Ø§لØªÛŒ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯ØŸ", options: ["Akkusativ", "Dativ", "Nominativ", "Genitiv"], answer: 1 },
-      { question: "Â«Ø±ÙˆØ² Ø¯ÙˆØ´Ù†Ø¨Ù‡Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["am Montag", "im Montag", "um Montag", "nach Montag"], answer: 0 },
-      { question: "Â«Ù…Ù† Ø¨Ù‡ Ù…Ø¯Ø±Ø³Ù‡ Ù…ÛŒâ€ŒØ±ÙˆÙ…Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Ich gehe in der Schule.", "Ich gehe zur Schule.", "Ich gehe nach der Schule.", "Ich gehe von der Schule."], answer: 1 },
-      { question: "von + dem Ú†Ú¯ÙˆÙ†Ù‡ Ú©ÙˆØªØ§Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["zum", "zur", "vom", "vonm"], answer: 2 },
-      { question: "Â«Ø¨Ø¹Ø¯ Ø§Ø² ØºØ°Ø§Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["nach dem Essen", "von dem Essen", "mit dem Essen", "aus dem Essen"], answer: 0 }
+      {
+        question: "کدام حرف اضافه برای «اهل ایران بودن» استفاده می‌شود؟",
+        options: ["von", "aus", "nach", "mit"],
+        answer: 1
+      },
+      {
+        question: "«Ich fahre ___ dem Bus» یعنی چه؟",
+        options: ["با اتوبوس می‌روم", "به اتوبوس می‌روم", "از اتوبوس می‌آیم"],
+        answer: 0
+      },
+      {
+        question: "کدام حرف اضافه برای جهت حرکت به شهرها استفاده می‌شود؟",
+        options: ["in", "aus", "nach", "mit"],
+        answer: 2
+      },
+      {
+        question: "«zum» ترکیبی از کدام حروف اضافه و آرتیکل است؟",
+        options: ["zu + der", "zu + dem", "zu + das"],
+        answer: 1
+      },
+      {
+        question: "کدام جمله صحیح است؟",
+        options: ["Ich komme von dem Iran.", "Ich komme aus dem Iran.", "Ich komme nach dem Iran."],
+        answer: 1
+      },
+      {
+        question: "«Das Buch ist ___ dem Tisch» (روی میز)",
+        options: ["in", "auf", "an", "mit"],
+        answer: 1
+      },
+      {
+        question: "کدام ترکیب صحیح است؟",
+        options: ["ins Kino", "im Kino", "zum Kino"],
+        answer: 0
+      },
+      {
+        question: "«Nach dem Essen» یعنی چه؟",
+        options: ["قبل از غذا", "بعد از غذا", "هنگام غذا"],
+        answer: 1
+      },
+      {
+        question: "«von» برای چه معنایی استفاده می‌شود؟",
+        options: ["به", "از", "با", "روی"],
+        answer: 1
+      },
+      {
+        question: "کدام جمله صحیح است؟",
+        options: ["Ich gehe zu Schule.", "Ich gehe zur Schule.", "Ich gehe zum Schule."],
+        answer: 1
+      }
     ]
   }
 };

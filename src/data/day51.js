@@ -1,50 +1,58 @@
 export const day51Data = {
-  title: "Ø±ÙˆØ² ÛµÛ±: Ø¢Ø²Ù…ÙˆÙ† Ø´Ø¨ÛŒÙ‡â€ŒØ³Ø§Ø²ÛŒ B1 â€” Ø¨Ø®Ø´ Ù†ÙˆØ´ØªÙ† Ùˆ ØµØ­Ø¨Øª Ú©Ø±Ø¯Ù†",
-  objective: "Ø§Ù…Ø±ÙˆØ² Ø¯Ùˆ Ù…Ù‡Ø§Ø±Øª ØªÙˆلÛŒØ¯ÛŒ B1 ÛŒØ¹Ù†ÛŒ Ù†ÙˆØ´ØªÙ† (Schreiben) Ùˆ ØµØ­Ø¨Øª Ú©Ø±Ø¯Ù† (Sprechen) Ø±Ø§ Ø´Ø¨ÛŒÙ‡â€ŒØ³Ø§Ø²ÛŒ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…. Ø´Ù…Ø§ ÛŒÚ© Ø§ÛŒÙ…ÛŒل Ø±Ø³Ù…ÛŒ Ù…ÛŒâ€ŒÙ†ÙˆÛŒØ³ÛŒØ¯ Ùˆ Ø¯Ø± ÛŒÚ© Ù…ØµØ§Ø­Ø¨Ù‡ Ø´ÙØ§Ù‡ÛŒ B1 Ø´Ø±Ú©Øª Ù…ÛŒâ€ŒÚ©Ù†ÛŒØ¯.",
+  title: "روز ۵۱: شبیه‌سازی B1 — نوشتن + صحبت کردن",
+  objective: "امروز دو مهارت تولیدی B1 یعنی نوشتن (Schreiben) و صحبت کردن (Sprechen) را شبیه‌سازی می‌کنیم. شما یک ایمیل رسمی می‌نویسید و در یک مصاحبه شفاهی B1 شرکت می‌کنید.",
+  level: "B1",
 
   grammarData: {
-    subtitle: "Ø³Ø§Ø®ØªØ§Ø±Ù‡Ø§ÛŒ Ú©لÛŒØ¯ÛŒ Ù†ÙˆØ´ØªÙ† Ùˆ ØµØ­Ø¨Øª Ú©Ø±Ø¯Ù† Ø¯Ø± Ø³Ø·Ø­ B1",
+    subtitle: "ساختارهای کلیدی نوشتن و صحبت کردن در سطح B1",
     content: [
       {
         type: "text",
-        title: "Û±. Ø³Ø§Ø®ØªØ§Ø± Ø§ÛŒÙ…ÛŒل Ø±Ø³Ù…ÛŒ (Formelle E-Mail)",
-        text: "Ø¯Ø± Ø³Ø·Ø­ B1 Ø´Ù…Ø§ Ø¨Ø§ÛŒØ¯ Ø¨ØªÙˆØ§Ù†ÛŒØ¯ Ø§ÛŒÙ…ÛŒلâ€ŒÙ‡Ø§ÛŒ Ø±Ø³Ù…ÛŒ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯. Ø§ÛŒÙ† Ø§ÛŒÙ…ÛŒلâ€ŒÙ‡Ø§ Ø³Ø§Ø®ØªØ§Ø± Ù…Ø´Ø®ØµÛŒ Ø¯Ø§Ø±Ù†Ø¯ Ú©Ù‡ Ø¨Ø§ÛŒØ¯ Ø­ÙØ¸ Ú©Ù†ÛŒØ¯."
+        title: "۱. ساختار ایمیل رسمی (Formelle E-Mail)",
+        text: "در سطح B1 شما باید بتوانید ایمیل‌های رسمی بنویسید. این ایمیل‌ها ساختار مشخصی دارند: سلام رسمی، معرفی خود و موضوع، شرح مشکل یا درخواست، درخواست پایانی و خداحافظی رسمی."
       },
       {
         type: "table",
-        title: "Ø¨Ø®Ø´â€ŒÙ‡Ø§ÛŒ ÛŒÚ© Ø§ÛŒÙ…ÛŒل Ø±Ø³Ù…ÛŒ Ø¢لÙ…Ø§Ù†ÛŒ",
+        title: "بخش‌های یک ایمیل رسمی آلمانی",
         rows: [
-          { de: "Sehr geehrte Damen und Herren,", fa: "Ø®Ø§Ù†Ù…â€ŒÙ‡Ø§ Ùˆ Ø¢Ù‚Ø§ÛŒØ§Ù† Ù…Ø­ØªØ±Ù… (ÙˆÙ‚ØªÛŒ Ù†Ø§Ù… Ú¯ÛŒØ±Ù†Ø¯Ù‡ Ø±Ø§ Ù†Ù…ÛŒâ€ŒØ¯Ø§Ù†ÛŒØ¯)" },
-          { de: "Sehr geehrter Herr MÃ¼ller, / Sehr geehrte Frau Schmidt,", fa: "Ø¬Ù†Ø§Ø¨ Ø¢Ù‚Ø§ÛŒ Ù…ÙˆلØ± / Ø³Ø±Ú©Ø§Ø± Ø®Ø§Ù†Ù… Ø§Ø´Ù…ÛŒØª" },
-          { de: "hiermit mÃ¶chte ich Ihnen mitteilen, dass...", fa: "Ø¨Ø¯ÛŒÙ†â€ŒÙˆØ³ÛŒلÙ‡ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ù… Ø¨Ù‡ Ø´Ù…Ø§ Ø§Ø·لØ§Ø¹ Ø¯Ù‡Ù… Ú©Ù‡..." },
-          { de: "Ich wÃ¼rde mich freuen, wenn Sie mir helfen kÃ¶nnten.", fa: "Ø®ÙˆØ´Ø­Ø§ل Ù…ÛŒâ€ŒØ´ÙˆÙ… Ø§Ú¯Ø± Ø¨ØªÙˆØ§Ù†ÛŒØ¯ Ø¨Ù‡ Ù…Ù† Ú©Ù…Ú© Ú©Ù†ÛŒØ¯." },
-          { de: "FÃ¼r weitere Informationen stehe ich Ihnen gerne zur VerfÃ¼gung.", fa: "Ø¨Ø±Ø§ÛŒ Ø§Ø·لØ§Ø¹Ø§Øª Ø¨ÛŒØ´ØªØ± Ø¯Ø± Ø®Ø¯Ù…Øª Ø´Ù…Ø§ Ù‡Ø³ØªÙ…." },
-          { de: "Mit freundlichen GrÃ¼ÃŸen", fa: "Ø¨Ø§ Ø§Ø­ØªØ±Ø§Ù… (Ù¾Ø§ÛŒØ§Ù† Ø§ÛŒÙ…ÛŒل Ø±Ø³Ù…ÛŒ)" }
+          { de: "Sehr geehrte Damen und Herren,", fa: "خانم‌ها و آقایان محترم (وقتی نام گیرنده را نمی‌دانید)" },
+          { de: "Sehr geehrter Herr Müller, / Sehr geehrte Frau Schmidt,", fa: "جناب آقای مولر / سرکار خانم اشمیت" },
+          { de: "hiermit möchte ich Ihnen mitteilen, dass...", fa: "بدین‌وسیله می‌خواهم به شما اطلاع دهم که..." },
+          { de: "Ich würde mich freuen, wenn Sie mir helfen könnten.", fa: "خوشحال می‌شوم اگر بتوانید به من کمک کنید." },
+          { de: "Für weitere Informationen stehe ich Ihnen gerne zur Verfügung.", fa: "برای اطلاعات بیشتر در خدمت شما هستم." },
+          { de: "Mit freundlichen Grüßen", fa: "با احترام (پایان ایمیل رسمی)" }
         ]
       },
       {
         type: "text",
-        title: "Û². ØªÚ©Ù†ÛŒÚ©â€ŒÙ‡Ø§ÛŒ ØµØ­Ø¨Øª Ú©Ø±Ø¯Ù† B1 (Redemittel)",
-        text: "Ø¯Ø± Ø§Ù…ØªØ­Ø§Ù† Ø´ÙØ§Ù‡ÛŒ B1 Ø§Ø² Ø´Ù…Ø§ Ø§Ù†ØªØ¸Ø§Ø± Ù…ÛŒâ€ŒØ±ÙˆØ¯ Ú©Ù‡ Ø¨ØªÙˆØ§Ù†ÛŒØ¯ Ù†Ø¸Ø± Ø¨Ø¯Ù‡ÛŒØ¯ØŒ Ù…ÙˆØ§ÙÙ‚Øª/Ù…Ø®Ø§لÙØª Ú©Ù†ÛŒØ¯ Ùˆ Ø¯لÛŒل Ø¨ÛŒØ§ÙˆØ±ÛŒØ¯."
+        title: "۲. تکنیک‌های صحبت کردن B1 (Redemittel)",
+        text: "در امتحان شفاهی B1 از شما انتظار می‌رود که بتوانید نظر بدهید، موافقت/مخالفت کنید و دلیل بیاورید. همچنین بتوانید جمع‌بندی کنید."
       },
       {
         type: "table",
-        title: "Ø¹Ø¨Ø§Ø±Ø§Øª Ø·لØ§ÛŒÛŒ Ø¨Ø±Ø§ÛŒ ØµØ­Ø¨Øª Ú©Ø±Ø¯Ù†",
+        title: "عبارات طلایی برای صحبت کردن",
         rows: [
-          { de: "Meiner Meinung nach...", fa: "Ø¨Ù‡ Ù†Ø¸Ø± Ù…Ù†..." },
-          { de: "Ich bin der Meinung, dass...", fa: "Ù…Ù† Ø§ÛŒÙ† Ù†Ø¸Ø± Ø±Ø§ Ø¯Ø§Ø±Ù… Ú©Ù‡..." },
-          { de: "Ich stimme zu / Ich stimme nicht zu.", fa: "Ù…ÙˆØ§ÙÙ‚Ù… / Ù…Ø®Ø§لÙÙ…." },
-          { de: "Das stimmt, aber andererseits...", fa: "Ø¯Ø±Ø³ØªÙ‡ØŒ Ø§Ù…Ø§ Ø§Ø² Ø·Ø±Ù Ø¯ÛŒÚ¯Ù‡..." },
-          { de: "Ein Beispiel dafÃ¼r ist...", fa: "ÛŒÚ© Ù…Ø«Ø§ل Ø¨Ø±Ø§ÛŒ Ø§ÛŒÙ† Ù…ÙˆØ¶ÙˆØ¹..." },
-          { de: "Zusammenfassend kann man sagen, dass...", fa: "Ø¨Ù‡ Ø·ÙˆØ± Ø®لØ§ØµÙ‡ Ù…ÛŒâ€ŒØªÙˆØ§Ù† Ú¯ÙØª Ú©Ù‡..." }
+          { de: "Meiner Meinung nach...", fa: "به نظر من..." },
+          { de: "Ich bin der Meinung, dass...", fa: "من این نظر را دارم که..." },
+          { de: "Ich stimme zu / Ich stimme nicht zu.", fa: "موافقم / مخالفم." },
+          { de: "Einerseits... andererseits...", fa: "از یک طرف... از طرف دیگر..." },
+          { de: "Ein Beispiel dafür ist...", fa: "یک مثال برای این موضوع..." },
+          { de: "Zusammenfassend kann man sagen, dass...", fa: "به طور خلاصه می‌توان گفت که..." },
+          { de: "Das ist eine gute Frage. Lass mich kurz nachdenken.", fa: "این سوال خوبی است. بگذار کوتاه فکر کنم." },
+          { de: "Abschließend möchte ich sagen...", fa: "در پایان می‌خواهم بگویم..." }
         ]
       },
       {
+        type: "alert",
+        title: "نکته مهم درباره بخش نوشتن B1",
+        text: "در بخش Schreiben شما باید حدود ۸۰ کلمه بنویسید. نکته کلیدی: حتی اگر چند اشتباه گرامری داشته باشید، اما ساختار ایمیل درست باشد و پیام شما قابل فهم باشد، نمره بالایی می‌گیرید. هرگز ایمیل رسمی را با «Hallo» شروع نکنید!"
+      },
+      {
         type: "interactive_quiz",
-        title: "Ø¢Ø²Ù…ÙˆÙ†: Ù…Ù‡Ø§Ø±Øªâ€ŒÙ‡Ø§ÛŒ Ù†ÙˆØ´ØªÙ† Ùˆ ØµØ­Ø¨Øª B1",
+        title: "آزمون: مهارت‌های نوشتن و صحبت B1",
         questions: [
           {
-            question: "Ø¯Ø± ÛŒÚ© Ø§ÛŒÙ…ÛŒل Ø±Ø³Ù…ÛŒØŒ Ø§Ú¯Ø± Ù†Ø§Ù… Ú¯ÛŒØ±Ù†Ø¯Ù‡ Ø±Ø§ Ù†Ø¯Ø§Ù†ÛŒØ¯ØŒ Ú†Ø·ÙˆØ± Ø´Ø±ÙˆØ¹ Ù…ÛŒâ€ŒÚ©Ù†ÛŒØ¯ØŸ",
+            question: "در یک ایمیل رسمی آلمانی، اگر نام گیرنده را نمی‌دانید، چگونه شروع می‌کنید؟",
             questionDe: "Wie beginnt man eine formelle E-Mail ohne Namen?",
             options: [
               { text: "Hallo!", isCorrect: false },
@@ -52,18 +60,44 @@ export const day51Data = {
               { text: "Lieber Freund,", isCorrect: false },
               { text: "Hi zusammen,", isCorrect: false }
             ],
-            explanation: "Ø¯Ø±Ø³Øª Ø§Ø³Øª! ÙˆÙ‚ØªÛŒ Ù†Ø§Ù… Ú¯ÛŒØ±Ù†Ø¯Ù‡ Ø±Ø§ Ù†Ù…ÛŒâ€ŒØ¯Ø§Ù†ÛŒØ¯ØŒ Ø§Ø² Â«Sehr geehrte Damen und HerrenÂ» Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒÚ©Ù†ÛŒØ¯."
+            explanation: "درست است! وقتی نام گیرنده را نمی‌دانید، از «Sehr geehrte Damen und Herren» استفاده می‌کنید."
           },
           {
-            question: "Ú©Ø¯Ø§Ù… Ø¹Ø¨Ø§Ø±Øª Ø¨Ø±Ø§ÛŒ Ø®لØ§ØµÙ‡â€ŒÚ©Ø±Ø¯Ù† ÛŒÚ© Ù†Ø¸Ø± Ø¯Ø± Ù¾Ø§ÛŒØ§Ù† Ù…ÙˆÙ†ÙˆلÙˆÚ¯ Ù…Ù†Ø§Ø³Ø¨ Ø§Ø³ØªØŸ",
-            questionDe: "Welches Redemittel passt fÃ¼r die Zusammenfassung?",
+            question: "کدام عبارت برای خلاصه‌کردن یک نظر در پایان مونولوگ مناسب است؟",
+            questionDe: "Welches Redemittel passt für die Zusammenfassung?",
             options: [
-              { text: "Ich weiÃŸ nicht.", isCorrect: false },
+              { text: "Ich weiß nicht.", isCorrect: false },
               { text: "Zusammenfassend kann man sagen, dass...", isCorrect: true },
-              { text: "TschÃ¼ss!", isCorrect: false }
+              { text: "Tschüss!", isCorrect: false },
+              { text: "Na ja...", isCorrect: false }
             ],
-            explanation: "Ø¢ÙØ±ÛŒÙ†! Â«ZusammenfassendÂ» Ø¨Ù‡ØªØ±ÛŒÙ† Ø±Ø§Ù‡ Ø¨Ø±Ø§ÛŒ Ù†ØªÛŒØ¬Ù‡â€ŒÚ¯ÛŒØ±ÛŒ Ø¯Ø± Ø§Ù…ØªØ­Ø§Ù† B1 Ø§Ø³Øª."
+            explanation: "آفرین! «Zusammenfassend» بهترین راه برای نتیجه‌گیری در امتحان B1 است."
+          },
+          {
+            question: "«Einerseits... andererseits...» برای چه کاری استفاده می‌شود؟",
+            questionDe: "Wofür benutzt man «Einerseits... andererseits...»?",
+            options: [
+              { text: "برای سلام کردن", isCorrect: false },
+              { text: "برای بحث دوطرفه و بررسی مزایا و معایب", isCorrect: true },
+              { text: "برای خداحافظی", isCorrect: false },
+              { text: "برای عذرخواهی", isCorrect: false }
+            ],
+            explanation: "این عبارت برای بررسی دو جنبه مختلف یک موضوع استفاده می‌شود."
           }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تمرین ساختار ایمیل و صحبت",
+        instruction: "عبارت مناسب را در جای خالی بنویسید.",
+        blanks: [
+          { sentence: "برای شروع ایمیل رسمی بدون نام: Sehr geehrte _______ und Herren,", answer: "Damen", hint: "خانم‌ها" },
+          { sentence: "برای ابراز نظر: _______ Meinung nach ist das wichtig.", answer: "Meiner", hint: "به نظر من" },
+          { sentence: "برای نتیجه‌گیری: Zusammenfassend kann man _______, dass...", answer: "sagen", hint: "گفتن" },
+          { sentence: "برای پایان ایمیل رسمی: Mit _______ Grüßen", answer: "freundlichen", hint: "با احترام" },
+          { sentence: "برای مخالفت مؤدبانه: Ich stimme _______ zu, aber...", answer: "Ihnen", hint: "با شما" },
+          { sentence: "برای معرفی خود در ایمیل: hiermit _______ ich Ihnen mitteilen, dass...", answer: "möchte", hint: "می‌خواهم" },
+          { sentence: "برای بررسی دوطرفه: _______, andererseits gibt es auch Vorteile.", answer: "Einerseits", hint: "از یک طرف" }
         ]
       }
     ]
@@ -72,43 +106,26 @@ export const day51Data = {
   vocabData: {
     categories: [
       {
-        title: "لØºØ§Øª Ù†Ø§Ù…Ù‡â€ŒÙ†Ú¯Ø§Ø±ÛŒ (Briefsprache)",
+        title: "لغات نامه‌نگاری و صحبت (Briefsprache & Sprechmittel)",
         words: [
-          {
-            de: "hiermit",
-            fa: "Ø¨Ø¯ÛŒÙ†â€ŒÙˆØ³ÛŒلÙ‡",
-            article: "-",
-            plural: "-",
-            examples: [{ de: "Hiermit mÃ¶chte ich mich fÃ¼r Ihre Hilfe bedanken.", fa: "Ø¨Ø¯ÛŒÙ†â€ŒÙˆØ³ÛŒلÙ‡ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ù… Ø§Ø² Ú©Ù…Ú© Ø´Ù…Ø§ ØªØ´Ú©Ø± Ú©Ù†Ù…." }]
-          },
-          {
-            de: "die Beschwerde",
-            fa: "Ø´Ú©Ø§ÛŒØª",
-            article: "die",
-            plural: "die Beschwerden",
-            examples: [{ de: "Ich mÃ¶chte eine Beschwerde einreichen.", fa: "Ù…Ù† Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ù… ÛŒÚ© Ø´Ú©Ø§ÛŒØª Ø«Ø¨Øª Ú©Ù†Ù…." }]
-          },
-          {
-            de: "zur VerfÃ¼gung stehen",
-            fa: "Ø¯Ø± Ø®Ø¯Ù…Øª Ø¨ÙˆØ¯Ù†",
-            article: "-",
-            plural: "-",
-            examples: [{ de: "FÃ¼r RÃ¼ckfragen stehe ich Ihnen gerne zur VerfÃ¼gung.", fa: "Ø¨Ø±Ø§ÛŒ Ø³ÙˆØ§لØ§Øª Ø¨ÛŒØ´ØªØ± Ø¯Ø± Ø®Ø¯Ù…Øª Ø´Ù…Ø§ Ù‡Ø³ØªÙ…." }]
-          },
-          {
-            de: "die Meinung",
-            fa: "Ù†Ø¸Ø± / Ø¹Ù‚ÛŒØ¯Ù‡",
-            article: "die",
-            plural: "die Meinungen",
-            examples: [{ de: "Jeder hat eine andere Meinung.", fa: "Ù‡Ø±Ú©Ø³ÛŒ Ù†Ø¸Ø± Ù…ØªÙØ§ÙˆØªÛŒ Ø¯Ø§Ø±Ø¯." }]
-          },
-          {
-            de: "zustimmen / widersprechen",
-            fa: "Ù…ÙˆØ§ÙÙ‚Øª / Ù…Ø®Ø§لÙØª Ú©Ø±Ø¯Ù†",
-            article: "-",
-            plural: "-",
-            examples: [{ de: "Ich stimme Ihnen zu, aber es gibt auch andere Seiten.", fa: "Ø¨Ø§ Ø´Ù…Ø§ Ù…ÙˆØ§ÙÙ‚Ù…ØŒ Ø§Ù…Ø§ Ø¬Ù†Ø¨Ù‡â€ŒÙ‡Ø§ÛŒ Ø¯ÛŒÚ¯Ø±ÛŒ Ù‡Ù… Ù‡Ø³Øª." }]
-          }
+          { de: "hiermit", fa: "بدین‌وسیله", ipa: "[ˈhiːɐ̯mɪt]", article: "-", plural: "-", examples: [{ de: "Hiermit möchte ich mich für Ihre Hilfe bedanken.", fa: "بدین‌وسیله می‌خواهم از کمک شما تشکر کنم." }] },
+          { de: "die Beschwerde", fa: "شکایت", ipa: "[bəˈʃveːɐ̯də]", article: "die", plural: "die Beschwerden", examples: [{ de: "Ich möchte eine Beschwerde einreichen.", fa: "من می‌خواهم یک شکایت ثبت کنم." }] },
+          { de: "zur Verfügung stehen", fa: "در خدمت بودن", ipa: "[t͡suːɐ̯ fɛɐ̯ˈfyːɡʊŋ ˈʃteːən]", article: "-", plural: "-", conjugation: { ich: "stehe zur Verfügung", du: "stehst zur Verfügung", er: "steht zur Verfügung", wir: "stehen zur Verfügung", ihr: "steht zur Verfügung", sie: "stehen zur Verfügung" }, examples: [{ de: "Für Rückfragen stehe ich Ihnen gerne zur Verfügung.", fa: "برای سوالات بیشتر در خدمت شما هستم." }] },
+          { de: "die Meinung", fa: "نظر / عقیده", ipa: "[ˈmaɪ̯nʊŋ]", article: "die", plural: "die Meinungen", examples: [{ de: "Jeder hat eine andere Meinung.", fa: "هرکسی نظر متفاوتی دارد." }] },
+          { de: "zustimmen (+Dat)", fa: "موافقت کردن", ipa: "[ˈt͡suːˌʃtɪmən]", article: "-", plural: "-", conjugation: { ich: "stimme zu", du: "stimmst zu", er: "stimmt zu", wir: "stimmen zu", ihr: "stimmt zu", sie: "stimmen zu" }, examples: [{ de: "Ich stimme Ihnen zu.", fa: "موافقم." }] },
+          { de: "widersprechen (+Dat)", fa: "مخالفت کردن", ipa: "[ˈviːdɐˌʃpʁɛçn̩]", article: "-", plural: "-", conjugation: { ich: "widerspreche", du: "widersprichst", er: "widerspricht", wir: "widersprechen", ihr: "widersprecht", sie: "widersprechen" }, examples: [{ de: "Ich muss Ihnen leider widersprechen.", fa: "متأسفانه باید با شما مخالفت کنم." }] },
+          { de: "der Ratschlag", fa: "توصیه / پند", ipa: "[ˈʁaːtˌʃlaːk]", article: "der", plural: "die Ratschläge", examples: [{ de: "Ich habe einen guten Ratschlag für Sie.", fa: "یک توصیه خوب برای شما دارم." }] },
+          { de: "vorschlagen", fa: "پیشنهاد دادن", ipa: "[ˈfoːɐ̯ˌʃlaːɡn̩]", article: "-", plural: "-", conjugation: { ich: "schlage vor", du: "schlägst vor", er: "schlägt vor", wir: "schlagen vor", ihr: "schlagt vor", sie: "schlagen vor" }, examples: [{ de: "Ich schlage vor, dass wir morgen treffen.", fa: "پیشنهاد می‌دهم فردا ملاقات کنیم." }] },
+          { de: "sich beschweren über (+Akk)", fa: "شکایت کردن از", ipa: "[bəˈʃveːʁən]", article: "-", plural: "-", conjugation: { ich: "beschwere mich", du: "beschwerst dich", er: "beschwert sich", wir: "beschweren uns", ihr: "beschwert euch", sie: "beschweren sich" }, examples: [{ de: "Ich möchte mich über den Lärm beschweren.", fa: "می‌خواهم از سروصدا شکایت کنم." }] },
+          { de: "die Erstattung", fa: "بازپرداخت", ipa: "[ɛɐ̯ˈʃtatʊŋ]", article: "die", plural: "die Erstattungen", examples: [{ de: "Ich bitte um eine Erstattung.", fa: "درخواست بازپرداخت دارم." }] },
+          { de: "die Rückmeldung", fa: "بازخورد / پاسخ", ipa: "[ˈʁʏkˌmɛldʊŋ]", article: "die", plural: "die Rückmeldungen", examples: [{ de: "Ich freue mich auf Ihre Rückmeldung.", fa: "منتظر پاسخ شما هستم." }] },
+          { de: "berücksichtigen", fa: "در نظر گرفتن", ipa: "[bəˈʁʏkˌzɪçtɪɡn̩]", article: "-", plural: "-", conjugation: { ich: "berücksichtige", du: "berücksichtigst", er: "berücksichtigt", wir: "berücksichtigen", ihr: "berücksichtigt", sie: "berücksichtigen" }, examples: [{ de: "Bitte berücksichtigen Sie meine Bitte.", fa: "لطفاً درخواستم را در نظر بگیرید." }] },
+          { de: "ausführlich", fa: "مفصل / جامع", ipa: "[ˈaʊ̯sˌfyːɐ̯lɪç]", article: "-", plural: "-", examples: [{ de: "Bitte erklären Sie das ausführlich.", fa: "لطفاً مفصل توضیح دهید." }] },
+          { de: "zuständig", fa: "مسئول / صلاحیت‌دار", ipa: "[ˈt͡suːˌʃtɛndɪç]", article: "-", plural: "-", examples: [{ de: "Wer ist zuständig für diese Frage?", fa: "چه کسی مسئول این سوال است؟" }] },
+          { de: "der Ansprechpartner", fa: "فرد تماس / مسئول", ipa: "[ˈaːnˌʃpʁɛçˌpaʁtnɐ]", article: "der", plural: "die Ansprechpartner", examples: [{ de: "Frau Weber ist Ihre Ansprechpartnerin.", fa: "خانم وبر فرد تماس شماست." }] },
+          { de: "fristgerecht", fa: "در مهلت مقرر", ipa: "[ˈfʁɪstɡəˌʁɛçt]", article: "-", plural: "-", examples: [{ de: "Bitte senden Sie die Bewerbung fristgerecht.", fa: "لطفاً درخواست را در مهلت مقرر بفرستید." }] },
+          { de: "die Begründung", fa: "دلیل / توجیه", ipa: "[bəˈɡʁyːndʊŋ]", article: "die", plural: "die Begründungen", examples: [{ de: "Ich brauche eine Begründung.", fa: "به یک دلیل نیاز دارم." }] },
+          { de: "abschließend", fa: "در پایان / نهایتاً", ipa: "[ˈaːpˌʃliːsənt]", article: "-", plural: "-", examples: [{ de: "Abschließend möchte ich Ihnen danken.", fa: "در پایان می‌خواهم از شما تشکر کنم." }] }
         ]
       }
     ]
@@ -116,58 +133,74 @@ export const day51Data = {
 
   reading: [
     {
-      text: "Eine formelle E-Mail\n\nSehr geehrte Damen und Herren,\n\nhiermit mÃ¶chte ich mich fÃ¼r den Deutschkurs bedanken, den ich letzte Woche besucht habe. Der Kurs war sehr hilfreich und die Lehrerin war sehr kompetent.\n\nAllerdings habe ich eine kleine Beschwerde: Der Kursraum war zu klein fÃ¼r so viele Teilnehmer. Manchmal war es sehr laut und ich konnte die Lehrerin nicht gut hÃ¶ren.\n\nIch wÃ¼rde mich freuen, wenn Sie bei zukÃ¼nftigen Kursen grÃ¶ÃŸere RÃ¤ume buchen kÃ¶nnten.\n\nMit freundlichen GrÃ¼ÃŸen\nAli Mohammadi",
+      text: "Eine formelle E-Mail\n\nSehr geehrte Damen und Herren,\n\nhiermit möchte ich mich für den Deutschkurs bedanken, den ich letzte Woche besucht habe. Der Kurs war sehr hilfreich und die Lehrerin war sehr kompetent.\n\nAllerdings habe ich eine kleine Beschwerde: Der Kursraum war zu klein für so viele Teilnehmer. Manchmal war es sehr laut und ich konnte die Lehrerin nicht gut hören.\n\nIch würde mich freuen, wenn Sie bei zukünftigen Kursen größere Räume buchen könnten.\n\nFür Rückfragen stehe ich Ihnen gerne zur Verfügung.\n\nMit freundlichen Grüßen\nAli Mohammadi",
+      translation: "یک ایمیل رسمی\n\nخانم‌ها و آقایان محترم،\n\nبدین‌وسیله می‌خواهم از دوره آلمانی تشکر کنم که هفته گذشته شرکت کردم. دوره بسیار مفید بود و معلم بسیار باصلاحیت بود.\n\nبا این حال یک شکایت کوچک دارم: کلاس برای این تعداد شرکت‌کننده خیلی کوچک بود. گاهی خیلی بلند بود و نمی‌توانستم معلم را خوب بشنوم.\n\nخوشحال می‌شوم اگر برای دوره‌های آینده اتاق‌های بزرگ‌تری رزرو کنید.\n\nبرای سوالات بیشتر در خدمت شما هستم.\n\nبا احترام\nعلی محمدی",
       questions: [
-        { question: "Ø¹لÛŒ Ø¯Ø± Ø§ÛŒÙ† Ø§ÛŒÙ…ÛŒل Ø§Ø² Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ø´Ú©Ø§ÛŒØª Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ", answer: "Ø§Ùˆ Ø´Ú©Ø§ÛŒØª Ù…ÛŒâ€ŒÚ©Ù†Ø¯ Ú©Ù‡ Ú©لØ§Ø³ Ø¨Ø±Ø§ÛŒ ØªØ¹Ø¯Ø§Ø¯ Ø²ÛŒØ§Ø¯ Ø´Ø±Ú©Øªâ€ŒÚ©Ù†Ù†Ø¯Ú¯Ø§Ù† Ø®ÛŒلÛŒ Ú©ÙˆÚ†Ú© Ø¨ÙˆØ¯." },
-        { question: "Ø¹لÛŒ Ú†Ù‡ Ù¾ÛŒØ´Ù†Ù‡Ø§Ø¯ÛŒ Ù…ÛŒâ€ŒØ¯Ù‡Ø¯ØŸ", answer: "Ø§Ùˆ Ù¾ÛŒØ´Ù†Ù‡Ø§Ø¯ Ù…ÛŒâ€ŒØ¯Ù‡Ø¯ Ú©Ù‡ Ø¨Ø±Ø§ÛŒ Ú©لØ§Ø³â€ŒÙ‡Ø§ÛŒ Ø¢ÛŒÙ†Ø¯Ù‡ Ø§ØªØ§Ù‚â€ŒÙ‡Ø§ÛŒ Ø¨Ø²Ø±Ú¯â€ŒØªØ±ÛŒ Ø±Ø²Ø±Ùˆ Ú©Ù†Ù†Ø¯." },
-        { question: "Ø¬Ù…لÙ‡ Â«FÃ¼r RÃ¼ckfragen stehe ich Ihnen gerne zur VerfÃ¼gungÂ» ÛŒØ¹Ù†ÛŒ Ú†Ù‡ØŸ", answer: "ÛŒØ¹Ù†ÛŒ Â«Ø¨Ø±Ø§ÛŒ Ø³ÙˆØ§لØ§Øª Ø¨ÛŒØ´ØªØ± Ø¯Ø± Ø®Ø¯Ù…Øª Ø´Ù…Ø§ Ù‡Ø³ØªÙ…Â» â€” ÛŒÚ© Ø¹Ø¨Ø§Ø±Øª Ø§Ø³ØªØ§Ù†Ø¯Ø§Ø±Ø¯ Ø¯Ø± Ø§ÛŒÙ…ÛŒلâ€ŒÙ‡Ø§ÛŒ Ø±Ø³Ù…ÛŒ." }
+        { question: "علی در این ایمیل از چه چیزی شکایت می‌کند؟", answer: "او شکایت می‌کند که کلاس برای تعداد شرکت‌کننده‌ها خیلی کوچک بود." },
+        { question: "علی چه پیشنهادی می‌دهد؟", answer: "او پیشنهاد می‌دهد که برای کلاس‌های آینده اتاق‌های بزرگ‌تری رزرو کنند." },
+        { question: "جمله «Für Rückfragen stehe ich Ihnen gerne zur Verfügung» یعنی چه؟", answer: "یعنی «برای سوالات بیشتر در خدمت شما هستم» — یک عبارت استاندارد در ایمیل‌های رسمی." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "Ù†ÙˆØ´ØªÙ† ÛŒÚ© Ø§ÛŒÙ…ÛŒل Ø±Ø³Ù…ÛŒ Ø´Ú©Ø§ÛŒØª (Beschwerde-E-Mail)",
-      prompt: "ÙØ±Ø¶ Ú©Ù†ÛŒØ¯ Ø¯Ø± ÛŒÚ© Ù‡Øªل Ø§Ù‚Ø§Ù…Øª Ø¯Ø§Ø´ØªÛŒØ¯ Ùˆ Ù…Ø´Ú©لØ§ØªÛŒ Ø¯Ø§Ø´ØªÛŒØ¯. ÛŒÚ© Ø§ÛŒÙ…ÛŒل Ø±Ø³Ù…ÛŒ Ø¨Ù‡ Ù…Ø¯ÛŒØ±ÛŒØª Ù‡Øªل Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯.",
+      title: "نوشتن یک ایمیل رسمی شکایت (Beschwerde-E-Mail)",
+      prompt: "فرض کنید در یک هتل اقامت داشتید و مشکلاتی داشتید. یک ایمیل رسمی به مدیریت هتل بنویسید (حدود ۸۰ کلمه).",
       steps: [
-        { title: "Ø´Ø±ÙˆØ¹ Ø±Ø³Ù…ÛŒ", text: "Ø¨Ø§ Ø¹Ø¨Ø§Ø±Øª Ø±Ø³Ù…ÛŒ Ø´Ø±ÙˆØ¹ Ú©Ù†ÛŒØ¯.", example: { de: "Sehr geehrte Damen und Herren,", fa: "Ø®Ø§Ù†Ù…â€ŒÙ‡Ø§ Ùˆ Ø¢Ù‚Ø§ÛŒØ§Ù† Ù…Ø­ØªØ±Ù…" } },
-        { title: "Ù…Ø¹Ø±ÙÛŒ Ø®ÙˆØ¯ Ùˆ Ù…ÙˆØ¶ÙˆØ¹", text: "Ø¨Ú¯ÙˆÛŒÛŒØ¯ Ú©ÛŒ Ø¨ÙˆØ¯ÛŒØ¯ Ùˆ Ù…Ø´Ú©ل Ú†ÛŒØ³Øª.", example: { de: "Ich war vom 10. bis 15. MÃ¤rz in Ihrem Hotel. Leider gab es einige Probleme.", fa: "Ù…Ù† Ø§Ø² Û±Û° ØªØ§ Û±Ûµ Ù…Ø§Ø±Ø³ Ø¯Ø± Ù‡Øªل Ø´Ù…Ø§ Ø¨ÙˆØ¯Ù…. Ù…ØªØ£Ø³ÙØ§Ù†Ù‡ Ù…Ø´Ú©لØ§ØªÛŒ ÙˆØ¬ÙˆØ¯ Ø¯Ø§Ø´Øª." } },
-        { title: "Ø´Ø±Ø­ Ù…Ø´Ú©لØ§Øª", text: "Ù…Ø´Ú©لØ§Øª Ø±Ø§ لÛŒØ³Øª Ú©Ù†ÛŒØ¯.", example: { de: "Zum Beispiel funktionierte die Heizung nicht. AuÃŸerdem war das Zimmer nicht sauber.", fa: "Ù…Ø«لØ§Ù‹ Ú¯Ø±Ù…Ø§ÛŒØ´ Ú©Ø§Ø± Ù†Ù…ÛŒâ€ŒÚ©Ø±Ø¯. Ø¨Ù‡ Ø¹لØ§ÙˆÙ‡ Ø§ØªØ§Ù‚ ØªÙ…ÛŒØ² Ù†Ø¨ÙˆØ¯." } },
-        { title: "Ø¯Ø±Ø®ÙˆØ§Ø³Øª Ùˆ Ù¾Ø§ÛŒØ§Ù†", text: "Ø¯Ø±Ø®ÙˆØ§Ø³Øª Ùˆ Ù¾Ø§ÛŒØ§Ù† Ø±Ø³Ù…ÛŒ.", example: { de: "Ich wÃ¼rde mich freuen, wenn Sie mir helfen kÃ¶nnten. Mit freundlichen GrÃ¼ÃŸen", fa: "Ø®ÙˆØ´Ø­Ø§ل Ù…ÛŒâ€ŒØ´ÙˆÙ… Ø§Ú¯Ø± Ø¨ØªÙˆØ§Ù†ÛŒØ¯ Ú©Ù…Ú© Ú©Ù†ÛŒØ¯. Ø¨Ø§ Ø§Ø­ØªØ±Ø§Ù…" } }
+        { title: "شروع رسمی", text: "با عبارت رسمی شروع کنید.", example: { de: "Sehr geehrte Damen und Herren,", fa: "خانم‌ها و آقایان محترم..." } },
+        { title: "معرفی خود و موضوع", text: "بگویید کی بودید و مشکل چیست.", example: { de: "Ich war vom 10. bis 15. März in Ihrem Hotel. Leider gab es einige Probleme.", fa: "من از ۱۰ تا ۱۵ مارس در هتل شما بودم. متأسفانه مشکلاتی وجود داشت." } },
+        { title: "شرح مشکلات", text: "مشکلات را لیست کنید.", example: { de: "Zum Beispiel funktionierte die Heizung nicht. Außerdem war das Zimmer nicht sauber.", fa: "مثلاً گرمایش کار نمی‌کرد. به علاوه اتاق تمیز نبود." } },
+        { title: "درخواست و پایان", text: "درخواست و پایان رسمی.", example: { de: "Ich würde mich freuen, wenn Sie mir helfen könnten. Mit freundlichen Grüßen", fa: "خوشحال می‌شوم اگر بتوانید کمک کنید. با احترام" } }
       ],
-      modelAnswer: "Sehr geehrte Damen und Herren,\n\nhiermit mÃ¶chte ich mich Ã¼ber meinen Aufenthalt beschweren. Ich war vom 10. bis 15. MÃ¤rz in Zimmer 205.\n\nLeider funktionierte die Heizung nicht und es war sehr kalt. AuÃŸerdem war das Bad nicht sauber genug.\n\nIch wÃ¼rde mich freuen, wenn Sie mir eine Erstattung anbieten kÃ¶nnten.\n\nMit freundlichen GrÃ¼ÃŸen\nAli Mohammadi"
+      modelAnswer: "Sehr geehrte Damen und Herren,\n\nhiermit möchte ich mich über meinen Aufenthalt beschweren. Ich war vom 10. bis 15. März in Zimmer 205.\n\nLeider funktionierte die Heizung nicht und es war sehr kalt. Außerdem war das Bad nicht sauber genug. Das Frühstück war auch nicht frisch.\n\nIch würde mich freuen, wenn Sie mir eine Erstattung anbieten könnten.\n\nFür Rückfragen stehe ich Ihnen gerne zur Verfügung.\n\nMit freundlichen Grüßen\nAli Mohammadi"
     }
   ],
 
   listening: [
     {
-      title: "Û±. Ù†Ù…ÙˆÙ†Ù‡ Ø§Ù…ØªØ­Ø§Ù† Ø´ÙØ§Ù‡ÛŒ B1",
-      source: "Goethe Institut â€” MÃ¼ndliche PrÃ¼fung B1",
-      link: "https://www.youtube.com/watch?v=IWXPnN5foH8",
-      instructions: "Û±. ÙˆÛŒØ¯ÛŒÙˆÛŒ Ù†Ù…ÙˆÙ†Ù‡ Ø§Ù…ØªØ­Ø§Ù† Ø´ÙØ§Ù‡ÛŒ B1 Ø±Ø§ Ø¨Ø¨ÛŒÙ†ÛŒØ¯.\nÛ². Ø¨Ù‡ Redemittelâ€ŒÙ‡Ø§ÛŒÛŒ Ú©Ù‡ Ø´Ø±Ú©Øªâ€ŒÚ©Ù†Ù†Ø¯Ú¯Ø§Ù† Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯ Ø¯Ù‚Øª Ú©Ù†ÛŒØ¯.\nÛ³. ÙˆÙ‚ØªÛŒ Ù…Ù…ØªØ­Ù† Ø³ÙˆØ§ل Ù…ÛŒâ€ŒÙ¾Ø±Ø³Ø¯ØŒ ÙˆÛŒØ¯ÛŒÙˆ Ø±Ø§ Ù…ØªÙˆÙ‚Ù Ú©Ù†ÛŒØ¯ Ùˆ Ø®ÙˆØ¯ØªØ§Ù† Ø¬ÙˆØ§Ø¨ Ø¨Ø¯Ù‡ÛŒØ¯."
+      title: "تمرین دیکته — جملات رسمی",
+      instruction: "به جملات زیر گوش دهید و بنویسید (Dictation). این جملات سبک ایمیل رسمی دارند.",
+      sentences: [
+        { de: "Hiermit möchte ich Ihnen mitteilen, dass ich krank bin.", fa: "بدین‌وسیله می‌خواهم به شما اطلاع دهم که مریض هستم.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Hiermit möchte ich Ihnen mitteilen, dass ich krank bin" },
+        { de: "Ich würde mich freuen, wenn Sie mir helfen könnten.", fa: "خوشحال می‌شوم اگر بتوانید به من کمک کنید.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Ich würde mich freuen, wenn Sie mir helfen könnten" },
+        { de: "Für Rückfragen stehe ich Ihnen gerne zur Verfügung.", fa: "برای سوالات بیشتر در خدمت شما هستم.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Für Rückfragen stehe ich Ihnen gerne zur Verfügung" },
+        { de: "Meiner Meinung nach ist das die beste Lösung.", fa: "به نظر من این بهترین راه‌حل است.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Meiner Meinung nach ist das die beste Lösung" },
+        { de: "Zusammenfassend kann man sagen, dass Deutsch nicht so schwer ist.", fa: "به طور خلاصه می‌توان گفت که آلمانی آنقدر سخت نیست.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Zusammenfassend kann man sagen, dass Deutsch nicht so schwer ist" },
+        { de: "Ich stimme Ihnen zu, aber andererseits gibt es auch Probleme.", fa: "موافقم، اما از طرف دیگر مشکلاتی هم هست.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Ich stimme Ihnen zu, aber andererseits gibt es auch Probleme" },
+        { de: "Die Bewerbung muss fristgerecht eingereicht werden.", fa: "درخواست باید در مهلت مقرر ارسال شود.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Die Bewerbung muss fristgerecht eingereicht werden" },
+        { de: "Ich möchte mich für Ihre Rückmeldung bedanken.", fa: "می‌خواهم از بازخورد شما تشکر کنم.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Ich möchte mich für Ihre Rückmeldung bedanken" }
+      ]
     }
   ],
 
   speaking: [
     {
-      title: "Ø´Ø¨ÛŒÙ‡â€ŒØ³Ø§Ø²ÛŒ Ø§Ù…ØªØ­Ø§Ù† Ø´ÙØ§Ù‡ÛŒ B1 â€” Monolog",
-      pattern: "Heute spreche ich Ã¼ber das Thema ...\nMeiner Meinung nach ...\nEin Beispiel dafÃ¼r ist ...\nZusammenfassend kann man sagen, dass ...",
-      exercise: "Û±. ÛŒÚ© Ù…ÙˆØ¶ÙˆØ¹ Ø§Ù†ØªØ®Ø§Ø¨ Ú©Ù†ÛŒØ¯: Umwelt, Reisen, Gesundheit.\nÛ². Û³ Ø¯Ù‚ÛŒÙ‚Ù‡ Ø¨Ø¯ÙˆÙ† ÙˆÙ‚ÙÙ‡ ØµØ­Ø¨Øª Ú©Ù†ÛŒØ¯.\nÛ³. Ø³Ø§Ø®ØªØ§Ø±: Ù†Ø¸Ø± â†’ Ø¯لÛŒل + Ù…Ø«Ø§ل â†’ Ù†ØªÛŒØ¬Ù‡â€ŒÚ¯ÛŒØ±ÛŒ.\nÛ´. ØµØ¯Ø§ÛŒ Ø®ÙˆØ¯ Ø±Ø§ Ø¶Ø¨Ø· Ú©Ù†ÛŒØ¯."
+      title: "شبیه‌سازی امتحان شفاهی B1 — Monolog",
+      pattern: "Heute spreche ich über das Thema ...\nMeiner Meinung nach ...\nEin Beispiel dafür ist ...\nEinerseits ..., andererseits ...\nZusammenfassend kann man sagen, dass ...\nAbschließend möchte ich sagen, dass ...",
+      exercise: "۱. یک موضوع انتخاب کنید: Umwelt, Reisen, Gesundheit.\n۲. ۳ دقیقه بدون وقفه صحبت کنید.\n۳. ساختار: نظر → دلیل + مثال → بررسی دوطرفه → نتیجه‌گیری.\n۴. صدای خود را ضبط کنید و گوش دهید."
+    },
+    {
+      title: "شبیه‌سازی امتحان شفاهی B1 — Dialog",
+      pattern: "A: Ich schlage vor, dass wir ...\nB: Das ist eine gute Idee, aber ...\nA: Einerseits hast du recht, andererseits ...\nB: Lass uns einen Kompromiss finden.",
+      exercise: "با یک دوست (یا با خودتان) یک مکالمه ۳ دقیقه‌ای درباره برنامه‌ریزی یک سفر گروهی انجام دهید. از Redemittel استفاده کنید و هر دو نفر باید نظر بدهند."
     }
   ],
 
-  cultureTip: "Ø¯Ø± Ø§Ù…ØªØ­Ø§Ù† B1 (Goethe/Telc)ØŒ Ø¨Ø®Ø´ Schreiben Ø´Ø§Ù…ل Ù†ÙˆØ´ØªÙ† ÛŒÚ© Ø§ÛŒÙ…ÛŒل Ø±Ø³Ù…ÛŒ (Ø­Ø¯ÙˆØ¯ Û¸Û° Ú©لÙ…Ù‡) Ø§Ø³Øª. Ù†Ú©ØªÙ‡ Ù…Ù‡Ù…: Ø§Ú¯Ø± Ú†Ù†Ø¯ Ø§Ø´ØªØ¨Ø§Ù‡ Ú¯Ø±Ø§Ù…Ø±ÛŒ Ø¯Ø§Ø´ØªÙ‡ Ø¨Ø§Ø´ÛŒØ¯ ÙˆلÛŒ Ø³Ø§Ø®ØªØ§Ø± Ø§ÛŒÙ…ÛŒل Ø¯Ø±Ø³Øª Ø¨Ø§Ø´Ø¯ Ùˆ Ù¾ÛŒØ§Ù… Ø´Ù…Ø§ Ù‚Ø§Ø¨ل ÙÙ‡Ù… Ø¨Ø§Ø´Ø¯ØŒ Ù†Ù…Ø±Ù‡ Ø¨Ø§لØ§ÛŒÛŒ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØ¯. Ù‡Ø±Ú¯Ø² ÛŒÚ© Ø§ÛŒÙ…ÛŒل Ø±Ø³Ù…ÛŒ Ø±Ø§ Ø¨Ø§ Â«HalloÂ» Ø´Ø±ÙˆØ¹ Ù†Ú©Ù†ÛŒØ¯!",
+  cultureTip: "در امتحان B1 (Goethe/Telc)، بخش Schreiben شامل نوشتن یک ایمیل رسمی (حدود ۸۰ کلمه) است. نکته مهم: اگر چند اشتباه گرامری داشته باشید ولی ساختار ایمیل درست باشد و پیام شما قابل فهم باشد، نمره بالایی می‌گیرید. در بخش Sprechen، آرام و واضح صحبت کنید. اگر سوالی را نفهمیدید، مؤدبانه بخواهید تکرار کنند: «Könnten Sie die Frage bitte wiederholen?»",
 
   examData: {
     questions: [
-      { question: "Ø¯Ø± Ø§ÛŒÙ…ÛŒل Ø±Ø³Ù…ÛŒ Ø¢لÙ…Ø§Ù†ÛŒØŒ Ø¨Ø¹Ø¯ Ø§Ø² Ø³لØ§Ù… Ø±Ø³Ù…ÛŒ Ú†Ù‡ Ù…ÛŒâ€ŒÙ†ÙˆÛŒØ³ÛŒØ¯ØŸ", options: ["Ù‡ÛŒÚ†ÛŒ", "Hiermit mÃ¶chte ich Ihnen mitteilen, dass...", "Na, wie gehtلs?", "Ich bin Ali."], answer: 1 },
-      { question: "Ú©Ø¯Ø§Ù… Ø¹Ø¨Ø§Ø±Øª Ø¨Ø±Ø§ÛŒ Ù¾Ø§ÛŒØ§Ù† Ø§ÛŒÙ…ÛŒل Ø±Ø³Ù…ÛŒ Ø¯Ø±Ø³Øª Ø§Ø³ØªØŸ", options: ["TschÃ¼ss!", "Bis bald!", "Mit freundlichen GrÃ¼ÃŸen", "Ciao!"], answer: 2 },
-      { question: "Ø¨Ø±Ø§ÛŒ Ù…Ø®Ø§لÙØª Ù…Ø¤Ø¯Ø¨Ø§Ù†Ù‡ØŒ Ú©Ø¯Ø§Ù… Ø¹Ø¨Ø§Ø±Øª Ø¯Ø±Ø³Øª Ø§Ø³ØªØŸ", options: ["Nein, du hast Unrecht!", "Ich stimme Ihnen nicht zu, weil...", "Falsch!", "Quatsch!"], answer: 1 },
-      { question: "Â«Zusammenfassend kann man sagenÂ» Ø¯Ø± Ú©Ø¬Ø§ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Ø´Ø±ÙˆØ¹ Ù…Ú©Ø§لÙ…Ù‡", "Ù…Ø¹Ø±ÙÛŒ Ø®ÙˆØ¯", "Ù†ØªÛŒØ¬Ù‡â€ŒÚ¯ÛŒØ±ÛŒ", "Ø³لØ§Ù… Ú©Ø±Ø¯Ù†"], answer: 2 },
-      { question: "Ø¨Ø±Ø§ÛŒ Ø®Ø±ÛŒØ¯Ù† ÙˆÙ‚Øª ÙÚ©Ø± Ú©Ø±Ø¯Ù† Ø¯Ø± Ø§Ù…ØªØ­Ø§Ù† Ø´ÙØ§Ù‡ÛŒØŒ Ú©Ø¯Ø§Ù… Ø¹Ø¨Ø§Ø±Øª Ø¨Ù‡ØªØ± Ø§Ø³ØªØŸ", options: ["(Ø³Ú©ÙˆØª)", "Ich weiÃŸ nicht.", "Das ist eine gute Frage. Lass mich kurz nachdenken.", "Nein."], answer: 2 },
-      { question: "Â«Ich mÃ¶chte mich beschweren Ã¼ber...Â» ÛŒØ¹Ù†ÛŒ Ú†Ù‡ØŸ", options: ["ØªØ´Ú©Ø± Ù…ÛŒâ€ŒÚ©Ù†Ù…", "Ø´Ú©Ø§ÛŒØª Ù…ÛŒâ€ŒÚ©Ù†Ù…", "Ø³ÙØ§Ø±Ø´ Ù…ÛŒâ€ŒØ¯Ù‡Ù…", "Ø³لØ§Ù… Ù…ÛŒâ€ŒÚ©Ù†Ù…"], answer: 1 },
-      { question: "Ø¨Ø±Ø§ÛŒ Ø¨Ø­Ø« Ø¯ÙˆØ·Ø±ÙÙ‡ØŒ Ú©Ø¯Ø§Ù… Ø³Ø§Ø®ØªØ§Ø± Ø¯Ø±Ø³Øª Ø§Ø³ØªØŸ", options: ["Ja, aber...", "Das stimmt, aber andererseits...", "Nein, und...", "Ich weiÃŸ, und deshalb..."], answer: 1 },
-      { question: "Ø¯Ø± Ø§ÛŒÙ…ÛŒل Ø´Ú©Ø§ÛŒØªØŒ Ø¨Ø¹Ø¯ Ø§Ø² ØªÙˆØ¶ÛŒØ­ Ù…Ø´Ú©ل Ú†Ù‡ Ù…ÛŒâ€ŒÙ†ÙˆÛŒØ³ÛŒØ¯ØŸ", options: ["TschÃ¼ss!", "Ich wÃ¼rde mich freuen, wenn...", "Hallo!", "Danke!"], answer: 1 }
+      { question: "در ایمیل رسمی آلمانی، بعد از سلام رسمی چه می‌نویسید؟", options: ["هیچی", "Hiermit möchte ich Ihnen mitteilen, dass...", "Na, wie geht's?", "Ich bin Ali."], answer: 1 },
+      { question: "کدام عبارت برای پایان ایمیل رسمی درست است؟", options: ["Tschüss!", "Bis bald!", "Mit freundlichen Grüßen", "Ciao!"], answer: 2 },
+      { question: "برای مخالفت مؤدبانه، کدام عبارت درست است؟", options: ["Nein, du hast Unrecht!", "Ich stimme Ihnen nicht zu, weil...", "Falsch!", "Quatsch!"], answer: 1 },
+      { question: "«Zusammenfassend kann man sagen» در کجا استفاده می‌شود؟", options: ["شروع مکالمه", "معرفی خود", "نتیجه‌گیری", "سلام کردن"], answer: 2 },
+      { question: "برای خریدن وقت فکر کردن در امتحان شفاهی، کدام عبارت بهتر است؟", options: ["(سکوت)", "Ich weiß nicht.", "Das ist eine gute Frage. Lass mich kurz nachdenken.", "Nein."], answer: 2 },
+      { question: "«Ich möchte mich beschweren über...» یعنی چه؟", options: ["تشکر می‌کنم", "شکایت می‌کنم", "سفارش می‌دهم", "سلام می‌کنم"], answer: 1 },
+      { question: "«Einerseits... andererseits...» یعنی چه؟", options: ["اول... بعد...", "از یک طرف... از طرف دیگر...", "بالا... پایین...", "اینجا... آنجا..."], answer: 1 },
+      { question: "در ایمیل شکایت، بعد از توضیح مشکل چه می‌نویسید؟", options: ["Tschüss!", "Ich würde mich freuen, wenn...", "Hallo!", "Danke!"], answer: 1 },
+      { question: "«fristgerecht» یعنی چه؟", options: ["رایگان", "در مهلت مقرر", "فوری", "دیر"], answer: 1 },
+      { question: "کدام یک Redemittel برای معرفی موضوع در مونولوگ نیست؟", options: ["Heute spreche ich über...", "Meiner Meinung nach...", "Tschüss!", "Ein Beispiel dafür ist..."], answer: 2 }
     ]
   }
 };

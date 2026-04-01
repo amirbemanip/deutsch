@@ -1,235 +1,386 @@
 export const day9Data = {
-  title: "Ø±ÙˆØ² Û¹: Ø­Ø§لØª Ù…ÙØ¹ÙˆلÛŒ (Akkusativ) - ØªØºÛŒÛŒØ± Ø­Ø±ÙˆÙ ØªØ¹Ø±ÛŒÙ",
-  objective: "Ø¯Ø± Ø§ÛŒÙ† Ø¯Ø±Ø³ Ø­Ø§لØª Ù…ÙØ¹ÙˆلÛŒ Ø¢لÙ…Ø§Ù†ÛŒ Ø±Ø§ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØ¯. Ù…ÛŒâ€ŒÙÙ‡Ù…ÛŒØ¯ Ú©Ù‡ Ú†Ú¯ÙˆÙ†Ù‡ Ø­Ø±ÙˆÙ ØªØ¹Ø±ÛŒÙ Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Ù…ÙØ¹Ùˆل Ù…Ø³ØªÙ‚ÛŒÙ… ØªØºÛŒÛŒØ± Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯.",
+  title: "روز ۹: حالت مفعولی (Akkusativ) - مفعول مستقیم",
+  objective: "در پایان این روز، شما قادر خواهید بود حالت مفعولی (Akkusativ) را بشناسید، تغییرات آرتیکل‌ها را در این حالت یاد بگیرید و افعالی که Akkusativ می‌گیرند را به‌درستی به‌کار ببرید.",
+  level: "A1",
+
   grammarData: {
-    subtitle: "Ø­Ø§لØª Ù…ÙØ¹ÙˆلÛŒ (Akkusativ) Ø¯Ø± Ø²Ø¨Ø§Ù† Ø¢لÙ…Ø§Ù†ÛŒ",
+    subtitle: "درس‌های گرامری با تمرین تعاملی",
     content: [
       {
         type: "text",
-        title: "Ú†Ø±Ø§ Ø­Ø§لØªâ€ŒÙ‡Ø§ÛŒ Ø¯Ø³ØªÙˆØ±ÛŒ Ù…Ù‡Ù… Ù‡Ø³ØªÙ†Ø¯ØŸ",
-        text: "Ø¯Ø± Ø²Ø¨Ø§Ù† Ø¢لÙ…Ø§Ù†ÛŒØŒ Ø­Ø±Ù ØªØ¹Ø±ÛŒÙ Ùˆ Ø¶Ù…ÛŒØ± Ø¨Ø± Ø§Ø³Ø§Ø³ Ù†Ù‚Ø´ Ø¢Ù†Ù‡Ø§ Ø¯Ø± Ø¬Ù…لÙ‡ ØªØºÛŒÛŒØ± Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯. ÙØ§Ø¹ل (Ú©Ø³ÛŒ Ú©Ù‡ Ú©Ø§Ø± Ø±Ø§ Ø§Ù†Ø¬Ø§Ù… Ù…ÛŒâ€ŒØ¯Ù‡Ø¯) Ø¯Ø± Ø­Ø§لØª Nominativ Ø§Ø³Øª. Ù…ÙØ¹Ùˆل Ù…Ø³ØªÙ‚ÛŒÙ… (Ú©Ø³ÛŒ/Ú†ÛŒØ²ÛŒ Ú©Ù‡ Ú©Ø§Ø± Ø±ÙˆÛŒ Ø¢Ù† Ø§Ù†Ø¬Ø§Ù… Ù…ÛŒâ€ŒØ´ÙˆØ¯) Ø¯Ø± Ø­Ø§لØª Akkusativ Ù‚Ø±Ø§Ø± Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯.\n\nÙ…Ø«Ø§ل: Der Mann sieht die Frau.\nâ€¢ Der Mann = ÙØ§Ø¹ل (Nominativ) - Ú©Ø³ÛŒ Ú©Ù‡ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ø¯\nâ€¢ die Frau = Ù…ÙØ¹Ùˆل Ù…Ø³ØªÙ‚ÛŒÙ… (Akkusativ) - Ú©Ø³ÛŒ Ú©Ù‡ Ø¯ÛŒØ¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯"
+        title: "حالت مفعولی چیست؟",
+        text: "در زبان آلمانی، اسم‌ها بسته به نقششان در جمله، تغییر شکل می‌دهند. این تغییرات را «حالت» (Fall یا Kasus) می‌گویند.\nحالت اول: مرفوع (Nominativ) = فاعل (کسی که کار را انجام می‌دهد)\nحالت دوم: مفعولی (Akkusativ) = مفعول مستقیم (کسی/چیزی که کار روی آن انجام می‌شود)"
       },
       {
         type: "text",
-        title: "ØªØºÛŒÛŒØ±Ø§Øª Ø­Ø±Ù ØªØ¹Ø±ÛŒÙ Ø¯Ø± Akkusativ",
-        text: "Ø¯Ø± Akkusativ ÙÙ‚Ø· Ø­Ø±Ù ØªØ¹Ø±ÛŒÙ Ù…Ø°Ú©Ø± ØªØºÛŒÛŒØ± Ù…ÛŒâ€ŒÚ©Ù†Ø¯!\n\nâ€¢ der (Ù…Ø°Ú©Ø±) â†’ den\nâ€¢ die (Ù…Ø¤Ù†Ø«) â†’ die (Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ±)\nâ€¢ das (Ø®Ù†Ø«ÛŒ) â†’ das (Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ±)\nâ€¢ die (Ø¬Ù…Ø¹) â†’ die (Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ±)\n\nÙ…Ø«Ø§ل:\nâ€¢ Ich sehe den Mann. (Ù…Ù† Ù…Ø±Ø¯ Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù….)\nâ€¢ Ich sehe die Frau. (Ù…Ù† Ø²Ù† Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù….)\nâ€¢ Ich sehe das Kind. (Ù…Ù† Ø¨Ú†Ù‡ Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù….)\nâ€¢ Ich sehe die Kinder. (Ù…Ù† Ø¨Ú†Ù‡â€ŒÙ‡Ø§ Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù….)"
+        title: "چطور مفعول مستقیم را بشناسیم؟",
+        text: "سؤال: Was? (چه؟) oder Wen? (که را؟)\nاگر جواب این سؤال‌ها اسمی باشد، آن اسم مفعول مستقیم است و باید در حالت Akkusativ باشد.\nمثال: Ich kaufe den Tisch. → Was kaufe ich? → den Tisch (مفعول مستقیم)"
       },
       {
         type: "table",
-        title: "Ø­Ø±ÙˆÙ ØªØ¹Ø±ÛŒÙ Ù…Ø¹ÛŒÙ†: Nominativ vs Akkusativ",
+        title: "تغییرات آرتیکل‌ها در Akkusativ",
         rows: [
-          { de: "Ù…Ø°Ú©Ø±: der â†’ den", fa: "Der Mann sieht den Film. (Ù…Ø±Ø¯ ÙÛŒلÙ… Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ø¯.)" },
-          { de: "Ù…Ø¤Ù†Ø«: die â†’ die", fa: "Die Frau liest die Zeitung. (Ø²Ù† Ø±ÙˆØ²Ù†Ø§Ù…Ù‡ Ø±Ø§ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù†Ø¯.)" },
-          { de: "Ø®Ù†Ø«ÛŒ: das â†’ das", fa: "Das Kind hat das Buch. (Ø¨Ú†Ù‡ Ú©ØªØ§Ø¨ Ø±Ø§ Ø¯Ø§Ø±Ø¯.)" },
-          { de: "Ø¬Ù…Ø¹: die â†’ die", fa: "Die SchÃ¼ler lernen die WÃ¶rter. (Ø¯Ø§Ù†Ø´â€ŒØ¢Ù…ÙˆØ²Ø§Ù† Ú©لÙ…Ø§Øª Ø±Ø§ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯.)" }
+          { de: "der → den (مذکر)", fa: "Ich sehe den Mann. (مرد را می‌بینم.) - فقط der به den تغییر می‌کند!" },
+          { de: "die → die (مؤنث)", fa: "Ich sehe die Frau. (زن را می‌بینم.) - die بدون تغییر!" },
+          { de: "das → das (خنثی)", fa: "Ich sehe das Kind. (بچه را می‌بینم.) - das بدون تغییر!" },
+          { de: "die → die (جمع)", fa: "Ich sehe die Kinder. (بچه‌ها را می‌بینم.) - die بدون تغییر!" }
         ]
-      },
-      {
-        type: "text",
-        title: "Ø­Ø±ÙˆÙ ØªØ¹Ø±ÛŒÙ Ù†Ø§Ù…Ø¹ÛŒÙ† Ø¯Ø± Akkusativ",
-        text: "Ø­Ø±ÙˆÙ ØªØ¹Ø±ÛŒÙ Ù†Ø§Ù…Ø¹ÛŒÙ† Ù‡Ù… ÙÙ‚Ø· Ø¯Ø± Ù…Ø°Ú©Ø± ØªØºÛŒÛŒØ± Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯:\n\nâ€¢ ein â†’ einen\nâ€¢ eine â†’ eine (Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ±)\nâ€¢ ein â†’ ein (Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ±)\n\nÙ…Ø«Ø§ل:\nâ€¢ Ich kaufe einen Computer. (Ù…Ù† ÛŒÚ© Ú©Ø§Ù…Ù¾ÛŒÙˆØªØ± Ù…ÛŒâ€ŒØ®Ø±Ù….)\nâ€¢ Ich kaufe eine Lampe. (Ù…Ù† ÛŒÚ© لØ§Ù…Ù¾ Ù…ÛŒâ€ŒØ®Ø±Ù….)\nâ€¢ Ich kaufe ein Buch. (Ù…Ù† ÛŒÚ© Ú©ØªØ§Ø¨ Ù…ÛŒâ€ŒØ®Ø±Ù….)\n\nÙ†Ú©ØªÙ‡: ÙÙ‚Ø· Ù…Ø°Ú©Ø± ØªØºÛŒÛŒØ± Ù…ÛŒâ€ŒÚ©Ù†Ø¯: ein â†’ einen!"
-      },
-      {
-        type: "table",
-        title: "Ø­Ø±ÙˆÙ ØªØ¹Ø±ÛŒÙ Ù†Ø§Ù…Ø¹ÛŒÙ†: Nominativ vs Akkusativ",
-        rows: [
-          { de: "Ù…Ø°Ú©Ø±: ein â†’ einen", fa: "Ich habe einen Hund. (Ù…Ù† ÛŒÚ© Ø³Ú¯ Ø¯Ø§Ø±Ù….)" },
-          { de: "Ù…Ø¤Ù†Ø«: eine â†’ eine", fa: "Ich habe eine Katze. (Ù…Ù† ÛŒÚ© Ú¯Ø±Ø¨Ù‡ Ø¯Ø§Ø±Ù….)" },
-          { de: "Ø®Ù†Ø«ÛŒ: ein â†’ ein", fa: "Ich habe ein Zimmer. (Ù…Ù† ÛŒÚ© Ø§ØªØ§Ù‚ Ø¯Ø§Ø±Ù….)" }
-        ]
-      },
-      {
-        type: "text",
-        title: "Ø¶Ù…Ø§ÛŒØ± Ø´Ø®ØµÛŒ Ø¯Ø± Akkusativ",
-        text: "Ø¶Ù…Ø§ÛŒØ± Ø´Ø®ØµÛŒ Ù‡Ù… Ø¯Ø± Akkusativ ØªØºÛŒÛŒØ± Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯:\n\nâ€¢ ich â†’ mich: Er sieht mich. (Ø§Ùˆ Ù…Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ø¯.)\nâ€¢ du â†’ dich: Ich liebe dich. (Ù…Ù† ØªÙˆ Ø±Ø§ Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ù….)\nâ€¢ er â†’ ihn: Ich kenne ihn. (Ù…Ù† Ø§Ùˆ Ø±Ø§ Ù…ÛŒâ€ŒØ´Ù†Ø§Ø³Ù….)\nâ€¢ sie â†’ sie: Ich helfe ihr. (Ù…Ù† Ø¨Ù‡ Ø§Ùˆ Ú©Ù…Ú© Ù…ÛŒâ€ŒÚ©Ù†Ù….)\nâ€¢ es â†’ es: Ich sehe es. (Ù…Ù† Ø¢Ù† Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù….)\nâ€¢ wir â†’ uns: Er hilft uns. (Ø§Ùˆ Ø¨Ù‡ Ù…Ø§ Ú©Ù…Ú© Ù…ÛŒâ€ŒÚ©Ù†Ø¯.)\nâ€¢ ihr â†’ euch: Ich kenne euch. (Ù…Ù† Ø´Ù…Ø§ Ø±Ø§ Ù…ÛŒâ€ŒØ´Ù†Ø§Ø³Ù….)\nâ€¢ sie â†’ sie: Ich sehe sie. (Ù…Ù† Ø¢Ù†Ù‡Ø§ Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù….)\nâ€¢ Sie â†’ Sie: Ich helfe Ihnen. (Ù…Ù† Ø¨Ù‡ Ø´Ù…Ø§ Ú©Ù…Ú© Ù…ÛŒâ€ŒÚ©Ù†Ù….)"
-      },
-      {
-        type: "text",
-        title: "Ø§ÙØ¹Ø§لÛŒ Ú©Ù‡ Akkusativ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯",
-        text: "Ø§ÛŒÙ† ÙØ¹لâ€ŒÙ‡Ø§ Ù…ÙØ¹Ùˆل Ù…Ø³ØªÙ‚ÛŒÙ… (Akkusativ) Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯:\n\nâ€¢ sehen (Ø¯ÛŒØ¯Ù†): Ich sehe den Mann.\nâ€¢ lesen (Ø®ÙˆØ§Ù†Ø¯Ù†): Sie liest das Buch.\nâ€¢ haben (Ø¯Ø§Ø´ØªÙ†): Ich habe einen Bruder.\nâ€¢ kaufen (Ø®Ø±ÛŒØ¯Ù†): Er kauft das Auto.\nâ€¢ essen (Ø®ÙˆØ±Ø¯Ù†): Wir essen den Kuchen.\nâ€¢ trinken (Ù†ÙˆØ´ÛŒØ¯Ù†): Sie trinkt den Kaffee.\nâ€¢ machen (Ø§Ù†Ø¬Ø§Ù… Ø¯Ø§Ø¯Ù†): Ich mache die Hausaufgaben.\nâ€¢ lieben (Ø¯ÙˆØ³Øª Ø¯Ø§Ø´ØªÙ†): Ich liebe dich.\nâ€¢ kennen (Ø´Ù†Ø§Ø®ØªÙ†): Er kennt sie.\nâ€¢ brauchen (Ù†ÛŒØ§Ø² Ø¯Ø§Ø´ØªÙ†): Ich brauche Hilfe.\nâ€¢ suchen (Ø¬Ø³ØªØ¬Ùˆ Ú©Ø±Ø¯Ù†): Ich suche den SchlÃ¼ssel.\nâ€¢ finden (Ù¾ÛŒØ¯Ø§ Ú©Ø±Ø¯Ù†): Ich finde das Buch."
-      },
-      {
-        type: "text",
-        title: "Ø´Ù†Ø§Ø³Ø§ÛŒÛŒ Akkusativ Ø¯Ø± Ø¬Ù…لÙ‡",
-        text: "Ø³Ø¤Ø§ل Â«Ú†Ù‡ Ú©Ø³ÛŒ/Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ø±Ø§ØŸÂ» (Wen/Was?) Ø±Ø§ Ø§Ø² ÙØ¹ل Ø¨Ù¾Ø±Ø³ÛŒØ¯:\n\nIch kaufe den Computer. (Ù…Ù† Ú©Ø§Ù…Ù¾ÛŒÙˆØªØ± Ø±Ø§ Ù…ÛŒâ€ŒØ®Ø±Ù….)\nØ³Ø¤Ø§ل: Was kaufe ich? â†’ den Computer (Akkusativ!)\n\nEr sieht die Frau. (Ø§Ùˆ Ø²Ù† Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ø¯.)\nØ³Ø¤Ø§ل: Wen sieht er? â†’ die Frau (Akkusativ!)\n\nSie trinkt den Kaffee. (Ø§Ùˆ Ù‚Ù‡ÙˆÙ‡ Ø±Ø§ Ù…ÛŒâ€ŒÙ†ÙˆØ´Ø¯.)\nØ³Ø¤Ø§ل: Was trinkt sie? â†’ den Kaffee (Akkusativ!)\n\nÙ‚Ø§Ø¹Ø¯Ù‡: Ø§Ú¯Ø± Ø¬ÙˆØ§Ø¨ Ø³Ø¤Ø§ل Â«Ú†Ù‡ Ú©Ø³ÛŒ/Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ø±Ø§ØŸÂ» Ø§Ø³Ù…ÛŒ Ø¨Ø§Ø´Ø¯ØŒ Ø¢Ù† Ø§Ø³Ù… Akkusativ Ø§Ø³Øª."
       },
       {
         type: "alert",
-        title: "âš ï¸ Ù†Ú©Ø§Øª Ù…Ù‡Ù… Akkusativ",
-        text: "Û±. ÙÙ‚Ø· Ø­Ø±Ù ØªØ¹Ø±ÛŒÙ Ù…Ø°Ú©Ø± ØªØºÛŒÛŒØ± Ù…ÛŒâ€ŒÚ©Ù†Ø¯! die Ùˆ das Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ± Ù…ÛŒâ€ŒÙ…Ø§Ù†Ù†Ø¯.\n\nÛ². ÙØ¹لâ€ŒÙ‡Ø§ÛŒ seinØŒ bleibenØŒ werden Akkusativ Ù†Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯ØŒ Ø¨لÚ©Ù‡ Nominativ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯:\n   Ich bin ein Mann. (Ù†Ù‡: Ich bin einen Mann.)\n\nÛ³. Ø¨Ø¹Ø¶ÛŒ ÙØ¹لâ€ŒÙ‡Ø§ Dativ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯ Ù†Ù‡ Akkusativ:\n   helfen (Ú©Ù…Ú© Ú©Ø±Ø¯Ù†): Ich helfe ihm. (Dativ)\n   danken (ØªØ´Ú©Ø± Ú©Ø±Ø¯Ù†): Ich danke dir. (Dativ)\n\nÛ´. Ø¶Ù…ÛŒØ± Ù…لÚ©ÛŒ Ù‡Ù… Ø¯Ø± Akkusativ ÙÙ‚Ø· Ø¯Ø± Ù…Ø°Ú©Ø± ØªØºÛŒÛŒØ± Ù…ÛŒâ€ŒÚ©Ù†Ø¯:\n   meinen BruderØŒ meine SchwesterØŒ mein Kind\n\nÛµ. Ø¯Ø± Ø¬Ù…لØ§Øª Ø¨Ø§ Akkusativ Ùˆ DativØŒ Akkusativ Ù‚Ø¨ل Ø§Ø² Dativ Ù…ÛŒâ€ŒØ¢ÛŒØ¯ (Ù…Ø¹Ù…ÙˆلØ§Ù‹):\n   Ich gebe dem Mann den Brief. (Ù…Ù† Ù†Ø§Ù…Ù‡ Ø±Ø§ Ø¨Ù‡ Ù…Ø±Ø¯ Ù…ÛŒâ€ŒØ¯Ù‡Ù….)"
+        title: "قانون طلایی Akkusativ",
+        text: "فقط اسم‌های مذکر (der) در Akkusativ تغییر می‌کنند: der → den. بقیه (die, das, جمع) هیچ تغییری نمی‌کنند! پس فقط یک تغییر را حفظ کنید: der → den."
+      },
+      {
+        type: "table",
+        title: "آرتیکل نامشخص (ein/kein) در Akkusativ",
+        rows: [
+          { de: "ein → einen (مذکر)", fa: "Ich habe einen Bruder. (برادر دارم.) / Ich habe keinen Hund. (سگ ندارم.)" },
+          { de: "eine → eine (مؤنث)", fa: "Ich habe eine Schwester. (خواهر دارم.) / Ich habe keine Katze. (گربه ندارم.)" },
+          { de: "ein → ein (خنثی)", fa: "Ich habe ein Kind. (بچه دارم.) / Ich habe kein Auto. (ماشین ندارم.)" }
+        ]
+      },
+      {
+        type: "table",
+        title: "ضمیر ملکی در Akkusativ",
+        rows: [
+          { de: "mein → meinen (مذکر)", fa: "Ich liebe meinen Vater. (پدرم را دوست دارم.)" },
+          { de: "meine → meine (مؤنث)", fa: "Ich liebe meine Mutter. (مادرم را دوست دارم.)" },
+          { de: "mein → mein (خنثی)", fa: "Ich liebe mein Kind. (بچه‌ام را دوست دارم.)" }
+        ]
+      },
+      {
+        type: "text",
+        title: "۱۰ فعل که Akkusativ می‌گیرند",
+        text: "این فعل‌ها همیشه مفعول مستقیم دارند و اسم بعد از آن‌ها باید در Akkusativ باشد."
+      },
+      {
+        type: "table",
+        title: "فعل‌های Akkusativ",
+        rows: [
+          { de: "sehen (دیدن)", fa: "Ich sehe den Film. (فیلم را می‌بینم.)" },
+          { de: "kaufen (خریدن)", fa: "Ich kaufe das Buch. (کتاب را می‌خرم.)" },
+          { de: "essen (خوردن)", fa: "Ich esse den Apfel. (سیب را می‌خورم.)" },
+          { de: "trinken (نوشیدن)", fa: "Ich trinke den Kaffee. (قهوه را می‌نوشم.)" },
+          { de: "lesen (خواندن)", fa: "Ich lese die Zeitung. (روزنامه را می‌خوانم.)" },
+          { de: "suchen (جستجو کردن)", fa: "Ich suche den Schlüssel. (کلید را جستجو می‌کنم.)" },
+          { de: "brauchen (نیاز داشتن)", fa: "Ich brauche das Buch. (کتاب را نیاز دارم.)" },
+          { de: "haben (داشتن)", fa: "Ich habe den Hund. (سگ را دارم.)" },
+          { de: "machen (انجام دادن)", fa: "Ich mache die Hausaufgaben. (تکالیف را انجام می‌دهم.)" },
+          { de: "lieben (دوست داشتن)", fa: "Ich liebe die Musik. (موسیقی را دوست دارم.)" }
+        ]
       },
       {
         type: "examples",
-        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ ÙØ±Ø§ÙˆØ§Ù† Ø¨Ø§ Akkusativ",
+        title: "مثال‌های کاربردی Akkusativ",
         items: [
-          { de: "Ich sehe den Mann.", fa: "Ù…Ù† Ù…Ø±Ø¯ Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù…." },
-          { de: "Er kauft das Auto.", fa: "Ø§Ùˆ Ù…Ø§Ø´ÛŒÙ† Ø±Ø§ Ù…ÛŒâ€ŒØ®Ø±Ø¯." },
-          { de: "Sie liest die Zeitung.", fa: "Ø§Ùˆ Ø±ÙˆØ²Ù†Ø§Ù…Ù‡ Ø±Ø§ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù†Ø¯." },
-          { de: "Wir essen den Kuchen.", fa: "Ù…Ø§ Ú©ÛŒÚ© Ø±Ø§ Ù…ÛŒâ€ŒØ®ÙˆØ±ÛŒÙ…." },
-          { de: "Ich liebe dich.", fa: "Ù…Ù† ØªÙˆ Ø±Ø§ Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ù…." },
-          { de: "Er kennt meinen Bruder.", fa: "Ø§Ùˆ Ø¨Ø±Ø§Ø¯Ø± Ù…Ù† Ø±Ø§ Ù…ÛŒâ€ŒØ´Ù†Ø§Ø³Ø¯." },
-          { de: "Sie trinkt den Tee.", fa: "Ø§Ùˆ Ú†Ø§ÛŒ Ø±Ø§ Ù…ÛŒâ€ŒÙ†ÙˆØ´Ø¯." },
-          { de: "Ich brauche eine Lampe.", fa: "Ù…Ù† ÛŒÚ© لØ§Ù…Ù¾ Ù†ÛŒØ§Ø² Ø¯Ø§Ø±Ù…." },
-          { de: "Er sucht seinen SchlÃ¼ssel.", fa: "Ø§Ùˆ Ú©لÛŒØ¯Ø´ Ø±Ø§ Ø¬Ø³ØªØ¬Ùˆ Ù…ÛŒâ€ŒÚ©Ù†Ø¯." },
-          { de: "Ich finde das Buch interessant.", fa: "Ù…Ù† Ú©ØªØ§Ø¨ Ø±Ø§ Ø¬Ø§لØ¨ Ù…ÛŒâ€ŒØ¯Ø§Ù†Ù…." },
-          { de: "Sie macht die Hausaufgaben.", fa: "Ø§Ùˆ ØªÚ©Ø§لÛŒÙ Ø±Ø§ Ø§Ù†Ø¬Ø§Ù… Ù…ÛŒâ€ŒØ¯Ù‡Ø¯." },
-          { de: "Wir lernen die neuen WÃ¶rter.", fa: "Ù…Ø§ Ú©لÙ…Ø§Øª Ø¬Ø¯ÛŒØ¯ Ø±Ø§ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒÙ…." }
+          { de: "Ich sehe einen Film.", fa: "یک فیلم می‌بینم. (einen = یک + مذکر در Akkusativ)" },
+          { de: "Er kauft eine Tasche.", fa: "او یک کیف می‌خرد. (eine = یک + مؤنث - بدون تغییر)" },
+          { de: "Sie isst das Brot.", fa: "او نان را می‌خورد. (das = بدون تغییر)" },
+          { de: "Wir trinken den Tee.", fa: "ما چای را می‌نوشیم. (den = the + مذکر در Akkusativ)" },
+          { de: "Hast du meinen Schlüssel gesehen?", fa: "کلیدم را دیده‌ای؟ (meinen = مال من + مذکر در Akkusativ)" },
+          { de: "Ich brauche deine Hilfe.", fa: "کمک تو را نیاز دارم. (deine = مال تو + مؤنث - بدون تغییر)" }
         ]
       },
       {
         type: "interactive_quiz",
-        title: "Ø¢Ø²Ù…ÙˆÙ† ØªØ¹Ø§Ù…لÛŒ: Akkusativ",
+        title: "آزمون: Akkusativ",
         questions: [
           {
-            question: "Â«Ù…Ù† Ù…Ø±Ø¯ Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù…Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Â«Ù…Ù† Ù…Ø±Ø¯ Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù…Â» auf Deutsch?",
+            question: "آرتیکل «der Mann» در Akkusativ چه می‌شود؟",
+            questionDe: "Was wird aus 'der Mann' im Akkusativ?",
             options: [
-              { text: "Ich sehe der Mann.", isCorrect: false },
-              { text: "Ich sehe den Mann.", isCorrect: true },
-              { text: "Ich sehe das Mann.", isCorrect: false },
-              { text: "Ich sehe die Mann.", isCorrect: false }
+              { text: "der Mann", isCorrect: false },
+              { text: "den Mann", isCorrect: true },
+              { text: "dem Mann", isCorrect: false }
             ],
-            explanation: "Ú†ÙˆÙ† Â«MannÂ» Ù…ÙØ¹Ùˆل Ù…Ø³ØªÙ‚ÛŒÙ… (Akkusativ) Ø§Ø³Øª Ùˆ Ù…Ø°Ú©Ø± Ø§Ø³ØªØŒ der â†’ den ØªØºÛŒÛŒØ± Ù…ÛŒâ€ŒÚ©Ù†Ø¯."
+            explanation: "درست! فقط der → den تغییر می‌کند."
           },
           {
-            question: "Â«Ù…Ù† ÛŒÚ© Ú©Ø§Ù…Ù¾ÛŒÙˆØªØ± Ù…ÛŒâ€ŒØ®Ø±Ù…Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Â«Ù…Ù† ÛŒÚ© Ú©Ø§Ù…Ù¾ÛŒÙˆØªØ± Ù…ÛŒâ€ŒØ®Ø±Ù…Â» auf Deutsch?",
+            question: "کدام جمله صحیح است؟",
+            questionDe: "Welcher Satz ist richtig?",
             options: [
-              { text: "Ich kaufe ein Computer.", isCorrect: false },
-              { text: "Ich kaufe einen Computer.", isCorrect: true },
-              { text: "Ich kaufe eine Computer.", isCorrect: false },
-              { text: "Ich kaufe der Computer.", isCorrect: false }
+              { text: "Ich sehe der Film.", isCorrect: false },
+              { text: "Ich sehe den Film.", isCorrect: true },
+              { text: "Ich sehe dem Film.", isCorrect: false }
             ],
-            explanation: "Computer Ù…Ø°Ú©Ø± Ø§Ø³Øª (der Computer). Ø¯Ø± AkkusativØŒ ein â†’ einen ØªØºÛŒÛŒØ± Ù…ÛŒâ€ŒÚ©Ù†Ø¯."
+            explanation: "عالی! فعل sehen مفعول مستقیم می‌گیرد و آرتیکل مذکر باید den باشد."
+          }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تمرین جای خالی: Akkusativ",
+        instructions: "آرتیکل صحیح را در Akkusativ بنویسید.",
+        sentences: [
+          { de: "Ich kaufe ___ Tisch.", answer: "den", hint: "der Tisch → den Tisch" },
+          { de: "Sie isst ___ Apfel.", answer: "den", hint: "der Apfel → den Apfel" },
+          { de: "Er liest ___ Zeitung.", answer: "die", hint: "die Zeitung → die (بدون تغییر)" },
+          { de: "Wir kaufen ___ Auto.", answer: "das", hint: "das Auto → das (بدون تغییر)" },
+          { de: "Ich habe ___ Bruder.", answer: "einen", hint: "ein Bruder → einen Bruder" },
+          { de: "Hast du ___ Buch gesehen?", answer: "mein", hint: "mein Buch → mein (بدون تغییر - خنثی)" }
+        ]
+      }
+    ]
+  },
+
+  vocabData: {
+    categories: [
+      {
+        title: "غذاها و نوشیدنی‌ها",
+        words: [
+          {
+            de: "der Apfel",
+            fa: "سیب",
+            ipa: "[ˈapfl̩]",
+            article: "der",
+            plural: "die Äpfel",
+            examples: [{ de: "Ich esse einen Apfel.", fa: "یک سیب می‌خورم." }]
           },
           {
-            question: "Â«Ù…Ù† ÛŒÚ© لØ§Ù…Ù¾ Ù†ÛŒØ§Ø² Ø¯Ø§Ø±Ù…Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Â«Ù…Ù† ÛŒÚ© لØ§Ù…Ù¾ Ù†ÛŒØ§Ø² Ø¯Ø§Ø±Ù…Â» auf Deutsch?",
-            options: [
-              { text: "Ich brauche ein Lampe.", isCorrect: false },
-              { text: "Ich brauche eine Lampe.", isCorrect: true },
-              { text: "Ich brauche einen Lampe.", isCorrect: false },
-              { text: "Ich brauche der Lampe.", isCorrect: false }
-            ],
-            explanation: "Lampe Ù…Ø¤Ù†Ø« Ø§Ø³Øª (die Lampe). Ø¯Ø± Akkusativ Ù…Ø¤Ù†Ø«ØŒ ØªØºÛŒÛŒØ±ÛŒ Ù†Ù…ÛŒâ€ŒÚ©Ù†Ø¯: eine â†’ eine."
+            de: "das Brot",
+            fa: "نان",
+            ipa: "[bʁoːt]",
+            article: "das",
+            plural: "die Brote",
+            examples: [{ de: "Ich kaufe Brot.", fa: "نان می‌خرم." }]
           },
           {
-            question: "Ø¶Ù…ÛŒØ± Â«duÂ» Ø¯Ø± Akkusativ Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Wie wird Â«duÂ» im Akkusativ?",
-            options: [
-              { text: "dir", isCorrect: false },
-              { text: "dich", isCorrect: true },
-              { text: "du", isCorrect: false },
-              { text: "deiner", isCorrect: false }
-            ],
-            explanation: "Ø¶Ù…ÛŒØ± du Ø¯Ø± Akkusativ Ø¨Ù‡ dich ØªØ¨Ø¯ÛŒل Ù…ÛŒâ€ŒØ´ÙˆØ¯: Ich liebe dich. (Ù…Ù† ØªÙˆ Ø±Ø§ Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ù….)"
+            de: "die Milch",
+            fa: "شیر",
+            ipa: "[mɪlç]",
+            article: "die",
+            examples: [{ de: "Ich trinke Milch.", fa: "شیر می‌نوشم." }]
           },
           {
-            question: "Ú©Ø¯Ø§Ù… ÙØ¹ل Akkusativ Ù†Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯ØŸ",
-            questionDe: "Welches Verb nimmt KEIN Akkusativ?",
-            options: [
-              { text: "sehen (Ø¯ÛŒØ¯Ù†)", isCorrect: false },
-              { text: "kaufen (Ø®Ø±ÛŒØ¯Ù†)", isCorrect: false },
-              { text: "sein (Ø¨ÙˆØ¯Ù†)", isCorrect: true },
-              { text: "lesen (Ø®ÙˆØ§Ù†Ø¯Ù†)", isCorrect: false }
-            ],
-            explanation: "ÙØ¹ل seinØŒ Ù…Ú©Ù…ل Ø§Ø³Ù…ÛŒ Ø¯Ø± Nominativ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯ Ù†Ù‡ Akkusativ: Ich bin ein Mann. (Ù†Ù‡ einen Mann)"
+            de: "der Käse",
+            fa: "پنیر",
+            ipa: "[ˈkɛːzə]",
+            article: "der",
+            plural: "die Käse",
+            examples: [{ de: "Ich esse Käse.", fa: "پنیر می‌خورم." }]
+          },
+          {
+            de: "der Reis",
+            fa: "برنج",
+            ipa: "[ʁaɪ̯s]",
+            article: "der",
+            examples: [{ de: "Ich koche Reis.", fa: "برنج می‌پزم." }]
+          },
+          {
+            de: "das Fleisch",
+            fa: "گوشت",
+            ipa: "[flaɪ̯ʃ]",
+            article: "das",
+            examples: [{ de: "Ich esse kein Fleisch.", fa: "گوشت نمی‌خورم." }]
+          },
+          {
+            de: "das Gemüse",
+            fa: "سبزیجات",
+            ipa: "[ɡəˈmyːzə]",
+            article: "das",
+            examples: [{ de: "Ich esse viel Gemüse.", fa: "سبزیجات زیاد می‌خورم." }]
+          },
+          {
+            de: "der Saft",
+            fa: "آبمیوه",
+            ipa: "[zaft]",
+            article: "der",
+            plural: "die Säfte",
+            examples: [{ de: "Ich trinke Orangensaft.", fa: "آب پرتقال می‌نوشم." }]
+          }
+        ]
+      },
+      {
+        title: "اشیاء خانه",
+        words: [
+          {
+            de: "der Fernseher",
+            fa: "تلویزیون",
+            ipa: "[ˈfɛʁnzeːɐ̯]",
+            article: "der",
+            plural: "die Fernseher",
+            examples: [{ de: "Ich sehe fern.", fa: "تلویزیون نگاه می‌کنم." }]
+          },
+          {
+            de: "die Tasche",
+            fa: "کیف",
+            ipa: "[ˈtaʃə]",
+            article: "die",
+            plural: "die Taschen",
+            examples: [{ de: "Ich kaufe eine neue Tasche.", fa: "کیف نو می‌خرم." }]
+          },
+          {
+            de: "das Bild",
+            fa: "عکس / تصویر",
+            ipa: "[bɪlt]",
+            article: "das",
+            plural: "die Bilder",
+            examples: [{ de: "Ich sehe das Bild.", fa: "عکس را می‌بینم." }]
+          },
+          {
+            de: "das Geschenk",
+            fa: "هدیه",
+            ipa: "[ɡəˈʃɛŋk]",
+            article: "das",
+            plural: "die Geschenke",
+            examples: [{ de: "Ich kaufe ein Geschenk.", fa: "هدیه می‌خرم." }]
+          },
+          {
+            de: "die Musik",
+            fa: "موسیقی",
+            ipa: "[muˈziːk]",
+            article: "die",
+            examples: [{ de: "Ich höre Musik.", fa: "موسیقی گوش می‌دهم." }]
+          },
+          {
+            de: "der Film",
+            fa: "فیلم",
+            ipa: "[fɪlm]",
+            article: "der",
+            plural: "die Filme",
+            examples: [{ de: "Ich sehe einen Film.", fa: "فیلم می‌بینم." }]
+          },
+          {
+            de: "das Hobby",
+            fa: "سرگرمی / علاقه",
+            ipa: "[ˈhɔbi]",
+            article: "das",
+            plural: "die Hobbys",
+            examples: [{ de: "Was ist dein Hobby?", fa: "سرگرمیت چیست؟" }]
           }
         ]
       }
     ]
   },
-  vocabData: {
-    categories: [
-      {
-        title: "Ø­Ø±ÙˆÙ ØªØ¹Ø±ÛŒÙ Ø¯Ø± Akkusativ",
-        words: [
-          { de: "der â†’ den (Ù…Ø°Ú©Ø±)", fa: "ØªØºÛŒÛŒØ± Ø¯Ø± Akkusativ", article: "-", plural: "-", examples: [{ de: "Ich sehe den Mann.", fa: "Ù…Ù† Ù…Ø±Ø¯ Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù…." }, { de: "Er kauft den Computer.", fa: "Ø§Ùˆ Ú©Ø§Ù…Ù¾ÛŒÙˆØªØ± Ø±Ø§ Ù…ÛŒâ€ŒØ®Ø±Ø¯." }] },
-          { de: "die â†’ die (Ù…Ø¤Ù†Ø«)", fa: "Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ±", article: "-", plural: "-", examples: [{ de: "Sie liest die Zeitung.", fa: "Ø§Ùˆ Ø±ÙˆØ²Ù†Ø§Ù…Ù‡ Ø±Ø§ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù†Ø¯." }, { de: "Ich habe die Lampe.", fa: "Ù…Ù† لØ§Ù…Ù¾ Ø±Ø§ Ø¯Ø§Ø±Ù…." }] },
-          { de: "das â†’ das (Ø®Ù†Ø«ÛŒ)", fa: "Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ±", article: "-", plural: "-", examples: [{ de: "Das Kind hat das Buch.", fa: "Ø¨Ú†Ù‡ Ú©ØªØ§Ø¨ Ø±Ø§ Ø¯Ø§Ø±Ø¯." }, { de: "Ich sehe das MÃ¤dchen.", fa: "Ù…Ù† Ø¯Ø®ØªØ± Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù…." }] },
-          { de: "die â†’ die (Ø¬Ù…Ø¹)", fa: "Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ±", article: "-", plural: "-", examples: [{ de: "Ich sehe die Kinder.", fa: "Ù…Ù† Ø¨Ú†Ù‡â€ŒÙ‡Ø§ Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù…." }] },
-          { de: "ein â†’ einen (Ù…Ø°Ú©Ø±)", fa: "ØªØºÛŒÛŒØ± Ø¯Ø± Akkusativ", article: "-", plural: "-", examples: [{ de: "Ich kaufe einen Hund.", fa: "Ù…Ù† ÛŒÚ© Ø³Ú¯ Ù…ÛŒâ€ŒØ®Ø±Ù…." }, { de: "Er hat einen Bruder.", fa: "Ø§Ùˆ ÛŒÚ© Ø¨Ø±Ø§Ø¯Ø± Ø¯Ø§Ø±Ø¯." }] },
-          { de: "eine â†’ eine (Ù…Ø¤Ù†Ø«)", fa: "Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ±", article: "-", plural: "-", examples: [{ de: "Ich habe eine Katze.", fa: "Ù…Ù† ÛŒÚ© Ú¯Ø±Ø¨Ù‡ Ø¯Ø§Ø±Ù…." }, { de: "Sie kauft eine Lampe.", fa: "Ø§Ùˆ ÛŒÚ© لØ§Ù…Ù¾ Ù…ÛŒâ€ŒØ®Ø±Ø¯." }] }
-        ]
-      },
-      {
-        title: "Ø¶Ù…Ø§ÛŒØ± Ø´Ø®ØµÛŒ Ø¯Ø± Akkusativ",
-        words: [
-          { de: "ich â†’ mich", fa: "Ù…Ù† â†’ Ù…Ø±Ø§", article: "-", plural: "-", examples: [{ de: "Er sieht mich.", fa: "Ø§Ùˆ Ù…Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ø¯." }, { de: "Sie liebt mich.", fa: "Ø§Ùˆ Ù…Ø±Ø§ Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ø¯." }] },
-          { de: "du â†’ dich", fa: "ØªÙˆ â†’ ØªÙˆ Ø±Ø§", article: "-", plural: "-", examples: [{ de: "Ich liebe dich.", fa: "Ù…Ù† ØªÙˆ Ø±Ø§ Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ù…." }, { de: "Ich sehe dich.", fa: "Ù…Ù† ØªÙˆ Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù…." }] },
-          { de: "er â†’ ihn", fa: "Ø§Ùˆ (Ù…Ø°Ú©Ø±) â†’ Ø§Ùˆ Ø±Ø§", article: "-", plural: "-", examples: [{ de: "Ich kenne ihn.", fa: "Ù…Ù† Ø§Ùˆ Ø±Ø§ Ù…ÛŒâ€ŒØ´Ù†Ø§Ø³Ù…." }, { de: "Wir besuchen ihn.", fa: "Ù…Ø§ Ø§Ø² Ø§Ùˆ Ø¯ÛŒØ¯Ù† Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…." }] },
-          { de: "sie â†’ sie", fa: "Ø§Ùˆ (Ù…Ø¤Ù†Ø«) â†’ Ø§Ùˆ Ø±Ø§", article: "-", plural: "-", examples: [{ de: "Er liebt sie.", fa: "Ø§Ùˆ Ø§Ùˆ Ø±Ø§ Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ø¯." }, { de: "Ich helfe ihr.", fa: "Ù…Ù† Ø¨Ù‡ Ø§Ùˆ Ú©Ù…Ú© Ù…ÛŒâ€ŒÚ©Ù†Ù…." }] },
-          { de: "wir â†’ uns", fa: "Ù…Ø§ â†’ Ù…Ø§ Ø±Ø§", article: "-", plural: "-", examples: [{ de: "Er hilft uns.", fa: "Ø§Ùˆ Ø¨Ù‡ Ù…Ø§ Ú©Ù…Ú© Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }, { de: "Sie sehen uns.", fa: "Ø¢Ù†Ù‡Ø§ Ù…Ø§ Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù†Ø¯." }] },
-          { de: "ihr â†’ euch", fa: "Ø´Ù…Ø§ (Ù…Ø­Ø§ÙˆØ±Ù‡â€ŒØ§ÛŒ) â†’ Ø´Ù…Ø§ Ø±Ø§", article: "-", plural: "-", examples: [{ de: "Ich kenne euch.", fa: "Ù…Ù† Ø´Ù…Ø§ Ø±Ø§ Ù…ÛŒâ€ŒØ´Ù†Ø§Ø³Ù…." }] },
-          { de: "sie â†’ sie", fa: "Ø¢Ù†Ù‡Ø§ â†’ Ø¢Ù†Ù‡Ø§ Ø±Ø§", article: "-", plural: "-", examples: [{ de: "Ich sehe sie.", fa: "Ù…Ù† Ø¢Ù†Ù‡Ø§ Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù…." }] }
-        ]
-      },
-      {
-        title: "ÙØ¹لâ€ŒÙ‡Ø§ÛŒÛŒ Ú©Ù‡ Akkusativ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯",
-        words: [
-          { de: "sehen (Ø¯ÛŒØ¯Ù†)", fa: "Ich sehe...", article: "-", plural: "-", examples: [{ de: "Ich sehe den Film.", fa: "Ù…Ù† ÙÛŒلÙ… Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù…." }, { de: "Siehst du den Mann?", fa: "Ø¢ÛŒØ§ Ù…Ø±Ø¯ Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†ÛŒØŸ" }] },
-          { de: "lesen (Ø®ÙˆØ§Ù†Ø¯Ù†)", fa: "Ich lese...", article: "-", plural: "-", examples: [{ de: "Ich lese das Buch.", fa: "Ù…Ù† Ú©ØªØ§Ø¨ Ø±Ø§ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù†Ù…." }, { de: "Sie liest die Zeitung.", fa: "Ø§Ùˆ Ø±ÙˆØ²Ù†Ø§Ù…Ù‡ Ø±Ø§ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù†Ø¯." }] },
-          { de: "kaufen (Ø®Ø±ÛŒØ¯Ù†)", fa: "Ich kaufe...", article: "-", plural: "-", examples: [{ de: "Ich kaufe den Computer.", fa: "Ù…Ù† Ú©Ø§Ù…Ù¾ÛŒÙˆØªØ± Ø±Ø§ Ù…ÛŒâ€ŒØ®Ø±Ù…." }, { de: "Er kauft ein Auto.", fa: "Ø§Ùˆ ÛŒÚ© Ù…Ø§Ø´ÛŒÙ† Ù…ÛŒâ€ŒØ®Ø±Ø¯." }] },
-          { de: "essen (Ø®ÙˆØ±Ø¯Ù†)", fa: "Ich esse...", article: "-", plural: "-", examples: [{ de: "Wir essen den Kuchen.", fa: "Ù…Ø§ Ú©ÛŒÚ© Ø±Ø§ Ù…ÛŒâ€ŒØ®ÙˆØ±ÛŒÙ…." }, { de: "Er isst einen Apfel.", fa: "Ø§Ùˆ ÛŒÚ© Ø³ÛŒØ¨ Ù…ÛŒâ€ŒØ®ÙˆØ±Ø¯." }] },
-          { de: "trinken (Ù†ÙˆØ´ÛŒØ¯Ù†)", fa: "Ich trinke...", article: "-", plural: "-", examples: [{ de: "Ich trinke den Kaffee.", fa: "Ù…Ù† Ù‚Ù‡ÙˆÙ‡ Ø±Ø§ Ù…ÛŒâ€ŒÙ†ÙˆØ´Ù…." }, { de: "Sie trinkt Wasser.", fa: "Ø§Ùˆ Ø¢Ø¨ Ù…ÛŒâ€ŒÙ†ÙˆØ´Ø¯." }] },
-          { de: "lieben (Ø¯ÙˆØ³Øª Ø¯Ø§Ø´ØªÙ†)", fa: "Ich liebe...", article: "-", plural: "-", examples: [{ de: "Ich liebe dich.", fa: "Ù…Ù† ØªÙˆ Ø±Ø§ Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ù…." }, { de: "Er liebt seine Frau.", fa: "Ø§Ùˆ Ø²Ù†Ø´ Ø±Ø§ Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ø¯." }] },
-          { de: "kennen (Ø´Ù†Ø§Ø®ØªÙ†)", fa: "Ich kenne...", article: "-", plural: "-", examples: [{ de: "Ich kenne ihn.", fa: "Ù…Ù† Ø§Ùˆ Ø±Ø§ Ù…ÛŒâ€ŒØ´Ù†Ø§Ø³Ù…." }, { de: "Kennst du das Restaurant?", fa: "Ø¢ÛŒØ§ Ø±Ø³ØªÙˆØ±Ø§Ù† Ø±Ø§ Ù…ÛŒâ€ŒØ´Ù†Ø§Ø³ÛŒØŸ" }] },
-          { de: "brauchen (Ù†ÛŒØ§Ø² Ø¯Ø§Ø´ØªÙ†)", fa: "Ich brauche...", article: "-", plural: "-", examples: [{ de: "Ich brauche Hilfe.", fa: "Ù…Ù† Ú©Ù…Ú© Ù†ÛŒØ§Ø² Ø¯Ø§Ø±Ù…." }, { de: "Brauchst du das Buch?", fa: "Ø¢ÛŒØ§ Ú©ØªØ§Ø¨ Ø±Ø§ Ù†ÛŒØ§Ø² Ø¯Ø§Ø±ÛŒØŸ" }] },
-          { de: "suchen (Ø¬Ø³ØªØ¬Ùˆ Ú©Ø±Ø¯Ù†)", fa: "Ich suche...", article: "-", plural: "-", examples: [{ de: "Ich suche den SchlÃ¼ssel.", fa: "Ù…Ù† Ú©لÛŒØ¯ Ø±Ø§ Ø¬Ø³ØªØ¬Ùˆ Ù…ÛŒâ€ŒÚ©Ù†Ù…." }, { de: "Sie sucht ihre Tasche.", fa: "Ø§Ùˆ Ú©ÛŒÙØ´ Ø±Ø§ Ø¬Ø³ØªØ¬Ùˆ Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }] }
-        ]
-      }
-    ]
-  },
+
   reading: [
     {
-      text: "Der Geburtstag\n\nHeute hat Lisa Geburtstag. Sie wird fÃ¼nfundzwanzig Jahre alt. Ihre Freunde kommen zur Party. Anna bringt einen groÃŸen Kuchen mit. Thomas bringt die Blumen fÃ¼r Lisa. Peter kauft ein Geschenk.\n\nLisa sieht die GÃ¤ste und freut sich sehr. Sie kennt alle Freunde. Sie trinkt den Saft und isst den Kuchen. Am Ende singen alle: Â«Happy BirthdayÂ». Lisa liebt ihre Freunde.",
+      text: "Im Supermarkt (در سوپرمارکت)\n\nAnna: Guten Tag! Was brauchen Sie heute?\nAli: Guten Tag! Ich brauche Brot und Milch.\nAnna: Möchten Sie auch Käse?\nAli: Ja, ich kaufe auch Käse. Und ich suche Äpfel.\nAnna: Die Äpfel sind dort, neben dem Gemüse.\nAli: Danke! Ich nehme auch Fleisch und Reis.\nAnna: Gut. Sonst noch etwas?\nAli: Ja, ich kaufe noch Orangensaft und Kuchen. Ich koche heute Abend für meine Familie.\nAnna: Sehr gut! Das macht zusammen 25 Euro.\nAli: Danke schön!",
+      translation: [
+        { de: "Im Supermarkt", fa: "در سوپرمارکت" },
+        { de: "Anna: Guten Tag! Was brauchen Sie heute?", fa: "آنا: روز بخیر! امروز چه چیزی نیاز دارید؟" },
+        { de: "Ali: Ich brauche Brot und Milch.", fa: "علی: نان و شیر نیاز دارم." },
+        { de: "Möchten Sie auch Käse?", fa: "پنیر هم می‌خواهید؟" },
+        { de: "Ja, ich kaufe auch Käse.", fa: "بله، پنیر هم می‌خرم." },
+        { de: "Ich suche Äpfel.", fa: "سیب جستجو می‌کنم." },
+        { de: "Die Äpfel sind dort, neben dem Gemüse.", fa: "سیب‌ها آنجا هستند، کنار سبزیجات." },
+        { de: "Ich nehme auch Fleisch und Reis.", fa: "گوشت و برنج هم می‌گیرم." },
+        { de: "Sonst noch etwas?", fa: "چیز دیگری؟" },
+        { de: "Ich koche heute Abend für meine Familie.", fa: "امشب برای خانواده‌ام آشپزی می‌کنم." },
+        { de: "Das macht zusammen 25 Euro.", fa: "روی‌هم ۲۵ یورو می‌شود." }
+      ],
       questions: [
-        { question: "لÛŒØ²Ø§ Ø§Ù…Ø±ÙˆØ² Ú†Ù†Ø¯ Ø³Ø§لÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", answer: "Ø¨ÛŒØ³Øª Ùˆ Ù¾Ù†Ø¬ Ø³Ø§لÙ‡ (fÃ¼nfundzwanzig Jahre alt)." },
-        { question: "Ø¢Ù†Ø§ Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ø¨Ø§ Ø®ÙˆØ¯ Ù…ÛŒâ€ŒØ¢ÙˆØ±Ø¯ØŸ", answer: "ÛŒÚ© Ú©ÛŒÚ© Ø¨Ø²Ø±Ú¯ (einen groÃŸen Kuchen)." },
-        { question: "Ù¾ÛŒØªØ± Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ù…ÛŒâ€ŒØ®Ø±Ø¯ØŸ", answer: "ÛŒÚ© Ù‡Ø¯ÛŒÙ‡ (ein Geschenk)." },
-        { question: "لÛŒØ²Ø§ Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ù…ÛŒâ€ŒÙ†ÙˆØ´Ø¯ØŸ", answer: "Ø¢Ø¨Ù…ÛŒÙˆÙ‡ (den Saft)." }
+        { question: "علی چه چیزهایی نیاز دارد؟", answer: "نان، شیر، پنیر، سیب، گوشت، برنج، آب پرتقال و کیک." },
+        { question: "سیب‌ها کجا هستند؟", answer: "کنار سبزیجات." },
+        { question: "علی امشب چه کار می‌کند؟", answer: "برای خانواده‌اش آشپزی می‌کند." },
+        { question: "جمع خرید چند یورو شد؟", answer: "۲۵ یورو." }
       ]
     }
   ],
+
   writing: [
     {
-      title: "Ù†ÙˆØ´ØªÙ† Ø¬Ù…لØ§Øª Ø¨Ø§ Akkusativ",
-      prompt: "Û±Û° Ø¬Ù…لÙ‡ Ø¨Ø§ Ù…ÙØ¹Ùˆل Ù…Ø³ØªÙ‚ÛŒÙ… (Akkusativ) Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯.",
+      title: "نوشتن لیست خرید و برنامه آشپزی",
+      prompt: "با استفاده از Akkusativ، لیست خرید و برنامه آشپزی خود را بنویسید.",
       steps: [
-        { title: "Ù…Ø±Ø­لÙ‡ Û±: Ø´Ù†Ø§Ø³Ø§ÛŒÛŒ ÙØ¹ل", text: "ÙØ¹لâ€ŒÙ‡Ø§ÛŒÛŒ Ú©Ù‡ Akkusativ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯ Ø§Ù†ØªØ®Ø§Ø¨ Ú©Ù†ÛŒØ¯", example: { de: "sehen, kaufen, essen, trinken, lesen", fa: "Ø¯ÛŒØ¯Ù†ØŒ Ø®Ø±ÛŒØ¯Ù†ØŒ Ø®ÙˆØ±Ø¯Ù†ØŒ Ù†ÙˆØ´ÛŒØ¯Ù†ØŒ Ø®ÙˆØ§Ù†Ø¯Ù†" } },
-        { title: "Ù…Ø±Ø­لÙ‡ Û²: ØªØºÛŒÛŒØ± Ø­Ø±Ù ØªØ¹Ø±ÛŒÙ", text: "Ø§Ú¯Ø± Ù…ÙØ¹Ùˆل Ù…Ø°Ú©Ø± Ø§Ø³ØªØŒ der â†’ den Ùˆ ein â†’ einen", example: { de: "der Mann â†’ den Mann, ein Hund â†’ einen Hund", fa: "Ù…Ø±Ø¯ â†’ Ù…Ø±Ø¯ Ø±Ø§ØŒ ÛŒÚ© Ø³Ú¯ â†’ ÛŒÚ© Ø³Ú¯ Ø±Ø§" } },
-        { title: "Ù…Ø±Ø­لÙ‡ Û³: Ø³Ø§Ø®ØªÙ† Ø¬Ù…لÙ‡", text: "Ø¬Ù…لÙ‡ Ú©Ø§Ù…ل Ø¨Ø³Ø§Ø²ÛŒØ¯", example: { de: "Ich sehe den Mann.", fa: "Ù…Ù† Ù…Ø±Ø¯ Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù…." } }
+        {
+          title: "لیست خرید",
+          text: "چیزهایی که نیاز دارید را با آرتیکل Akkusativ بنویسید.",
+          example: { de: "Ich brauche Milch, Brot und Käse.", fa: "شیر، نان و پنیر نیاز دارم." }
+        },
+        {
+          title: "برنامه آشپزی",
+          text: "بگویید چه چیزهایی می‌خورید و می‌نوشید.",
+          example: { de: "Ich esse den Apfel und trinke den Saft.", fa: "سیب را می‌خورم و آبمیوه را می‌نوشم." }
+        },
+        {
+          title: "خریدها",
+          text: "چه چیزهایی می‌خرید.",
+          example: { de: "Ich kaufe das Fleisch und die Milch.", fa: "گوشت و شیر را می‌خرم." }
+        }
+      ],
+      modelAnswer: "Ich gehe heute zum Supermarkt. Ich brauche Brot, Milch und Käse. Ich kaufe auch Äpfel und Orangensaft. Für das Abendessen koche ich Reis und Fleisch. Ich esse den Kuchen und trinke den Tee. Meine Familie liebt das Essen."
+    }
+  ],
+
+  listening: [
+    {
+      title: "۱. Akkusativ در جملات (A1 hören)",
+      instruction: "تمرین شنیداری:\n۱. جملات را بشنوید و آرتیکل Akkusativ را تشخیص دهید.\n۲. مشخص کنید کدام اسم مفعول مستقیم است.\n۳. جملات را با صدای بلند تکرار کنید.",
+      sentences: [
+        { de: "Ich sehe den Film.", fa: "فیلم را می‌بینم.", tts: "Ich sehe den Film." },
+        { de: "Sie isst den Apfel.", fa: "او سیب را می‌خورد.", tts: "Sie isst den Apfel." },
+        { de: "Er kauft das Buch.", fa: "او کتاب را می‌خرد.", tts: "Er kauft das Buch." },
+        { de: "Wir trinken den Kaffee.", fa: "ما قهوه را می‌نوشیم.", tts: "Wir trinken den Kaffee." },
+        { de: "Ich habe eine Schwester.", fa: "یک خواهر دارم.", tts: "Ich habe eine Schwester." },
+        { de: "Hast du meinen Schlüssel?", fa: "کلیدم را داری؟", tts: "Hast du meinen Schlüssel?" }
       ]
     }
   ],
-  listening: [
-    {
-      title: "ØªÙ…Ø±ÛŒÙ† Ø´Ù†ÛŒØ¯Ø§Ø±ÛŒ: Akkusativ",
-      source: "Deutsche Welle - Deutsch Lernen",
-      link: "https://www.dw.com/de/deutsch-lernen/s-2055",
-      instructions: "Ø¨Ù‡ ÙˆÛŒØ¯ÛŒÙˆ Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ Ø¬Ù…لØ§ØªÛŒ Ú©Ù‡ Akkusativ Ø¯Ø§Ø±Ù†Ø¯ Ø´Ù†Ø§Ø³Ø§ÛŒÛŒ Ú©Ù†ÛŒØ¯. Ø­Ø±ÙˆÙ ØªØ¹Ø±ÛŒÙ Ù…Ø°Ú©Ø± (den/einen) Ø±Ø§ Ù¾ÛŒØ¯Ø§ Ú©Ù†ÛŒØ¯."
-    }
-  ],
+
   speaking: [
     {
-      title: "ØªÙ…Ø±ÛŒÙ† Ú¯ÙØªØ§Ø±ÛŒ: ØªÙˆØµÛŒÙ Ø®Ø±ÛŒØ¯",
-      pattern: "Ich kaufe [den/die/das] [Ø§Ø³Ù…]. Ich brauche [einen/eine/ein] [Ø§Ø³Ù…].",
-      exercise: "Ø®Ø±ÛŒØ¯Ù‡Ø§ÛŒ Ø®ÙˆØ¯ Ø±Ø§ ØªÙˆØµÛŒÙ Ú©Ù†ÛŒØ¯. Ø¨Ú¯ÙˆÛŒÛŒØ¯ Ú†Ù‡ Ú†ÛŒØ²Ù‡Ø§ÛŒÛŒ Ù…ÛŒâ€ŒØ®Ø±ÛŒØ¯ Ùˆ Ù†ÛŒØ§Ø² Ø¯Ø§Ø±ÛŒØ¯. Ø§Ø² Akkusativ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯."
+      title: "تمرین Akkusativ در مکالمه",
+      pattern: "- Was machst du?\n- Ich esse einen Apfel.\n- Und was trinkst du?\n- Ich trinke den Kaffee.\n- Was kaufst du heute?\n- Ich kaufe das Brot und die Milch.",
+      exercise: "تمرین:\nگام ۱: بخش pattern را بشنوید.\nگام ۲: جاهای خالی را با اطلاعات واقعی پر کنید.\nگام ۳: Akkusativ را درست استفاده کنید."
     }
   ],
-  cultureTip: "Ø¯Ø± ÙØ±Ù‡Ù†Ú¯ Ø¢لÙ…Ø§Ù†ÛŒØŒ Ù‡Ø¯ÛŒÙ‡ Ø¯Ø§Ø¯Ù† Ø¯Ø± ØªÙˆلØ¯ Ø¨Ø³ÛŒØ§Ø± Ù…Ù‡Ù… Ø§Ø³Øª. Ù…Ø¹Ù…ÙˆلØ§Ù‹ Ù‡Ø¯ÛŒÙ‡ Ø±Ø§ Ø¨Ø§Ø² Ù†Ù…ÛŒâ€ŒÚ©Ù†ÛŒØ¯ ØªØ§ Ø¨Ø¹Ø¯ Ø§Ø² Ù…Ù‡Ù…Ø§Ù†ÛŒ. Ù†Ú©ØªÙ‡ Ø¬Ø§لØ¨: Ø§Ú¯Ø± Ú©Ø³ÛŒ Ø¯Ø± Ø¢لÙ…Ø§Ù† Ù‚Ø¨ل Ø§Ø² ØªÙˆلØ¯Ø´ Ø¨Ù‡ Ø§Ùˆ Â«ØªÙˆلØ¯ Ù…Ø¨Ø§Ø±Ú©Â» Ø¨Ú¯ÙˆÛŒØ¯ØŒ Ø¨Ø¯Ø´Ú¯ÙˆÙ† ØªلÙ‚ÛŒ Ù…ÛŒâ€ŒØ´ÙˆØ¯! Ù‡Ù…ÛŒØ´Ù‡ Ø¨Ø§ÛŒØ¯ Ù…Ù†ØªØ¸Ø± Ø¨Ù…Ø§Ù†ÛŒØ¯ ØªØ§ ØªØ§Ø±ÛŒØ® ØªÙˆلØ¯ ÙˆØ§Ù‚Ø¹ÛŒ Ø¨Ø±Ø³Ø¯.",
+
+  cultureTip: "در آلمان، سوپرمارکت‌ها معمولاً یکشنبه‌ها بسته هستند! (Sonntags ist alles zu.) بنابراین باید شنبه خرید کنید. نکته جالب: در آلمان، خالی کردن بطری‌ها در فروشگاه (Pfand) رایج است. هر بطری پلاستیکی ۲۵ سنت و شیشه‌ای ۸ سنت ارزش دارد. همچنین کیسه خرید (Tüte) در آلمان رایگان نیست و باید آن را بخرید یا کیسه خودتان را بیاورید.",
+
   examData: {
     questions: [
-      { question: "Â«Ù…Ù† Ù…Ø±Ø¯ Ø±Ø§ Ù…ÛŒâ€ŒØ¨ÛŒÙ†Ù…Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Ich sehe der Mann.", "Ich sehe den Mann.", "Ich sehe das Mann.", "Ich sehe die Mann."], answer: 1 },
-      { question: "Â«Ù…Ù† ÛŒÚ© Ú©Ø§Ù…Ù¾ÛŒÙˆØªØ± Ù…ÛŒâ€ŒØ®Ø±Ù…Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Ich kaufe ein Computer.", "Ich kaufe einen Computer.", "Ich kaufe eine Computer.", "Ich kaufe der Computer."], answer: 1 },
-      { question: "Â«Ù…Ù† ÛŒÚ© لØ§Ù…Ù¾ Ù†ÛŒØ§Ø² Ø¯Ø§Ø±Ù…Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Ich brauche ein Lampe.", "Ich brauche eine Lampe.", "Ich brauche einen Lampe.", "Ich brauche der Lampe."], answer: 1 },
-      { question: "Ø¶Ù…ÛŒØ± Â«duÂ» Ø¯Ø± Akkusativ Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["dir", "dich", "du", "deiner"], answer: 1 },
-      { question: "Ú©Ø¯Ø§Ù… ÙØ¹ل Akkusativ Ù†Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯ØŸ", options: ["sehen", "kaufen", "sein", "lesen"], answer: 2 },
-      { question: "Ø¯Ø± AkkusativØŒ Ø­Ø±Ù ØªØ¹Ø±ÛŒÙ Ú©Ø¯Ø§Ù… Ø¬Ù†Ø³ÛŒØª ØªØºÛŒÛŒØ± Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ", options: ["Ù…Ø¤Ù†Ø«", "Ø®Ù†Ø«ÛŒ", "Ù…Ø°Ú©Ø±", "Ø¬Ù…Ø¹"], answer: 2 },
-      { question: "Â«Ù…Ù† ØªÙˆ Ø±Ø§ Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ù…Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Ich liebe du.", "Ich liebe dich.", "Ich liebe dir.", "Ich liebe dein."], answer: 1 },
-      { question: "Â«Ø§Ùˆ Ø±ÙˆØ²Ù†Ø§Ù…Ù‡ Ø±Ø§ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù†Ø¯Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Sie liest der Zeitung.", "Sie liest die Zeitung.", "Sie liest den Zeitung.", "Sie liest das Zeitung."], answer: 1 },
-      { question: "Â«Ù…Ø§ Ú©ÛŒÚ© Ø±Ø§ Ù…ÛŒâ€ŒØ®ÙˆØ±ÛŒÙ…Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Wir essen der Kuchen.", "Wir essen den Kuchen.", "Wir essen das Kuchen.", "Wir essen die Kuchen."], answer: 1 },
-      { question: "Ø³Ø¤Ø§ل Ø¨Ø±Ø§ÛŒ Ø´Ù†Ø§Ø³Ø§ÛŒÛŒ Akkusativ Ú†ÛŒØ³ØªØŸ", options: ["Wer? (Ú©ÛŒØŸ)", "Was? (Ú†Ù‡ØŸ)", "Wen/Was? (Ú†Ù‡ Ú©Ø³ÛŒ/Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ø±Ø§ØŸ)", "Wann? (Ú©ÛŒØŸ)"], answer: 2 }
+      {
+        question: "آرتیکل «der Mann» در Akkusativ چه می‌شود؟",
+        options: ["der Mann", "den Mann", "dem Mann"],
+        answer: 1
+      },
+      {
+        question: "آرتیکل «die Frau» در Akkusativ چه می‌شود؟",
+        options: ["die Frau", "der Frau", "den Frau"],
+        answer: 0
+      },
+      {
+        question: "کدام جمله صحیح است؟",
+        options: ["Ich sehe der Film.", "Ich sehe den Film.", "Ich sehe dem Film."],
+        answer: 1
+      },
+      {
+        question: "«Ich kaufe ein Buch» در Akkusativ چه می‌شود؟",
+        options: ["Ich kaufe einen Buch.", "Ich kaufe ein Buch.", "Ich kaufe einen Buch."],
+        answer: 1
+      },
+      {
+        question: "کدام فعل Akkusativ می‌گیرد؟",
+        options: ["sein", "wohnen", "sehen", "kommen"],
+        answer: 2
+      },
+      {
+        question: "«Ich habe einen Bruder» یعنی چه؟",
+        options: ["برادرم هست", "یک برادر دارم", "برادرم را می‌بینم"],
+        answer: 1
+      },
+      {
+        question: "آرتیکل «das Auto» در Akkusativ چه می‌شود؟",
+        options: ["den Auto", "das Auto", "dem Auto"],
+        answer: 1
+      },
+      {
+        question: "کدام جمله صحیح است؟",
+        options: ["Sie isst den Apfel.", "Sie isst der Apfel.", "Sie isst dem Apfel."],
+        answer: 0
+      },
+      {
+        question: "«mein Bruder» در Akkusativ چه می‌شود؟",
+        options: ["meinen Bruder", "mein Bruder", "meinem Bruder"],
+        answer: 0
+      },
+      {
+        question: "فقط کدام جنسیت در Akkusativ تغییر می‌کند؟",
+        options: ["مؤنث (die)", "خنثی (das)", "مذکر (der)", "جمع"],
+        answer: 2
+      }
     ]
   }
 };

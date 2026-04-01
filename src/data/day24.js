@@ -1,170 +1,226 @@
 export const day24Data = {
-  title: "Ø±ÙˆØ² Û²Û´: ØµÙØªâ€ŒÙ‡Ø§ â€” Komparativ Ùˆ Superlativ",
-  objective: "Ø¯Ø± Ø§ÛŒÙ† Ø±ÙˆØ² ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØ¯ Ú†Ø·ÙˆØ± Ú†ÛŒØ²Ù‡Ø§ Ø±Ø§ Ù…Ù‚Ø§ÛŒØ³Ù‡ Ú©Ù†ÛŒØ¯. Â«Ø¨Ø±Ù„ÛŒÙ† Ø¨Ø²Ø±Ú¯â€ŒØªØ± Ø§Ø² Ù…ÙˆÙ†ÛŒØ® Ø§Ø³ØªÂ» ÛŒØ§ Â«Ø§ÛŒÙ† Ø±Ø³ØªÙˆØ±Ø§Ù† Ø¨Ù‡ØªØ±ÛŒÙ† Ø§Ø³ØªÂ» â€” Ù‡Ù…Ù‡ Ø§ÛŒÙ†â€ŒÙ‡Ø§ Ø¨Ø§ Komparativ Ùˆ Superlativ Ø³Ø§Ø®ØªÙ‡ Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯.",
-
+  title: "روز ۲۴: صفت‌های تفضیلی و عالی (Komparativ/Superlativ)",
+  objective: "در این درس یاد می‌گیرید چگونه صفت‌ها را مقایسه کنید.قاعده: -er برای Komparativ، am -sten برای Superlativ.",
   grammarData: {
-    subtitle: "Komparativ (Ù…Ù‚Ø§ÛŒØ³Ù‡ Ø¯Ùˆ Ú†ÛŒØ²) Ùˆ Superlativ (Ø¨Ø±ØªØ±ÛŒÙ†)",
+    subtitle: "Komparativ und Superlativ - تفضیلی و عالی",
     content: [
       {
         type: "text",
-        title: "Û±. Komparativ â€” Ù…Ù‚Ø§ÛŒØ³Ù‡ Ø¯Ùˆ Ú†ÛŒØ² (Ù…Ø«Ù„Ø§Ù‹ Ø¨Ø²Ø±Ú¯â€ŒØªØ±ØŒ Ø²ÛŒØ¨Ø§ØªØ±)",
-        text: "Ø¨Ø±Ø§ÛŒ Ù…Ù‚Ø§ÛŒØ³Ù‡ Ø¯Ùˆ Ú†ÛŒØ²ØŒ Ø¨Ù‡ Ø¢Ø®Ø± ØµÙØª Ù¾Ø³ÙˆÙ†Ø¯ -er Ø§Ø¶Ø§ÙÙ‡ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ… Ùˆ Ø§Ø² Ú©Ù„Ù…Ù‡ als (Ø§Ø²) Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ….\nÙØ±Ù…ÙˆÙ„: ØµÙØª + er + als"
+        title: "Komparativ و Superlativ چیست؟",
+        text: "Komparativ (تفضیلی) برای مقایسه دو چیز استفاده می‌شود: «بزرگ‌تر، کوچک‌تر، بهتر». Superlativ (عالی) برای بیان بالاترین درجه: «بزرگ‌ترین، کوچک‌ترین، بهترین».قاعده کلی: Komparativ = صفت + -er. Superlativ = am + صفت + -sten. همچنین Superlativ می‌تواند قبل از اسم بیاید: der/die/das + صفت‌ترین."
       },
       {
         type: "table",
-        title: "Ù‚Ø§Ø¹Ø¯Ù‡ Komparativ",
+        title: "قاعده ساخت Komparativ و Superlativ",
         rows: [
-          { de: "groÃŸ â†’ grÃ¶ÃŸer als", fa: "Ø¨Ø²Ø±Ú¯ â†’ Ø¨Ø²Ø±Ú¯â€ŒØªØ± Ø§Ø²: Berlin ist grÃ¶ÃŸer als MÃ¼nchen." },
-          { de: "schÃ¶n â†’ schÃ¶ner als", fa: "Ø²ÛŒØ¨Ø§ â†’ Ø²ÛŒØ¨Ø§ØªØ± Ø§Ø²: Die Stadt ist schÃ¶ner als das Dorf." },
-          { de: "schnell â†’ schneller als", fa: "Ø³Ø±ÛŒØ¹ â†’ Ø³Ø±ÛŒØ¹â€ŒØªØ± Ø§Ø²: Der Zug ist schneller als der Bus." },
-          { de: "alt â†’ Ã¤lter als", fa: "Ù‚Ø¯ÛŒÙ…ÛŒ/Ù¾ÛŒØ± â†’ Ù‚Ø¯ÛŒÙ…ÛŒâ€ŒØªØ± Ø§Ø² (Umlaut! aâ†’Ã¤)" },
-          { de: "jung â†’ jÃ¼nger als", fa: "Ø¬ÙˆØ§Ù† â†’ Ø¬ÙˆØ§Ù†â€ŒØªØ± Ø§Ø² (Umlaut! uâ†’Ã¼)" },
-          { de: "gut â†’ besser als", fa: "Ø®ÙˆØ¨ â†’ Ø¨Ù‡ØªØ± Ø§Ø² (Ø¨ÛŒâ€ŒÙ‚Ø§Ø¹Ø¯Ù‡!)" },
-          { de: "viel â†’ mehr als", fa: "Ø²ÛŒØ§Ø¯ â†’ Ø¨ÛŒØ´ØªØ± Ø§Ø² (Ø¨ÛŒâ€ŒÙ‚Ø§Ø¹Ø¯Ù‡!)" },
-          { de: "gern â†’ lieber als", fa: "Ø¨Ø§ Ù„Ø°Øª â†’ ØªØ±Ø¬ÛŒØ­â€ŒØªØ± Ø§Ø² (Ø¨ÛŒâ€ŒÙ‚Ø§Ø¹Ø¯Ù‡!)" }
+          { de: "Komparativ: صفت + -er", fa: "تفضیلی: بزرگ‌تر، کوچک‌تر" },
+          { de: "Superlativ: am + صفت + -sten", fa: "عالی: بزرگ‌ترین، کوچک‌ترین" },
+          { de: "schnell → schneller → am schnellsten", fa: "سریع → سریع‌تر → سریع‌ترین" },
+          { de: "klein → kleiner → am kleinsten", fa: "کوچک → کوچک‌تر → کوچک‌ترین" },
+          { de: "billig → billiger → am billigsten", fa: "ارزان → ارزان‌تر → ارزان‌ترین" },
+          { de: "interessant → interessanter → am interessantesten", fa: "جالب → جالب‌تر → جالب‌ترین" }
         ]
       },
       {
-        type: "text",
-        title: "Û². Superlativ â€” Ø¨Ø±ØªØ±ÛŒÙ† (Ø¨Ù‡ØªØ±ÛŒÙ†ØŒ Ø¨Ø²Ø±Ú¯â€ŒØªØ±ÛŒÙ†)",
-        text: "Ø¨Ø±Ø§ÛŒ Ø¨ÛŒØ§Ù† Ø¨Ø±ØªØ±ÛŒÙ†ØŒ Ø§Ø² ØµÙØª + -st + Ø¢Ø±ØªÛŒÚ©Ù„ am/der die das Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ….\nÙØ±Ù…ÙˆÙ„ Ø¨Ø§ am: am + ØµÙØª + st + en\nÙØ±Ù…ÙˆÙ„ Ø¨Ø§ Ø¢Ø±ØªÛŒÚ©Ù„: der/die/das + ØµÙØª + st + e/en"
+        type: "table",
+        title: "Umlaut در Komparativ و Superlativ",
+        text: "صفت‌هایی با a, o, u معمولاً Umlaut می‌گیرند:",
+        rows: [
+          { de: "alt → älter → am ältesten", fa: "پیر/قدیمی → پیرتر → پیرترین" },
+          { de: "groß → größer → am größten", fa: "بزرگ → بزرگ‌تر → بزرگ‌ترین" },
+          { de: "jung → jünger → am jüngsten", fa: "جوان → جوان‌تر → جوان‌ترین" },
+          { de: "lang → länger → am längsten", fa: "بلند/طولانی → بلندتر → بلندترین" },
+          { de: "warm → wärmer → am wärmsten", fa: "گرم → گرم‌تر → گرم‌ترین" },
+          { de: "kalt → kälter → am kältesten", fa: "سرد → سردتر → سردترین" },
+          { de: "kurz → kürzer → am kürzesten", fa: "کوتاه → کوتاه‌تر → کوتاه‌ترین" },
+          { de: "stark → stärker → am stärksten", fa: "قوی → قوی‌تر → قوی‌ترین" },
+          { de: "schwach → schwächer → am schwächsten", fa: "ضعیف → ضعیف‌تر → ضعیف‌ترین" },
+          { de: "arm → ärmer → am ärmsten", fa: "فقیر → فقیرتر → فقیرترین" },
+          { de: "reich → reicher → am reichsten", fa: "پولدار → پولدارتر → پولدارترین" }
+        ]
       },
       {
         type: "table",
-        title: "Ù‚Ø§Ø¹Ø¯Ù‡ Superlativ",
+        title: "صفت‌های نامنظم",
         rows: [
-          { de: "groÃŸ â†’ am grÃ¶ÃŸten / der grÃ¶ÃŸte", fa: "Ø¨Ø²Ø±Ú¯â€ŒØªØ±ÛŒÙ†: Das ist am grÃ¶ÃŸten. / der grÃ¶ÃŸte Mann" },
-          { de: "schÃ¶n â†’ am schÃ¶nsten / das schÃ¶nste", fa: "Ø²ÛŒØ¨Ø§ØªØ±ÛŒÙ†: Der Sommer ist am schÃ¶nsten." },
-          { de: "gut â†’ am besten / das beste", fa: "Ø¨Ù‡ØªØ±ÛŒÙ†: Das Restaurant ist am besten." },
-          { de: "schnell â†’ am schnellsten / der schnellste", fa: "Ø³Ø±ÛŒØ¹â€ŒØªØ±ÛŒÙ†: Er ist am schnellsten." },
-          { de: "billig â†’ am billigsten / das billigste", fa: "Ø§Ø±Ø²Ø§Ù†â€ŒØªØ±ÛŒÙ†: Das ist am billigsten." }
+          { de: "gut → besser → am besten", fa: "خوب → بهتر → بهترین" },
+          { de: "viel → mehr → am meisten", fa: "زیاد → بیشتر → بیشترین" },
+          { de: "gern → lieber → am liebsten", fa: "با لذت → با لذت بیشتر → با بیشترین لذت" },
+          { de: "hoch → höher → am höchsten", fa: "بلند → بلندتر → بلندترین" },
+          { de: "nah → näher → am nächsten", fa: "نزدیک → نزدیک‌تر → نزدیک‌ترین" }
+        ]
+      },
+      {
+        type: "table",
+        title: "Superlativ قبل از اسم",
+        rows: [
+          { de: "der größte Mann", fa: "بزرگ‌ترین مرد" },
+          { de: "die schönste Stadt", fa: "زیباترین شهر" },
+          { de: "das beste Restaurant", fa: "بهترین رستوران" },
+          { de: "die schnellste Zeit", fa: "سریع‌ترین زمان" },
+          { de: "der älteste Sohn", fa: "پیرترین پسر" },
+          { de: "das jüngste Kind", fa: "جوان‌ترین بچه" }
+        ]
+      },
+      {
+        type: "examples",
+        title: "مثال‌های Komparativ و Superlativ",
+        items: [
+          { de: "Berlin ist größer als Hamburg.", fa: "برلین بزرگ‌تر از هامبورگ است." },
+          { de: "Mein Bruder ist älter als ich.", fa: "برادرم از من پیرتر است." },
+          { de: "Heute ist wärmer als gestern.", fa: "امروز گرم‌تر از دیروز است." },
+          { de: "Dieses Buch ist besser als das andere.", fa: "این کتاب بهتر از آن یکی است." },
+          { de: "Wer ist am schnellsten?", fa: "چه کسی سریع‌ترین است؟" },
+          { de: "Das ist am besten!", fa: "این بهترین است!" },
+          { de: "Ich trinke am liebsten Kaffee.", fa: "بیشتر از همه قهوه دوست دارم بنوشم." },
+          { de: "Am Montag habe ich am meisten zu tun.", fa: "دوشنبه بیشترین کار را دارم." },
+          { de: "Das ist der schönste Tag meines Lebens.", fa: "این زیباترین روز زندگی من است." },
+          { de: "Er ist der beste Schüler in der Klasse.", fa: "او بهترین دانش‌آموز در کلاس است." }
         ]
       },
       {
         type: "alert",
-        title: "Ù†Ú©ØªÙ‡ Ù…Ù‡Ù…: ØµÙØªâ€ŒÙ‡Ø§ÛŒ Ø¨Ø§ Umlaut",
-        text: "Ø¨Ø¹Ø¶ÛŒ ØµÙØªâ€ŒÙ‡Ø§ÛŒ ØªÚ©â€ŒÙ‡Ø¬Ø§ÛŒÛŒ Ø¨Ø§ Ø­Ø±ÙˆÙ ØµØ¯Ø§Ø¯Ø§Ø± a, o, u Ù‡Ù†Ú¯Ø§Ù… Ø§Ø¶Ø§ÙÙ‡ Ø´Ø¯Ù† -er Ùˆ -st Umlaut Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯:\nalt â†’ Ã¤lter â†’ am Ã¤ltesten\njung â†’ jÃ¼nger â†’ am jÃ¼ngsten\ngroÃŸ â†’ grÃ¶ÃŸer â†’ am grÃ¶ÃŸten\nkalt â†’ kÃ¤lter â†’ am kÃ¤ltesten"
+        title: "نکته مهم!",
+        text: "در Komparativ از «als» برای مقایسه استفاده می‌شود: «A ist größer als B». در Superlativ از «am» قبل از صفت استفاده می‌شود: «am größten». همچنین Superlativ می‌تواند با صفت تغییریافته بیاید: «der größte Mann» (بزرگ‌ترین مرد). نکته: صفت‌های یک بخشی معمولاً Umlaut نمی‌گیرند: schnell → schneller (نه schnäller)."
       },
       {
-        type: "examples",
-        title: "Ù…Ø«Ø§Ù„â€ŒÙ‡Ø§ÛŒ Ú©Ø§Ø±Ø¨Ø±Ø¯ÛŒ",
-        items: [
-          { de: "Berlin ist grÃ¶ÃŸer als MÃ¼nchen.", fa: "Ø¨Ø±Ù„ÛŒÙ† Ø¨Ø²Ø±Ú¯â€ŒØªØ± Ø§Ø² Ù…ÙˆÙ†ÛŒØ® Ø§Ø³Øª." },
-          { de: "Der Sommer ist die schÃ¶nste Jahreszeit.", fa: "ØªØ§Ø¨Ø³ØªØ§Ù† Ø²ÛŒØ¨Ø§ØªØ±ÛŒÙ† ÙØµÙ„ Ø§Ø³Øª." },
-          { de: "Ich trinke lieber Tee als Kaffee.", fa: "Ù…Ù† Ú†Ø§ÛŒ Ø±Ø§ ØªØ±Ø¬ÛŒØ­ Ù…ÛŒâ€ŒØ¯Ù‡Ù… ØªØ§ Ù‚Ù‡ÙˆÙ‡." },
-          { de: "Das ist das beste Restaurant der Stadt.", fa: "Ø§ÛŒÙ† Ø¨Ù‡ØªØ±ÛŒÙ† Ø±Ø³ØªÙˆØ±Ø§Ù† Ø´Ù‡Ø± Ø§Ø³Øª." },
-          { de: "Wer ist Ã¤lter? Du oder dein Bruder?", fa: "Ú©ÛŒ Ù‚Ø¯ÛŒÙ…ÛŒâ€ŒØªØ±Ù‡ØŸ ØªÙˆ ÛŒØ§ Ø¨Ø±Ø§Ø¯Ø±ØªØŸ" }
+        type: "interactive_quiz",
+        title: "Komparativ و Superlativ",
+        questions: [
+          {
+            question: "Komparativ صفت «groß» چیست؟",
+            questionDe: "Was ist der Komparativ von 'groß'?",
+            options: [
+              { text: "großer", isCorrect: false },
+              { text: "größer", isCorrect: true },
+              { text: "großter", isCorrect: false },
+              { text: "großeren", isCorrect: false }
+            ],
+            explanation: "groß با Umlaut می‌شود größer."
+          },
+          {
+            question: "Superlativ صفت «gut» چیست؟",
+            questionDe: "Was ist der Superlativ von 'gut'?",
+            options: [
+              { text: "am gutsten", isCorrect: false },
+              { text: "am besten", isCorrect: true },
+              { text: "am gutesten", isCorrect: false },
+              { text: "am bessersten", isCorrect: false }
+            ],
+            explanation: "gut نامنظم است: besser → am besten."
+          },
+          {
+            question: "«am liebsten» یعنی چه؟",
+            questionDe: "Was bedeutet 'am liebsten'?",
+            options: [
+              { text: "بیشترین", isCorrect: false },
+              { text: "بهترین", isCorrect: false },
+              { text: "بیشتر از همه دوست داشتن", isCorrect: true },
+              { text: "نزدیک‌ترین", isCorrect: false }
+            ],
+            explanation: "gern → lieber → am liebsten."
+          }
         ]
       },
       {
         type: "fill_blank",
-        title: "Komparativ Ùˆ Superlativ Ø±Ø§ Ú©Ø§Ù…Ù„ Ú©Ù†ÛŒØ¯",
-        instruction: "Ø´Ú©Ù„ Ø¯Ø±Ø³Øª ØµÙØª Ø±Ø§ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯:",
+        title: "Komparativ یا Superlativ صحیح",
+        instruction: "شکل صحیح صفت را بنویسید.",
         blanks: [
-          { sentence: "Berlin ist ___ (groÃŸ) als MÃ¼nchen.", answer: "grÃ¶ÃŸer", hint: "Komparativ: ØµÙØª + er" },
-          { sentence: "Der Sommer ist am ___ (schÃ¶n).", answer: "schÃ¶nsten", hint: "Superlativ: am + adj + st + en" },
-          { sentence: "Das ist das ___ (gut) Restaurant.", answer: "beste", hint: "gut â†’ besser â†’ best" },
-          { sentence: "Mein Bruder ist ___ (jung) als ich.", answer: "jÃ¼nger", hint: "Umlaut: u â†’ Ã¼" },
-          { sentence: "Ich esse ___ (gern) Pizza als Salat.", answer: "lieber", hint: "gern â†’ lieber (Ø¨ÛŒâ€ŒÙ‚Ø§Ø¹Ø¯Ù‡)" }
-        ]
-      },
-      {
-        type: "interactive_quiz",
-        title: "Ø¢Ø²Ù…ÙˆÙ†: Komparativ Ùˆ Superlativ",
-        questions: [
-          {
-            question: "Ú©Ø¯Ø§Ù… Ø¬Ù…Ù„Ù‡ Komparativ Ø±Ø§ Ø¯Ø±Ø³Øª Ù†Ø´Ø§Ù† Ù…ÛŒâ€ŒØ¯Ù‡Ø¯ØŸ",
-            questionDe: "Welcher Komparativ ist richtig?",
-            options: [
-              { text: "Berlin ist mehr groÃŸ als MÃ¼nchen.", isCorrect: false },
-              { text: "Berlin ist grÃ¶ÃŸ als MÃ¼nchen.", isCorrect: false },
-              { text: "Berlin ist grÃ¶ÃŸer als MÃ¼nchen.", isCorrect: true }
-            ],
-            explanation: "Ø¨Ø±Ø§ÛŒ Komparativ ØµÙØªâ€ŒÙ‡Ø§ÛŒ ØªÚ©â€ŒÙ‡Ø¬Ø§ÛŒÛŒ -er Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯: groÃŸ â†’ grÃ¶ÃŸer."
-          },
-          {
-            question: "Ú©Ø¯Ø§Ù… Superlativ Ø¯Ø±Ø³Øª Ø§Ø³ØªØŸ",
-            questionDe: "Welcher Superlativ ist richtig?",
-            options: [
-              { text: "Das ist am besten.", isCorrect: true },
-              { text: "Das ist am gutsten.", isCorrect: false },
-              { text: "Das ist am bessersten.", isCorrect: false }
-            ],
-            explanation: "gut â†’ besser â†’ am besten (Ø¨ÛŒâ€ŒÙ‚Ø§Ø¹Ø¯Ù‡)"
-          }
+          { sentence: "Berlin ist ___ (groß) als München.", answer: "größer", hint: "groß → größer (با Umlaut)" },
+          { sentence: "Wer ist ___ (alt) in der Familie?", answer: "am ältesten", hint: "Superlativ: am ältesten" },
+          { sentence: "Heute ist es ___ (warm) als gestern.", answer: "wärmer", hint: "warm → wärmer (با Umlaut)" },
+          { sentence: "Dieses Restaurant ist ___ (gut) in der Stadt.", answer: "am besten", hint: "gut → am besten (نامنظم)" },
+          { sentence: "Ich trinke ___ (gern) Tee.", answer: "am liebsten", hint: "gern → am liebsten" },
+          { sentence: "Mein Zimmer ist ___ (klein) als deins.", answer: "kleiner", hint: "klein → kleiner" },
+          { sentence: "Der Zug ist ___ (schnell) als der Bus.", answer: "schneller", hint: "schnell → schneller" },
+          { sentence: "Das ist der ___ (schön) Tag.", answer: "schönste", hint: "schön → der schönste" }
         ]
       }
     ]
   },
-
   vocabData: {
     categories: [
       {
-        title: "ØµÙØªâ€ŒÙ‡Ø§ÛŒ Ù¾Ø±Ú©Ø§Ø±Ø¨Ø±Ø¯ Ø¨Ø±Ø§ÛŒ Ù…Ù‚Ø§ÛŒØ³Ù‡",
+        title: "صفت‌های مهم با Komparativ و Superlativ",
         words: [
-          { de: "groÃŸ / grÃ¶ÃŸer / am grÃ¶ÃŸten", fa: "Ø¨Ø²Ø±Ú¯ / Ø¨Ø²Ø±Ú¯â€ŒØªØ± / Ø¨Ø²Ø±Ú¯â€ŒØªØ±ÛŒÙ†", article: "-", plural: "-", examples: [{ de: "Wer ist der grÃ¶ÃŸte in der Klasse?", fa: "Ø¨Ø²Ø±Ú¯â€ŒØªØ±ÛŒÙ† Ú©Ù„Ø§Ø³ Ú©ÛŒÙ‡ØŸ" }] },
-          { de: "klein / kleiner / am kleinsten", fa: "Ú©ÙˆÚ†Ú© / Ú©ÙˆÚ†Ú©â€ŒØªØ± / Ú©ÙˆÚ†Ú©â€ŒØªØ±ÛŒÙ†", article: "-", plural: "-", examples: [{ de: "Das ist das kleinste Zimmer.", fa: "Ø§ÛŒÙ† Ú©ÙˆÚ†Ú©â€ŒØªØ±ÛŒÙ† Ø§ØªØ§Ù‚Ù‡." }] },
-          { de: "schÃ¶n / schÃ¶ner / am schÃ¶nsten", fa: "Ø²ÛŒØ¨Ø§ / Ø²ÛŒØ¨Ø§ØªØ± / Ø²ÛŒØ¨Ø§ØªØ±ÛŒÙ†", article: "-", plural: "-", examples: [{ de: "Das Bild ist schÃ¶ner als das Foto.", fa: "ØªØµÙˆÛŒØ± Ø²ÛŒØ¨Ø§ØªØ± Ø§Ø² Ø¹Ú©Ø³Ù‡." }] },
-          { de: "teuer / teurer / am teuersten", fa: "Ú¯Ø±Ø§Ù† / Ú¯Ø±Ø§Ù†â€ŒØªØ± / Ú¯Ø±Ø§Ù†â€ŒØªØ±ÛŒÙ†", article: "-", plural: "-", examples: [{ de: "Das Auto ist das teuerste.", fa: "Ø§ÛŒÙ† Ù…Ø§Ø´ÛŒÙ† Ú¯Ø±Ø§Ù†â€ŒØªØ±ÛŒÙ†Ù‡." }] },
-          { de: "billig / billiger / am billigsten", fa: "Ø§Ø±Ø²Ø§Ù† / Ø§Ø±Ø²Ø§Ù†â€ŒØªØ± / Ø§Ø±Ø²Ø§Ù†â€ŒØªØ±ÛŒÙ†", article: "-", plural: "-", examples: [{ de: "Lidl ist billiger als Rewe.", fa: "Ù„ÛŒØ¯Ù„ Ø§Ø±Ø²Ø§Ù†â€ŒØªØ± Ø§Ø² Ø±ÙˆÙ‡Ù‡." }] }
+          { de: "groß", fa: "بزرگ", ipa: "[ɡʁoːs]", article: "-", plural: "-", examples: [{ de: "Berlin ist größer als Hamburg.", fa: "برلین بزرگ‌تر از هامبورگ است." }, { de: "Das ist das größte Haus.", fa: "این بزرگ‌ترین خانه است." }] },
+          { de: "klein", fa: "کوچک", ipa: "[klaɪ̯n]", article: "-", plural: "-", examples: [{ de: "Mein Zimmer ist kleiner.", fa: "اتاق من کوچک‌تر است." }, { de: "Das ist der kleinste Raum.", fa: "این کوچک‌ترین اتاق است." }] },
+          { de: "alt", fa: "پیر/قدیمی", ipa: "[alt]", article: "-", plural: "-", examples: [{ de: "Er ist älter als ich.", fa: "او از من پیرتر است." }, { de: "Das ist das älteste Gebäude.", fa: "این قدیمی‌ترین ساختمان است." }] },
+          { de: "jung", fa: "جوان", ipa: "[jʊŋ]", article: "-", plural: "-", examples: [{ de: "Sie ist jünger als ihre Schwester.", fa: "او از خواهرش جوان‌تر است." }, { de: "Er ist der jüngste Student.", fa: "او جوان‌ترین دانشجو است." }] },
+          { de: "schnell", fa: "سریع", ipa: "[ʃnɛl]", article: "-", plural: "-", examples: [{ de: "Der Zug ist schneller als der Bus.", fa: "قطار سریع‌تر از اتوبوس است." }, { de: "Er ist der schnellste Läufer.", fa: "او سریع‌ترین دونده است." }] },
+          { de: "langsam", fa: "آهسته", ipa: "[ˈlaŋzaːm]", article: "-", plural: "-", examples: [{ de: "Die Schnecke ist langsamer.", fa: "حلزون آهسته‌تر است." }, { de: "Das ist der langsamste Zug.", fa: "این آهسته‌ترین قطار است." }] },
+          { de: "gut", fa: "خوب", ipa: "[ɡuːt]", article: "-", plural: "-", examples: [{ de: "Dieses Buch ist besser.", fa: "این کتاب بهتر است." }, { de: "Das ist das beste Restaurant.", fa: "این بهترین رستوران است." }] },
+          { de: "schlecht", fa: "بد", ipa: "[ʃlɛçt]", article: "-", plural: "-", examples: [{ de: "Das Wetter ist schlechter als gestern.", fa: "هوا بدتر از دیروز است." }, { de: "Das ist der schlechteste Film.", fa: "این بدترین فیلم است." }] },
+          { de: "viel", fa: "زیاد", ipa: "[fiːl]", article: "-", plural: "-", examples: [{ de: "Er arbeitet mehr als ich.", fa: "او بیشتر از من کار می‌کند." }, { de: "Am Montag habe ich am meisten zu tun.", fa: "دوشنبه بیشترین کار را دارم." }] },
+          { de: "wenig", fa: "کم", ipa: "[ˈveːnɪç]", article: "-", plural: "-", examples: [{ de: "Ich habe weniger Zeit.", fa: "وقت کمتری دارم." }, { de: "Im Februar habe ich am wenigsten Arbeit.", fa: "فوریه کمترین کار را دارم." }] },
+          { de: "warm", fa: "گرم", ipa: "[vaʁm]", article: "-", plural: "-", examples: [{ de: "Heute ist es wärmer.", fa: "امروز گرم‌تر است." }, { de: "Der heißeste Monat ist Juli.", fa: "گرم‌ترین ماه جولای است." }] },
+          { de: "kalt", fa: "سرد", ipa: "[kalt]", article: "-", plural: "-", examples: [{ de: "Im Winter ist es kälter.", fa: "زمستان سردتر است." }, { de: "Der kälteste Tag war -20 Grad.", fa: "سردترین روز -۲۰ درجه بود." }] },
+          { de: "teuer", fa: "گران", ipa: "[ˈtɔʏ̯ɐ]", article: "-", plural: "-", examples: [{ de: "Dieses Auto ist teurer.", fa: "این ماشین گران‌تر است." }, { de: "Das ist das teuerste Restaurant.", fa: "این گران‌ترین رستوران است." }] },
+          { de: "billig", fa: "ارزان", ipa: "[ˈbɪlɪç]", article: "-", plural: "-", examples: [{ de: "Das ist billiger.", fa: "این ارزان‌تر است." }, { de: "Wo ist das billigste Hotel?", fa: "ارزان‌ترین هتل کجاست؟" }] },
+          { de: "schön", fa: "زیبا", ipa: "[ʃøːn]", article: "-", plural: "-", examples: [{ de: "Dieses Bild ist schöner.", fa: "این عکس زیباتر است." }, { de: "Das ist der schönste Park.", fa: "این زیباترین پارک است." }] }
         ]
       }
     ]
   },
-
   reading: [
     {
-      text: "Meine Stadt\n\nMeine Stadt ist kleiner als Berlin, aber sie ist schoener als viele andere Staedte. Die Altstadt ist am schoensten, besonders im Sommer. Hier gibt es das beste Restaurant der Stadt. Dort ist das Essen am leckersten und die Preise sind guenstiger als in anderen Restaurants. Mein Lieblingsessen dort ist die Suppe. Der Sommer ist die schoenste Jahreszeit hier, weil die Tage am laengsten sind. Im Winter ist es kaelter, aber der Weihnachtsmarkt ist am gemuetlichsten. Ich finde, meine Stadt ist am besten zum Wohnen!",
+      text: "Meine Stadt ist nicht sehr groß, aber sie ist schön. Im Sommer ist es hier wärmer als im Norden. Der Winter ist kälter als der Frühling. Mein Lieblingsrestaurant ist das beste in der Stadt. Das Essen dort ist leckerer als in anderen Restaurants. Mein Vater ist älter als meine Mutter. Er ist 55 Jahre alt. Mein Bruder ist jünger als ich, aber er ist größer. Er ist am schnellsten in der Familie. Ich lese am liebsten Bücher. Mein Zimmer ist kleiner als das meiner Schwester, aber es ist gemütlicher.",
+      translation: "شهر من خیلی بزرگ نیست اما زیباست. تابستان‌ها اینجا گرم‌تر از شمال است. زمستان سردتر از بهار است. رستوران مورد علاقه‌ام بهترین در شهر است. غذای آنجا خوشمزه‌تر از رستوران‌های دیگر است. پدرم از مادرم پیرتر است. او ۵۵ سال دارد. برادرم از من جوان‌تر است اما بلندتر است. او سریع‌ترین در خانواده است. من بیشتر از همه کتاب دوست دارم بخوانم. اتاق من کوچک‌تر از اتاق خواهرم است اما راحت‌تر است.",
       questions: [
-        { question: "Ù†ÙˆÛŒØ³Ù†Ø¯Ù‡ Ø´Ù‡Ø±Ø´ Ø±Ø§ Ø¨Ø§ Ø¨Ø±Ù„ÛŒÙ† Ù…Ù‚Ø§ÛŒØ³Ù‡ Ù…ÛŒâ€ŒÚ©Ù†Ø¯. Ú©Ø¯Ø§Ù… Ú©ÙˆÚ†Ú©â€ŒØªØ± Ø§Ø³ØªØŸ", answer: "Ø´Ù‡Ø± Ù†ÙˆÛŒØ³Ù†Ø¯Ù‡ Ú©ÙˆÚ†Ú©â€ŒØªØ± Ø§Ø³Øª." },
-        { question: "Ú©Ø¯Ø§Ù… ÙØµÙ„ Ø²ÛŒØ¨Ø§ØªØ±ÛŒÙ† ÙØµÙ„ Ø¯Ø± Ø´Ù‡Ø± Ù†ÙˆÛŒØ³Ù†Ø¯Ù‡ Ø§Ø³ØªØŸ", answer: "ØªØ§Ø¨Ø³ØªØ§Ù† â€” Die Tage sind am laengsten." },
-        { question: "Ú†Ø±Ø§ Ù‚ÛŒÙ…Øªâ€ŒÙ‡Ø§ÛŒ Ø±Ø³ØªÙˆØ±Ø§Ù† Ù…ÙˆØ±Ø¯ Ø¹Ù„Ø§Ù‚Ù‡ Ø®ÙˆØ¨ Ø§Ø³ØªØŸ", answer: "Ù‚ÛŒÙ…Øªâ€ŒÙ‡Ø§ Ø§Ø±Ø²Ø§Ù†â€ŒØªØ± Ø§Ø² Ø±Ø³ØªÙˆØ±Ø§Ù†â€ŒÙ‡Ø§ÛŒ Ø¯ÛŒÚ¯Ø± Ø§Ø³Øª (guenstiger)." }
+        { question: "شهر او چطور است؟", answer: "خیلی بزرگ نیست اما زیباست." },
+        { question: "پدر چند سال دارد؟", answer: "۵۵ سال." },
+        { question: "چه کسی سریع‌ترین در خانواده است؟", answer: "برادرش." },
+        { question: "او چه چیزی را بیشتر دوست دارد بخواند؟", answer: "کتاب." }
       ]
     }
   ],
-
   writing: [
     {
-      title: "Ù…Ù‚Ø§ÛŒØ³Ù‡ Ø¯Ùˆ Ø´Ù‡Ø±/Ú©Ø´ÙˆØ±",
-      prompt: "Ø¯Ùˆ Ø´Ù‡Ø± ÛŒØ§ Ø¯Ùˆ Ú©Ø´ÙˆØ± Ø±Ø§ Ø¨Ø§ Ù‡Ù… Ù…Ù‚Ø§ÛŒØ³Ù‡ Ú©Ù†ÛŒØ¯. Ø§Ø² Komparativ Ùˆ Superlativ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.",
+      title: "مقایسه دو شهر",
+      prompt: "دو شهر را مقایسه کنید. از Komparativ و Superlativ استفاده کنید.",
       steps: [
-        { title: "Ù…Ø¹Ø±ÙÛŒ Ø¯Ùˆ Ù…ÙˆØ±Ø¯", text: "Ø¯Ùˆ Ø´Ù‡Ø±/Ú©Ø´ÙˆØ± Ø±Ø§ Ù†Ø§Ù… Ø¨Ø¨Ø±ÛŒØ¯.", example: { de: "Ich vergleiche Berlin und Wien.", fa: "Ù…Ù† Ø¨Ø±Ù„ÛŒÙ† Ùˆ ÙˆÛŒÙ† Ø±Ø§ Ù…Ù‚Ø§ÛŒØ³Ù‡ Ù…ÛŒâ€ŒÚ©Ù†Ù…." } },
-        { title: "Ù…Ù‚Ø§ÛŒØ³Ù‡ Ø¨Ø§ Komparativ", text: "Ø§Ø² ...als Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.", example: { de: "Berlin ist groesser als Wien, aber Wien ist schoener.", fa: "Ø¨Ø±Ù„ÛŒÙ† Ø¨Ø²Ø±Ú¯â€ŒØªØ± Ø§Ø² ÙˆÛŒÙ† Ø§Ø³ØªØŒ Ø§Ù…Ø§ ÙˆÛŒÙ† Ø²ÛŒØ¨Ø§ØªØ± Ø§Ø³Øª." } },
-        { title: "Ø¨Ø±ØªØ±ÛŒÙ† Ø¨Ø§ Superlativ", text: "Ø§Ø² am ...sten Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.", example: { de: "Das Essen ist in Wien am besten.", fa: "ØºØ°Ø§ Ø¯Ø± ÙˆÛŒÙ† Ø¨Ù‡ØªØ±ÛŒÙ† Ø§Ø³Øª." } }
+        { title: "مرحله ۱: اندازه", text: "کدام شهر بزرگ‌تر است؟", example: { de: "Berlin ist größer als München.", fa: "برلین بزرگ‌تر از مونیخ است." } },
+        { title: "مرحله ۲: آب و هوا", text: "آب و هوا چطور است؟", example: { de: "München ist kälter als Berlin.", fa: "مونیخ سردتر از برلین است." } },
+        { title: "مرحله ۳: نظر شما", text: "کدام شهر را بیشتر دوست دارید؟", example: { de: "Ich mag Berlin am liebsten.", fa: "من برلین را بیشتر از همه دوست دارم." } }
       ],
-      modelAnswer: "Berlin und Wien sind beide schoene Staedte. Berlin ist groesser als Wien und hat mehr Einwohner. Aber Wien ist aelter und hat die schoensten Gebaeude. Das Essen ist in Wien am besten, besonders die Sachertorte. Ich finde, Wien ist gemuetlicher als Berlin, aber Berlin ist interessanter fuer junge Leute."
+      modelAnswer: "Ich vergleiche Berlin und München. Berlin ist größer als München. Es hat mehr Einwohner. München ist aber schöner als Berlin, finde ich. Das Wetter in München ist kälter im Winter, aber der Sommer ist wärmer. Die Lebensmittel in München sind teurer als in Berlin. Aber das Bier ist besser in München! Ich fahre am liebsten nach München, weil es gemütlicher ist. Die Berge in der Nähe sind am schönsten im Herbst."
     }
   ],
-
   listening: [
     {
-      title: "Û±. Ø¢Ù…ÙˆØ²Ø´ Komparativ Ùˆ Superlativ",
-      source: "Deutschlernen â€” Komparativ und Superlativ",
-      link: "https://www.youtube.com/watch?v=9s7UaGBXOxE",
-      instructions: "Û±. ÙˆÛŒØ¯ÛŒÙˆ Ø±Ø§ Ø¨Ø¨ÛŒÙ†ÛŒØ¯ Ùˆ Ù‚ÙˆØ§Ø¹Ø¯ Ø±Ø§ ÛŒØ§Ø¯Ø¯Ø§Ø´Øª Ú©Ù†ÛŒØ¯.\nÛ². Ûµ Ø¬Ù…Ù„Ù‡ Ù…Ù‚Ø§ÛŒØ³Ù‡â€ŒØ§ÛŒ Ø¨Ø§ ØµØ¯Ø§ÛŒ Ø¨Ù„Ù†Ø¯ Ø¨Ø³Ø§Ø²ÛŒØ¯.\nÛ³. Umlautâ€ŒÙ‡Ø§ (aâ†’ae, oâ†’oe, uâ†’ue) Ø±Ø§ ØªÙ…Ø±ÛŒÙ† Ú©Ù†ÛŒØ¯."
+      title: "جملات مقایسه‌ای",
+      instruction: "به جملات گوش دهید و آن‌ها را بنویسید.",
+      sentences: [
+        { de: "Berlin ist größer als Hamburg.", fa: "برلین بزرگ‌تر از هامبورگ است.", tts: "slow" },
+        { de: "Heute ist es wärmer als gestern.", fa: "امروز گرم‌تر از دیروز است.", tts: "slow" },
+        { de: "Das ist am besten!", fa: "این بهترین است!", tts: "slow" },
+        { de: "Mein Bruder ist älter als ich.", fa: "برادرم از من پیرتر است.", tts: "slow" },
+        { de: "Ich trinke am liebsten Kaffee.", fa: "بیشتر از همه قهوه دوست دارم بنوشم.", tts: "slow" },
+        { de: "Das ist der schönste Tag.", fa: "این زیباترین روز است.", tts: "slow" }
+      ]
     }
   ],
-
   speaking: [
     {
-      title: "ØªÙ…Ø±ÛŒÙ† Ù…Ù‚Ø§ÛŒØ³Ù‡",
-      pattern: "... ist groesser als ...\n... ist am schoensten.\nIch trinke lieber Tee als Kaffee.",
-      exercise: "Ûµ Ú†ÛŒØ² Ø¯Ø± Ø²Ù†Ø¯Ú¯ÛŒ Ø®ÙˆØ¯ Ø±Ø§ Ø¨Ø§ Ù‡Ù… Ù…Ù‚Ø§ÛŒØ³Ù‡ Ú©Ù†ÛŒØ¯. Ù…Ø«Ù„Ø§Ù‹: Â«ØºØ°Ø§ÛŒ Ø§ÛŒØ±Ø§Ù†ÛŒ Ø®ÙˆØ´Ù…Ø²Ù‡â€ŒØªØ± Ø§Ø² ØºØ°Ø§ÛŒ Ø¢Ù„Ù…Ø§Ù†ÛŒ Ø§Ø³ØªÂ» ÛŒØ§ Â«ØªØ§Ø¨Ø³ØªØ§Ù† Ø¨Ù‡ØªØ±ÛŒÙ† ÙØµÙ„ Ø§Ø³Øª.Â»"
+      title: "گفتگو: مقایسه کردن",
+      pattern: "A: Welches Restaurant ist besser? B: Das italienische Restaurant ist besser als das chinesische. A: Und welches ist am besten? B: Das deutsche Restaurant ist am besten, finde ich. A: Was ist am billigsten? B: Das chinesische Restaurant ist am billigsten. A: Welches ist am teuersten? B: Das italienische.",
+      exercise: "با یک دوست درباره رستوران‌ها، شهرها یا فیلم‌ها مقایسه کنید. حداقل ۵ بار از Komparativ و ۳ بار از Superlativ استفاده کنید."
     }
   ],
-
-  cultureTip: "Ù†Ú©ØªÙ‡ Ø¬Ø§Ù„Ø¨: Ø¯Ø± Ø¢Ù„Ù…Ø§Ù† ÙˆÙ‚ØªÛŒ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡ÛŒØ¯ Ø¨Ú¯ÙˆÛŒÛŒØ¯ Â«ØªØ±Ø¬ÛŒØ­ Ù…ÛŒâ€ŒØ¯Ù‡Ù…Â» Ø§Ø² lieber (ØªØ±Ø¬ÛŒØ­â€ŒØªØ±) Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒÚ©Ù†ÛŒØ¯. Ù…Ø«Ù„Ø§Ù‹ Ich trinke lieber Tee ÛŒØ¹Ù†ÛŒ Â«ØªØ±Ø¬ÛŒØ­ Ù…ÛŒâ€ŒØ¯Ù‡Ù… Ú†Ø§ÛŒ Ø¨Ù†ÙˆØ´Ù…Â». Ø§ÛŒÙ† Ø®ÛŒÙ„ÛŒ Ø±Ø§ÛŒØ¬â€ŒØªØ± Ø§Ø² Ich bevorzuge Tee Ø§Ø³Øª. Ù‡Ù…Ú†Ù†ÛŒÙ† Ø¯Ø± Ù…Ú©Ø§Ù„Ù…Ù‡ Ø±ÙˆØ²Ù…Ø±Ù‡ØŒ Ø§Ø² am besten Ø¨Ø±Ø§ÛŒ ØªÙˆØµÛŒÙ‡ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯: Am besten kommst du um 8 Uhr. (Ø¨Ù‡ØªØ±Ù‡ Ø³Ø§Ø¹Øª Û¸ Ø¨ÛŒØ§ÛŒÛŒ.)",
-
+  cultureTip: "آلمانی‌ها عاشق مقایسه کردن هستند! در مکالمات روزمره زیاد از Komparativ و Superlativ استفاده می‌شود. وقتی درباره غذا صحبت می‌کنند، می‌گویند «Das schmeckt am besten!» (این خوشمزه‌ترین است!). درباره آب و هوا هم زیاد مقایسه می‌کنند: «Heute ist es kälter als gestern».",
   examData: {
     questions: [
-      { question: "Komparativ ÙØ¹Ù„ Â«groÃŸÂ» Ú†ÛŒØ³ØªØŸ", options: ["groÃŸer", "grÃ¶ÃŸer", "grÃ¶ÃŸerer", "grÃ¶ssest"], answer: 1 },
-      { question: "Superlativ ÙØ¹Ù„ Â«gutÂ» Ú†ÛŒØ³ØªØŸ", options: ["am gutsten", "am bessersten", "am besten", "am gutesten"], answer: 2 },
-      { question: "Ú©Ø¯Ø§Ù… Ø¬Ù…Ù„Ù‡ Ø¯Ø±Ø³Øª Ø§Ø³ØªØŸ", options: ["Berlin ist mehr groÃŸ als MÃ¼nchen.", "Berlin ist grÃ¶ÃŸer als MÃ¼nchen.", "Berlin ist groÃŸter als MÃ¼nchen."], answer: 1 },
-      { question: "Â«Ich esse lieber PizzaÂ» ÛŒØ¹Ù†ÛŒ...", options: ["Ù…Ù† Ù¾ÛŒØªØ²Ø§ Ù†Ù…ÛŒâ€ŒØ®ÙˆØ±Ù…", "ØªØ±Ø¬ÛŒØ­ Ù…ÛŒâ€ŒØ¯Ù‡Ù… Ù¾ÛŒØªØ²Ø§ Ø¨Ø®ÙˆØ±Ù…", "Ù…Ù† Ù¾ÛŒØªØ²Ø§ÛŒ Ø²ÛŒØ§Ø¯ Ù…ÛŒâ€ŒØ®ÙˆØ±Ù…"], answer: 1 },
-      { question: "Superlativ Â«schÃ¶nÂ» Ú†ÛŒØ³ØªØŸ", options: ["am schÃ¶nersten", "am schÃ¶nsten", "am schonten"], answer: 1 },
-      { question: "Ú©Ø¯Ø§Ù… ØµÙØª Umlaut Ù†Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯ØŸ", options: ["alt", "groÃŸ", "schnell", "jung"], answer: 2 },
-      { question: "Â«Das ist das beste RestaurantÂ» â€” Ø§ÛŒÙ† Ú†Ù‡ Ù†ÙˆØ¹ Ù…Ù‚Ø§ÛŒØ³Ù‡â€ŒØ§ÛŒ Ø§Ø³ØªØŸ", options: ["Komparativ", "Superlativ", "Positiv"], answer: 1 },
-      { question: "Ú©Ø¯Ø§Ù… Ø¬Ù…Ù„Ù‡ Superlativ Ø±Ø§ Ø¯Ø±Ø³Øª Ù†Ø´Ø§Ù† Ù…ÛŒâ€ŒØ¯Ù‡Ø¯ØŸ", options: ["Das ist das billiger Restaurant.", "Das ist das billigste Restaurant.", "Das ist das am billigste Restaurant."], answer: 1 }
+      { question: "Komparativ صفت «groß» چیست؟", options: ["großer", "größer", "großter", "großeren"], answer: 1 },
+      { question: "Superlativ صفت «gut» چیست؟", options: ["am gutsten", "am besten", "am gutesten", "am bessersten"], answer: 1 },
+      { question: "کدام جمله صحیح است؟", options: ["Berlin ist größer wie Hamburg.", "Berlin ist größer als Hamburg.", "Berlin ist am größer als Hamburg.", "Berlin ist größter als Hamburg."], answer: 1 },
+      { question: "«am liebsten» یعنی چه؟", options: ["بیشترین", "بهترین", "بیشتر از همه دوست داشتن", "نزدیک‌ترین"], answer: 2 },
+      { question: "Komparativ صفت «alt» چیست؟", options: ["alter", "älter", "altter", "altester"], answer: 1 },
+      { question: "Superlativ صفت «schnell» چیست؟", options: ["am schnellsten", "am schnellten", "am schnelltesten", "am schnellersten"], answer: 0 },
+      { question: "Komparativ صفت «warm» چیست؟", options: ["warmer", "wärmer", "warmter", "warme"], answer: 1 },
+      { question: "«viel» → Komparativ چیست؟", options: ["vieler", "mehr", "vieliger", "vielsten"], answer: 1 },
+      { question: "کدام جمله صحیح است؟", options: ["Dies ist am besten.", "Dies ist besser.", "Dies ist bester.", "Dies ist am besser."], answer: 0 },
+      { question: "Superlativ صفت «gern» چیست؟", options: ["am gernsten", "am liebsten", "am gernesten", "am liebesten"], answer: 1 }
     ]
   }
 };

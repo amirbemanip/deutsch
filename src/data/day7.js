@@ -1,213 +1,385 @@
 export const day7Data = {
-  title: "Ø±ÙˆØ² Û·: ØµØ±Ù ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¨Ø§Ù‚Ø§Ø¹Ø¯Ù‡ Ø¯Ø± Ø²Ù…Ø§Ù† Ø­Ø§ل (PrÃ¤sens)",
-  objective: "Ø¯Ø± Ø§ÛŒÙ† Ø¯Ø±Ø³ ØµØ±Ù ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¨Ø§Ù‚Ø§Ø¹Ø¯Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ Ø±Ø§ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØ¯. Ø¨Ø§ ÛŒØ§Ø¯Ú¯ÛŒØ±ÛŒ ÛŒÚ© Ù‚Ø§Ø¹Ø¯Ù‡ Ø³Ø§Ø¯Ù‡ØŒ Ù…ÛŒâ€ŒØªÙˆØ§Ù†ÛŒØ¯ ØµØ¯Ù‡Ø§ ÙØ¹ل Ø±Ø§ ØµØ­ÛŒØ­ ØµØ±Ù Ú©Ù†ÛŒØ¯.",
+  title: "روز ۷: صرف فعل‌های منظم در زمان حال (Präsens)",
+  objective: "در پایان این روز، شما قادر خواهید بود الگوی صرف فعل‌های منظم (-e, -st, -t, -en, -t, -en) را یاد بگیرید، ۱۵ فعل منظم رایج را صرف کنید و حالت‌های خاص (فعل‌های ختم به -eln, -ern) را بشناسید.",
+  level: "A1",
+
   grammarData: {
-    subtitle: "ØµØ±Ù ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¨Ø§Ù‚Ø§Ø¹Ø¯Ù‡ Ø¯Ø± Ø²Ù…Ø§Ù† Ø­Ø§ل (PrÃ¤sens)",
+    subtitle: "درس‌های گرامری با تمرین تعاملی",
     content: [
       {
         type: "text",
-        title: "ÙØ¹ل Ø¨Ø§Ù‚Ø§Ø¹Ø¯Ù‡ (RegelmÃ¤ÃŸiges Verb) Ú†ÛŒØ³ØªØŸ",
-        text: "Ø¯Ø± Ø¢لÙ…Ø§Ù†ÛŒØŒ ÙØ¹لâ€ŒÙ‡Ø§ÛŒÛŒ Ú©Ù‡ Ø¯Ø± ØµØ±Ù Ú©Ø±Ø¯Ù† ØªØºÛŒÛŒØ±Ø§Øª Ù…Ù†Ø¸Ù… Ùˆ Ù‚Ø§Ø¨ل Ù¾ÛŒØ´â€ŒØ¨ÛŒÙ†ÛŒ Ø¯Ø§Ø±Ù†Ø¯ØŒ Ø¨Ø§Ù‚Ø§Ø¹Ø¯Ù‡ Ù†Ø§Ù…ÛŒØ¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯. Ø§Ú©Ø«Ø± ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¢لÙ…Ø§Ù†ÛŒ Ø¨Ø§Ù‚Ø§Ø¹Ø¯Ù‡ Ù‡Ø³ØªÙ†Ø¯. ÙÙ‚Ø· Ú©Ø§ÙÛŒ Ø§Ø³Øª ÛŒÚ© Ù‚Ø§Ø¹Ø¯Ù‡ Ø±Ø§ ÛŒØ§Ø¯ Ø¨Ú¯ÛŒØ±ÛŒØ¯ Ùˆ Ø¢Ù† Ø±Ø§ Ø±ÙˆÛŒ ØµØ¯Ù‡Ø§ ÙØ¹ل Ø§Ø¹Ù…Ø§ل Ú©Ù†ÛŒØ¯!"
-      },
-      {
-        type: "text",
-        title: "Ù‚Ø§Ø¹Ø¯Ù‡ Ú©لÛŒ ØµØ±Ù ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¨Ø§Ù‚Ø§Ø¹Ø¯Ù‡",
-        text: "Ø¨Ø±Ø§ÛŒ ØµØ±Ù ÙØ¹ل Ø¨Ø§Ù‚Ø§Ø¹Ø¯Ù‡ØŒ Ø§Ø¨ØªØ¯Ø§ Ù…ØµØ¯Ø± ÙØ¹ل Ø±Ø§ Ø´Ù†Ø§Ø³Ø§ÛŒÛŒ Ú©Ù†ÛŒØ¯ (Ù…Ø¹Ù…ÙˆلØ§Ù‹ Ø¨Ø§ -en ØªÙ…Ø§Ù… Ù…ÛŒâ€ŒØ´ÙˆØ¯). Ø³Ù¾Ø³ Ù¾Ø³ÙˆÙ†Ø¯ Ù…Ù†Ø§Ø³Ø¨ Ø±Ø§ Ø§Ø¶Ø§ÙÙ‡ Ú©Ù†ÛŒØ¯:\n\nâ€¢ Ù…ØµØ¯Ø±: lernen (ÛŒØ§Ø¯ Ú¯Ø±ÙØªÙ†)\nâ€¢ Ø±ÛŒØ´Ù‡: lern-\n\nÙ¾Ø³ÙˆÙ†Ø¯Ù‡Ø§:\nâ€¢ ich â†’ -e: ich lerne\nâ€¢ du â†’ -st: du lernst\nâ€¢ er/sie/es â†’ -t: er lernt\nâ€¢ wir â†’ -en: wir lernen\nâ€¢ ihr â†’ -t: ihr lernt\nâ€¢ sie/Sie â†’ -en: sie lernen / Sie lernen"
+        title: "فعل‌های منظم چیست؟",
+        text: "خوشبختانه اکثر فعل‌های آلمانی منظم هستند! یعنی طبق یک قانون ثابت صرف می‌شوند. فقط کافی است الگو را یاد بگیرید.\nبرای صرف فعل منظم: ابتدا مصدر فعل را پیدا کنید (بخش بدون -en)، سپس پسوندهای مناسب را اضافه کنید."
       },
       {
         type: "table",
-        title: "ØµØ±Ù ÙØ¹ل lernen (ÛŒØ§Ø¯ Ú¯Ø±ÙØªÙ†)",
+        title: "الگوی صرف فعل منظم (بر اساس lernen)",
         rows: [
-          { de: "ich lerne", fa: "Ù…Ù† ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù…" },
-          { de: "du lernst", fa: "ØªÙˆ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒ" },
-          { de: "er/sie/es lernt", fa: "Ø§Ùˆ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯" },
-          { de: "wir lernen", fa: "Ù…Ø§ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒÙ…" },
-          { de: "ihr lernt", fa: "Ø´Ù…Ø§ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØ¯ (Ù…Ø­Ø§ÙˆØ±Ù‡â€ŒØ§ÛŒ)" },
-          { de: "sie/Sie lernen", fa: "Ø¢Ù†Ù‡Ø§/Ø´Ù…Ø§ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯/Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØ¯" }
+          { de: "ich lern-e", fa: "من یاد می‌گیرم: Ich lerne Deutsch." },
+          { de: "du lern-st", fa: "تو یاد می‌گیری: Du lernst schnell." },
+          { de: "er/sie/es lern-t", fa: "او یاد می‌گیرد: Er lernt viel." },
+          { de: "wir lern-en", fa: "ما یاد می‌گیریم: Wir lernen zusammen." },
+          { de: "ihr lern-t", fa: "شماها یاد می‌گیرید: Ihr lernt gut." },
+          { de: "sie/Sie lern-en", fa: "آن‌ها/شما یاد می‌گیرید: Sie lernen schnell." }
         ]
-      },
-      {
-        type: "text",
-        title: "Ù‚Ø§Ø¹Ø¯Ù‡ Ù…Ù‡Ù…: ØªØºÛŒÛŒØ±Ø§Øª ØªلÙØ¸ÛŒ",
-        text: "ÙˆÙ‚ØªÛŒ Ø±ÛŒØ´Ù‡ ÙØ¹ل Ø¨Ø§ -tØŒ -dØŒ -chnØŒ -ffnØŒ -gnØŒ -tm Ø®ØªÙ… Ø´ÙˆØ¯:\n\nØ¨Ø±Ø§ÛŒ du Ùˆ er/sie/es Ùˆ ihrØŒ ÛŒÚ© Â«eÂ» Ø§Ø¶Ø§ÙÛŒ Ø§Ø¶Ø§ÙÙ‡ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…:\n\nâ€¢ arbeiten (Ú©Ø§Ø± Ú©Ø±Ø¯Ù†): Ø±ÛŒØ´Ù‡ arbeit-\n  du arbeitest (Ù†Ù‡ arbeitst!)\n  er arbeitet (Ù†Ù‡ arbeit!)\n  ihr arbeitet (Ù†Ù‡ arbeit!)\n\nâ€¢ Ã¶ffnen (Ø¨Ø§Ø² Ú©Ø±Ø¯Ù†): Ø±ÛŒØ´Ù‡ Ã¶ffn-\n  du Ã¶ffnest (Ù†Ù‡ Ã¶ffnst!)\n  er Ã¶ffnet (Ù†Ù‡ Ã¶ffnt!)\n\nâ€¢ atmen (Ù†ÙØ³ Ú©Ø´ÛŒØ¯Ù†): Ø±ÛŒØ´Ù‡ atm-\n  du atmest (Ù†Ù‡ atms!)\n  er atmet (Ù†Ù‡ atm!) \n\nØ§ÛŒÙ† Ù‚Ø§Ø¹Ø¯Ù‡ Ø±Ø§ Ø­ÙØ¸ Ú©Ù†ÛŒØ¯: Ø¨Ø¹Ø¯ Ø§Ø² -tØŒ -dØŒ Ù‡Ù…ÛŒØ´Ù‡ Â«eÂ» Ø§Ø¶Ø§ÙÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯!"
       },
       {
         type: "table",
-        title: "ØµØ±Ù ÙØ¹ل arbeiten (Ú©Ø§Ø± Ú©Ø±Ø¯Ù†)",
+        title: "پسوندهای صرف فعل منظم",
         rows: [
-          { de: "ich arbeite", fa: "Ù…Ù† Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ù…" },
-          { de: "du arbeitest", fa: "ØªÙˆ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†ÛŒ" },
-          { de: "er/sie/es arbeitet", fa: "Ø§Ùˆ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ø¯" },
-          { de: "wir arbeiten", fa: "Ù…Ø§ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…" },
-          { de: "ihr arbeitet", fa: "Ø´Ù…Ø§ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†ÛŒØ¯ (Ù…Ø­Ø§ÙˆØ±Ù‡â€ŒØ§ÛŒ)" },
-          { de: "sie/Sie arbeiten", fa: "Ø¢Ù†Ù‡Ø§/Ø´Ù…Ø§ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯/Ù…ÛŒâ€ŒÚ©Ù†ÛŒØ¯" }
+          { de: "ich: -e", fa: "spreche, wohne, komme, arbeite" },
+          { de: "du: -st", fa: "sprichst, wohnst, kommst, arbeitest" },
+          { de: "er/sie/es: -t", fa: "spricht, wohnt, kommt, arbeitet" },
+          { de: "wir: -en", fa: "sprechen, wohnen, kommen, arbeiten" },
+          { de: "ihr: -t", fa: "sprecht, wohnt, kommt, arbeitet" },
+          { de: "sie/Sie: -en", fa: "sprechen, wohnen, kommen, arbeiten" }
         ]
-      },
-      {
-        type: "text",
-        title: "Ø§ÙØ¹Ø§ل Ø¨Ø§Ù‚Ø§Ø¹Ø¯Ù‡ Ù¾Ø±Ú©Ø§Ø±Ø¨Ø±Ø¯",
-        text: "Ø§ÛŒÙ† ÙØ¹لâ€ŒÙ‡Ø§ Ø±Ø§ Ø¨Ø§ Ù‚Ø§Ø¹Ø¯Ù‡ Ø¨Ø§لØ§ ØµØ±Ù Ú©Ù†ÛŒØ¯:\n\nâ€¢ spielen (Ø¨Ø§Ø²ÛŒ Ú©Ø±Ø¯Ù†): ich spiele, du spielst, er spielt...\nâ€¢ kommen (Ø¢Ù…Ø¯Ù†): ich komme, du kommst, er kommt...\nâ€¢ gehen (Ø±ÙØªÙ†): ich gehe, du gehst, er geht...\nâ€¢ machen (Ø§Ù†Ø¬Ø§Ù… Ø¯Ø§Ø¯Ù†): ich mache, du machst, er macht...\nâ€¢ fragen (Ù¾Ø±Ø³ÛŒØ¯Ù†): ich frage, du fragst, er fragt...\nâ€¢ kaufen (Ø®Ø±ÛŒØ¯Ù†): ich kaufe, du kaufst, er kauft...\nâ€¢ wohnen (Ø²Ù†Ø¯Ú¯ÛŒ Ú©Ø±Ø¯Ù†): ich wohne, du wohnst, er wohnt...\nâ€¢ suchen (Ø¬Ø³ØªØ¬Ùˆ Ú©Ø±Ø¯Ù†): ich suche, du suchst, er sucht...\nâ€¢ brauchen (Ù†ÛŒØ§Ø² Ø¯Ø§Ø´ØªÙ†): ich brauche, du brauchst, er braucht...\nâ€¢ hÃ¶ren (Ø´Ù†ÛŒØ¯Ù†): ich hÃ¶re, du hÃ¶rst, er hÃ¶rt..."
       },
       {
         type: "alert",
-        title: "âš ï¸ Ù†Ú©Ø§Øª Ù…Ù‡Ù… ØµØ±Ù ÙØ¹ل",
-        text: "Û±. ÙØ¹لâ€ŒÙ‡Ø§ÛŒÛŒ Ú©Ù‡ Ø±ÛŒØ´Ù‡ Ø¢Ù†Ù‡Ø§ Ø¨Ø§ sØŒ ssØŒ ÃŸØŒ zØŒ xØŒ ch (Ø¨Ø¹Ø¶ÛŒ) Ø®ØªÙ… Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŒ Ø¨Ø±Ø§ÛŒ du ÙÙ‚Ø· -t Ø§Ø¶Ø§ÙÙ‡ Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯ (Ù†Ù‡ -st!):\n   lesen â†’ du liest (Ù†Ù‡ lesst!)\n   sitzen â†’ du sitzt (Ù†Ù‡ sitzst!)\n\nÛ². ÙØ¹لâ€ŒÙ‡Ø§ÛŒÛŒ Ú©Ù‡ Ø±ÛŒØ´Ù‡ Ø¨Ø§ -el ÛŒØ§ -er Ø®ØªÙ… Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŒ Ø¨Ø±Ø§ÛŒ wir Ùˆ sie/SieØŒ e Ø­Ø°Ù Ù…ÛŒâ€ŒØ´ÙˆØ¯:\n   klingeln â†’ wir klingeln (Ù†Ù‡ klingelen!)\n   wandern â†’ wir wandern (Ù†Ù‡ wanderen!)\n\nÛ³. ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¨ÛŒâ€ŒÙ‚Ø§Ø¹Ø¯Ù‡ Ù…Ø«ل seinØŒ habenØŒ werden Ø¨Ø§ÛŒØ¯ Ø­ÙØ¸ Ø´ÙˆÙ†Ø¯.\n\nÛ´. Ø¯Ø± Ø³Ø¤Ø§ل Ø¨Ø³ØªÙ‡ØŒ ÙØ¹ل Ø¯Ø± Ø§Ùˆل Ø¬Ù…لÙ‡ Ù…ÛŒâ€ŒØ¢ÛŒØ¯:\n   Lernst du Deutsch? (Ø¢ÛŒØ§ Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØŸ)"
+        title: "قاعده طلایی صرف فعل",
+        text: "توجه: wir (ما) و sie/Sie (آن‌ها/شما رسمی) همیشه شکل یکسانی دارند (-en)! این یکی از آسان‌ترین بخش‌های صرف فعل آلمانی است."
       },
       {
-        type: "examples",
-        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ ÙØ±Ø§ÙˆØ§Ù† Ø¨Ø§ ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¨Ø§Ù‚Ø§Ø¹Ø¯Ù‡",
-        items: [
-          { de: "Ich lerne Deutsch.", fa: "Ù…Ù† Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù…." },
-          { de: "Du spielst FuÃŸball.", fa: "ØªÙˆ ÙÙˆØªØ¨Ø§ل Ø¨Ø§Ø²ÛŒ Ù…ÛŒâ€ŒÚ©Ù†ÛŒ." },
-          { de: "Er kommt aus dem Iran.", fa: "Ø§Ùˆ Ø§Ø² Ø§ÛŒØ±Ø§Ù† Ù…ÛŒâ€ŒØ¢ÛŒØ¯." },
-          { de: "Sie macht ihre Hausaufgaben.", fa: "Ø§Ùˆ ØªÚ©Ø§لÛŒÙØ´ Ø±Ø§ Ø§Ù†Ø¬Ø§Ù… Ù…ÛŒâ€ŒØ¯Ù‡Ø¯." },
-          { de: "Wir gehen in die Schule.", fa: "Ù…Ø§ Ø¨Ù‡ Ù…Ø¯Ø±Ø³Ù‡ Ù…ÛŒâ€ŒØ±ÙˆÛŒÙ…." },
-          { de: "Ihr kauft ein neues Auto.", fa: "Ø´Ù…Ø§ ÛŒÚ© Ù…Ø§Ø´ÛŒÙ† Ø¬Ø¯ÛŒØ¯ Ù…ÛŒâ€ŒØ®Ø±ÛŒØ¯." },
-          { de: "Sie wohnen in Berlin.", fa: "Ø¢Ù†Ù‡Ø§ Ø¯Ø± Ø¨Ø±لÛŒÙ† Ø²Ù†Ø¯Ú¯ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯." },
-          { de: "Ich arbeite in einer Firma.", fa: "Ù…Ù† Ø¯Ø± ÛŒÚ© Ø´Ø±Ú©Øª Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ù…." },
-          { de: "Brauchst du Hilfe?", fa: "Ø¢ÛŒØ§ Ú©Ù…Ú© Ù†ÛŒØ§Ø² Ø¯Ø§Ø±ÛŒØŸ" },
-          { de: "HÃ¶rst du Musik?", fa: "Ø¢ÛŒØ§ Ù…ÙˆØ³ÛŒÙ‚ÛŒ Ú¯ÙˆØ´ Ù…ÛŒâ€ŒØ¯Ù‡ÛŒØŸ" },
-          { de: "Er arbeitet viel.", fa: "Ø§Ùˆ Ø²ÛŒØ§Ø¯ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ø¯." },
-          { de: "Wir suchen eine Wohnung.", fa: "Ù…Ø§ ÛŒÚ© Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ø¬Ø³ØªØ¬Ùˆ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…." }
+        type: "text",
+        title: "حالت‌های خاص صرف فعل",
+        text: "بعضی فعل‌ها هنگام صرف تغییرات جزئی دارند. این تغییرات را یاد بگیرید تا اشتباه نکنید."
+      },
+      {
+        type: "table",
+        title: "فعل‌هایی که با s ختم می‌شوند (مثل heißen, reisen)",
+        rows: [
+          { de: "heißen → du heißt (نه heisst!)", fa: "وقتی فعل اصلی با s یا ss/ß ختم شود، du بدون s اضافه می‌شود." },
+          { de: "reisen → du reist (نه reisst!)", fa: "فعل‌هایی که s دارند، در du فقط -t می‌گیرند." },
+          { de: "sitzen → du sitzt", fa: "فعل‌هایی که z دارند هم همین قاعده را دارند." }
         ]
       },
       {
+        type: "table",
+        title: "فعل‌هایی که با t یا d ختم می‌شوند (مثل arbeiten, finden)",
+        rows: [
+          { de: "arbeiten → du arbeitest (نه arbeitst!)", fa: "وقتی فعل با t یا d ختم شود، در du و er/e/es یک e اضافه می‌شود." },
+          { de: "finden → du findest, er findet", fa: "du findest (با -est), er findet (با -et)" },
+          { de: "warten → du wartest, er wartet", fa: "همیشه -est و -et، نه -st و -t!" }
+        ]
+      },
+      {
+        type: "table",
+        title: "فعل‌هایی که با -eln یا -ern ختم می‌شوند",
+        rows: [
+          { de: "klingeln (زنگ زدن): ich klingle (نه klingele!)", fa: "وقتی فعل با -eln ختم شود، در ich حرف e قبل l حذف می‌شود." },
+          { de: "klingeln: du klingelst, er klingelt", fa: "بقیه ضمیرها عادی هستند." },
+          { de: "ändern (تغییر دادن): ich ändere", fa: "فعل‌های -ern عادی صرف می‌شوند." },
+          { de: "wandern (کوهنوردی): ich wandere", fa: "فعل‌های -ern هیچ تغییر خاصی ندارند." }
+        ]
+      },
+      {
+        type: "table",
+        title: "فعل‌های با تغییر صدا (Ablaut) در du و er",
+        rows: [
+          { de: "fahren (رانندگی): du fährst, er fährt", fa: "a → ä در du و er" },
+          { de: "schlafen (خوابیدن): du schläfst, er schläft", fa: "a → ä در du و er" },
+          { de: "lesen (خواندن): du liest, er liest", fa: "e → ie در du و er" },
+          { de: "sehen (دیدن): du siehst, er sieht", fa: "e → ie در du و er" },
+          { de: "geben (دادن): du gibst, er gibt", fa: "e → i در du و er" },
+          { de: "essen (خوردن): du isst, er isst", fa: "e → i در du و er" },
+          { de: "sprechen (صحبت کردن): du sprichst, er spricht", fa: "e → i در du و er" },
+          { de: "helfen (کمک کردن): du hilfst, er hilft", fa: "e → i در du و er" },
+          { de: "nehmen (گرفتن): du nimmst, er nimmt", fa: "eh → i (دو برابر m)" },
+          { de: "treffen (ملاقات کردن): du triffst, er trifft", fa: "e → i در du و er" }
+        ]
+      },
+      {
+        type: "text",
+        title: "۱۵ فعل منظم رایج با صرف کامل",
+        text: "این فعل‌ها را هر روز تمرین کنید تا صرف آن‌ها کاملاً در ذهنتان جا بیفتد."
+      },
+      {
         type: "interactive_quiz",
-        title: "Ø¢Ø²Ù…ÙˆÙ† ØªØ¹Ø§Ù…لÛŒ: ØµØ±Ù ÙØ¹ل",
+        title: "آزمون: صرف فعل",
         questions: [
           {
-            question: "ØµØ±Ù ØµØ­ÛŒØ­ Â«duÂ» Ø¨Ø±Ø§ÛŒ ÙØ¹ل Â«spielenÂ» Ú†ÛŒØ³ØªØŸ",
-            questionDe: "Wie konjugiert man Â«spielenÂ» mit Â«duÂ»?",
+            question: "صرف فعل «arbeiten» با du چیست؟",
+            questionDe: "Wie konjugiert man 'arbeiten' mit 'du'?",
             options: [
-              { text: "du spiele", isCorrect: false },
-              { text: "du spielst", isCorrect: true },
-              { text: "du spielt", isCorrect: false },
-              { text: "du spielen", isCorrect: false }
+              { text: "du arbeitst", isCorrect: false },
+              { text: "du arbeitest", isCorrect: true },
+              { text: "du arbeitet", isCorrect: false }
             ],
-            explanation: "Ø¨Ø±Ø§ÛŒ duØŒ Ù¾Ø³ÙˆÙ†Ø¯ -st Ø§Ø¶Ø§ÙÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯: spiel + st = du spielst."
+            explanation: "درست! چون فعل با t ختم می‌شود، یک e اضافه می‌شود: du arbeitest."
           },
           {
-            question: "ØµØ±Ù ØµØ­ÛŒØ­ Â«erÂ» Ø¨Ø±Ø§ÛŒ ÙØ¹ل Â«arbeitenÂ» Ú†ÛŒØ³ØªØŸ",
-            questionDe: "Wie konjugiert man Â«arbeitenÂ» mit Â«erÂ»?",
+            question: "صرف فعل «fahren» با er چیست؟",
+            questionDe: "Wie konjugiert man 'fahren' mit 'er'?",
             options: [
-              { text: "er arbeit", isCorrect: false },
-              { text: "er arbeiten", isCorrect: false },
-              { text: "er arbeitet", isCorrect: true },
-              { text: "er arbeitst", isCorrect: false }
+              { text: "er fahrt", isCorrect: false },
+              { text: "er fährt", isCorrect: true },
+              { text: "er fahret", isCorrect: false }
             ],
-            explanation: "Ú†ÙˆÙ† Ø±ÛŒØ´Ù‡ ÙØ¹ل Ø¨Ø§ -t Ø®ØªÙ… Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŒ Ø¨Ø±Ø§ÛŒ er ÛŒÚ© Â«eÂ» Ø§Ø¶Ø§ÙÛŒ Ø§Ø¶Ø§ÙÙ‡ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…: arbeit + e + t = er arbeitet."
+            explanation: "عالی! فعل fahren در du و er تغییر صدا دارد: a → ä."
+          }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تمرین جای خالی: صرف فعل",
+        instructions: "فعل را با ضمیر مناسب صرف کنید.",
+        sentences: [
+          { de: "Ich ___ jeden Tag Deutsch. (lernen)", answer: "lerne", hint: "ich + lernen" },
+          { de: "Du ___ in Berlin. (wohnen)", answer: "wohnst", hint: "du + wohnen" },
+          { de: "Er ___ viel. (arbeiten)", answer: "arbeitet", hint: "er + arbeiten (فعل با t ختم شده)" },
+          { de: "Wir ___ zusammen. (sprechen)", answer: "sprechen", hint: "wir + sprechen" },
+          { de: "Ihr ___ schnell. (fahren)", answer: "fahrt", hint: "ihr + fahren" },
+          { de: "Sie ___ aus dem Iran. (kommen)", answer: "kommen", hint: "Sie + kommen" }
+        ]
+      }
+    ]
+  },
+
+  vocabData: {
+    categories: [
+      {
+        title: "فعل‌های منظم رایج",
+        words: [
+          {
+            de: "arbeiten",
+            fa: "کار کردن",
+            ipa: "[ˈaʁbaɪ̯tn̩]",
+            conjugation: { ich: "arbeite", du: "arbeitest", er: "arbeitet", wir: "arbeiten", ihr: "arbeitet", sie: "arbeiten" },
+            examples: [{ de: "Ich arbeite bei Siemens.", fa: "در زیمنس کار می‌کنم." }]
           },
           {
-            question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ",
-            questionDe: "Welcher Satz ist richtig?",
-            options: [
-              { text: "Ich kommen aus Deutschland.", isCorrect: false },
-              { text: "Ich komme aus Deutschland.", isCorrect: true },
-              { text: "Ich kommst aus Deutschland.", isCorrect: false },
-              { text: "Ich kommt aus Deutschland.", isCorrect: false }
-            ],
-            explanation: "Ø¨Ø±Ø§ÛŒ ichØŒ Ù¾Ø³ÙˆÙ†Ø¯ -e Ø§Ø¶Ø§ÙÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯: komm + e = ich komme."
+            de: "fragen",
+            fa: "پرسیدن",
+            ipa: "[ˈfʁaːɡn̩]",
+            conjugation: { ich: "frage", du: "fragst", er: "fragt", wir: "fragen", ihr: "fragt", sie: "fragen" },
+            examples: [{ de: "Kann ich Sie etwas fragen?", fa: "می‌شود چیزی از شما بپرسم؟" }]
           },
           {
-            question: "ØµØ±Ù Â«wirÂ» Ø¨Ø±Ø§ÛŒ ÙØ¹ل Â«machenÂ» Ú†ÛŒØ³ØªØŸ",
-            questionDe: "Wie konjugiert man Â«machenÂ» mit Â«wirÂ»?",
-            options: [
-              { text: "wir macht", isCorrect: false },
-              { text: "wir machst", isCorrect: false },
-              { text: "wir machen", isCorrect: true },
-              { text: "wir mache", isCorrect: false }
-            ],
-            explanation: "Ø¨Ø±Ø§ÛŒ wirØŒ Ù¾Ø³ÙˆÙ†Ø¯ -en Ø§Ø¶Ø§ÙÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯: mach + en = wir machen."
+            de: "kaufen",
+            fa: "خریدن",
+            ipa: "[ˈkaʊ̯fn̩]",
+            conjugation: { ich: "kaufe", du: "kaufst", er: "kauft", wir: "kaufen", ihr: "kauft", sie: "kaufen" },
+            examples: [{ de: "Ich kaufe Brot.", fa: "نان می‌خرم." }]
           },
           {
-            question: "Ø³Ø¤Ø§ل Â«Ø¢ÛŒØ§ ØªÙˆ Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØŸÂ» Ú†Ú¯ÙˆÙ†Ù‡ Ø³Ø§Ø®ØªÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
-            questionDe: "Wie bildet man die Frage Â«Ø¢ÛŒØ§ ØªÙˆ Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØŸÂ»",
-            options: [
-              { text: "Du lernst Deutsch?", isCorrect: false },
-              { text: "Lernst du Deutsch?", isCorrect: true },
-              { text: "Deutsch du lernst?", isCorrect: false },
-              { text: "Lernen du Deutsch?", isCorrect: false }
-            ],
-            explanation: "Ø¯Ø± Ø³Ø¤Ø§ل Ø¨Ø³ØªÙ‡ØŒ ÙØ¹ل Ø¯Ø± Ø§Ùˆل Ø¬Ù…لÙ‡ Ù…ÛŒâ€ŒØ¢ÛŒØ¯: Lernst + du + Deutsch + ?"
+            de: "spielen",
+            fa: "بازی کردن",
+            ipa: "[ˈʃpiːln̩]",
+            conjugation: { ich: "spiele", du: "spielst", er: "spielt", wir: "spielen", ihr: "spielt", sie: "spielen" },
+            examples: [{ de: "Die Kinder spielen Fußball.", fa: "بچه‌ها فوتبال بازی می‌کنند." }]
+          },
+          {
+            de: "suchen",
+            fa: "جستجو کردن / دنبال چیزی گشتن",
+            ipa: "[ˈzuːxn̩]",
+            conjugation: { ich: "suche", du: "suchst", er: "sucht", wir: "suchen", ihr: "sucht", sie: "suchen" },
+            examples: [{ de: "Ich suche eine Wohnung.", fa: "دنبال آپارتمان می‌گردم." }]
+          },
+          {
+            de: "brauchen",
+            fa: "نیاز داشتن",
+            ipa: "[ˈbʁaʊ̯xn̩]",
+            conjugation: { ich: "brauche", du: "brauchst", er: "braucht", wir: "brauchen", ihr: "braucht", sie: "brauchen" },
+            examples: [{ de: "Ich brauche Hilfe.", fa: "کمک نیاز دارم." }]
+          },
+          {
+            de: "zeigen",
+            fa: "نشان دادن",
+            ipa: "[ˈtsaɪ̯ɡn̩]",
+            conjugation: { ich: "zeige", du: "zeigst", er: "zeigt", wir: "zeigen", ihr: "zeigt", sie: "zeigen" },
+            examples: [{ de: "Zeigen Sie mir bitte den Weg.", fa: "لطفاً راه را نشانم دهید." }]
+          },
+          {
+            de: "frühstücken",
+            fa: "صبحانه خوردن",
+            ipa: "[ˈfʁyːʃtʏkn̩]",
+            conjugation: { ich: "frühstücke", du: "frühstückst", er: "frühstückt", wir: "frühstücken", ihr: "frühstückt", sie: "frühstücken" },
+            examples: [{ de: "Ich frühstücke um 8 Uhr.", fa: "ساعت ۸ صبحانه می‌خورم." }]
+          },
+          {
+            de: "besuchen",
+            fa: "ملاقات کردن / بازدید کردن",
+            ipa: "[bəˈzuːxn̩]",
+            conjugation: { ich: "besuche", du: "besuchst", er: "besucht", wir: "besuchen", ihr: "besucht", sie: "besuchen" },
+            examples: [{ de: "Ich besuche meine Eltern.", fa: "والدینم را ملاقات می‌کنم." }]
+          },
+          {
+            de: "verstehen",
+            fa: "فهمیدن",
+            ipa: "[fɛɐ̯ˈʃteːən]",
+            conjugation: { ich: "verstehe", du: "verstehst", er: "versteht", wir: "verstehen", ihr: "versteht", sie: "verstehen" },
+            examples: [{ de: "Ich verstehe das nicht.", fa: "این را نمی‌فهمم." }]
+          },
+          {
+            de: "erklären",
+            fa: "توضیح دادن",
+            ipa: "[ɛɐ̯ˈkleːʁən]",
+            conjugation: { ich: "erkläre", du: "erklärst", er: "erklärt", wir: "erklären", ihr: "erklärt", sie: "erklären" },
+            examples: [{ de: "Können Sie das erklären?", fa: "می‌شود توضیح دهید؟" }]
+          },
+          {
+            de: "kochen",
+            fa: "پختن / آشپزی کردن",
+            ipa: "[ˈkɔxn̩]",
+            conjugation: { ich: "koche", du: "kochst", er: "kocht", wir: "kochen", ihr: "kocht", sie: "kochen" },
+            examples: [{ de: "Meine Mutter kocht gut.", fa: "مادرم خوب آشپزی می‌کند." }]
+          },
+          {
+            de: "wohnen",
+            fa: "زندگی کردن",
+            ipa: "[ˈvoːnən]",
+            conjugation: { ich: "wohne", du: "wohnst", er: "wohnt", wir: "wohnen", ihr: "wohnt", sie: "wohnen" },
+            examples: [{ de: "Wo wohnst du?", fa: "کجا زندگی می‌کنی؟" }]
+          },
+          {
+            de: "machen",
+            fa: "انجام دادن / ساختن",
+            ipa: "[ˈmaxn̩]",
+            conjugation: { ich: "mache", du: "machst", er: "macht", wir: "machen", ihr: "macht", sie: "machen" },
+            examples: [{ de: "Was machst du heute?", fa: "امروز چه کار می‌کنی؟" }]
+          },
+          {
+            de: "reisen",
+            fa: "سفر کردن",
+            ipa: "[ˈʁaɪ̯zn̩]",
+            conjugation: { ich: "reise", du: "reist", er: "reist", wir: "reisen", ihr: "reist", sie: "reisen" },
+            examples: [{ de: "Wir reisen nach Berlin.", fa: "به برلین سفر می‌کنیم." }]
           }
         ]
       }
     ]
   },
-  vocabData: {
-    categories: [
-      {
-        title: "ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¨Ø§Ù‚Ø§Ø¹Ø¯Ù‡ Ù¾Ø±Ú©Ø§Ø±Ø¨Ø±Ø¯",
-        words: [
-          { de: "lernen", fa: "ÛŒØ§Ø¯ Ú¯Ø±ÙØªÙ†", article: "-", plural: "-", examples: [{ de: "Ich lerne Deutsch.", fa: "Ù…Ù† Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù…." }, { de: "Wir lernen zusammen.", fa: "Ù…Ø§ Ø¨Ø§ Ù‡Ù… ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒÙ…." }] },
-          { de: "spielen", fa: "Ø¨Ø§Ø²ÛŒ Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Die Kinder spielen im Garten.", fa: "Ø¨Ú†Ù‡â€ŒÙ‡Ø§ Ø¯Ø± Ø¨Ø§Øº Ø¨Ø§Ø²ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯." }, { de: "Er spielt gut FuÃŸball.", fa: "Ø§Ùˆ Ø®ÙˆØ¨ ÙÙˆØªØ¨Ø§ل Ø¨Ø§Ø²ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }] },
-          { de: "kommen", fa: "Ø¢Ù…Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Woher kommst du?", fa: "Ø§Ù‡ل Ú©Ø¬Ø§ÛŒÛŒØŸ" }, { de: "Er kommt aus dem Iran.", fa: "Ø§Ùˆ Ø§Ø² Ø§ÛŒØ±Ø§Ù† Ù…ÛŒâ€ŒØ¢ÛŒØ¯." }] },
-          { de: "gehen", fa: "Ø±ÙØªÙ†", article: "-", plural: "-", examples: [{ de: "Ich gehe zur Arbeit.", fa: "Ù…Ù† Ø¨Ù‡ Ø³Ø± Ú©Ø§Ø± Ù…ÛŒâ€ŒØ±ÙˆÙ…." }, { de: "Wohin gehst du?", fa: "Ú©Ø¬Ø§ Ù…ÛŒâ€ŒØ±ÙˆÛŒØŸ" }] },
-          { de: "machen", fa: "Ø§Ù†Ø¬Ø§Ù… Ø¯Ø§Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Was machst du?", fa: "Ú†Ù‡ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†ÛŒØŸ" }, { de: "Er macht Sport.", fa: "Ø§Ùˆ ÙˆØ±Ø²Ø´ Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }] },
-          { de: "arbeiten", fa: "Ú©Ø§Ø± Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Ich arbeite in einer Bank.", fa: "Ù…Ù† Ø¯Ø± ÛŒÚ© Ø¨Ø§Ù†Ú© Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ù…." }, { de: "Sie arbeitet viel.", fa: "Ø§Ùˆ Ø²ÛŒØ§Ø¯ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }] },
-          { de: "wohnen", fa: "Ø²Ù†Ø¯Ú¯ÛŒ Ú©Ø±Ø¯Ù† / Ø³Ø§Ú©Ù† Ø¨ÙˆØ¯Ù†", article: "-", plural: "-", examples: [{ de: "Wo wohnst du?", fa: "Ú©Ø¬Ø§ Ø²Ù†Ø¯Ú¯ÛŒ Ù…ÛŒâ€ŒÚ©Ù†ÛŒØŸ" }, { de: "Wir wohnen in MÃ¼nchen.", fa: "Ù…Ø§ Ø¯Ø± Ù…ÙˆÙ†ÛŒØ® Ø²Ù†Ø¯Ú¯ÛŒ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…." }] },
-          { de: "fragen", fa: "Ù¾Ø±Ø³ÛŒØ¯Ù†", article: "-", plural: "-", examples: [{ de: "Darf ich Sie etwas fragen?", fa: "Ø¢ÛŒØ§ Ù…ÛŒâ€ŒØªÙˆØ§Ù†Ù… Ú†ÛŒØ²ÛŒ Ø§Ø² Ø´Ù…Ø§ Ø¨Ù¾Ø±Ø³Ù…ØŸ" }, { de: "Er fragt den Lehrer.", fa: "Ø§Ùˆ Ø§Ø² Ù…Ø¹لÙ… Ù…ÛŒâ€ŒÙ¾Ø±Ø³Ø¯." }] },
-          { de: "kaufen", fa: "Ø®Ø±ÛŒØ¯Ù†", article: "-", plural: "-", examples: [{ de: "Ich kaufe Brot.", fa: "Ù…Ù† Ù†Ø§Ù† Ù…ÛŒâ€ŒØ®Ø±Ù…." }, { de: "Sie kauft ein Kleid.", fa: "Ø§Ùˆ ÛŒÚ© لØ¨Ø§Ø³ Ù…ÛŒâ€ŒØ®Ø±Ø¯." }] },
-          { de: "suchen", fa: "Ø¬Ø³ØªØ¬Ùˆ Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Ich suche meinen SchlÃ¼ssel.", fa: "Ù…Ù† Ú©لÛŒØ¯Ù… Ø±Ø§ Ø¬Ø³ØªØ¬Ùˆ Ù…ÛŒâ€ŒÚ©Ù†Ù…." }, { de: "Wir suchen eine Wohnung.", fa: "Ù…Ø§ Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ø¬Ø³ØªØ¬Ùˆ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…." }] },
-          { de: "brauchen", fa: "Ù†ÛŒØ§Ø² Ø¯Ø§Ø´ØªÙ†", article: "-", plural: "-", examples: [{ de: "Ich brauche Hilfe.", fa: "Ù…Ù† Ú©Ù…Ú© Ù†ÛŒØ§Ø² Ø¯Ø§Ø±Ù…." }, { de: "Brauchst du Zeit?", fa: "Ø¢ÛŒØ§ ÙˆÙ‚Øª Ù†ÛŒØ§Ø² Ø¯Ø§Ø±ÛŒØŸ" }] },
-          { de: "hÃ¶ren", fa: "Ø´Ù†ÛŒØ¯Ù†", article: "-", plural: "-", examples: [{ de: "Ich hÃ¶re Musik.", fa: "Ù…Ù† Ù…ÙˆØ³ÛŒÙ‚ÛŒ Ú¯ÙˆØ´ Ù…ÛŒâ€ŒØ¯Ù‡Ù…." }, { de: "HÃ¶rst du das?", fa: "Ø¢ÛŒØ§ Ø§ÛŒÙ† Ø±Ø§ Ù…ÛŒâ€ŒØ´Ù†ÙˆÛŒØŸ" }] },
-          { de: "sagen", fa: "Ú¯ÙØªÙ†", article: "-", plural: "-", examples: [{ de: "Was sagst du?", fa: "Ú†Ù‡ Ù…ÛŒâ€ŒÚ¯ÙˆÛŒÛŒØŸ" }, { de: "Er sagt nichts.", fa: "Ø§Ùˆ Ú†ÛŒØ²ÛŒ Ù†Ù…ÛŒâ€ŒÚ¯ÙˆÛŒØ¯." }] },
-          { de: "zeigen", fa: "Ù†Ø´Ø§Ù† Ø¯Ø§Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "KÃ¶nnen Sie mir den Weg zeigen?", fa: "Ø¢ÛŒØ§ Ù…ÛŒâ€ŒØªÙˆØ§Ù†ÛŒØ¯ Ø±Ø§Ù‡ Ø±Ø§ Ø¨Ù‡ Ù…Ù† Ù†Ø´Ø§Ù† Ø¯Ù‡ÛŒØ¯ØŸ" }] },
-          { de: "Ã¶ffnen", fa: "Ø¨Ø§Ø² Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Bitte Ã¶ffnen Sie das Fenster.", fa: "لØ·ÙØ§Ù‹ Ù¾Ù†Ø¬Ø±Ù‡ Ø±Ø§ Ø¨Ø§Ø² Ú©Ù†ÛŒØ¯." }, { de: "Das GeschÃ¤ft Ã¶ffnet um neun.", fa: "Ù…ØºØ§Ø²Ù‡ Ø³Ø§Ø¹Øª Ù†Ù‡ Ø¨Ø§Ø² Ù…ÛŒâ€ŒØ´ÙˆØ¯." }] }
-        ]
-      }
-    ]
-  },
+
   reading: [
     {
-      text: "Mein Alltag\n\nIch heiÃŸe Maria und ich bin Studentin. Jeden Tag stehe ich um sieben Uhr auf. Ich frÃ¼hstÃ¼cke und dann gehe ich zur UniversitÃ¤t. Dort lerne ich Deutsch und Mathematik.\n\nNachmittags arbeite ich in einem CafÃ©. Ich mache Kaffee und Kuchen. Ich verdiene nicht viel Geld, aber ich lerne viel. Abends lerne ich fÃ¼r die Uni und dann schlafe ich.\n\nAm Wochenende spiele ich FuÃŸball mit meinen Freunden. Wir gehen oft ins Kino oder ins Restaurant. Ich liebe mein Leben!",
+      text: "Mein Alltag (زندگی روزمره من)\n\nIch heiße Maria und ich bin Studentin. Ich wohne in München und studiere an der Universität.\nIch frühstücke um 7 Uhr. Dann gehe ich zur Uni. Ich lerne Deutsch und Englisch. Meine Lehrerin erklärt die Aufgaben gut.\nNachmittags arbeite ich in einem Café. Ich koche Kaffee und mache Kuchen. Am Abend spiele ich mit meinen Freunden Fußball oder wir machen zusammen Hausaufgaben.\nAm Wochenende reise ich manchmal. Ich besuche meine Eltern in Hamburg oder kaufe neue Bücher. Das Leben ist gut.",
+      translation: [
+        { de: "Mein Alltag", fa: "زندگی روزمره من" },
+        { de: "Ich heiße Maria und ich bin Studentin.", fa: "نام من ماریاست و دانشجو هستم." },
+        { de: "Ich wohne in München und studiere an der Universität.", fa: "در مونیخ زندگی می‌کنم و در دانشگاه درس می‌خوانم." },
+        { de: "Ich frühstücke um 7 Uhr.", fa: "ساعت ۷ صبحانه می‌خورم." },
+        { de: "Dann gehe ich zur Uni.", fa: "بعد به دانشگاه می‌روم." },
+        { de: "Ich lerne Deutsch und Englisch.", fa: "آلمانی و انگلیسی یاد می‌گیرم." },
+        { de: "Meine Lehrerin erklärt die Aufgaben gut.", fa: "معلمم تمرین‌ها را خوب توضیح می‌دهد." },
+        { de: "Nachmittags arbeite ich in einem Café.", fa: "بعدازظهرها در یک کافه کار می‌کنم." },
+        { de: "Ich koche Kaffee und mache Kuchen.", fa: "قهوه می‌پزم و کیک درست می‌کنم." },
+        { de: "Am Abend spiele ich mit meinen Freunden Fußball.", fa: "شب‌ها با دوستانم فوتبال بازی می‌کنم." },
+        { de: "Am Wochenende reise ich manchmal.", fa: "آخر هفته‌ها گاهی سفر می‌کنم." },
+        { de: "Ich besuche meine Eltern in Hamburg.", fa: "والدینم را در هامبورگ ملاقات می‌کنم." },
+        { de: "Das Leben ist gut.", fa: "زندگی خوب است." }
+      ],
       questions: [
-        { question: "Ù…Ø§Ø±ÛŒØ§ Ù‡Ø± Ø±ÙˆØ² Ú†Ù†Ø¯ Ø³Ø§Ø¹Øª Ø¨ÛŒØ¯Ø§Ø± Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", answer: "Ø³Ø§Ø¹Øª Ù‡ÙØª (um sieben Uhr)." },
-        { question: "Ù…Ø§Ø±ÛŒØ§ Ú†Ù‡ Ø¯Ø±Ø³â€ŒÙ‡Ø§ÛŒÛŒ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù†Ø¯ØŸ", answer: "Ø¢لÙ…Ø§Ù†ÛŒ Ùˆ Ø±ÛŒØ§Ø¶ÛŒ (Deutsch und Mathematik)." },
-        { question: "Ù…Ø§Ø±ÛŒØ§ Ø¨Ø¹Ø¯Ø§Ø²Ø¸Ù‡Ø±Ù‡Ø§ Ú©Ø¬Ø§ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ", answer: "Ø¯Ø± ÛŒÚ© Ú©Ø§ÙÙ‡ (in einem CafÃ©)." },
-        { question: "Ù…Ø§Ø±ÛŒØ§ Ø¢Ø®Ø± Ù‡ÙØªÙ‡â€ŒÙ‡Ø§ Ú†Ù‡ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ", answer: "ÙÙˆØªØ¨Ø§ل Ø¨Ø§Ø²ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ø¯ Ùˆ Ø¨Ù‡ Ø³ÛŒÙ†Ù…Ø§ ÛŒØ§ Ø±Ø³ØªÙˆØ±Ø§Ù† Ù…ÛŒâ€ŒØ±ÙˆØ¯." }
+        { question: "ماریا کجا زندگی می‌کند و چه می‌کند؟", answer: "در مونیخ زندگی می‌کند و دانشجوست." },
+        { question: "ماریا صبحانه را کی می‌خورد؟", answer: "ساعت ۷." },
+        { question: "ماریا بعدازظهرها کجا کار می‌کند؟", answer: "در یک کافه." },
+        { question: "ماریا آخر هفته‌ها چه کار می‌کند؟", answer: "گاهی سفر می‌کند و والدینش را ملاقات می‌کند." }
       ]
     }
   ],
+
   writing: [
     {
-      title: "Ù†ÙˆØ´ØªÙ† Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø±ÙˆØ²Ø§Ù†Ù‡",
-      prompt: "Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø±ÙˆØ²Ø§Ù†Ù‡ Ø®ÙˆØ¯ Ø±Ø§ Ø¨Ø§ ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¨Ø§Ù‚Ø§Ø¹Ø¯Ù‡ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯.",
+      title: "نوشتن برنامه روزانه (Tagesplan)",
+      prompt: "با استفاده از فعل‌های منظم، برنامه روزانه خود را بنویسید.",
       steps: [
-        { title: "Ù…Ø±Ø­لÙ‡ Û±: ØµØ¨Ø­", text: "Ú©Ø§Ø±Ù‡Ø§ÛŒ ØµØ¨Ø­Ú¯Ø§Ù‡ÛŒ Ø®ÙˆØ¯ Ø±Ø§ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯", example: { de: "Ich stehe um sechs Uhr auf. Ich frÃ¼hstÃ¼cke um halb sieben.", fa: "Ù…Ù† Ø³Ø§Ø¹Øª Ø´Ø´ Ø¨ÛŒØ¯Ø§Ø± Ù…ÛŒâ€ŒØ´ÙˆÙ…. Ù…Ù† Ø³Ø§Ø¹Øª Ø´Ø´ Ùˆ Ù†ÛŒÙ… ØµØ¨Ø­Ø§Ù†Ù‡ Ù…ÛŒâ€ŒØ®ÙˆØ±Ù…." } },
-        { title: "Ù…Ø±Ø­لÙ‡ Û²: Ø±ÙˆØ²", text: "ÙØ¹Ø§لÛŒØªâ€ŒÙ‡Ø§ÛŒ Ø±ÙˆØ²Ø§Ù†Ù‡ Ø±Ø§ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯", example: { de: "Ich gehe zur Arbeit. Ich arbeite acht Stunden.", fa: "Ù…Ù† Ø¨Ù‡ Ø³Ø± Ú©Ø§Ø± Ù…ÛŒâ€ŒØ±ÙˆÙ…. Ù…Ù† Ù‡Ø´Øª Ø³Ø§Ø¹Øª Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ù…." } },
-        { title: "Ù…Ø±Ø­لÙ‡ Û³: Ø´Ø¨", text: "Ú©Ø§Ø±Ù‡Ø§ÛŒ Ø´Ø¨Ø§Ù†Ù‡ Ø±Ø§ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯", example: { de: "Abends lerne ich Deutsch. Dann schlafe ich.", fa: "Ø´Ø¨â€ŒÙ‡Ø§ Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù…. Ø¨Ø¹Ø¯ Ù…ÛŒâ€ŒØ®ÙˆØ§Ø¨Ù…." } }
+        {
+          title: "صبح",
+          text: "صبحانه و شروع روز را توصیف کنید.",
+          example: { de: "Ich frühstücke um 7 Uhr und gehe um 8 Uhr zur Arbeit.", fa: "ساعت ۷ صبحانه می‌خورم و ساعت ۸ به سر کار می‌روم." }
+        },
+        {
+          title: "ظهر و بعدازظهر",
+          text: "کارهای ظهر و بعدازظهر را بگویید.",
+          example: { de: "Mittags koche ich. Nachmittags lerne ich Deutsch.", fa: "ظهرها آشپزی می‌کنم. بعدازظهرها آلمانی یاد می‌گیرم." }
+        },
+        {
+          title: "عصر و شب",
+          text: "فعالیت‌های عصر و شب را توضیح دهید.",
+          example: { de: "Abends spiele ich Fußball oder mache Hausaufgaben.", fa: "شب‌ها فوتبال بازی می‌کنم یا تکالیفم را انجام می‌دهم." }
+        }
+      ],
+      modelAnswer: "Ich heiße Ali und bin Student. Ich frühstücke um 7 Uhr. Dann lerne ich Deutsch an der Universität. Meine Lehrerin erklärt gut. Nachmittags arbeite ich in einem Café. Ich koche Kaffee und mache Kuchen. Abends spiele ich mit meinen Freunden. Am Wochenende besuche ich meine Eltern. Ich reise manchmal nach Berlin."
+    }
+  ],
+
+  listening: [
+    {
+      title: "۱. فعل‌های منظم (A1 hören)",
+      instruction: "تمرین شنیداری:\n۱. جملات را بشنوید و فعل صرف‌شده را تشخیص دهید.\n۲. ضمیر هر فعل را مشخص کنید.\n۳. جملات را با صدای بلند تکرار کنید.",
+      sentences: [
+        { de: "Ich arbeite jeden Tag.", fa: "هر روز کار می‌کنم.", tts: "Ich arbeite jeden Tag." },
+        { de: "Du lernst schnell.", fa: "تو سریع یاد می‌گیری.", tts: "Du lernst schnell." },
+        { de: "Er spielt gut Fußball.", fa: "او خوب فوتبال بازی می‌کند.", tts: "Er spielt gut Fußball." },
+        { de: "Wir kochen zusammen.", fa: "با هم آشپزی می‌کنیم.", tts: "Wir kochen zusammen." },
+        { de: "Ihr reist nach Berlin.", fa: "شماها به برلین سفر می‌کنید.", tts: "Ihr reist nach Berlin." },
+        { de: "Sie verstehen das.", fa: "آن‌ها این را می‌فهمند.", tts: "Sie verstehen das." }
       ]
     }
   ],
-  listening: [
-    {
-      title: "ØªÙ…Ø±ÛŒÙ† Ø´Ù†ÛŒØ¯Ø§Ø±ÛŒ: ØµØ±Ù ÙØ¹ل",
-      source: "Deutsche Welle - Deutsch Lernen",
-      link: "https://www.dw.com/de/deutsch-lernen/s-2055",
-      instructions: "Ø¨Ù‡ ÙˆÛŒØ¯ÛŒÙˆ Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ ÙØ¹لâ€ŒÙ‡Ø§ÛŒ ØµØ±Ù Ø´Ø¯Ù‡ Ø±Ø§ Ø´Ù†Ø§Ø³Ø§ÛŒÛŒ Ú©Ù†ÛŒØ¯. Ù…Ø´Ø®Øµ Ú©Ù†ÛŒØ¯ Ù‡Ø± ÙØ¹ل Ø¨Ø§ Ú†Ù‡ Ø¶Ù…ÛŒØ±ÛŒ ØµØ±Ù Ø´Ø¯Ù‡ Ùˆ Ù…ØµØ¯Ø± Ø¢Ù† Ú†ÛŒØ³Øª."
-    }
-  ],
+
   speaking: [
     {
-      title: "ØªÙ…Ø±ÛŒÙ† Ú¯ÙØªØ§Ø±ÛŒ: ØªÙˆØµÛŒÙ Ø±ÙˆØ²Ø§Ù†Ù‡",
-      pattern: "Ich [ÙØ¹ل] um [Ø²Ù…Ø§Ù†]. Dann [ÙØ¹ل] ich [Ù…ÙØ¹Ùˆل]. Nachmittags [ÙØ¹ل] ich [ÙØ¹Ø§لÛŒØª].",
-      exercise: "Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø±ÙˆØ²Ø§Ù†Ù‡ Ø®ÙˆØ¯ Ø±Ø§ Ø¨Ø§ ØµØ¯Ø§ÛŒ Ø¨لÙ†Ø¯ Ø¨Ú¯ÙˆÛŒÛŒØ¯. Ø³Ø¹ÛŒ Ú©Ù†ÛŒØ¯ Ø§Ø² Ûµ ÙØ¹ل Ù…Ø®ØªلÙ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯."
+      title: "تمرین صرف فعل با صدا",
+      pattern: "- Was machst du?\n- Ich arbeite.\n- Wo arbeitest du?\n- Ich arbeite in einem Café.\n- Und was machst du am Wochenende?\n- Am Wochenende reise ich oder besuche meine Eltern.",
+      exercise: "تمرین:\nگام ۱: بخش pattern را بشنوید.\nگام ۲: جاهای خالی را با اطلاعات واقعی پر کنید.\nگام ۳: روزمره خود را توصیف کنید."
     }
   ],
-  cultureTip: "Ø¯Ø± Ø¢لÙ…Ø§Ù†ØŒ ÙˆÙ‚Øª Ø´Ù†Ø§Ø³ÛŒ Ø¨Ø³ÛŒØ§Ø± Ù…Ù‡Ù… Ø§Ø³Øª. Ø§Ú¯Ø± Ù‚Ø±Ø§Ø± Ù…لØ§Ù‚Ø§Øª Ø¯Ø§Ø±ÛŒØ¯ØŒ Ø¨Ø§ÛŒØ¯ Ø¯Ù‚ÛŒÙ‚Ø§Ù‹ Ø³Ø± ÙˆÙ‚Øª Ø¨Ø±Ø³ÛŒØ¯. ØªØ£Ø®ÛŒØ± Ûµ Ø¯Ù‚ÛŒÙ‚Ù‡â€ŒØ§ÛŒ Ù‚Ø§Ø¨ل Ù‚Ø¨Ùˆل Ø§Ø³ØªØŒ Ø§Ù…Ø§ Ø¨ÛŒØ´ØªØ± Ø§Ø² Ø¢Ù† Ø¨Ø§ÛŒØ¯ Ø¹Ø°Ø±Ø®ÙˆØ§Ù‡ÛŒ Ú©Ù†ÛŒØ¯. Ù†Ú©ØªÙ‡ Ø¬Ø§لØ¨: Ø¯Ø± Ø¢لÙ…Ø§Ù†ØŒ Â«Ù¾Ø§Ù†Ø²Ø¯Ù‡ Ø¯Ù‚ÛŒÙ‚Ù‡ Ù‚Ø¨ل Ø§Ø² ÙˆÙ‚ØªÂ» Ø±Ø³ÛŒØ¯Ù† Ù†Ø´Ø§Ù†â€ŒØ¯Ù‡Ù†Ø¯Ù‡ Ù†Ø¸Ù… Ùˆ Ø§Ù†Ø¶Ø¨Ø§Ø· Ø§Ø³ØªØŒ Ø§Ù…Ø§ Ø¨ÛŒØ´ØªØ± Ø§Ø² Ø¢Ù† Ù…Ù…Ú©Ù† Ø§Ø³Øª Ø¨ÛŒâ€ŒØ§Ø¯Ø¨ÛŒ ØªلÙ‚ÛŒ Ø´ÙˆØ¯!",
+
+  cultureTip: "در آلمان، ساعت کاری معمولاً ۸ صبح تا ۵ عصر است. وقفه ناهار (Mittagspause) بین ۱۲ تا ۱ بعدازظهر است و در این زمان بسیاری از مغازه‌ها بسته می‌شوند. آخر هفته‌ها (Samstag und Sonntag) مغازه‌ها در آلمان بسته هستند! این یکی از تفاوت‌های بزرگ با ایران است. فقط نانوایی‌ها و کافه‌ها صبح‌های شنبه باز هستند.",
+
   examData: {
     questions: [
-      { question: "ØµØ±Ù Â«duÂ» Ø¨Ø±Ø§ÛŒ ÙØ¹ل Â«spielenÂ» Ú†ÛŒØ³ØªØŸ", options: ["du spiele", "du spielst", "du spielt", "du spielen"], answer: 1 },
-      { question: "ØµØ±Ù Â«erÂ» Ø¨Ø±Ø§ÛŒ ÙØ¹ل Â«arbeitenÂ» Ú†ÛŒØ³ØªØŸ", options: ["er arbeit", "er arbeiten", "er arbeitet", "er arbeitst"], answer: 2 },
-      { question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ", options: ["Ich kommen aus Iran.", "Ich komme aus Iran.", "Ich kommst aus Iran.", "Ich kommt aus Iran."], answer: 1 },
-      { question: "Ø³Ø¤Ø§ل Â«Ø¢ÛŒØ§ ØªÙˆ Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØŸÂ» Ú†Ú¯ÙˆÙ†Ù‡ Ø³Ø§Ø®ØªÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Du lernst Deutsch?", "Lernst du Deutsch?", "Deutsch du lernst?", "Lernen du Deutsch?"], answer: 1 },
-      { question: "ØµØ±Ù Â«wirÂ» Ø¨Ø±Ø§ÛŒ ÙØ¹ل Â«machenÂ» Ú†ÛŒØ³ØªØŸ", options: ["wir macht", "wir machst", "wir machen", "wir mache"], answer: 2 },
-      { question: "Ú†Ø±Ø§ Â«du arbeitestÂ» ÛŒÚ© Â«eÂ» Ø§Ø¶Ø§ÙÛŒ Ø¯Ø§Ø±Ø¯ØŸ", options: ["Ú†ÙˆÙ† ÙØ¹ل Ø¨ÛŒâ€ŒÙ‚Ø§Ø¹Ø¯Ù‡ Ø§Ø³Øª", "Ú†ÙˆÙ† Ø±ÛŒØ´Ù‡ ÙØ¹ل Ø¨Ø§ -t ØªÙ…Ø§Ù… Ù…ÛŒâ€ŒØ´ÙˆØ¯", "Ú†ÙˆÙ† du Ù…Ø­Ø§ÙˆØ±Ù‡â€ŒØ§ÛŒ Ø§Ø³Øª", "Ú†ÙˆÙ† ÙØ¹ل Ø¨Ø§Ù‚Ø§Ø¹Ø¯Ù‡ Ø§Ø³Øª"], answer: 1 },
-      { question: "ØµØ±Ù Â«ihrÂ» Ø¨Ø±Ø§ÛŒ ÙØ¹ل Â«kommenÂ» Ú†ÛŒØ³ØªØŸ", options: ["ihr komme", "ihr kommst", "ihr kommt", "ihr kommen"], answer: 2 },
-      { question: "Â«Ù…Ù† Ø¯Ø± ÛŒÚ© Ø´Ø±Ú©Øª Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ù…Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Ich arbeite in einer Firma.", "Ich arbeiten in einer Firma.", "Ich arbeitet in einer Firma.", "Ich arbeitest in einer Firma."], answer: 0 },
-      { question: "ØµØ±Ù Â«SieÂ» (Ø±Ø³Ù…ÛŒ) Ø¨Ø±Ø§ÛŒ ÙØ¹ل Â«gehenÂ» Ú†ÛŒØ³ØªØŸ", options: ["Sie gehe", "Sie gehst", "Sie geht", "Sie gehen"], answer: 3 },
-      { question: "Â«Ù…Ø§ Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ø¬Ø³ØªØ¬Ùˆ Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Wir suchen eine Wohnung.", "Wir sucht eine Wohnung.", "Wir suchst eine Wohnung.", "Wir suche eine Wohnung."], answer: 0 }
+      {
+        question: "صرف فعل «arbeiten» با du چیست؟",
+        options: ["du arbeitst", "du arbeitest", "du arbeitet"],
+        answer: 1
+      },
+      {
+        question: "صرف فعل «spielen» با er چیست؟",
+        options: ["er spiele", "er spielst", "er spielt"],
+        answer: 2
+      },
+      {
+        question: "کدام فعل در du و er تغییر صدا دارد؟",
+        options: ["lernen", "spielen", "fahren", "arbeiten"],
+        answer: 2
+      },
+      {
+        question: "صرف فعل «fahren» با du چیست؟",
+        options: ["du fahrst", "du fährst", "du fahret"],
+        answer: 1
+      },
+      {
+        question: "فعل‌هایی که با t ختم می‌شوند در du چه پسوندی می‌گیرند؟",
+        options: ["-st", "-est", "-t"],
+        answer: 1
+      },
+      {
+        question: "صرف فعل «kochen» با wir چیست؟",
+        options: ["wir kocht", "wir kochen", "wir koche"],
+        answer: 1
+      },
+      {
+        question: "«Ich frühstücke um 7 Uhr» یعنی چه؟",
+        options: ["ساعت ۷ بیدار می‌شوم", "ساعت ۷ صبحانه می‌خورم", "ساعت ۷ سر کار می‌روم"],
+        answer: 1
+      },
+      {
+        question: "صرف فعل «verstehen» با sie (آن‌ها) چیست؟",
+        options: ["sie versteht", "sie verstehe", "sie verstehen"],
+        answer: 2
+      },
+      {
+        question: "کدام جمله صحیح است؟",
+        options: ["Ich lerne Deutsch.", "Ich lernst Deutsch.", "Ich lernt Deutsch."],
+        answer: 0
+      },
+      {
+        question: "صرف فعل «sprechen» با er (با تغییر صدا) چیست؟",
+        options: ["er spricht", "er spreche", "er spricht"],
+        answer: 0
+      }
     ]
   }
 };

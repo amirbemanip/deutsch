@@ -1,99 +1,98 @@
 export const day35Data = {
-  title: "Ø±ÙˆØ² Û³Ûµ: Ù…Ø±ÙˆØ± Ø¬Ø§Ù…Ø¹ Ø³Ø·Ø­ A2 - Ø¢Ø²Ù…ÙˆÙ† Ø¬Ø§Ù…Ø¹",
-  objective: "Ù…Ø±ÙˆØ± Ùˆ Ø¢Ø²Ù…ÙˆÙ† Ø¬Ø§Ù…Ø¹ ØªÙ…Ø§Ù… Ù…Ø¨Ø§Ø­Ø« A2 Ø´Ø§Ù…ل PerfektØŒ DativØŒ Ø­Ø±ÙˆÙ Ø±Ø¨Ø·ØŒ ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¨Ø§Ø²Ú¯Ø´ØªÛŒØŒ Ù…Ù‚Ø§ÛŒØ³Ù‡ Ùˆ Ø§ÙØ¹Ø§ل Ù…ÙˆØ¯Ø§ل",
+  title: "روز ۳۵: مرور جامع سطح A2 + آزمون جامع",
+  objective: "مرور و جمع‌بندی تمام مباحث A2 شامل Perfekt، Dativ، حروف ربط، فعل‌های بازگشتی، مقارنه، افعال مودال و حروف اضافه مکانی-زمانی",
+  level: "A2",
 
   grammarData: {
-    subtitle: "Ù…Ø±ÙˆØ± Ø¬Ø§Ù…Ø¹ Ú¯Ø±Ø§Ù…Ø± A2",
+    subtitle: "مرور جامع گرامر A2",
     content: [
       {
         type: "text",
-        title: "Û±. Ø²Ù…Ø§Ù† Ú¯Ø°Ø´ØªÙ‡ (Perfekt)",
-        text: "Ø²Ù…Ø§Ù† Perfekt Ø¨Ø±Ø§ÛŒ Ø¨ÛŒØ§Ù† Ú©Ø§Ø±Ù‡Ø§ÛŒ Ú¯Ø°Ø´ØªÙ‡ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯. ÙØ±Ù…Ùˆل: haben/sein (ØµØ±Ù Ø´Ø¯Ù‡) + Ù…ÙØ¹Ùˆل/ Ù‚ÛŒØ¯ + Partizip II (Ù‚Ø³Ù…Øª Ø³ÙˆÙ… ÙØ¹ل) Ø¯Ø± Ø¢Ø®Ø±. Ø§ÙØ¹Ø§ل Ø­Ø±Ú©ØªÛŒ Ùˆ ØªØºÛŒÛŒØ± Ø­Ø§لØª Ø¨Ø§ sein Ùˆ Ø¨Ù‚ÛŒÙ‡ Ø¨Ø§ haben ØµØ±Ù Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯."
+        title: "۱. زمان گذشته (Perfekt)",
+        text: "زمان Perfekt برای بیان کارهای گذشته استفاده می‌شود. فرمول: haben/sein (صرف شده) + مفعول/ قید + Partizip II (قسمت سوم فعل) در آخر. افعال حرکتی و تغییر حالت با sein و بقیه با haben صرف می‌شوند."
       },
       {
         type: "examples",
-        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ Perfekt",
+        title: "مثال‌های Perfekt",
         items: [
-          { de: "Ich habe gestern Deutsch gelernt.", fa: "Ø¯ÛŒØ±ÙˆØ² Ø¢لÙ…Ø§Ù†ÛŒ Ø®ÙˆØ§Ù†Ø¯Ù…." },
-          { de: "Er ist nach Berlin gefahren.", fa: "Ø§Ùˆ Ø¨Ù‡ Ø¨Ø±لÛŒÙ† Ø±ÙØª." },
-          { de: "Wir haben das Buch gelesen.", fa: "Ù…Ø§ Ú©ØªØ§Ø¨ Ø±Ø§ Ø®ÙˆØ§Ù†Ø¯ÛŒÙ…." },
-          { de: "Sie ist um 8 Uhr aufgestanden.", fa: "Ø§Ùˆ Ø³Ø§Ø¹Øª Û¸ Ø¨لÙ†Ø¯ Ø´Ø¯." },
-          { de: "Ich habe mein Zimmer aufgerÃ¤umt.", fa: "Ø§ØªØ§Ù‚Ù… Ø±Ø§ Ù…Ø±ØªØ¨ Ú©Ø±Ø¯Ù…." },
-          { de: "Die Kinder sind im Park gespielt.", fa: "Ø¨Ú†Ù‡â€ŒÙ‡Ø§ Ø¯Ø± Ù¾Ø§Ø±Ú© Ø¨Ø§Ø²ÛŒ Ú©Ø±Ø¯Ù†Ø¯." }
+          { de: "Ich habe gestern Deutsch gelernt.", fa: "دیروز آلمانی خواندم." },
+          { de: "Er ist nach Berlin gefahren.", fa: "او به برلین رفت." },
+          { de: "Wir haben das Buch gelesen.", fa: "ما کتاب را خواندیم." },
+          { de: "Sie ist um 8 Uhr aufgestanden.", fa: "او ساعت ۸ بلند شد." },
+          { de: "Ich habe mein Zimmer aufgeräumt.", fa: "اتاقم را مرتب کردم." },
+          { de: "Die Kinder sind im Park gespielt.", fa: "بچه‌ها در پارک بازی کردند." }
         ]
       },
       {
         type: "text",
-        title: "Û². Ø­Ø§لØª Dativ",
-        text: "Dativ Ø¨Ø±Ø§ÛŒ Ù…ÙØ¹ÙˆلÛŒ ØºÛŒØ±Ù…Ø³ØªÙ‚ÛŒÙ… Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯. ØªØºÛŒÛŒØ±Ø§Øª: derâ†’dem, dieâ†’der, dasâ†’dem, die(pl)â†’den+n. Ø§ÙØ¹Ø§ل Ù…Ù‡Ù… Dativ: helfen, danken, gehÃ¶ren, gefallen, antworten."
+        title: "۲. حالت Dativ",
+        text: "Dativ برای مفعول غیرمستقیم استفاده می‌شود. تغییرات: der→dem, die→der, das→dem, die(pl)→den+n. افعال مهم Dativ: helfen, danken, gehören, gefallen, antworten."
       },
       {
         type: "table",
-        title: "Ù…Ø±ÙˆØ± Dativ",
+        title: "مرور Dativ",
         rows: [
-          { de: "der Lehrer â†’ dem Lehrer", fa: "Ich helfe dem Lehrer." },
-          { de: "die Mutter â†’ der Mutter", fa: "Ich danke der Mutter." },
-          { de: "das Kind â†’ dem Kind", fa: "Das Spielzeug gehÃ¶rt dem Kind." },
-          { de: "die Kinder â†’ den Kindern", fa: "Das Essen schmeckt den Kindern." },
-          { de: "ich â†’ mir", fa: "Gib mir bitte das Buch!" },
-          { de: "du â†’ dir", fa: "Das gefÃ¤llt dir sehr." },
-          { de: "er/sie/es â†’ ihm/ihr/ihm", fa: "Ich helfe ihr." },
-          { de: "wir/ihr/sie â†’ uns/euch/ihnen", fa: "Sie danken uns." }
+          { de: "der Lehrer → dem Lehrer", fa: "Ich helfe dem Lehrer." },
+          { de: "die Mutter → der Mutter", fa: "Ich danke der Mutter." },
+          { de: "das Kind → dem Kind", fa: "Das Spielzeug gehört dem Kind." },
+          { de: "die Kinder → den Kindern", fa: "Das Essen schmeckt den Kindern." },
+          { de: "ich → mir", fa: "Gib mir bitte das Buch!" },
+          { de: "du → dir", fa: "Das gefällt dir sehr." },
+          { de: "er/sie/es → ihm/ihr/ihm", fa: "Ich helfe ihr." },
+          { de: "wir/ihr/sie → uns/euch/ihnen", fa: "Sie danken uns." }
         ]
       },
       {
         type: "text",
-        title: "Û³. Ø­Ø±ÙˆÙ Ø±Ø¨Ø· (Konnektoren)",
-        text: "Ø­Ø±ÙˆÙ Ø±Ø¨Ø· ÙØ±Ø¹ÛŒ (weil, obwohl, wenn, dass, damit) ÙØ¹ل Ø±Ø§ Ø¨Ù‡ Ø¢Ø®Ø± Ù…ÛŒâ€ŒÙØ±Ø³ØªÙ†Ø¯. Ø­Ø±ÙˆÙ Ø±Ø¨Ø· Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Û± (deshalb, trotzdem, also, dann) ÙØ¹ل Ø±Ø§ Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Û² Ù†Ú¯Ù‡ Ù…ÛŒâ€ŒØ¯Ø§Ø±Ù†Ø¯."
+        title: "۳. حروف ربط (Konnektoren)",
+        text: "حروف ربط فرعی (weil, obwohl, wenn, dass, damit) فعل را به آخر می‌فرستند. حروف ربط جایگاه ۱ (deshalb, trotzdem, also, dann) فعل را در جایگاه ۲ نگه می‌دارند."
       },
       {
         type: "examples",
-        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ Ø­Ø±ÙˆÙ Ø±Ø¨Ø·",
+        title: "مثال‌های حروف ربط",
         items: [
-          { de: "Ich lerne Deutsch, weil ich in Deutschland leben mÃ¶chte.", fa: "Ø¢لÙ…Ø§Ù†ÛŒ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù†Ù… Ú†ÙˆÙ† Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ù… Ø¯Ø± Ø¢لÙ…Ø§Ù† Ø²Ù†Ø¯Ú¯ÛŒ Ú©Ù†Ù…." },
-          { de: "Es regnet, deshalb bleibe ich zu Hause.", fa: "Ø¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¢ÛŒØ¯ØŒ Ø¨Ù‡ Ù‡Ù…ÛŒÙ† Ø¯لÛŒل Ø¯Ø± Ø®Ø§Ù†Ù‡ Ù…ÛŒâ€ŒÙ…Ø§Ù†Ù…." },
-          { de: "Obwohl es kalt ist, gehe ich spazieren.", fa: "Ø¨Ø§ ÙˆØ¬ÙˆØ¯ Ø§ÛŒÙ†Ú©Ù‡ Ù‡ÙˆØ§ Ø³Ø±Ø¯ Ø§Ø³ØªØŒ Ù¾ÛŒØ§Ø¯Ù‡â€ŒØ±ÙˆÛŒ Ù…ÛŒâ€ŒØ±ÙˆÙ…." },
-          { de: "Er ist mÃ¼de, trotzdem arbeitet er weiter.", fa: "Ø§Ùˆ Ø®Ø³ØªÙ‡ Ø§Ø³ØªØŒ Ø¨Ø§ Ø§ÛŒÙ† Ø­Ø§ل Ø¨Ù‡ Ú©Ø§Ø± Ø§Ø¯Ø§Ù…Ù‡ Ù…ÛŒâ€ŒØ¯Ù‡Ø¯." },
-          { de: "Wenn es regnet, nehme ich einen Schirm.", fa: "ÙˆÙ‚ØªÛŒ Ø¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¢ÛŒØ¯ØŒ Ú†ØªØ± Ù…ÛŒâ€ŒØ¨Ø±Ù…." },
-          { de: "Ich weiÃŸ, dass er Deutsch spricht.", fa: "Ù…Ù† Ù…ÛŒâ€ŒØ¯Ø§Ù†Ù… Ú©Ù‡ Ø§Ùˆ Ø¢لÙ…Ø§Ù†ÛŒ ØµØ­Ø¨Øª Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }
+          { de: "Ich lerne Deutsch, weil ich in Deutschland leben möchte.", fa: "آلمانی می‌خوانم چون می‌خواهم در آلمان زندگی کنم." },
+          { de: "Es regnet, deshalb bleibe ich zu Hause.", fa: "باران می‌آید، به همین دلیل در خانه می‌مانم." },
+          { de: "Obwohl es kalt ist, gehe ich spazieren.", fa: "با وجود اینکه هوا سرد است، پیاده‌روی می‌روم." },
+          { de: "Er ist müde, trotzdem arbeitet er weiter.", fa: "او خسته است، با این حال به کار ادامه می‌دهد." }
         ]
       },
       {
         type: "text",
-        title: "Û´. Ù…Ù‚Ø§ÛŒØ³Ù‡ (Komparativ und Superlativ)",
-        text: "Komparativ: ØµÙØª + er (schneller, grÃ¶ÃŸer). Superlativ: am + ØµÙØª + sten (am schnellsten) ÛŒØ§ der/die/das + ØµÙØª + ste (der schnellste)."
+        title: "۴. مقارنه (Komparativ und Superlativ)",
+        text: "Komparativ: صفت + er (schneller, größer). Superlativ: am + صفت + sten (am schnellsten) یا der/die/das + صفت + ste (der schnellste)."
       },
       {
         type: "examples",
-        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ Ù…Ù‚Ø§ÛŒØ³Ù‡",
+        title: "مثال‌های مقارنه",
         items: [
-          { de: "Berlin ist grÃ¶ÃŸer als MÃ¼nchen.", fa: "Ø¨Ø±لÛŒÙ† Ø¨Ø²Ø±Ú¯â€ŒØªØ± Ø§Ø² Ù…ÙˆÙ†ÛŒØ® Ø§Ø³Øª." },
-          { de: "Mein Bruder ist Ã¤lter als ich.", fa: "Ø¨Ø±Ø§Ø¯Ø±Ù… Ø¨Ø²Ø±Ú¯â€ŒØªØ± Ø§Ø² Ù…Ù† Ø§Ø³Øª." },
-          { de: "Das ist das beste Restaurant in der Stadt.", fa: "Ø§ÛŒÙ† Ø¨Ù‡ØªØ±ÛŒÙ† Ø±Ø³ØªÙˆØ±Ø§Ù† Ø´Ù‡Ø± Ø§Ø³Øª." },
-          { de: "Wer lÃ¤uft am schnellsten?", fa: "Ú†Ù‡ Ú©Ø³ÛŒ Ø³Ø±ÛŒØ¹â€ŒØªØ± Ù…ÛŒâ€ŒØ¯ÙˆØ¯ØŸ" }
+          { de: "Berlin ist größer als München.", fa: "برلین بزرگ‌تر از مونیخ است." },
+          { de: "Mein Bruder ist älter als ich.", fa: "برادرم بزرگ‌تر از من است." },
+          { de: "Das ist das beste Restaurant in der Stadt.", fa: "این بهترین رستوران شهر است." },
+          { de: "Wer läuft am schnellsten?", fa: "چه کسی سریع‌تر می‌دود؟" }
         ]
       },
       {
         type: "text",
-        title: "Ûµ. ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¨Ø§Ø²Ú¯Ø´ØªÛŒ (Reflexive Verben)",
-        text: "Ø¨Ø¹Ø¶ÛŒ Ø§ÙØ¹Ø§ل Ø¯Ø± Ø¢لÙ…Ø§Ù†ÛŒ Ø¨Ø§ Ø¶Ù…ÛŒØ± Ø¨Ø§Ø²Ú¯Ø´ØªÛŒ (sich) Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯. sich waschen (Ø®ÙˆØ¯ Ø±Ø§ Ø´Ø³ØªÙ†), sich fÃ¼hlen (Ø§Ø­Ø³Ø§Ø³ Ú©Ø±Ø¯Ù†), sich freuen (Ø®ÙˆØ´Ø­Ø§ل Ø´Ø¯Ù†)."
+        title: "۵. فعل‌های بازگشتی (Reflexive Verben)",
+        text: "بعضی افعال در آلمانی با ضمیر بازگشتی (sich) استفاده می‌شوند. sich waschen (خود را شستن)، sich fühlen (احساس کردن)، sich freuen (خوشحال شدن)."
       },
       {
         type: "examples",
-        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ ÙØ¹ل Ø¨Ø§Ø²Ú¯Ø´ØªÛŒ",
+        title: "مثال‌های فعل بازگشتی",
         items: [
-          { de: "Ich wasche mich jeden Morgen.", fa: "Ù‡Ø± ØµØ¨Ø­ Ø®ÙˆØ¯Ù… Ø±Ø§ Ù…ÛŒâ€ŒØ´ÙˆÛŒÙ…." },
-          { de: "Er freut sich Ã¼ber das Geschenk.", fa: "Ø§Ùˆ Ø§Ø² Ù‡Ø¯ÛŒÙ‡ Ø®ÙˆØ´Ø­Ø§ل Ù…ÛŒâ€ŒØ´ÙˆØ¯." },
-          { de: "Wir setzen uns an den Tisch.", fa: "Ù…Ø§ Ù¾Ø´Øª Ù…ÛŒØ² Ù…ÛŒâ€ŒÙ†Ø´ÛŒÙ†ÛŒÙ…." },
-          { de: "Ich fÃ¼hle mich heute gut.", fa: "Ø§Ù…Ø±ÙˆØ² Ø­Ø§لÙ… Ø®ÙˆØ¨ Ø§Ø³Øª." }
+          { de: "Ich wasche mich jeden Morgen.", fa: "هر صبح خودم را می‌شویم." },
+          { de: "Er freut sich über das Geschenk.", fa: "او از هدیه خوشحال می‌شود." },
+          { de: "Wir setzen uns an den Tisch.", fa: "ما پشت میز می‌نشینیم." },
+          { de: "Ich fühle mich heute gut.", fa: "امروح حالم خوب است." }
         ]
       },
       {
         type: "interactive_quiz",
-        title: "Ø¢Ø²Ù…ÙˆÙ† Ø¬Ø§Ù…Ø¹ A2",
+        title: "آزمون جامع A2",
         questions: [
           {
-            question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ Perfekt ØµØ­ÛŒØ­ Ø¯Ø§Ø±Ø¯ØŸ",
+            question: "کدام جمله Perfekt صحیح دارد؟",
             questionDe: "Welcher Satz hat richtiges Perfekt?",
             options: [
               { text: "Ich habe gelernt gestern.", isCorrect: false },
@@ -101,10 +100,10 @@ export const day35Data = {
               { text: "Ich gelernt habe gestern.", isCorrect: false },
               { text: "Gestern ich habe gelernt.", isCorrect: false }
             ],
-            explanation: "Ø¯Ø± PerfektØŒ Partizip II (gelernt) Ø¯Ø± Ø¢Ø®Ø± Ø¬Ù…لÙ‡ Ù‚Ø±Ø§Ø± Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯."
+            explanation: "در Perfekt، Partizip II (gelernt) در آخر جمله قرار می‌گیرد."
           },
           {
-            question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ Dativ ØµØ­ÛŒØ­ Ø¯Ø§Ø±Ø¯ØŸ",
+            question: "کدام جمله Dativ صحیح دارد؟",
             questionDe: "Welcher Satz hat richtiges Dativ?",
             options: [
               { text: "Ich helfe den Lehrer.", isCorrect: false },
@@ -112,10 +111,10 @@ export const day35Data = {
               { text: "Ich helfe der Lehrer.", isCorrect: false },
               { text: "Ich helfe das Lehrer.", isCorrect: false }
             ],
-            explanation: "helfen Ø¨Ø§ Dativ Ù…ÛŒâ€ŒØ¢ÛŒØ¯. der Lehrer Ø¯Ø± Dativ â†’ dem Lehrer."
+            explanation: "helfen با Dativ می‌آید. der Lehrer در Dativ → dem Lehrer."
           },
           {
-            question: "Ú©Ø¯Ø§Ù… Ø­Ø±Ù Ø±Ø¨Ø· ÙØ¹ل Ø±Ø§ Ø¨Ù‡ Ø¢Ø®Ø± Ù…ÛŒâ€ŒÙØ±Ø³ØªØ¯ØŸ",
+            question: "کدام حرف ربط فعل را به آخر می‌فرستد؟",
             questionDe: "Welcher Konnektor schickt das Verb ans Ende?",
             options: [
               { text: "deshalb", isCorrect: false },
@@ -123,33 +122,33 @@ export const day35Data = {
               { text: "trotzdem", isCorrect: false },
               { text: "also", isCorrect: false }
             ],
-            explanation: "weil ÛŒÚ© Subjunktion Ø§Ø³Øª Ùˆ ÙØ¹ل Ø±Ø§ Ø¨Ù‡ Ø¢Ø®Ø± Ø¬Ù…لÙ‡ ÙØ±Ø¹ÛŒ Ù…ÛŒâ€ŒÙØ±Ø³ØªØ¯."
+            explanation: "weil یک Subjunktion است و فعل را به آخر جمله فرعی می‌فرستد."
           },
           {
-            question: "Ù…Ù‚Ø§ÛŒØ³Ù‡: Ø¨Ø±لÛŒÙ† Ø¨Ø²Ø±Ú¯â€ŒØªØ± Ø§Ø² Ù‡Ø§Ù…Ø¨ÙˆØ±Ú¯:",
+            question: "مقارنه: برلین بزرگ‌تر از هامبورگ:",
             options: [
-              { text: "Berlin ist grÃ¶ÃŸer wie Hamburg.", isCorrect: false },
-              { text: "Berlin ist grÃ¶ÃŸer als Hamburg.", isCorrect: true },
-              { text: "Berlin ist am grÃ¶ÃŸter als Hamburg.", isCorrect: false },
-              { text: "Berlin ist mehr groÃŸ als Hamburg.", isCorrect: false }
+              { text: "Berlin ist größer wie Hamburg.", isCorrect: false },
+              { text: "Berlin ist größer als Hamburg.", isCorrect: true },
+              { text: "Berlin ist am größter als Hamburg.", isCorrect: false },
+              { text: "Berlin ist mehr groß als Hamburg.", isCorrect: false }
             ],
-            explanation: "Ø¯Ø± Ù…Ù‚Ø§ÛŒØ³Ù‡ Ø§Ø² als Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŒ Ù†Ù‡ wie."
+            explanation: "در مقارنه از als استفاده می‌شود، نه wie."
           }
         ]
       },
       {
         type: "fill_blank",
-        title: "ØªÚ©Ù…ÛŒل Ø¬Ù…لØ§Øª Ù…Ø±ÙˆØ± A2",
-        instruction: "Ø¬Ø§ÛŒ Ø®Ø§لÛŒ Ø±Ø§ Ø¨Ø§ Ø´Ú©ل ØµØ­ÛŒØ­ Ù¾Ø± Ú©Ù†ÛŒØ¯.",
+        title: "تکمیل جملات مرور A2",
+        instruction: "جای خالی را با شکل صحیح پر کنید.",
         blanks: [
-          { sentence: "Ich ___ gestern ins Kino ___. (Perfekt: gehen)", answer: "bin, gegangen", hint: "gehen Ø¨Ø§ sein: bin gegangen" },
-          { sentence: "Sie ___ dem Lehrer fÃ¼r die Hilfe ___. (Dativ: danken)", answer: "dankt", hint: "danken + Dativ" },
-          { sentence: "Es regnet, ___ bleibe ich zu Hause.", answer: "deshalb", hint: "Ø­Ø±Ù Ø±Ø¨Ø· Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Û±: deshalb" },
-          { sentence: "Er ist grÃ¶ÃŸer ___ sein Bruder. (Ù…Ù‚Ø§ÛŒØ³Ù‡)", answer: "als", hint: "Ù…Ù‚Ø§ÛŒØ³Ù‡: als" },
-          { sentence: "Ich ___ mich jeden Morgen. (Ø¨Ø§Ø²Ú¯Ø´ØªÛŒ: waschen)", answer: "wasche", hint: "sich waschen â†’ ich wasche mich" },
-          { sentence: "___ es kalt ist, gehe ich spazieren.", answer: "Obwohl", hint: "Ø¨Ø§ ÙˆØ¬ÙˆØ¯ Ø§ÛŒÙ†Ú©Ù‡: obwohl" },
-          { sentence: "Das Buch ___ mir sehr gut. (Dativ: gefallen)", answer: "gefÃ¤llt", hint: "gefallen + Dativ" },
-          { sentence: "Wer ist der ___ Sportler? (Ø¨Ù‡ØªØ±ÛŒÙ†)", answer: "beste", hint: "Superlativ: der beste" }
+          { sentence: "Ich ___ gestern ins Kino ___. (Perfekt: gehen)", answer: "bin, gegangen", hint: "gehen با sein: bin gegangen" },
+          { sentence: "Sie ___ dem Lehrer für die Hilfe ___. (Dativ: danken)", answer: "dankt", hint: "danken + Dativ" },
+          { sentence: "Es regnet, ___ bleibe ich zu Hause.", answer: "deshalb", hint: "حرف ربط جایگاه ۱: deshalb" },
+          { sentence: "Er ist größer ___ sein Bruder. (مقارنه)", answer: "als", hint: "مقارنه: als" },
+          { sentence: "Ich ___ mich jeden Morgen. (بازگشتی: waschen)", answer: "wasche", hint: "sich waschen → ich wasche mich" },
+          { sentence: "___ es kalt ist, gehe ich spazieren.", answer: "Obwohl", hint: "با وجود اینکه: obwohl" },
+          { sentence: "Das Buch ___ mir sehr gut. (Dativ: gefallen)", answer: "gefällt", hint: "gefallen + Dativ" },
+          { sentence: "Wer ist der ___ Sportler? (بهترین)", answer: "beste", hint: "Superlativ: der beste" }
         ]
       }
     ]
@@ -158,23 +157,20 @@ export const day35Data = {
   vocabData: {
     categories: [
       {
-        title: "Ù…Ø±ÙˆØ± ÙˆØ§Ú˜Ú¯Ø§Ù† Ú©لÛŒØ¯ÛŒ A2",
+        title: "مرور واژگان کلیدی A2",
         words: [
-          { de: "die Vergangenheit", fa: "Ú¯Ø°Ø´ØªÙ‡", article: "die", plural: "-", examples: [{ de: "In der Vergangenheit war alles anders.", fa: "Ø¯Ø± Ú¯Ø°Ø´ØªÙ‡ Ù‡Ù…Ù‡ Ú†ÛŒØ² Ù…ØªÙØ§ÙˆØª Ø¨ÙˆØ¯." }] },
-          { de: "die Gegenwart", fa: "Ø­Ø§ل", article: "die", plural: "-", examples: [{ de: "In der Gegenwart lernen wir viel.", fa: "Ø¯Ø± Ø­Ø§ل Ø­Ø§Ø¶Ø± Ø®ÛŒلÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒÙ…." }] },
-          { de: "die Zukunft", fa: "Ø¢ÛŒÙ†Ø¯Ù‡", article: "die", plural: "die ZukÃ¼nfte", examples: [{ de: "Ich plane fÃ¼r die Zukunft.", fa: "Ø¨Ø±Ø§ÛŒ Ø¢ÛŒÙ†Ø¯Ù‡ Ø¨Ø±Ù†Ø§Ù…Ù‡â€ŒØ±ÛŒØ²ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ù…." }] },
-          { de: "der Vergleich", fa: "Ù…Ù‚Ø§ÛŒØ³Ù‡", article: "der", plural: "die Vergleiche", examples: [{ de: "Im Vergleich zu letztem Jahr bin ich besser.", fa: "Ø¯Ø± Ù…Ù‚Ø§ÛŒØ³Ù‡ Ø¨Ø§ Ø³Ø§ل Ú¯Ø°Ø´ØªÙ‡ Ø¨Ù‡ØªØ± Ù‡Ø³ØªÙ…." }] },
-          { de: "die Verbindung", fa: "Ø§Ø±ØªØ¨Ø§Ø· / Ø­Ø±Ù Ø±Ø¨Ø·", article: "die", plural: "die Verbindungen", examples: [{ de: "Die Konnektoren sind wichtige Verbindungen.", fa: "Ø­Ø±ÙˆÙ Ø±Ø¨Ø· Ø§Ø±ØªØ¨Ø§Ø·Ø§Øª Ù…Ù‡Ù…ÛŒ Ù‡Ø³ØªÙ†Ø¯." }] },
-          { de: "der RÃ¼ckblick", fa: "Ù†Ú¯Ø§Ù‡ Ø¨Ù‡ Ú¯Ø°Ø´ØªÙ‡", article: "der", plural: "die RÃ¼ckblicke", examples: [{ de: "Ein RÃ¼ckblick zeigt meinen Fortschritt.", fa: "Ù†Ú¯Ø§Ù‡ Ø¨Ù‡ Ú¯Ø°Ø´ØªÙ‡ Ù¾ÛŒØ´Ø±ÙØª Ù…Ù† Ø±Ø§ Ù†Ø´Ø§Ù† Ù…ÛŒâ€ŒØ¯Ù‡Ø¯." }] }
-        ]
-      },
-      {
-        title: "Ø¹Ø¨Ø§Ø±Ø§Øª Ú©لÛŒØ¯ÛŒ A2",
-        words: [
-          { de: "in der Vergangenheit", fa: "Ø¯Ø± Ú¯Ø°Ø´ØªÙ‡", article: "-", plural: "-", examples: [{ de: "Das war in der Vergangenheit.", fa: "Ø§ÛŒÙ† Ø¯Ø± Ú¯Ø°Ø´ØªÙ‡ Ø¨ÙˆØ¯." }] },
-          { de: "heute und morgen", fa: "Ø§Ù…Ø±ÙˆØ² Ùˆ ÙØ±Ø¯Ø§", article: "-", plural: "-", examples: [{ de: "Heute lerne ich, morgen Ã¼be ich.", fa: "Ø§Ù…Ø±ÙˆØ² ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù…ØŒ ÙØ±Ø¯Ø§ ØªÙ…Ø±ÛŒÙ† Ù…ÛŒâ€ŒÚ©Ù†Ù…." }] },
-          { de: "im Vergleich zu", fa: "Ø¯Ø± Ù…Ù‚Ø§ÛŒØ³Ù‡ Ø¨Ø§", article: "-", plural: "-", examples: [{ de: "Im Vergleich zu anderen bin ich fleiÃŸig.", fa: "Ø¯Ø± Ù…Ù‚Ø§ÛŒØ³Ù‡ Ø¨Ø§ Ø¯ÛŒÚ¯Ø±Ø§Ù† Ù…Ù† Ú©ÙˆØ´Ø§ Ù‡Ø³ØªÙ…." }] },
-          { de: "zusammenfassend", fa: "Ø¨Ù‡ Ø·ÙˆØ± Ø®لØ§ØµÙ‡", article: "-", plural: "-", examples: [{ de: "Zusammenfassend kann ich sagen...", fa: "Ø¨Ù‡ Ø·ÙˆØ± Ø®لØ§ØµÙ‡ Ù…ÛŒâ€ŒØªÙˆØ§Ù†Ù… Ø¨Ú¯ÙˆÛŒÙ…..." }] }
+          { de: "die Vergangenheit", fa: "گذشته", ipa: "[fɛɐ̯ˈɡaŋənhaɪ̯t]", article: "die", plural: "-", examples: [{ de: "In der Vergangenheit war alles anders.", fa: "در گذشته همه چیز متفاوت بود." }] },
+          { de: "die Gegenwart", fa: "حال", ipa: "[ˈɡeːɡənvaʁt]", article: "die", plural: "-", examples: [{ de: "In der Gegenwart lernen wir viel.", fa: "در حال حاضر خیلی یاد می‌گیریم." }] },
+          { de: "die Zukunft", fa: "آینده", ipa: "[ˈtsuːkʊnft]", article: "die", plural: "die Zukünfte", examples: [{ de: "Ich plane für die Zukunft.", fa: "برای آینده برنامه‌ریزی می‌کنم." }] },
+          { de: "der Vergleich", fa: "مقایسه", ipa: "[fɛɐ̯ˈɡlaɪ̯ç]", article: "der", plural: "die Vergleiche", examples: [{ de: "Im Vergleich zu letztem Jahr bin ich besser.", fa: "در مقایسه با سال گذشته بهتر هستم." }] },
+          { de: "die Verbindung", fa: "ارتباط / حرف ربط", ipa: "[fɛɐ̯ˈbɪndʊŋ]", article: "die", plural: "die Verbindungen", examples: [{ de: "Die Konnektoren sind wichtige Verbindungen.", fa: "حروف ربط ارتباطات مهمی هستند." }] },
+          { de: "der R\u00fcckblick", fa: "نگاه به گذشته", ipa: "[ˈʁʏkbʁɪk]", article: "der", plural: "die Rückblicke", examples: [{ de: "Ein Rückblick zeigt meinen Fortschritt.", fa: "نگاه به گذشته پیشرفت من را نشان می‌دهد." }] },
+          { de: "der Fortschritt", fa: "پیشرفت", ipa: "[ˈfɔʁtʃʁɪt]", article: "der", plural: "die Fortschritte", examples: [{ de: "Ich habe große Fortschritte gemacht.", fa: "پیشرفت بزرگی کرده‌ام." }] },
+          { de: "die Prüfung", fa: "امتحان", ipa: "[ˈpʁyːfʊŋ]", article: "die", plural: "die Prüfungen", examples: [{ de: "Die Prüfung war schwer.", fa: "امتحان سخت بود." }] },
+          { de: "die Grammatik", fa: "گرامر", ipa: "[ɡʁaˈmatɪk]", article: "die", plural: "die Grammatiken", examples: [{ de: "Die Grammatik ist wichtig.", fa: "گرامر مهم است." }] },
+          { de: "der Wortschatz", fa: "واژگان", ipa: "[ˈvɔʁtʃats]", article: "der", plural: "die Wortschätze", examples: [{ de: "Mein Wortschatz ist größer geworden.", fa: "واژگانم بزرگ‌تر شده." }] },
+          { de: "die Aussprache", fa: "تلفظ", ipa: "[ˈaʊ̯sʃpʁaxə]", article: "die", plural: "-", examples: [{ de: "Deine Aussprache ist sehr gut.", fa: "تلفظت خیلی خوب است." }] },
+          { de: "das Hörverständnis", fa: "مهارت شنیداری", ipa: "[ˈhøːɐ̯fɛɐ̯ˌʃtɛntnɪs]", article: "das", plural: "-", examples: [{ de: "Mein Hörverständnis hat sich verbessert.", fa: "مهارت شنیداری‌ام بهتر شده." }] }
         ]
       }
     ]
@@ -182,65 +178,71 @@ export const day35Data = {
 
   reading: [
     {
-      text: "Mein Leben in Deutschland - Ein RÃ¼ckblick\n\nVor zwei Jahren bin ich nach Deutschland gekommen. Ich konnte damals nur ein bisschen Deutsch sprechen. In der Vergangenheit war alles schwer fÃ¼r mich. Ich musste jeden Tag viel lernen, weil ich die B1-PrÃ¼fung bestehen wollte.\nJetzt, nach zwei Jahren, spreche ich viel besser Deutsch. Ich helfe sogar meinen Nachbarn, weil sie kein Deutsch kÃ¶nnen. Meinem Nachbarn gefÃ¤llt meine Aussprache, obwohl ich manchmal Fehler mache.\nIm Vergleich zu meinem ersten Jahr bin ich jetzt viel selbstbewusster. Wenn ich Probleme habe, weiÃŸ ich, dass ich Hilfe bekommen kann. Deshalb bin ich optimistisch fÃ¼r die Zukunft.\nZusammenfassend kann ich sagen: Das Leben in Deutschland ist nicht einfach, aber es lohnt sich. Ich bin stolz auf meinen Fortschritt.",
+      text: "Mein Leben in Deutschland - Ein Rückblick\n\nVor zwei Jahren bin ich nach Deutschland gekommen. Ich konnte damals nur ein bisschen Deutsch sprechen. In der Vergangenheit war alles schwer für mich. Ich musste jeden Tag viel lernen, weil ich die B1-Prüfung bestehen wollte.\nJetzt, nach zwei Jahren, spreche ich viel besser Deutsch. Ich helfe sogar meinen Nachbarn, weil sie kein Deutsch können. Meinem Nachbarn gefällt meine Aussprache, obwohl ich manchmal Fehler mache.\nIm Vergleich zu meinem ersten Jahr bin ich jetzt viel selbstbewusster. Wenn ich Probleme habe, weiß ich, dass ich Hilfe bekommen kann. Deshalb bin ich optimistisch für die Zukunft.\nZusammenfassend kann ich sagen: Das Leben in Deutschland ist nicht einfach, aber es lohnt sich. Ich bin stolz auf meinen Fortschritt.",
+      translation: "زندگی من در آلمان - یک نگاه به گذشته\n\nدو سال پیش به آلمان آمدم. آن موقع فقط کمی آلمانی بلد بودم صحبت کنم. در گذشته همه چیز برایم سخت بود. باید هر روز خیلی درس می‌خواندم چون می‌خواستم در امتحان B1 قبول شوم.\nالان، بعد از دو سال، خیلی بهتر آلمانی صحبت می‌کنم. حتی به همسایه‌هایم کمک می‌کنم چون آن‌ها آلمانی بلد نیستند. همسایه‌ام تلفظ مرا دوست دارد، با اینکه گاهی اشتباه می‌کنم.\nدر مقایسه با سال اول الان خیلی مطمئن‌تر شده‌ام. وقتی مشکلی دارم، می‌دانم که می‌توانم کمک بگیرم. به همین دلیل برای آینده خوشبین هستم.\nبه طور خلاصه می‌توانم بگویم: زندگی در آلمان آسان نیست، اما ارزشش را دارد. به پیشرفتم افتخار می‌کنم.",
       questions: [
-        { question: "Ø±Ø§ÙˆÛŒ Ú©ÙÛŒ Ø¨Ù‡ Ø¢لÙ…Ø§Ù† Ø¢Ù…Ø¯ØŸ", answer: "Ø¯Ùˆ Ø³Ø§ل Ù¾ÛŒØ´." },
-        { question: "Ø¯Ø± Ú¯Ø°Ø´ØªÙ‡ Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ø¨Ø±Ø§ÛŒ Ø±Ø§ÙˆÛŒ Ø³Ø®Øª Ø¨ÙˆØ¯ØŸ", answer: "Ù‡Ù…Ù‡ Ú†ÛŒØ² Ø³Ø®Øª Ø¨ÙˆØ¯ Ùˆ Ø¨Ø§ÛŒØ¯ Ù‡Ø± Ø±ÙˆØ² Ø²ÛŒØ§Ø¯ Ø¯Ø±Ø³ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù†Ø¯." },
-        { question: "Ø±Ø§ÙˆÛŒ Ø§لØ§Ù† Ú†Ù‡ Ú©Ù…Ú©ÛŒ Ø¨Ù‡ Ù‡Ù…Ø³Ø§ÛŒÙ‡â€ŒÙ‡Ø§ÛŒØ´ Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ", answer: "Ø§Ùˆ Ø¨Ù‡ Ù‡Ù…Ø³Ø§ÛŒÙ‡â€ŒÙ‡Ø§ÛŒØ´ Ú©Ù…Ú© Ù…ÛŒâ€ŒÚ©Ù†Ø¯ Ú†ÙˆÙ† Ø¢Ù†â€ŒÙ‡Ø§ Ø¢لÙ…Ø§Ù†ÛŒ Ø¨لØ¯ Ù†ÛŒØ³ØªÙ†Ø¯." },
-        { question: "Ø±Ø§ÙˆÛŒ Ø¯Ø± Ù…Ù‚Ø§ÛŒØ³Ù‡ Ø¨Ø§ Ø³Ø§ل Ø§Ùˆل Ú†Ù‡ ØªØºÛŒÛŒØ±ÛŒ Ú©Ø±Ø¯Ù‡ØŸ", answer: "Ø§Ùˆ Ø§لØ§Ù† Ø®ÛŒلÛŒ Ù…Ø·Ù…Ø¦Ù†â€ŒØªØ± (selbstbewusster) Ø´Ø¯Ù‡ Ø§Ø³Øª." }
+        { question: "راوی کِی به آلمان آمد؟", answer: "دو سال پیش." },
+        { question: "در گذشته چه چیزی برای راوی سخت بود؟", answer: "همه چیز سخت بود و باید هر روز زیاد درس می‌خواند." },
+        { question: "راوی الان چه کمکی به همسایه‌هایش می‌کند؟", answer: "او به همسایه‌هایش کمک می‌کند چون آن‌ها آلمانی بلد نیستند." },
+        { question: "راوی در مقایسه با سال اول چه تغییری کرده؟", answer: "او الان خیلی مطمئن‌تر (selbstbewusster) شده است." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "Ù†ÙˆØ´ØªÙ† ÛŒÚ© Ù…Ø±ÙˆØ± A2",
-      prompt: "ÛŒÚ© Ù¾Ø§Ø±Ø§Ú¯Ø±Ø§Ù (Û¸-Û±Û° Ø®Ø·) Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø³ÙØ± ÛŒØ§Ø¯Ú¯ÛŒØ±ÛŒ Ø¢لÙ…Ø§Ù†ÛŒ Ø®ÙˆØ¯ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯. Ø§Ø² PerfektØŒ DativØŒ Ø­Ø±ÙˆÙ Ø±Ø¨Ø·ØŒ Ù…Ù‚Ø§ÛŒØ³Ù‡ Ùˆ ÙØ¹ل Ø¨Ø§Ø²Ú¯Ø´ØªÛŒ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.",
+      title: "نوشتن یک مرور A2",
+      prompt: "یک پاراگراف (۸-۱۰ خط) درباره سفر یادگیری آلمانی خود بنویسید. از Perfekt، Dativ، حروف ربط، مقارنه و فعل بازگشتی استفاده کنید.",
       steps: [
-        { title: "Ú¯Ø°Ø´ØªÙ‡ (Perfekt)", text: "Ø§Ø² Ú©Ø¬Ø§ Ø´Ø±ÙˆØ¹ Ú©Ø±Ø¯ÛŒØ¯.", example: { de: "Ich habe vor einem Jahr angefangen, Deutsch zu lernen.", fa: "ÛŒÚ© Ø³Ø§ل Ù¾ÛŒØ´ Ø´Ø±ÙˆØ¹ Ø¨Ù‡ ÛŒØ§Ø¯Ú¯ÛŒØ±ÛŒ Ø¢لÙ…Ø§Ù†ÛŒ Ú©Ø±Ø¯Ù…." } },
-        { title: "Ø­Ø§ل Ùˆ Ù…Ù‚Ø§ÛŒØ³Ù‡", text: "Ø§لØ§Ù† Ú©Ø¬Ø§ Ù‡Ø³ØªÛŒØ¯.", example: { de: "Jetzt spreche ich viel besser als am Anfang.", fa: "Ø§لØ§Ù† Ø®ÛŒلÛŒ Ø¨Ù‡ØªØ± Ø§Ø² Ø§Ø¨ØªØ¯Ø§ ØµØ­Ø¨Øª Ù…ÛŒâ€ŒÚ©Ù†Ù…." } },
-        { title: "Ø¢ÛŒÙ†Ø¯Ù‡ Ùˆ Ù†ØªÛŒØ¬Ù‡", text: "Ù‡Ø¯Ù Ø´Ù…Ø§.", example: { de: "Ich freue mich auf die Zukunft.", fa: "Ù…Ù† Ø§Ø² Ø¢ÛŒÙ†Ø¯Ù‡ Ø®ÙˆØ´Ø­Ø§لÙ…." } }
+        { title: "گذشته (Perfekt)", text: "از کجا شروع کردید.", example: { de: "Ich habe vor einem Jahr angefangen, Deutsch zu lernen.", fa: "یک سال پیش شروع به یادگیری آلمانی کردم." } },
+        { title: "حال و مقارنه", text: "الان کجا هستید.", example: { de: "Jetzt spreche ich viel besser als am Anfang.", fa: "الان خیلی بهتر از ابتدا صحبت می‌کنم." } },
+        { title: "آینده و نتیجه", text: "هدف شما.", example: { de: "Ich freue mich auf die Zukunft.", fa: "من از آینده خوشحالم." } }
       ],
-      modelAnswer: "Ich habe vor sechs Monaten angefangen, Deutsch zu lernen. In der Vergangenheit war die Grammatik sehr schwer fÃ¼r mich. Ich konnte nicht gut sprechen, aber ich habe jeden Tag geÃ¼bt. Jetzt, nach sechs Monaten, spreche ich viel besser. Ich helfe meiner Freundin beim Deutschlernen, weil sie auch lernen mÃ¶chte. Im Vergleich zu anderen SchÃ¼lern bin ich fleiÃŸiger. Wenn ich Schwierigkeiten habe, fÃ¼hle ich mich nicht schlecht. Zusammenfassend kann ich sagen: Deutschlernen macht mir viel SpaÃŸ. Ich freue mich auf die Zukunft!"
+      modelAnswer: "Ich habe vor sechs Monaten angefangen, Deutsch zu lernen. In der Vergangenheit war die Grammatik sehr schwer für mich. Ich konnte nicht gut sprechen, aber ich habe jeden Tag geübt. Jetzt, nach sechs Monaten, spreche ich viel besser. Ich helfe meiner Freundin beim Deutschlernen, weil sie auch lernen möchte. Im Vergleich zu anderen Schülern bin ich fleißiger. Wenn ich Schwierigkeiten habe, fühle ich mich nicht schlecht. Zusammenfassend kann ich sagen: Deutschlernen macht mir viel Spaß. Ich freue mich auf die Zukunft!"
     }
   ],
 
   listening: [
     {
-      title: "Ú¯ÙˆØ´ Ø¯Ø§Ø¯Ù†: Ù…Ø±ÙˆØ± Ø¬Ø§Ù…Ø¹ A2",
-      source: "Deutsche Welle",
-      link: "https://www.dw.com/de/langsam-gesprochene-nachrichten/s-60048529",
-      instructions: "Ø¨Ù‡ Ø®Ø¨Ø±Ù‡Ø§ Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ Ø³Ø§Ø®ØªØ§Ø±Ù‡Ø§ÛŒ Ú¯Ø±Ø§Ù…Ø±ÛŒ Ù…Ø®ØªلÙ (PerfektØŒ KonnektorenØŒ Ù…ÙˆØ¯Ø§لâ€ŒÙ‡Ø§) Ø±Ø§ Ø´Ù†Ø§Ø³Ø§ÛŒÛŒ Ú©Ù†ÛŒØ¯."
+      title: "گوش دادن: مرور جامع A2",
+      instruction: "به جملات زیر گوش دهید و تکرار کنید.",
+      sentences: [
+        { de: "Ich habe gestern viel gelernt.", fa: "دیروز خیلی درس خواندم.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Ich habe gestern viel gelernt" },
+        { de: "Obwohl es regnet, gehe ich spazieren.", fa: "با اینکه باران می‌آید، پیاده‌روی می‌روم.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Obwohl es regnet, gehe ich spazieren" },
+        { de: "Das Buch gefällt mir sehr gut.", fa: "کتاب خیلی خوشم می‌آید.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Das Buch gefällt mir sehr gut" },
+        { de: "Ich fühle mich heute besser.", fa: "امروز حالم بهتر است.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Ich fühle mich heute besser" },
+        { de: "Berlin ist größer als München.", fa: "برلین بزرگ‌تر از مونیخ است.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Berlin ist größer als München" }
+      ]
     }
   ],
 
   speaking: [
     {
-      title: "Ù…ÙˆÙ†ÙˆلÙˆÚ¯: Ù…Ø±ÙˆØ± A2",
-      pattern: "FrÃ¼her... Jetzt... In Zukunft...",
-      exercise: "Û³ Ø¯Ù‚ÛŒÙ‚Ù‡ Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ù¾ÛŒØ´Ø±ÙØª Ø²Ø¨Ø§Ù† Ø¢لÙ…Ø§Ù†ÛŒ Ø®ÙˆØ¯ ØµØ­Ø¨Øª Ú©Ù†ÛŒØ¯. Ø§Ø² Perfekt (Ú¯Ø°Ø´ØªÙ‡)ØŒ PrÃ¤sens (Ø­Ø§ل) Ùˆ Futur (Ø¢ÛŒÙ†Ø¯Ù‡) Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯."
+      title: "مونولوگ: مرور A2",
+      pattern: "Früher... Jetzt... In Zukunft...",
+      exercise: "۳ دقیقه درباره پیشرفت زبان آلمانی خود صحبت کنید. از Perfekt (گذشته)، Präsens (حال) و Futur (آینده) استفاده کنید."
     },
     {
-      title: "Ø¨Ø­Ø«: Ù…Ù‚Ø§ÛŒØ³Ù‡ Ú¯Ø°Ø´ØªÙ‡ Ùˆ Ø­Ø§ل",
+      title: "بحث: مقایسه گذشته و حال",
       pattern: "In der Vergangenheit... Heute... Im Vergleich zu...",
-      exercise: "Ø¨Ø§ ÛŒÚ© Ø¯ÙˆØ³Øª Ø¯Ø±Ø¨Ø§Ø±Ù‡ ØªØºÛŒÛŒØ±Ø§Øª Ø²Ù†Ø¯Ú¯ÛŒ Ø®ÙˆØ¯ ØµØ­Ø¨Øª Ú©Ù†ÛŒØ¯. Ø§Ø² Ù…Ù‚Ø§ÛŒØ³Ù‡ Ùˆ Ø­Ø±ÙˆÙ Ø±Ø¨Ø· Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯."
+      exercise: "با یک دوست درباره تغییرات زندگی خود صحبت کنید. از مقارنه و حروف ربط استفاده کنید."
     }
   ],
 
-  cultureTip: "Ø¢Ø²Ù…ÙˆÙ† A2 Ú¯ÙˆØªÙ‡ Ø´Ø§Ù…ل Û´ Ø¨Ø®Ø´ Ø®ÙˆØ§Ù†Ø¯Ù†ØŒ Ù†ÙˆØ´ØªÙ†ØŒ Ú¯ÙˆØ´ Ø¯Ø§Ø¯Ù† Ùˆ ØµØ­Ø¨Øª Ú©Ø±Ø¯Ù† Ø§Ø³Øª. Ø¨Ø±Ø§ÛŒ Ù…ÙˆÙÙ‚ÛŒØªØŒ Ø¨Ø§ÛŒØ¯ Ø¨ØªÙˆØ§Ù†ÛŒØ¯ Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ù…ÙˆØ¶ÙˆØ¹Ø§Øª Ø±ÙˆØ²Ù…Ø±Ù‡ (Ø®Ø§Ù†ÙˆØ§Ø¯Ù‡ØŒ Ø®Ø±ÛŒØ¯ØŒ Ú©Ø§Ø±ØŒ Ø³لØ§Ù…ØªÛŒ) ØµØ­Ø¨Øª Ú©Ù†ÛŒØ¯ Ùˆ Ø¬Ù…لØ§Øª Ø³Ø§Ø¯Ù‡ Ø§Ù…Ø§ ØµØ­ÛŒØ­ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯. ØªÙ…Ø±ÛŒÙ† Ø±ÙˆØ²Ø§Ù†Ù‡ Ùˆ Ù…Ø±ÙˆØ± Ù…Ù†Ø¸Ù… Ø¨Ù‡ØªØ±ÛŒÙ† Ø±ÙˆØ´ Ø¢Ù…Ø§Ø¯Ú¯ÛŒ Ø§Ø³Øª.",
+  cultureTip: "آزمون A2 گوته شامل ۴ بخش خواندن، نوشتن، گوش دادن و صحبت کردن است. برای موفقیت، باید بتوانید درباره موضوعات روزمره (خانواده، خرید، کار، سلامتی) صحبت کنید و جملات ساده اما صحیح بنویسید. تمرین روزانه و مرور منظم بهترین روش آمادگی است.",
 
   examData: {
     questions: [
       { question: "Ich ___ gestern einen Brief ___. (Perfekt: schreiben)", options: ["habe, geschrieben", "habe, schreiben", "bin, geschrieben", "habe, schreibt"], answer: 0 },
-      { question: "Ú©Ø¯Ø§Ù… ÙØ¹ل Ø¨Ø§ sein ØµØ±Ù Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["spielen", "gehen", "essen", "lesen"], answer: 1 },
-      { question: "Ich helfe ___. (Ø¨Ù‡ Ù…Ø§Ø¯Ø±Ù…)", options: ["meine Mutter", "meiner Mutter", "meinem Mutter", "meinen Mutter"], answer: 1 },
+      { question: "کدام فعل با sein صرف می‌شود؟", options: ["spielen", "gehen", "essen", "lesen"], answer: 1 },
+      { question: "Ich helfe ___. (به مادرم)", options: ["meine Mutter", "meiner Mutter", "meinem Mutter", "meinen Mutter"], answer: 1 },
       { question: "Es regnet, ___ bleibe ich zu Hause.", options: ["weil", "deshalb", "obwohl", "dass"], answer: 1 },
-      { question: "Berlin ist grÃ¶ÃŸer ___ Hamburg.", options: ["wie", "als", "denn", "von"], answer: 1 },
-      { question: "Ich ___ mich jeden Morgen. (Ø¨Ø§Ø²Ú¯Ø´ØªÛŒ: duschen)", options: ["dusche", "dusche mich", "mich dusche", "duscht"], answer: 1 },
+      { question: "Berlin ist größer ___ Hamburg.", options: ["wie", "als", "denn", "von"], answer: 1 },
+      { question: "Ich ___ mich jeden Morgen. (بازگشتی: duschen)", options: ["dusche", "dusche mich", "mich dusche", "duscht"], answer: 1 },
       { question: "___ es kalt ist, gehe ich raus.", options: ["Weil", "Obwohl", "Deshalb", "Also"], answer: 1 },
-      { question: "Das Buch ___ mir gut. (Ø®ÙˆØ´ Ù…ÛŒâ€ŒØ¢ÛŒØ¯)", options: ["gehÃ¶rt", "gefÃ¤llt", "antwortet", "schmeckt"], answer: 1 },
-      { question: "Wer ist der ___ Sportler? (Ø¨Ù‡ØªØ±ÛŒÙ†)", options: ["gut", "besser", "beste", "am besten"], answer: 2 },
-      { question: "Ich ___ mich auf die PrÃ¼fung. (Ø®ÙˆØ´Ø­Ø§لÙ…)", options: ["freue", "fÃ¼hle", "wasche", "setze"], answer: 0 }
+      { question: "Das Buch ___ mir gut. (خوشم می‌آید)", options: ["gehört", "gefällt", "antwortet", "schmeckt"], answer: 1 },
+      { question: "Wer ist der ___ Sportler? (بهترین)", options: ["gut", "besser", "beste", "am besten"], answer: 2 },
+      { question: "Ich ___ mich auf die Prüfung. (خوشحالم)", options: ["freue", "fühle", "wasche", "setze"], answer: 0 }
     ]
   }
 };

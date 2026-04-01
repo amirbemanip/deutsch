@@ -1,65 +1,99 @@
 export const day49Data = {
-  title: "Ø±ÙˆØ² Û´Û¹: Ø­ÙØ§Ø¸Øª Ø§Ø² Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ø¯Ø± Ø²Ù†Ø¯Ú¯ÛŒ Ø±ÙˆØ²Ù…Ø±Ù‡",
-  objective: "Ø§Ù…Ø±ÙˆØ² ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒÙ… Ú†Ø·ÙˆØ± Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø§Ù‚Ø¯Ø§Ù…Ø§Øª Ú©ÙˆÚ†Ú©ØŒ Ø§Ù…Ø§ ØªØ§Ø«ÛŒØ±Ú¯Ø°Ø§Ø± Ø±ÙˆØ²Ù…Ø±Ù‡ Ø¨Ø±Ø§ÛŒ Ù†Ø¬Ø§Øª Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª (Umweltschutz im Alltag) ØµØ­Ø¨Øª Ú©Ù†ÛŒÙ…. Ù‡Ù…Ú†Ù†ÛŒÙ† ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒÙ… Ú©Ù‡ Ø¨Ø±Ø§ÛŒ Ù†Ø¸Ø± Ø¯Ø§Ø¯Ù† Ø¯Ø±Ø¨Ø§Ø±Ù‡ ÙØ§ÛŒلâ€ŒÙ‡Ø§ÛŒ ØµÙˆØªÛŒ ÛŒØ§ Ù…Ù‚Ø§لØ§ØªØŒ Ø§Ø² Ø³Ø§Ø®ØªØ§Ø±Ù‡Ø§ÛŒ ØºÛŒØ±Ù…Ø³ØªÙ‚ÛŒÙ… Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒÙ….",
+  title: "روز ۴۹: مهارت روایت - داستان‌گویی در گذشته، حال و آینده",
+  objective: "یادگیری ترکیب زمان‌ها (Perfekt + Präsens + Futur I) برای روایت، ساختار داستان و عبارات روایی",
+  level: "B1",
 
   grammarData: {
-    subtitle: "Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Ø§ÙØ¹Ø§ل um zu (Ø¨Ø±Ø§ÛŒ Ø§ÛŒÙ†Ú©Ù‡...) Ùˆ Ù†Ù‚ل Ù‚Ùˆل ØºÛŒØ±Ù…Ø³ØªÙ‚ÛŒÙ….",
+    subtitle: "ترکیب زمان‌ها در روایت",
     content: [
       {
         type: "text",
-        title: "Û±. Ø¨ÛŒØ§Ù† Ù‡Ø¯Ù Ø¨Ø§ um ... zu (Ø¨Ø±Ø§ÛŒ Ø§ÛŒÙ†Ú©Ù‡...)",
-        text: "ÙˆÙ‚ØªÛŒ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡ÛŒØ¯ Ø¨Ú¯ÙˆÛŒÛŒØ¯ Â«ÛŒÚ© Ú©Ø§Ø± Ø±Ø§ Ø§Ù†Ø¬Ø§Ù… Ù…ÛŒâ€ŒØ¯Ù‡Ù… *Ø¨Ø±Ø§ÛŒ Ø§ÛŒÙ†Ú©Ù‡* Ø¨Ù‡ Ù‡Ø¯ÙÛŒ Ø¨Ø±Ø³Ù…Â»ØŒ Ø§Ø² Ø³Ø§Ø®ØªØ§Ø± Â«um + ... + zu + ÙØ¹لÂ» Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯. ÙØ§Ø¹ل Ø¬Ù…لÙ‡ Ø§Ùˆل Ùˆ Ø¯ÙˆÙ… Ø¨Ø§ÛŒØ¯ ÛŒÚ©ÛŒ Ø¨Ø§Ø´Ø¯."
+        title: "۱. ترکیب Perfekt + Präsens + Futur I",
+        text: "در روایت از سه زمان استفاده می‌کنیم: Perfekt برای اتفاقات گذشته (Ich habe das gemacht)، Präsens برای توصیف و توضیحات کلی (Das ist wichtig)، Futur I برای آینده و پیش‌بینی (Ich werde das machen). ترکیب این سه زمان روایت را جذاب و واقعی می‌کند."
       },
       {
-        type: "examples",
-        title: "Ø¨ÛŒØ§Ù† Ø§Ù‡Ø¯Ø§Ù Ø²ÛŒØ³Øªâ€ŒÙ…Ø­ÛŒØ·ÛŒ",
-        items: [
-          { de: "Ich fahre mit dem Fahrrad, um die Umwelt zu schÃ¼tzen.", fa: "Ù…Ù† Ø¨Ø§ Ø¯ÙˆÚ†Ø±Ø®Ù‡ Ù…ÛŒâ€ŒØ±ÙˆÙ…ØŒ Ø¨Ø±Ø§ÛŒ Ø§ÛŒÙ†Ú©Ù‡ Ø§Ø² Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ù…Ø­Ø§ÙØ¸Øª Ú©Ù†Ù…." },
-          { de: "Wir mÃ¼ssen Energie sparen, um den Klimawandel zu stoppen.", fa: "Ù…Ø§ Ø¨Ø§ÛŒØ¯ Ø¯Ø± Ø§Ù†Ø±Ú˜ÛŒ ØµØ±ÙÙ‡â€ŒØ¬ÙˆÛŒÛŒ Ú©Ù†ÛŒÙ…ØŒ ØªØ§ ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒ Ø±Ø§ Ù…ØªÙˆÙ‚Ù Ú©Ù†ÛŒÙ…." }
+        type: "table",
+        title: "Redemittel برای روایت",
+        rows: [
+          { de: "شروع داستان", fa: "Am Anfang... / Zuerst... / Vor zwei Jahren..." },
+          { de: "ادامه داستان", fa: "Dann... / Danach... / Plötzlich... / Nachdem..." },
+          { de: "پایان داستان", fa: "Schließlich... / Zum Schluss... / Am Ende..." },
+          { de: "توضیح", fa: "Das bedeutet, dass... / Das liegt daran, dass..." },
+          { de: "آینده", fa: "In Zukunft werde ich... / Nächstes Jahr plane ich..." },
+          { de: "نظر شخصی", fa: "Ich fand es... / Es war... / Für mich war es..." }
         ]
       },
       {
         type: "text",
-        title: "Û². Ù†Ù‚ل Ù‚Ùˆل Ùˆ Ø¨Ø±Ø±Ø³ÛŒ Ù†Ø¸Ø±Ø§Øª (Sie sprechen darÃ¼ber, dass...)",
-        text: "Ø¯Ø± Ø¨Ø®Ø´ Ø´Ù†ÛŒØ¯Ø§Ø±ÛŒ ÛŒØ§ Ø®ÙˆØ§Ù†Ø¯Ù† (Ø§Ù…ØªØ­Ø§Ù† ÛŒØ§ Ø²Ù†Ø¯Ú¯ÛŒ ÙˆØ§Ù‚Ø¹ÛŒ)ØŒ ÙˆÙ‚ØªÛŒ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡ÛŒØ¯ ØªÙˆØ¶ÛŒØ­ Ø¯Ù‡ÛŒØ¯ ÛŒÚ© ÙØ§ÛŒل ØµÙˆØªÛŒ/Ù…ØªÙ† Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ú†Ù‡ Ø¨ÙˆØ¯ØŒ Ø¬Ù…لØ§Øª Ø²ÛŒØ± Ø¨Ù‡ Ø´Ø¯Øª Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ Ù‡Ø³ØªÙ†Ø¯."
+        title: "۲. ساختار یک داستان",
+        text: "Einleitung (مقدمه): شخصیت‌ها، مکان، زمان را معرفی کنید. Hauptteil (بدنه): اتفاقات را توصیف کنید - از Perfekt برای اتفاقات و Präsens برای توضیحات استفاده کنید. Schluss (پایان): نتیجه‌گیری و آینده. نکته: از Konnektoren برای روان بودن استفاده کنید."
       },
       {
         type: "examples",
-        title: "Ø´Ø±ÙˆØ¹ Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ Ù†Ø¸Ø±Ø§Øª",
+        title: "مثال‌های روایی",
         items: [
-          { de: "Im Podcast geht es um die Frage, ob wir auf Fleisch verzichten sollten.", fa: "Ø¯Ø± Ù¾Ø§Ø¯Ú©Ø³Øª Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø§ÛŒÙ† Ø³ÙˆØ§ل Ø¨Ø­Ø« Ù…ÛŒâ€ŒØ´ÙˆØ¯ Ú©Ù‡ Ø¢ÛŒØ§ Ù…Ø§ Ø¨Ø§ÛŒØ¯ Ø§Ø² Ø®ÙˆØ±Ø¯Ù† Ú¯ÙˆØ´Øª ØµØ±Ùâ€ŒÙ†Ø¸Ø± Ú©Ù†ÛŒÙ…." },
-          { de: "Die Experten sagen, dass kleine VerÃ¤nderungen im Alltag wichtig sind.", fa: "Ú©Ø§Ø±Ø´Ù†Ø§Ø³Ø§Ù† Ù…ÛŒâ€ŒÚ¯ÙˆÛŒÙ†Ø¯ Ú©Ù‡ ØªØºÛŒÛŒØ±Ø§Øª Ú©ÙˆÚ†Ú© Ø¯Ø± Ø²Ù†Ø¯Ú¯ÛŒ Ø±ÙˆØ²Ù…Ø±Ù‡ Ù…Ù‡Ù… Ù‡Ø³ØªÙ†Ø¯." }
+          { de: "Am Anfang war ich sehr nervös.", fa: "در ابتدا خیلی عصبی بودم." },
+          { de: "Zuerst habe ich mich hingesetzt und gewartet.", fa: "اول نشستم و منتظر شدم." },
+          { de: "Dann hat der Lehrer meinen Namen aufgerufen.", fa: "بعد معلم اسمم را صدا زد." },
+          { de: "Plötzlich war alles anders.", fa: "ناگهان همه چیز فرق کرد." },
+          { de: "Schließlich habe ich die Prüfung bestanden.", fa: "سرانجام امتحان را قبول شدم." },
+          { de: "In Zukunft werde ich mehr üben.", fa: "در آینده بیشتر تمرین خواهم کرد." }
         ]
       },
       {
-        type: "text",
-        title: "Û³. ØªÙˆØ³Ø¹Ù‡ ÙˆØ§Ú˜Ú¯Ø§Ù† Ø§Ù†Ø±Ú˜ÛŒ Ùˆ Ù¾Ø§ÛŒØ¯Ø§Ø±ÛŒ (Nachhaltigkeit)",
-        text: "Ú©لÙ…Ù‡ Nachhaltigkeit (Ù¾Ø§ÛŒØ¯Ø§Ø±ÛŒ / Ø§Ù†Ø¬Ø§Ù… Ú©Ø§Ø±Ù‡Ø§ Ø¨Ù‡ Ú¯ÙˆÙ†Ù‡â€ŒØ§ÛŒ Ú©Ù‡ Ø¨Ù‡ Ø¢ÛŒÙ†Ø¯Ù‡ Ø¢Ø³ÛŒØ¨ Ù†Ø±Ø³Ø¯) Ø§Ù…Ø±ÙˆØ² Ø¯Ø± Ø¢لÙ…Ø§Ù† ÛŒÚ© Ú©لÛŒØ¯ÙˆØ§Ú˜Ù‡ Ø·لØ§ÛŒÛŒ Ø§Ø³Øª. Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Ø§ÛŒÙ† Ú©لÙ…Ù‡ Ø¯Ø± Ø§Ù…ØªØ­Ø§Ù† B1 Ø¨Ù‡ Ù…Ù…ØªØ­Ù† Ù†Ø´Ø§Ù† Ù…ÛŒâ€ŒØ¯Ù‡Ø¯ Ø¯Ø§ÛŒØ±Ù‡ لØºØª Ø´Ù…Ø§ Ø¹Ø§لÛŒ Ø§Ø³Øª."
+        type: "alert",
+        title: "نکته: Perfekt vs Präteritum در روایت",
+        text: "در مکالمه و روایت شفاهی از Perfekt استفاده کنید (Ich habe gemacht). در نوشتن رسمی و کتاب‌ها از Präteritum (Ich machte). استثنا: افعال haben, sein, können, müssen, sollen, wollen همیشه در Präteritum استفاده می‌شوند حتی در مکالمه: Ich hatte, Ich war, Ich konnte."
       },
       {
         type: "interactive_quiz",
-        title: "Ø¢Ø²Ù…ÙˆÙ† Ø¯Ø±Ú© Ù…Ø·لØ¨: Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Û²",
+        title: "آزمون روایت",
         questions: [
           {
-            question: "Ø´Ù…Ø§ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡ÛŒØ¯ Ø¨Ú¯ÙˆÛŒÛŒØ¯: Â«Ù…Ù† Ø¢Ø¨ ØµØ±ÙÙ‡â€ŒØ¬ÙˆÛŒÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ù… ØªØ§ Ø§Ø² Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ù…Ø­Ø§ÙØ¸Øª Ú©Ù†Ù….Â» Ø¬Ø§ÛŒ Ø®Ø§لÛŒ Ø±Ø§ Ù¾Ø± Ú©Ù†ÛŒØ¯: Ich spare Wasser, ____ die Umwelt ____ schÃ¼tzen.",
-            questionDe: "Wie Ã¼bersetzen Sie das?",
+            question: "«Am Anfang» یعنی:؟",
+            questionDe: "Was bedeutet 'Am Anfang'?",
             options: [
-              { text: "fÃ¼r ... zu", isCorrect: false },
-              { text: "um ... zu", isCorrect: true },
-              { text: "weil ... zu", isCorrect: false }
+              { text: "در پایان", isCorrect: false },
+              { text: "در ابتدا", isCorrect: true },
+              { text: "ناگهان", isCorrect: false }
             ],
-            explanation: "Ø¢ÙØ±ÛŒÙ†! Ø¹Ø¨Ø§Ø±Øª Â«um ... zu + ÙØ¹لÂ» Ø¨Ù‡ Ù…Ø¹Ù†Ø§ÛŒ Â«Ø¨Ù‡ Ù…Ù†Ø¸ÙˆØ±Ù / Ø¨Ø±Ø§ÛŒÙ Ø§ÛŒÙ†Ú©Ù‡Â» Ø§Ø³Øª."
+            explanation: "Am Anfang = در ابتدا / در شروع."
           },
           {
-            question: "Ú©لÙ…Ù‡ Ø·لØ§ÛŒÛŒ Ø¨Ø±Ø§ÛŒ Ù…ÙÙ‡ÙˆÙ…Ù Â«Ø³Ø¨Ú© Ø²Ù†Ø¯Ú¯ÛŒÙ Ø³Ø§Ø²Ú¯Ø§Ø± Ø¨Ø§ Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ùˆ Ø¯ÙˆØ³Øªâ€ŒØ¯Ø§Ø± Ø¢ÛŒÙ†Ø¯Ù‡Â» Ú†ÛŒØ³ØªØŸ",
-            questionDe: "Welches Wort ist richtig?",
+            question: "برای اتفاقات گذشته در روایت شفاهی از چه زمانی استفاده می‌کنید؟",
+            questionDe: "Welche Zeitform verwendet man mündlich?",
             options: [
-              { text: "die Bequemlichkeit", isCorrect: false },
-              { text: "die Nachhaltigkeit", isCorrect: true },
-              { text: "die Geschwindigkeit", isCorrect: false }
+              { text: "Präsens", isCorrect: false },
+              { text: "Perfekt", isCorrect: true },
+              { text: "Präteritum", isCorrect: false }
             ],
-            explanation: "Ø¯Ù‚ÛŒÙ‚Ø§Ù‹! die Nachhaltigkeit (Ù¾Ø§ÛŒØ¯Ø§Ø±ÛŒ) ÙˆØ§Ú˜Ù‡ Ø¨Ø³ÛŒØ§Ø± Ù…Ù‡Ù…ÛŒ Ø¨Ø±Ø§ÛŒ ØµØ­Ø¨Øª Ø¯Ø± Ù…ÙˆØ±Ø¯ Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ø§Ø³Øª. ØµÙØª Ø¢Ù† nachhaltig (Ù¾Ø§ÛŒØ¯Ø§Ø±) Ø§Ø³Øª."
+            explanation: "در مکالمه از Perfekt استفاده می‌شود."
+          },
+          {
+            question: "«Schließlich» یعنی:؟",
+            questionDe: "Was bedeutet 'Schließlich'?",
+            options: [
+              { text: "ناگهان", isCorrect: false },
+              { text: "سرانجام / در نهایت", isCorrect: true },
+              { text: "بعداً", isCorrect: false }
+            ],
+            explanation: "Schließlich = سرانجام / در نهایت."
           }
+        ]
+      },
+      {
+        type: "fill_blank",
+        title: "تمرین روایت",
+        instruction: "داستان را با زمان و عبارت مناسب کامل کنید.",
+        blanks: [
+          { sentence: "_______ bin ich nach Deutschland gekommen. (دو سال پیش)", answer: "Vor zwei Jahren", hint: "شروع داستان" },
+          { sentence: "_______ habe ich einen Deutschkurs besucht.", answer: "Zuerst", hint: "اول" },
+          { sentence: "_______ habe ich eine Stelle gefunden.", answer: "Dann", hint: "بعد" },
+          { sentence: "_______ war alles schwierig, aber jetzt ist es besser.", answer: "Am Anfang", hint: "در ابتدا" },
+          { sentence: "_______ habe ich mich entschieden, zu bleiben.", answer: "Schließlich", hint: "سرانجام" },
+          { sentence: "In _______ _______ ich mehr Deutsch lernen.", answer: "Zukunft ... werde", hint: "آینده: Futur I" },
+          { sentence: "_______ hat mein Chef mich gefragt, ob ich bleiben möchte.", answer: "Plötzlich", hint: "ناگهان" },
+          { sentence: "_______ werde ich eine Familie gründen.", answer: "Irgendwann", hint: "یک روزی / بالاخره" }
         ]
       }
     ]
@@ -68,67 +102,32 @@ export const day49Data = {
   vocabData: {
     categories: [
       {
-        title: "Ø§Ù‚Ø¯Ø§Ù…Ø§Øª Ø±ÙˆØ²Ù…Ø±Ù‡",
+        title: "عبارات روایی (Erzählredemittel)",
         words: [
-          {
-            de: "Energie sparen",
-            fa: "ØµØ±ÙÙ‡â€ŒØ¬ÙˆÛŒÛŒ Ø¯Ø± Ø§Ù†Ø±Ú˜ÛŒ / Ø¨Ø±Ù‚ Ú©Ù…Øª Ù…ØµØ±Ù Ú©Ø±Ø¯Ù†",
-            article: "-",
-            plural: "-",
-            examples: [
-              { de: "Wir sollten das Licht ausschalten, um Energie zu sparen.", fa: "Ù…Ø§ Ø¨Ø§ÛŒØ¯ لØ§Ù…Ù¾ Ø±Ø§ Ø®Ø§Ù…ÙˆØ´ Ú©Ù†ÛŒÙ… ØªØ§ Ø¯Ø± Ø§Ù†Ø±Ú˜ÛŒ ØµØ±ÙÙ‡â€ŒØ¬ÙˆÛŒÛŒ Ú©Ù†ÛŒÙ…." }
-            ]
-          },
-          {
-            de: "das Plastik",
-            fa: "Ù¾لØ§Ø³ØªÛŒÚ©",
-            article: "das",
-            plural: "-",
-            examples: [
-              { de: "Ozeane sind leider voll von Plastik.", fa: "Ø§Ù‚ÛŒØ§Ù†ÙˆØ³â€ŒÙ‡Ø§ Ù…ØªØ§Ø³ÙØ§Ù†Ù‡ Ù¾Ø± Ø§Ø² Ù¾لØ§Ø³ØªÛŒÚ© Ù‡Ø³ØªÙ†Ø¯." }
-            ]
-          },
-          {
-            de: "die nachhaltige Entwicklung",
-            fa: "ØªÙˆØ³Ø¹Ù‡ Ù¾Ø§ÛŒØ¯Ø§Ø±",
-            article: "die",
-            plural: "-",
-            examples: [
-              { de: "Nachhaltigkeit ist wichtig fÃ¼r die nÃ¤chsten Generationen.", fa: "Ù¾Ø§ÛŒØ¯Ø§Ø±ÛŒ Ø¨Ø±Ø§ÛŒ Ù†Ø³لâ€ŒÙ‡Ø§ÛŒ Ø¨Ø¹Ø¯ÛŒ Ù…Ù‡Ù… Ø§Ø³Øª." }
-            ]
-          }
+          { de: "am Anfang", fa: "در ابتدا", ipa: "[am ˈʔanfaŋ]", examples: [{ de: "Am Anfang war es schwer.", fa: "در ابتدا سخت بود." }] },
+          { de: "zuerst", fa: "اول / در وهله اول", ipa: "[t͡suˈeːɐ̯st]", examples: [{ de: "Zuerst habe ich gedacht...", fa: "اول فکر کردم..." }] },
+          { de: "dann", fa: "بعد / سپس", ipa: "[dan]", examples: [{ de: "Dann ist etwas passiert.", fa: "بعد اتفاقی افتاد." }] },
+          { de: "danach", fa: "بعد از آن", ipa: "[ˈdaːnaːx]", examples: [{ de: "Danach bin ich nach Hause gegangen.", fa: "بعد از آن به خانه رفتم." }] },
+          { de: "plötzlich", fa: "ناگهان", ipa: "[ˈplœt͡slɪç]", examples: [{ de: "Plötzlich hat es angefangen zu regnen.", fa: "ناگهان باران شروع شد." }] },
+          { de: "schließlich", fa: "سرانجام / در نهایت", ipa: "[ʃliːslɪç]", examples: [{ de: "Schließlich habe ich es geschafft.", fa: "سرانجام موفق شدم." }] },
+          { de: "zum Schluss", fa: "در پایان", ipa: "[t͡sʊm ʃlʊs]", examples: [{ de: "Zum Schluss möchte ich Ihnen danken.", fa: "در پایان می‌خواهم از شما تشکر کنم." }] },
+          { de: "irgendwann", fa: "یک روزی / بالاخره", ipa: "[ˈɪʁɡəntvan]", examples: [{ de: "Irgendwann werde ich nach Berlin ziehen.", fa: "یک روزی به برلین نقل مکان خواهم کرد." }] },
+          { de: "vor kurzem", fa: "اخیراً", ipa: "[foːɐ̯ ˈkʊʁt͡səm]", examples: [{ de: "Vor kurzem habe ich einen alten Freund getroffen.", fa: "اخیراً یک دوست قدیمی را دیدم." }] },
+          { de: "zu dieser Zeit", fa: "در آن زمان", ipa: "[t͡suː ˈdiːzɐ t͡saɪ̯t]", examples: [{ de: "Zu dieser Zeit war ich Student.", fa: "در آن زمان دانشجو بودم." }] }
         ]
       },
       {
-        title: "Ø§Ù†Ø±Ú˜ÛŒ Ùˆ Ø³ÙØ±",
+        title: "واژگان داستان و تجربه (Erzählung und Erfahrung)",
         words: [
-          {
-            de: "die erneuerbaren Energien",
-            fa: "Ø§Ù†Ø±Ú˜ÛŒâ€ŒÙ‡Ø§ÛŒ ØªØ¬Ø¯ÛŒØ¯Ù¾Ø°ÛŒØ± (Ù…Ø«ل Ø¨Ø§Ø¯ Ùˆ Ø®ÙˆØ±Ø´ÛŒØ¯)",
-            article: "die (Plural)",
-            plural: "-",
-            examples: [
-              { de: "Wir mÃ¼ssen mehr erneuerbare Energien nutzen.", fa: "Ù…Ø§ Ø¨Ø§ÛŒØ¯ Ø¨ÛŒØ´ØªØ± Ø§Ø² Ø§Ù†Ø±Ú˜ÛŒâ€ŒÙ‡Ø§ÛŒ ØªØ¬Ø¯ÛŒØ¯Ù¾Ø°ÛŒØ± Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒÙ…." }
-            ]
-          },
-          {
-            de: "der AusstoÃŸ (CO2-AusstoÃŸ)",
-            fa: "Ø§Ù†ØªØ´Ø§Ø± / Ø¢لØ§ÛŒÙ†Ø¯Ú¯ÛŒ (Ù…Ø«ل Ú©Ø±Ø¨Ù†â€ŒØ¯ÛŒâ€ŒØ§Ú©Ø³ÛŒØ¯)",
-            article: "der",
-            plural: "-",
-            examples: [
-              { de: "Flugzeuge haben einen sehr hohen CO2-AusstoÃŸ.", fa: "Ù‡ÙˆØ§Ù¾ÛŒÙ…Ø§Ù‡Ø§ Ø¢لØ§ÛŒÙ†Ø¯Ú¯ÛŒ Ø¯ÛŒâ€ŒØ§Ú©Ø³ÛŒØ¯ Ú©Ø±Ø¨Ù† Ø¨Ø³ÛŒØ§Ø± Ø¨Ø§لØ§ÛŒÛŒ Ø¯Ø§Ø±Ù†Ø¯." }
-            ]
-          },
-          {
-            de: "das Verhalten (Reiseverhalten)",
-            fa: "Ø±ÙØªØ§Ø± / Ø¨Ø±Ø®ÙˆØ±Ø¯ (Ø§لÚ¯ÙˆÛŒ Ø³ÙØ±)",
-            article: "das",
-            plural: "-",
-            examples: [
-              { de: "Jeder kann sein Verhalten Ã¤ndern, um der Umwelt zu helfen.", fa: "Ù‡Ø±Ú©Ø³ÛŒ Ù…ÛŒâ€ŒØªÙˆØ§Ù†Ø¯ Ø±ÙØªØ§Ø±Ø´ Ø±Ø§ ØªØºÛŒÛŒØ± Ø¯Ù‡Ø¯ ØªØ§ Ø¨Ù‡ Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ú©Ù…Ú© Ú©Ù†Ø¯." }
-            ]
-          }
+          { de: "die Erfahrung", fa: "تجربه", ipa: "[ɛɐ̯ˈfaːʁʊŋ]", article: "die", plural: "die Erfahrungen", examples: [{ de: "Das war eine wichtige Erfahrung.", fa: "این یک تجربه مهم بود." }] },
+          { de: "das Abenteuer", fa: "ماجرا / ماجراجویی", ipa: "[ˈʔapɛntɔɪ̯ɐ]", article: "das", plural: "die Abenteuer", examples: [{ de: "Mein Leben ist ein Abenteuer.", fa: "زندگی من یک ماجراجویی است." }] },
+          { de: "passieren", fa: "اتفاق افتادن", ipa: "[paˈsiːʁən]", article: "-", plural: "-", conjugation: { ich: "passiere", du: "passierst", er: "passiert", wir: "passieren", ihr: "passiert", sie: "passieren" }, examples: [{ de: "Was ist passiert?", fa: "چه اتفاقی افتاد؟" }] },
+          { de: "erleben", fa: "تجربه کردن / شاهد بودن", ipa: "[ɛɐ̯ˈleːbn̩]", article: "-", plural: "-", conjugation: { ich: "erlebe", du: "erlebst", er: "erlebt", wir: "erleben", ihr: "erlebt", sie: "erleben" }, examples: [{ de: "Ich habe viel erlebt.", fa: "تجربه‌های زیادی کردم." }] },
+          { de: "sich erinnern an", fa: "به یاد آوردن", ipa: "[ɛɐ̯ˈɪnən]", article: "-", plural: "-", conjugation: { ich: "erinnere mich", du: "erinnerst dich", er: "erinnert sich", wir: "erinnern uns", ihr: "erinnert euch", sie: "erinnern sich" }, examples: [{ de: "Ich erinnere mich an den Tag.", fa: "آن روز را به یاد می‌آورم." }] },
+          { de: "vergessen", fa: "فراموش کردن", ipa: "[fɛɐ̯ˈɡɛsn̩]", article: "-", plural: "-", conjugation: { ich: "vergesse", du: "vergisst", er: "vergisst", wir: "vergessen", ihr: "vergesst", sie: "vergessen" }, examples: [{ de: "Ich kann das nicht vergessen.", fa: "نمی‌توانم این را فراموش کنم." }] },
+          { de: "begegnen", fa: "برخورد کردن / ملاقات کردن", ipa: "[bəˈɡeːɡn̩]", article: "-", plural: "-", conjugation: { ich: "begegne", du: "begegnest", er: "begegnet", wir: "begegnen", ihr: "begegnet", sie: "begegnen" }, examples: [{ de: "Ich bin ihm zufällig begegnet.", fa: "اتفاقی به او برخوردم." }] },
+          { de: "sich entscheiden für", fa: "تصمیم گرفتن به نفع", ipa: "[ɛntˈʃaɪ̯dn̩]", article: "-", plural: "-", conjugation: { ich: "entscheide mich", du: "entscheidest dich", er: "entscheidet sich", wir: "entscheiden uns", ihr: "entscheidet euch", sie: "entscheiden sich" }, examples: [{ de: "Ich habe mich für Deutschland entschieden.", fa: "به نفع آلمان تصمیم گرفتم." }] },
+          { de: "hoffen auf", fa: "امیدوار بودن به", ipa: "[ˈhɔfn̩]", article: "-", plural: "-", conjugation: { ich: "hoffe", du: "hoffst", er: "hofft", wir: "hoffen", ihr: "hofft", sie: "hoffen" }, examples: [{ de: "Ich hoffe auf eine bessere Zukunft.", fa: "امیدوار به آینده بهترم." }] }
         ]
       }
     ]
@@ -136,67 +135,80 @@ export const day49Data = {
 
   reading: [
     {
-      text: "Was bedeutet Nachhaltigkeit im Alltag?\n\nOft denken wir, dass Umweltprobleme zu groÃŸ sind, als dass wir sie allein lÃ¶sen kÃ¶nnten. Aber in einem interessanten Podcast ging es genau um dieses Thema. Die Experten sagen, dass kleine VerÃ¤nderungen im Alltag eine groÃŸe Wirkung haben. \nWir kÃ¶nnen zum Beispiel Energie sparen, um den Klimawandel zu verlangsamen. Dazu gehÃ¶rt, weniger Auto zu fahren und stattdessen das Fahrrad zu nehmen. AuÃŸerdem sollten wir nachhaltig einkaufen, das heiÃŸt: weniger Plastik benutzen und regionale Produkte kaufen. Im Hinblick auf unser Reiseverhalten ist es besser, auf kurze Flugreisen zu verzichten, weil der CO2-AusstoÃŸ enorm ist. Wenn jeder anfÃ¤ngt, nachhaltiger zu leben, kÃ¶nnen wir gemeinsam viel erreichen.",
+      text: "Mein Weg nach Deutschland\n\nVor drei Jahren war mein Leben ganz anders. Zu dieser Zeit habe ich in Teheran gearbeitet und hatte einen guten Job. Aber ich wollte mehr. Ich wollte die Welt sehen und neue Erfahrungen machen.\nAm Anfang war die Entscheidung schwer. Meine Familie hat mich unterstützt, aber ich hatte Angst. Zuerst habe ich Deutsch gelernt, jeden Tag drei Stunden. Es war anstrengend, aber ich habe nicht aufgegeben.\nDann habe ich mich für ein Studium in München beworben. Schließlich habe ich die Zulassung bekommen. Plötzlich war alles real: Ich musste mein ganzes Leben ändern.\nAm Flughafen habe ich mich an meine Familie erinnert. Es war ein gemischtes Gefühl: Traurigkeit und Aufregung gleichzeitig. Ich bin im Flugzeug gesessen und habe an die Zukunft gedacht.\nJetzt lebe ich seit zwei Jahren in München. Ich habe viele neue Freunde kennengelernt und viel gelernt. Manchmal vermisse ich meine Heimat, aber ich bereue nichts. In Zukunft werde ich meinen Abschluss machen und hoffentlich hier eine Arbeit finden. Irgendwann möchte ich meine Familie nach Deutschland einladen.",
+      translation: "مسیر من به آلمان\n\nسه سال پیش زندگی‌ام کاملاً متفاوت بود. در آن زمان در تهران کار می‌کردم و شغل خوبی داشتم. اما بیشتر می‌خواستم. می‌خواستم دنیا را ببینم و تجربه‌های جدید کسب کنم.\nدر ابتدا تصمیم سخت بود. خانواده‌ام حمایتم کردند اما ترس داشتم. اول آلمانی یاد گرفتم، هر روز سه ساعت. خسته‌کننده بود اما کنار نگذاشتم.\nبعد برای تحصیل در مونیخ درخواست دادم. سرانجام پذیرش گرفتم. ناگهان همه چیز واقعی شد: باید کل زندگی‌ام را عوض می‌کردم.\nدر فرودگاه خانواده‌ام را به یاد آوردم. حس مخلوطی بود: غم و هیجان همزمان. در هواپیما نشسته بودم و به آینده فکر می‌کردم.\nالان دو سال است که در مونیخ زندگی می‌کنم. دوستان جدید زیادی پیدا کردم و چیزهای زیادی یاد گرفتم. گاهی وطنم را دلتنگ می‌شوم اما پشیمان نیستم. در آینده مدرکم را می‌گیرم و امیدوارم اینجا کار پیدا کنم. یک روزی می‌خواهم خانواده‌ام را به آلمان دعوت کنم.",
       questions: [
-        { question: "Ø·Ø¨Ù‚ Ù¾Ø§Ø¯Ú©Ø³Øª Ø°Ú©Ø± Ø´Ø¯Ù‡ØŒ Ø¢ÛŒØ§ ØªØºÛŒÛŒØ±Ø§Øª Ú©ÙˆÚ†Ú© (kleine VerÃ¤nderungen) ØªØ§Ø«ÛŒØ±ÛŒ Ø¯Ø§Ø±Ù†Ø¯ØŸ (Ø¯Ø± Ù…ØªÙ† Ù¾ÛŒØ¯Ø§ Ú©Ù†ÛŒØ¯)" },
-        { question: "Ø¨Ø±Ø§ÛŒ Ú©Ø§Ù‡Ø´ Ø³Ø±Ø¹Øª ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒØŒ Ù…ØªÙ† Ú†Ù‡ Ù¾ÛŒØ´Ù†Ù‡Ø§Ø¯ÛŒ Ø¯Ø± Ù…ÙˆØ±Ø¯ Ø­Ù…ل Ùˆ Ù†Ù‚ل Ù…ÛŒâ€ŒØ¯Ù‡Ø¯ØŸ (Ø¨Ø§ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² um ... zu Ù¾Ø§Ø³Ø® Ø¯Ù‡ÛŒØ¯)" },
-        { question: "Ø®Ø±ÛŒØ¯ Ù¾Ø§ÛŒØ¯Ø§Ø± (nachhaltig einkaufen) Ø´Ø§Ù…ل Ú†Ù‡ Ú©Ø§Ø±Ù‡Ø§ÛŒÛŒ Ø§Ø³ØªØŸ (Ø¯Ùˆ Ù…ÙˆØ±Ø¯)" },
-        { question: "Ú†Ø±Ø§ Ù…ØªÙ† Ù¾ÛŒØ´Ù†Ù‡Ø§Ø¯ Ù…ÛŒâ€ŒÚ©Ù†Ø¯ Ø§Ø² Ø³ÙØ±Ù‡Ø§ÛŒ Ù‡ÙˆØ§ÛŒÛŒ Ú©ÙˆØªØ§Ù‡ Ø®ÙˆØ¯Ø¯Ø§Ø±ÛŒ Ú©Ù†ÛŒÙ…ØŸ" }
+        { question: "او سه سال پیش چه کار می‌کرد؟", answer: "در تهران کار می‌کرد و شغل خوبی داشت." },
+        { question: "اولین قدمش چه بود؟", answer: "هر روز سه ساعت آلمانی یاد گرفت." },
+        { question: "در فرودگاه چه حسی داشت؟", answer: "حس مخلوطی از غم و هیجان." },
+        { question: "هدف آینده‌اش چیست؟", answer: "گرفتن مدرک، پیدا کردن کار و دعوت خانواده به آلمان." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "Ù†ÙˆØ´ØªÙ†: Ú¯Ø²Ø§Ø±Ø´ Ù¾Ø§Ø¯Ú©Ø³Øª / Ù…Ù‚Ø§لÙ‡",
-      prompt: "Ø¯Ø± ÛŒÚ© Ù¾Ø§Ø±Ø§Ú¯Ø±Ø§Ù (Ø­Ø¯ÙˆØ¯ Û¸ Ø®Ø·) ØªØµÙˆØ± Ú©Ù†ÛŒØ¯ ÛŒÚ© Ù…Ù‚Ø§لÙ‡ ÛŒØ§ Ù¾Ø§Ø¯Ú©Ø³Øª Ø±Ø§Ø¬Ø¹ Ø¨Ù‡ Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ø®ÙˆØ§Ù†Ø¯Ù‡/Ø´Ù†ÛŒØ¯Ù‡â€ŒØ§ÛŒØ¯. Ø§Ø¨ØªØ¯Ø§ Ø¨Ú¯ÙˆÛŒÛŒØ¯ Ù…ÙˆØ¶ÙˆØ¹ Ú†ÛŒØ³Øª (Im Podcast geht es um...). Ø³Ù¾Ø³ Ø¯Ùˆ Ú©Ø§Ø± Ø±ÙˆØ²Ù…Ø±Ù‡ Ú©Ù‡ Ù¾ÛŒØ´Ù†Ù‡Ø§Ø¯ Ø´Ø¯Ù‡ Ø±Ø§ Ø¨Ø§ Ø³Ø§Ø®ØªØ§Ø± um ... zu Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯. Ø¯Ø± Ø§Ù†ØªÙ‡Ø§ Ù†Ø¸Ø± Ø´Ø®ØµÛŒ Ø®ÙˆØ¯ Ø±Ø§ Ø¨Ø¯Ù‡ÛŒØ¯ (Ø´Ù…Ø§ Ù…ÙˆØ§ÙÙ‚ÛŒØ¯ ÛŒØ§ Ù…Ø®Ø§لÙØŸ).",
+      title: "نوشتن یک تجربه شخصی",
+      prompt: "یک تجربه مهم زندگی‌تان را در ۱۲-۱۵ خط بنویسید. از سه زمان (Perfekt, Präsens, Futur I) و Redemittel روایی استفاده کنید.",
       steps: [
         {
-          title: "Ù…Ø¹Ø±ÙÛŒ Ù…ÙˆØ¶ÙˆØ¹",
-          text: "Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Im Podcast geht es um...",
-          example: { de: "Im Podcast geht es um Umweltschutz im Alltag.", fa: "Ø¯Ø± Ù¾Ø§Ø¯Ú©Ø³Øª Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø­ÙØ§Ø¸Øª Ø§Ø² Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ø¯Ø± Ø²Ù†Ø¯Ú¯ÛŒ Ø±ÙˆØ²Ù…Ø±Ù‡ Ø¨Ø­Ø« Ù…ÛŒâ€ŒØ´ÙˆØ¯." }
+          title: "مقدمه و گذشته",
+          text: "Am Anfang / Vor ... Jahren",
+          example: { de: "Vor zwei Jahren habe ich eine wichtige Entscheidung getroffen.", fa: "دو سال پیش تصمیم مهمی گرفتم." }
         },
         {
-          title: "Ø¨ÛŒØ§Ù† Ø±Ø§Ù‡Ú©Ø§Ø±Ù‡Ø§",
-          text: "Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² um ... zu Ùˆ Energie sparen.",
-          example: { de: "Die Experten sagen, wir sollen das Fahrrad nehmen, um die Umwelt zu schÃ¼tzen.", fa: "Ú©Ø§Ø±Ø´Ù†Ø§Ø³Ø§Ù† Ù…ÛŒâ€ŒÚ¯ÙˆÛŒÙ†Ø¯ØŒ Ù…Ø§ Ø¨Ø§ÛŒØ¯ Ø¨Ø§ Ø¯ÙˆÚ†Ø±Ø®Ù‡ Ø¨Ø±ÙˆÛŒÙ…ØŒ ØªØ§ Ø§Ø² Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ù…Ø­Ø§ÙØ¸Øª Ú©Ù†ÛŒÙ…." }
+          title: "بدنه داستان",
+          text: "Dann / Danach / Plötzlich",
+          example: { de: "Dann ist etwas Unerwartetes passiert.", fa: "بعد اتفاق غیرمنتظره‌ای افتاد." }
         },
         {
-          title: "Ù…ÙˆØ§ÙÙ‚Øª Ùˆ Ù†Ø¸Ø± Ø´Ø®ØµÛŒ",
-          text: "Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Ich stimme zu (Ù…Ù† Ù…ÙˆØ§ÙÙ‚Ù…).",
-          example: { de: "Ich stimme zu, weil diese kleinen Dinge leicht sind und viel helfen.", fa: "Ù…Ù† Ù…ÙˆØ§ÙÙ‚Ù…ØŒ Ú†ÙˆÙ† Ø§ÛŒÙ† Ú©Ø§Ø±Ù‡Ø§ÛŒ Ú©ÙˆÚ†Ú© Ø¢Ø³Ø§Ù† Ù‡Ø³ØªÙ†Ø¯ Ùˆ Ú©Ù…Ú© Ø²ÛŒØ§Ø¯ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯." }
+          title: "پایان و آینده",
+          text: "Schließlich / In Zukunft",
+          example: { de: "Schließlich hat sich alles zum Guten gewendet.", fa: "سرانجام همه چیز خوب شد." }
         }
-      ]
+      ],
+      modelAnswer: "Vor drei Jahren habe ich beschlossen, Deutsch zu lernen. Am Anfang war es sehr schwer. Zuerst habe ich die Grammatik nicht verstanden. Dann habe ich einen guten Lehrer gefunden, der mir geholfen hat. Plötzlich wurde alles leichter. Ich habe jeden Tag geübt und bin besser geworden. Nach einem Jahr habe ich die A2-Prüfung bestanden. Schließlich habe ich mich für einen B1-Kurs angemeldet. Jetzt lerne ich noch intensiver. Ich erinnere mich an den ersten Tag, als ich kein Wort Deutsch konnte. Das war eine schwierige Zeit, aber auch eine wichtige Erfahrung. In Zukunft werde ich B2 machen und hoffentlich nach Deutschland reisen. Irgendwann möchte ich dort studieren und arbeiten. Diese Erfahrung hat mein Leben verändert."
     }
   ],
 
   listening: [
     {
-      title: "Û±. Ù…Ø¹Ø±ÙÛŒ Ù…Ø´Ú©لØ§Øª Ø¯Ø± Ù¾Ø§Ø¯Ú©Ø³Øª",
-      source: "MÃ¼ll & Klima",
-      link: "https://www.youtube.com/watch?v=OZm-n1EroN4",
-      instructions: "ØªÙ…Ø±ÛŒÙ† Ø´Ù†ÛŒØ¯Ù† Ú©لÙ…Ø§Øª ØªØ®ØµØµÛŒ:\nØ¯Ø± Ù¾Ø§Ø¯Ú©Ø³Øª Ø¨Ù‡ Ø¯Ù†Ø¨Ø§ل Ú©لÙ…Ø§Øª Â«KlimawandelÂ» (ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒ) Ùˆ Â«VerhaltenÂ» (Ø±ÙØªØ§Ø±) Ø¨Ø§Ø´ÛŒØ¯. ÙˆÙ‚ØªÛŒ Ø§ÛŒÙ† Ú©لÙ…Ø§Øª Ø±Ø§ Ø´Ù†ÛŒØ¯ÛŒØ¯ØŒ Ø­Ø¯Ø³ Ø¨Ø²Ù†ÛŒØ¯ Ù†Ø¸Ø± Ú¯ÙˆÛŒÙ†Ø¯Ù‡ Ú†ÛŒØ³Øª (Ù…Ø«Ø¨ØªØŒ Ù‡Ø´Ø¯Ø§Ø±Ø¯Ù‡Ù†Ø¯Ù‡ ÛŒØ§ Ø¨ÛŒâ€ŒØªÙØ§ÙˆØª)."
-    },
-    {
-      title: "Û². Ø³ÙØ± Ùˆ Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª",
-      source: "Reiseverhalten",
-      link: "https://creators.spotify.com/pod/profile/david0840/episodes/Reiseverhalten-und-Klimaschutz-B1-e24ato2",
-      instructions: "ØªÙ…Ø±ÛŒÙ† Ø¯Ø±ÛŒØ§ÙØª Ø§ÛŒØ¯Ù‡ Ø³ÙØ±:\nÚ¯ÙˆÛŒÙ†Ø¯Ù‡ Ø¯Ø±Ø¨Ø§Ø±Ù‡ Flugzeug (Ù‡ÙˆØ§Ù¾ÛŒÙ…Ø§) Ùˆ Zug (Ù‚Ø·Ø§Ø±) Ù†Ø¸Ø± Ù…ÛŒâ€ŒØ¯Ù‡Ø¯. Ø¢ÛŒØ§ Ø§Ùˆ Ø§Ø² Zug (Ù‚Ø·Ø§Ø±) Ø¨Ù‡ Ø¯لÛŒل CO2 Ú©Ù…ØªØ± Ø¯ÙØ§Ø¹ Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ"
+      title: "داستان‌گویی",
+      instruction: "به جملات زیر گوش دهید و بنویسید (Dictation). این عبارات در روایت استفاده می‌شوند.",
+      sentences: [
+        { de: "Am Anfang war alles schwer.", fa: "در ابتدا همه چیز سخت بود.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Am Anfang war alles schwer" },
+        { de: "Zuerst habe ich mich hingesetzt.", fa: "اول نشستم.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Zuerst habe ich mich hingesetzt" },
+        { de: "Dann ist etwas Unerwartetes passiert.", fa: "بعد اتفاق غیرمنتظره‌ای افتاد.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Dann ist etwas Unerwartetes passiert" },
+        { de: "Plötzlich hat alles sich verändert.", fa: "ناگهان همه چیز عوض شد.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Plötzlich hat alles sich verändert" },
+        { de: "Schließlich habe ich es geschafft.", fa: "سرانجام موفق شدم.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Schließlich habe ich es geschafft" },
+        { de: "Ich erinnere mich daran.", fa: "یادم هست / به یاد می‌آورم.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=Ich erinnere mich daran" },
+        { de: "In Zukunft werde ich mehr machen.", fa: "در آینده بیشتر خواهم کرد.", tts: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=de&q=In Zukunft werde ich mehr machen" }
+      ]
     }
   ],
 
   speaking: [
     {
-      title: "Ù…ÙˆÙ†ÙˆلÙˆÚ¯ Ú©ÙˆØªØ§Ù‡: Ø®لØ§ØµÙ‡ ÛŒÚ© Ù…Ù‚Ø§لÙ‡/Ù¾Ø§Ø¯Ú©Ø³Øª Ù…Ø­ÛŒØ· Ø²ÛŒØ³ØªÛŒ",
-      pattern: "Im Artikel geht es um... / Ein wichtiges Thema ist... / Das finde ich richtig, denn...",
-      exercise: "Ù…Ø¯Øª Û² Ø¯Ù‚ÛŒÙ‚Ù‡ Ø¨Ù‡ ØµÙˆØ±Øª Ø´ÙØ§Ù‡ÛŒ Ú¯Ø²Ø§Ø±Ø´ Ø¯Ù‡ÛŒØ¯ Ú©Ù‡ Ø¯Ø± Ù…ØªÙ† Ø±ÛŒØ¯ÛŒÙ†Ú¯ Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ø®ÙˆØ§Ù†Ø¯Ù‡â€ŒØ§ÛŒØ¯. Ø­ØªÙ…Ø§Ù‹ Ø§Ø² Ø³Ø§Ø®ØªØ§Ø± Â«In dem Text geht es um...Â» Ø´Ø±ÙˆØ¹ Ú©Ù†ÛŒØ¯ Ùˆ Ø³Ù¾Ø³ Û² Ù¾ÛŒØ´Ù†Ù‡Ø§Ø¯ Ø¢Ù† Ø±Ø§ Ø¨ÛŒØ§Ù† Ú©Ù†ÛŒØ¯."
-    },
-    {
-      title: "Ø¯ÛŒØ§لÙˆÚ¯: Ù¾ÛŒØ´Ù†Ù‡Ø§Ø¯ Ø®Ø±ÛŒØ¯ Ù¾Ø§ÛŒØ¯Ø§Ø±",
-      pattern: "Wir sollten... um zu... / Hast du gewusst, dass... ?",
-      exercise: "ÙØ±Ø¶ Ú©Ù†ÛŒØ¯ Ø¨Ø§ Ù‡Ù…â€ŒØ®Ø§Ù†Ù‡â€ŒØ§ÛŒ ØªØ§Ù† Ø¯Ø± Ø³ÙˆÙ¾Ø±Ù…Ø§Ø±Ú©Øª Ù‡Ø³ØªÛŒØ¯. Ø§Ùˆ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ø¯ Ú¯ÙˆØ¬Ù‡â€ŒÙØ±Ù†Ú¯ÛŒâ€ŒÙ‡Ø§ÛŒ ÙˆØ§Ø±Ø¯Ø§ØªÛŒ Ø¨Ø§ Ø¨Ø³ØªÙ‡â€ŒØ¨Ù†Ø¯ÛŒ Ù¾لØ§Ø³ØªÛŒÚ©ÛŒ Ø±Ø§ Ø¨Ø®Ø±Ø¯. Ø´Ù…Ø§ Ù¾ÛŒØ´Ù†Ù‡Ø§Ø¯ Ø¨Ø¯Ù‡ÛŒØ¯ Ú©Ù‡ Ú¯ÙˆØ¬Ù‡â€ŒÙ‡Ø§ÛŒ Ù…Ø­لÛŒÙ ÙلÙ‡â€ŒØ§ÛŒ Ø¨Ú¯ÛŒØ±ÛŒØ¯ ØªØ§ Ù¾لØ§Ø³ØªÛŒÚ© Ú©Ù…ØªØ±ÛŒ Ù…ØµØ±Ù Ú©Ù†ÛŒØ¯."
+      title: "روایت یک تجربه",
+      pattern: "Am Anfang... / Zuerst... / Dann... / Plötzlich... / Schließlich... / In Zukunft werde ich...",
+      exercise: "یک تجربه مهم زندگی‌تان را برای دوستتان تعریف کنید. از سه زمان (گذشته، حال، آینده) استفاده کنید و داستان را منظم روایت کنید."
     }
   ],
 
-  cultureTip: "ÙØ±Ù‡Ù†Ú¯ Ø§Ù†Ø±Ú˜ÛŒ Ø¯Ø± Ø¢لÙ…Ø§Ù† (Energiewende) Ùˆ Ø³ÙØ± Ø¨Ø§ Ù‚Ø·Ø§Ø±: Ø¢لÙ…Ø§Ù† Ø¯Ø± Ø­Ø§ل Ú¯Ø°Ø§Ø± Ø¨Ù‡ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ø§Ù…ل Ø§Ø² Ø§Ù†Ø±Ú˜ÛŒâ€ŒÙ‡Ø§ÛŒ ØªØ¬Ø¯ÛŒØ¯Ù¾Ø°ÛŒØ± (Energiewende) Ø§Ø³Øª Ùˆ Ø¯Ø± Ø§ÛŒÙ† Ø²Ù…ÛŒÙ†Ù‡ Ø¯Ø± Ø¯Ù†ÛŒØ§ Ù¾ÛŒØ´Ú¯Ø§Ù… Ø§Ø³Øª. Ù…Ø§لÛŒØ§Øª Ø³ÙˆØ®Øª Ùˆ Ø§Ù†Ø±Ú˜ÛŒ Ø¯Ø± Ø¢لÙ…Ø§Ù† Ø¨Ø³ÛŒØ§Ø± Ø¨Ø§لØ§Ø³ØªØŒ Ø¨Ù†Ø§Ø¨Ø±Ø§ÛŒÙ† Ù…Ø±Ø¯Ù… Ø¨Ù‡ Ø´Ø¯Øª Ø¯Ø± Ù…ØµØ±Ù Ø¨Ø±Ù‚ Ùˆ Ú¯Ø±Ù…Ø§ÛŒØ´ ØµØ±ÙÙ‡â€ŒØ¬ÙˆÛŒÛŒ (Energie sparen) Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯. Ø§Ø² Ø³ÙˆÛŒ Ø¯ÛŒÚ¯Ø±ØŒ Ø¬ÙˆØ§Ù†Ø§Ù† Ø¢لÙ…Ø§Ù†ÛŒ Ø¯Ø±Ú¯ÛŒØ± Ø¬Ù†Ø¨Ø´ÛŒ Ø¨Ù‡ Ù†Ø§Ù… Â«FlugschamÂ» (Ø´Ø±Ù… Ø§Ø² Ù¾Ø±ÙˆØ§Ø²) Ø´Ø¯Ù‡â€ŒØ§Ù†Ø¯ Ú©Ù‡ Ø¯Ø± Ø¢Ù† ØªØ±Ø¬ÛŒØ­ Ù…ÛŒâ€ŒØ¯Ù‡Ù†Ø¯ Ø¨Ù‡ Ø¬Ø§ÛŒ Ù‡ÙˆØ§Ù¾ÛŒÙ…Ø§ Ø§Ø² Ù‚Ø·Ø§Ø± (Bahn) Ø¨Ø±Ø§ÛŒ Ø³ÙØ±Ù‡Ø§ÛŒ Ø¯Ø±ÙˆÙ†-Ø§Ø±ÙˆÙ¾Ø§ÛŒÛŒ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†Ù†Ø¯ ØªØ§ CO2 Ú©Ù…ØªØ±ÛŒ ÙˆØ§Ø±Ø¯ Ø¬Ùˆ Ø´ÙˆØ¯. Ø¨Ø­Ø« Ø¯Ø± Ù…ÙˆØ±Ø¯ Ø¨لÛŒØªâ€ŒÙ‡Ø§ÛŒ Ø§Ø±Ø²Ø§Ù† Ù‚Ø·Ø§Ø± (Ù…Ø«ل Deutschlandticket) ÛŒÚ© Ø¨Ø­Ø« Ø¯Ø§Øº Ø§Ø¬ØªÙ…Ø§Ø¹ÛŒ Ø§Ø³Øª."
+  cultureTip: "در فرهنگ آلمانی، داستان‌گویی (Geschichtenerzählen) بخش مهمی از فرهنگ شفاهی است. مارکس برادران (Gebrüder Grimm) با جمع‌آوری افسانه‌ها معروف شدند. آلمانی‌ها در مکالمه روزمره هم از تکنیک‌های روایی استفاده می‌کند: «Weißt du, was mir passiert ist؟» (می‌دانی چه اتفاقی برایم افتاد؟) شروع رایج یک داستان است. در امتحان B1، بخش Sprechen شامل توصیف تصاویر و روایت اتفاقات است.",
+
+  examData: {
+    questions: [
+      { question: "برای شروع داستان از کدام عبارت استفاده می‌شود؟", options: ["Schließlich", "Zum Schluss", "Am Anfang", "Danach"], answer: 2 },
+      { question: "«Schließlich» یعنی:؟", options: ["ناگهان", "سرانجام", "بعد", "اول"], answer: 1 },
+      { question: "در روایت شفاهی از چه زمانی برای گذشته استفاده می‌شود؟", options: ["Präteritum", "Perfekt", "Plusquamperfekt", "Futur"], answer: 1 },
+      { question: "«Plötzlich» یعنی:؟", options: ["بعداً", "سرانجام", "ناگهان", "ابتدا"], answer: 2 },
+      { question: "برای بیان آینده از چه ساختاری استفاده می‌شود؟", options: ["Perfekt", "Präteritum", "Futur I (werden + Infinitiv)", "Präsens"], answer: 2 },
+      { question: "«sich erinnern an» یعنی:؟", options: ["فراموش کردن", "به یاد آوردن", "تجربه کردن", "تصمیم گرفتن"], answer: 1 },
+      { question: "«passieren» یعنی:؟", options: ["سفر کردن", "اتفاق افتادن", "شروع کردن", "تمام شدن"], answer: 1 },
+      { question: "«irgendwann» یعنی:؟", options: ["الان", "هرگز", "یک روزی", "فوراً"], answer: 2 },
+      { question: "کدام فعل در Präteritum حتی در مکالمه استفاده می‌شود؟", options: ["machen", "gehen", "haben", "spielen"], answer: 2 },
+      { question: "«vor kurzem» یعنی:؟", options: ["مدت‌ها پیش", "اخیراً", "فردا", "الان"], answer: 1 }
+    ]
+  }
 };

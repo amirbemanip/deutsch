@@ -1,190 +1,219 @@
 export const day27Data = {
-  title: "Ø±ÙˆØ² Û²Û·: Ø­Ø§لØª Ù…ÙØ¹ÙˆلÛŒ ØºÛŒØ±Ù…Ø³ØªÙ‚ÛŒÙ… (Dativ)",
-  objective: "ÛŒØ§Ø¯Ú¯ÛŒØ±ÛŒ ØªØºÛŒÛŒØ± Ø­Ø±ÙˆÙ ØªØ¹Ø±ÛŒÙ Ùˆ Ø§Ø³Ù…â€ŒÙ‡Ø§ Ø¯Ø± Ø­Ø§لØª Dativ Ùˆ Ú©Ø§Ø±Ø¨Ø±Ø¯ Ø¢Ù† Ø¯Ø± Ø¬Ù…لØ§Øª Ø±ÙˆØ²Ù…Ø±Ù‡",
-
+  title: "روز ۲۷: حالت مفعولی غیرمستقیم (Dativ)",
+  objective: "یادگیری تغییر حروف تعریف و اسم‌ها در حالت Dativ و کاربرد آن در جملات روزمره.",
   grammarData: {
-    subtitle: "Ø­Ø§لØª Dativ Ø¯Ø± Ø²Ø¨Ø§Ù† Ø¢لÙ…Ø§Ù†ÛŒ",
+    subtitle: "حالت Dativ در زبان آلمانی",
     content: [
       {
         type: "text",
-        title: "Dativ Ú†ÛŒØ³ØªØŸ",
-        text: "Ø­Ø§لØª Dativ (Ù…ÙØ¹ÙˆلÛŒ ØºÛŒØ±Ù…Ø³ØªÙ‚ÛŒÙ…) Ù†Ø´Ø§Ù† Ù…ÛŒâ€ŒØ¯Ù‡Ø¯ Ú©Ø§Ø±ÛŒ Ø¨Ù‡ Ù†ÙØ¹ ÛŒØ§ Ø¶Ø±Ø± Ú†Ù‡ Ú©Ø³ÛŒ Ø§Ù†Ø¬Ø§Ù… Ù…ÛŒâ€ŒØ´ÙˆØ¯. Ø¨Ù‡ Ø³ÙˆØ§ل Wem? (Ø¨Ø±Ø§ÛŒ Ú†Ù‡ Ú©Ø³ÛŒØŸ) Ù¾Ø§Ø³Ø® Ù…ÛŒâ€ŒØ¯Ù‡Ø¯. Ù…Ø«لØ§Ù‹: Ich gebe dem Mann ein Buch. (Ù…Ù† Ø¨Ù‡ Ø¢Ù† Ù…Ø±Ø¯ Ú©ØªØ§Ø¨ÛŒ Ù…ÛŒâ€ŒØ¯Ù‡Ù….) dem Mann Ù…ÙØ¹ÙˆلÛŒ ØºÛŒØ±Ù…Ø³ØªÙ‚ÛŒÙ… Ø§Ø³Øª."
+        title: "Dativ چیست؟",
+        text: "Dativ (حالت مفعولی غیرمستقیم) برای نشان دادن «به چه کسی؟» یا «برای چه کسی؟» استفاده می‌شود. بسیاری از فعل‌ها فقط با Dativ می‌آیند: helfen, danken, antworten, gefallen, gehören, schmecken. همچنین در جملات با دو مفعول، مفعول غیرمستقیم در Dativ می‌آید."
       },
       {
         type: "table",
-        title: "ØªØºÛŒÛŒØ± Ø­Ø±ÙˆÙ ØªØ¹Ø±ÛŒÙ Ø¯Ø± Dativ",
+        title: "تغییرات حروف تعریف در Dativ",
         rows: [
-          { de: "der â†’ dem", fa: "Ù…Ø°Ú©Ø±: der Mann â†’ dem Mann" },
-          { de: "die â†’ der", fa: "Ù…Ø¤Ù†Ø«: die Frau â†’ der Frau" },
-          { de: "das â†’ dem", fa: "Ø®Ù†Ø«ÛŒ: das Kind â†’ dem Kind" },
-          { de: "die(pl) â†’ den + n", fa: "Ø¬Ù…Ø¹: die Kinder â†’ den Kindern" },
-          { de: "ein â†’ einem", fa: "Ù†Ø§Ù…Ø¹ÛŒÙ† Ù…Ø°Ú©Ø±: ein Mann â†’ einem Mann" },
-          { de: "eine â†’ einer", fa: "Ù†Ø§Ù…Ø¹ÛŒÙ† Ù…Ø¤Ù†Ø«: eine Frau â†’ einer Frau" },
-          { de: "ein â†’ einem", fa: "Ù†Ø§Ù…Ø¹ÛŒÙ† Ø®Ù†Ø«ÛŒ: ein Kind â†’ einem Kind" },
-          { de: "mein â†’ meinem/meiner", fa: "Ù…لÚ©ÛŒ: mein Bruder â†’ meinem Bruder" }
+          { de: "der → dem [deːm]", fa: "مذکر: مرد → به مرد" },
+          { de: "die → der [deːɐ̯]", fa: "مؤنث: زن → به زن" },
+          { de: "das → dem [deːm]", fa: "خنثی: بچه → به بچه" },
+          { de: "die(pl) → den + N", fa: "جمع: دوستان → به دوستان + N" }
+        ]
+      },
+      {
+        type: "table",
+        title: "حروف تعریف نامشخص در Dativ",
+        rows: [
+          { de: "ein → einem (مذکر)", fa: "یک مرد → به یک مرد" },
+          { de: "eine → einer (مؤنث)", fa: "یک زن → به یک زن" },
+          { de: "einem (خنثی)", fa: "یک بچه → به یک بچه" },
+          { de: "kein → keinem/keiner/keinen+ N", fa: "هیچ → به هیچ ..." }
+        ]
+      },
+      {
+        type: "table",
+        title: "ضمایر شخصی در Dativ",
+        rows: [
+          { de: "ich → mir [miːɐ̯]", fa: "من → به من" },
+          { de: "du → dir [diːɐ̯]", fa: "تو → به تو" },
+          { de: "er → ihm [iːm]", fa: "او (مذکر) → به او" },
+          { de: "sie → ihr [iːɐ̯]", fa: "او (مؤنث) → به او" },
+          { de: "es → ihm [iːm]", fa: "آن → به آن" },
+          { de: "wir → uns [ʊns]", fa: "ما → به ما" },
+          { de: "ihr → euch [ɔʏ̯ç]", fa: "شما (جمع) → به شما" },
+          { de: "sie → ihnen [ˈiːnən]", fa: "آن‌ها → به آن‌ها" },
+          { de: "Sie → Ihnen [ˈiːnən]", fa: "شما (رسمی) → به شما" }
+        ]
+      },
+      {
+        type: "table",
+        title: "افعال مهم با Dativ",
+        rows: [
+          { de: "helfen [ˈhɛlpfn̩]", fa: "کمک کردن" },
+          { de: "danken [ˈdaŋkn̩]", fa: "تشکر کردن" },
+          { de: "antworten [ˈantvɔʁtn̩]", fa: "جواب دادن" },
+          { de: "gefallen [ɡəˈfalən]", fa: "خوش آمدن" },
+          { de: "gehören [ɡəˈhøːʁən]", fa: "تعلق داشتن" },
+          { de: "schmecken [ˈʃmɛkn̩]", fa: "مزه دادن" },
+          { de: "grüßen [ˈɡʁyːsn̩]", fa: "سلام کردن" },
+          { de: "glauben [ˈɡlaʊ̯bn̩]", fa: "باور کردن" },
+          { de: "fehlen [ˈfeːlən]", fa: "کم بودن / دلتنگی" },
+          { de: "zuhören [ˈtsuːˌhøːʁən]", fa: "گوش دادن" }
         ]
       },
       {
         type: "examples",
-        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ Ú©Ø§Ø±Ø¨Ø±Ø¯ÛŒ",
+        title: "مثال‌های Dativ",
         items: [
-          { de: "Ich gebe dem Lehrer die Hausaufgaben.", fa: "Ù…Ù† ØªÚ©Ø§لÛŒÙ Ø±Ø§ Ø¨Ù‡ Ù…Ø¹لÙ… Ù…ÛŒâ€ŒØ¯Ù‡Ù…." },
-          { de: "Sie schreibt ihrer Mutter einen Brief.", fa: "Ø§Ùˆ Ø¨Ù‡ Ù…Ø§Ø¯Ø±Ø´ Ù†Ø§Ù…Ù‡ Ù…ÛŒâ€ŒÙ†ÙˆÛŒØ³Ø¯." },
-          { de: "Er hilft den Studenten.", fa: "Ø§Ùˆ Ø¨Ù‡ Ø¯Ø§Ù†Ø´Ø¬ÙˆÛŒØ§Ù† Ú©Ù…Ú© Ù…ÛŒâ€ŒÚ©Ù†Ø¯." },
-          { de: "Wir danken dem Arzt fÃ¼r die Behandlung.", fa: "Ù…Ø§ Ø§Ø² Ù¾Ø²Ø´Ú© Ø¨Ø±Ø§ÛŒ Ø¯Ø±Ù…Ø§Ù† ØªØ´Ú©Ø± Ù…ÛŒâ€ŒÚ©Ù†ÛŒÙ…." },
-          { de: "Gib mir bitte das Salz!", fa: "لØ·ÙØ§Ù‹ Ù†Ù…Ú© Ø±Ø§ Ø¨Ù‡ Ù…Ù† Ø¨Ø¯Ù‡!" },
-          { de: "Das Geschenk ist fÃ¼r meiner Tochter.", fa: "Ø§ÛŒÙ† Ù‡Ø¯ÛŒÙ‡ Ø¨Ø±Ø§ÛŒ Ø¯Ø®ØªØ±Ù… Ø§Ø³Øª." },
-          { de: "Ich erzÃ¤hle dem Kind eine Geschichte.", fa: "Ù…Ù† Ø¨Ø±Ø§ÛŒ Ú©ÙˆØ¯Ú© Ø¯Ø§Ø³ØªØ§Ù†ÛŒ ØªØ¹Ø±ÛŒÙ Ù…ÛŒâ€ŒÚ©Ù†Ù…." }
+          { de: "Ich helfe dem Mann.", fa: "به مرد کمک می‌کنم." },
+          { de: "Ich danke dir.", fa: "از تو تشکر می‌کنم." },
+          { de: "Das Buch gefällt mir.", fa: "این کتاب به من خوش می‌آید." },
+          { de: "Das schmeckt ihm.", fa: "این به او مزه می‌دهد." },
+          { de: "Wem gehört das Auto?", fa: "این ماشین مال کیست؟" },
+          { de: "Antworten Sie mir bitte!", fa: "لطفاً به من جواب دهید!" },
+          { de: "Ich glaube dir.", fa: "به تو باور دارم." },
+          { de: "Grüßen Sie Ihre Familie von mir!", fa: "از طرف من به خانواده‌تان سلام برسانید!" },
+          { de: "Hören Sie mir zu!", fa: "به من گوش دهید!" },
+          { de: "Du fehlst mir.", fa: "دلتنگتم." }
         ]
       },
       {
         type: "alert",
-        title: "Ù†Ú©ØªÙ‡ Ù…Ù‡Ù…!",
-        text: "Ø¯Ø± Ø¬Ù…Ø¹ Ø¨Ø§ Dativ Ø­ØªÙ…Ø§Ù‹ n Ø§Ø¶Ø§ÙÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯: den Kinder-n, den Frau-en (Ø²Ù†Ø§Ù†). Ø§ÛŒÙ† Ù‚Ø§Ù†ÙˆÙ† Ø¨Ø±Ø§ÛŒ Ù‡Ù…Ù‡ Ø§Ø³Ù…â€ŒÙ‡Ø§ÛŒ Ø¬Ù…Ø¹ Ø¯Ø± Dativ ØµØ¯Ù‚ Ù…ÛŒâ€ŒÚ©Ù†Ø¯. Ù‡Ù…Ú†Ù†ÛŒÙ† Ø¶Ù…Ø§ÛŒØ± Ù…ÙØ¹ÙˆلÛŒ ØºÛŒØ±Ù…Ø³ØªÙ‚ÛŒÙ…: mir, dir, ihm, ihr, uns, euch, ihnen Ø±Ø§ Ø­ÙØ¸ Ú©Ù†ÛŒØ¯."
+        title: "نکته مهم!",
+        text: "فعل‌های Dativ همیشه با مفعول غیرمستقیم می‌آیند. این فعل‌ها Akkusativ نمی‌گیرند! فعل‌های مهم: helfen, danken, gefallen, schmecken, gehören, antworten. همیشه از خودتان بپرسید: «به چه کسی؟» اگر جواب Dativ است. نکته: فعل «helfen» همیشه با Dativ می‌آید حتی اگر مفعول مستقیم هم داشته باشد."
       },
       {
         type: "interactive_quiz",
-        title: "ØªØ³Øª ØªØºÛŒÛŒØ± Ø­Ø±ÙˆÙ ØªØ¹Ø±ÛŒÙ",
+        title: "Dativ را بشناسید",
         questions: [
           {
-            question: "Ú©Ø¯Ø§Ù… Ø´Ú©ل ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ Ich gebe ___ Mann das Buch.",
-            questionDe: "Ich gebe ___ Mann das Buch.",
+            question: "ضمیر Dativ برای ich چیست؟",
+            questionDe: "Was ist das Dativpronomen für 'ich'?",
             options: [
-              { text: "dem", isCorrect: true },
-              { text: "den", isCorrect: false },
-              { text: "der", isCorrect: false },
-              { text: "des", isCorrect: false }
+              { text: "mich", isCorrect: false },
+              { text: "mir", isCorrect: true },
+              { text: "ich", isCorrect: false },
+              { text: "uns", isCorrect: false }
             ],
-            explanation: "Ú†ÙˆÙ† Mann Ù…Ø°Ú©Ø± Ø§Ø³Øª Ùˆ Ø¯Ø± Ø­Ø§لØª Dativ Ù‚Ø±Ø§Ø± Ø¯Ø§Ø±Ø¯ØŒ Ø­Ø±Ù ØªØ¹Ø±ÛŒÙ dem Ù…ÛŒâ€ŒØ´ÙˆØ¯."
+            explanation: "ich → mir (Dativ)."
           },
           {
-            question: "Ú©Ø¯Ø§Ù… Ø´Ú©ل ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ Ich helfe ___ Kinder.",
-            questionDe: "Ich helfe ___ Kinder.",
+            question: "«Ich helfe dir» یعنی چه؟",
+            questionDe: "Was bedeutet 'Ich helfe dir'?",
             options: [
-              { text: "den Kinder", isCorrect: false },
-              { text: "den Kinder-n", isCorrect: true },
-              { text: "der Kinder", isCorrect: false },
-              { text: "dem Kinder", isCorrect: false }
+              { text: "من تو را می‌بینم", isCorrect: false },
+              { text: "من به تو کمک می‌کنم", isCorrect: true },
+              { text: "من تو را دوست دارم", isCorrect: false },
+              { text: "من با تو صحبت می‌کنم", isCorrect: false }
             ],
-            explanation: "Ú†ÙˆÙ† Kinder Ø¬Ù…Ø¹ Ø§Ø³Øª Ùˆ Ø¯Ø± Dativ Ù‚Ø±Ø§Ø± Ø¯Ø§Ø±Ø¯ØŒ den + n Ø§Ø¶Ø§ÙÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯: den Kindern."
+            explanation: "helfen + Dativ: به کسی کمک کردن."
           },
           {
-            question: "Ú©Ø¯Ø§Ù… Ø´Ú©ل ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ Sie schreibt ___ Freundin einen Brief.",
-            questionDe: "Sie schreibt ___ Freundin einen Brief.",
+            question: "«Das gefällt mir» یعنی چه؟",
+            questionDe: "Was bedeutet 'Das gefällt mir'?",
             options: [
-              { text: "ihrer", isCorrect: true },
-              { text: "ihrem", isCorrect: false },
-              { text: "ihren", isCorrect: false },
-              { text: "ihr", isCorrect: false }
+              { text: "این مال من است", isCorrect: false },
+              { text: "این به من خوش می‌آید", isCorrect: true },
+              { text: "این برای من است", isCorrect: false },
+              { text: "این از من است", isCorrect: false }
             ],
-            explanation: "Freundin Ù…Ø¤Ù†Ø« Ø§Ø³Øª Ùˆ Ø¶Ù…ÛŒØ± Ù…لÚ©ÛŒ Ù…Ø·Ø§Ø¨Ù‚ Ø¨Ø§ Ø¢Ù† ihrer Ù…ÛŒâ€ŒØ´ÙˆØ¯."
+            explanation: "gefallen + Dativ: خوش آمدن."
           }
         ]
       },
       {
         type: "fill_blank",
-        title: "ØªÚ©Ù…ÛŒل Ø¬Ù…لØ§Øª Ø¨Ø§ Dativ",
-        instruction: "Ø¬Ø§ÛŒ Ø®Ø§لÛŒ Ø±Ø§ Ø¨Ø§ Ø´Ú©ل ØµØ­ÛŒØ­ Dativ Ù¾Ø± Ú©Ù†ÛŒØ¯.",
+        title: "ضمیر Dativ صحیح",
+        instruction: "ضمیر Dativ صحیح را در جای خالی بنویسید.",
         blanks: [
-          { sentence: "Ich gebe ___ (der Lehrer) ein Geschenk.", answer: "dem Lehrer", hint: "der Lehrer Ø¯Ø± Dativ â†’ dem" },
-          { sentence: "Sie hilft ___ (die Mutter) im Haushalt.", answer: "der Mutter", hint: "die Mutter Ø¯Ø± Dativ â†’ der" },
-          { sentence: "Wir danken ___ (die Kinder) fÃ¼r ihre Hilfe.", answer: "den Kindern", hint: "die Kinder (Ø¬Ù…Ø¹) Ø¯Ø± Dativ â†’ den Kinder-n" },
-          { sentence: "Er antwortet ___ (das MÃ¤dchen) nicht.", answer: "dem MÃ¤dchen", hint: "das MÃ¤dchen Ø¯Ø± Dativ â†’ dem" },
-          { sentence: "Gib ___ (ich) bitte das Buch!", answer: "mir", hint: "pronoun ich Ø¯Ø± Dativ â†’ mir" },
-          { sentence: "Das Spielzeug gehÃ¶rt ___ (die Tochter).", answer: "der Tochter", hint: "die Tochter Ø¯Ø± Dativ â†’ der" },
-          { sentence: "Er hilft ___ (seine Freunde) bei der Arbeit.", answer: "seinen Freunden", hint: "seine Freunde (Ø¬Ù…Ø¹) Ø¯Ø± Dativ â†’ seinen Freunde-n" },
-          { sentence: "Ich zeige ___ (der Gast) die Stadt.", answer: "dem Gast", hint: "der Gast Ø¯Ø± Dativ â†’ dem" }
+          { sentence: "Ich helfe ___. (تو)", answer: "dir", hint: "du → dir (Dativ)" },
+          { sentence: "Das Buch gefällt ___. (من)", answer: "mir", hint: "ich → mir (Dativ)" },
+          { sentence: "Er dankt ___. (ما)", answer: "uns", hint: "wir → uns (Dativ)" },
+          { sentence: "Das schmeckt ___. (آن‌ها)", answer: "ihnen", hint: "sie → ihnen (Dativ)" },
+          { sentence: "Wem gehört das? – Es gehört ___. (او مؤنث)", answer: "ihr", hint: "sie → ihr (Dativ)" },
+          { sentence: "Antworten Sie ___. (من)", answer: "mir", hint: "ich → mir (Dativ)" },
+          { sentence: "Ich glaube ___. (تو)", answer: "dir", hint: "du → dir (Dativ)" },
+          { sentence: "Helfen Sie ___. (من)", answer: "mir", hint: "ich → mir (Dativ)" }
         ]
       }
     ]
   },
-
   vocabData: {
     categories: [
       {
-        title: "Ø§ÙØ¹Ø§لÛŒ Ú©Ù‡ Ø¨Ø§ Dativ Ù…ÛŒâ€ŒØ¢ÛŒÙ†Ø¯",
+        title: "افعال مهم با Dativ",
         words: [
-          { de: "geben", fa: "Ø¯Ø§Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Ich gebe ihm das Geld.", fa: "Ù…Ù† Ù¾Ùˆل Ø±Ø§ Ø¨Ù‡ Ø§Ùˆ Ù…ÛŒâ€ŒØ¯Ù‡Ù…." }] },
-          { de: "helfen", fa: "Ú©Ù…Ú© Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Kannst du mir helfen?", fa: "Ø¢ÛŒØ§ Ù…ÛŒâ€ŒØªÙˆØ§Ù†ÛŒ Ø¨Ù‡ Ù…Ù† Ú©Ù…Ú© Ú©Ù†ÛŒØŸ" }] },
-          { de: "danken", fa: "ØªØ´Ú©Ø± Ú©Ø±Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Ich danke dir fÃ¼r alles.", fa: "Ø§Ø² ØªÙˆ Ø¨Ø§Ø¨Øª Ù‡Ù…Ù‡ Ú†ÛŒØ² Ù…Ù…Ù†ÙˆÙ†Ù…." }] },
-          { de: "gehÃ¶ren", fa: "ØªØ¹لÙ‚ Ø¯Ø§Ø´ØªÙ†", article: "-", plural: "-", examples: [{ de: "Das Buch gehÃ¶rt mir.", fa: "Ø§ÛŒÙ† Ú©ØªØ§Ø¨ Ø¨Ù‡ Ù…Ù† ØªØ¹لÙ‚ Ø¯Ø§Ø±Ø¯." }] },
-          { de: "gefallen", fa: "Ø®ÙˆØ´ Ø¢Ù…Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Das gefÃ¤llt ihr sehr.", fa: "Ø§ÛŒÙ† Ø®ÛŒلÛŒ Ø¨Ù‡ Ø§Ùˆ Ø®ÙˆØ´ Ù…ÛŒâ€ŒØ¢ÛŒØ¯." }] },
-          { de: "antworten", fa: "Ù¾Ø§Ø³Ø® Ø¯Ø§Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Er antwortet der Lehrerin.", fa: "Ø§Ùˆ Ø¨Ù‡ Ù…Ø¹لÙ… Ø²Ù† Ù¾Ø§Ø³Ø® Ù…ÛŒâ€ŒØ¯Ù‡Ø¯." }] },
-          { de: "sagen", fa: "Ú¯ÙØªÙ†", article: "-", plural: "-", examples: [{ de: "Sag mir die Wahrheit!", fa: "Ø­Ù‚ÛŒÙ‚Øª Ø±Ø§ Ø¨Ù‡ Ù…Ù† Ø¨Ú¯Ùˆ!" }] },
-          { de: "zeigen", fa: "Ù†Ø´Ø§Ù† Ø¯Ø§Ø¯Ù†", article: "-", plural: "-", examples: [{ de: "Ich zeige dir das Bild.", fa: "Ù…Ù† Ø¹Ú©Ø³ Ø±Ø§ Ø¨Ù‡ ØªÙˆ Ù†Ø´Ø§Ù† Ù…ÛŒâ€ŒØ¯Ù‡Ù…." }] }
-        ]
-      },
-      {
-        title: "Ø¶Ù…Ø§ÛŒØ± Ù…ÙØ¹ÙˆلÛŒ ØºÛŒØ±Ù…Ø³ØªÙ‚ÛŒÙ…",
-        words: [
-          { de: "mir", fa: "Ø¨Ù‡ Ù…Ù†", article: "-", plural: "-", examples: [{ de: "Gib mir das Buch!", fa: "Ú©ØªØ§Ø¨ Ø±Ø§ Ø¨Ù‡ Ù…Ù† Ø¨Ø¯Ù‡!" }] },
-          { de: "dir", fa: "Ø¨Ù‡ ØªÙˆ", article: "-", plural: "-", examples: [{ de: "Ich helfe dir.", fa: "Ù…Ù† Ø¨Ù‡ ØªÙˆ Ú©Ù…Ú© Ù…ÛŒâ€ŒÚ©Ù†Ù…." }] },
-          { de: "ihm", fa: "Ø¨Ù‡ Ø§Ùˆ (Ù…Ø°Ú©Ø±/Ø®Ù†Ø«ÛŒ)", article: "-", plural: "-", examples: [{ de: "Das gefÃ¤llt ihm.", fa: "Ø§ÛŒÙ† Ø¨Ù‡ Ø§Ùˆ Ø®ÙˆØ´ Ù…ÛŒâ€ŒØ¢ÛŒØ¯." }] },
-          { de: "ihr", fa: "Ø¨Ù‡ Ø§Ùˆ (Ù…Ø¤Ù†Ø«)", article: "-", plural: "-", examples: [{ de: "Ich danke ihr.", fa: "Ù…Ù† Ø§Ø² Ø§Ùˆ Ù…Ù…Ù†ÙˆÙ†Ù…." }] },
-          { de: "uns", fa: "Ø¨Ù‡ Ù…Ø§", article: "-", plural: "-", examples: [{ de: "Sie hilft uns.", fa: "Ø§Ùˆ Ø¨Ù‡ Ù…Ø§ Ú©Ù…Ú© Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }] },
-          { de: "euch", fa: "Ø¨Ù‡ Ø´Ù…Ø§ (Ø¬Ù…Ø¹)", article: "-", plural: "-", examples: [{ de: "Ich antworte euch morgen.", fa: "ÙØ±Ø¯Ø§ Ø¨Ù‡ Ø´Ù…Ø§ Ù¾Ø§Ø³Ø® Ù…ÛŒâ€ŒØ¯Ù‡Ù…." }] },
-          { de: "ihnen", fa: "Ø¨Ù‡ Ø¢Ù†â€ŒÙ‡Ø§", article: "-", plural: "-", examples: [{ de: "Das gehÃ¶rt ihnen.", fa: "Ø§ÛŒÙ† Ø¨Ù‡ Ø¢Ù†â€ŒÙ‡Ø§ ØªØ¹لÙ‚ Ø¯Ø§Ø±Ø¯." }] }
+          { de: "helfen", fa: "کمک کردن", ipa: "[ˈhɛlpfn̩]", article: "-", plural: "-", conjugation: { ich: "helfe", du: "hilfst", er: "hilft", wir: "helfen", ihr: "helft", sie: "helfen" }, examples: [{ de: "Kannst du mir helfen?", fa: "می‌توانی به من کمک کنی؟" }, { de: "Ich helfe dir gern.", fa: "با کمال میل کمکت می‌کنم." }] },
+          { de: "danken", fa: "تشکر کردن", ipa: "[ˈdaŋkn̩]", article: "-", plural: "-", conjugation: { ich: "danke", du: "dankst", er: "dankt", wir: "danken", ihr: "dankt", sie: "danken" }, examples: [{ de: "Ich danke dir vielmals!", fa: "خیلی از تو ممنونم!" }, { de: "Er hat ihr gedankt.", fa: "او از او (مؤنث) تشکر کرده." }] },
+          { de: "antworten", fa: "جواب دادن", ipa: "[ˈantvɔʁtn̩]", article: "-", plural: "-", conjugation: { ich: "antworte", du: "antwortest", er: "antwortet", wir: "antworten", ihr: "antwortet", sie: "antworten" }, examples: [{ de: "Antworten Sie bitte!", fa: "لطفاً جواب دهید!" }, { de: "Er antwortet mir nicht.", fa: "او به من جواب نمی‌دهد." }] },
+          { de: "gefallen", fa: "خوش آمدن", ipa: "[ɡəˈfalən]", article: "-", plural: "-", conjugation: { ich: "gefalle", du: "gefallst", er: "gefällt", wir: "gefallen", ihr: "gefallt", sie: "gefallen" }, examples: [{ de: "Das Kleid gefällt ihr.", fa: "این لباس به او خوش می‌آید." }, { de: "Gefällt dir das Essen?", fa: "غذا به تو خوش می‌آید؟" }] },
+          { de: "gehören", fa: "تعلق داشتن", ipa: "[ɡəˈhøːʁən]", article: "-", plural: "-", conjugation: { ich: "gehöre", du: "gehörst", er: "gehört", wir: "gehören", ihr: "gehört", sie: "gehören" }, examples: [{ de: "Wem gehört das?", fa: "این مال کیست؟" }, { de: "Das Buch gehört mir.", fa: "کتاب مال من است." }] },
+          { de: "schmecken", fa: "مزه دادن", ipa: "[ˈʃmɛkn̩]", article: "-", plural: "-", conjugation: { ich: "schmecke", du: "schmeckst", er: "schmeckt", wir: "schmecken", ihr: "schmeckt", sie: "schmecken" }, examples: [{ de: "Das Essen schmeckt uns.", fa: "غذا به ما مزه می‌دهد." }, { de: "Schmeckt es Ihnen?", fa: "مزه‌اش به شما می‌دهد؟" }] },
+          { de: "grüßen", fa: "سلام کردن", ipa: "[ˈɡʁyːsn̩]", article: "-", plural: "-", conjugation: { ich: "grüße", du: "grüßt", er: "grüßt", wir: "grüßen", ihr: "grüßt", sie: "grüßen" }, examples: [{ de: "Grüßen Sie Ihre Mutter!", fa: "به مادرتان سلام برسانید!" }, { de: "Ich grüße dich!", fa: "سلام!" }] },
+          { de: "glauben", fa: "باور کردن", ipa: "[ˈɡlaʊ̯bn̩]", article: "-", plural: "-", conjugation: { ich: "glaube", du: "glaubst", er: "glaubt", wir: "glauben", ihr: "glaubt", sie: "glauben" }, examples: [{ de: "Ich glaube dir.", fa: "به تو باور دارم." }, { de: "Glaubst du mir?", fa: "باورم داری؟" }] },
+          { de: "fehlen", fa: "کم بودن / دلتنگی", ipa: "[ˈfeːlən]", article: "-", plural: "-", conjugation: { ich: "fehle", du: "fehlst", er: "fehlt", wir: "fehlen", ihr: "fehlt", sie: "fehlen" }, examples: [{ de: "Du fehlst mir.", fa: "دلتنگتم." }, { de: "Mir fehlt das Geld.", fa: "پول کم دارم." }] },
+          { de: "zuhören", fa: "گوش دادن", ipa: "[ˈtsuːˌhøːʁən]", article: "-", plural: "-", conjugation: { ich: "höre zu", du: "hörst zu", er: "hört zu", wir: "hören zu", ihr: "hört zu", sie: "hören zu" }, examples: [{ de: "Hören Sie mir zu!", fa: "به من گوش دهید!" }, { de: "Hör mir bitte zu!", fa: "لطفاً به من گوش بده!" }] }
         ]
       }
     ]
   },
-
   reading: [
     {
-      text: "Maria ist Lehrerin. Sie arbeitet in einer Schule. Jeden Morgen gibt sie den SchÃ¼lern die Hausaufgaben zurÃ¼ck. Dann erklÃ¤rt sie der Klasse eine neue Lektion. Die SchÃ¼ler helfen einander oft. Manchmal antwortet Maria den Eltern per E-Mail. Sie dankt den Eltern fÃ¼r ihre UnterstÃ¼tzung. Die Kinder gefallen der Lehrerin sehr, weil sie fleiÃŸig sind. Die Schule gehÃ¶rt der Stadt. Das gefÃ¤llt allen Lehrern, weil es eine moderne Schule ist.",
+      text: "Ich habe heute einen neuen Kollegen getroffen. Er heißt Thomas. Ich habe ihm geholfen, den Computer einzurichten. Er hat mir gedankt. Das Büro gefällt ihm sehr gut. Er arbeitet in der IT-Abteilung. Sein Chef hat ihm die Aufgaben erklärt. Ich habe ihm gezeigt, wo die Kantine ist. Das Essen dort schmeckt allen Kollegen. Am Abend haben wir ihm einen Kaffee angeboten. Er hat sich sehr gefreut.",
+      translation: "امروز همکار جدیدی را ملاقات کردم. اسمش توماس است. به او کمک کردم کامپیوتر را راه‌اندازی کند. او از من تشکر کرد. اداره خیلی به او خوش می‌آید. او در بخش IT کار می‌کند. رئیسش وظایف را به او توضیح داد. به او نشان دادم کانتین کجاست. غذای آنجا به همه همکاران مزه می‌دهد. عصر به او قهوه‌ای پیشنهاد دادیم. او خیلی خوشحال شد.",
       questions: [
-        { question: "Maria Ú†Ù‡ Ø´ØºلÛŒ Ø¯Ø§Ø±Ø¯ Ùˆ Ú©Ø¬Ø§ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ", answer: "Ø§Ùˆ Ù…Ø¹لÙ… Ø§Ø³Øª (Lehrerin) Ùˆ Ø¯Ø± ÛŒÚ© Ù…Ø¯Ø±Ø³Ù‡ (Schule) Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ø¯." },
-        { question: "Ù‡Ø± ØµØ¨Ø­ Maria Ú†Ù‡ Ú©Ø§Ø±ÛŒ Ø§Ù†Ø¬Ø§Ù… Ù…ÛŒâ€ŒØ¯Ù‡Ø¯ØŸ", answer: "Ø§Ùˆ ØªÚ©Ø§لÛŒÙ Ø±Ø§ Ø¨Ù‡ Ø¯Ø§Ù†Ø´â€ŒØ¢Ù…ÙˆØ²Ø§Ù† (SchÃ¼lern) Ø¨Ø±Ù…ÛŒâ€ŒÚ¯Ø±Ø¯Ø§Ù†Ø¯ Ùˆ Ø¯Ø±Ø³ Ø¬Ø¯ÛŒØ¯ÛŒ ØªÙˆØ¶ÛŒØ­ Ù…ÛŒâ€ŒØ¯Ù‡Ø¯." },
-        { question: "Ú†Ú¯ÙˆÙ†Ù‡ Maria Ø¨Ù‡ ÙˆØ§لØ¯ÛŒÙ† Ù¾Ø§Ø³Ø® Ù…ÛŒâ€ŒØ¯Ù‡Ø¯ØŸ", answer: "Ø§Ø² Ø·Ø±ÛŒÙ‚ Ø§ÛŒÙ…ÛŒل (per E-Mail)." },
-        { question: "Ù…Ø¯Ø±Ø³Ù‡ Ø¨Ù‡ Ú†Ù‡ Ú©Ø³ÛŒ ØªØ¹لÙ‚ Ø¯Ø§Ø±Ø¯ØŸ", answer: "Ø¨Ù‡ Ø´Ù‡Ø± (der Stadt)." }
+        { question: "همکار جدید چه کسی است؟", answer: "توماس." },
+        { question: "او به توماس چه کمکی کرد؟", answer: "کامپیوتر را راه‌اندازی کرد." },
+        { question: "توماس کجا کار می‌کند؟", answer: "در بخش IT." },
+        { question: "غذا به همکاران چطور بود؟", answer: "مزه داد." }
       ]
     }
   ],
-
   writing: [
     {
-      title: "Ù†ÙˆØ´ØªÙ† Ø¨Ø§ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Dativ",
-      prompt: "ÛŒÚ© Ù¾Ø§Ø±Ø§Ú¯Ø±Ø§Ù Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ú©Ù…Ú© Ú©Ø±Ø¯Ù† Ø¨Ù‡ Ø®Ø§Ù†ÙˆØ§Ø¯Ù‡â€ŒØªØ§Ù† Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯. Ø§Ø² Ø­Ø¯Ø§Ù‚ل Ûµ ÙØ¹ل Ø¨Ø§ Dativ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.",
+      title: "تعریف کردن از یک روز",
+      prompt: "روزتان را توصیف کنید. از افعال Dativ استفاده کنید.",
       steps: [
-        { title: "Ù…Ø±Ø­لÙ‡ Û±: Ù…Ø¹Ø±ÙÛŒ Ø§ÙØ±Ø§Ø¯ Ø®Ø§Ù†ÙˆØ§Ø¯Ù‡", text: "Ø§Ø¨ØªØ¯Ø§ Ø§Ø¹Ø¶Ø§ÛŒ Ø®Ø§Ù†ÙˆØ§Ø¯Ù‡ Ø±Ø§ Ù†Ø§Ù… Ø¨Ø¨Ø±ÛŒØ¯.", example: { de: "Meine Familie ist nicht sehr groÃŸ.", fa: "Ø®Ø§Ù†ÙˆØ§Ø¯Ù‡ Ù…Ù† Ø®ÛŒلÛŒ Ø¨Ø²Ø±Ú¯ Ù†ÛŒØ³Øª." } },
-        { title: "Ù…Ø±Ø­لÙ‡ Û²: Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Dativ", text: "ÙØ¹لâ€ŒÙ‡Ø§ÛŒÛŒ Ù…Ø§Ù†Ù†Ø¯ helfen, geben, danken Ø±Ø§ Ø¨Ù‡ Ú©Ø§Ø± Ø¨Ø¨Ø±ÛŒØ¯.", example: { de: "Ich helfe meiner Mutter in der KÃ¼che.", fa: "Ù…Ù† Ø¯Ø± Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ Ø¨Ù‡ Ù…Ø§Ø¯Ø±Ù… Ú©Ù…Ú© Ù…ÛŒâ€ŒÚ©Ù†Ù…." } },
-        { title: "Ù…Ø±Ø­لÙ‡ Û³: ØªÙˆØ¶ÛŒØ­ Ù†ØªÛŒØ¬Ù‡", text: "Ù†ØªÛŒØ¬Ù‡ Ø§ÛŒÙ† Ú©Ù…Ú©â€ŒÙ‡Ø§ Ø±Ø§ Ø´Ø±Ø­ Ø¯Ù‡ÛŒØ¯.", example: { de: "Meiner Familie gefÃ¤llt das sehr.", fa: "Ø®Ø§Ù†ÙˆØ§Ø¯Ù‡ Ø§Ø² Ø§ÛŒÙ† Ø¨Ø³ÛŒØ§Ø± Ø®ÙˆØ´Ø´ Ù…ÛŒâ€ŒØ¢ÛŒØ¯." } }
+        { title: "مرحله ۱: صبح", text: "صبح چه اتفاقی افتاد؟", example: { de: "Mein Kollege hat mir geholfen.", fa: "همکارم به من کمک کرد." } },
+        { title: "مرحله ۲: ظهر", text: "ظهر چه کردید؟", example: { de: "Das Essen hat mir geschmeckt.", fa: "غذا به من مزه داد." } },
+        { title: "مرحله ۳: شب", text: "شب چه کردید؟", example: { de: "Ich habe meiner Freundin eine Nachricht geschrieben.", fa: "به دوستم پیام نوشتم." } }
       ],
-      modelAnswer: "Meine Familie besteht aus fÃ¼nf Personen. Jeden Tag helfe ich meiner Mutter beim Kochen. Ich gebe meinem kleinen Bruder das Abendessen. Meiner Schwester helfe ich bei den Hausaufgaben. Meinem Vater danke ich, weil er uns immer unterstÃ¼tzt. Am Wochenende spiele ich mit meinen Geschwistern. Das gefÃ¤llt der ganzen Familie. Ich bin froh, dass ich meiner Familie helfen kann."
+      modelAnswer: "Heute war ein guter Tag. Am Morgen hat mir mein Chef bei einer Aufgabe geholfen. Ich habe ihm gedankt. Das neue Projekt gefällt mir sehr gut. Am Mittag habe ich mit Kollegen gegessen. Das Essen hat uns allen geschmeckt. Am Nachmittag hat ein Kollege mir eine E-Mail geschrieben. Ich habe ihm schnell geantwortet. Am Abend habe ich meiner Mutter angerufen. Sie hat sich sehr gefreut."
     }
   ],
-
   listening: [
     {
-      title: "Ú¯ÙˆØ´ Ø¯Ø§Ø¯Ù†: Ù…Ú©Ø§لÙ…Ù‡ Ø¯Ø± Ù…Ø¯Ø±Ø³Ù‡",
-      source: "Deutsche Welle Langsam gesprochene Nachrichten",
-      link: "https://www.dw.com/de/langsam-gesprochene-nachrichten/s-60048529",
-      instructions: "Ø¨Ù‡ Ø§ÙØ¹Ø§ل Dativ Ø¯Ø± Ù…Ú©Ø§لÙ…Ù‡ Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯ Ø¨Ù‡ Ú†Ù‡ Ú©Ø³ÛŒ Ú©Ù…Ú© Ù…ÛŒâ€ŒØ´ÙˆØ¯ Ùˆ Ú†Ù‡ Ú©Ø³ÛŒ Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ø¨Ù‡ Ú†Ù‡ Ú©Ø³ÛŒ Ù…ÛŒâ€ŒØ¯Ù‡Ø¯."
+      title: "جملات Dativ",
+      instruction: "به جملات گوش دهید و آن‌ها را بنویسید.",
+      sentences: [
+        { de: "Ich helfe dir.", fa: "به تو کمک می‌کنم.", tts: "slow" },
+        { de: "Das gefällt mir.", fa: "این به من خوش می‌آید.", tts: "slow" },
+        { de: "Er dankt ihr.", fa: "او از او (مؤنث) تشکر می‌کند.", tts: "slow" },
+        { de: "Das schmeckt uns.", fa: "این به ما مزه می‌دهد.", tts: "slow" },
+        { de: "Antworte mir!", fa: "به من جواب بده!", tts: "slow" },
+        { de: "Wem gehört das?", fa: "این مال کیست؟", tts: "slow" }
+      ]
     }
   ],
-
   speaking: [
     {
-      title: "ØªÙ…Ø±ÛŒÙ† Ú¯ÙØªØ§Ø±ÛŒ: Ú©Ù…Ú© Ø¨Ù‡ Ø¯ÛŒÚ¯Ø±Ø§Ù†",
-      pattern: "Ich helfe (jemandem) bei (etwas). Kannst du (mir/ihnen) bitte helfen?",
-      exercise: "Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ú©Ù…Ú© Ú©Ø±Ø¯Ù† Ø¨Ù‡ Ø§ÙØ±Ø§Ø¯ Ù…Ø®ØªلÙ ØµØ­Ø¨Øª Ú©Ù†ÛŒØ¯. Ø§Ø² Ø¶Ù…Ø§ÛŒØ± Dativ ØµØ­ÛŒØ­ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯ Ùˆ Ø¨Ú¯ÙˆÛŒÛŒØ¯ Ø¨Ù‡ Ú†Ù‡ Ú©Ø³ÛŒ Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ù…ÛŒâ€ŒØ¯Ù‡ÛŒØ¯."
+      title: "گفتگو: کمک و تشکر",
+      pattern: "A: Kannst du mir bitte helfen? B: Natürlich! Was brauchst du? A: Ich suche die Post. B: Gehen Sie geradeaus. A: Vielen Dank! B: Bitte schön! A: Gefällt Ihnen die Stadt? B: Ja, sehr gut!",
+      exercise: "با یک دوست گفتگو کنید. از کسی کمک بخواهید و از او تشکر کنید. حداقل ۴ فعل Dativ استفاده کنید."
     }
   ],
-
-  cultureTip: "Ø¯Ø± ÙØ±Ù‡Ù†Ú¯ Ø¢لÙ…Ø§Ù†ÛŒØŒ Ù‚Ø¯Ø±Ø¯Ø§Ù†ÛŒ Ùˆ Ú©Ù…Ú© Ù…ØªÙ‚Ø§Ø¨ل Ø§Ù‡Ù…ÛŒØª Ø²ÛŒØ§Ø¯ÛŒ Ø¯Ø§Ø±Ø¯. ÙˆÙ‚ØªÛŒ Ú©Ø³ÛŒ Ø¨Ù‡ Ø´Ù…Ø§ Ú©Ù…Ú© Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŒ Ù…Ø¹Ù…ÙˆلØ§Ù‹ Ù…ÛŒâ€ŒÚ¯ÙˆÛŒÙ†Ø¯ Â«Danke schÃ¶nÂ» Ùˆ Ø§Ù†ØªØ¸Ø§Ø± Ù¾Ø§Ø³Ø® Â«Bitte schÃ¶nÂ» Ø±Ø§ Ø¯Ø§Ø±Ù†Ø¯. Ø¯Ø± Ù…Ø­ÛŒØ· Ú©Ø§Ø±ØŒ Ù‡Ù…Ú©Ø§Ø±Ø§Ù† Ø§ØºلØ¨ Ø¨Ù‡ ÛŒÚ©Ø¯ÛŒÚ¯Ø± Ú©Ù…Ú© Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯ Ùˆ Ø§ÛŒÙ† Ø±ÙØªØ§Ø± Ù†Ø´Ø§Ù†Ù‡ Ø§Ø­ØªØ±Ø§Ù… Ù…ØªÙ‚Ø§Ø¨ل Ø§Ø³Øª.",
-
+  cultureTip: "در آلمان، تشکر کردن بسیار مهم است. عبارت «Danke schön!» یا «Vielen Dank!» همیشه استفاده می‌شود. وقتی کسی به شما کمک می‌کند، حتماً تشکر کنید: «Ich danke Ihnen!». فعل «gefallen» بسیار رایج است برای بیان علاقه: «Das gefällt mir!» (این را دوست دارم!).",
   examData: {
     questions: [
-      { question: "Ú©Ø¯Ø§Ù… Ø´Ú©ل ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ Ich gebe ___ Lehrer das Heft.", options: ["dem", "den", "der", "das"], answer: 0 },
-      { question: "Ú©Ø¯Ø§Ù… Ø´Ú©ل ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ Sie hilft ___ Mutter.", options: ["der", "die", "dem", "den"], answer: 0 },
-      { question: "Ich helfe ___ (Ø¬Ù…Ø¹: Kinder).", options: ["den Kindern", "den Kinder", "dem Kinder", "die Kinder"], answer: 0 },
-      { question: "Das Buch gehÃ¶rt ___. (Ù…Ø¤Ù†Ø«)", options: ["ihr", "ihm", "ihnen", "er"], answer: 0 },
-      { question: "Ú©Ø¯Ø§Ù… ÙØ¹ل Ø¨Ø§ Dativ Ù…ÛŒâ€ŒØ¢ÛŒØ¯ØŸ", options: ["sehen", "helfen", "spielen", "essen"], answer: 1 },
-      { question: "Wem antwortest du? â†’ Ich antworte ___.", options: ["meiner Freundin", "meine Freundin", "meinen Freundin", "meinem Freundin"], answer: 0 },
-      { question: "Das gefÃ¤llt ___. (Ø¨Ù‡ Ù…Ø§)", options: ["uns", "wir", "unsere", "unser"], answer: 0 },
-      { question: "Ich danke ___ (der Arzt).", options: ["dem Arzt", "den Arzt", "der Arzt", "das Arzt"], answer: 0 },
-      { question: "Ú©Ø¯Ø§Ù… Ø¶Ù…ÛŒØ± Dativ Ù†ÛŒØ³ØªØŸ", options: ["mich", "dir", "ihm", "euch"], answer: 0 },
-      { question: "Wir helfen ___ (die Nachbarn).", options: ["den Nachbarn", "die Nachbarn", "dem Nachbarn", "der Nachbarn"], answer: 0 }
+      { question: "ضمیر Dativ برای ich چیست؟", options: ["mich", "mir", "ich", "uns"], answer: 1 },
+      { question: "«Ich helfe dir» یعنی چه؟", options: ["من تو را می‌بینم", "من به تو کمک می‌کنم", "من تو را دوست دارم", "من با تو صحبت می‌کنم"], answer: 1 },
+      { question: "کدام فعل Dativ می‌گیرد؟", options: ["sehen", "helfen", "lesen", "schreiben"], answer: 1 },
+      { question: "«Das gefällt mir» یعنی چه؟", options: ["این مال من است", "این به من خوش می‌آید", "این برای من است", "این از من است"], answer: 1 },
+      { question: "حروف تعریف der در Dativ چیست؟", options: ["den", "dem", "der", "des"], answer: 1 },
+      { question: "ضمیر Dativ برای du چیست؟", options: ["dich", "dir", "du", "dein"], answer: 1 },
+      { question: "کدام فعل Dativ می‌گیرد؟", options: ["kaufen", "suchen", "danken", "machen"], answer: 2 },
+      { question: "«Das schmeckt mir» یعنی چه؟", options: ["این بوی خوبی دارد", "این به من مزه می‌دهد", "این زیباست", "این گران است"], answer: 1 },
+      { question: "حروف تعریف die (مؤنث) در Dativ چیست؟", options: ["der", "die", "dem", "den"], answer: 0 },
+      { question: "«Wem gehört das?» یعنی چه؟", options: ["این چیست؟", "این کجاست؟", "این مال کیست؟", "این چقدر است؟"], answer: 2 }
     ]
   }
 };
