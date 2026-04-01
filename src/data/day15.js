@@ -1,130 +1,130 @@
 export const day15Data = {
-  title: "روز ۱۵: خانه و اتاق‌ها - مب'مان - توصیف آپارتمان",
-  objective: "یادگیری نام اتاق‌ها، مب'مان و نحوه توصیف آپارتمان",
+  title: "Ø±ÙˆØ² Û±Ûµ: Ø®Ø§Ù†Ù‡ Ùˆ Ø§ØªØ§Ù‚â€ŒÙ‡Ø§ - Ù…Ø¨لÙ…Ø§Ù† - ØªÙˆØµÛŒÙ Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù†",
+  objective: "ÛŒØ§Ø¯Ú¯ÛŒØ±ÛŒ Ù†Ø§Ù… Ø§ØªØ§Ù‚â€ŒÙ‡Ø§ØŒ Ù…Ø¨لÙ…Ø§Ù† Ùˆ Ù†Ø­ÙˆÙ‡ ØªÙˆØµÛŒÙ Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù†",
   grammarData: {
-    subtitle: "خانه و آپارتمان",
+    subtitle: "Ø®Ø§Ù†Ù‡ Ùˆ Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù†",
     content: [
       {
         type: "text",
-        title: "اتاق‌های خانه",
-        text: "das Haus (خانه)، die Wohnung (آپارتمان)، das Zimmer (اتاق)، die Küche (آشپزخانه)، das Badezimmer (حمام/دستشویی)، das Schlafzimmer (اتاق خواب)، das Wohnzimmer (اتاق نشیمن)، der Flur (راهرو)، der Balkon (با'کن)، der Keller (زیرزمین)، der Dachboden (اتاق زیرشیروانی)."
+        title: "Ø§ØªØ§Ù‚â€ŒÙ‡Ø§ÛŒ Ø®Ø§Ù†Ù‡",
+        text: "das Haus (Ø®Ø§Ù†Ù‡)ØŒ die Wohnung (Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù†)ØŒ das Zimmer (Ø§ØªØ§Ù‚)ØŒ die KÃ¼che (Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡)ØŒ das Badezimmer (Ø­Ù…Ø§Ù…/Ø¯Ø³ØªØ´ÙˆÛŒÛŒ)ØŒ das Schlafzimmer (Ø§ØªØ§Ù‚ Ø®ÙˆØ§Ø¨)ØŒ das Wohnzimmer (Ø§ØªØ§Ù‚ Ù†Ø´ÛŒÙ…Ù†)ØŒ der Flur (Ø±Ø§Ù‡Ø±Ùˆ)ØŒ der Balkon (Ø¨Ø§لÚ©Ù†)ØŒ der Keller (Ø²ÛŒØ±Ø²Ù…ÛŒÙ†)ØŒ der Dachboden (Ø§ØªØ§Ù‚ Ø²ÛŒØ±Ø´ÛŒØ±ÙˆØ§Ù†ÛŒ)."
       },
       {
         type: "table",
-        title: "اتاق‌های خانه",
+        title: "Ø§ØªØ§Ù‚â€ŒÙ‡Ø§ÛŒ Ø®Ø§Ù†Ù‡",
         rows: [
-          { de: "das Haus", fa: "خانه" },
-          { de: "die Wohnung", fa: "آپارتمان" },
-          { de: "das Zimmer", fa: "اتاق" },
-          { de: "die Küche", fa: "آشپزخانه" },
-          { de: "das Badezimmer", fa: "حمام/دستشویی" },
-          { de: "das Schlafzimmer", fa: "اتاق خواب" },
-          { de: "das Wohnzimmer", fa: "اتاق نشیمن" },
-          { de: "das Esszimmer", fa: "اتاق غذاخوری" },
-          { de: "der Flur", fa: "راهرو" },
-          { de: "der Balkon", fa: "با'کن" },
-          { de: "der Keller", fa: "زیرزمین" },
-          { de: "das Kinderzimmer", fa: "اتاق بچه" }
+          { de: "das Haus", fa: "Ø®Ø§Ù†Ù‡" },
+          { de: "die Wohnung", fa: "Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù†" },
+          { de: "das Zimmer", fa: "Ø§ØªØ§Ù‚" },
+          { de: "die KÃ¼che", fa: "Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡" },
+          { de: "das Badezimmer", fa: "Ø­Ù…Ø§Ù…/Ø¯Ø³ØªØ´ÙˆÛŒÛŒ" },
+          { de: "das Schlafzimmer", fa: "Ø§ØªØ§Ù‚ Ø®ÙˆØ§Ø¨" },
+          { de: "das Wohnzimmer", fa: "Ø§ØªØ§Ù‚ Ù†Ø´ÛŒÙ…Ù†" },
+          { de: "das Esszimmer", fa: "Ø§ØªØ§Ù‚ ØºØ°Ø§Ø®ÙˆØ±ÛŒ" },
+          { de: "der Flur", fa: "Ø±Ø§Ù‡Ø±Ùˆ" },
+          { de: "der Balkon", fa: "Ø¨Ø§لÚ©Ù†" },
+          { de: "der Keller", fa: "Ø²ÛŒØ±Ø²Ù…ÛŒÙ†" },
+          { de: "das Kinderzimmer", fa: "Ø§ØªØ§Ù‚ Ø¨Ú†Ù‡" }
         ]
       },
       {
         type: "text",
-        title: "مب'مان (Möbel)",
-        text: "das Sofa/der Couchtisch (میزج'وی مب')، der Tisch (میز)، der Stuhl (صند'ی)، das Bett (تختخواب)، der Schrank (کمد)، das Regal (قفسه)، die Lampe ('امپ)، der Teppich (فرش)، das Bücherregal (کتابخانه)، die Gardinen (پرده)."
+        title: "Ù…Ø¨لÙ…Ø§Ù† (MÃ¶bel)",
+        text: "das Sofa/der Couchtisch (Ù…ÛŒØ²Ø¬لÙˆÛŒ Ù…Ø¨ل)ØŒ der Tisch (Ù…ÛŒØ²)ØŒ der Stuhl (ØµÙ†Ø¯لÛŒ)ØŒ das Bett (ØªØ®ØªØ®ÙˆØ§Ø¨)ØŒ der Schrank (Ú©Ù…Ø¯)ØŒ das Regal (Ù‚ÙØ³Ù‡)ØŒ die Lampe (لØ§Ù…Ù¾)ØŒ der Teppich (ÙØ±Ø´)ØŒ das BÃ¼cherregal (Ú©ØªØ§Ø¨Ø®Ø§Ù†Ù‡)ØŒ die Gardinen (Ù¾Ø±Ø¯Ù‡)."
       },
       {
         type: "table",
-        title: "مب'مان",
+        title: "Ù…Ø¨لÙ…Ø§Ù†",
         rows: [
-          { de: "das Sofa", fa: "مب'" },
-          { de: "der Couchtisch", fa: "میز ج'وی مب'" },
-          { de: "der Tisch", fa: "میز" },
-          { de: "der Stuhl", fa: "صند'ی" },
-          { de: "das Bett", fa: "تختخواب" },
-          { de: "der Schrank", fa: "کمد" },
-          { de: "das Regal", fa: "قفسه" },
-          { de: "die Lampe", fa: "'امپ" },
-          { de: "der Teppich", fa: "فرش" },
-          { de: "das Bücherregal", fa: "کتابخانه" },
-          { de: "der Spiegel", fa: "آینه" },
-          { de: "der Fernseher", fa: "ت'ویزیون" }
+          { de: "das Sofa", fa: "Ù…Ø¨ل" },
+          { de: "der Couchtisch", fa: "Ù…ÛŒØ² Ø¬لÙˆÛŒ Ù…Ø¨ل" },
+          { de: "der Tisch", fa: "Ù…ÛŒØ²" },
+          { de: "der Stuhl", fa: "ØµÙ†Ø¯لÛŒ" },
+          { de: "das Bett", fa: "ØªØ®ØªØ®ÙˆØ§Ø¨" },
+          { de: "der Schrank", fa: "Ú©Ù…Ø¯" },
+          { de: "das Regal", fa: "Ù‚ÙØ³Ù‡" },
+          { de: "die Lampe", fa: "لØ§Ù…Ù¾" },
+          { de: "der Teppich", fa: "ÙØ±Ø´" },
+          { de: "das BÃ¼cherregal", fa: "Ú©ØªØ§Ø¨Ø®Ø§Ù†Ù‡" },
+          { de: "der Spiegel", fa: "Ø¢ÛŒÙ†Ù‡" },
+          { de: "der Fernseher", fa: "ØªلÙˆÛŒØ²ÛŒÙˆÙ†" }
         ]
       },
       {
         type: "text",
-        title: "توصیف آپارتمان",
-        text: "برای توصیف آپارتمان از فع' haben و sein استفاده می‌شود: Meine Wohnung hat drei Zimmer (آپارتمان من سه اتاق دارد). Die Küche ist groß (آشپزخانه بزرگ است). همچنین از حروف اضافه مکان استفاده می‌شود: in, an, auf, neben, zwischen."
+        title: "ØªÙˆØµÛŒÙ Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù†",
+        text: "Ø¨Ø±Ø§ÛŒ ØªÙˆØµÛŒÙ Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ø§Ø² ÙØ¹ل haben Ùˆ sein Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯: Meine Wohnung hat drei Zimmer (Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ù…Ù† Ø³Ù‡ Ø§ØªØ§Ù‚ Ø¯Ø§Ø±Ø¯). Die KÃ¼che ist groÃŸ (Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ Ø¨Ø²Ø±Ú¯ Ø§Ø³Øª). Ù‡Ù…Ú†Ù†ÛŒÙ† Ø§Ø² Ø­Ø±ÙˆÙ Ø§Ø¶Ø§ÙÙ‡ Ù…Ú©Ø§Ù† Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯: in, an, auf, neben, zwischen."
       },
       {
         type: "examples",
-        title: "جم'ات توصیف آپارتمان",
+        title: "Ø¬Ù…لØ§Øª ØªÙˆØµÛŒÙ Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù†",
         items: [
-          { de: "Meine Wohnung hat drei Zimmer.", fa: "آپارتمان من سه اتاق دارد." },
-          { de: "Das Wohnzimmer ist groß und hell.", fa: "اتاق نشیمن بزرگ و روشن است." },
-          { de: "Die Küche ist klein.", fa: "آشپزخانه کوچک است." },
-          { de: "Das Bett steht im Schlafzimmer.", fa: "تختخواب در اتاق خواب است." },
-          { de: "Der Fernseher ist im Wohnzimmer.", fa: "ت'ویزیون در اتاق نشیمن است." },
-          { de: "Ich habe einen großen Balkon.", fa: "من یک با'کن بزرگ دارم." },
-          { de: "Die Wohnung ist hell und freundlich.", fa: "آپارتمان روشن و دوستانه است." }
+          { de: "Meine Wohnung hat drei Zimmer.", fa: "Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ù…Ù† Ø³Ù‡ Ø§ØªØ§Ù‚ Ø¯Ø§Ø±Ø¯." },
+          { de: "Das Wohnzimmer ist groÃŸ und hell.", fa: "Ø§ØªØ§Ù‚ Ù†Ø´ÛŒÙ…Ù† Ø¨Ø²Ø±Ú¯ Ùˆ Ø±ÙˆØ´Ù† Ø§Ø³Øª." },
+          { de: "Die KÃ¼che ist klein.", fa: "Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ Ú©ÙˆÚ†Ú© Ø§Ø³Øª." },
+          { de: "Das Bett steht im Schlafzimmer.", fa: "ØªØ®ØªØ®ÙˆØ§Ø¨ Ø¯Ø± Ø§ØªØ§Ù‚ Ø®ÙˆØ§Ø¨ Ø§Ø³Øª." },
+          { de: "Der Fernseher ist im Wohnzimmer.", fa: "ØªلÙˆÛŒØ²ÛŒÙˆÙ† Ø¯Ø± Ø§ØªØ§Ù‚ Ù†Ø´ÛŒÙ…Ù† Ø§Ø³Øª." },
+          { de: "Ich habe einen groÃŸen Balkon.", fa: "Ù…Ù† ÛŒÚ© Ø¨Ø§لÚ©Ù† Ø¨Ø²Ø±Ú¯ Ø¯Ø§Ø±Ù…." },
+          { de: "Die Wohnung ist hell und freundlich.", fa: "Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ø±ÙˆØ´Ù† Ùˆ Ø¯ÙˆØ³ØªØ§Ù†Ù‡ Ø§Ø³Øª." }
         ]
       },
       {
         type: "alert",
-        title: "نکته: حروف اضافه مکان",
-        text: "in + Dativ برای 'در'، auf + Dativ برای 'روی'، neben + Dativ برای 'کنار'، zwischen + Dativ برای 'بین'. مثا': Das Buch liegt auf dem Tisch (کتاب روی میز است)."
+        title: "Ù†Ú©ØªÙ‡: Ø­Ø±ÙˆÙ Ø§Ø¶Ø§ÙÙ‡ Ù…Ú©Ø§Ù†",
+        text: "in + Dativ Ø¨Ø±Ø§ÛŒ لØ¯Ø±لØŒ auf + Dativ Ø¨Ø±Ø§ÛŒ لØ±ÙˆÛŒلØŒ neben + Dativ Ø¨Ø±Ø§ÛŒ لÚ©Ù†Ø§Ø±لØŒ zwischen + Dativ Ø¨Ø±Ø§ÛŒ لØ¨ÛŒÙ†ل. Ù…Ø«Ø§ل: Das Buch liegt auf dem Tisch (Ú©ØªØ§Ø¨ Ø±ÙˆÛŒ Ù…ÛŒØ² Ø§Ø³Øª)."
       },
       {
         type: "interactive_quiz",
-        title: "آزمون: خانه و اتاق‌ها",
+        title: "Ø¢Ø²Ù…ÙˆÙ†: Ø®Ø§Ù†Ù‡ Ùˆ Ø§ØªØ§Ù‚â€ŒÙ‡Ø§",
         questions: [
           {
-            question: "'آشپزخانه' به آ'مانی چیست؟",
-            questionDe: "Wie sagt man 'kitchen' auf Deutsch?",
+            question: "لØ¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ل Ø¨Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ Ú†ÛŒØ³ØªØŸ",
+            questionDe: "Wie sagt man لkitchenل auf Deutsch?",
             options: [
-              { text: "die Küche", isCorrect: true },
+              { text: "die KÃ¼che", isCorrect: true },
               { text: "das Badezimmer", isCorrect: false },
               { text: "das Schlafzimmer", isCorrect: false },
               { text: "das Wohnzimmer", isCorrect: false }
             ],
-            explanation: "die Küche به معنای آشپزخانه است."
+            explanation: "die KÃ¼che Ø¨Ù‡ Ù…Ø¹Ù†Ø§ÛŒ Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ Ø§Ø³Øª."
           },
           {
-            question: "'آپارتمان من سه اتاق دارد' چگونه بیان می‌شود؟",
-            questionDe: "Wie sagt man 'my apartment has three rooms'?",
+            question: "لØ¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ù…Ù† Ø³Ù‡ Ø§ØªØ§Ù‚ Ø¯Ø§Ø±Ø¯ل Ú†Ú¯ÙˆÙ†Ù‡ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
+            questionDe: "Wie sagt man لmy apartment has three roomsل?",
             options: [
               { text: "Meine Wohnung hat drei Zimmer.", isCorrect: true },
               { text: "Meine Wohnung ist drei Zimmer.", isCorrect: false },
               { text: "Mein Wohnung hat drei Zimmer.", isCorrect: false },
               { text: "Meine Wohnung sind drei Zimmer.", isCorrect: false }
             ],
-            explanation: "die Wohnung مؤنث است و فع' haben با hat می‌آید."
+            explanation: "die Wohnung Ù…Ø¤Ù†Ø« Ø§Ø³Øª Ùˆ ÙØ¹ل haben Ø¨Ø§ hat Ù…ÛŒâ€ŒØ¢ÛŒØ¯."
           },
           {
-            question: "'تختخواب در اتاق خواب است' چگونه بیان می‌شود؟",
-            questionDe: "Wie sagt man 'the bed is in the bedroom'?",
+            question: "لØªØ®ØªØ®ÙˆØ§Ø¨ Ø¯Ø± Ø§ØªØ§Ù‚ Ø®ÙˆØ§Ø¨ Ø§Ø³Øªل Ú†Ú¯ÙˆÙ†Ù‡ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
+            questionDe: "Wie sagt man لthe bed is in the bedroomل?",
             options: [
               { text: "Das Bett steht im Schlafzimmer.", isCorrect: true },
               { text: "Das Bett ist im Schlafzimmer.", isCorrect: false },
               { text: "Das Bett hat im Schlafzimmer.", isCorrect: false },
               { text: "Das Bett liegt im Schlafzimmer.", isCorrect: false }
             ],
-            explanation: "از فع' stehen برای مب'مان استفاده می‌شود."
+            explanation: "Ø§Ø² ÙØ¹ل stehen Ø¨Ø±Ø§ÛŒ Ù…Ø¨لÙ…Ø§Ù† Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯."
           }
         ]
       },
       {
         type: "fill_blank",
-        title: "تکمی' جم'ات: خانه",
-        instruction: "جای خا'ی را با ک'مه مناسب پر کنید.",
+        title: "ØªÚ©Ù…ÛŒل Ø¬Ù…لØ§Øª: Ø®Ø§Ù†Ù‡",
+        instruction: "Ø¬Ø§ÛŒ Ø®Ø§لÛŒ Ø±Ø§ Ø¨Ø§ Ú©لÙ…Ù‡ Ù…Ù†Ø§Ø³Ø¨ Ù¾Ø± Ú©Ù†ÛŒØ¯.",
         blanks: [
-          { sentence: "Meine ___ hat drei Zimmer.", answer: "Wohnung", hint: "آپارتمان" },
-          { sentence: "Die ___ ist groß.", answer: "Küche", hint: "آشپزخانه" },
-          { sentence: "Das Bett steht im ___.", answer: "Schlafzimmer", hint: "اتاق خواب" },
-          { sentence: "Der Fernseher ist im ___.", answer: "Wohnzimmer", hint: "اتاق نشیمن" },
-          { sentence: "Ich habe einen großen ___.", answer: "Balkon", hint: "با'کن" },
-          { sentence: "Das ___ ist hell und freundlich.", answer: "Zimmer", hint: "اتاق" },
-          { sentence: "Der ___ liegt auf dem Tisch.", answer: "Schlüssel", hint: "ک'ید" },
-          { sentence: "Die Lampe steht neben dem ___.", answer: "Bett", hint: "تختخواب" }
+          { sentence: "Meine ___ hat drei Zimmer.", answer: "Wohnung", hint: "Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù†" },
+          { sentence: "Die ___ ist groÃŸ.", answer: "KÃ¼che", hint: "Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡" },
+          { sentence: "Das Bett steht im ___.", answer: "Schlafzimmer", hint: "Ø§ØªØ§Ù‚ Ø®ÙˆØ§Ø¨" },
+          { sentence: "Der Fernseher ist im ___.", answer: "Wohnzimmer", hint: "Ø§ØªØ§Ù‚ Ù†Ø´ÛŒÙ…Ù†" },
+          { sentence: "Ich habe einen groÃŸen ___.", answer: "Balkon", hint: "Ø¨Ø§لÚ©Ù†" },
+          { sentence: "Das ___ ist hell und freundlich.", answer: "Zimmer", hint: "Ø§ØªØ§Ù‚" },
+          { sentence: "Der ___ liegt auf dem Tisch.", answer: "SchlÃ¼ssel", hint: "Ú©لÛŒØ¯" },
+          { sentence: "Die Lampe steht neben dem ___.", answer: "Bett", hint: "ØªØ®ØªØ®ÙˆØ§Ø¨" }
         ]
       }
     ]
@@ -132,86 +132,86 @@ export const day15Data = {
   vocabData: {
     categories: [
       {
-        title: "اتاق‌ها",
+        title: "Ø§ØªØ§Ù‚â€ŒÙ‡Ø§",
         words: [
-          { de: "das Haus", fa: "خانه", article: "das", plural: "die Häuser", examples: [{ de: "Das Haus ist sehr alt.", fa: "خانه خی'ی قدیمی است." }] },
-          { de: "die Wohnung", fa: "آپارتمان", article: "die", plural: "die Wohnungen", examples: [{ de: "Ich suche eine neue Wohnung.", fa: "من دنبا' آپارتمان جدید می‌گردم." }] },
-          { de: "das Zimmer", fa: "اتاق", article: "das", plural: "die Zimmer", examples: [{ de: "Das Zimmer ist sauber.", fa: "اتاق تمیز است." }] },
-          { de: "die Küche", fa: "آشپزخانه", article: "die", plural: "die Küchen", examples: [{ de: "Die Küche ist modern.", fa: "آشپزخانه مدرن است." }] },
-          { de: "das Badezimmer", fa: "حمام/دستشویی", article: "das", plural: "die Badezimmer", examples: [{ de: "Das Badezimmer ist klein.", fa: "حمام کوچک است." }] },
-          { de: "das Schlafzimmer", fa: "اتاق خواب", article: "das", plural: "die Schlafzimmer", examples: [{ de: "Im Schlafzimmer ist ein großes Bett.", fa: "در اتاق خواب یک تختخواب بزرگ است." }] },
-          { de: "das Wohnzimmer", fa: "اتاق نشیمن", article: "das", plural: "die Wohnzimmer", examples: [{ de: "Wir sitzen im Wohnzimmer.", fa: "ما در اتاق نشیمن نشسته‌ایم." }] },
-          { de: "der Flur", fa: "راهرو", article: "der", plural: "die Flure", examples: [{ de: "Der Flur ist lang.", fa: "راهرو ب'ند است." }] },
-          { de: "der Balkon", fa: "با'کن", article: "der", plural: "die Balkone", examples: [{ de: "Ich sitze gern auf dem Balkon.", fa: "من دوست دارم روی با'کن بنشینم." }] },
-          { de: "der Keller", fa: "زیرزمین", article: "der", plural: "die Keller", examples: [{ de: "Im Keller ist es kalt.", fa: "در زیرزمین سرد است." }] }
+          { de: "das Haus", fa: "Ø®Ø§Ù†Ù‡", article: "das", plural: "die HÃ¤user", examples: [{ de: "Das Haus ist sehr alt.", fa: "Ø®Ø§Ù†Ù‡ Ø®ÛŒلÛŒ Ù‚Ø¯ÛŒÙ…ÛŒ Ø§Ø³Øª." }] },
+          { de: "die Wohnung", fa: "Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù†", article: "die", plural: "die Wohnungen", examples: [{ de: "Ich suche eine neue Wohnung.", fa: "Ù…Ù† Ø¯Ù†Ø¨Ø§ل Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ø¬Ø¯ÛŒØ¯ Ù…ÛŒâ€ŒÚ¯Ø±Ø¯Ù…." }] },
+          { de: "das Zimmer", fa: "Ø§ØªØ§Ù‚", article: "das", plural: "die Zimmer", examples: [{ de: "Das Zimmer ist sauber.", fa: "Ø§ØªØ§Ù‚ ØªÙ…ÛŒØ² Ø§Ø³Øª." }] },
+          { de: "die KÃ¼che", fa: "Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡", article: "die", plural: "die KÃ¼chen", examples: [{ de: "Die KÃ¼che ist modern.", fa: "Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ Ù…Ø¯Ø±Ù† Ø§Ø³Øª." }] },
+          { de: "das Badezimmer", fa: "Ø­Ù…Ø§Ù…/Ø¯Ø³ØªØ´ÙˆÛŒÛŒ", article: "das", plural: "die Badezimmer", examples: [{ de: "Das Badezimmer ist klein.", fa: "Ø­Ù…Ø§Ù… Ú©ÙˆÚ†Ú© Ø§Ø³Øª." }] },
+          { de: "das Schlafzimmer", fa: "Ø§ØªØ§Ù‚ Ø®ÙˆØ§Ø¨", article: "das", plural: "die Schlafzimmer", examples: [{ de: "Im Schlafzimmer ist ein groÃŸes Bett.", fa: "Ø¯Ø± Ø§ØªØ§Ù‚ Ø®ÙˆØ§Ø¨ ÛŒÚ© ØªØ®ØªØ®ÙˆØ§Ø¨ Ø¨Ø²Ø±Ú¯ Ø§Ø³Øª." }] },
+          { de: "das Wohnzimmer", fa: "Ø§ØªØ§Ù‚ Ù†Ø´ÛŒÙ…Ù†", article: "das", plural: "die Wohnzimmer", examples: [{ de: "Wir sitzen im Wohnzimmer.", fa: "Ù…Ø§ Ø¯Ø± Ø§ØªØ§Ù‚ Ù†Ø´ÛŒÙ…Ù† Ù†Ø´Ø³ØªÙ‡â€ŒØ§ÛŒÙ…." }] },
+          { de: "der Flur", fa: "Ø±Ø§Ù‡Ø±Ùˆ", article: "der", plural: "die Flure", examples: [{ de: "Der Flur ist lang.", fa: "Ø±Ø§Ù‡Ø±Ùˆ Ø¨لÙ†Ø¯ Ø§Ø³Øª." }] },
+          { de: "der Balkon", fa: "Ø¨Ø§لÚ©Ù†", article: "der", plural: "die Balkone", examples: [{ de: "Ich sitze gern auf dem Balkon.", fa: "Ù…Ù† Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ù… Ø±ÙˆÛŒ Ø¨Ø§لÚ©Ù† Ø¨Ù†Ø´ÛŒÙ†Ù…." }] },
+          { de: "der Keller", fa: "Ø²ÛŒØ±Ø²Ù…ÛŒÙ†", article: "der", plural: "die Keller", examples: [{ de: "Im Keller ist es kalt.", fa: "Ø¯Ø± Ø²ÛŒØ±Ø²Ù…ÛŒÙ† Ø³Ø±Ø¯ Ø§Ø³Øª." }] }
         ]
       },
       {
-        title: "مب'مان",
+        title: "Ù…Ø¨لÙ…Ø§Ù†",
         words: [
-          { de: "das Sofa", fa: "مب'", article: "das", plural: "die Sofas", examples: [{ de: "Das Sofa ist bequem.", fa: "مب' راحت است." }] },
-          { de: "der Tisch", fa: "میز", article: "der", plural: "die Tische", examples: [{ de: "Der Tisch ist aus Holz.", fa: "میز از چوب است." }] },
-          { de: "der Stuhl", fa: "صند'ی", article: "der", plural: "die Stühle", examples: [{ de: "Bitte setzen Sie sich auf den Stuhl.", fa: "'طفاً روی صند'ی بنشینید." }] },
-          { de: "das Bett", fa: "تختخواب", article: "das", plural: "die Betten", examples: [{ de: "Das Bett ist sehr bequem.", fa: "تختخواب خی'ی راحت است." }] },
-          { de: "der Schrank", fa: "کمد", article: "der", plural: "die Schränke", examples: [{ de: "Die Kleider sind im Schrank.", fa: "'باس‌ها در کمد هستند." }] },
-          { de: "das Regal", fa: "قفسه", article: "das", plural: "die Regale", examples: [{ de: "Die Bücher stehen im Regal.", fa: "کتاب‌ها در قفسه هستند." }] },
-          { de: "die Lampe", fa: "'امپ", article: "die", plural: "die Lampen", examples: [{ de: "Die Lampe ist an.", fa: "'امپ روشن است." }] },
-          { de: "der Teppich", fa: "فرش", article: "der", plural: "die Teppiche", examples: [{ de: "Der Teppich ist rot.", fa: "فرش قرمز است." }] },
-          { de: "der Spiegel", fa: "آینه", article: "der", plural: "die Spiegel", examples: [{ de: "Der Spiegel hängt an der Wand.", fa: "آینه روی دیوار آویزان است." }] },
-          { de: "der Fernseher", fa: "ت'ویزیون", article: "der", plural: "die Fernseher", examples: [{ de: "Ich schaue gern fern.", fa: "من ت'ویزیون تماشا کردن را دوست دارم." }] }
+          { de: "das Sofa", fa: "Ù…Ø¨ل", article: "das", plural: "die Sofas", examples: [{ de: "Das Sofa ist bequem.", fa: "Ù…Ø¨ل Ø±Ø§Ø­Øª Ø§Ø³Øª." }] },
+          { de: "der Tisch", fa: "Ù…ÛŒØ²", article: "der", plural: "die Tische", examples: [{ de: "Der Tisch ist aus Holz.", fa: "Ù…ÛŒØ² Ø§Ø² Ú†ÙˆØ¨ Ø§Ø³Øª." }] },
+          { de: "der Stuhl", fa: "ØµÙ†Ø¯لÛŒ", article: "der", plural: "die StÃ¼hle", examples: [{ de: "Bitte setzen Sie sich auf den Stuhl.", fa: "لØ·ÙØ§Ù‹ Ø±ÙˆÛŒ ØµÙ†Ø¯لÛŒ Ø¨Ù†Ø´ÛŒÙ†ÛŒØ¯." }] },
+          { de: "das Bett", fa: "ØªØ®ØªØ®ÙˆØ§Ø¨", article: "das", plural: "die Betten", examples: [{ de: "Das Bett ist sehr bequem.", fa: "ØªØ®ØªØ®ÙˆØ§Ø¨ Ø®ÛŒلÛŒ Ø±Ø§Ø­Øª Ø§Ø³Øª." }] },
+          { de: "der Schrank", fa: "Ú©Ù…Ø¯", article: "der", plural: "die SchrÃ¤nke", examples: [{ de: "Die Kleider sind im Schrank.", fa: "لØ¨Ø§Ø³â€ŒÙ‡Ø§ Ø¯Ø± Ú©Ù…Ø¯ Ù‡Ø³ØªÙ†Ø¯." }] },
+          { de: "das Regal", fa: "Ù‚ÙØ³Ù‡", article: "das", plural: "die Regale", examples: [{ de: "Die BÃ¼cher stehen im Regal.", fa: "Ú©ØªØ§Ø¨â€ŒÙ‡Ø§ Ø¯Ø± Ù‚ÙØ³Ù‡ Ù‡Ø³ØªÙ†Ø¯." }] },
+          { de: "die Lampe", fa: "لØ§Ù…Ù¾", article: "die", plural: "die Lampen", examples: [{ de: "Die Lampe ist an.", fa: "لØ§Ù…Ù¾ Ø±ÙˆØ´Ù† Ø§Ø³Øª." }] },
+          { de: "der Teppich", fa: "ÙØ±Ø´", article: "der", plural: "die Teppiche", examples: [{ de: "Der Teppich ist rot.", fa: "ÙØ±Ø´ Ù‚Ø±Ù…Ø² Ø§Ø³Øª." }] },
+          { de: "der Spiegel", fa: "Ø¢ÛŒÙ†Ù‡", article: "der", plural: "die Spiegel", examples: [{ de: "Der Spiegel hÃ¤ngt an der Wand.", fa: "Ø¢ÛŒÙ†Ù‡ Ø±ÙˆÛŒ Ø¯ÛŒÙˆØ§Ø± Ø¢ÙˆÛŒØ²Ø§Ù† Ø§Ø³Øª." }] },
+          { de: "der Fernseher", fa: "ØªلÙˆÛŒØ²ÛŒÙˆÙ†", article: "der", plural: "die Fernseher", examples: [{ de: "Ich schaue gern fern.", fa: "Ù…Ù† ØªلÙˆÛŒØ²ÛŒÙˆÙ† ØªÙ…Ø§Ø´Ø§ Ú©Ø±Ø¯Ù† Ø±Ø§ Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ù…." }] }
         ]
       }
     ]
   },
   reading: [
     {
-      text: "Meine Wohnung ist nicht groß, aber gemütlich. Sie hat drei Zimmer: ein Wohnzimmer, ein Schlafzimmer und eine Küche. Das Wohnzimmer ist hell und freundlich. Dort steht ein Sofa, zwei Sessel und ein Couchtisch. Der Fernseher steht im Regal. Das Schlafzimmer ist klein. Dort steht ein Bett und ein großer Schrank. Die Küche hat einen Tisch und vier Stühle. Ich habe auch einen kleinen Balkon.",
+      text: "Meine Wohnung ist nicht groÃŸ, aber gemÃ¼tlich. Sie hat drei Zimmer: ein Wohnzimmer, ein Schlafzimmer und eine KÃ¼che. Das Wohnzimmer ist hell und freundlich. Dort steht ein Sofa, zwei Sessel und ein Couchtisch. Der Fernseher steht im Regal. Das Schlafzimmer ist klein. Dort steht ein Bett und ein groÃŸer Schrank. Die KÃ¼che hat einen Tisch und vier StÃ¼hle. Ich habe auch einen kleinen Balkon.",
       questions: [
-        { question: "آپارتمان چند اتاق دارد؟", answer: "سه اتاق: یک اتاق نشیمن، یک اتاق خواب و یک آشپزخانه." },
-        { question: "در اتاق نشیمن چه چیزهایی هست؟", answer: "یک مب'، دو صند'ی راحتی و یک میز ج'وی مب'." },
-        { question: "در اتاق خواب چه چیزهایی هست؟", answer: "یک تختخواب و یک کمد بزرگ." },
-        { question: "آپارتمان با'کن دارد؟", answer: "ب'ه، یک با'کن کوچک دارد." }
+        { question: "Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ú†Ù†Ø¯ Ø§ØªØ§Ù‚ Ø¯Ø§Ø±Ø¯ØŸ", answer: "Ø³Ù‡ Ø§ØªØ§Ù‚: ÛŒÚ© Ø§ØªØ§Ù‚ Ù†Ø´ÛŒÙ…Ù†ØŒ ÛŒÚ© Ø§ØªØ§Ù‚ Ø®ÙˆØ§Ø¨ Ùˆ ÛŒÚ© Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡." },
+        { question: "Ø¯Ø± Ø§ØªØ§Ù‚ Ù†Ø´ÛŒÙ…Ù† Ú†Ù‡ Ú†ÛŒØ²Ù‡Ø§ÛŒÛŒ Ù‡Ø³ØªØŸ", answer: "ÛŒÚ© Ù…Ø¨لØŒ Ø¯Ùˆ ØµÙ†Ø¯لÛŒ Ø±Ø§Ø­ØªÛŒ Ùˆ ÛŒÚ© Ù…ÛŒØ² Ø¬لÙˆÛŒ Ù…Ø¨ل." },
+        { question: "Ø¯Ø± Ø§ØªØ§Ù‚ Ø®ÙˆØ§Ø¨ Ú†Ù‡ Ú†ÛŒØ²Ù‡Ø§ÛŒÛŒ Ù‡Ø³ØªØŸ", answer: "ÛŒÚ© ØªØ®ØªØ®ÙˆØ§Ø¨ Ùˆ ÛŒÚ© Ú©Ù…Ø¯ Ø¨Ø²Ø±Ú¯." },
+        { question: "Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ø¨Ø§لÚ©Ù† Ø¯Ø§Ø±Ø¯ØŸ", answer: "Ø¨لÙ‡ØŒ ÛŒÚ© Ø¨Ø§لÚ©Ù† Ú©ÙˆÚ†Ú© Ø¯Ø§Ø±Ø¯." }
       ]
     }
   ],
   writing: [
     {
-      title: "توصیف آپارتمان",
-      prompt: "آپارتمان خود را توصیف کنید: چند اتاق دارد، هر اتاق چه چیزهایی دارد و چطور است.",
+      title: "ØªÙˆØµÛŒÙ Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù†",
+      prompt: "Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ø®ÙˆØ¯ Ø±Ø§ ØªÙˆØµÛŒÙ Ú©Ù†ÛŒØ¯: Ú†Ù†Ø¯ Ø§ØªØ§Ù‚ Ø¯Ø§Ø±Ø¯ØŒ Ù‡Ø± Ø§ØªØ§Ù‚ Ú†Ù‡ Ú†ÛŒØ²Ù‡Ø§ÛŒÛŒ Ø¯Ø§Ø±Ø¯ Ùˆ Ú†Ø·ÙˆØ± Ø§Ø³Øª.",
       steps: [
-        { title: "قدم او': معرفی ک'ی", text: "آپارتمان را معرفی کنید.", example: { de: "Meine Wohnung hat drei Zimmer.", fa: "آپارتمان من سه اتاق دارد." } },
-        { title: "قدم دوم: توصیف اتاق‌ها", text: "هر اتاق را توصیف کنید.", example: { de: "Das Wohnzimmer ist groß und hell.", fa: "اتاق نشیمن بزرگ و روشن است." } },
-        { title: "قدم سوم: توصیف مب'مان", text: "مب'مان هر اتاق را بگویید.", example: { de: "Dort steht ein Sofa und ein Tisch.", fa: "آنجا یک مب' و یک میز است." } }
+        { title: "Ù‚Ø¯Ù… Ø§Ùˆل: Ù…Ø¹Ø±ÙÛŒ Ú©لÛŒ", text: "Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ø±Ø§ Ù…Ø¹Ø±ÙÛŒ Ú©Ù†ÛŒØ¯.", example: { de: "Meine Wohnung hat drei Zimmer.", fa: "Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ù…Ù† Ø³Ù‡ Ø§ØªØ§Ù‚ Ø¯Ø§Ø±Ø¯." } },
+        { title: "Ù‚Ø¯Ù… Ø¯ÙˆÙ…: ØªÙˆØµÛŒÙ Ø§ØªØ§Ù‚â€ŒÙ‡Ø§", text: "Ù‡Ø± Ø§ØªØ§Ù‚ Ø±Ø§ ØªÙˆØµÛŒÙ Ú©Ù†ÛŒØ¯.", example: { de: "Das Wohnzimmer ist groÃŸ und hell.", fa: "Ø§ØªØ§Ù‚ Ù†Ø´ÛŒÙ…Ù† Ø¨Ø²Ø±Ú¯ Ùˆ Ø±ÙˆØ´Ù† Ø§Ø³Øª." } },
+        { title: "Ù‚Ø¯Ù… Ø³ÙˆÙ…: ØªÙˆØµÛŒÙ Ù…Ø¨لÙ…Ø§Ù†", text: "Ù…Ø¨لÙ…Ø§Ù† Ù‡Ø± Ø§ØªØ§Ù‚ Ø±Ø§ Ø¨Ú¯ÙˆÛŒÛŒØ¯.", example: { de: "Dort steht ein Sofa und ein Tisch.", fa: "Ø¢Ù†Ø¬Ø§ ÛŒÚ© Ù…Ø¨ل Ùˆ ÛŒÚ© Ù…ÛŒØ² Ø§Ø³Øª." } }
       ],
-      modelAnswer: "Meine Wohnung:\n\nMeine Wohnung hat drei Zimmer: ein Wohnzimmer, ein Schlafzimmer und eine Küche. Das Wohnzimmer ist groß und hell. Dort stehen ein Sofa, zwei Sessel und ein Couchtisch. Der Fernseher steht im Bücherregal. Das Schlafzimmer ist gemütlich. Dort steht ein großes Bett und ein Kleiderschrank. Die Küche ist klein, aber modern. Dort gibt es einen Tisch mit vier Stühlen. Das Badezimmer hat eine Dusche und ein Waschbecken. Ich habe auch einen Balkon mit zwei Pflanzen."
+      modelAnswer: "Meine Wohnung:\n\nMeine Wohnung hat drei Zimmer: ein Wohnzimmer, ein Schlafzimmer und eine KÃ¼che. Das Wohnzimmer ist groÃŸ und hell. Dort stehen ein Sofa, zwei Sessel und ein Couchtisch. Der Fernseher steht im BÃ¼cherregal. Das Schlafzimmer ist gemÃ¼tlich. Dort steht ein groÃŸes Bett und ein Kleiderschrank. Die KÃ¼che ist klein, aber modern. Dort gibt es einen Tisch mit vier StÃ¼hlen. Das Badezimmer hat eine Dusche und ein Waschbecken. Ich habe auch einen Balkon mit zwei Pflanzen."
     }
   ],
   listening: [
     {
-      title: "گوش دادن به توصیف آپارتمان",
+      title: "Ú¯ÙˆØ´ Ø¯Ø§Ø¯Ù† Ø¨Ù‡ ØªÙˆØµÛŒÙ Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù†",
       source: "Deutsch lernen - Wohnung",
       link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      instructions: "به توصیف یک آپارتمان گوش دهید و اتاق‌ها و مب'مان آن را یادداشت کنید."
+      instructions: "Ø¨Ù‡ ØªÙˆØµÛŒÙ ÛŒÚ© Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ Ø§ØªØ§Ù‚â€ŒÙ‡Ø§ Ùˆ Ù…Ø¨لÙ…Ø§Ù† Ø¢Ù† Ø±Ø§ ÛŒØ§Ø¯Ø¯Ø§Ø´Øª Ú©Ù†ÛŒØ¯."
     }
   ],
   speaking: [
     {
-      title: "توصیف آپارتمان",
-      pattern: "Meine Wohnung hat [Anzahl] Zimmer. Das [Zimmer] ist [Adjektiv]. Dort steht/sind [Möbel].",
-      exercise: "آپارتمان خود را با استفاده از ا'گو توصیف کنید."
+      title: "ØªÙˆØµÛŒÙ Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù†",
+      pattern: "Meine Wohnung hat [Anzahl] Zimmer. Das [Zimmer] ist [Adjektiv]. Dort steht/sind [MÃ¶bel].",
+      exercise: "Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ø®ÙˆØ¯ Ø±Ø§ Ø¨Ø§ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Ø§لÚ¯Ùˆ ØªÙˆØµÛŒÙ Ú©Ù†ÛŒØ¯."
     }
   ],
-  cultureTip: "در آ'مان، بیشتر مردم در آپارتمان زندگی می‌کنند. خانه‌های مستق' گران هستند. آپارتمان‌ها معمو'اً آشپزخانه بدون اثاثیه (ohne Einbauküche) اجاره داده می‌شوند و مستأجر باید آشپزخانه را خودش بخرد. همچنین در آ'مان، باید هنگام خروج از آپارتمان، آن را تمیز تحوی' دهید.",
+  cultureTip: "Ø¯Ø± Ø¢لÙ…Ø§Ù†ØŒ Ø¨ÛŒØ´ØªØ± Ù…Ø±Ø¯Ù… Ø¯Ø± Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ø²Ù†Ø¯Ú¯ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯. Ø®Ø§Ù†Ù‡â€ŒÙ‡Ø§ÛŒ Ù…Ø³ØªÙ‚ل Ú¯Ø±Ø§Ù† Ù‡Ø³ØªÙ†Ø¯. Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù†â€ŒÙ‡Ø§ Ù…Ø¹Ù…ÙˆلØ§Ù‹ Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ Ø¨Ø¯ÙˆÙ† Ø§Ø«Ø§Ø«ÛŒÙ‡ (ohne EinbaukÃ¼che) Ø§Ø¬Ø§Ø±Ù‡ Ø¯Ø§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯ Ùˆ Ù…Ø³ØªØ£Ø¬Ø± Ø¨Ø§ÛŒØ¯ Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ Ø±Ø§ Ø®ÙˆØ¯Ø´ Ø¨Ø®Ø±Ø¯. Ù‡Ù…Ú†Ù†ÛŒÙ† Ø¯Ø± Ø¢لÙ…Ø§Ù†ØŒ Ø¨Ø§ÛŒØ¯ Ù‡Ù†Ú¯Ø§Ù… Ø®Ø±ÙˆØ¬ Ø§Ø² Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù†ØŒ Ø¢Ù† Ø±Ø§ ØªÙ…ÛŒØ² ØªØ­ÙˆÛŒل Ø¯Ù‡ÛŒØ¯.",
   examData: {
     questions: [
-      { question: "'آشپزخانه' به آ'مانی چیست؟", options: ["die Küche", "das Badezimmer", "das Schlafzimmer", "das Wohnzimmer"], answer: 0 },
-      { question: "'آپارتمان من سه اتاق دارد' چگونه بیان می‌شود؟", options: ["Meine Wohnung hat drei Zimmer.", "Meine Wohnung ist drei Zimmer.", "Mein Wohnung hat drei Zimmer.", "Meine Wohnung sind drei Zimmer."], answer: 0 },
-      { question: "کدام ک'مه به معنای 'تختخواب' است؟", options: ["das Bett", "der Tisch", "der Stuhl", "der Schrank"], answer: 0 },
-      { question: "'ت'ویزیون' به آ'مانی:", options: ["der Fernseher", "der Tisch", "das Sofa", "die Lampe"], answer: 0 },
-      { question: "'اتاق نشیمن' چگونه گفته می‌شود؟", options: ["das Wohnzimmer", "das Schlafzimmer", "das Badezimmer", "die Küche"], answer: 0 },
-      { question: "'کمد' به آ'مانی:", options: ["der Schrank", "das Regal", "der Tisch", "das Bett"], answer: 0 },
-      { question: "کدام جم'ه صحیح است؟", options: ["Das Bett steht im Schlafzimmer.", "Das Bett ist im Schlafzimmer.", "Das Bett hat im Schlafzimmer.", "Das Bett liegt im Schlafzimmer."], answer: 0 },
-      { question: "'با'کن' به آ'مانی:", options: ["der Balkon", "der Keller", "der Flur", "das Zimmer"], answer: 0 }
+      { question: "لØ¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ل Ø¨Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ Ú†ÛŒØ³ØªØŸ", options: ["die KÃ¼che", "das Badezimmer", "das Schlafzimmer", "das Wohnzimmer"], answer: 0 },
+      { question: "لØ¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ù…Ù† Ø³Ù‡ Ø§ØªØ§Ù‚ Ø¯Ø§Ø±Ø¯ل Ú†Ú¯ÙˆÙ†Ù‡ Ø¨ÛŒØ§Ù† Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["Meine Wohnung hat drei Zimmer.", "Meine Wohnung ist drei Zimmer.", "Mein Wohnung hat drei Zimmer.", "Meine Wohnung sind drei Zimmer."], answer: 0 },
+      { question: "Ú©Ø¯Ø§Ù… Ú©لÙ…Ù‡ Ø¨Ù‡ Ù…Ø¹Ù†Ø§ÛŒ لØªØ®ØªØ®ÙˆØ§Ø¨ل Ø§Ø³ØªØŸ", options: ["das Bett", "der Tisch", "der Stuhl", "der Schrank"], answer: 0 },
+      { question: "لØªلÙˆÛŒØ²ÛŒÙˆÙ†ل Ø¨Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ:", options: ["der Fernseher", "der Tisch", "das Sofa", "die Lampe"], answer: 0 },
+      { question: "لØ§ØªØ§Ù‚ Ù†Ø´ÛŒÙ…Ù†ل Ú†Ú¯ÙˆÙ†Ù‡ Ú¯ÙØªÙ‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["das Wohnzimmer", "das Schlafzimmer", "das Badezimmer", "die KÃ¼che"], answer: 0 },
+      { question: "لÚ©Ù…Ø¯ل Ø¨Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ:", options: ["der Schrank", "das Regal", "der Tisch", "das Bett"], answer: 0 },
+      { question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ", options: ["Das Bett steht im Schlafzimmer.", "Das Bett ist im Schlafzimmer.", "Das Bett hat im Schlafzimmer.", "Das Bett liegt im Schlafzimmer."], answer: 0 },
+      { question: "لØ¨Ø§لÚ©Ù†ل Ø¨Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ:", options: ["der Balkon", "der Keller", "der Flur", "das Zimmer"], answer: 0 }
     ]
   }
 };

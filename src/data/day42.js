@@ -1,84 +1,84 @@
 export const day42Data = {
-  title: "روز ۴۲: آموزش و تحصی' - سیستم آموزشی آ'مان",
-  objective: "آشنایی با سیستم آموزشی آ'مان، تحصی'ات عا'ی، دوره‌های حرفه‌ای (Ausbildung) و واژگان تخصصی آموزش",
+  title: "Ø±ÙˆØ² Û´Û²: Ø¢Ù…ÙˆØ²Ø´ Ùˆ ØªØ­ØµÛŒل - Ø³ÛŒØ³ØªÙ… Ø¢Ù…ÙˆØ²Ø´ÛŒ Ø¢لÙ…Ø§Ù†",
+  objective: "Ø¢Ø´Ù†Ø§ÛŒÛŒ Ø¨Ø§ Ø³ÛŒØ³ØªÙ… Ø¢Ù…ÙˆØ²Ø´ÛŒ Ø¢لÙ…Ø§Ù†ØŒ ØªØ­ØµÛŒلØ§Øª Ø¹Ø§لÛŒØŒ Ø¯ÙˆØ±Ù‡â€ŒÙ‡Ø§ÛŒ Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ (Ausbildung) Ùˆ ÙˆØ§Ú˜Ú¯Ø§Ù† ØªØ®ØµØµÛŒ Ø¢Ù…ÙˆØ²Ø´",
 
   grammarData: {
-    subtitle: "تبدی' جم'ه‌ها با Infinitivkonstruktionen",
+    subtitle: "ØªØ¨Ø¯ÛŒل Ø¬Ù…لÙ‡â€ŒÙ‡Ø§ Ø¨Ø§ Infinitivkonstruktionen",
     content: [
       {
         type: "text",
-        title: "۱. ساختارهای مصدری (Infinitivkonstruktionen)",
-        text: "در سطح B1 باید بتوانید جم'ات را با مصدر (Infinitiv) ترکیب کنید. ساختارهای مهم: ۱) um...zu (هدف): Ich lerne, um zu bestehen. ۲) ohne...zu (بدون اینکه): Er ging, ohne zu grüßen. ۳) statt...zu (به جای اینکه): Statt zu arbeiten, spielt er. در همه این ساختارها فاع' جم'ه اص'ی و مصدری باید یکی باشند."
+        title: "Û±. Ø³Ø§Ø®ØªØ§Ø±Ù‡Ø§ÛŒ Ù…ØµØ¯Ø±ÛŒ (Infinitivkonstruktionen)",
+        text: "Ø¯Ø± Ø³Ø·Ø­ B1 Ø¨Ø§ÛŒØ¯ Ø¨ØªÙˆØ§Ù†ÛŒØ¯ Ø¬Ù…لØ§Øª Ø±Ø§ Ø¨Ø§ Ù…ØµØ¯Ø± (Infinitiv) ØªØ±Ú©ÛŒØ¨ Ú©Ù†ÛŒØ¯. Ø³Ø§Ø®ØªØ§Ø±Ù‡Ø§ÛŒ Ù…Ù‡Ù…: Û±) um...zu (Ù‡Ø¯Ù): Ich lerne, um zu bestehen. Û²) ohne...zu (Ø¨Ø¯ÙˆÙ† Ø§ÛŒÙ†Ú©Ù‡): Er ging, ohne zu grÃ¼ÃŸen. Û³) statt...zu (Ø¨Ù‡ Ø¬Ø§ÛŒ Ø§ÛŒÙ†Ú©Ù‡): Statt zu arbeiten, spielt er. Ø¯Ø± Ù‡Ù…Ù‡ Ø§ÛŒÙ† Ø³Ø§Ø®ØªØ§Ø±Ù‡Ø§ ÙØ§Ø¹ل Ø¬Ù…لÙ‡ Ø§ØµلÛŒ Ùˆ Ù…ØµØ¯Ø±ÛŒ Ø¨Ø§ÛŒØ¯ ÛŒÚ©ÛŒ Ø¨Ø§Ø´Ù†Ø¯."
       },
       {
         type: "table",
-        title: "ساختارهای مصدری",
+        title: "Ø³Ø§Ø®ØªØ§Ø±Ù‡Ø§ÛŒ Ù…ØµØ¯Ø±ÛŒ",
         rows: [
-          { de: "um...zu (هدف)", fa: "Ich studiere, um einen guten Job zu bekommen." },
-          { de: "ohne...zu (بدون)", fa: "Er verließ das Zimmer, ohne ein Wort zu sagen." },
-          { de: "statt...zu (به جای)", fa: "Statt im Bett zu bleiben, ging er arbeiten." },
-          { de: "dass (فاع' متفاوت)", fa: "Ich hoffe, dass er besteht." }
+          { de: "um...zu (Ù‡Ø¯Ù)", fa: "Ich studiere, um einen guten Job zu bekommen." },
+          { de: "ohne...zu (Ø¨Ø¯ÙˆÙ†)", fa: "Er verlieÃŸ das Zimmer, ohne ein Wort zu sagen." },
+          { de: "statt...zu (Ø¨Ù‡ Ø¬Ø§ÛŒ)", fa: "Statt im Bett zu bleiben, ging er arbeiten." },
+          { de: "dass (ÙØ§Ø¹ل Ù…ØªÙØ§ÙˆØª)", fa: "Ich hoffe, dass er besteht." }
         ]
       },
       {
         type: "text",
-        title: "۲. افعا' و عبارات مصدرپذیر",
-        text: "بعضی افعا' و صفت‌ها مصدر می‌گیرند: vorhaben + zu (قصد داشتن), vorbereiten auf + zu (آماده شدن), versuchen + zu (سعی کردن), aufhören + zu (متوقف شدن), beginnen + zu (شروع کردن), aufgeben + zu (تس'یم شدن). همچنین صفت‌ها: Es ist wichtig, Deutsch zu lernen."
+        title: "Û². Ø§ÙØ¹Ø§ل Ùˆ Ø¹Ø¨Ø§Ø±Ø§Øª Ù…ØµØ¯Ø±Ù¾Ø°ÛŒØ±",
+        text: "Ø¨Ø¹Ø¶ÛŒ Ø§ÙØ¹Ø§ل Ùˆ ØµÙØªâ€ŒÙ‡Ø§ Ù…ØµØ¯Ø± Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯: vorhaben + zu (Ù‚ØµØ¯ Ø¯Ø§Ø´ØªÙ†), vorbereiten auf + zu (Ø¢Ù…Ø§Ø¯Ù‡ Ø´Ø¯Ù†), versuchen + zu (Ø³Ø¹ÛŒ Ú©Ø±Ø¯Ù†), aufhÃ¶ren + zu (Ù…ØªÙˆÙ‚Ù Ø´Ø¯Ù†), beginnen + zu (Ø´Ø±ÙˆØ¹ Ú©Ø±Ø¯Ù†), aufgeben + zu (ØªØ³لÛŒÙ… Ø´Ø¯Ù†). Ù‡Ù…Ú†Ù†ÛŒÙ† ØµÙØªâ€ŒÙ‡Ø§: Es ist wichtig, Deutsch zu lernen."
       },
       {
         type: "examples",
-        title: "مثا'‌های آموزشی",
+        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ Ø¢Ù…ÙˆØ²Ø´ÛŒ",
         items: [
-          { de: "Ich habe vor, nächstes Jahr zu studieren.", fa: "قصد دارم سا' آینده دانشگاه بروم." },
-          { de: "Er versucht, die Prüfung zu bestehen.", fa: "او سعی می‌کند امتحان را قبو' شود." },
-          { de: "Es ist notwendig, jeden Tag zu üben.", fa: "'ازم است هر روز تمرین کنی." },
-          { de: "Sie hat beschlossen, eine Ausbildung zu machen.", fa: "او تصمیم گرفته دوره حرفه‌ای بگذراند." },
-          { de: "Ohne zu lernen, kann man nicht bestehen.", fa: "بدون درس خواندن نمی‌توان قبو' شد." },
-          { de: "Statt zu feiern, bereitet er sich auf die Prüfung vor.", fa: "به جای جشن گرفتن، برای امتحان آماده می‌شود." }
+          { de: "Ich habe vor, nÃ¤chstes Jahr zu studieren.", fa: "Ù‚ØµØ¯ Ø¯Ø§Ø±Ù… Ø³Ø§ل Ø¢ÛŒÙ†Ø¯Ù‡ Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ Ø¨Ø±ÙˆÙ…." },
+          { de: "Er versucht, die PrÃ¼fung zu bestehen.", fa: "Ø§Ùˆ Ø³Ø¹ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ø¯ Ø§Ù…ØªØ­Ø§Ù† Ø±Ø§ Ù‚Ø¨Ùˆل Ø´ÙˆØ¯." },
+          { de: "Es ist notwendig, jeden Tag zu Ã¼ben.", fa: "لØ§Ø²Ù… Ø§Ø³Øª Ù‡Ø± Ø±ÙˆØ² ØªÙ…Ø±ÛŒÙ† Ú©Ù†ÛŒ." },
+          { de: "Sie hat beschlossen, eine Ausbildung zu machen.", fa: "Ø§Ùˆ ØªØµÙ…ÛŒÙ… Ú¯Ø±ÙØªÙ‡ Ø¯ÙˆØ±Ù‡ Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ Ø¨Ú¯Ø°Ø±Ø§Ù†Ø¯." },
+          { de: "Ohne zu lernen, kann man nicht bestehen.", fa: "Ø¨Ø¯ÙˆÙ† Ø¯Ø±Ø³ Ø®ÙˆØ§Ù†Ø¯Ù† Ù†Ù…ÛŒâ€ŒØªÙˆØ§Ù† Ù‚Ø¨Ùˆل Ø´Ø¯." },
+          { de: "Statt zu feiern, bereitet er sich auf die PrÃ¼fung vor.", fa: "Ø¨Ù‡ Ø¬Ø§ÛŒ Ø¬Ø´Ù† Ú¯Ø±ÙØªÙ†ØŒ Ø¨Ø±Ø§ÛŒ Ø§Ù…ØªØ­Ø§Ù† Ø¢Ù…Ø§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯." }
         ]
       },
       {
         type: "alert",
-        title: "تفاوت Studium و Ausbildung",
-        text: "Studium = تحصی' در دانشگاه (معمو'اً ۳-۵ سا'، منجر به 'یسانس/فوق‌'یسانس). Ausbildung = دوره حرفه‌ای در شرکت + مدرسه (معمو'اً ۲-۳ سا'، منجر به مدرک حرفه‌ای). در آ'مان Ausbildung بسیار معتبر است و بسیاری از شغ'‌ها از طریق آن آموزش داده می‌شوند."
+        title: "ØªÙØ§ÙˆØª Studium Ùˆ Ausbildung",
+        text: "Studium = ØªØ­ØµÛŒل Ø¯Ø± Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ (Ù…Ø¹Ù…ÙˆلØ§Ù‹ Û³-Ûµ Ø³Ø§لØŒ Ù…Ù†Ø¬Ø± Ø¨Ù‡ لÛŒØ³Ø§Ù†Ø³/ÙÙˆÙ‚â€ŒلÛŒØ³Ø§Ù†Ø³). Ausbildung = Ø¯ÙˆØ±Ù‡ Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ Ø¯Ø± Ø´Ø±Ú©Øª + Ù…Ø¯Ø±Ø³Ù‡ (Ù…Ø¹Ù…ÙˆلØ§Ù‹ Û²-Û³ Ø³Ø§لØŒ Ù…Ù†Ø¬Ø± Ø¨Ù‡ Ù…Ø¯Ø±Ú© Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ). Ø¯Ø± Ø¢لÙ…Ø§Ù† Ausbildung Ø¨Ø³ÛŒØ§Ø± Ù…Ø¹ØªØ¨Ø± Ø§Ø³Øª Ùˆ Ø¨Ø³ÛŒØ§Ø±ÛŒ Ø§Ø² Ø´Øºلâ€ŒÙ‡Ø§ Ø§Ø² Ø·Ø±ÛŒÙ‚ Ø¢Ù† Ø¢Ù…ÙˆØ²Ø´ Ø¯Ø§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯."
       },
       {
         type: "interactive_quiz",
-        title: "آزمون آموزش",
+        title: "Ø¢Ø²Ù…ÙˆÙ† Ø¢Ù…ÙˆØ²Ø´",
         questions: [
           {
-            question: "کدام جم'ه صحیح است؟ «او رفت بدون اینکه خداحافظی کند.»",
+            question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ Â«Ø§Ùˆ Ø±ÙØª Ø¨Ø¯ÙˆÙ† Ø§ÛŒÙ†Ú©Ù‡ Ø®Ø¯Ø§Ø­Ø§ÙØ¸ÛŒ Ú©Ù†Ø¯.Â»",
             questionDe: "Welcher Satz ist grammatikalisch korrekt?",
             options: [
-              { text: "Er ging, ohne zu grüßen.", isCorrect: true },
-              { text: "Er ging, ohne grüßen.", isCorrect: false },
-              { text: "Er ging, ohne dass grüßen.", isCorrect: false }
+              { text: "Er ging, ohne zu grÃ¼ÃŸen.", isCorrect: true },
+              { text: "Er ging, ohne grÃ¼ÃŸen.", isCorrect: false },
+              { text: "Er ging, ohne dass grÃ¼ÃŸen.", isCorrect: false }
             ],
-            explanation: "با ohne...zu مصدر با zu می‌آید: ohne zu grüßen."
+            explanation: "Ø¨Ø§ ohne...zu Ù…ØµØ¯Ø± Ø¨Ø§ zu Ù…ÛŒâ€ŒØ¢ÛŒØ¯: ohne zu grÃ¼ÃŸen."
           },
           {
-            question: "«Ausbildung» چه تفاوتی با «Studium» دارد؟",
+            question: "Â«AusbildungÂ» Ú†Ù‡ ØªÙØ§ÙˆØªÛŒ Ø¨Ø§ Â«StudiumÂ» Ø¯Ø§Ø±Ø¯ØŸ",
             questionDe: "Was ist der Unterschied zwischen Ausbildung und Studium?",
             options: [
-              { text: "Ausbildung در دانشگاه است، Studium در شرکت.", isCorrect: false },
-              { text: "Ausbildung دوره حرفه‌ای است، Studium تحصی' دانشگاهی.", isCorrect: true },
-              { text: "هیچ تفاوتی ندارند.", isCorrect: false }
+              { text: "Ausbildung Ø¯Ø± Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ Ø§Ø³ØªØŒ Studium Ø¯Ø± Ø´Ø±Ú©Øª.", isCorrect: false },
+              { text: "Ausbildung Ø¯ÙˆØ±Ù‡ Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ Ø§Ø³ØªØŒ Studium ØªØ­ØµÛŒل Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ÛŒ.", isCorrect: true },
+              { text: "Ù‡ÛŒÚ† ØªÙØ§ÙˆØªÛŒ Ù†Ø¯Ø§Ø±Ù†Ø¯.", isCorrect: false }
             ],
-            explanation: "Ausbildung دوره حرفه‌ای (کارآموزی + مدرسه) و Studium تحصی' دانشگاهی است."
+            explanation: "Ausbildung Ø¯ÙˆØ±Ù‡ Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ (Ú©Ø§Ø±Ø¢Ù…ÙˆØ²ÛŒ + Ù…Ø¯Ø±Ø³Ù‡) Ùˆ Studium ØªØ­ØµÛŒل Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ÛŒ Ø§Ø³Øª."
           }
         ]
       },
       {
         type: "fill_blank",
-        title: "تمرین ساختارهای مصدری",
-        instruction: "جم'ات را با ساختار مصدری مناسب کام' کنید.",
+        title: "ØªÙ…Ø±ÛŒÙ† Ø³Ø§Ø®ØªØ§Ø±Ù‡Ø§ÛŒ Ù…ØµØ¯Ø±ÛŒ",
+        instruction: "Ø¬Ù…لØ§Øª Ø±Ø§ Ø¨Ø§ Ø³Ø§Ø®ØªØ§Ø± Ù…ØµØ¯Ø±ÛŒ Ù…Ù†Ø§Ø³Ø¨ Ú©Ø§Ù…ل Ú©Ù†ÛŒØ¯.",
         blanks: [
-          { sentence: "Ich lerne fleißig, _______ die Prüfung _______ bestehen.", answer: "um ... zu", hint: "هدف" },
-          { sentence: "Er ging nach Hause, _______ sich _______ verabschieden.", answer: "ohne ... zu", hint: "بدون" },
-          { sentence: "_______ im Bett _______ bleiben, ging sie zur Arbeit.", answer: "Statt ... zu", hint: "به جای" },
-          { sentence: "Es ist wichtig, jeden Tag _______ _______.", answer: "zu üben", hint: "'ازم است تمرین کنی" },
-          { sentence: "Sie hat vor, nächstes Jahr _______ _______.", answer: "zu studieren", hint: "قصد دارد درس بخواند" },
-          { sentence: "Ohne _______ zu _______, kann man nicht bestehen.", answer: "zu lernen", hint: "بدون درس خواندن" }
+          { sentence: "Ich lerne fleiÃŸig, _______ die PrÃ¼fung _______ bestehen.", answer: "um ... zu", hint: "Ù‡Ø¯Ù" },
+          { sentence: "Er ging nach Hause, _______ sich _______ verabschieden.", answer: "ohne ... zu", hint: "Ø¨Ø¯ÙˆÙ†" },
+          { sentence: "_______ im Bett _______ bleiben, ging sie zur Arbeit.", answer: "Statt ... zu", hint: "Ø¨Ù‡ Ø¬Ø§ÛŒ" },
+          { sentence: "Es ist wichtig, jeden Tag _______ _______.", answer: "zu Ã¼ben", hint: "لØ§Ø²Ù… Ø§Ø³Øª ØªÙ…Ø±ÛŒÙ† Ú©Ù†ÛŒ" },
+          { sentence: "Sie hat vor, nÃ¤chstes Jahr _______ _______.", answer: "zu studieren", hint: "Ù‚ØµØ¯ Ø¯Ø§Ø±Ø¯ Ø¯Ø±Ø³ Ø¨Ø®ÙˆØ§Ù†Ø¯" },
+          { sentence: "Ohne _______ zu _______, kann man nicht bestehen.", answer: "zu lernen", hint: "Ø¨Ø¯ÙˆÙ† Ø¯Ø±Ø³ Ø®ÙˆØ§Ù†Ø¯Ù†" }
         ]
       }
     ]
@@ -87,36 +87,36 @@ export const day42Data = {
   vocabData: {
     categories: [
       {
-        title: "سیستم آموزشی (Bildungssystem)",
+        title: "Ø³ÛŒØ³ØªÙ… Ø¢Ù…ÙˆØ²Ø´ÛŒ (Bildungssystem)",
         words: [
-          { de: "die Grundschule", fa: "دبستان", article: "die", plural: "die Grundschulen", examples: [{ de: "Kinder gehen vier Jahre zur Grundschule.", fa: "بچه‌ها چهار سا' به دبستان می‌روند." }] },
-          { de: "das Gymnasium", fa: "دبیرستان (آکادمیک)", article: "das", plural: "die Gymnasien", examples: [{ de: "Nach der Grundschule kann man aufs Gymnasium gehen.", fa: "بعد از دبستان می‌توان به دبیرستان رفت." }] },
-          { de: "die Hauptschule", fa: "دبیرستان (عم'ی/حرفه‌ای)", article: "die", plural: "die Hauptschulen", examples: [{ de: "Die Hauptschule dauert fünf Jahre.", fa: "دبیرستان عم'ی پنج سا' طو' می‌کشد." }] },
-          { de: "die Realschule", fa: "دبیرستان (متوسطه)", article: "die", plural: "die Realschulen", examples: [{ de: "Nach der Realschule kann man eine Ausbildung machen.", fa: "بعد از دبیرستان متوسطه می‌توان دوره حرفه‌ای گذراند." }] },
-          { de: "das Abitur", fa: "diploma دبیرستان / کنکور", article: "das", plural: "-", examples: [{ de: "Mit dem Abitur kann man studieren.", fa: "با آبیتور می‌توان دانشگاه رفت." }] }
+          { de: "die Grundschule", fa: "Ø¯Ø¨Ø³ØªØ§Ù†", article: "die", plural: "die Grundschulen", examples: [{ de: "Kinder gehen vier Jahre zur Grundschule.", fa: "Ø¨Ú†Ù‡â€ŒÙ‡Ø§ Ú†Ù‡Ø§Ø± Ø³Ø§ل Ø¨Ù‡ Ø¯Ø¨Ø³ØªØ§Ù† Ù…ÛŒâ€ŒØ±ÙˆÙ†Ø¯." }] },
+          { de: "das Gymnasium", fa: "Ø¯Ø¨ÛŒØ±Ø³ØªØ§Ù† (Ø¢Ú©Ø§Ø¯Ù…ÛŒÚ©)", article: "das", plural: "die Gymnasien", examples: [{ de: "Nach der Grundschule kann man aufs Gymnasium gehen.", fa: "Ø¨Ø¹Ø¯ Ø§Ø² Ø¯Ø¨Ø³ØªØ§Ù† Ù…ÛŒâ€ŒØªÙˆØ§Ù† Ø¨Ù‡ Ø¯Ø¨ÛŒØ±Ø³ØªØ§Ù† Ø±ÙØª." }] },
+          { de: "die Hauptschule", fa: "Ø¯Ø¨ÛŒØ±Ø³ØªØ§Ù† (Ø¹Ù…لÛŒ/Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ)", article: "die", plural: "die Hauptschulen", examples: [{ de: "Die Hauptschule dauert fÃ¼nf Jahre.", fa: "Ø¯Ø¨ÛŒØ±Ø³ØªØ§Ù† Ø¹Ù…لÛŒ Ù¾Ù†Ø¬ Ø³Ø§ل Ø·Ùˆل Ù…ÛŒâ€ŒÚ©Ø´Ø¯." }] },
+          { de: "die Realschule", fa: "Ø¯Ø¨ÛŒØ±Ø³ØªØ§Ù† (Ù…ØªÙˆØ³Ø·Ù‡)", article: "die", plural: "die Realschulen", examples: [{ de: "Nach der Realschule kann man eine Ausbildung machen.", fa: "Ø¨Ø¹Ø¯ Ø§Ø² Ø¯Ø¨ÛŒØ±Ø³ØªØ§Ù† Ù…ØªÙˆØ³Ø·Ù‡ Ù…ÛŒâ€ŒØªÙˆØ§Ù† Ø¯ÙˆØ±Ù‡ Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ Ú¯Ø°Ø±Ø§Ù†Ø¯." }] },
+          { de: "das Abitur", fa: "diploma Ø¯Ø¨ÛŒØ±Ø³ØªØ§Ù† / Ú©Ù†Ú©ÙˆØ±", article: "das", plural: "-", examples: [{ de: "Mit dem Abitur kann man studieren.", fa: "Ø¨Ø§ Ø¢Ø¨ÛŒØªÙˆØ± Ù…ÛŒâ€ŒØªÙˆØ§Ù† Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ Ø±ÙØª." }] }
         ]
       },
       {
-        title: "تحصی'ات عا'ی و حرفه‌ای (Hochschule und Ausbildung)",
+        title: "ØªØ­ØµÛŒلØ§Øª Ø¹Ø§لÛŒ Ùˆ Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ (Hochschule und Ausbildung)",
         words: [
-          { de: "die Ausbildung", fa: "دوره حرفه‌ای / کارآموزی", article: "die", plural: "die Ausbildungen", examples: [{ de: "Die Ausbildung dauert drei Jahre.", fa: "دوره حرفه‌ای سه سا' طو' می‌کشد." }] },
-          { de: "die Universität", fa: "دانشگاه", article: "die", plural: "die Universitäten", examples: [{ de: "Ich studiere an der Universität Berlin.", fa: "در دانشگاه بر'ین درس می‌خوانم." }] },
-          { de: "die Fachhochschule", fa: "دانشگاه ع'وم کاربردی", article: "die", plural: "die Fachhochschulen", examples: [{ de: "An der Fachhochschule lernt man Praxis.", fa: "در دانشگاه ع'وم کاربردی عم'ی یاد می‌گیرید." }] },
-          { de: "das Studium", fa: "تحصی'ات دانشگاهی", article: "das", plural: "die Studien", examples: [{ de: "Mein Studium dauert vier Jahre.", fa: "تحصی'ات من چهار سا' طو' می‌کشد." }] },
-          { de: "der Studiengang", fa: "رشته تحصی'ی", article: "der", plural: "die Studiengänge", examples: [{ de: "Welchen Studiengang hast du gewählt?", fa: "چه رشته‌ای انتخاب کردی؟" }] },
-          { de: "die Prüfung", fa: "امتحان", article: "die", plural: "die Prüfungen", examples: [{ de: "Die Prüfung findet nächste Woche statt.", fa: "امتحان هفته آینده برگزار می‌شود." }] },
-          { de: "der Professor", fa: "استاد دانشگاه", article: "der", plural: "die Professoren", examples: [{ de: "Der Professor erklärt die Theorie.", fa: "استاد تئوری را توضیح می‌دهد." }] },
-          { de: "die Vorlesung", fa: "ک'اس درس (دانشگاه)", article: "die", plural: "die Vorlesungen", examples: [{ de: "Die Vorlesung beginnt um 8 Uhr.", fa: "ک'اس ساعت ۸ شروع می‌شود." }] },
-          { de: "das Semesterticket", fa: "ب'یط ترم (حم' و نق')", article: "das", plural: "die Semestertickets", examples: [{ de: "Mit dem Semesterticket kann ich kostenlos fahren.", fa: "با ب'یط ترم می‌توانم رایگان سفر کنم." }] },
-          { de: "das Stipendium", fa: "بورسیه تحصی'ی", article: "das", plural: "die Stipendien", examples: [{ de: "Ich habe ein Stipendium bekommen.", fa: "بورسیه تحصی'ی گرفتم." }] },
-          { de: "der Abschluss", fa: "مدرک / فارغ‌ا'تحصی'ی", article: "der", plural: "die Abschlüsse", examples: [{ de: "Nach dem Abschluss suche ich einen Job.", fa: "بعد از فارغ‌ا'تحصی'ی دنبا' کار می‌گردم." }] },
-          { de: "die Fachhochschulreife", fa: "diploma دبیرستان (کاربردی)", article: "die", plural: "-", examples: [{ de: "Mit der Fachhochschulreife kann man an einer FH studieren.", fa: "با این مدرک می‌توان در دانشگاه ع'وم کاربردی درس خواند." }] },
-          { de: "der Meisterbrief", fa: "مدرک استادکاری", article: "der", plural: "die Meisterbriefe", examples: [{ de: "Mit dem Meisterbrief kann man eine Firma gründen.", fa: "با مدرک استادکاری می‌توان شرکت تأسیس کرد." }] },
-          { de: "das Zeugnis", fa: "کارنامه / گواهی", article: "das", plural: "die Zeugnisse", examples: [{ de: "Mein Zeugnis war sehr gut.", fa: "کارنامه‌ام خی'ی خوب بود." }] },
-          { de: "die Note", fa: "نمره", article: "die", plural: "die Noten", examples: [{ de: "Ich habe eine gute Note bekommen.", fa: "نمره خوبی گرفتم." }] },
-          { de: "das Praktikum", fa: "کارآموزی / کارورزی", article: "das", plural: "die Praktika", examples: [{ de: "Ich mache ein Praktikum bei einer Firma.", fa: "در یک شرکت کارآموزی می‌کنم." }] },
-          { de: "das Zertifikat", fa: "گواهینامه / مدرک", article: "das", plural: "die Zertifikate", examples: [{ de: "Das Zertifikat ist international anerkannt.", fa: "این مدرک بین‌ا'م''ی است." }] },
-          { de: "die Weiterbildung", fa: "آموزش تکمی'ی / ارتقای تحصی'ی", article: "die", plural: "die Weiterbildungen", examples: [{ de: "Ich mache eine Weiterbildung in Deutsch.", fa: "آموزش تکمی'ی آ'مانی می‌گذرانم." }] }
+          { de: "die Ausbildung", fa: "Ø¯ÙˆØ±Ù‡ Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ / Ú©Ø§Ø±Ø¢Ù…ÙˆØ²ÛŒ", article: "die", plural: "die Ausbildungen", examples: [{ de: "Die Ausbildung dauert drei Jahre.", fa: "Ø¯ÙˆØ±Ù‡ Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ Ø³Ù‡ Ø³Ø§ل Ø·Ùˆل Ù…ÛŒâ€ŒÚ©Ø´Ø¯." }] },
+          { de: "die UniversitÃ¤t", fa: "Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡", article: "die", plural: "die UniversitÃ¤ten", examples: [{ de: "Ich studiere an der UniversitÃ¤t Berlin.", fa: "Ø¯Ø± Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ Ø¨Ø±لÛŒÙ† Ø¯Ø±Ø³ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù†Ù…." }] },
+          { de: "die Fachhochschule", fa: "Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ Ø¹لÙˆÙ… Ú©Ø§Ø±Ø¨Ø±Ø¯ÛŒ", article: "die", plural: "die Fachhochschulen", examples: [{ de: "An der Fachhochschule lernt man Praxis.", fa: "Ø¯Ø± Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ Ø¹لÙˆÙ… Ú©Ø§Ø±Ø¨Ø±Ø¯ÛŒ Ø¹Ù…لÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØ¯." }] },
+          { de: "das Studium", fa: "ØªØ­ØµÛŒلØ§Øª Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ÛŒ", article: "das", plural: "die Studien", examples: [{ de: "Mein Studium dauert vier Jahre.", fa: "ØªØ­ØµÛŒلØ§Øª Ù…Ù† Ú†Ù‡Ø§Ø± Ø³Ø§ل Ø·Ùˆل Ù…ÛŒâ€ŒÚ©Ø´Ø¯." }] },
+          { de: "der Studiengang", fa: "Ø±Ø´ØªÙ‡ ØªØ­ØµÛŒلÛŒ", article: "der", plural: "die StudiengÃ¤nge", examples: [{ de: "Welchen Studiengang hast du gewÃ¤hlt?", fa: "Ú†Ù‡ Ø±Ø´ØªÙ‡â€ŒØ§ÛŒ Ø§Ù†ØªØ®Ø§Ø¨ Ú©Ø±Ø¯ÛŒØŸ" }] },
+          { de: "die PrÃ¼fung", fa: "Ø§Ù…ØªØ­Ø§Ù†", article: "die", plural: "die PrÃ¼fungen", examples: [{ de: "Die PrÃ¼fung findet nÃ¤chste Woche statt.", fa: "Ø§Ù…ØªØ­Ø§Ù† Ù‡ÙØªÙ‡ Ø¢ÛŒÙ†Ø¯Ù‡ Ø¨Ø±Ú¯Ø²Ø§Ø± Ù…ÛŒâ€ŒØ´ÙˆØ¯." }] },
+          { de: "der Professor", fa: "Ø§Ø³ØªØ§Ø¯ Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡", article: "der", plural: "die Professoren", examples: [{ de: "Der Professor erklÃ¤rt die Theorie.", fa: "Ø§Ø³ØªØ§Ø¯ ØªØ¦ÙˆØ±ÛŒ Ø±Ø§ ØªÙˆØ¶ÛŒØ­ Ù…ÛŒâ€ŒØ¯Ù‡Ø¯." }] },
+          { de: "die Vorlesung", fa: "Ú©لØ§Ø³ Ø¯Ø±Ø³ (Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡)", article: "die", plural: "die Vorlesungen", examples: [{ de: "Die Vorlesung beginnt um 8 Uhr.", fa: "Ú©لØ§Ø³ Ø³Ø§Ø¹Øª Û¸ Ø´Ø±ÙˆØ¹ Ù…ÛŒâ€ŒØ´ÙˆØ¯." }] },
+          { de: "das Semesterticket", fa: "Ø¨لÛŒØ· ØªØ±Ù… (Ø­Ù…ل Ùˆ Ù†Ù‚ل)", article: "das", plural: "die Semestertickets", examples: [{ de: "Mit dem Semesterticket kann ich kostenlos fahren.", fa: "Ø¨Ø§ Ø¨لÛŒØ· ØªØ±Ù… Ù…ÛŒâ€ŒØªÙˆØ§Ù†Ù… Ø±Ø§ÛŒÚ¯Ø§Ù† Ø³ÙØ± Ú©Ù†Ù…." }] },
+          { de: "das Stipendium", fa: "Ø¨ÙˆØ±Ø³ÛŒÙ‡ ØªØ­ØµÛŒلÛŒ", article: "das", plural: "die Stipendien", examples: [{ de: "Ich habe ein Stipendium bekommen.", fa: "Ø¨ÙˆØ±Ø³ÛŒÙ‡ ØªØ­ØµÛŒلÛŒ Ú¯Ø±ÙØªÙ…." }] },
+          { de: "der Abschluss", fa: "Ù…Ø¯Ø±Ú© / ÙØ§Ø±Øºâ€ŒØ§لØªØ­ØµÛŒلÛŒ", article: "der", plural: "die AbschlÃ¼sse", examples: [{ de: "Nach dem Abschluss suche ich einen Job.", fa: "Ø¨Ø¹Ø¯ Ø§Ø² ÙØ§Ø±Øºâ€ŒØ§لØªØ­ØµÛŒلÛŒ Ø¯Ù†Ø¨Ø§ل Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ¯Ø±Ø¯Ù…." }] },
+          { de: "die Fachhochschulreife", fa: "diploma Ø¯Ø¨ÛŒØ±Ø³ØªØ§Ù† (Ú©Ø§Ø±Ø¨Ø±Ø¯ÛŒ)", article: "die", plural: "-", examples: [{ de: "Mit der Fachhochschulreife kann man an einer FH studieren.", fa: "Ø¨Ø§ Ø§ÛŒÙ† Ù…Ø¯Ø±Ú© Ù…ÛŒâ€ŒØªÙˆØ§Ù† Ø¯Ø± Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ Ø¹لÙˆÙ… Ú©Ø§Ø±Ø¨Ø±Ø¯ÛŒ Ø¯Ø±Ø³ Ø®ÙˆØ§Ù†Ø¯." }] },
+          { de: "der Meisterbrief", fa: "Ù…Ø¯Ø±Ú© Ø§Ø³ØªØ§Ø¯Ú©Ø§Ø±ÛŒ", article: "der", plural: "die Meisterbriefe", examples: [{ de: "Mit dem Meisterbrief kann man eine Firma grÃ¼nden.", fa: "Ø¨Ø§ Ù…Ø¯Ø±Ú© Ø§Ø³ØªØ§Ø¯Ú©Ø§Ø±ÛŒ Ù…ÛŒâ€ŒØªÙˆØ§Ù† Ø´Ø±Ú©Øª ØªØ£Ø³ÛŒØ³ Ú©Ø±Ø¯." }] },
+          { de: "das Zeugnis", fa: "Ú©Ø§Ø±Ù†Ø§Ù…Ù‡ / Ú¯ÙˆØ§Ù‡ÛŒ", article: "das", plural: "die Zeugnisse", examples: [{ de: "Mein Zeugnis war sehr gut.", fa: "Ú©Ø§Ø±Ù†Ø§Ù…Ù‡â€ŒØ§Ù… Ø®ÛŒلÛŒ Ø®ÙˆØ¨ Ø¨ÙˆØ¯." }] },
+          { de: "die Note", fa: "Ù†Ù…Ø±Ù‡", article: "die", plural: "die Noten", examples: [{ de: "Ich habe eine gute Note bekommen.", fa: "Ù†Ù…Ø±Ù‡ Ø®ÙˆØ¨ÛŒ Ú¯Ø±ÙØªÙ…." }] },
+          { de: "das Praktikum", fa: "Ú©Ø§Ø±Ø¢Ù…ÙˆØ²ÛŒ / Ú©Ø§Ø±ÙˆØ±Ø²ÛŒ", article: "das", plural: "die Praktika", examples: [{ de: "Ich mache ein Praktikum bei einer Firma.", fa: "Ø¯Ø± ÛŒÚ© Ø´Ø±Ú©Øª Ú©Ø§Ø±Ø¢Ù…ÙˆØ²ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ù…." }] },
+          { de: "das Zertifikat", fa: "Ú¯ÙˆØ§Ù‡ÛŒÙ†Ø§Ù…Ù‡ / Ù…Ø¯Ø±Ú©", article: "das", plural: "die Zertifikate", examples: [{ de: "Das Zertifikat ist international anerkannt.", fa: "Ø§ÛŒÙ† Ù…Ø¯Ø±Ú© Ø¨ÛŒÙ†â€ŒØ§لÙ…للÛŒ Ø§Ø³Øª." }] },
+          { de: "die Weiterbildung", fa: "Ø¢Ù…ÙˆØ²Ø´ ØªÚ©Ù…ÛŒلÛŒ / Ø§Ø±ØªÙ‚Ø§ÛŒ ØªØ­ØµÛŒلÛŒ", article: "die", plural: "die Weiterbildungen", examples: [{ de: "Ich mache eine Weiterbildung in Deutsch.", fa: "Ø¢Ù…ÙˆØ²Ø´ ØªÚ©Ù…ÛŒلÛŒ Ø¢لÙ…Ø§Ù†ÛŒ Ù…ÛŒâ€ŒÚ¯Ø°Ø±Ø§Ù†Ù…." }] }
         ]
       }
     ]
@@ -124,70 +124,70 @@ export const day42Data = {
 
   reading: [
     {
-      text: "Das deutsche Bildungssystem\n\nDas deutsche Bildungsystem ist komplex und interessant. Nach der Grundschule (4 Jahre) kommen die Kinder auf verschiedene Schulen: Gymnasium, Realschule oder Hauptschule. Die Entscheidung hängt oft von den Noten ab.\nAm Gymnasium macht man nach acht oder neun Jahren das Abitur. Mit dem Abitur kann man an jeder Universität studieren. Das Studium an öffentlichen Universitäten ist in Deutschland fast kostenlos. Man zahlt nur eine kleine Semestergebühr von etwa 300 Euro. Dafür bekommt man das Semesterticket für Bus und Bahn.\nWer nicht studieren möchte, kann eine Ausbildung machen. Die Ausbildung dauert zwei bis dreieinhalb Jahre und findet im Betrieb und in der Berufsschule statt. Nach der Ausbildung bekommt man einen Abschluss und kann direkt arbeiten. Viele Deutsche machen später eine Weiterbildung oder sogar ein Studium.\nDas Besondere am deutschen System ist die duale Ausbildung. Sie verbindet Theorie und Praxis. Viele ausländische Firmen bewundern dieses System und versuchen, es zu kopieren.",
+      text: "Das deutsche Bildungssystem\n\nDas deutsche Bildungsystem ist komplex und interessant. Nach der Grundschule (4 Jahre) kommen die Kinder auf verschiedene Schulen: Gymnasium, Realschule oder Hauptschule. Die Entscheidung hÃ¤ngt oft von den Noten ab.\nAm Gymnasium macht man nach acht oder neun Jahren das Abitur. Mit dem Abitur kann man an jeder UniversitÃ¤t studieren. Das Studium an Ã¶ffentlichen UniversitÃ¤ten ist in Deutschland fast kostenlos. Man zahlt nur eine kleine SemestergebÃ¼hr von etwa 300 Euro. DafÃ¼r bekommt man das Semesterticket fÃ¼r Bus und Bahn.\nWer nicht studieren mÃ¶chte, kann eine Ausbildung machen. Die Ausbildung dauert zwei bis dreieinhalb Jahre und findet im Betrieb und in der Berufsschule statt. Nach der Ausbildung bekommt man einen Abschluss und kann direkt arbeiten. Viele Deutsche machen spÃ¤ter eine Weiterbildung oder sogar ein Studium.\nDas Besondere am deutschen System ist die duale Ausbildung. Sie verbindet Theorie und Praxis. Viele auslÃ¤ndische Firmen bewundern dieses System und versuchen, es zu kopieren.",
       questions: [
-        { question: "بعد از دبستان بچه‌ها به چه مدارسی می‌روند؟", answer: "Gymnasium, Realschule یا Hauptschule." },
-        { question: "هزینه تحصی' در دانشگاه‌های دو'تی آ'مان چقدر است؟", answer: "تقریباً رایگان است، فقط حدود ۳۰۰ یورو شهریه ترم." },
-        { question: "Ausbildung چقدر طو' می‌کشد و کجا انجام می‌شود؟", answer: "دو تا سه و نیم سا' در شرکت و مدرسه حرفه‌ای." },
-        { question: "چه چیزی درباره سیستم آموزشی آ'مان منحصر به فرد است؟", answer: "Ausbildung دوگانه (duale Ausbildung) که تئوری و عم' را ترکیب می‌کند." }
+        { question: "Ø¨Ø¹Ø¯ Ø§Ø² Ø¯Ø¨Ø³ØªØ§Ù† Ø¨Ú†Ù‡â€ŒÙ‡Ø§ Ø¨Ù‡ Ú†Ù‡ Ù…Ø¯Ø§Ø±Ø³ÛŒ Ù…ÛŒâ€ŒØ±ÙˆÙ†Ø¯ØŸ", answer: "Gymnasium, Realschule ÛŒØ§ Hauptschule." },
+        { question: "Ù‡Ø²ÛŒÙ†Ù‡ ØªØ­ØµÛŒل Ø¯Ø± Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡â€ŒÙ‡Ø§ÛŒ Ø¯ÙˆلØªÛŒ Ø¢لÙ…Ø§Ù† Ú†Ù‚Ø¯Ø± Ø§Ø³ØªØŸ", answer: "ØªÙ‚Ø±ÛŒØ¨Ø§Ù‹ Ø±Ø§ÛŒÚ¯Ø§Ù† Ø§Ø³ØªØŒ ÙÙ‚Ø· Ø­Ø¯ÙˆØ¯ Û³Û°Û° ÛŒÙˆØ±Ùˆ Ø´Ù‡Ø±ÛŒÙ‡ ØªØ±Ù…." },
+        { question: "Ausbildung Ú†Ù‚Ø¯Ø± Ø·Ùˆل Ù…ÛŒâ€ŒÚ©Ø´Ø¯ Ùˆ Ú©Ø¬Ø§ Ø§Ù†Ø¬Ø§Ù… Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", answer: "Ø¯Ùˆ ØªØ§ Ø³Ù‡ Ùˆ Ù†ÛŒÙ… Ø³Ø§ل Ø¯Ø± Ø´Ø±Ú©Øª Ùˆ Ù…Ø¯Ø±Ø³Ù‡ Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ." },
+        { question: "Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø³ÛŒØ³ØªÙ… Ø¢Ù…ÙˆØ²Ø´ÛŒ Ø¢لÙ…Ø§Ù† Ù…Ù†Ø­ØµØ± Ø¨Ù‡ ÙØ±Ø¯ Ø§Ø³ØªØŸ", answer: "Ausbildung Ø¯ÙˆÚ¯Ø§Ù†Ù‡ (duale Ausbildung) Ú©Ù‡ ØªØ¦ÙˆØ±ÛŒ Ùˆ Ø¹Ù…ل Ø±Ø§ ØªØ±Ú©ÛŒØ¨ Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "توصیف سیستم آموزشی",
-      prompt: "یک متن ۸-۱۰ خطی درباره تجربه تحصی'ی خود یا سیستم آموزشی کشورتان بنویسید. از Infinitivkonstruktionen استفاده کنید.",
+      title: "ØªÙˆØµÛŒÙ Ø³ÛŒØ³ØªÙ… Ø¢Ù…ÙˆØ²Ø´ÛŒ",
+      prompt: "ÛŒÚ© Ù…ØªÙ† Û¸-Û±Û° Ø®Ø·ÛŒ Ø¯Ø±Ø¨Ø§Ø±Ù‡ ØªØ¬Ø±Ø¨Ù‡ ØªØ­ØµÛŒلÛŒ Ø®ÙˆØ¯ ÛŒØ§ Ø³ÛŒØ³ØªÙ… Ø¢Ù…ÙˆØ²Ø´ÛŒ Ú©Ø´ÙˆØ±ØªØ§Ù† Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯. Ø§Ø² Infinitivkonstruktionen Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.",
       steps: [
         {
-          title: "معرفی موضوع",
-          text: "درباره سیستم آموزشی",
-          example: { de: "In meinem Land gehen die Kinder mit sechs Jahren zur Schule.", fa: "در کشور من بچه‌ها با شش سا'گی به مدرسه می‌روند." }
+          title: "Ù…Ø¹Ø±ÙÛŒ Ù…ÙˆØ¶ÙˆØ¹",
+          text: "Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø³ÛŒØ³ØªÙ… Ø¢Ù…ÙˆØ²Ø´ÛŒ",
+          example: { de: "In meinem Land gehen die Kinder mit sechs Jahren zur Schule.", fa: "Ø¯Ø± Ú©Ø´ÙˆØ± Ù…Ù† Ø¨Ú†Ù‡â€ŒÙ‡Ø§ Ø¨Ø§ Ø´Ø´ Ø³Ø§لÚ¯ÛŒ Ø¨Ù‡ Ù…Ø¯Ø±Ø³Ù‡ Ù…ÛŒâ€ŒØ±ÙˆÙ†Ø¯." }
         },
         {
-          title: "استفاده از um...zu, ohne...zu, statt...zu",
-          text: "ساختارهای مصدری",
-          example: { de: "Viele lernen, um einen guten Job zu bekommen.", fa: "بسیاری یاد می‌گیرند تا شغ' خوبی پیدا کنند." }
+          title: "Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² um...zu, ohne...zu, statt...zu",
+          text: "Ø³Ø§Ø®ØªØ§Ø±Ù‡Ø§ÛŒ Ù…ØµØ¯Ø±ÛŒ",
+          example: { de: "Viele lernen, um einen guten Job zu bekommen.", fa: "Ø¨Ø³ÛŒØ§Ø±ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯ ØªØ§ Ø´Øºل Ø®ÙˆØ¨ÛŒ Ù¾ÛŒØ¯Ø§ Ú©Ù†Ù†Ø¯." }
         },
         {
-          title: "نتیجه‌گیری",
-          text: "نظر شخصی",
-          example: { de: "Meiner Meinung nach ist Bildung der Schlüssel zum Erfolg.", fa: "به نظر من آموزش ک'ید موفقیت است." }
+          title: "Ù†ØªÛŒØ¬Ù‡â€ŒÚ¯ÛŒØ±ÛŒ",
+          text: "Ù†Ø¸Ø± Ø´Ø®ØµÛŒ",
+          example: { de: "Meiner Meinung nach ist Bildung der SchlÃ¼ssel zum Erfolg.", fa: "Ø¨Ù‡ Ù†Ø¸Ø± Ù…Ù† Ø¢Ù…ÙˆØ²Ø´ Ú©لÛŒØ¯ Ù…ÙˆÙÙ‚ÛŒØª Ø§Ø³Øª." }
         }
       ],
-      modelAnswer: "In Deutschland gibt es ein besonderes Bildungssystem. Nach der Grundschule können die Kinder verschiedene Schulen besuchen. Wer studieren möchte, muss das Abitur machen. Ohne das Abitur kann man nicht an einer Universität studieren. Statt sofort zu arbeiten, entscheiden sich viele für ein Studium. Wer nicht studieren will, kann eine Ausbildung machen. Die Ausbildung dauert zwei bis drei Jahre. Man arbeitet im Betrieb, um praktische Erfahrung zu sammeln. Nach dem Abschluss kann man sofort einen Job finden. Viele Menschen machen später eine Weiterbildung, um sich beruflich weiterzuentwickeln. Meiner Meinung nach ist das duale Ausbildungssystem sehr gut, weil es Theorie und Praxis verbindet."
+      modelAnswer: "In Deutschland gibt es ein besonderes Bildungssystem. Nach der Grundschule kÃ¶nnen die Kinder verschiedene Schulen besuchen. Wer studieren mÃ¶chte, muss das Abitur machen. Ohne das Abitur kann man nicht an einer UniversitÃ¤t studieren. Statt sofort zu arbeiten, entscheiden sich viele fÃ¼r ein Studium. Wer nicht studieren will, kann eine Ausbildung machen. Die Ausbildung dauert zwei bis drei Jahre. Man arbeitet im Betrieb, um praktische Erfahrung zu sammeln. Nach dem Abschluss kann man sofort einen Job finden. Viele Menschen machen spÃ¤ter eine Weiterbildung, um sich beruflich weiterzuentwickeln. Meiner Meinung nach ist das duale Ausbildungssystem sehr gut, weil es Theorie und Praxis verbindet."
     }
   ],
 
   listening: [
     {
-      title: "سیستم آموزشی آ'مان",
-      source: "Das deutsche Bildungssystem erklärt",
+      title: "Ø³ÛŒØ³ØªÙ… Ø¢Ù…ÙˆØ²Ø´ÛŒ Ø¢لÙ…Ø§Ù†",
+      source: "Das deutsche Bildungssystem erklÃ¤rt",
       link: "https://www.youtube.com/watch?v=GXhKCDbDAAo",
-      instructions: "به توضیح سیستم آموزشی در ویدیو دقت کنید. مراح': Grundschule → Gymnasium/Realschule/Hauptschule → Abitur/Ausbildung → Studium/Arbeit را یادداشت کنید."
+      instructions: "Ø¨Ù‡ ØªÙˆØ¶ÛŒØ­ Ø³ÛŒØ³ØªÙ… Ø¢Ù…ÙˆØ²Ø´ÛŒ Ø¯Ø± ÙˆÛŒØ¯ÛŒÙˆ Ø¯Ù‚Øª Ú©Ù†ÛŒØ¯. Ù…Ø±Ø§Ø­ل: Grundschule â†’ Gymnasium/Realschule/Hauptschule â†’ Abitur/Ausbildung â†’ Studium/Arbeit Ø±Ø§ ÛŒØ§Ø¯Ø¯Ø§Ø´Øª Ú©Ù†ÛŒØ¯."
     }
   ],
 
   speaking: [
     {
-      title: "توصیف تجربه تحصی'ی",
-      pattern: "Ich habe an der Universität... studiert. / Ich mache eine Ausbildung als... / Mein Studium dauert...",
-      exercise: "تجربه تحصی'ی خود را توصیف کنید: چه خواندید، چقدر طو' کشید، چه نمراتی داشتید و چه برنامه‌ای برای آینده دارید."
+      title: "ØªÙˆØµÛŒÙ ØªØ¬Ø±Ø¨Ù‡ ØªØ­ØµÛŒلÛŒ",
+      pattern: "Ich habe an der UniversitÃ¤t... studiert. / Ich mache eine Ausbildung als... / Mein Studium dauert...",
+      exercise: "ØªØ¬Ø±Ø¨Ù‡ ØªØ­ØµÛŒلÛŒ Ø®ÙˆØ¯ Ø±Ø§ ØªÙˆØµÛŒÙ Ú©Ù†ÛŒØ¯: Ú†Ù‡ Ø®ÙˆØ§Ù†Ø¯ÛŒØ¯ØŒ Ú†Ù‚Ø¯Ø± Ø·Ùˆل Ú©Ø´ÛŒØ¯ØŒ Ú†Ù‡ Ù†Ù…Ø±Ø§ØªÛŒ Ø¯Ø§Ø´ØªÛŒØ¯ Ùˆ Ú†Ù‡ Ø¨Ø±Ù†Ø§Ù…Ù‡â€ŒØ§ÛŒ Ø¨Ø±Ø§ÛŒ Ø¢ÛŒÙ†Ø¯Ù‡ Ø¯Ø§Ø±ÛŒØ¯."
     }
   ],
 
-  cultureTip: "سیستم آموزشی آ'مان (Bildungssystem) یکی از متنوع‌ترین سیستم‌ها در جهان است. ویژگی منحصر به فرد آن Ausbildung دوگانه (duale Ausbildung) است که ترکیبی از آموزش عم'ی در شرکت و تئوری در مدرسه حرفه‌ای است. این سیستم به آ'مان اجازه داده نیروی کار ماهر تربیت کند. تحصی' در دانشگاه‌های دو'تی آ'مان تقریباً رایگان است و این کشور را به یکی از محبوب‌ترین مقاصد تحصی'ی تبدی' کرده.",
+  cultureTip: "Ø³ÛŒØ³ØªÙ… Ø¢Ù…ÙˆØ²Ø´ÛŒ Ø¢لÙ…Ø§Ù† (Bildungssystem) ÛŒÚ©ÛŒ Ø§Ø² Ù…ØªÙ†ÙˆØ¹â€ŒØªØ±ÛŒÙ† Ø³ÛŒØ³ØªÙ…â€ŒÙ‡Ø§ Ø¯Ø± Ø¬Ù‡Ø§Ù† Ø§Ø³Øª. ÙˆÛŒÚ˜Ú¯ÛŒ Ù…Ù†Ø­ØµØ± Ø¨Ù‡ ÙØ±Ø¯ Ø¢Ù† Ausbildung Ø¯ÙˆÚ¯Ø§Ù†Ù‡ (duale Ausbildung) Ø§Ø³Øª Ú©Ù‡ ØªØ±Ú©ÛŒØ¨ÛŒ Ø§Ø² Ø¢Ù…ÙˆØ²Ø´ Ø¹Ù…لÛŒ Ø¯Ø± Ø´Ø±Ú©Øª Ùˆ ØªØ¦ÙˆØ±ÛŒ Ø¯Ø± Ù…Ø¯Ø±Ø³Ù‡ Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ Ø§Ø³Øª. Ø§ÛŒÙ† Ø³ÛŒØ³ØªÙ… Ø¨Ù‡ Ø¢لÙ…Ø§Ù† Ø§Ø¬Ø§Ø²Ù‡ Ø¯Ø§Ø¯Ù‡ Ù†ÛŒØ±ÙˆÛŒ Ú©Ø§Ø± Ù…Ø§Ù‡Ø± ØªØ±Ø¨ÛŒØª Ú©Ù†Ø¯. ØªØ­ØµÛŒل Ø¯Ø± Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡â€ŒÙ‡Ø§ÛŒ Ø¯ÙˆلØªÛŒ Ø¢لÙ…Ø§Ù† ØªÙ‚Ø±ÛŒØ¨Ø§Ù‹ Ø±Ø§ÛŒÚ¯Ø§Ù† Ø§Ø³Øª Ùˆ Ø§ÛŒÙ† Ú©Ø´ÙˆØ± Ø±Ø§ Ø¨Ù‡ ÛŒÚ©ÛŒ Ø§Ø² Ù…Ø­Ø¨ÙˆØ¨â€ŒØªØ±ÛŒÙ† Ù…Ù‚Ø§ØµØ¯ ØªØ­ØµÛŒلÛŒ ØªØ¨Ø¯ÛŒل Ú©Ø±Ø¯Ù‡.",
 
   examData: {
     questions: [
-      { question: "«Ich lerne fleißig, _______ die Prüfung zu bestehen.»", options: ["damit", "um", "ohne", "statt"], answer: 1 },
-      { question: "«_______ zu lernen, spielt er den ganzen Tag.» (به جای)", options: ["Um", "Ohne", "Statt", "Bevor"], answer: 2 },
-      { question: "Ausbildung در آ'مان چقدر طو' می‌کشد؟", options: ["یک سا'", "دو تا سه و نیم سا'", "پنج سا'", "هشت سا'"], answer: 1 },
-      { question: "Abitur چیست؟", options: ["مدرک دانشگاهی", "diploma دبیرستان", "دوره حرفه‌ای", "آموزش ابتدایی"], answer: 1 },
-      { question: "کدام ساختار صحیح است؟ «او رفت بدون اینکه چیزی بگوید.»", options: ["Er ging, ohne zu sagen.", "Er ging, ohne ein Wort zu sagen.", "Er ging, ohne dass sagen.", "Er ging, ohne sagt."], answer: 1 },
-      { question: "«Ich habe vor, nächstes Jahr _______.»", options: ["studiere", "zu studieren", "studiert", "studierend"], answer: 1 },
-      { question: "هزینه دانشگاه دو'تی در آ'مان چقدر است؟", options: ["۵۰۰۰ یورو در سا'", "تقریباً رایگان", "۱۰۰۰۰ یورو در سا'", "۱۰۰۰ یورو در ماه"], answer: 1 },
-      { question: "duale Ausbildung یعنی:?", options: ["دو سا' تحصی'", "ترکیب کار در شرکت و مدرسه", "دو مدرک", "دو دانشگاه"], answer: 1 }
+      { question: "Â«Ich lerne fleiÃŸig, _______ die PrÃ¼fung zu bestehen.Â»", options: ["damit", "um", "ohne", "statt"], answer: 1 },
+      { question: "Â«_______ zu lernen, spielt er den ganzen Tag.Â» (Ø¨Ù‡ Ø¬Ø§ÛŒ)", options: ["Um", "Ohne", "Statt", "Bevor"], answer: 2 },
+      { question: "Ausbildung Ø¯Ø± Ø¢لÙ…Ø§Ù† Ú†Ù‚Ø¯Ø± Ø·Ùˆل Ù…ÛŒâ€ŒÚ©Ø´Ø¯ØŸ", options: ["ÛŒÚ© Ø³Ø§ل", "Ø¯Ùˆ ØªØ§ Ø³Ù‡ Ùˆ Ù†ÛŒÙ… Ø³Ø§ل", "Ù¾Ù†Ø¬ Ø³Ø§ل", "Ù‡Ø´Øª Ø³Ø§ل"], answer: 1 },
+      { question: "Abitur Ú†ÛŒØ³ØªØŸ", options: ["Ù…Ø¯Ø±Ú© Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ÛŒ", "diploma Ø¯Ø¨ÛŒØ±Ø³ØªØ§Ù†", "Ø¯ÙˆØ±Ù‡ Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ", "Ø¢Ù…ÙˆØ²Ø´ Ø§Ø¨ØªØ¯Ø§ÛŒÛŒ"], answer: 1 },
+      { question: "Ú©Ø¯Ø§Ù… Ø³Ø§Ø®ØªØ§Ø± ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ Â«Ø§Ùˆ Ø±ÙØª Ø¨Ø¯ÙˆÙ† Ø§ÛŒÙ†Ú©Ù‡ Ú†ÛŒØ²ÛŒ Ø¨Ú¯ÙˆÛŒØ¯.Â»", options: ["Er ging, ohne zu sagen.", "Er ging, ohne ein Wort zu sagen.", "Er ging, ohne dass sagen.", "Er ging, ohne sagt."], answer: 1 },
+      { question: "Â«Ich habe vor, nÃ¤chstes Jahr _______.Â»", options: ["studiere", "zu studieren", "studiert", "studierend"], answer: 1 },
+      { question: "Ù‡Ø²ÛŒÙ†Ù‡ Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡ Ø¯ÙˆلØªÛŒ Ø¯Ø± Ø¢لÙ…Ø§Ù† Ú†Ù‚Ø¯Ø± Ø§Ø³ØªØŸ", options: ["ÛµÛ°Û°Û° ÛŒÙˆØ±Ùˆ Ø¯Ø± Ø³Ø§ل", "ØªÙ‚Ø±ÛŒØ¨Ø§Ù‹ Ø±Ø§ÛŒÚ¯Ø§Ù†", "Û±Û°Û°Û°Û° ÛŒÙˆØ±Ùˆ Ø¯Ø± Ø³Ø§ل", "Û±Û°Û°Û° ÛŒÙˆØ±Ùˆ Ø¯Ø± Ù…Ø§Ù‡"], answer: 1 },
+      { question: "duale Ausbildung ÛŒØ¹Ù†ÛŒ:?", options: ["Ø¯Ùˆ Ø³Ø§ل ØªØ­ØµÛŒل", "ØªØ±Ú©ÛŒØ¨ Ú©Ø§Ø± Ø¯Ø± Ø´Ø±Ú©Øª Ùˆ Ù…Ø¯Ø±Ø³Ù‡", "Ø¯Ùˆ Ù…Ø¯Ø±Ú©", "Ø¯Ùˆ Ø¯Ø§Ù†Ø´Ú¯Ø§Ù‡"], answer: 1 }
     ]
   }
 };

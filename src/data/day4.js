@@ -1,98 +1,98 @@
 export const day4Data = {
-  title: "روز ۴: ضمایر م'کی (mein, dein, sein...) و ساختار جم'ه",
-  objective: "در این درس ضمایر م'کی آ'مانی و نحوه تغییر آنها بر اساس جنسیت اسم را یاد می‌گیرید. همچنین ساختار اص'ی جم'ات آ'مانی را می‌آموزید.",
+  title: "Ø±ÙˆØ² Û´: Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ (mein, dein, sein...) Ùˆ Ø³Ø§Ø®ØªØ§Ø± Ø¬Ù…لÙ‡",
+  objective: "Ø¯Ø± Ø§ÛŒÙ† Ø¯Ø±Ø³ Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ Ø¢لÙ…Ø§Ù†ÛŒ Ùˆ Ù†Ø­ÙˆÙ‡ ØªØºÛŒÛŒØ± Ø¢Ù†Ù‡Ø§ Ø¨Ø± Ø§Ø³Ø§Ø³ Ø¬Ù†Ø³ÛŒØª Ø§Ø³Ù… Ø±Ø§ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØ¯. Ù‡Ù…Ú†Ù†ÛŒÙ† Ø³Ø§Ø®ØªØ§Ø± Ø§ØµلÛŒ Ø¬Ù…لØ§Øª Ø¢لÙ…Ø§Ù†ÛŒ Ø±Ø§ Ù…ÛŒâ€ŒØ¢Ù…ÙˆØ²ÛŒØ¯.",
   grammarData: {
-    subtitle: "ضمایر م'کی و ساختار جم'ه آ'مانی",
+    subtitle: "Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ Ùˆ Ø³Ø§Ø®ØªØ§Ø± Ø¬Ù…لÙ‡ Ø¢لÙ…Ø§Ù†ÛŒ",
     content: [
       {
         type: "text",
-        title: "ضمایر م'کی (Possessivartikel) چیست؟",
-        text: "ضمایر م'کی مث' «ما' من، ما' تو، ما' او» در فارسی هستند. در آ'مانی این ضمایر باید با جنسیت اسم مطابقت داشته باشند:\n\n• mein → ما' من (مذکر/خنثی)\n• deine → ما' تو (مؤنث)\n• sein → ما' او (مذکر)\n• ihr → ما' او (مؤنث)\n• unser → ما' ما\n• euer → ما' شما (محاوره‌ای)\n• ihr → ما' آنها\n• Ihr → ما' شما (رسمی)"
+        title: "Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ (Possessivartikel) Ú†ÛŒØ³ØªØŸ",
+        text: "Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ Ù…Ø«ل Â«Ù…Ø§ل Ù…Ù†ØŒ Ù…Ø§ل ØªÙˆØŒ Ù…Ø§ل Ø§ÙˆÂ» Ø¯Ø± ÙØ§Ø±Ø³ÛŒ Ù‡Ø³ØªÙ†Ø¯. Ø¯Ø± Ø¢لÙ…Ø§Ù†ÛŒ Ø§ÛŒÙ† Ø¶Ù…Ø§ÛŒØ± Ø¨Ø§ÛŒØ¯ Ø¨Ø§ Ø¬Ù†Ø³ÛŒØª Ø§Ø³Ù… Ù…Ø·Ø§Ø¨Ù‚Øª Ø¯Ø§Ø´ØªÙ‡ Ø¨Ø§Ø´Ù†Ø¯:\n\nâ€¢ mein â†’ Ù…Ø§ل Ù…Ù† (Ù…Ø°Ú©Ø±/Ø®Ù†Ø«ÛŒ)\nâ€¢ deine â†’ Ù…Ø§ل ØªÙˆ (Ù…Ø¤Ù†Ø«)\nâ€¢ sein â†’ Ù…Ø§ل Ø§Ùˆ (Ù…Ø°Ú©Ø±)\nâ€¢ ihr â†’ Ù…Ø§ل Ø§Ùˆ (Ù…Ø¤Ù†Ø«)\nâ€¢ unser â†’ Ù…Ø§ل Ù…Ø§\nâ€¢ euer â†’ Ù…Ø§ل Ø´Ù…Ø§ (Ù…Ø­Ø§ÙˆØ±Ù‡â€ŒØ§ÛŒ)\nâ€¢ ihr â†’ Ù…Ø§ل Ø¢Ù†Ù‡Ø§\nâ€¢ Ihr â†’ Ù…Ø§ل Ø´Ù…Ø§ (Ø±Ø³Ù…ÛŒ)"
       },
       {
         type: "table",
-        title: "صرف کام' ضمایر م'کی",
+        title: "ØµØ±Ù Ú©Ø§Ù…ل Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ",
         rows: [
-          { de: "ich → mein/meine", fa: "ما' من" },
-          { de: "du → dein/deine", fa: "ما' تو" },
-          { de: "er → sein/seine", fa: "ما' او (مذکر)" },
-          { de: "sie → ihr/ihre", fa: "ما' او (مؤنث)" },
-          { de: "es → sein/seine", fa: "ما' آن (خنثی)" },
-          { de: "wir → unser/unsere", fa: "ما' ما" },
-          { de: "ihr → euer/eure", fa: "ما' شما (محاوره‌ای)" },
-          { de: "sie → ihr/ihre", fa: "ما' آنها" },
-          { de: "Sie → Ihr/Ihre", fa: "ما' شما (رسمی)" }
+          { de: "ich â†’ mein/meine", fa: "Ù…Ø§ل Ù…Ù†" },
+          { de: "du â†’ dein/deine", fa: "Ù…Ø§ل ØªÙˆ" },
+          { de: "er â†’ sein/seine", fa: "Ù…Ø§ل Ø§Ùˆ (Ù…Ø°Ú©Ø±)" },
+          { de: "sie â†’ ihr/ihre", fa: "Ù…Ø§ل Ø§Ùˆ (Ù…Ø¤Ù†Ø«)" },
+          { de: "es â†’ sein/seine", fa: "Ù…Ø§ل Ø¢Ù† (Ø®Ù†Ø«ÛŒ)" },
+          { de: "wir â†’ unser/unsere", fa: "Ù…Ø§ل Ù…Ø§" },
+          { de: "ihr â†’ euer/eure", fa: "Ù…Ø§ل Ø´Ù…Ø§ (Ù…Ø­Ø§ÙˆØ±Ù‡â€ŒØ§ÛŒ)" },
+          { de: "sie â†’ ihr/ihre", fa: "Ù…Ø§ل Ø¢Ù†Ù‡Ø§" },
+          { de: "Sie â†’ Ihr/Ihre", fa: "Ù…Ø§ل Ø´Ù…Ø§ (Ø±Ø³Ù…ÛŒ)" }
         ]
       },
       {
         type: "text",
-        title: "قاعده ط'ایی: تغییر ضمیر م'کی بر اساس جنسیت اسم",
-        text: "ضمایر م'کی دقیقاً مث' حرف تعریف ein/eine عم' می‌کنند:\n\nبرای اسم مذکر (der): بدون تغییر\n  → mein Mann (شوهر من)، dein Tisch (میز تو)\n\nبرای اسم مؤنث (die): +e → meine\n  → meine Frau (زن من)، deine Lampe ('امپ تو)\n\nبرای اسم خنثی (das): بدون تغییر\n  → mein Kind (بچه من)، sein Buch (کتاب او)\n\nبرای جمع (die): +e → meine/deine/...\n  → meine Kinder (بچه‌های من)، seine Bücher (کتاب‌های او)"
+        title: "Ù‚Ø§Ø¹Ø¯Ù‡ Ø·لØ§ÛŒÛŒ: ØªØºÛŒÛŒØ± Ø¶Ù…ÛŒØ± Ù…لÚ©ÛŒ Ø¨Ø± Ø§Ø³Ø§Ø³ Ø¬Ù†Ø³ÛŒØª Ø§Ø³Ù…",
+        text: "Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ Ø¯Ù‚ÛŒÙ‚Ø§Ù‹ Ù…Ø«ل Ø­Ø±Ù ØªØ¹Ø±ÛŒÙ ein/eine Ø¹Ù…ل Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯:\n\nØ¨Ø±Ø§ÛŒ Ø§Ø³Ù… Ù…Ø°Ú©Ø± (der): Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ±\n  â†’ mein Mann (Ø´ÙˆÙ‡Ø± Ù…Ù†)ØŒ dein Tisch (Ù…ÛŒØ² ØªÙˆ)\n\nØ¨Ø±Ø§ÛŒ Ø§Ø³Ù… Ù…Ø¤Ù†Ø« (die): +e â†’ meine\n  â†’ meine Frau (Ø²Ù† Ù…Ù†)ØŒ deine Lampe (لØ§Ù…Ù¾ ØªÙˆ)\n\nØ¨Ø±Ø§ÛŒ Ø§Ø³Ù… Ø®Ù†Ø«ÛŒ (das): Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ±\n  â†’ mein Kind (Ø¨Ú†Ù‡ Ù…Ù†)ØŒ sein Buch (Ú©ØªØ§Ø¨ Ø§Ùˆ)\n\nØ¨Ø±Ø§ÛŒ Ø¬Ù…Ø¹ (die): +e â†’ meine/deine/...\n  â†’ meine Kinder (Ø¨Ú†Ù‡â€ŒÙ‡Ø§ÛŒ Ù…Ù†)ØŒ seine BÃ¼cher (Ú©ØªØ§Ø¨â€ŒÙ‡Ø§ÛŒ Ø§Ùˆ)"
       },
       {
         type: "table",
-        title: "مثا'‌های کاربردی ضمایر م'کی",
+        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ Ú©Ø§Ø±Ø¨Ø±Ø¯ÛŒ Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ",
         rows: [
-          { de: "mein Vater", fa: "پدر من (مذکر - بدون تغییر)" },
-          { de: "meine Mutter", fa: "مادر من (مؤنث - +e)" },
-          { de: "mein Kind", fa: "بچه من (خنثی - بدون تغییر)" },
-          { de: "meine Bücher", fa: "کتاب‌های من (جمع - +e)" },
-          { de: "dein Computer", fa: "کامپیوتر تو" },
-          { de: "deine Katze", fa: "گربه تو" },
-          { de: "sein Auto", fa: "ماشین او (ما' او - مذکر)" },
-          { de: "ihre Wohnung", fa: "آپارتمان او (ما' او - مؤنث)" },
-          { de: "unser Haus", fa: "خانه ما" },
-          { de: "euer Garten", fa: "باغ شما (محاوره‌ای)" }
+          { de: "mein Vater", fa: "Ù¾Ø¯Ø± Ù…Ù† (Ù…Ø°Ú©Ø± - Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ±)" },
+          { de: "meine Mutter", fa: "Ù…Ø§Ø¯Ø± Ù…Ù† (Ù…Ø¤Ù†Ø« - +e)" },
+          { de: "mein Kind", fa: "Ø¨Ú†Ù‡ Ù…Ù† (Ø®Ù†Ø«ÛŒ - Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ±)" },
+          { de: "meine BÃ¼cher", fa: "Ú©ØªØ§Ø¨â€ŒÙ‡Ø§ÛŒ Ù…Ù† (Ø¬Ù…Ø¹ - +e)" },
+          { de: "dein Computer", fa: "Ú©Ø§Ù…Ù¾ÛŒÙˆØªØ± ØªÙˆ" },
+          { de: "deine Katze", fa: "Ú¯Ø±Ø¨Ù‡ ØªÙˆ" },
+          { de: "sein Auto", fa: "Ù…Ø§Ø´ÛŒÙ† Ø§Ùˆ (Ù…Ø§ل Ø§Ùˆ - Ù…Ø°Ú©Ø±)" },
+          { de: "ihre Wohnung", fa: "Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ø§Ùˆ (Ù…Ø§ل Ø§Ùˆ - Ù…Ø¤Ù†Ø«)" },
+          { de: "unser Haus", fa: "Ø®Ø§Ù†Ù‡ Ù…Ø§" },
+          { de: "euer Garten", fa: "Ø¨Ø§Øº Ø´Ù…Ø§ (Ù…Ø­Ø§ÙˆØ±Ù‡â€ŒØ§ÛŒ)" }
         ]
       },
       {
         type: "text",
-        title: "ساختار جم'ه آ'مانی: قاعده V2 (فع' در جایگاه دوم)",
-        text: "مهم‌ترین قاعده ساختار جم'ه آ'مانی:\n\nدر جم'ه خبری، فع' همیشه در جایگاه دوم می‌آید!\n\nفاع' + فع' + بقیه جم'ه:\n  Ich lerne Deutsch. (من آ'مانی یاد می‌گیرم.)\n\nاگر چیزی غیر از فاع' در ابتدا بیاید، فاع' بعد از فع' می‌آید:\n  Deutsch lerne ich. (آ'مانی را من یاد می‌گیرم.)\n  Heute lerne ich Deutsch. (امروز آ'مانی یاد می‌گیرم.)\n\nفع' همیشه در جایگاه دوم! این قانون آهنین زبان آ'مانی است."
+        title: "Ø³Ø§Ø®ØªØ§Ø± Ø¬Ù…لÙ‡ Ø¢لÙ…Ø§Ù†ÛŒ: Ù‚Ø§Ø¹Ø¯Ù‡ V2 (ÙØ¹ل Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Ø¯ÙˆÙ…)",
+        text: "Ù…Ù‡Ù…â€ŒØªØ±ÛŒÙ† Ù‚Ø§Ø¹Ø¯Ù‡ Ø³Ø§Ø®ØªØ§Ø± Ø¬Ù…لÙ‡ Ø¢لÙ…Ø§Ù†ÛŒ:\n\nØ¯Ø± Ø¬Ù…لÙ‡ Ø®Ø¨Ø±ÛŒØŒ ÙØ¹ل Ù‡Ù…ÛŒØ´Ù‡ Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Ø¯ÙˆÙ… Ù…ÛŒâ€ŒØ¢ÛŒØ¯!\n\nÙØ§Ø¹ل + ÙØ¹ل + Ø¨Ù‚ÛŒÙ‡ Ø¬Ù…لÙ‡:\n  Ich lerne Deutsch. (Ù…Ù† Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù….)\n\nØ§Ú¯Ø± Ú†ÛŒØ²ÛŒ ØºÛŒØ± Ø§Ø² ÙØ§Ø¹ل Ø¯Ø± Ø§Ø¨ØªØ¯Ø§ Ø¨ÛŒØ§ÛŒØ¯ØŒ ÙØ§Ø¹ل Ø¨Ø¹Ø¯ Ø§Ø² ÙØ¹ل Ù…ÛŒâ€ŒØ¢ÛŒØ¯:\n  Deutsch lerne ich. (Ø¢لÙ…Ø§Ù†ÛŒ Ø±Ø§ Ù…Ù† ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù….)\n  Heute lerne ich Deutsch. (Ø§Ù…Ø±ÙˆØ² Ø¢لÙ…Ø§Ù†ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù….)\n\nÙØ¹ل Ù‡Ù…ÛŒØ´Ù‡ Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Ø¯ÙˆÙ…! Ø§ÛŒÙ† Ù‚Ø§Ù†ÙˆÙ† Ø¢Ù‡Ù†ÛŒÙ† Ø²Ø¨Ø§Ù† Ø¢لÙ…Ø§Ù†ÛŒ Ø§Ø³Øª."
       },
       {
         type: "text",
-        title: "ساختار سؤا'ی",
-        text: "سؤا' بسته (جواب ب'ه/خیر):\n  فع' + فاع' + بقیه؟\n  Sprichst du Deutsch? (آیا آ'مانی صحبت می‌کنی؟)\n  Hast du einen Bruder? (آیا برادر داری؟)\n\nسؤا' باز (با ک'مه سؤا'ی):\n  ک'مه سؤا'ی + فع' + فاع' + بقیه؟\n  Was lernst du? (چه چیزی یاد می‌گیری؟)\n  Wo wohnst du? (کجا زندگی می‌کنی؟)\n  Wie heißt du? (نام تو چیست؟)\n\nک'مات سؤا'ی پرکاربرد:\n  was (چه)، wo (کجا)، wer (کی)، wie (چطور)، wann (کی - زمان)، warum (چرا)"
+        title: "Ø³Ø§Ø®ØªØ§Ø± Ø³Ø¤Ø§لÛŒ",
+        text: "Ø³Ø¤Ø§ل Ø¨Ø³ØªÙ‡ (Ø¬ÙˆØ§Ø¨ Ø¨لÙ‡/Ø®ÛŒØ±):\n  ÙØ¹ل + ÙØ§Ø¹ل + Ø¨Ù‚ÛŒÙ‡ØŸ\n  Sprichst du Deutsch? (Ø¢ÛŒØ§ Ø¢لÙ…Ø§Ù†ÛŒ ØµØ­Ø¨Øª Ù…ÛŒâ€ŒÚ©Ù†ÛŒØŸ)\n  Hast du einen Bruder? (Ø¢ÛŒØ§ Ø¨Ø±Ø§Ø¯Ø± Ø¯Ø§Ø±ÛŒØŸ)\n\nØ³Ø¤Ø§ل Ø¨Ø§Ø² (Ø¨Ø§ Ú©لÙ…Ù‡ Ø³Ø¤Ø§لÛŒ):\n  Ú©لÙ…Ù‡ Ø³Ø¤Ø§لÛŒ + ÙØ¹ل + ÙØ§Ø¹ل + Ø¨Ù‚ÛŒÙ‡ØŸ\n  Was lernst du? (Ú†Ù‡ Ú†ÛŒØ²ÛŒ ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒØŸ)\n  Wo wohnst du? (Ú©Ø¬Ø§ Ø²Ù†Ø¯Ú¯ÛŒ Ù…ÛŒâ€ŒÚ©Ù†ÛŒØŸ)\n  Wie heiÃŸt du? (Ù†Ø§Ù… ØªÙˆ Ú†ÛŒØ³ØªØŸ)\n\nÚ©لÙ…Ø§Øª Ø³Ø¤Ø§لÛŒ Ù¾Ø±Ú©Ø§Ø±Ø¨Ø±Ø¯:\n  was (Ú†Ù‡)ØŒ wo (Ú©Ø¬Ø§)ØŒ wer (Ú©ÛŒ)ØŒ wie (Ú†Ø·ÙˆØ±)ØŒ wann (Ú©ÛŒ - Ø²Ù…Ø§Ù†)ØŒ warum (Ú†Ø±Ø§)"
       },
       {
         type: "alert",
-        title: "⚠️ نکات مهم درباره ضمایر م'کی",
-        text: "۱. euer قب' از اضافه شدن -e، حرف r را از دست می‌دهد:\n   صحیح: eure Kinder | غ'ط: euere Kinder\n\n۲. sein برای er و es هر دو استفاده می‌شود:\n   sein Vater (پدر او - مذکر)، sein Kind (بچه آن - خنثی)\n\n۳. ihr برای sie (مؤنث) و sie (آنها) یکسان است:\n   ihr Vater (پدرش - ما' او)، ihr Vater (پدرشان - ما' آنها)\n   معنی از جم'ه مشخص می‌شود!\n\n۴. ضمیر م'کی می‌تواند حرف تعریف را حذف کند:\n   Das ist mein Buch. (نه: Das ist das mein Buch.)"
+        title: "âš ï¸ Ù†Ú©Ø§Øª Ù…Ù‡Ù… Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ",
+        text: "Û±. euer Ù‚Ø¨ل Ø§Ø² Ø§Ø¶Ø§ÙÙ‡ Ø´Ø¯Ù† -eØŒ Ø­Ø±Ù r Ø±Ø§ Ø§Ø² Ø¯Ø³Øª Ù…ÛŒâ€ŒØ¯Ù‡Ø¯:\n   ØµØ­ÛŒØ­: eure Kinder | ØºلØ·: euere Kinder\n\nÛ². sein Ø¨Ø±Ø§ÛŒ er Ùˆ es Ù‡Ø± Ø¯Ùˆ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯:\n   sein Vater (Ù¾Ø¯Ø± Ø§Ùˆ - Ù…Ø°Ú©Ø±)ØŒ sein Kind (Ø¨Ú†Ù‡ Ø¢Ù† - Ø®Ù†Ø«ÛŒ)\n\nÛ³. ihr Ø¨Ø±Ø§ÛŒ sie (Ù…Ø¤Ù†Ø«) Ùˆ sie (Ø¢Ù†Ù‡Ø§) ÛŒÚ©Ø³Ø§Ù† Ø§Ø³Øª:\n   ihr Vater (Ù¾Ø¯Ø±Ø´ - Ù…Ø§ل Ø§Ùˆ)ØŒ ihr Vater (Ù¾Ø¯Ø±Ø´Ø§Ù† - Ù…Ø§ل Ø¢Ù†Ù‡Ø§)\n   Ù…Ø¹Ù†ÛŒ Ø§Ø² Ø¬Ù…لÙ‡ Ù…Ø´Ø®Øµ Ù…ÛŒâ€ŒØ´ÙˆØ¯!\n\nÛ´. Ø¶Ù…ÛŒØ± Ù…لÚ©ÛŒ Ù…ÛŒâ€ŒØªÙˆØ§Ù†Ø¯ Ø­Ø±Ù ØªØ¹Ø±ÛŒÙ Ø±Ø§ Ø­Ø°Ù Ú©Ù†Ø¯:\n   Das ist mein Buch. (Ù†Ù‡: Das ist das mein Buch.)"
       },
       {
         type: "examples",
-        title: "مثا'‌های عم'ی با ضمایر م'کی",
+        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ Ø¹Ù…لÛŒ Ø¨Ø§ Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ",
         items: [
-          { de: "Das ist mein Bruder.", fa: "این برادر من است." },
-          { de: "Ist das deine Lampe?", fa: "آیا این 'امپ توست؟" },
-          { de: "Sein Hund ist sehr groß.", fa: "سگ او خی'ی بزرگ است." },
-          { de: "Ihre Mutter ist Lehrerin.", fa: "مادر او (خانم) مع'م است." },
-          { de: "Unser Haus ist alt.", fa: "خانه ما قدیمی است." },
-          { de: "Wo ist euer Auto?", fa: "ماشین شما کجاست؟" },
-          { de: "Ihre Kinder spielen im Garten.", fa: "بچه‌های آنها در باغ بازی می‌کنند." },
-          { de: "Meine Schwester heißt Anna.", fa: "خواهر من نامش آناست." },
-          { de: "Dein Deutsch ist sehr gut!", fa: "آ'مانی تو خی'ی خوب است!" },
-          { de: "Das ist nicht mein Schlüssel.", fa: "این ک'ید من نیست." }
+          { de: "Das ist mein Bruder.", fa: "Ø§ÛŒÙ† Ø¨Ø±Ø§Ø¯Ø± Ù…Ù† Ø§Ø³Øª." },
+          { de: "Ist das deine Lampe?", fa: "Ø¢ÛŒØ§ Ø§ÛŒÙ† لØ§Ù…Ù¾ ØªÙˆØ³ØªØŸ" },
+          { de: "Sein Hund ist sehr groÃŸ.", fa: "Ø³Ú¯ Ø§Ùˆ Ø®ÛŒلÛŒ Ø¨Ø²Ø±Ú¯ Ø§Ø³Øª." },
+          { de: "Ihre Mutter ist Lehrerin.", fa: "Ù…Ø§Ø¯Ø± Ø§Ùˆ (Ø®Ø§Ù†Ù…) Ù…Ø¹لÙ… Ø§Ø³Øª." },
+          { de: "Unser Haus ist alt.", fa: "Ø®Ø§Ù†Ù‡ Ù…Ø§ Ù‚Ø¯ÛŒÙ…ÛŒ Ø§Ø³Øª." },
+          { de: "Wo ist euer Auto?", fa: "Ù…Ø§Ø´ÛŒÙ† Ø´Ù…Ø§ Ú©Ø¬Ø§Ø³ØªØŸ" },
+          { de: "Ihre Kinder spielen im Garten.", fa: "Ø¨Ú†Ù‡â€ŒÙ‡Ø§ÛŒ Ø¢Ù†Ù‡Ø§ Ø¯Ø± Ø¨Ø§Øº Ø¨Ø§Ø²ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯." },
+          { de: "Meine Schwester heiÃŸt Anna.", fa: "Ø®ÙˆØ§Ù‡Ø± Ù…Ù† Ù†Ø§Ù…Ø´ Ø¢Ù†Ø§Ø³Øª." },
+          { de: "Dein Deutsch ist sehr gut!", fa: "Ø¢لÙ…Ø§Ù†ÛŒ ØªÙˆ Ø®ÛŒلÛŒ Ø®ÙˆØ¨ Ø§Ø³Øª!" },
+          { de: "Das ist nicht mein SchlÃ¼ssel.", fa: "Ø§ÛŒÙ† Ú©لÛŒØ¯ Ù…Ù† Ù†ÛŒØ³Øª." }
         ]
       },
       {
         type: "interactive_quiz",
-        title: "آزمون تعام'ی: ضمایر م'کی",
+        title: "Ø¢Ø²Ù…ÙˆÙ† ØªØ¹Ø§Ù…لÛŒ: Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ",
         questions: [
           {
-            question: "«ما' من» برای اسم مؤنث چگونه می‌شود؟",
-            questionDe: "Wie sagt man «ما' من» für ein weibliches Wort?",
+            question: "Â«Ù…Ø§ل Ù…Ù†Â» Ø¨Ø±Ø§ÛŒ Ø§Ø³Ù… Ù…Ø¤Ù†Ø« Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
+            questionDe: "Wie sagt man Â«Ù…Ø§ل Ù…Ù†Â» fÃ¼r ein weibliches Wort?",
             options: [
               { text: "mein", isCorrect: false },
               { text: "meine", isCorrect: true },
               { text: "meiner", isCorrect: false },
               { text: "meines", isCorrect: false }
             ],
-            explanation: "برای اسم‌های مؤنث (die)، ضمیر م'کی +e اضافه می‌کند. مث': meine Mutter، meine Lampe."
+            explanation: "Ø¨Ø±Ø§ÛŒ Ø§Ø³Ù…â€ŒÙ‡Ø§ÛŒ Ù…Ø¤Ù†Ø« (die)ØŒ Ø¶Ù…ÛŒØ± Ù…لÚ©ÛŒ +e Ø§Ø¶Ø§ÙÙ‡ Ù…ÛŒâ€ŒÚ©Ù†Ø¯. Ù…Ø«ل: meine MutterØŒ meine Lampe."
           },
           {
-            question: "کدام جم'ه صحیح است؟",
+            question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ",
             questionDe: "Welcher Satz ist richtig?",
             options: [
               { text: "Das ist euere Lampe.", isCorrect: false },
@@ -100,40 +100,40 @@ export const day4Data = {
               { text: "Das ist euren Lampe.", isCorrect: false },
               { text: "Das ist eurer Lampe.", isCorrect: false }
             ],
-            explanation: "euer قب' از اضافه شدن -e، حرف r را از دست می‌دهد: eure. پس «eure Lampe» صحیح است."
+            explanation: "euer Ù‚Ø¨ل Ø§Ø² Ø§Ø¶Ø§ÙÙ‡ Ø´Ø¯Ù† -eØŒ Ø­Ø±Ù r Ø±Ø§ Ø§Ø² Ø¯Ø³Øª Ù…ÛŒâ€ŒØ¯Ù‡Ø¯: eure. Ù¾Ø³ Â«eure LampeÂ» ØµØ­ÛŒØ­ Ø§Ø³Øª."
           },
           {
-            question: "«کتابش» (ما' او - مذکر) چگونه می‌شود؟",
-            questionDe: "«کتابش» für «er» auf Deutsch?",
+            question: "Â«Ú©ØªØ§Ø¨Ø´Â» (Ù…Ø§ل Ø§Ùˆ - Ù…Ø°Ú©Ø±) Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
+            questionDe: "Â«Ú©ØªØ§Ø¨Ø´Â» fÃ¼r Â«erÂ» auf Deutsch?",
             options: [
               { text: "ihr Buch", isCorrect: false },
               { text: "sein Buch", isCorrect: true },
               { text: "seine Buch", isCorrect: false },
               { text: "seines Buch", isCorrect: false }
             ],
-            explanation: "برای er (او - مذکر)، ضمیر م'کی sein است. چون Buch خنثی است (das Buch)، بدون تغییر می‌ماند: sein Buch."
+            explanation: "Ø¨Ø±Ø§ÛŒ er (Ø§Ùˆ - Ù…Ø°Ú©Ø±)ØŒ Ø¶Ù…ÛŒØ± Ù…لÚ©ÛŒ sein Ø§Ø³Øª. Ú†ÙˆÙ† Buch Ø®Ù†Ø«ÛŒ Ø§Ø³Øª (das Buch)ØŒ Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ± Ù…ÛŒâ€ŒÙ…Ø§Ù†Ø¯: sein Buch."
           },
           {
-            question: "در جم'ه آ'مانی، فع' در کجا قرار می‌گیرد؟",
+            question: "Ø¯Ø± Ø¬Ù…لÙ‡ Ø¢لÙ…Ø§Ù†ÛŒØŒ ÙØ¹ل Ø¯Ø± Ú©Ø¬Ø§ Ù‚Ø±Ø§Ø± Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯ØŸ",
             questionDe: "Wo steht das Verb im deutschen Satz?",
             options: [
-              { text: "همیشه در انتها", isCorrect: false },
-              { text: "همیشه در جایگاه او'", isCorrect: false },
-              { text: "همیشه در جایگاه دوم", isCorrect: true },
-              { text: "بستگی به جم'ه دارد", isCorrect: false }
+              { text: "Ù‡Ù…ÛŒØ´Ù‡ Ø¯Ø± Ø§Ù†ØªÙ‡Ø§", isCorrect: false },
+              { text: "Ù‡Ù…ÛŒØ´Ù‡ Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Ø§Ùˆل", isCorrect: false },
+              { text: "Ù‡Ù…ÛŒØ´Ù‡ Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Ø¯ÙˆÙ…", isCorrect: true },
+              { text: "Ø¨Ø³ØªÚ¯ÛŒ Ø¨Ù‡ Ø¬Ù…لÙ‡ Ø¯Ø§Ø±Ø¯", isCorrect: false }
             ],
-            explanation: "قاعده V2 (فع' در جایگاه دوم) مهم‌ترین قاعده ساختار جم'ه آ'مانی است. در جم'ات خبری، فع' همیشه در جایگاه دوم می‌آید."
+            explanation: "Ù‚Ø§Ø¹Ø¯Ù‡ V2 (ÙØ¹ل Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Ø¯ÙˆÙ…) Ù…Ù‡Ù…â€ŒØªØ±ÛŒÙ† Ù‚Ø§Ø¹Ø¯Ù‡ Ø³Ø§Ø®ØªØ§Ø± Ø¬Ù…لÙ‡ Ø¢لÙ…Ø§Ù†ÛŒ Ø§Ø³Øª. Ø¯Ø± Ø¬Ù…لØ§Øª Ø®Ø¨Ø±ÛŒØŒ ÙØ¹ل Ù‡Ù…ÛŒØ´Ù‡ Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Ø¯ÙˆÙ… Ù…ÛŒâ€ŒØ¢ÛŒØ¯."
           },
           {
-            question: "«بچه‌های ما» چگونه می‌شود؟",
-            questionDe: "«بچه‌های ما» auf Deutsch?",
+            question: "Â«Ø¨Ú†Ù‡â€ŒÙ‡Ø§ÛŒ Ù…Ø§Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
+            questionDe: "Â«Ø¨Ú†Ù‡â€ŒÙ‡Ø§ÛŒ Ù…Ø§Â» auf Deutsch?",
             options: [
               { text: "unser Kinder", isCorrect: false },
               { text: "unsere Kinder", isCorrect: true },
               { text: "unseren Kinder", isCorrect: false },
               { text: "unsers Kinder", isCorrect: false }
             ],
-            explanation: "برای جمع (die)، ضمیر م'کی +e اضافه می‌کند: unsere. پس «unsere Kinder» صحیح است."
+            explanation: "Ø¨Ø±Ø§ÛŒ Ø¬Ù…Ø¹ (die)ØŒ Ø¶Ù…ÛŒØ± Ù…لÚ©ÛŒ +e Ø§Ø¶Ø§ÙÙ‡ Ù…ÛŒâ€ŒÚ©Ù†Ø¯: unsere. Ù¾Ø³ Â«unsere KinderÂ» ØµØ­ÛŒØ­ Ø§Ø³Øª."
           }
         ]
       }
@@ -142,75 +142,75 @@ export const day4Data = {
   vocabData: {
     categories: [
       {
-        title: "ضمایر م'کی و اعضای خانواده",
+        title: "Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ Ùˆ Ø§Ø¹Ø¶Ø§ÛŒ Ø®Ø§Ù†ÙˆØ§Ø¯Ù‡",
         words: [
-          { de: "mein Vater / meine Mutter", fa: "پدر من / مادر من", article: "-", plural: "-", examples: [{ de: "Mein Vater ist Arzt.", fa: "پدر من پزشک است." }, { de: "Meine Mutter kocht gut.", fa: "مادر من خوب آشپزی می‌کند." }] },
-          { de: "dein Bruder / deine Schwester", fa: "برادر تو / خواهر تو", article: "-", plural: "-", examples: [{ de: "Wie alt ist dein Bruder?", fa: "برادر تو چند سا'ه است؟" }, { de: "Deine Schwester ist nett.", fa: "خواهر تو مهربان است." }] },
-          { de: "sein Sohn / seine Tochter", fa: "پسر او / دختر او", article: "-", plural: "-", examples: [{ de: "Sein Sohn studiert Medizin.", fa: "پسر او پزشکی می‌خواند." }] },
-          { de: "ihr Mann / ihre Frau", fa: "شوهر او / زن او", article: "-", plural: "-", examples: [{ de: "Ihr Mann ist Lehrer.", fa: "شوهر او مع'م است." }, { de: "Ihre Frau arbeitet im Krankenhaus.", fa: "زن او در بیمارستان کار می‌کند." }] },
-          { de: "unser Kind / unsere Kinder", fa: "بچه ما / بچه‌های ما", article: "-", plural: "-", examples: [{ de: "Unser Kind spielt Fußball.", fa: "بچه ما فوتبا' بازی می‌کند." }, { de: "Unsere Kinder sind laut.", fa: "بچه‌های ما پر سر و صدا هستند." }] }
+          { de: "mein Vater / meine Mutter", fa: "Ù¾Ø¯Ø± Ù…Ù† / Ù…Ø§Ø¯Ø± Ù…Ù†", article: "-", plural: "-", examples: [{ de: "Mein Vater ist Arzt.", fa: "Ù¾Ø¯Ø± Ù…Ù† Ù¾Ø²Ø´Ú© Ø§Ø³Øª." }, { de: "Meine Mutter kocht gut.", fa: "Ù…Ø§Ø¯Ø± Ù…Ù† Ø®ÙˆØ¨ Ø¢Ø´Ù¾Ø²ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }] },
+          { de: "dein Bruder / deine Schwester", fa: "Ø¨Ø±Ø§Ø¯Ø± ØªÙˆ / Ø®ÙˆØ§Ù‡Ø± ØªÙˆ", article: "-", plural: "-", examples: [{ de: "Wie alt ist dein Bruder?", fa: "Ø¨Ø±Ø§Ø¯Ø± ØªÙˆ Ú†Ù†Ø¯ Ø³Ø§لÙ‡ Ø§Ø³ØªØŸ" }, { de: "Deine Schwester ist nett.", fa: "Ø®ÙˆØ§Ù‡Ø± ØªÙˆ Ù…Ù‡Ø±Ø¨Ø§Ù† Ø§Ø³Øª." }] },
+          { de: "sein Sohn / seine Tochter", fa: "Ù¾Ø³Ø± Ø§Ùˆ / Ø¯Ø®ØªØ± Ø§Ùˆ", article: "-", plural: "-", examples: [{ de: "Sein Sohn studiert Medizin.", fa: "Ù¾Ø³Ø± Ø§Ùˆ Ù¾Ø²Ø´Ú©ÛŒ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù†Ø¯." }] },
+          { de: "ihr Mann / ihre Frau", fa: "Ø´ÙˆÙ‡Ø± Ø§Ùˆ / Ø²Ù† Ø§Ùˆ", article: "-", plural: "-", examples: [{ de: "Ihr Mann ist Lehrer.", fa: "Ø´ÙˆÙ‡Ø± Ø§Ùˆ Ù…Ø¹لÙ… Ø§Ø³Øª." }, { de: "Ihre Frau arbeitet im Krankenhaus.", fa: "Ø²Ù† Ø§Ùˆ Ø¯Ø± Ø¨ÛŒÙ…Ø§Ø±Ø³ØªØ§Ù† Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }] },
+          { de: "unser Kind / unsere Kinder", fa: "Ø¨Ú†Ù‡ Ù…Ø§ / Ø¨Ú†Ù‡â€ŒÙ‡Ø§ÛŒ Ù…Ø§", article: "-", plural: "-", examples: [{ de: "Unser Kind spielt FuÃŸball.", fa: "Ø¨Ú†Ù‡ Ù…Ø§ ÙÙˆØªØ¨Ø§ل Ø¨Ø§Ø²ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ø¯." }, { de: "Unsere Kinder sind laut.", fa: "Ø¨Ú†Ù‡â€ŒÙ‡Ø§ÛŒ Ù…Ø§ Ù¾Ø± Ø³Ø± Ùˆ ØµØ¯Ø§ Ù‡Ø³ØªÙ†Ø¯." }] }
         ]
       },
       {
-        title: "ضمایر م'کی با اشیا و مکان‌ها",
+        title: "Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ Ø¨Ø§ Ø§Ø´ÛŒØ§ Ùˆ Ù…Ú©Ø§Ù†â€ŒÙ‡Ø§",
         words: [
-          { de: "mein Zimmer / meine Wohnung", fa: "اتاق من / آپارتمان من", article: "-", plural: "-", examples: [{ de: "Mein Zimmer ist klein.", fa: "اتاق من کوچک است." }, { de: "Meine Wohnung hat drei Zimmer.", fa: "آپارتمان من سه اتاق دارد." }] },
-          { de: "dein Auto / deine Lampe", fa: "ماشین تو / 'امپ تو", article: "-", plural: "-", examples: [{ de: "Dein Auto ist neu.", fa: "ماشین تو نو است." }, { de: "Deine Lampe ist sehr hell.", fa: "'امپ تو خی'ی روشن است." }] },
-          { de: "sein Hund / seine Katze", fa: "سگ او / گربه او", article: "-", plural: "-", examples: [{ de: "Sein Hund heißt Rex.", fa: "سگ او نامش رکس است." }, { de: "Seine Katze ist schwarz.", fa: "گربه او سیاه است." }] },
-          { de: "unser Haus / unsere Küche", fa: "خانه ما / آشپزخانه ما", article: "-", plural: "-", examples: [{ de: "Unser Haus ist alt.", fa: "خانه ما قدیمی است." }, { de: "Unsere Küche ist modern.", fa: "آشپزخانه ما مدرن است." }] }
+          { de: "mein Zimmer / meine Wohnung", fa: "Ø§ØªØ§Ù‚ Ù…Ù† / Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ù…Ù†", article: "-", plural: "-", examples: [{ de: "Mein Zimmer ist klein.", fa: "Ø§ØªØ§Ù‚ Ù…Ù† Ú©ÙˆÚ†Ú© Ø§Ø³Øª." }, { de: "Meine Wohnung hat drei Zimmer.", fa: "Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ù…Ù† Ø³Ù‡ Ø§ØªØ§Ù‚ Ø¯Ø§Ø±Ø¯." }] },
+          { de: "dein Auto / deine Lampe", fa: "Ù…Ø§Ø´ÛŒÙ† ØªÙˆ / لØ§Ù…Ù¾ ØªÙˆ", article: "-", plural: "-", examples: [{ de: "Dein Auto ist neu.", fa: "Ù…Ø§Ø´ÛŒÙ† ØªÙˆ Ù†Ùˆ Ø§Ø³Øª." }, { de: "Deine Lampe ist sehr hell.", fa: "لØ§Ù…Ù¾ ØªÙˆ Ø®ÛŒلÛŒ Ø±ÙˆØ´Ù† Ø§Ø³Øª." }] },
+          { de: "sein Hund / seine Katze", fa: "Ø³Ú¯ Ø§Ùˆ / Ú¯Ø±Ø¨Ù‡ Ø§Ùˆ", article: "-", plural: "-", examples: [{ de: "Sein Hund heiÃŸt Rex.", fa: "Ø³Ú¯ Ø§Ùˆ Ù†Ø§Ù…Ø´ Ø±Ú©Ø³ Ø§Ø³Øª." }, { de: "Seine Katze ist schwarz.", fa: "Ú¯Ø±Ø¨Ù‡ Ø§Ùˆ Ø³ÛŒØ§Ù‡ Ø§Ø³Øª." }] },
+          { de: "unser Haus / unsere KÃ¼che", fa: "Ø®Ø§Ù†Ù‡ Ù…Ø§ / Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ Ù…Ø§", article: "-", plural: "-", examples: [{ de: "Unser Haus ist alt.", fa: "Ø®Ø§Ù†Ù‡ Ù…Ø§ Ù‚Ø¯ÛŒÙ…ÛŒ Ø§Ø³Øª." }, { de: "Unsere KÃ¼che ist modern.", fa: "Ø¢Ø´Ù¾Ø²Ø®Ø§Ù†Ù‡ Ù…Ø§ Ù…Ø¯Ø±Ù† Ø§Ø³Øª." }] }
         ]
       }
     ]
   },
   reading: [
     {
-      text: "Meine Wohnung\n\nDas ist meine Wohnung. Sie ist nicht groß, aber gemütlich. Mein Zimmer ist sehr klein. Mein Bett steht neben dem Fenster. Mein Schreibtisch ist neben der Tür. Auf meinem Schreibtisch steht mein Computer und meine Lampe.\n\nMeine Küche ist hell. Mein Kühlschrank ist voll. Meine Mutter bringt mir oft Essen. Mein Badezimmer ist klein, aber sauber.\n\nIch wohne mit meiner Schwester zusammen. Ihr Zimmer ist größer als meins. Ihr Bett ist sehr bequem.",
+      text: "Meine Wohnung\n\nDas ist meine Wohnung. Sie ist nicht groÃŸ, aber gemÃ¼tlich. Mein Zimmer ist sehr klein. Mein Bett steht neben dem Fenster. Mein Schreibtisch ist neben der TÃ¼r. Auf meinem Schreibtisch steht mein Computer und meine Lampe.\n\nMeine KÃ¼che ist hell. Mein KÃ¼hlschrank ist voll. Meine Mutter bringt mir oft Essen. Mein Badezimmer ist klein, aber sauber.\n\nIch wohne mit meiner Schwester zusammen. Ihr Zimmer ist grÃ¶ÃŸer als meins. Ihr Bett ist sehr bequem.",
       questions: [
-        { question: "آپارتمان گوینده چگونه توصیف شده؟", answer: "بزرگ نیست، اما راحت است (nicht groß, aber gemütlich)." },
-        { question: "میز تحریر کنار چه چیزی قرار دارد؟", answer: "کنار در (neben der Tür)." },
-        { question: "گوینده با چه کسی زندگی می‌کند؟", answer: "با خواهرش (mit meiner Schwester)." }
+        { question: "Ø¢Ù¾Ø§Ø±ØªÙ…Ø§Ù† Ú¯ÙˆÛŒÙ†Ø¯Ù‡ Ú†Ú¯ÙˆÙ†Ù‡ ØªÙˆØµÛŒÙ Ø´Ø¯Ù‡ØŸ", answer: "Ø¨Ø²Ø±Ú¯ Ù†ÛŒØ³ØªØŒ Ø§Ù…Ø§ Ø±Ø§Ø­Øª Ø§Ø³Øª (nicht groÃŸ, aber gemÃ¼tlich)." },
+        { question: "Ù…ÛŒØ² ØªØ­Ø±ÛŒØ± Ú©Ù†Ø§Ø± Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ù‚Ø±Ø§Ø± Ø¯Ø§Ø±Ø¯ØŸ", answer: "Ú©Ù†Ø§Ø± Ø¯Ø± (neben der TÃ¼r)." },
+        { question: "Ú¯ÙˆÛŒÙ†Ø¯Ù‡ Ø¨Ø§ Ú†Ù‡ Ú©Ø³ÛŒ Ø²Ù†Ø¯Ú¯ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ", answer: "Ø¨Ø§ Ø®ÙˆØ§Ù‡Ø±Ø´ (mit meiner Schwester)." }
       ]
     }
   ],
   writing: [
     {
-      title: "توصیف خانواده با ضمایر م'کی",
-      prompt: "۵ جم'ه درباره اعضای خانواده‌تان با استفاده از ضمایر م'کی بنویسید.",
+      title: "ØªÙˆØµÛŒÙ Ø®Ø§Ù†ÙˆØ§Ø¯Ù‡ Ø¨Ø§ Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ",
+      prompt: "Ûµ Ø¬Ù…لÙ‡ Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø§Ø¹Ø¶Ø§ÛŒ Ø®Ø§Ù†ÙˆØ§Ø¯Ù‡â€ŒØªØ§Ù† Ø¨Ø§ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯.",
       steps: [
-        { title: "مرح'ه ۱: اسامی خانواده", text: "اسامی اعضای خانواده را 'یست کنید", example: { de: "Vater, Mutter, Bruder, Schwester", fa: "پدر، مادر، برادر، خواهر" } },
-        { title: "مرح'ه ۲: انتخاب ضمیر م'کی", text: "ضمیر م'کی مناسب با جنسیت انتخاب کنید", example: { de: "mein Vater (männlich), meine Mutter (weiblich)", fa: "ما' من + مذکر/مؤنث" } },
-        { title: "مرح'ه ۳: ساختن جم'ه", text: "جم'ه کام' بسازید", example: { de: "Mein Vater heißt Ali. Er ist 50 Jahre alt.", fa: "پدر من نامش ع'ی است. او ۵۰ سا'ه است." } }
+        { title: "Ù…Ø±Ø­لÙ‡ Û±: Ø§Ø³Ø§Ù…ÛŒ Ø®Ø§Ù†ÙˆØ§Ø¯Ù‡", text: "Ø§Ø³Ø§Ù…ÛŒ Ø§Ø¹Ø¶Ø§ÛŒ Ø®Ø§Ù†ÙˆØ§Ø¯Ù‡ Ø±Ø§ لÛŒØ³Øª Ú©Ù†ÛŒØ¯", example: { de: "Vater, Mutter, Bruder, Schwester", fa: "Ù¾Ø¯Ø±ØŒ Ù…Ø§Ø¯Ø±ØŒ Ø¨Ø±Ø§Ø¯Ø±ØŒ Ø®ÙˆØ§Ù‡Ø±" } },
+        { title: "Ù…Ø±Ø­لÙ‡ Û²: Ø§Ù†ØªØ®Ø§Ø¨ Ø¶Ù…ÛŒØ± Ù…لÚ©ÛŒ", text: "Ø¶Ù…ÛŒØ± Ù…لÚ©ÛŒ Ù…Ù†Ø§Ø³Ø¨ Ø¨Ø§ Ø¬Ù†Ø³ÛŒØª Ø§Ù†ØªØ®Ø§Ø¨ Ú©Ù†ÛŒØ¯", example: { de: "mein Vater (mÃ¤nnlich), meine Mutter (weiblich)", fa: "Ù…Ø§ل Ù…Ù† + Ù…Ø°Ú©Ø±/Ù…Ø¤Ù†Ø«" } },
+        { title: "Ù…Ø±Ø­لÙ‡ Û³: Ø³Ø§Ø®ØªÙ† Ø¬Ù…لÙ‡", text: "Ø¬Ù…لÙ‡ Ú©Ø§Ù…ل Ø¨Ø³Ø§Ø²ÛŒØ¯", example: { de: "Mein Vater heiÃŸt Ali. Er ist 50 Jahre alt.", fa: "Ù¾Ø¯Ø± Ù…Ù† Ù†Ø§Ù…Ø´ Ø¹لÛŒ Ø§Ø³Øª. Ø§Ùˆ ÛµÛ° Ø³Ø§لÙ‡ Ø§Ø³Øª." } }
       ]
     }
   ],
   listening: [
     {
-      title: "تمرین شنیداری: ضمایر م'کی",
+      title: "ØªÙ…Ø±ÛŒÙ† Ø´Ù†ÛŒØ¯Ø§Ø±ÛŒ: Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ",
       source: "Deutsche Welle - Deutsch Lernen",
       link: "https://www.dw.com/de/deutsch-lernen/s-2055",
-      instructions: "به ویدیو گوش دهید و ضمایر م'کی را شناسایی کنید. مشخص کنید هر ضمیر م'کی ما' چه کسی است و برای چه جنسیتی استفاده شده."
+      instructions: "Ø¨Ù‡ ÙˆÛŒØ¯ÛŒÙˆ Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ Ø¶Ù…Ø§ÛŒØ± Ù…لÚ©ÛŒ Ø±Ø§ Ø´Ù†Ø§Ø³Ø§ÛŒÛŒ Ú©Ù†ÛŒØ¯. Ù…Ø´Ø®Øµ Ú©Ù†ÛŒØ¯ Ù‡Ø± Ø¶Ù…ÛŒØ± Ù…لÚ©ÛŒ Ù…Ø§ل Ú†Ù‡ Ú©Ø³ÛŒ Ø§Ø³Øª Ùˆ Ø¨Ø±Ø§ÛŒ Ú†Ù‡ Ø¬Ù†Ø³ÛŒØªÛŒ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø´Ø¯Ù‡."
     }
   ],
   speaking: [
     {
-      title: "تمرین گفتاری: معرفی خانواده",
-      pattern: "Das ist mein/meine [عضو خانواده]. Er/Sie ist [صفت]. Sein/Ihr [چیز] ist [توضیح].",
-      exercise: "اعضای خانواده‌تان را معرفی کنید. هر کسی را با ۳ جم'ه توصیف کنید."
+      title: "ØªÙ…Ø±ÛŒÙ† Ú¯ÙØªØ§Ø±ÛŒ: Ù…Ø¹Ø±ÙÛŒ Ø®Ø§Ù†ÙˆØ§Ø¯Ù‡",
+      pattern: "Das ist mein/meine [Ø¹Ø¶Ùˆ Ø®Ø§Ù†ÙˆØ§Ø¯Ù‡]. Er/Sie ist [ØµÙØª]. Sein/Ihr [Ú†ÛŒØ²] ist [ØªÙˆØ¶ÛŒØ­].",
+      exercise: "Ø§Ø¹Ø¶Ø§ÛŒ Ø®Ø§Ù†ÙˆØ§Ø¯Ù‡â€ŒØªØ§Ù† Ø±Ø§ Ù…Ø¹Ø±ÙÛŒ Ú©Ù†ÛŒØ¯. Ù‡Ø± Ú©Ø³ÛŒ Ø±Ø§ Ø¨Ø§ Û³ Ø¬Ù…لÙ‡ ØªÙˆØµÛŒÙ Ú©Ù†ÛŒØ¯."
     }
   ],
-  cultureTip: "در آ'مان، ارتباطات خانوادگی بسیار مهم است اما جوان‌ها معمو'اً بعد از ۱۸ سا'گی مستق' می‌شوند و از خانواده جدا زندگی می‌کنند. نکته جا'ب: در آ'مان، خطاب کردن بزرگ‌ترها با «Sie» (شما) تا زمانی که خودشان اجازه ندهند، ا'زامی است. این نشان‌دهنده احترام است.",
+  cultureTip: "Ø¯Ø± Ø¢لÙ…Ø§Ù†ØŒ Ø§Ø±ØªØ¨Ø§Ø·Ø§Øª Ø®Ø§Ù†ÙˆØ§Ø¯Ú¯ÛŒ Ø¨Ø³ÛŒØ§Ø± Ù…Ù‡Ù… Ø§Ø³Øª Ø§Ù…Ø§ Ø¬ÙˆØ§Ù†â€ŒÙ‡Ø§ Ù…Ø¹Ù…ÙˆلØ§Ù‹ Ø¨Ø¹Ø¯ Ø§Ø² Û±Û¸ Ø³Ø§لÚ¯ÛŒ Ù…Ø³ØªÙ‚ل Ù…ÛŒâ€ŒØ´ÙˆÙ†Ø¯ Ùˆ Ø§Ø² Ø®Ø§Ù†ÙˆØ§Ø¯Ù‡ Ø¬Ø¯Ø§ Ø²Ù†Ø¯Ú¯ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯. Ù†Ú©ØªÙ‡ Ø¬Ø§لØ¨: Ø¯Ø± Ø¢لÙ…Ø§Ù†ØŒ Ø®Ø·Ø§Ø¨ Ú©Ø±Ø¯Ù† Ø¨Ø²Ø±Ú¯â€ŒØªØ±Ù‡Ø§ Ø¨Ø§ Â«SieÂ» (Ø´Ù…Ø§) ØªØ§ Ø²Ù…Ø§Ù†ÛŒ Ú©Ù‡ Ø®ÙˆØ¯Ø´Ø§Ù† Ø§Ø¬Ø§Ø²Ù‡ Ù†Ø¯Ù‡Ù†Ø¯ØŒ Ø§لØ²Ø§Ù…ÛŒ Ø§Ø³Øª. Ø§ÛŒÙ† Ù†Ø´Ø§Ù†â€ŒØ¯Ù‡Ù†Ø¯Ù‡ Ø§Ø­ØªØ±Ø§Ù… Ø§Ø³Øª.",
   examData: {
     questions: [
-      { question: "«ما' من» برای اسم مذکر چگونه است؟", options: ["mein", "meine", "meiner", "meines"], answer: 0 },
-      { question: "«euer» قب' از اضافه شدن -e چه تغییری می‌کند؟", options: ["+n", "+s", "حذف r", "بدون تغییر"], answer: 2 },
-      { question: "در جم'ه آ'مانی، فع' در کجا قرار می‌گیرد؟", options: ["او'", "دوم", "آخر", "بستگی دارد"], answer: 1 },
-      { question: "«بچه‌های ما» چگونه می‌شود؟", options: ["unser Kinder", "unsere Kinder", "unsers Kinder", "unseren Kinder"], answer: 1 },
-      { question: "«کتاب او» (ما' er) چگونه می‌شود؟", options: ["ihr Buch", "sein Buch", "seine Buch", "seines Buch"], answer: 1 },
-      { question: "سؤا' باز با چه چیزی شروع می‌شود؟", options: ["فع'", "فاع'", "ک'مه سؤا'ی", "حرف تعریف"], answer: 2 },
-      { question: "«'امپ تو» چگونه می‌شود؟", options: ["dein Lampe", "deine Lampe", "deinen Lampe", "deiner Lampe"], answer: 1 },
-      { question: "کدام ک'مه سؤا'ی نیست؟", options: ["was", "wo", "wie", "wenn"], answer: 3 },
-      { question: "«خانه ما» چگونه می‌شود؟", options: ["unser Haus", "unsere Haus", "unseren Haus", "unsers Haus"], answer: 0 },
-      { question: "ضمیر م'کی برای sie (آنها) چیست؟", options: ["seine", "ihre", "eure", "unsere"], answer: 1 }
+      { question: "Â«Ù…Ø§ل Ù…Ù†Â» Ø¨Ø±Ø§ÛŒ Ø§Ø³Ù… Ù…Ø°Ú©Ø± Ú†Ú¯ÙˆÙ†Ù‡ Ø§Ø³ØªØŸ", options: ["mein", "meine", "meiner", "meines"], answer: 0 },
+      { question: "Â«euerÂ» Ù‚Ø¨ل Ø§Ø² Ø§Ø¶Ø§ÙÙ‡ Ø´Ø¯Ù† -e Ú†Ù‡ ØªØºÛŒÛŒØ±ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ", options: ["+n", "+s", "Ø­Ø°Ù r", "Ø¨Ø¯ÙˆÙ† ØªØºÛŒÛŒØ±"], answer: 2 },
+      { question: "Ø¯Ø± Ø¬Ù…لÙ‡ Ø¢لÙ…Ø§Ù†ÛŒØŒ ÙØ¹ل Ø¯Ø± Ú©Ø¬Ø§ Ù‚Ø±Ø§Ø± Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯ØŸ", options: ["Ø§Ùˆل", "Ø¯ÙˆÙ…", "Ø¢Ø®Ø±", "Ø¨Ø³ØªÚ¯ÛŒ Ø¯Ø§Ø±Ø¯"], answer: 1 },
+      { question: "Â«Ø¨Ú†Ù‡â€ŒÙ‡Ø§ÛŒ Ù…Ø§Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["unser Kinder", "unsere Kinder", "unsers Kinder", "unseren Kinder"], answer: 1 },
+      { question: "Â«Ú©ØªØ§Ø¨ Ø§ÙˆÂ» (Ù…Ø§ل er) Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["ihr Buch", "sein Buch", "seine Buch", "seines Buch"], answer: 1 },
+      { question: "Ø³Ø¤Ø§ل Ø¨Ø§Ø² Ø¨Ø§ Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ø´Ø±ÙˆØ¹ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["ÙØ¹ل", "ÙØ§Ø¹ل", "Ú©لÙ…Ù‡ Ø³Ø¤Ø§لÛŒ", "Ø­Ø±Ù ØªØ¹Ø±ÛŒÙ"], answer: 2 },
+      { question: "Â«لØ§Ù…Ù¾ ØªÙˆÂ» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["dein Lampe", "deine Lampe", "deinen Lampe", "deiner Lampe"], answer: 1 },
+      { question: "Ú©Ø¯Ø§Ù… Ú©لÙ…Ù‡ Ø³Ø¤Ø§لÛŒ Ù†ÛŒØ³ØªØŸ", options: ["was", "wo", "wie", "wenn"], answer: 3 },
+      { question: "Â«Ø®Ø§Ù†Ù‡ Ù…Ø§Â» Ú†Ú¯ÙˆÙ†Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ", options: ["unser Haus", "unsere Haus", "unseren Haus", "unsers Haus"], answer: 0 },
+      { question: "Ø¶Ù…ÛŒØ± Ù…لÚ©ÛŒ Ø¨Ø±Ø§ÛŒ sie (Ø¢Ù†Ù‡Ø§) Ú†ÛŒØ³ØªØŸ", options: ["seine", "ihre", "eure", "unsere"], answer: 1 }
     ]
   }
 };

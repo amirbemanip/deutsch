@@ -1,64 +1,64 @@
 export const day49Data = {
-  title: "روز ۴۹: حفاظت از محیط زیست در زندگی روزمره",
-  objective: "امروز یاد می‌گیریم چطور درباره اقدامات کوچک، اما تاثیرگذار روزمره برای نجات محیط زیست (Umweltschutz im Alltag) صحبت کنیم. همچنین یاد می‌گیریم که برای نظر دادن درباره فای'‌های صوتی یا مقا'ات، از ساختارهای غیرمستقیم استفاده کنیم.",
+  title: "Ø±ÙˆØ² Û´Û¹: Ø­ÙØ§Ø¸Øª Ø§Ø² Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ø¯Ø± Ø²Ù†Ø¯Ú¯ÛŒ Ø±ÙˆØ²Ù…Ø±Ù‡",
+  objective: "Ø§Ù…Ø±ÙˆØ² ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒÙ… Ú†Ø·ÙˆØ± Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø§Ù‚Ø¯Ø§Ù…Ø§Øª Ú©ÙˆÚ†Ú©ØŒ Ø§Ù…Ø§ ØªØ§Ø«ÛŒØ±Ú¯Ø°Ø§Ø± Ø±ÙˆØ²Ù…Ø±Ù‡ Ø¨Ø±Ø§ÛŒ Ù†Ø¬Ø§Øª Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª (Umweltschutz im Alltag) ØµØ­Ø¨Øª Ú©Ù†ÛŒÙ…. Ù‡Ù…Ú†Ù†ÛŒÙ† ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒÙ… Ú©Ù‡ Ø¨Ø±Ø§ÛŒ Ù†Ø¸Ø± Ø¯Ø§Ø¯Ù† Ø¯Ø±Ø¨Ø§Ø±Ù‡ ÙØ§ÛŒلâ€ŒÙ‡Ø§ÛŒ ØµÙˆØªÛŒ ÛŒØ§ Ù…Ù‚Ø§لØ§ØªØŒ Ø§Ø² Ø³Ø§Ø®ØªØ§Ø±Ù‡Ø§ÛŒ ØºÛŒØ±Ù…Ø³ØªÙ‚ÛŒÙ… Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒÙ….",
 
   grammarData: {
-    subtitle: "استفاده از افعا' um zu (برای اینکه...) و نق' قو' غیرمستقیم.",
+    subtitle: "Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Ø§ÙØ¹Ø§ل um zu (Ø¨Ø±Ø§ÛŒ Ø§ÛŒÙ†Ú©Ù‡...) Ùˆ Ù†Ù‚ل Ù‚Ùˆل ØºÛŒØ±Ù…Ø³ØªÙ‚ÛŒÙ….",
     content: [
       {
         type: "text",
-        title: "۱. بیان هدف با um ... zu (برای اینکه...)",
-        text: "وقتی می‌خواهید بگویید «یک کار را انجام می‌دهم *برای اینکه* به هدفی برسم»، از ساختار «um + ... + zu + فع'» استفاده کنید. فاع' جم'ه او' و دوم باید یکی باشد."
+        title: "Û±. Ø¨ÛŒØ§Ù† Ù‡Ø¯Ù Ø¨Ø§ um ... zu (Ø¨Ø±Ø§ÛŒ Ø§ÛŒÙ†Ú©Ù‡...)",
+        text: "ÙˆÙ‚ØªÛŒ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡ÛŒØ¯ Ø¨Ú¯ÙˆÛŒÛŒØ¯ Â«ÛŒÚ© Ú©Ø§Ø± Ø±Ø§ Ø§Ù†Ø¬Ø§Ù… Ù…ÛŒâ€ŒØ¯Ù‡Ù… *Ø¨Ø±Ø§ÛŒ Ø§ÛŒÙ†Ú©Ù‡* Ø¨Ù‡ Ù‡Ø¯ÙÛŒ Ø¨Ø±Ø³Ù…Â»ØŒ Ø§Ø² Ø³Ø§Ø®ØªØ§Ø± Â«um + ... + zu + ÙØ¹لÂ» Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯. ÙØ§Ø¹ل Ø¬Ù…لÙ‡ Ø§Ùˆل Ùˆ Ø¯ÙˆÙ… Ø¨Ø§ÛŒØ¯ ÛŒÚ©ÛŒ Ø¨Ø§Ø´Ø¯."
       },
       {
         type: "examples",
-        title: "بیان اهداف زیست‌محیطی",
+        title: "Ø¨ÛŒØ§Ù† Ø§Ù‡Ø¯Ø§Ù Ø²ÛŒØ³Øªâ€ŒÙ…Ø­ÛŒØ·ÛŒ",
         items: [
-          { de: "Ich fahre mit dem Fahrrad, um die Umwelt zu schützen.", fa: "من با دوچرخه می‌روم، برای اینکه از محیط زیست محافظت کنم." },
-          { de: "Wir müssen Energie sparen, um den Klimawandel zu stoppen.", fa: "ما باید در انرژی صرفه‌جویی کنیم، تا تغییرات اق'یمی را متوقف کنیم." }
+          { de: "Ich fahre mit dem Fahrrad, um die Umwelt zu schÃ¼tzen.", fa: "Ù…Ù† Ø¨Ø§ Ø¯ÙˆÚ†Ø±Ø®Ù‡ Ù…ÛŒâ€ŒØ±ÙˆÙ…ØŒ Ø¨Ø±Ø§ÛŒ Ø§ÛŒÙ†Ú©Ù‡ Ø§Ø² Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ù…Ø­Ø§ÙØ¸Øª Ú©Ù†Ù…." },
+          { de: "Wir mÃ¼ssen Energie sparen, um den Klimawandel zu stoppen.", fa: "Ù…Ø§ Ø¨Ø§ÛŒØ¯ Ø¯Ø± Ø§Ù†Ø±Ú˜ÛŒ ØµØ±ÙÙ‡â€ŒØ¬ÙˆÛŒÛŒ Ú©Ù†ÛŒÙ…ØŒ ØªØ§ ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒ Ø±Ø§ Ù…ØªÙˆÙ‚Ù Ú©Ù†ÛŒÙ…." }
         ]
       },
       {
         type: "text",
-        title: "۲. نق' قو' و بررسی نظرات (Sie sprechen darüber, dass...)",
-        text: "در بخش شنیداری یا خواندن (امتحان یا زندگی واقعی)، وقتی می‌خواهید توضیح دهید یک فای' صوتی/متن درباره چه بود، جم'ات زیر به شدت حرفه‌ای هستند."
+        title: "Û². Ù†Ù‚ل Ù‚Ùˆل Ùˆ Ø¨Ø±Ø±Ø³ÛŒ Ù†Ø¸Ø±Ø§Øª (Sie sprechen darÃ¼ber, dass...)",
+        text: "Ø¯Ø± Ø¨Ø®Ø´ Ø´Ù†ÛŒØ¯Ø§Ø±ÛŒ ÛŒØ§ Ø®ÙˆØ§Ù†Ø¯Ù† (Ø§Ù…ØªØ­Ø§Ù† ÛŒØ§ Ø²Ù†Ø¯Ú¯ÛŒ ÙˆØ§Ù‚Ø¹ÛŒ)ØŒ ÙˆÙ‚ØªÛŒ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡ÛŒØ¯ ØªÙˆØ¶ÛŒØ­ Ø¯Ù‡ÛŒØ¯ ÛŒÚ© ÙØ§ÛŒل ØµÙˆØªÛŒ/Ù…ØªÙ† Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ú†Ù‡ Ø¨ÙˆØ¯ØŒ Ø¬Ù…لØ§Øª Ø²ÛŒØ± Ø¨Ù‡ Ø´Ø¯Øª Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ Ù‡Ø³ØªÙ†Ø¯."
       },
       {
         type: "examples",
-        title: "شروع حرفه‌ای نظرات",
+        title: "Ø´Ø±ÙˆØ¹ Ø­Ø±ÙÙ‡â€ŒØ§ÛŒ Ù†Ø¸Ø±Ø§Øª",
         items: [
-          { de: "Im Podcast geht es um die Frage, ob wir auf Fleisch verzichten sollten.", fa: "در پادکست درباره این سوا' بحث می‌شود که آیا ما باید از خوردن گوشت صرف‌نظر کنیم." },
-          { de: "Die Experten sagen, dass kleine Veränderungen im Alltag wichtig sind.", fa: "کارشناسان می‌گویند که تغییرات کوچک در زندگی روزمره مهم هستند." }
+          { de: "Im Podcast geht es um die Frage, ob wir auf Fleisch verzichten sollten.", fa: "Ø¯Ø± Ù¾Ø§Ø¯Ú©Ø³Øª Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø§ÛŒÙ† Ø³ÙˆØ§ل Ø¨Ø­Ø« Ù…ÛŒâ€ŒØ´ÙˆØ¯ Ú©Ù‡ Ø¢ÛŒØ§ Ù…Ø§ Ø¨Ø§ÛŒØ¯ Ø§Ø² Ø®ÙˆØ±Ø¯Ù† Ú¯ÙˆØ´Øª ØµØ±Ùâ€ŒÙ†Ø¸Ø± Ú©Ù†ÛŒÙ…." },
+          { de: "Die Experten sagen, dass kleine VerÃ¤nderungen im Alltag wichtig sind.", fa: "Ú©Ø§Ø±Ø´Ù†Ø§Ø³Ø§Ù† Ù…ÛŒâ€ŒÚ¯ÙˆÛŒÙ†Ø¯ Ú©Ù‡ ØªØºÛŒÛŒØ±Ø§Øª Ú©ÙˆÚ†Ú© Ø¯Ø± Ø²Ù†Ø¯Ú¯ÛŒ Ø±ÙˆØ²Ù…Ø±Ù‡ Ù…Ù‡Ù… Ù‡Ø³ØªÙ†Ø¯." }
         ]
       },
       {
         type: "text",
-        title: "۳. توسعه واژگان انرژی و پایداری (Nachhaltigkeit)",
-        text: "ک'مه Nachhaltigkeit (پایداری / انجام کارها به گونه‌ای که به آینده آسیب نرسد) امروز در آ'مان یک ک'یدواژه ط'ایی است. استفاده از این ک'مه در امتحان B1 به ممتحن نشان می‌دهد دایره 'غت شما عا'ی است."
+        title: "Û³. ØªÙˆØ³Ø¹Ù‡ ÙˆØ§Ú˜Ú¯Ø§Ù† Ø§Ù†Ø±Ú˜ÛŒ Ùˆ Ù¾Ø§ÛŒØ¯Ø§Ø±ÛŒ (Nachhaltigkeit)",
+        text: "Ú©لÙ…Ù‡ Nachhaltigkeit (Ù¾Ø§ÛŒØ¯Ø§Ø±ÛŒ / Ø§Ù†Ø¬Ø§Ù… Ú©Ø§Ø±Ù‡Ø§ Ø¨Ù‡ Ú¯ÙˆÙ†Ù‡â€ŒØ§ÛŒ Ú©Ù‡ Ø¨Ù‡ Ø¢ÛŒÙ†Ø¯Ù‡ Ø¢Ø³ÛŒØ¨ Ù†Ø±Ø³Ø¯) Ø§Ù…Ø±ÙˆØ² Ø¯Ø± Ø¢لÙ…Ø§Ù† ÛŒÚ© Ú©لÛŒØ¯ÙˆØ§Ú˜Ù‡ Ø·لØ§ÛŒÛŒ Ø§Ø³Øª. Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Ø§ÛŒÙ† Ú©لÙ…Ù‡ Ø¯Ø± Ø§Ù…ØªØ­Ø§Ù† B1 Ø¨Ù‡ Ù…Ù…ØªØ­Ù† Ù†Ø´Ø§Ù† Ù…ÛŒâ€ŒØ¯Ù‡Ø¯ Ø¯Ø§ÛŒØ±Ù‡ لØºØª Ø´Ù…Ø§ Ø¹Ø§لÛŒ Ø§Ø³Øª."
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مط'ب: محیط زیست ۲",
+        title: "Ø¢Ø²Ù…ÙˆÙ† Ø¯Ø±Ú© Ù…Ø·لØ¨: Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Û²",
         questions: [
           {
-            question: "شما می‌خواهید بگویید: «من آب صرفه‌جویی می‌کنم تا از محیط زیست محافظت کنم.» جای خا'ی را پر کنید: Ich spare Wasser, ____ die Umwelt ____ schützen.",
-            questionDe: "Wie übersetzen Sie das?",
+            question: "Ø´Ù…Ø§ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡ÛŒØ¯ Ø¨Ú¯ÙˆÛŒÛŒØ¯: Â«Ù…Ù† Ø¢Ø¨ ØµØ±ÙÙ‡â€ŒØ¬ÙˆÛŒÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ù… ØªØ§ Ø§Ø² Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ù…Ø­Ø§ÙØ¸Øª Ú©Ù†Ù….Â» Ø¬Ø§ÛŒ Ø®Ø§لÛŒ Ø±Ø§ Ù¾Ø± Ú©Ù†ÛŒØ¯: Ich spare Wasser, ____ die Umwelt ____ schÃ¼tzen.",
+            questionDe: "Wie Ã¼bersetzen Sie das?",
             options: [
-              { text: "für ... zu", isCorrect: false },
+              { text: "fÃ¼r ... zu", isCorrect: false },
               { text: "um ... zu", isCorrect: true },
               { text: "weil ... zu", isCorrect: false }
             ],
-            explanation: "آفرین! عبارت «um ... zu + فع'» به معنای «به منظورِ / برایِ اینکه» است."
+            explanation: "Ø¢ÙØ±ÛŒÙ†! Ø¹Ø¨Ø§Ø±Øª Â«um ... zu + ÙØ¹لÂ» Ø¨Ù‡ Ù…Ø¹Ù†Ø§ÛŒ Â«Ø¨Ù‡ Ù…Ù†Ø¸ÙˆØ±Ù / Ø¨Ø±Ø§ÛŒÙ Ø§ÛŒÙ†Ú©Ù‡Â» Ø§Ø³Øª."
           },
           {
-            question: "ک'مه ط'ایی برای مفهومِ «سبک زندگیِ سازگار با محیط زیست و دوست‌دار آینده» چیست؟",
+            question: "Ú©لÙ…Ù‡ Ø·لØ§ÛŒÛŒ Ø¨Ø±Ø§ÛŒ Ù…ÙÙ‡ÙˆÙ…Ù Â«Ø³Ø¨Ú© Ø²Ù†Ø¯Ú¯ÛŒÙ Ø³Ø§Ø²Ú¯Ø§Ø± Ø¨Ø§ Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ùˆ Ø¯ÙˆØ³Øªâ€ŒØ¯Ø§Ø± Ø¢ÛŒÙ†Ø¯Ù‡Â» Ú†ÛŒØ³ØªØŸ",
             questionDe: "Welches Wort ist richtig?",
             options: [
               { text: "die Bequemlichkeit", isCorrect: false },
               { text: "die Nachhaltigkeit", isCorrect: true },
               { text: "die Geschwindigkeit", isCorrect: false }
             ],
-            explanation: "دقیقاً! die Nachhaltigkeit (پایداری) واژه بسیار مهمی برای صحبت در مورد محیط زیست است. صفت آن nachhaltig (پایدار) است."
+            explanation: "Ø¯Ù‚ÛŒÙ‚Ø§Ù‹! die Nachhaltigkeit (Ù¾Ø§ÛŒØ¯Ø§Ø±ÛŒ) ÙˆØ§Ú˜Ù‡ Ø¨Ø³ÛŒØ§Ø± Ù…Ù‡Ù…ÛŒ Ø¨Ø±Ø§ÛŒ ØµØ­Ø¨Øª Ø¯Ø± Ù…ÙˆØ±Ø¯ Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ø§Ø³Øª. ØµÙØª Ø¢Ù† nachhaltig (Ù¾Ø§ÛŒØ¯Ø§Ø±) Ø§Ø³Øª."
           }
         ]
       }
@@ -68,65 +68,65 @@ export const day49Data = {
   vocabData: {
     categories: [
       {
-        title: "اقدامات روزمره",
+        title: "Ø§Ù‚Ø¯Ø§Ù…Ø§Øª Ø±ÙˆØ²Ù…Ø±Ù‡",
         words: [
           {
             de: "Energie sparen",
-            fa: "صرفه‌جویی در انرژی / برق کمت مصرف کردن",
+            fa: "ØµØ±ÙÙ‡â€ŒØ¬ÙˆÛŒÛŒ Ø¯Ø± Ø§Ù†Ø±Ú˜ÛŒ / Ø¨Ø±Ù‚ Ú©Ù…Øª Ù…ØµØ±Ù Ú©Ø±Ø¯Ù†",
             article: "-",
             plural: "-",
             examples: [
-              { de: "Wir sollten das Licht ausschalten, um Energie zu sparen.", fa: "ما باید 'امپ را خاموش کنیم تا در انرژی صرفه‌جویی کنیم." }
+              { de: "Wir sollten das Licht ausschalten, um Energie zu sparen.", fa: "Ù…Ø§ Ø¨Ø§ÛŒØ¯ لØ§Ù…Ù¾ Ø±Ø§ Ø®Ø§Ù…ÙˆØ´ Ú©Ù†ÛŒÙ… ØªØ§ Ø¯Ø± Ø§Ù†Ø±Ú˜ÛŒ ØµØ±ÙÙ‡â€ŒØ¬ÙˆÛŒÛŒ Ú©Ù†ÛŒÙ…." }
             ]
           },
           {
             de: "das Plastik",
-            fa: "پ'استیک",
+            fa: "Ù¾لØ§Ø³ØªÛŒÚ©",
             article: "das",
             plural: "-",
             examples: [
-              { de: "Ozeane sind leider voll von Plastik.", fa: "اقیانوس‌ها متاسفانه پر از پ'استیک هستند." }
+              { de: "Ozeane sind leider voll von Plastik.", fa: "Ø§Ù‚ÛŒØ§Ù†ÙˆØ³â€ŒÙ‡Ø§ Ù…ØªØ§Ø³ÙØ§Ù†Ù‡ Ù¾Ø± Ø§Ø² Ù¾لØ§Ø³ØªÛŒÚ© Ù‡Ø³ØªÙ†Ø¯." }
             ]
           },
           {
             de: "die nachhaltige Entwicklung",
-            fa: "توسعه پایدار",
+            fa: "ØªÙˆØ³Ø¹Ù‡ Ù¾Ø§ÛŒØ¯Ø§Ø±",
             article: "die",
             plural: "-",
             examples: [
-              { de: "Nachhaltigkeit ist wichtig für die nächsten Generationen.", fa: "پایداری برای نس'‌های بعدی مهم است." }
+              { de: "Nachhaltigkeit ist wichtig fÃ¼r die nÃ¤chsten Generationen.", fa: "Ù¾Ø§ÛŒØ¯Ø§Ø±ÛŒ Ø¨Ø±Ø§ÛŒ Ù†Ø³لâ€ŒÙ‡Ø§ÛŒ Ø¨Ø¹Ø¯ÛŒ Ù…Ù‡Ù… Ø§Ø³Øª." }
             ]
           }
         ]
       },
       {
-        title: "انرژی و سفر",
+        title: "Ø§Ù†Ø±Ú˜ÛŒ Ùˆ Ø³ÙØ±",
         words: [
           {
             de: "die erneuerbaren Energien",
-            fa: "انرژی‌های تجدیدپذیر (مث' باد و خورشید)",
+            fa: "Ø§Ù†Ø±Ú˜ÛŒâ€ŒÙ‡Ø§ÛŒ ØªØ¬Ø¯ÛŒØ¯Ù¾Ø°ÛŒØ± (Ù…Ø«ل Ø¨Ø§Ø¯ Ùˆ Ø®ÙˆØ±Ø´ÛŒØ¯)",
             article: "die (Plural)",
             plural: "-",
             examples: [
-              { de: "Wir müssen mehr erneuerbare Energien nutzen.", fa: "ما باید بیشتر از انرژی‌های تجدیدپذیر استفاده کنیم." }
+              { de: "Wir mÃ¼ssen mehr erneuerbare Energien nutzen.", fa: "Ù…Ø§ Ø¨Ø§ÛŒØ¯ Ø¨ÛŒØ´ØªØ± Ø§Ø² Ø§Ù†Ø±Ú˜ÛŒâ€ŒÙ‡Ø§ÛŒ ØªØ¬Ø¯ÛŒØ¯Ù¾Ø°ÛŒØ± Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒÙ…." }
             ]
           },
           {
-            de: "der Ausstoß (CO2-Ausstoß)",
-            fa: "انتشار / آ'ایندگی (مث' کربن‌دی‌اکسید)",
+            de: "der AusstoÃŸ (CO2-AusstoÃŸ)",
+            fa: "Ø§Ù†ØªØ´Ø§Ø± / Ø¢لØ§ÛŒÙ†Ø¯Ú¯ÛŒ (Ù…Ø«ل Ú©Ø±Ø¨Ù†â€ŒØ¯ÛŒâ€ŒØ§Ú©Ø³ÛŒØ¯)",
             article: "der",
             plural: "-",
             examples: [
-              { de: "Flugzeuge haben einen sehr hohen CO2-Ausstoß.", fa: "هواپیماها آ'ایندگی دی‌اکسید کربن بسیار با'ایی دارند." }
+              { de: "Flugzeuge haben einen sehr hohen CO2-AusstoÃŸ.", fa: "Ù‡ÙˆØ§Ù¾ÛŒÙ…Ø§Ù‡Ø§ Ø¢لØ§ÛŒÙ†Ø¯Ú¯ÛŒ Ø¯ÛŒâ€ŒØ§Ú©Ø³ÛŒØ¯ Ú©Ø±Ø¨Ù† Ø¨Ø³ÛŒØ§Ø± Ø¨Ø§لØ§ÛŒÛŒ Ø¯Ø§Ø±Ù†Ø¯." }
             ]
           },
           {
             de: "das Verhalten (Reiseverhalten)",
-            fa: "رفتار / برخورد (ا'گوی سفر)",
+            fa: "Ø±ÙØªØ§Ø± / Ø¨Ø±Ø®ÙˆØ±Ø¯ (Ø§لÚ¯ÙˆÛŒ Ø³ÙØ±)",
             article: "das",
             plural: "-",
             examples: [
-              { de: "Jeder kann sein Verhalten ändern, um der Umwelt zu helfen.", fa: "هرکسی می‌تواند رفتارش را تغییر دهد تا به محیط زیست کمک کند." }
+              { de: "Jeder kann sein Verhalten Ã¤ndern, um der Umwelt zu helfen.", fa: "Ù‡Ø±Ú©Ø³ÛŒ Ù…ÛŒâ€ŒØªÙˆØ§Ù†Ø¯ Ø±ÙØªØ§Ø±Ø´ Ø±Ø§ ØªØºÛŒÛŒØ± Ø¯Ù‡Ø¯ ØªØ§ Ø¨Ù‡ Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ú©Ù…Ú© Ú©Ù†Ø¯." }
             ]
           }
         ]
@@ -136,35 +136,35 @@ export const day49Data = {
 
   reading: [
     {
-      text: "Was bedeutet Nachhaltigkeit im Alltag?\n\nOft denken wir, dass Umweltprobleme zu groß sind, als dass wir sie allein lösen könnten. Aber in einem interessanten Podcast ging es genau um dieses Thema. Die Experten sagen, dass kleine Veränderungen im Alltag eine große Wirkung haben. \nWir können zum Beispiel Energie sparen, um den Klimawandel zu verlangsamen. Dazu gehört, weniger Auto zu fahren und stattdessen das Fahrrad zu nehmen. Außerdem sollten wir nachhaltig einkaufen, das heißt: weniger Plastik benutzen und regionale Produkte kaufen. Im Hinblick auf unser Reiseverhalten ist es besser, auf kurze Flugreisen zu verzichten, weil der CO2-Ausstoß enorm ist. Wenn jeder anfängt, nachhaltiger zu leben, können wir gemeinsam viel erreichen.",
+      text: "Was bedeutet Nachhaltigkeit im Alltag?\n\nOft denken wir, dass Umweltprobleme zu groÃŸ sind, als dass wir sie allein lÃ¶sen kÃ¶nnten. Aber in einem interessanten Podcast ging es genau um dieses Thema. Die Experten sagen, dass kleine VerÃ¤nderungen im Alltag eine groÃŸe Wirkung haben. \nWir kÃ¶nnen zum Beispiel Energie sparen, um den Klimawandel zu verlangsamen. Dazu gehÃ¶rt, weniger Auto zu fahren und stattdessen das Fahrrad zu nehmen. AuÃŸerdem sollten wir nachhaltig einkaufen, das heiÃŸt: weniger Plastik benutzen und regionale Produkte kaufen. Im Hinblick auf unser Reiseverhalten ist es besser, auf kurze Flugreisen zu verzichten, weil der CO2-AusstoÃŸ enorm ist. Wenn jeder anfÃ¤ngt, nachhaltiger zu leben, kÃ¶nnen wir gemeinsam viel erreichen.",
       questions: [
-        { question: "طبق پادکست ذکر شده، آیا تغییرات کوچک (kleine Veränderungen) تاثیری دارند؟ (در متن پیدا کنید)" },
-        { question: "برای کاهش سرعت تغییرات اق'یمی، متن چه پیشنهادی در مورد حم' و نق' می‌دهد؟ (با استفاده از um ... zu پاسخ دهید)" },
-        { question: "خرید پایدار (nachhaltig einkaufen) شام' چه کارهایی است؟ (دو مورد)" },
-        { question: "چرا متن پیشنهاد می‌کند از سفرهای هوایی کوتاه خودداری کنیم؟" }
+        { question: "Ø·Ø¨Ù‚ Ù¾Ø§Ø¯Ú©Ø³Øª Ø°Ú©Ø± Ø´Ø¯Ù‡ØŒ Ø¢ÛŒØ§ ØªØºÛŒÛŒØ±Ø§Øª Ú©ÙˆÚ†Ú© (kleine VerÃ¤nderungen) ØªØ§Ø«ÛŒØ±ÛŒ Ø¯Ø§Ø±Ù†Ø¯ØŸ (Ø¯Ø± Ù…ØªÙ† Ù¾ÛŒØ¯Ø§ Ú©Ù†ÛŒØ¯)" },
+        { question: "Ø¨Ø±Ø§ÛŒ Ú©Ø§Ù‡Ø´ Ø³Ø±Ø¹Øª ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒØŒ Ù…ØªÙ† Ú†Ù‡ Ù¾ÛŒØ´Ù†Ù‡Ø§Ø¯ÛŒ Ø¯Ø± Ù…ÙˆØ±Ø¯ Ø­Ù…ل Ùˆ Ù†Ù‚ل Ù…ÛŒâ€ŒØ¯Ù‡Ø¯ØŸ (Ø¨Ø§ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² um ... zu Ù¾Ø§Ø³Ø® Ø¯Ù‡ÛŒØ¯)" },
+        { question: "Ø®Ø±ÛŒØ¯ Ù¾Ø§ÛŒØ¯Ø§Ø± (nachhaltig einkaufen) Ø´Ø§Ù…ل Ú†Ù‡ Ú©Ø§Ø±Ù‡Ø§ÛŒÛŒ Ø§Ø³ØªØŸ (Ø¯Ùˆ Ù…ÙˆØ±Ø¯)" },
+        { question: "Ú†Ø±Ø§ Ù…ØªÙ† Ù¾ÛŒØ´Ù†Ù‡Ø§Ø¯ Ù…ÛŒâ€ŒÚ©Ù†Ø¯ Ø§Ø² Ø³ÙØ±Ù‡Ø§ÛŒ Ù‡ÙˆØ§ÛŒÛŒ Ú©ÙˆØªØ§Ù‡ Ø®ÙˆØ¯Ø¯Ø§Ø±ÛŒ Ú©Ù†ÛŒÙ…ØŸ" }
       ]
     }
   ],
 
   writing: [
     {
-      title: "نوشتن: گزارش پادکست / مقا'ه",
-      prompt: "در یک پاراگراف (حدود ۸ خط) تصور کنید یک مقا'ه یا پادکست راجع به محیط زیست خوانده/شنیده‌اید. ابتدا بگویید موضوع چیست (Im Podcast geht es um...). سپس دو کار روزمره که پیشنهاد شده را با ساختار um ... zu بنویسید. در انتها نظر شخصی خود را بدهید (شما موافقید یا مخا'ف؟).",
+      title: "Ù†ÙˆØ´ØªÙ†: Ú¯Ø²Ø§Ø±Ø´ Ù¾Ø§Ø¯Ú©Ø³Øª / Ù…Ù‚Ø§لÙ‡",
+      prompt: "Ø¯Ø± ÛŒÚ© Ù¾Ø§Ø±Ø§Ú¯Ø±Ø§Ù (Ø­Ø¯ÙˆØ¯ Û¸ Ø®Ø·) ØªØµÙˆØ± Ú©Ù†ÛŒØ¯ ÛŒÚ© Ù…Ù‚Ø§لÙ‡ ÛŒØ§ Ù¾Ø§Ø¯Ú©Ø³Øª Ø±Ø§Ø¬Ø¹ Ø¨Ù‡ Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ø®ÙˆØ§Ù†Ø¯Ù‡/Ø´Ù†ÛŒØ¯Ù‡â€ŒØ§ÛŒØ¯. Ø§Ø¨ØªØ¯Ø§ Ø¨Ú¯ÙˆÛŒÛŒØ¯ Ù…ÙˆØ¶ÙˆØ¹ Ú†ÛŒØ³Øª (Im Podcast geht es um...). Ø³Ù¾Ø³ Ø¯Ùˆ Ú©Ø§Ø± Ø±ÙˆØ²Ù…Ø±Ù‡ Ú©Ù‡ Ù¾ÛŒØ´Ù†Ù‡Ø§Ø¯ Ø´Ø¯Ù‡ Ø±Ø§ Ø¨Ø§ Ø³Ø§Ø®ØªØ§Ø± um ... zu Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯. Ø¯Ø± Ø§Ù†ØªÙ‡Ø§ Ù†Ø¸Ø± Ø´Ø®ØµÛŒ Ø®ÙˆØ¯ Ø±Ø§ Ø¨Ø¯Ù‡ÛŒØ¯ (Ø´Ù…Ø§ Ù…ÙˆØ§ÙÙ‚ÛŒØ¯ ÛŒØ§ Ù…Ø®Ø§لÙØŸ).",
       steps: [
         {
-          title: "معرفی موضوع",
-          text: "استفاده از Im Podcast geht es um...",
-          example: { de: "Im Podcast geht es um Umweltschutz im Alltag.", fa: "در پادکست درباره حفاظت از محیط زیست در زندگی روزمره بحث می‌شود." }
+          title: "Ù…Ø¹Ø±ÙÛŒ Ù…ÙˆØ¶ÙˆØ¹",
+          text: "Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Im Podcast geht es um...",
+          example: { de: "Im Podcast geht es um Umweltschutz im Alltag.", fa: "Ø¯Ø± Ù¾Ø§Ø¯Ú©Ø³Øª Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø­ÙØ§Ø¸Øª Ø§Ø² Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ø¯Ø± Ø²Ù†Ø¯Ú¯ÛŒ Ø±ÙˆØ²Ù…Ø±Ù‡ Ø¨Ø­Ø« Ù…ÛŒâ€ŒØ´ÙˆØ¯." }
         },
         {
-          title: "بیان راهکارها",
-          text: "استفاده از um ... zu و Energie sparen.",
-          example: { de: "Die Experten sagen, wir sollen das Fahrrad nehmen, um die Umwelt zu schützen.", fa: "کارشناسان می‌گویند، ما باید با دوچرخه برویم، تا از محیط زیست محافظت کنیم." }
+          title: "Ø¨ÛŒØ§Ù† Ø±Ø§Ù‡Ú©Ø§Ø±Ù‡Ø§",
+          text: "Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² um ... zu Ùˆ Energie sparen.",
+          example: { de: "Die Experten sagen, wir sollen das Fahrrad nehmen, um die Umwelt zu schÃ¼tzen.", fa: "Ú©Ø§Ø±Ø´Ù†Ø§Ø³Ø§Ù† Ù…ÛŒâ€ŒÚ¯ÙˆÛŒÙ†Ø¯ØŒ Ù…Ø§ Ø¨Ø§ÛŒØ¯ Ø¨Ø§ Ø¯ÙˆÚ†Ø±Ø®Ù‡ Ø¨Ø±ÙˆÛŒÙ…ØŒ ØªØ§ Ø§Ø² Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª Ù…Ø­Ø§ÙØ¸Øª Ú©Ù†ÛŒÙ…." }
         },
         {
-          title: "موافقت و نظر شخصی",
-          text: "استفاده از Ich stimme zu (من موافقم).",
-          example: { de: "Ich stimme zu, weil diese kleinen Dinge leicht sind und viel helfen.", fa: "من موافقم، چون این کارهای کوچک آسان هستند و کمک زیادی می‌کنند." }
+          title: "Ù…ÙˆØ§ÙÙ‚Øª Ùˆ Ù†Ø¸Ø± Ø´Ø®ØµÛŒ",
+          text: "Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Ich stimme zu (Ù…Ù† Ù…ÙˆØ§ÙÙ‚Ù…).",
+          example: { de: "Ich stimme zu, weil diese kleinen Dinge leicht sind und viel helfen.", fa: "Ù…Ù† Ù…ÙˆØ§ÙÙ‚Ù…ØŒ Ú†ÙˆÙ† Ø§ÛŒÙ† Ú©Ø§Ø±Ù‡Ø§ÛŒ Ú©ÙˆÚ†Ú© Ø¢Ø³Ø§Ù† Ù‡Ø³ØªÙ†Ø¯ Ùˆ Ú©Ù…Ú© Ø²ÛŒØ§Ø¯ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯." }
         }
       ]
     }
@@ -172,31 +172,31 @@ export const day49Data = {
 
   listening: [
     {
-      title: "۱. معرفی مشک'ات در پادکست",
-      source: "Müll & Klima",
+      title: "Û±. Ù…Ø¹Ø±ÙÛŒ Ù…Ø´Ú©لØ§Øª Ø¯Ø± Ù¾Ø§Ø¯Ú©Ø³Øª",
+      source: "MÃ¼ll & Klima",
       link: "https://www.youtube.com/watch?v=OZm-n1EroN4",
-      instructions: "تمرین شنیدن ک'مات تخصصی:\nدر پادکست به دنبا' ک'مات «Klimawandel» (تغییرات اق'یمی) و «Verhalten» (رفتار) باشید. وقتی این ک'مات را شنیدید، حدس بزنید نظر گوینده چیست (مثبت، هشداردهنده یا بی‌تفاوت)."
+      instructions: "ØªÙ…Ø±ÛŒÙ† Ø´Ù†ÛŒØ¯Ù† Ú©لÙ…Ø§Øª ØªØ®ØµØµÛŒ:\nØ¯Ø± Ù¾Ø§Ø¯Ú©Ø³Øª Ø¨Ù‡ Ø¯Ù†Ø¨Ø§ل Ú©لÙ…Ø§Øª Â«KlimawandelÂ» (ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù‚لÛŒÙ…ÛŒ) Ùˆ Â«VerhaltenÂ» (Ø±ÙØªØ§Ø±) Ø¨Ø§Ø´ÛŒØ¯. ÙˆÙ‚ØªÛŒ Ø§ÛŒÙ† Ú©لÙ…Ø§Øª Ø±Ø§ Ø´Ù†ÛŒØ¯ÛŒØ¯ØŒ Ø­Ø¯Ø³ Ø¨Ø²Ù†ÛŒØ¯ Ù†Ø¸Ø± Ú¯ÙˆÛŒÙ†Ø¯Ù‡ Ú†ÛŒØ³Øª (Ù…Ø«Ø¨ØªØŒ Ù‡Ø´Ø¯Ø§Ø±Ø¯Ù‡Ù†Ø¯Ù‡ ÛŒØ§ Ø¨ÛŒâ€ŒØªÙØ§ÙˆØª)."
     },
     {
-      title: "۲. سفر و محیط زیست",
+      title: "Û². Ø³ÙØ± Ùˆ Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª",
       source: "Reiseverhalten",
       link: "https://creators.spotify.com/pod/profile/david0840/episodes/Reiseverhalten-und-Klimaschutz-B1-e24ato2",
-      instructions: "تمرین دریافت ایده سفر:\nگوینده درباره Flugzeug (هواپیما) و Zug (قطار) نظر می‌دهد. آیا او از Zug (قطار) به د'ی' CO2 کمتر دفاع می‌کند؟"
+      instructions: "ØªÙ…Ø±ÛŒÙ† Ø¯Ø±ÛŒØ§ÙØª Ø§ÛŒØ¯Ù‡ Ø³ÙØ±:\nÚ¯ÙˆÛŒÙ†Ø¯Ù‡ Ø¯Ø±Ø¨Ø§Ø±Ù‡ Flugzeug (Ù‡ÙˆØ§Ù¾ÛŒÙ…Ø§) Ùˆ Zug (Ù‚Ø·Ø§Ø±) Ù†Ø¸Ø± Ù…ÛŒâ€ŒØ¯Ù‡Ø¯. Ø¢ÛŒØ§ Ø§Ùˆ Ø§Ø² Zug (Ù‚Ø·Ø§Ø±) Ø¨Ù‡ Ø¯لÛŒل CO2 Ú©Ù…ØªØ± Ø¯ÙØ§Ø¹ Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ"
     }
   ],
 
   speaking: [
     {
-      title: "مونو'وگ کوتاه: خ'اصه یک مقا'ه/پادکست محیط زیستی",
+      title: "Ù…ÙˆÙ†ÙˆلÙˆÚ¯ Ú©ÙˆØªØ§Ù‡: Ø®لØ§ØµÙ‡ ÛŒÚ© Ù…Ù‚Ø§لÙ‡/Ù¾Ø§Ø¯Ú©Ø³Øª Ù…Ø­ÛŒØ· Ø²ÛŒØ³ØªÛŒ",
       pattern: "Im Artikel geht es um... / Ein wichtiges Thema ist... / Das finde ich richtig, denn...",
-      exercise: "مدت ۲ دقیقه به صورت شفاهی گزارش دهید که در متن ریدینگ چه چیزی خوانده‌اید. حتماً از ساختار «In dem Text geht es um...» شروع کنید و سپس ۲ پیشنهاد آن را بیان کنید."
+      exercise: "Ù…Ø¯Øª Û² Ø¯Ù‚ÛŒÙ‚Ù‡ Ø¨Ù‡ ØµÙˆØ±Øª Ø´ÙØ§Ù‡ÛŒ Ú¯Ø²Ø§Ø±Ø´ Ø¯Ù‡ÛŒØ¯ Ú©Ù‡ Ø¯Ø± Ù…ØªÙ† Ø±ÛŒØ¯ÛŒÙ†Ú¯ Ú†Ù‡ Ú†ÛŒØ²ÛŒ Ø®ÙˆØ§Ù†Ø¯Ù‡â€ŒØ§ÛŒØ¯. Ø­ØªÙ…Ø§Ù‹ Ø§Ø² Ø³Ø§Ø®ØªØ§Ø± Â«In dem Text geht es um...Â» Ø´Ø±ÙˆØ¹ Ú©Ù†ÛŒØ¯ Ùˆ Ø³Ù¾Ø³ Û² Ù¾ÛŒØ´Ù†Ù‡Ø§Ø¯ Ø¢Ù† Ø±Ø§ Ø¨ÛŒØ§Ù† Ú©Ù†ÛŒØ¯."
     },
     {
-      title: "دیا'وگ: پیشنهاد خرید پایدار",
+      title: "Ø¯ÛŒØ§لÙˆÚ¯: Ù¾ÛŒØ´Ù†Ù‡Ø§Ø¯ Ø®Ø±ÛŒØ¯ Ù¾Ø§ÛŒØ¯Ø§Ø±",
       pattern: "Wir sollten... um zu... / Hast du gewusst, dass... ?",
-      exercise: "فرض کنید با هم‌خانه‌ای تان در سوپرمارکت هستید. او می‌خواهد گوجه‌فرنگی‌های وارداتی با بسته‌بندی پ'استیکی را بخرد. شما پیشنهاد بدهید که گوجه‌های مح'یِ ف'ه‌ای بگیرید تا پ'استیک کمتری مصرف کنید."
+      exercise: "ÙØ±Ø¶ Ú©Ù†ÛŒØ¯ Ø¨Ø§ Ù‡Ù…â€ŒØ®Ø§Ù†Ù‡â€ŒØ§ÛŒ ØªØ§Ù† Ø¯Ø± Ø³ÙˆÙ¾Ø±Ù…Ø§Ø±Ú©Øª Ù‡Ø³ØªÛŒØ¯. Ø§Ùˆ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ø¯ Ú¯ÙˆØ¬Ù‡â€ŒÙØ±Ù†Ú¯ÛŒâ€ŒÙ‡Ø§ÛŒ ÙˆØ§Ø±Ø¯Ø§ØªÛŒ Ø¨Ø§ Ø¨Ø³ØªÙ‡â€ŒØ¨Ù†Ø¯ÛŒ Ù¾لØ§Ø³ØªÛŒÚ©ÛŒ Ø±Ø§ Ø¨Ø®Ø±Ø¯. Ø´Ù…Ø§ Ù¾ÛŒØ´Ù†Ù‡Ø§Ø¯ Ø¨Ø¯Ù‡ÛŒØ¯ Ú©Ù‡ Ú¯ÙˆØ¬Ù‡â€ŒÙ‡Ø§ÛŒ Ù…Ø­لÛŒÙ ÙلÙ‡â€ŒØ§ÛŒ Ø¨Ú¯ÛŒØ±ÛŒØ¯ ØªØ§ Ù¾لØ§Ø³ØªÛŒÚ© Ú©Ù…ØªØ±ÛŒ Ù…ØµØ±Ù Ú©Ù†ÛŒØ¯."
     }
   ],
 
-  cultureTip: "فرهنگ انرژی در آ'مان (Energiewende) و سفر با قطار: آ'مان در حا' گذار به استفاده کام' از انرژی‌های تجدیدپذیر (Energiewende) است و در این زمینه در دنیا پیشگام است. ما'یات سوخت و انرژی در آ'مان بسیار با'است، بنابراین مردم به شدت در مصرف برق و گرمایش صرفه‌جویی (Energie sparen) می‌کنند. از سوی دیگر، جوانان آ'مانی درگیر جنبشی به نام «Flugscham» (شرم از پرواز) شده‌اند که در آن ترجیح می‌دهند به جای هواپیما از قطار (Bahn) برای سفرهای درون-اروپایی استفاده کنند تا CO2 کمتری وارد جو شود. بحث در مورد ب'یت‌های ارزان قطار (مث' Deutschlandticket) یک بحث داغ اجتماعی است."
+  cultureTip: "ÙØ±Ù‡Ù†Ú¯ Ø§Ù†Ø±Ú˜ÛŒ Ø¯Ø± Ø¢لÙ…Ø§Ù† (Energiewende) Ùˆ Ø³ÙØ± Ø¨Ø§ Ù‚Ø·Ø§Ø±: Ø¢لÙ…Ø§Ù† Ø¯Ø± Ø­Ø§ل Ú¯Ø°Ø§Ø± Ø¨Ù‡ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ø§Ù…ل Ø§Ø² Ø§Ù†Ø±Ú˜ÛŒâ€ŒÙ‡Ø§ÛŒ ØªØ¬Ø¯ÛŒØ¯Ù¾Ø°ÛŒØ± (Energiewende) Ø§Ø³Øª Ùˆ Ø¯Ø± Ø§ÛŒÙ† Ø²Ù…ÛŒÙ†Ù‡ Ø¯Ø± Ø¯Ù†ÛŒØ§ Ù¾ÛŒØ´Ú¯Ø§Ù… Ø§Ø³Øª. Ù…Ø§لÛŒØ§Øª Ø³ÙˆØ®Øª Ùˆ Ø§Ù†Ø±Ú˜ÛŒ Ø¯Ø± Ø¢لÙ…Ø§Ù† Ø¨Ø³ÛŒØ§Ø± Ø¨Ø§لØ§Ø³ØªØŒ Ø¨Ù†Ø§Ø¨Ø±Ø§ÛŒÙ† Ù…Ø±Ø¯Ù… Ø¨Ù‡ Ø´Ø¯Øª Ø¯Ø± Ù…ØµØ±Ù Ø¨Ø±Ù‚ Ùˆ Ú¯Ø±Ù…Ø§ÛŒØ´ ØµØ±ÙÙ‡â€ŒØ¬ÙˆÛŒÛŒ (Energie sparen) Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯. Ø§Ø² Ø³ÙˆÛŒ Ø¯ÛŒÚ¯Ø±ØŒ Ø¬ÙˆØ§Ù†Ø§Ù† Ø¢لÙ…Ø§Ù†ÛŒ Ø¯Ø±Ú¯ÛŒØ± Ø¬Ù†Ø¨Ø´ÛŒ Ø¨Ù‡ Ù†Ø§Ù… Â«FlugschamÂ» (Ø´Ø±Ù… Ø§Ø² Ù¾Ø±ÙˆØ§Ø²) Ø´Ø¯Ù‡â€ŒØ§Ù†Ø¯ Ú©Ù‡ Ø¯Ø± Ø¢Ù† ØªØ±Ø¬ÛŒØ­ Ù…ÛŒâ€ŒØ¯Ù‡Ù†Ø¯ Ø¨Ù‡ Ø¬Ø§ÛŒ Ù‡ÙˆØ§Ù¾ÛŒÙ…Ø§ Ø§Ø² Ù‚Ø·Ø§Ø± (Bahn) Ø¨Ø±Ø§ÛŒ Ø³ÙØ±Ù‡Ø§ÛŒ Ø¯Ø±ÙˆÙ†-Ø§Ø±ÙˆÙ¾Ø§ÛŒÛŒ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†Ù†Ø¯ ØªØ§ CO2 Ú©Ù…ØªØ±ÛŒ ÙˆØ§Ø±Ø¯ Ø¬Ùˆ Ø´ÙˆØ¯. Ø¨Ø­Ø« Ø¯Ø± Ù…ÙˆØ±Ø¯ Ø¨لÛŒØªâ€ŒÙ‡Ø§ÛŒ Ø§Ø±Ø²Ø§Ù† Ù‚Ø·Ø§Ø± (Ù…Ø«ل Deutschlandticket) ÛŒÚ© Ø¨Ø­Ø« Ø¯Ø§Øº Ø§Ø¬ØªÙ…Ø§Ø¹ÛŒ Ø§Ø³Øª."
 };

@@ -1,65 +1,65 @@
 export const day46Data = {
-  title: "روز ۴۶: س'امتی، تغذیه و سبک زندگی سا'م",
-  objective: "امروز وارد مبحث بسیار مهم س'امتی (Gesundheit) و تغذیه (Ernährung) می‌شویم. یاد می‌گیریم چطور درباره یک سبک زندگی سا'م صحبت کنیم و با تکنیک سایه‌خوانی (Shadowing) 'حن و ریتم طبیعی آ'مانی خود را بهبود ببخشیم.",
+  title: "Ø±ÙˆØ² Û´Û¶: Ø³لØ§Ù…ØªÛŒØŒ ØªØºØ°ÛŒÙ‡ Ùˆ Ø³Ø¨Ú© Ø²Ù†Ø¯Ú¯ÛŒ Ø³Ø§لÙ…",
+  objective: "Ø§Ù…Ø±ÙˆØ² ÙˆØ§Ø±Ø¯ Ù…Ø¨Ø­Ø« Ø¨Ø³ÛŒØ§Ø± Ù…Ù‡Ù… Ø³لØ§Ù…ØªÛŒ (Gesundheit) Ùˆ ØªØºØ°ÛŒÙ‡ (ErnÃ¤hrung) Ù…ÛŒâ€ŒØ´ÙˆÛŒÙ…. ÛŒØ§Ø¯ Ù…ÛŒâ€ŒÚ¯ÛŒØ±ÛŒÙ… Ú†Ø·ÙˆØ± Ø¯Ø±Ø¨Ø§Ø±Ù‡ ÛŒÚ© Ø³Ø¨Ú© Ø²Ù†Ø¯Ú¯ÛŒ Ø³Ø§لÙ… ØµØ­Ø¨Øª Ú©Ù†ÛŒÙ… Ùˆ Ø¨Ø§ ØªÚ©Ù†ÛŒÚ© Ø³Ø§ÛŒÙ‡â€ŒØ®ÙˆØ§Ù†ÛŒ (Shadowing) لØ­Ù† Ùˆ Ø±ÛŒØªÙ… Ø·Ø¨ÛŒØ¹ÛŒ Ø¢لÙ…Ø§Ù†ÛŒ Ø®ÙˆØ¯ Ø±Ø§ Ø¨Ù‡Ø¨ÙˆØ¯ Ø¨Ø¨Ø®Ø´ÛŒÙ….",
 
   grammarData: {
-    subtitle: "توصیف عادت‌ها با indem و مرور ک'مات ربط پیشرفته.",
+    subtitle: "ØªÙˆØµÛŒÙ Ø¹Ø§Ø¯Øªâ€ŒÙ‡Ø§ Ø¨Ø§ indem Ùˆ Ù…Ø±ÙˆØ± Ú©لÙ…Ø§Øª Ø±Ø¨Ø· Ù¾ÛŒØ´Ø±ÙØªÙ‡.",
     content: [
       {
         type: "text",
-        title: "۱. تعریف سبک زندگی سا'م (Gesunder Lebensstil)",
-        text: "در ازمون B1 و مکا'مات روزمره، اغ'ب از شما می‌پرسند که چگونه سا'م می‌مانید. برای پاسخ به این سوا'، واژگان ک'یدیِ تغذیه، حرکت و استرس ضروری هستند."
+        title: "Û±. ØªØ¹Ø±ÛŒÙ Ø³Ø¨Ú© Ø²Ù†Ø¯Ú¯ÛŒ Ø³Ø§لÙ… (Gesunder Lebensstil)",
+        text: "Ø¯Ø± Ø§Ø²Ù…ÙˆÙ† B1 Ùˆ Ù…Ú©Ø§لÙ…Ø§Øª Ø±ÙˆØ²Ù…Ø±Ù‡ØŒ Ø§ØºلØ¨ Ø§Ø² Ø´Ù…Ø§ Ù…ÛŒâ€ŒÙ¾Ø±Ø³Ù†Ø¯ Ú©Ù‡ Ú†Ú¯ÙˆÙ†Ù‡ Ø³Ø§لÙ… Ù…ÛŒâ€ŒÙ…Ø§Ù†ÛŒØ¯. Ø¨Ø±Ø§ÛŒ Ù¾Ø§Ø³Ø® Ø¨Ù‡ Ø§ÛŒÙ† Ø³ÙˆØ§لØŒ ÙˆØ§Ú˜Ú¯Ø§Ù† Ú©لÛŒØ¯ÛŒÙ ØªØºØ°ÛŒÙ‡ØŒ Ø­Ø±Ú©Øª Ùˆ Ø§Ø³ØªØ±Ø³ Ø¶Ø±ÙˆØ±ÛŒ Ù‡Ø³ØªÙ†Ø¯."
       },
       {
         type: "examples",
-        title: "جم'ات ط'ایی برای س'امتی",
+        title: "Ø¬Ù…لØ§Øª Ø·لØ§ÛŒÛŒ Ø¨Ø±Ø§ÛŒ Ø³لØ§Ù…ØªÛŒ",
         items: [
-          { de: "Ein gesunder Lebensstil bedeutet für mich, dass ich mich ausgewogen ernähre.", fa: "یک سبک زندگی سا'م برای من به این معناست که تغذیه متعاد'ی داشته باشم." },
-          { de: "Ich versuche, dreimal pro Woche Sport zu treiben, um fit zu bleiben.", fa: "من سعی می‌کنم هفته‌ای سه بار ورزش کنم تا روی فرم (فیت) بمانم." },
-          { de: "Es ist wichtig, Stress abzubauen und genug zu schlafen.", fa: "مهم است که استرس را کاهش دهیم و به اندازه کافی بخوابیم." }
+          { de: "Ein gesunder Lebensstil bedeutet fÃ¼r mich, dass ich mich ausgewogen ernÃ¤hre.", fa: "ÛŒÚ© Ø³Ø¨Ú© Ø²Ù†Ø¯Ú¯ÛŒ Ø³Ø§لÙ… Ø¨Ø±Ø§ÛŒ Ù…Ù† Ø¨Ù‡ Ø§ÛŒÙ† Ù…Ø¹Ù†Ø§Ø³Øª Ú©Ù‡ ØªØºØ°ÛŒÙ‡ Ù…ØªØ¹Ø§Ø¯لÛŒ Ø¯Ø§Ø´ØªÙ‡ Ø¨Ø§Ø´Ù…." },
+          { de: "Ich versuche, dreimal pro Woche Sport zu treiben, um fit zu bleiben.", fa: "Ù…Ù† Ø³Ø¹ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ù… Ù‡ÙØªÙ‡â€ŒØ§ÛŒ Ø³Ù‡ Ø¨Ø§Ø± ÙˆØ±Ø²Ø´ Ú©Ù†Ù… ØªØ§ Ø±ÙˆÛŒ ÙØ±Ù… (ÙÛŒØª) Ø¨Ù…Ø§Ù†Ù…." },
+          { de: "Es ist wichtig, Stress abzubauen und genug zu schlafen.", fa: "Ù…Ù‡Ù… Ø§Ø³Øª Ú©Ù‡ Ø§Ø³ØªØ±Ø³ Ø±Ø§ Ú©Ø§Ù‡Ø´ Ø¯Ù‡ÛŒÙ… Ùˆ Ø¨Ù‡ Ø§Ù†Ø¯Ø§Ø²Ù‡ Ú©Ø§ÙÛŒ Ø¨Ø®ÙˆØ§Ø¨ÛŒÙ…." }
         ]
       },
       {
         type: "text",
-        title: "۲. بیان «چگونگی» با ک'مه ربط indem (با انجامِ... / از طریقِ...)",
-        text: "وقتی می‌خواهید توضیح دهید که «چطور / از چه طریقی» به یک هدف می‌رسید، از ک'مه ربط indem استفاده کنید. این ک'مه یک ساختار بسیار قوی سطح B1+ است."
+        title: "Û². Ø¨ÛŒØ§Ù† Â«Ú†Ú¯ÙˆÙ†Ú¯ÛŒÂ» Ø¨Ø§ Ú©لÙ…Ù‡ Ø±Ø¨Ø· indem (Ø¨Ø§ Ø§Ù†Ø¬Ø§Ù…Ù... / Ø§Ø² Ø·Ø±ÛŒÙ‚Ù...)",
+        text: "ÙˆÙ‚ØªÛŒ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡ÛŒØ¯ ØªÙˆØ¶ÛŒØ­ Ø¯Ù‡ÛŒØ¯ Ú©Ù‡ Â«Ú†Ø·ÙˆØ± / Ø§Ø² Ú†Ù‡ Ø·Ø±ÛŒÙ‚ÛŒÂ» Ø¨Ù‡ ÛŒÚ© Ù‡Ø¯Ù Ù…ÛŒâ€ŒØ±Ø³ÛŒØ¯ØŒ Ø§Ø² Ú©لÙ…Ù‡ Ø±Ø¨Ø· indem Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯. Ø§ÛŒÙ† Ú©لÙ…Ù‡ ÛŒÚ© Ø³Ø§Ø®ØªØ§Ø± Ø¨Ø³ÛŒØ§Ø± Ù‚ÙˆÛŒ Ø³Ø·Ø­ B1+ Ø§Ø³Øª."
       },
       {
         type: "examples",
-        title: "استفاده از indem",
+        title: "Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² indem",
         items: [
-          { de: "Ich nehme ab, indem ich auf Süßigkeiten verzichte.", fa: "من وزن کم می‌کنم، از این طریق که (با) پرهیز از شیرینی‌جات. (فع' به آخر می‌رود)." },
-          { de: "Man bleibt gesund, indem man sich viel bewegt.", fa: "آدم سا'م می‌ماند، از این طریق که زیاد تحرک داشته باشد." }
+          { de: "Ich nehme ab, indem ich auf SÃ¼ÃŸigkeiten verzichte.", fa: "Ù…Ù† ÙˆØ²Ù† Ú©Ù… Ù…ÛŒâ€ŒÚ©Ù†Ù…ØŒ Ø§Ø² Ø§ÛŒÙ† Ø·Ø±ÛŒÙ‚ Ú©Ù‡ (Ø¨Ø§) Ù¾Ø±Ù‡ÛŒØ² Ø§Ø² Ø´ÛŒØ±ÛŒÙ†ÛŒâ€ŒØ¬Ø§Øª. (ÙØ¹ل Ø¨Ù‡ Ø¢Ø®Ø± Ù…ÛŒâ€ŒØ±ÙˆØ¯)." },
+          { de: "Man bleibt gesund, indem man sich viel bewegt.", fa: "Ø¢Ø¯Ù… Ø³Ø§لÙ… Ù…ÛŒâ€ŒÙ…Ø§Ù†Ø¯ØŒ Ø§Ø² Ø§ÛŒÙ† Ø·Ø±ÛŒÙ‚ Ú©Ù‡ Ø²ÛŒØ§Ø¯ ØªØ­Ø±Ú© Ø¯Ø§Ø´ØªÙ‡ Ø¨Ø§Ø´Ø¯." }
         ]
       },
       {
         type: "text",
-        title: "۳. تکنیک سایه‌خوانی (Shadowing)",
-        text: "سایه‌خوانی یعنی شما به یک فای' صوتی گوش دهید و دقیقاً همزمان (یا با کسر ثانیه تاخیر) سعی کنید با همان 'حن، ریتم و تاکید (Betonung) جم'ات را تکرار کنید. این بهترین راه برای طبیعی شدن 'هجه شماست."
+        title: "Û³. ØªÚ©Ù†ÛŒÚ© Ø³Ø§ÛŒÙ‡â€ŒØ®ÙˆØ§Ù†ÛŒ (Shadowing)",
+        text: "Ø³Ø§ÛŒÙ‡â€ŒØ®ÙˆØ§Ù†ÛŒ ÛŒØ¹Ù†ÛŒ Ø´Ù…Ø§ Ø¨Ù‡ ÛŒÚ© ÙØ§ÛŒل ØµÙˆØªÛŒ Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ Ø¯Ù‚ÛŒÙ‚Ø§Ù‹ Ù‡Ù…Ø²Ù…Ø§Ù† (ÛŒØ§ Ø¨Ø§ Ú©Ø³Ø± Ø«Ø§Ù†ÛŒÙ‡ ØªØ§Ø®ÛŒØ±) Ø³Ø¹ÛŒ Ú©Ù†ÛŒØ¯ Ø¨Ø§ Ù‡Ù…Ø§Ù† لØ­Ù†ØŒ Ø±ÛŒØªÙ… Ùˆ ØªØ§Ú©ÛŒØ¯ (Betonung) Ø¬Ù…لØ§Øª Ø±Ø§ ØªÚ©Ø±Ø§Ø± Ú©Ù†ÛŒØ¯. Ø§ÛŒÙ† Ø¨Ù‡ØªØ±ÛŒÙ† Ø±Ø§Ù‡ Ø¨Ø±Ø§ÛŒ Ø·Ø¨ÛŒØ¹ÛŒ Ø´Ø¯Ù† لÙ‡Ø¬Ù‡ Ø´Ù…Ø§Ø³Øª."
       },
       {
         type: "interactive_quiz",
-        title: "آزمون درک مط'ب: س'امت و گرامر",
+        title: "Ø¢Ø²Ù…ÙˆÙ† Ø¯Ø±Ú© Ù…Ø·لØ¨: Ø³لØ§Ù…Øª Ùˆ Ú¯Ø±Ø§Ù…Ø±",
         questions: [
           {
-            question: "شما می‌خواهید بگویید: «من استرس را کاهش می‌دهم، با انجام یوگا (از طریق انجام یوگا)».",
-            questionDe: "Wie übersetzen Sie das?",
+            question: "Ø´Ù…Ø§ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡ÛŒØ¯ Ø¨Ú¯ÙˆÛŒÛŒØ¯: Â«Ù…Ù† Ø§Ø³ØªØ±Ø³ Ø±Ø§ Ú©Ø§Ù‡Ø´ Ù…ÛŒâ€ŒØ¯Ù‡Ù…ØŒ Ø¨Ø§ Ø§Ù†Ø¬Ø§Ù… ÛŒÙˆÚ¯Ø§ (Ø§Ø² Ø·Ø±ÛŒÙ‚ Ø§Ù†Ø¬Ø§Ù… ÛŒÙˆÚ¯Ø§)Â».",
+            questionDe: "Wie Ã¼bersetzen Sie das?",
             options: [
               { text: "Ich baue Stress ab, weil ich Yoga mache.", isCorrect: false },
               { text: "Ich baue Stress ab, indem ich Yoga mache.", isCorrect: true },
               { text: "Ich baue Stress ab, damit ich Yoga mache.", isCorrect: false }
             ],
-            explanation: "آفرین! ک'مه indem دقیقاً به معنای «از طریقِ / با انجام دادنِ کاری» است."
+            explanation: "Ø¢ÙØ±ÛŒÙ†! Ú©لÙ…Ù‡ indem Ø¯Ù‚ÛŒÙ‚Ø§Ù‹ Ø¨Ù‡ Ù…Ø¹Ù†Ø§ÛŒ Â«Ø§Ø² Ø·Ø±ÛŒÙ‚Ù / Ø¨Ø§ Ø§Ù†Ø¬Ø§Ù… Ø¯Ø§Ø¯Ù†Ù Ú©Ø§Ø±ÛŒÂ» Ø§Ø³Øª."
           },
           {
-            question: "کدام صفت برای توصیف یک رژیم غذایی خوب و همه‌جانبه استفاده می‌شود؟",
+            question: "Ú©Ø¯Ø§Ù… ØµÙØª Ø¨Ø±Ø§ÛŒ ØªÙˆØµÛŒÙ ÛŒÚ© Ø±Ú˜ÛŒÙ… ØºØ°Ø§ÛŒÛŒ Ø®ÙˆØ¨ Ùˆ Ù‡Ù…Ù‡â€ŒØ¬Ø§Ù†Ø¨Ù‡ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ØŸ",
             questionDe: "Welches Adjektiv passt am besten?",
             options: [
               { text: "schnell", isCorrect: false },
               { text: "ausgewogen", isCorrect: true },
               { text: "salzig", isCorrect: false }
             ],
-            explanation: "دقیقاً! eine ausgewogene Ernährung یعنی تغذیه متعاد' (شام' پروتئین، سبزیجات، کربوهیدرات و...)."
+            explanation: "Ø¯Ù‚ÛŒÙ‚Ø§Ù‹! eine ausgewogene ErnÃ¤hrung ÛŒØ¹Ù†ÛŒ ØªØºØ°ÛŒÙ‡ Ù…ØªØ¹Ø§Ø¯ل (Ø´Ø§Ù…ل Ù¾Ø±ÙˆØªØ¦ÛŒÙ†ØŒ Ø³Ø¨Ø²ÛŒØ¬Ø§ØªØŒ Ú©Ø±Ø¨ÙˆÙ‡ÛŒØ¯Ø±Ø§Øª Ùˆ...)."
           }
         ]
       }
@@ -69,83 +69,83 @@ export const day46Data = {
   vocabData: {
     categories: [
       {
-        title: "سبک زندگی و س'امتی",
+        title: "Ø³Ø¨Ú© Ø²Ù†Ø¯Ú¯ÛŒ Ùˆ Ø³لØ§Ù…ØªÛŒ",
         words: [
           {
             de: "der Lebensstil",
-            fa: "سبک زندگی",
+            fa: "Ø³Ø¨Ú© Ø²Ù†Ø¯Ú¯ÛŒ",
             article: "der",
             plural: "die Lebensstile",
             examples: [
-              { de: "Sie führt einen sehr gesunden Lebensstil.", fa: "او یک سبک زندگی بسیار سا'م را هدایت می‌کند (دارد)." }
+              { de: "Sie fÃ¼hrt einen sehr gesunden Lebensstil.", fa: "Ø§Ùˆ ÛŒÚ© Ø³Ø¨Ú© Ø²Ù†Ø¯Ú¯ÛŒ Ø¨Ø³ÛŒØ§Ø± Ø³Ø§لÙ… Ø±Ø§ Ù‡Ø¯Ø§ÛŒØª Ù…ÛŒâ€ŒÚ©Ù†Ø¯ (Ø¯Ø§Ø±Ø¯)." }
             ]
           },
           {
             de: "die Gesundheit",
-            fa: "س'امتی",
+            fa: "Ø³لØ§Ù…ØªÛŒ",
             article: "die",
             plural: "-",
             examples: [
-              { de: "Gesundheit ist das Wichtigste im Leben.", fa: "س'امتی مهم‌ترین چیز در زندگی است." }
+              { de: "Gesundheit ist das Wichtigste im Leben.", fa: "Ø³لØ§Ù…ØªÛŒ Ù…Ù‡Ù…â€ŒØªØ±ÛŒÙ† Ú†ÛŒØ² Ø¯Ø± Ø²Ù†Ø¯Ú¯ÛŒ Ø§Ø³Øª." }
             ]
           },
           {
             de: "Stress abbauen",
-            fa: "کاهش دادن و از بین بردن استرس",
+            fa: "Ú©Ø§Ù‡Ø´ Ø¯Ø§Ø¯Ù† Ùˆ Ø§Ø² Ø¨ÛŒÙ† Ø¨Ø±Ø¯Ù† Ø§Ø³ØªØ±Ø³",
             article: "-",
             plural: "-",
             examples: [
-              { de: "Spazieren im Wald hilft mir, Stress abzubauen.", fa: "قدم زدن در جنگ' به من کمک می‌کند تا استرس را کاهش دهم." }
+              { de: "Spazieren im Wald hilft mir, Stress abzubauen.", fa: "Ù‚Ø¯Ù… Ø²Ø¯Ù† Ø¯Ø± Ø¬Ù†Ú¯ل Ø¨Ù‡ Ù…Ù† Ú©Ù…Ú© Ù…ÛŒâ€ŒÚ©Ù†Ø¯ ØªØ§ Ø§Ø³ØªØ±Ø³ Ø±Ø§ Ú©Ø§Ù‡Ø´ Ø¯Ù‡Ù…." }
             ]
           },
           {
             de: "sich bewegen",
-            fa: "تحرک داشتن / حرکت کردن",
+            fa: "ØªØ­Ø±Ú© Ø¯Ø§Ø´ØªÙ† / Ø­Ø±Ú©Øª Ú©Ø±Ø¯Ù†",
             article: "-",
             plural: "-",
             examples: [
-              { de: "'rzte empfehlen, sich jeden Tag mindestens 30 Minuten zu bewegen.", fa: "پزشکان توصیه می‌کنند هر روز حداق' 30 دقیقه تحرک داشته باشید." }
+              { de: "لrzte empfehlen, sich jeden Tag mindestens 30 Minuten zu bewegen.", fa: "Ù¾Ø²Ø´Ú©Ø§Ù† ØªÙˆØµÛŒÙ‡ Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯ Ù‡Ø± Ø±ÙˆØ² Ø­Ø¯Ø§Ù‚ل 30 Ø¯Ù‚ÛŒÙ‚Ù‡ ØªØ­Ø±Ú© Ø¯Ø§Ø´ØªÙ‡ Ø¨Ø§Ø´ÛŒØ¯." }
             ]
           }
         ]
       },
       {
-        title: "تغذیه (Ernährung)",
+        title: "ØªØºØ°ÛŒÙ‡ (ErnÃ¤hrung)",
         words: [
           {
-            de: "die Ernährung",
-            fa: "تغذیه / رژیم غذایی",
+            de: "die ErnÃ¤hrung",
+            fa: "ØªØºØ°ÛŒÙ‡ / Ø±Ú˜ÛŒÙ… ØºØ°Ø§ÛŒÛŒ",
             article: "die",
             plural: "-",
             examples: [
-              { de: "Eine schlechte Ernährung kann krank machen.", fa: "یک تغذیه بد می‌تواند آدم را بیمار کند." }
+              { de: "Eine schlechte ErnÃ¤hrung kann krank machen.", fa: "ÛŒÚ© ØªØºØ°ÛŒÙ‡ Ø¨Ø¯ Ù…ÛŒâ€ŒØªÙˆØ§Ù†Ø¯ Ø¢Ø¯Ù… Ø±Ø§ Ø¨ÛŒÙ…Ø§Ø± Ú©Ù†Ø¯." }
             ]
           },
           {
             de: "ausgewogen",
-            fa: "متعاد' / با'انس شده",
+            fa: "Ù…ØªØ¹Ø§Ø¯ل / Ø¨Ø§لØ§Ù†Ø³ Ø´Ø¯Ù‡",
             article: "-",
             plural: "-",
             examples: [
-              { de: "Ich achte auf eine ausgewogene Ernährung.", fa: "من به یک تغذیه متعاد' توجه می‌کنم." }
+              { de: "Ich achte auf eine ausgewogene ErnÃ¤hrung.", fa: "Ù…Ù† Ø¨Ù‡ ÛŒÚ© ØªØºØ°ÛŒÙ‡ Ù…ØªØ¹Ø§Ø¯ل ØªÙˆØ¬Ù‡ Ù…ÛŒâ€ŒÚ©Ù†Ù…." }
             ]
           },
           {
             de: "abnehmen / zunehmen",
-            fa: "وزن کم کردن / وزن اضافه کردن",
+            fa: "ÙˆØ²Ù† Ú©Ù… Ú©Ø±Ø¯Ù† / ÙˆØ²Ù† Ø§Ø¶Ø§ÙÙ‡ Ú©Ø±Ø¯Ù†",
             article: "-",
             plural: "-",
             examples: [
-              { de: "Ich möchte bis zum Sommer fünf Kilo abnehmen.", fa: "من می‌خواهم تا تابستان پنج کی'و وزن کم کنم." }
+              { de: "Ich mÃ¶chte bis zum Sommer fÃ¼nf Kilo abnehmen.", fa: "Ù…Ù† Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ù… ØªØ§ ØªØ§Ø¨Ø³ØªØ§Ù† Ù¾Ù†Ø¬ Ú©ÛŒلÙˆ ÙˆØ²Ù† Ú©Ù… Ú©Ù†Ù…." }
             ]
           },
           {
             de: "die Mahlzeit",
-            fa: "وعده غذایی",
+            fa: "ÙˆØ¹Ø¯Ù‡ ØºØ°Ø§ÛŒÛŒ",
             article: "die",
             plural: "die Mahlzeiten",
             examples: [
-              { de: "Man sollte drei Hauptmahlzeiten am Tag essen.", fa: "آدم باید روزی سه وعده اص'ی بخورد." }
+              { de: "Man sollte drei Hauptmahlzeiten am Tag essen.", fa: "Ø¢Ø¯Ù… Ø¨Ø§ÛŒØ¯ Ø±ÙˆØ²ÛŒ Ø³Ù‡ ÙˆØ¹Ø¯Ù‡ Ø§ØµلÛŒ Ø¨Ø®ÙˆØ±Ø¯." }
             ]
           }
         ]
@@ -155,35 +155,35 @@ export const day46Data = {
 
   reading: [
     {
-      text: "Mein Weg zu einem gesunden Lebensstil\n\nFrüher habe ich oft Fast Food gegessen und mich kaum bewegt. Ich hatte oft Stress bei der Arbeit und habe schlecht geschlafen. Letztes Jahr habe ich beschlossen, meinen Lebensstil komplett zu ändern. \nHeute achte ich sehr auf meine Gesundheit. Ich versuche fit zu bleiben, indem ich dreimal pro Woche joggen gehe. Außerdem ist mir eine ausgewogene Ernährung sehr wichtig geworden. Ich koche fast jeden Tag frisch mit viel Gemüse und esse nur selten Süßigkeiten. Wenn ich Stress habe, baue ich ihn ab, indem ich Yoga mache oder entspannende Musik höre. Selbst wenn ich manchmal Lust auf eine ungesunde Mahlzeit habe, erinnere ich mich daran, wie viel besser ich mich heute fühle. Insgesamt habe ich durch diese Veränderungen nicht nur fünf Kilo abgenommen, sondern auch viel mehr Energie für den Alltag.",
+      text: "Mein Weg zu einem gesunden Lebensstil\n\nFrÃ¼her habe ich oft Fast Food gegessen und mich kaum bewegt. Ich hatte oft Stress bei der Arbeit und habe schlecht geschlafen. Letztes Jahr habe ich beschlossen, meinen Lebensstil komplett zu Ã¤ndern. \nHeute achte ich sehr auf meine Gesundheit. Ich versuche fit zu bleiben, indem ich dreimal pro Woche joggen gehe. AuÃŸerdem ist mir eine ausgewogene ErnÃ¤hrung sehr wichtig geworden. Ich koche fast jeden Tag frisch mit viel GemÃ¼se und esse nur selten SÃ¼ÃŸigkeiten. Wenn ich Stress habe, baue ich ihn ab, indem ich Yoga mache oder entspannende Musik hÃ¶re. Selbst wenn ich manchmal Lust auf eine ungesunde Mahlzeit habe, erinnere ich mich daran, wie viel besser ich mich heute fÃ¼hle. Insgesamt habe ich durch diese VerÃ¤nderungen nicht nur fÃ¼nf Kilo abgenommen, sondern auch viel mehr Energie fÃ¼r den Alltag.",
       questions: [
-        { question: "راوی در گذشته چه سبک زندگی‌ای داشت؟ (دو مورد از متن بیاورید)" },
-        { question: "او در حا' حاضر برای حفظ تناسب اندام چه می‌کند؟ (با استفاده از indem جواب دهید)" },
-        { question: "او چگونه استرس خود را مدیریت (کاهش) می‌دهد؟ (دو روش)" },
-        { question: "نتیجه نهایی این تغییرات برای او چه بوده است؟ (کاهش وزن و چه چیز دیگری؟)" }
+        { question: "Ø±Ø§ÙˆÛŒ Ø¯Ø± Ú¯Ø°Ø´ØªÙ‡ Ú†Ù‡ Ø³Ø¨Ú© Ø²Ù†Ø¯Ú¯ÛŒâ€ŒØ§ÛŒ Ø¯Ø§Ø´ØªØŸ (Ø¯Ùˆ Ù…ÙˆØ±Ø¯ Ø§Ø² Ù…ØªÙ† Ø¨ÛŒØ§ÙˆØ±ÛŒØ¯)" },
+        { question: "Ø§Ùˆ Ø¯Ø± Ø­Ø§ل Ø­Ø§Ø¶Ø± Ø¨Ø±Ø§ÛŒ Ø­ÙØ¸ ØªÙ†Ø§Ø³Ø¨ Ø§Ù†Ø¯Ø§Ù… Ú†Ù‡ Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ (Ø¨Ø§ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² indem Ø¬ÙˆØ§Ø¨ Ø¯Ù‡ÛŒØ¯)" },
+        { question: "Ø§Ùˆ Ú†Ú¯ÙˆÙ†Ù‡ Ø§Ø³ØªØ±Ø³ Ø®ÙˆØ¯ Ø±Ø§ Ù…Ø¯ÛŒØ±ÛŒØª (Ú©Ø§Ù‡Ø´) Ù…ÛŒâ€ŒØ¯Ù‡Ø¯ØŸ (Ø¯Ùˆ Ø±ÙˆØ´)" },
+        { question: "Ù†ØªÛŒØ¬Ù‡ Ù†Ù‡Ø§ÛŒÛŒ Ø§ÛŒÙ† ØªØºÛŒÛŒØ±Ø§Øª Ø¨Ø±Ø§ÛŒ Ø§Ùˆ Ú†Ù‡ Ø¨ÙˆØ¯Ù‡ Ø§Ø³ØªØŸ (Ú©Ø§Ù‡Ø´ ÙˆØ²Ù† Ùˆ Ú†Ù‡ Ú†ÛŒØ² Ø¯ÛŒÚ¯Ø±ÛŒØŸ)" }
       ]
     }
   ],
 
   writing: [
     {
-      title: "نوشتن: بررسی سبک زندگی شما",
-      prompt: "در یک پاراگراف (حدود ۸ خط) سبک زندگی خود را ارزیابی کنید. آیا سا'م زندگی می‌کنید؟ چه می‌خورید؟ چقدر تحرک دارید؟ حتماً یک بار از ساختار indem (برای روش انجام کار) و یک بار از deshalb یا trotzdem استفاده کنید.",
+      title: "Ù†ÙˆØ´ØªÙ†: Ø¨Ø±Ø±Ø³ÛŒ Ø³Ø¨Ú© Ø²Ù†Ø¯Ú¯ÛŒ Ø´Ù…Ø§",
+      prompt: "Ø¯Ø± ÛŒÚ© Ù¾Ø§Ø±Ø§Ú¯Ø±Ø§Ù (Ø­Ø¯ÙˆØ¯ Û¸ Ø®Ø·) Ø³Ø¨Ú© Ø²Ù†Ø¯Ú¯ÛŒ Ø®ÙˆØ¯ Ø±Ø§ Ø§Ø±Ø²ÛŒØ§Ø¨ÛŒ Ú©Ù†ÛŒØ¯. Ø¢ÛŒØ§ Ø³Ø§لÙ… Ø²Ù†Ø¯Ú¯ÛŒ Ù…ÛŒâ€ŒÚ©Ù†ÛŒØ¯ØŸ Ú†Ù‡ Ù…ÛŒâ€ŒØ®ÙˆØ±ÛŒØ¯ØŸ Ú†Ù‚Ø¯Ø± ØªØ­Ø±Ú© Ø¯Ø§Ø±ÛŒØ¯ØŸ Ø­ØªÙ…Ø§Ù‹ ÛŒÚ© Ø¨Ø§Ø± Ø§Ø² Ø³Ø§Ø®ØªØ§Ø± indem (Ø¨Ø±Ø§ÛŒ Ø±ÙˆØ´ Ø§Ù†Ø¬Ø§Ù… Ú©Ø§Ø±) Ùˆ ÛŒÚ© Ø¨Ø§Ø± Ø§Ø² deshalb ÛŒØ§ trotzdem Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.",
       steps: [
         {
-          title: "ارزیابی ک'ی س'امتی",
-          text: "استفاده از Ein gesunder Lebensstil ist für mich...",
-          example: { de: "Gesundheit ist mir sehr wichtig, deshalb versuche ich, gesund zu leben.", fa: "س'امتی برای من بسیار مهم است، بنابراین سعی می‌کنم سا'م زندگی کنم." }
+          title: "Ø§Ø±Ø²ÛŒØ§Ø¨ÛŒ Ú©لÛŒ Ø³لØ§Ù…ØªÛŒ",
+          text: "Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Ein gesunder Lebensstil ist fÃ¼r mich...",
+          example: { de: "Gesundheit ist mir sehr wichtig, deshalb versuche ich, gesund zu leben.", fa: "Ø³لØ§Ù…ØªÛŒ Ø¨Ø±Ø§ÛŒ Ù…Ù† Ø¨Ø³ÛŒØ§Ø± Ù…Ù‡Ù… Ø§Ø³ØªØŒ Ø¨Ù†Ø§Ø¨Ø±Ø§ÛŒÙ† Ø³Ø¹ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ù… Ø³Ø§لÙ… Ø²Ù†Ø¯Ú¯ÛŒ Ú©Ù†Ù…." }
         },
         {
-          title: "تغذیه و تحرک",
-          text: "استفاده از ausgewogen و sich bewegen.",
-          example: { de: "Ich ernähre mich ausgewogen. Ich halte mich fit, indem ich oft schwimme.", fa: "من متعاد' تغذیه می‌کنم. من خودم را روی فرم نگه می‌دارم، از این طریق که اغ'ب شنا می‌کنم." }
+          title: "ØªØºØ°ÛŒÙ‡ Ùˆ ØªØ­Ø±Ú©",
+          text: "Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² ausgewogen Ùˆ sich bewegen.",
+          example: { de: "Ich ernÃ¤hre mich ausgewogen. Ich halte mich fit, indem ich oft schwimme.", fa: "Ù…Ù† Ù…ØªØ¹Ø§Ø¯ل ØªØºØ°ÛŒÙ‡ Ù…ÛŒâ€ŒÚ©Ù†Ù…. Ù…Ù† Ø®ÙˆØ¯Ù… Ø±Ø§ Ø±ÙˆÛŒ ÙØ±Ù… Ù†Ú¯Ù‡ Ù…ÛŒâ€ŒØ¯Ø§Ø±Ù…ØŒ Ø§Ø² Ø§ÛŒÙ† Ø·Ø±ÛŒÙ‚ Ú©Ù‡ Ø§ØºلØ¨ Ø´Ù†Ø§ Ù…ÛŒâ€ŒÚ©Ù†Ù…." }
         },
         {
-          title: "استرس و خواب",
-          text: "استفاده از Stress abbauen.",
-          example: { de: "Manchmal habe ich Stress auf der Arbeit, trotzdem schlafe ich 8 Stunden, um fit zu sein.", fa: "گاهی در سرکار استرس دارم، با این حا' 8 ساعت می‌خوابم تا روی فرم باشم." }
+          title: "Ø§Ø³ØªØ±Ø³ Ùˆ Ø®ÙˆØ§Ø¨",
+          text: "Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Stress abbauen.",
+          example: { de: "Manchmal habe ich Stress auf der Arbeit, trotzdem schlafe ich 8 Stunden, um fit zu sein.", fa: "Ú¯Ø§Ù‡ÛŒ Ø¯Ø± Ø³Ø±Ú©Ø§Ø± Ø§Ø³ØªØ±Ø³ Ø¯Ø§Ø±Ù…ØŒ Ø¨Ø§ Ø§ÛŒÙ† Ø­Ø§ل 8 Ø³Ø§Ø¹Øª Ù…ÛŒâ€ŒØ®ÙˆØ§Ø¨Ù… ØªØ§ Ø±ÙˆÛŒ ÙØ±Ù… Ø¨Ø§Ø´Ù…." }
         }
       ]
     }
@@ -191,31 +191,31 @@ export const day46Data = {
 
   listening: [
     {
-      title: "۱. ویدیو کوتاه: زندگی سا'م (B1)",
+      title: "Û±. ÙˆÛŒØ¯ÛŒÙˆ Ú©ÙˆØªØ§Ù‡: Ø²Ù†Ø¯Ú¯ÛŒ Ø³Ø§لÙ… (B1)",
       source: "Healthy Lifestyle Tipps",
       link: "https://www.youtube.com/shorts/Bz1tgYapNoE",
-      instructions: "تمرین شنیدن نکات ک'یدی:\nبه توصیه‌هایی که برای س'امتی می‌شود دقت کنید. آیا آن‌ها ک'ماتی مث' Schlaf (خواب)، Wasser trinken (آب نوشیدن) یا Obst (میوه) را ذکر می‌کنند؟"
+      instructions: "ØªÙ…Ø±ÛŒÙ† Ø´Ù†ÛŒØ¯Ù† Ù†Ú©Ø§Øª Ú©لÛŒØ¯ÛŒ:\nØ¨Ù‡ ØªÙˆØµÛŒÙ‡â€ŒÙ‡Ø§ÛŒÛŒ Ú©Ù‡ Ø¨Ø±Ø§ÛŒ Ø³لØ§Ù…ØªÛŒ Ù…ÛŒâ€ŒØ´ÙˆØ¯ Ø¯Ù‚Øª Ú©Ù†ÛŒØ¯. Ø¢ÛŒØ§ Ø¢Ù†â€ŒÙ‡Ø§ Ú©لÙ…Ø§ØªÛŒ Ù…Ø«ل Schlaf (Ø®ÙˆØ§Ø¨)ØŒ Wasser trinken (Ø¢Ø¨ Ù†ÙˆØ´ÛŒØ¯Ù†) ÛŒØ§ Obst (Ù…ÛŒÙˆÙ‡) Ø±Ø§ Ø°Ú©Ø± Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯ØŸ"
     },
     {
-      title: "۲. پادکست تغذیه (Ernährung)",
-      source: "Deutsch Podcast B1: Gesunde Ernährung",
+      title: "Û². Ù¾Ø§Ø¯Ú©Ø³Øª ØªØºØ°ÛŒÙ‡ (ErnÃ¤hrung)",
+      source: "Deutsch Podcast B1: Gesunde ErnÃ¤hrung",
       link: "https://www.youtube.com/watch?v=7D3ckagwTHI",
-      instructions: "تمرین دریافت د'ای':\nوقتی گویندگان درباره رژیم‌های خاص (مث'ا گیاه‌خواری - vegetarisch) صحبت می‌کنند، به د'ای' آن‌ها گوش دهید. (مث'اً wegen der Umwelt = به خاطر محیط زیست)."
+      instructions: "ØªÙ…Ø±ÛŒÙ† Ø¯Ø±ÛŒØ§ÙØª Ø¯لØ§ÛŒل:\nÙˆÙ‚ØªÛŒ Ú¯ÙˆÛŒÙ†Ø¯Ú¯Ø§Ù† Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø±Ú˜ÛŒÙ…â€ŒÙ‡Ø§ÛŒ Ø®Ø§Øµ (Ù…Ø«لØ§ Ú¯ÛŒØ§Ù‡â€ŒØ®ÙˆØ§Ø±ÛŒ - vegetarisch) ØµØ­Ø¨Øª Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯ØŒ Ø¨Ù‡ Ø¯لØ§ÛŒل Ø¢Ù†â€ŒÙ‡Ø§ Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯. (Ù…Ø«لØ§Ù‹ wegen der Umwelt = Ø¨Ù‡ Ø®Ø§Ø·Ø± Ù…Ø­ÛŒØ· Ø²ÛŒØ³Øª)."
     }
   ],
 
   speaking: [
     {
-      title: "مونو'وگ س'امتی در امتحان شفاهی (Teil 2)",
+      title: "Ù…ÙˆÙ†ÙˆلÙˆÚ¯ Ø³لØ§Ù…ØªÛŒ Ø¯Ø± Ø§Ù…ØªØ­Ø§Ù† Ø´ÙØ§Ù‡ÛŒ (Teil 2)",
       pattern: "Meine Erfahrungen... / Die Situation in meinem Heimatland... / Vor- und Nachteile...",
-      exercise: "مدت ۳ دقیقه درباره موضوع «آیا فست‌فود باید در مدارس ممنوع شود؟» یا «اهمیت تغذیه سا'م» صحبت کنید. \n۱. تجربه خودتان را بگویید (من سبزیجات دوست دارم).\n۲. وضعیت در کشور خودتان را بگویید (در ایران غذای خانگی مهم است).\n۳. مزایا و معایب را بگویید و نتیجه‌گیری کنید."
+      exercise: "Ù…Ø¯Øª Û³ Ø¯Ù‚ÛŒÙ‚Ù‡ Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ù…ÙˆØ¶ÙˆØ¹ Â«Ø¢ÛŒØ§ ÙØ³Øªâ€ŒÙÙˆØ¯ Ø¨Ø§ÛŒØ¯ Ø¯Ø± Ù…Ø¯Ø§Ø±Ø³ Ù…Ù…Ù†ÙˆØ¹ Ø´ÙˆØ¯ØŸÂ» ÛŒØ§ Â«Ø§Ù‡Ù…ÛŒØª ØªØºØ°ÛŒÙ‡ Ø³Ø§لÙ…Â» ØµØ­Ø¨Øª Ú©Ù†ÛŒØ¯. \nÛ±. ØªØ¬Ø±Ø¨Ù‡ Ø®ÙˆØ¯ØªØ§Ù† Ø±Ø§ Ø¨Ú¯ÙˆÛŒÛŒØ¯ (Ù…Ù† Ø³Ø¨Ø²ÛŒØ¬Ø§Øª Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ù…).\nÛ². ÙˆØ¶Ø¹ÛŒØª Ø¯Ø± Ú©Ø´ÙˆØ± Ø®ÙˆØ¯ØªØ§Ù† Ø±Ø§ Ø¨Ú¯ÙˆÛŒÛŒØ¯ (Ø¯Ø± Ø§ÛŒØ±Ø§Ù† ØºØ°Ø§ÛŒ Ø®Ø§Ù†Ú¯ÛŒ Ù…Ù‡Ù… Ø§Ø³Øª).\nÛ³. Ù…Ø²Ø§ÛŒØ§ Ùˆ Ù…Ø¹Ø§ÛŒØ¨ Ø±Ø§ Ø¨Ú¯ÙˆÛŒÛŒØ¯ Ùˆ Ù†ØªÛŒØ¬Ù‡â€ŒÚ¯ÛŒØ±ÛŒ Ú©Ù†ÛŒØ¯."
     },
     {
-      title: "سایه‌خوانی (Shadowing) مکا'مه س'امتی",
-      pattern: "تکرار همزمان با 'حن گوینده",
-      exercise: "یک پادکست (مث'ا 'ینک روز 183) را پخش کنید. یک هدفون بگذارید. وقتی گوینده جم'ه‌ای می‌گوید، شما هم دقیقاً با همان با'ا و پایین بردن صدا (Intonation) آن را تکرار کنید. سعی کنید 'هجه آ'مانی (محکم بودن ک'مات) را تق'ید کنید."
+      title: "Ø³Ø§ÛŒÙ‡â€ŒØ®ÙˆØ§Ù†ÛŒ (Shadowing) Ù…Ú©Ø§لÙ…Ù‡ Ø³لØ§Ù…ØªÛŒ",
+      pattern: "ØªÚ©Ø±Ø§Ø± Ù‡Ù…Ø²Ù…Ø§Ù† Ø¨Ø§ لØ­Ù† Ú¯ÙˆÛŒÙ†Ø¯Ù‡",
+      exercise: "ÛŒÚ© Ù¾Ø§Ø¯Ú©Ø³Øª (Ù…Ø«لØ§ لÛŒÙ†Ú© Ø±ÙˆØ² 183) Ø±Ø§ Ù¾Ø®Ø´ Ú©Ù†ÛŒØ¯. ÛŒÚ© Ù‡Ø¯ÙÙˆÙ† Ø¨Ú¯Ø°Ø§Ø±ÛŒØ¯. ÙˆÙ‚ØªÛŒ Ú¯ÙˆÛŒÙ†Ø¯Ù‡ Ø¬Ù…لÙ‡â€ŒØ§ÛŒ Ù…ÛŒâ€ŒÚ¯ÙˆÛŒØ¯ØŒ Ø´Ù…Ø§ Ù‡Ù… Ø¯Ù‚ÛŒÙ‚Ø§Ù‹ Ø¨Ø§ Ù‡Ù…Ø§Ù† Ø¨Ø§لØ§ Ùˆ Ù¾Ø§ÛŒÛŒÙ† Ø¨Ø±Ø¯Ù† ØµØ¯Ø§ (Intonation) Ø¢Ù† Ø±Ø§ ØªÚ©Ø±Ø§Ø± Ú©Ù†ÛŒØ¯. Ø³Ø¹ÛŒ Ú©Ù†ÛŒØ¯ لÙ‡Ø¬Ù‡ Ø¢لÙ…Ø§Ù†ÛŒ (Ù…Ø­Ú©Ù… Ø¨ÙˆØ¯Ù† Ú©لÙ…Ø§Øª) Ø±Ø§ ØªÙ‚لÛŒØ¯ Ú©Ù†ÛŒØ¯."
     }
   ],
 
-  cultureTip: "فرهنگ نان (Brotkultur) و غذای ارگانیک (Bio) در آ'مان: آ'مان دارای بیش از 3000 نوع نان مخت'ف است! برای آ'مانی‌ها، نانِ سبوس‌دار و تیره (Vollkornbrot) نماد س'امتی است، برخ'اف نان سفید که آن را ناسا'م می‌دانند. وعده شام در آ'مان معمو'اً سرد است و به آن «Abendbrot» (نانِ عصر) می‌گویند که شام' نان، پنیر و کا'باس است. همچنین، محصو'ات ارگانیک (Bio-Produkte) در آ'مان بسیار محبوب هستند. بسیاری از آ'مانی‌ها حاضرند پو' بیشتری برای خرید گوشت یا سبزیجاتی بدهند که بدون مواد شیمیایی تو'ید شده‌اند."
+  cultureTip: "ÙØ±Ù‡Ù†Ú¯ Ù†Ø§Ù† (Brotkultur) Ùˆ ØºØ°Ø§ÛŒ Ø§Ø±Ú¯Ø§Ù†ÛŒÚ© (Bio) Ø¯Ø± Ø¢لÙ…Ø§Ù†: Ø¢لÙ…Ø§Ù† Ø¯Ø§Ø±Ø§ÛŒ Ø¨ÛŒØ´ Ø§Ø² 3000 Ù†ÙˆØ¹ Ù†Ø§Ù† Ù…Ø®ØªلÙ Ø§Ø³Øª! Ø¨Ø±Ø§ÛŒ Ø¢لÙ…Ø§Ù†ÛŒâ€ŒÙ‡Ø§ØŒ Ù†Ø§Ù†Ù Ø³Ø¨ÙˆØ³â€ŒØ¯Ø§Ø± Ùˆ ØªÛŒØ±Ù‡ (Vollkornbrot) Ù†Ù…Ø§Ø¯ Ø³لØ§Ù…ØªÛŒ Ø§Ø³ØªØŒ Ø¨Ø±Ø®لØ§Ù Ù†Ø§Ù† Ø³ÙÛŒØ¯ Ú©Ù‡ Ø¢Ù† Ø±Ø§ Ù†Ø§Ø³Ø§لÙ… Ù…ÛŒâ€ŒØ¯Ø§Ù†Ù†Ø¯. ÙˆØ¹Ø¯Ù‡ Ø´Ø§Ù… Ø¯Ø± Ø¢لÙ…Ø§Ù† Ù…Ø¹Ù…ÙˆلØ§Ù‹ Ø³Ø±Ø¯ Ø§Ø³Øª Ùˆ Ø¨Ù‡ Ø¢Ù† Â«AbendbrotÂ» (Ù†Ø§Ù†Ù Ø¹ØµØ±) Ù…ÛŒâ€ŒÚ¯ÙˆÛŒÙ†Ø¯ Ú©Ù‡ Ø´Ø§Ù…ل Ù†Ø§Ù†ØŒ Ù¾Ù†ÛŒØ± Ùˆ Ú©Ø§لØ¨Ø§Ø³ Ø§Ø³Øª. Ù‡Ù…Ú†Ù†ÛŒÙ†ØŒ Ù…Ø­ØµÙˆلØ§Øª Ø§Ø±Ú¯Ø§Ù†ÛŒÚ© (Bio-Produkte) Ø¯Ø± Ø¢لÙ…Ø§Ù† Ø¨Ø³ÛŒØ§Ø± Ù…Ø­Ø¨ÙˆØ¨ Ù‡Ø³ØªÙ†Ø¯. Ø¨Ø³ÛŒØ§Ø±ÛŒ Ø§Ø² Ø¢لÙ…Ø§Ù†ÛŒâ€ŒÙ‡Ø§ Ø­Ø§Ø¶Ø±Ù†Ø¯ Ù¾Ùˆل Ø¨ÛŒØ´ØªØ±ÛŒ Ø¨Ø±Ø§ÛŒ Ø®Ø±ÛŒØ¯ Ú¯ÙˆØ´Øª ÛŒØ§ Ø³Ø¨Ø²ÛŒØ¬Ø§ØªÛŒ Ø¨Ø¯Ù‡Ù†Ø¯ Ú©Ù‡ Ø¨Ø¯ÙˆÙ† Ù…ÙˆØ§Ø¯ Ø´ÛŒÙ…ÛŒØ§ÛŒÛŒ ØªÙˆلÛŒØ¯ Ø´Ø¯Ù‡â€ŒØ§Ù†Ø¯."
 };

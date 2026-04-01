@@ -1,69 +1,69 @@
 export const day34Data = {
-  title: "روز ۳۴: افعا' مودا' عمیق + مودا'‌های دوگانه",
-  objective: "مرور عمیق افعا' مودا' (können, müssen, dürfen, sollen, wollen, mögen) و یادگیری استفاده از دو فع' مودا' در یک جم'ه",
+  title: "Ø±ÙˆØ² Û³Û´: Ø§ÙØ¹Ø§ل Ù…ÙˆØ¯Ø§ل Ø¹Ù…ÛŒÙ‚ + Ù…ÙˆØ¯Ø§لâ€ŒÙ‡Ø§ÛŒ Ø¯ÙˆÚ¯Ø§Ù†Ù‡",
+  objective: "Ù…Ø±ÙˆØ± Ø¹Ù…ÛŒÙ‚ Ø§ÙØ¹Ø§ل Ù…ÙˆØ¯Ø§ل (kÃ¶nnen, mÃ¼ssen, dÃ¼rfen, sollen, wollen, mÃ¶gen) Ùˆ ÛŒØ§Ø¯Ú¯ÛŒØ±ÛŒ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Ø¯Ùˆ ÙØ¹ل Ù…ÙˆØ¯Ø§ل Ø¯Ø± ÛŒÚ© Ø¬Ù…لÙ‡",
 
   grammarData: {
-    subtitle: "افعا' مودا' (Modalverben) در عمق",
+    subtitle: "Ø§ÙØ¹Ø§ل Ù…ÙˆØ¯Ø§ل (Modalverben) Ø¯Ø± Ø¹Ù…Ù‚",
     content: [
       {
         type: "text",
-        title: "مرور سریع افعا' مودا'",
-        text: "افعا' مودا' در جایگاه ۲ قرار می‌گیرند و فع' اص'ی در آخر جم'ه به صورت مصدر (بدون zu) می‌آید. در جم'ات فرعی، فع' مودا' هم به آخر می‌رود."
+        title: "Ù…Ø±ÙˆØ± Ø³Ø±ÛŒØ¹ Ø§ÙØ¹Ø§ل Ù…ÙˆØ¯Ø§ل",
+        text: "Ø§ÙØ¹Ø§ل Ù…ÙˆØ¯Ø§ل Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Û² Ù‚Ø±Ø§Ø± Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ù†Ø¯ Ùˆ ÙØ¹ل Ø§ØµلÛŒ Ø¯Ø± Ø¢Ø®Ø± Ø¬Ù…لÙ‡ Ø¨Ù‡ ØµÙˆØ±Øª Ù…ØµØ¯Ø± (Ø¨Ø¯ÙˆÙ† zu) Ù…ÛŒâ€ŒØ¢ÛŒØ¯. Ø¯Ø± Ø¬Ù…لØ§Øª ÙØ±Ø¹ÛŒØŒ ÙØ¹ل Ù…ÙˆØ¯Ø§ل Ù‡Ù… Ø¨Ù‡ Ø¢Ø®Ø± Ù…ÛŒâ€ŒØ±ÙˆØ¯."
       },
       {
         type: "table",
-        title: "جدو' کام' افعا' مودا' (حا' ساده)",
+        title: "Ø¬Ø¯Ùˆل Ú©Ø§Ù…ل Ø§ÙØ¹Ø§ل Ù…ÙˆØ¯Ø§ل (Ø­Ø§ل Ø³Ø§Ø¯Ù‡)",
         rows: [
-          { de: "können (ich kann)", fa: "توانستن: Ich kann schwimmen." },
-          { de: "müssen (ich muss)", fa: "باید کردن: Ich muss arbeiten." },
-          { de: "dürfen (ich darf)", fa: "اجازه داشتن: Ich darf gehen." },
-          { de: "sollen (ich soll)", fa: "باید (توصیه): Du sollst lernen." },
-          { de: "wollen (ich will)", fa: "خواستن: Er will reisen." },
-          { de: "mögen (ich mag)", fa: "دوست داشتن: Sie mag Kaffee." },
-          { de: "möchten (ich möchte)", fa: "مای' بودن: Wir möchten essen." }
+          { de: "kÃ¶nnen (ich kann)", fa: "ØªÙˆØ§Ù†Ø³ØªÙ†: Ich kann schwimmen." },
+          { de: "mÃ¼ssen (ich muss)", fa: "Ø¨Ø§ÛŒØ¯ Ú©Ø±Ø¯Ù†: Ich muss arbeiten." },
+          { de: "dÃ¼rfen (ich darf)", fa: "Ø§Ø¬Ø§Ø²Ù‡ Ø¯Ø§Ø´ØªÙ†: Ich darf gehen." },
+          { de: "sollen (ich soll)", fa: "Ø¨Ø§ÛŒØ¯ (ØªÙˆØµÛŒÙ‡): Du sollst lernen." },
+          { de: "wollen (ich will)", fa: "Ø®ÙˆØ§Ø³ØªÙ†: Er will reisen." },
+          { de: "mÃ¶gen (ich mag)", fa: "Ø¯ÙˆØ³Øª Ø¯Ø§Ø´ØªÙ†: Sie mag Kaffee." },
+          { de: "mÃ¶chten (ich mÃ¶chte)", fa: "Ù…Ø§ÛŒل Ø¨ÙˆØ¯Ù†: Wir mÃ¶chten essen." }
         ]
       },
       {
         type: "examples",
-        title: "مثا'‌های کاربردی مودا'‌ها",
+        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ Ú©Ø§Ø±Ø¨Ø±Ø¯ÛŒ Ù…ÙˆØ¯Ø§لâ€ŒÙ‡Ø§",
         items: [
-          { de: "Kannst du mir helfen?", fa: "آیا می‌توانی به من کمک کنی؟" },
-          { de: "Ich muss morgen früh aufstehen.", fa: "من باید فردا صبح زود ب'ند شوم." },
-          { de: "Darf ich hier rauchen?", fa: "آیا اجازه دارم اینجا سیگار بکشم؟" },
-          { de: "Du sollst mehr Wasser trinken.", fa: "تو باید آب بیشتری بنوشی." },
-          { de: "Er will nächstes Jahr nach Japan reisen.", fa: "او می‌خواهد سا' آینده به ژاپن سفر کند." },
-          { de: "Ich mag italienisches Essen.", fa: "من غذای ایتا'یایی دوست دارم." },
-          { de: "Wir möchten ein Zimmer reservieren.", fa: "ما می‌خواهیم یک اتاق رزرو کنیم." }
+          { de: "Kannst du mir helfen?", fa: "Ø¢ÛŒØ§ Ù…ÛŒâ€ŒØªÙˆØ§Ù†ÛŒ Ø¨Ù‡ Ù…Ù† Ú©Ù…Ú© Ú©Ù†ÛŒØŸ" },
+          { de: "Ich muss morgen frÃ¼h aufstehen.", fa: "Ù…Ù† Ø¨Ø§ÛŒØ¯ ÙØ±Ø¯Ø§ ØµØ¨Ø­ Ø²ÙˆØ¯ Ø¨لÙ†Ø¯ Ø´ÙˆÙ…." },
+          { de: "Darf ich hier rauchen?", fa: "Ø¢ÛŒØ§ Ø§Ø¬Ø§Ø²Ù‡ Ø¯Ø§Ø±Ù… Ø§ÛŒÙ†Ø¬Ø§ Ø³ÛŒÚ¯Ø§Ø± Ø¨Ú©Ø´Ù…ØŸ" },
+          { de: "Du sollst mehr Wasser trinken.", fa: "ØªÙˆ Ø¨Ø§ÛŒØ¯ Ø¢Ø¨ Ø¨ÛŒØ´ØªØ±ÛŒ Ø¨Ù†ÙˆØ´ÛŒ." },
+          { de: "Er will nÃ¤chstes Jahr nach Japan reisen.", fa: "Ø§Ùˆ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ø¯ Ø³Ø§ل Ø¢ÛŒÙ†Ø¯Ù‡ Ø¨Ù‡ Ú˜Ø§Ù¾Ù† Ø³ÙØ± Ú©Ù†Ø¯." },
+          { de: "Ich mag italienisches Essen.", fa: "Ù…Ù† ØºØ°Ø§ÛŒ Ø§ÛŒØªØ§لÛŒØ§ÛŒÛŒ Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ù…." },
+          { de: "Wir mÃ¶chten ein Zimmer reservieren.", fa: "Ù…Ø§ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡ÛŒÙ… ÛŒÚ© Ø§ØªØ§Ù‚ Ø±Ø²Ø±Ùˆ Ú©Ù†ÛŒÙ…." }
         ]
       },
       {
         type: "text",
-        title: "مودا'‌های دوگانه (Doppelmodale)",
-        text: "گاهی اوقات دو فع' مودا' در یک جم'ه استفاده می‌شود. در این حا'ت، فع' دوم به صورت مصدر (Infinitiv) می‌آید. این ساختار بیشتر در مکا'مه روزمره و غیررسمی استفاده می‌شود."
+        title: "Ù…ÙˆØ¯Ø§لâ€ŒÙ‡Ø§ÛŒ Ø¯ÙˆÚ¯Ø§Ù†Ù‡ (Doppelmodale)",
+        text: "Ú¯Ø§Ù‡ÛŒ Ø§ÙˆÙ‚Ø§Øª Ø¯Ùˆ ÙØ¹ل Ù…ÙˆØ¯Ø§ل Ø¯Ø± ÛŒÚ© Ø¬Ù…لÙ‡ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯. Ø¯Ø± Ø§ÛŒÙ† Ø­Ø§لØªØŒ ÙØ¹ل Ø¯ÙˆÙ… Ø¨Ù‡ ØµÙˆØ±Øª Ù…ØµØ¯Ø± (Infinitiv) Ù…ÛŒâ€ŒØ¢ÛŒØ¯. Ø§ÛŒÙ† Ø³Ø§Ø®ØªØ§Ø± Ø¨ÛŒØ´ØªØ± Ø¯Ø± Ù…Ú©Ø§لÙ…Ù‡ Ø±ÙˆØ²Ù…Ø±Ù‡ Ùˆ ØºÛŒØ±Ø±Ø³Ù…ÛŒ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯."
       },
       {
         type: "examples",
-        title: "مثا'‌های مودا' دوگانه",
+        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ Ù…ÙˆØ¯Ø§ل Ø¯ÙˆÚ¯Ø§Ù†Ù‡",
         items: [
-          { de: "Das muss ich können.", fa: "من باید بتوانم این کار را بکنم. (باید + توانستن)" },
-          { de: "Das will ich nicht müssen.", fa: "من نمی‌خواهم مجبور باشم. (خواستن + باید)" },
-          { de: "Kannst du das nicht sollen?", fa: "آیا نباید بتوانی این کار را بکنی؟ (توانستن + باید)" },
-          { de: "Das solltest du können.", fa: "تو باید بتوانی این کار را بکنی. (باید + توانستن)" },
-          { de: "Ich möchte das nicht müssen.", fa: "من نمی‌خواهم مجبور باشم. (مای' + باید)" },
-          { de: "Er will das nicht dürfen.", fa: "او نمی‌خواهد اجازه نداشته باشد. (خواستن + اجازه)" }
+          { de: "Das muss ich kÃ¶nnen.", fa: "Ù…Ù† Ø¨Ø§ÛŒØ¯ Ø¨ØªÙˆØ§Ù†Ù… Ø§ÛŒÙ† Ú©Ø§Ø± Ø±Ø§ Ø¨Ú©Ù†Ù…. (Ø¨Ø§ÛŒØ¯ + ØªÙˆØ§Ù†Ø³ØªÙ†)" },
+          { de: "Das will ich nicht mÃ¼ssen.", fa: "Ù…Ù† Ù†Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ù… Ù…Ø¬Ø¨ÙˆØ± Ø¨Ø§Ø´Ù…. (Ø®ÙˆØ§Ø³ØªÙ† + Ø¨Ø§ÛŒØ¯)" },
+          { de: "Kannst du das nicht sollen?", fa: "Ø¢ÛŒØ§ Ù†Ø¨Ø§ÛŒØ¯ Ø¨ØªÙˆØ§Ù†ÛŒ Ø§ÛŒÙ† Ú©Ø§Ø± Ø±Ø§ Ø¨Ú©Ù†ÛŒØŸ (ØªÙˆØ§Ù†Ø³ØªÙ† + Ø¨Ø§ÛŒØ¯)" },
+          { de: "Das solltest du kÃ¶nnen.", fa: "ØªÙˆ Ø¨Ø§ÛŒØ¯ Ø¨ØªÙˆØ§Ù†ÛŒ Ø§ÛŒÙ† Ú©Ø§Ø± Ø±Ø§ Ø¨Ú©Ù†ÛŒ. (Ø¨Ø§ÛŒØ¯ + ØªÙˆØ§Ù†Ø³ØªÙ†)" },
+          { de: "Ich mÃ¶chte das nicht mÃ¼ssen.", fa: "Ù…Ù† Ù†Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ù… Ù…Ø¬Ø¨ÙˆØ± Ø¨Ø§Ø´Ù…. (Ù…Ø§ÛŒل + Ø¨Ø§ÛŒØ¯)" },
+          { de: "Er will das nicht dÃ¼rfen.", fa: "Ø§Ùˆ Ù†Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ø¯ Ø§Ø¬Ø§Ø²Ù‡ Ù†Ø¯Ø§Ø´ØªÙ‡ Ø¨Ø§Ø´Ø¯. (Ø®ÙˆØ§Ø³ØªÙ† + Ø§Ø¬Ø§Ø²Ù‡)" }
         ]
       },
       {
         type: "alert",
-        title: "نکته مهم مودا'‌های دوگانه!",
-        text: "در مودا'‌های دوگانه، فع' او' معمو'اً صرف می‌شود و فع' دوم به صورت مصدر باقی می‌ماند. این ساختار بیشتر در مکا'مات غیررسمی استفاده می‌شود و در نوشتار رسمی کمتر دیده می‌شود."
+        title: "Ù†Ú©ØªÙ‡ Ù…Ù‡Ù… Ù…ÙˆØ¯Ø§لâ€ŒÙ‡Ø§ÛŒ Ø¯ÙˆÚ¯Ø§Ù†Ù‡!",
+        text: "Ø¯Ø± Ù…ÙˆØ¯Ø§لâ€ŒÙ‡Ø§ÛŒ Ø¯ÙˆÚ¯Ø§Ù†Ù‡ØŒ ÙØ¹ل Ø§Ùˆل Ù…Ø¹Ù…ÙˆلØ§Ù‹ ØµØ±Ù Ù…ÛŒâ€ŒØ´ÙˆØ¯ Ùˆ ÙØ¹ل Ø¯ÙˆÙ… Ø¨Ù‡ ØµÙˆØ±Øª Ù…ØµØ¯Ø± Ø¨Ø§Ù‚ÛŒ Ù…ÛŒâ€ŒÙ…Ø§Ù†Ø¯. Ø§ÛŒÙ† Ø³Ø§Ø®ØªØ§Ø± Ø¨ÛŒØ´ØªØ± Ø¯Ø± Ù…Ú©Ø§لÙ…Ø§Øª ØºÛŒØ±Ø±Ø³Ù…ÛŒ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯ Ùˆ Ø¯Ø± Ù†ÙˆØ´ØªØ§Ø± Ø±Ø³Ù…ÛŒ Ú©Ù…ØªØ± Ø¯ÛŒØ¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯."
       },
       {
         type: "interactive_quiz",
-        title: "تست افعا' مودا'",
+        title: "ØªØ³Øª Ø§ÙØ¹Ø§ل Ù…ÙˆØ¯Ø§ل",
         questions: [
           {
-            question: "کدام جم'ه صحیح است؟ من باید فردا کار کنم.",
+            question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ Ù…Ù† Ø¨Ø§ÛŒØ¯ ÙØ±Ø¯Ø§ Ú©Ø§Ø± Ú©Ù†Ù….",
             questionDe: "Welcher Satz ist korrekt?",
             options: [
               { text: "Ich muss morgen arbeiten.", isCorrect: true },
@@ -71,45 +71,45 @@ export const day34Data = {
               { text: "Ich arbeiten muss morgen.", isCorrect: false },
               { text: "Morgen ich muss arbeiten.", isCorrect: false }
             ],
-            explanation: "مودا' (muss) در جایگاه ۲ و فع' اص'ی (arbeiten) در آخر جم'ه."
+            explanation: "Ù…ÙˆØ¯Ø§ل (muss) Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Û² Ùˆ ÙØ¹ل Ø§ØµلÛŒ (arbeiten) Ø¯Ø± Ø¢Ø®Ø± Ø¬Ù…لÙ‡."
           },
           {
-            question: "کدام جم'ه مودا' دوگانه دارد؟",
+            question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ Ù…ÙˆØ¯Ø§ل Ø¯ÙˆÚ¯Ø§Ù†Ù‡ Ø¯Ø§Ø±Ø¯ØŸ",
             questionDe: "Welcher Satz hat zwei Modalverben?",
             options: [
               { text: "Ich kann das machen.", isCorrect: false },
-              { text: "Das muss ich können.", isCorrect: true },
+              { text: "Das muss ich kÃ¶nnen.", isCorrect: true },
               { text: "Ich muss das machen.", isCorrect: false },
               { text: "Ich will das machen.", isCorrect: false }
             ],
-            explanation: "Das muss ich können = من باید بتوانم این کار را بکنم. دو مودا': müssen و können."
+            explanation: "Das muss ich kÃ¶nnen = Ù…Ù† Ø¨Ø§ÛŒØ¯ Ø¨ØªÙˆØ§Ù†Ù… Ø§ÛŒÙ† Ú©Ø§Ø± Ø±Ø§ Ø¨Ú©Ù†Ù…. Ø¯Ùˆ Ù…ÙˆØ¯Ø§ل: mÃ¼ssen Ùˆ kÃ¶nnen."
           },
           {
-            question: "آیا اجازه دارم بروم؟",
-            questionDe: "Wie fragt man höflich?",
+            question: "Ø¢ÛŒØ§ Ø§Ø¬Ø§Ø²Ù‡ Ø¯Ø§Ø±Ù… Ø¨Ø±ÙˆÙ…ØŸ",
+            questionDe: "Wie fragt man hÃ¶flich?",
             options: [
               { text: "Kann ich gehen?", isCorrect: false },
               { text: "Darf ich gehen?", isCorrect: true },
               { text: "Muss ich gehen?", isCorrect: false },
               { text: "Will ich gehen?", isCorrect: false }
             ],
-            explanation: "Darf ich...? برای درخواست اجازه رسمی استفاده می‌شود."
+            explanation: "Darf ich...? Ø¨Ø±Ø§ÛŒ Ø¯Ø±Ø®ÙˆØ§Ø³Øª Ø§Ø¬Ø§Ø²Ù‡ Ø±Ø³Ù…ÛŒ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÛŒâ€ŒØ´ÙˆØ¯."
           }
         ]
       },
       {
         type: "fill_blank",
-        title: "تکمی' جم'ات با مودا' صحیح",
-        instruction: "مودا' مناسب را انتخاب کنید و شک' صحیح آن را بنویسید.",
+        title: "ØªÚ©Ù…ÛŒل Ø¬Ù…لØ§Øª Ø¨Ø§ Ù…ÙˆØ¯Ø§ل ØµØ­ÛŒØ­",
+        instruction: "Ù…ÙˆØ¯Ø§ل Ù…Ù†Ø§Ø³Ø¨ Ø±Ø§ Ø§Ù†ØªØ®Ø§Ø¨ Ú©Ù†ÛŒØ¯ Ùˆ Ø´Ú©ل ØµØ­ÛŒØ­ Ø¢Ù† Ø±Ø§ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯.",
         blanks: [
-          { sentence: "Ich ___ morgen früh aufstehen. (باید)", answer: "muss", hint: "باید = müssen → muss" },
-          { sentence: "___ du mir helfen? (می‌توانی)", answer: "Kannst", hint: "توانستن = können → kannst" },
-          { sentence: "___ ich hier sitzen? (اجازه دارم)", answer: "Darf", hint: "اجازه داشتن = dürfen → Darf" },
-          { sentence: "Er ___ nächstes Jahr reisen. (می‌خواهد)", answer: "will", hint: "خواستن = wollen → will" },
-          { sentence: "Wir ___ ein Zimmer reservieren. (می‌خواهیم)", answer: "möchten", hint: "مای' بودن = möchten" },
-          { sentence: "Sie ___ Kaffee nicht. (دوست ندارد)", answer: "mag", hint: "دوست داشتن = mögen → mag" },
-          { sentence: "Du ___ mehr lernen. (باید)", answer: "sollst", hint: "باید (توصیه) = sollen → sollst" },
-          { sentence: "Das ___ ich nicht ___. (باید بتوانم)", answer: "muss, können", hint: "مودا' دوگانه: muss + können" }
+          { sentence: "Ich ___ morgen frÃ¼h aufstehen. (Ø¨Ø§ÛŒØ¯)", answer: "muss", hint: "Ø¨Ø§ÛŒØ¯ = mÃ¼ssen â†’ muss" },
+          { sentence: "___ du mir helfen? (Ù…ÛŒâ€ŒØªÙˆØ§Ù†ÛŒ)", answer: "Kannst", hint: "ØªÙˆØ§Ù†Ø³ØªÙ† = kÃ¶nnen â†’ kannst" },
+          { sentence: "___ ich hier sitzen? (Ø§Ø¬Ø§Ø²Ù‡ Ø¯Ø§Ø±Ù…)", answer: "Darf", hint: "Ø§Ø¬Ø§Ø²Ù‡ Ø¯Ø§Ø´ØªÙ† = dÃ¼rfen â†’ Darf" },
+          { sentence: "Er ___ nÃ¤chstes Jahr reisen. (Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ø¯)", answer: "will", hint: "Ø®ÙˆØ§Ø³ØªÙ† = wollen â†’ will" },
+          { sentence: "Wir ___ ein Zimmer reservieren. (Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡ÛŒÙ…)", answer: "mÃ¶chten", hint: "Ù…Ø§ÛŒل Ø¨ÙˆØ¯Ù† = mÃ¶chten" },
+          { sentence: "Sie ___ Kaffee nicht. (Ø¯ÙˆØ³Øª Ù†Ø¯Ø§Ø±Ø¯)", answer: "mag", hint: "Ø¯ÙˆØ³Øª Ø¯Ø§Ø´ØªÙ† = mÃ¶gen â†’ mag" },
+          { sentence: "Du ___ mehr lernen. (Ø¨Ø§ÛŒØ¯)", answer: "sollst", hint: "Ø¨Ø§ÛŒØ¯ (ØªÙˆØµÛŒÙ‡) = sollen â†’ sollst" },
+          { sentence: "Das ___ ich nicht ___. (Ø¨Ø§ÛŒØ¯ Ø¨ØªÙˆØ§Ù†Ù…)", answer: "muss, kÃ¶nnen", hint: "Ù…ÙˆØ¯Ø§ل Ø¯ÙˆÚ¯Ø§Ù†Ù‡: muss + kÃ¶nnen" }
         ]
       }
     ]
@@ -118,22 +118,22 @@ export const day34Data = {
   vocabData: {
     categories: [
       {
-        title: "افعا' مودا' (Modalverben)",
+        title: "Ø§ÙØ¹Ø§ل Ù…ÙˆØ¯Ø§ل (Modalverben)",
         words: [
-          { de: "können", fa: "توانستن / ب'د بودن", article: "-", plural: "-", examples: [{ de: "Ich kann gut kochen.", fa: "من آشپزی خوب ب'د هستم." }] },
-          { de: "müssen", fa: "باید کردن (اجبار)", article: "-", plural: "-", examples: [{ de: "Du musst pünktlich kommen.", fa: "تو باید سر وقت بیایی." }] },
-          { de: "dürfen", fa: "اجازه داشتن", article: "-", plural: "-", examples: [{ de: "Kinder dürfen nicht rauchen.", fa: "بچه‌ها اجازه سیگار کشیدن ندارند." }] },
-          { de: "sollen", fa: "باید (توصیه / وظیفه)", article: "-", plural: "-", examples: [{ de: "Du sollst mehr schlafen.", fa: "تو باید بیشتر بخوابی." }] },
-          { de: "wollen", fa: "خواستن", article: "-", plural: "-", examples: [{ de: "Sie will Arztin werden.", fa: "او می‌خواهد پزشک شود." }] },
-          { de: "mögen", fa: "دوست داشتن", article: "-", plural: "-", examples: [{ de: "Ich mag Schokolade.", fa: "من شک'ات دوست دارم." }] }
+          { de: "kÃ¶nnen", fa: "ØªÙˆØ§Ù†Ø³ØªÙ† / Ø¨لØ¯ Ø¨ÙˆØ¯Ù†", article: "-", plural: "-", examples: [{ de: "Ich kann gut kochen.", fa: "Ù…Ù† Ø¢Ø´Ù¾Ø²ÛŒ Ø®ÙˆØ¨ Ø¨لØ¯ Ù‡Ø³ØªÙ…." }] },
+          { de: "mÃ¼ssen", fa: "Ø¨Ø§ÛŒØ¯ Ú©Ø±Ø¯Ù† (Ø§Ø¬Ø¨Ø§Ø±)", article: "-", plural: "-", examples: [{ de: "Du musst pÃ¼nktlich kommen.", fa: "ØªÙˆ Ø¨Ø§ÛŒØ¯ Ø³Ø± ÙˆÙ‚Øª Ø¨ÛŒØ§ÛŒÛŒ." }] },
+          { de: "dÃ¼rfen", fa: "Ø§Ø¬Ø§Ø²Ù‡ Ø¯Ø§Ø´ØªÙ†", article: "-", plural: "-", examples: [{ de: "Kinder dÃ¼rfen nicht rauchen.", fa: "Ø¨Ú†Ù‡â€ŒÙ‡Ø§ Ø§Ø¬Ø§Ø²Ù‡ Ø³ÛŒÚ¯Ø§Ø± Ú©Ø´ÛŒØ¯Ù† Ù†Ø¯Ø§Ø±Ù†Ø¯." }] },
+          { de: "sollen", fa: "Ø¨Ø§ÛŒØ¯ (ØªÙˆØµÛŒÙ‡ / ÙˆØ¸ÛŒÙÙ‡)", article: "-", plural: "-", examples: [{ de: "Du sollst mehr schlafen.", fa: "ØªÙˆ Ø¨Ø§ÛŒØ¯ Ø¨ÛŒØ´ØªØ± Ø¨Ø®ÙˆØ§Ø¨ÛŒ." }] },
+          { de: "wollen", fa: "Ø®ÙˆØ§Ø³ØªÙ†", article: "-", plural: "-", examples: [{ de: "Sie will Arztin werden.", fa: "Ø§Ùˆ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ø¯ Ù¾Ø²Ø´Ú© Ø´ÙˆØ¯." }] },
+          { de: "mÃ¶gen", fa: "Ø¯ÙˆØ³Øª Ø¯Ø§Ø´ØªÙ†", article: "-", plural: "-", examples: [{ de: "Ich mag Schokolade.", fa: "Ù…Ù† Ø´Ú©لØ§Øª Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ù…." }] }
         ]
       },
       {
-        title: "حا'ت‌های مخت'ف مودا'",
+        title: "Ø­Ø§لØªâ€ŒÙ‡Ø§ÛŒ Ù…Ø®ØªلÙ Ù…ÙˆØ¯Ø§ل",
         words: [
-          { de: "können + Infinitiv", fa: "توانستن: Ich kann schwimmen.", article: "-", plural: "-", examples: [{ de: "Kannst du das?", fa: "آیا می‌توانی این کار را بکنی؟" }] },
-          { de: "müssen + Infinitiv", fa: "باید: Ich muss arbeiten.", article: "-", plural: "-", examples: [{ de: "Das muss ich machen.", fa: "من باید این کار را بکنم." }] },
-          { de: "Doppelmodal", fa: "مودا' دوگانه: Das muss ich können.", article: "-", plural: "-", examples: [{ de: "Das solltest du wissen.", fa: "تو باید این را بدانی." }] }
+          { de: "kÃ¶nnen + Infinitiv", fa: "ØªÙˆØ§Ù†Ø³ØªÙ†: Ich kann schwimmen.", article: "-", plural: "-", examples: [{ de: "Kannst du das?", fa: "Ø¢ÛŒØ§ Ù…ÛŒâ€ŒØªÙˆØ§Ù†ÛŒ Ø§ÛŒÙ† Ú©Ø§Ø± Ø±Ø§ Ø¨Ú©Ù†ÛŒØŸ" }] },
+          { de: "mÃ¼ssen + Infinitiv", fa: "Ø¨Ø§ÛŒØ¯: Ich muss arbeiten.", article: "-", plural: "-", examples: [{ de: "Das muss ich machen.", fa: "Ù…Ù† Ø¨Ø§ÛŒØ¯ Ø§ÛŒÙ† Ú©Ø§Ø± Ø±Ø§ Ø¨Ú©Ù†Ù…." }] },
+          { de: "Doppelmodal", fa: "Ù…ÙˆØ¯Ø§ل Ø¯ÙˆÚ¯Ø§Ù†Ù‡: Das muss ich kÃ¶nnen.", article: "-", plural: "-", examples: [{ de: "Das solltest du wissen.", fa: "ØªÙˆ Ø¨Ø§ÛŒØ¯ Ø§ÛŒÙ† Ø±Ø§ Ø¨Ø¯Ø§Ù†ÛŒ." }] }
         ]
       }
     ]
@@ -141,60 +141,60 @@ export const day34Data = {
 
   reading: [
     {
-      text: "Ein Gespräch über die Zukunft\n\nMaria: Was willst du nächstes Jahr machen?\nPeter: Ich möchte nach Deutschland reisen. Ich kann schon ein bisschen Deutsch sprechen, aber ich muss noch viel lernen.\nMaria: Das solltest du wirklich machen! Kannst du auch in Deutschland arbeiten?\nPeter: Ja, ich darf dort arbeiten, weil ich einen deutschen Pass habe. Aber ich will erst die Sprache besser lernen, bevor ich arbeite.\nMaria: Das musst du nicht alleine machen. Ich kann dir helfen, wenn du möchtest.\nPeter: Das wäre toll! Ich mag es, wenn Freunde mir helfen. Aber du sollst auch an dich denken. Du musst ja auch deine eigene Arbeit machen.",
+      text: "Ein GesprÃ¤ch Ã¼ber die Zukunft\n\nMaria: Was willst du nÃ¤chstes Jahr machen?\nPeter: Ich mÃ¶chte nach Deutschland reisen. Ich kann schon ein bisschen Deutsch sprechen, aber ich muss noch viel lernen.\nMaria: Das solltest du wirklich machen! Kannst du auch in Deutschland arbeiten?\nPeter: Ja, ich darf dort arbeiten, weil ich einen deutschen Pass habe. Aber ich will erst die Sprache besser lernen, bevor ich arbeite.\nMaria: Das musst du nicht alleine machen. Ich kann dir helfen, wenn du mÃ¶chtest.\nPeter: Das wÃ¤re toll! Ich mag es, wenn Freunde mir helfen. Aber du sollst auch an dich denken. Du musst ja auch deine eigene Arbeit machen.",
       questions: [
-        { question: "پیتر سا' آینده چه می‌خواهد بکند؟", answer: "او می‌خواهد به آ'مان سفر کند." },
-        { question: "آیا پیتر اجازه کار در آ'مان را دارد؟ چرا؟", answer: "ب'ه، چون پاسپورت آ'مانی دارد." },
-        { question: "پیتر چرا او' می‌خواهد زبان را یاد بگیرد؟", answer: "او می‌خواهد او' زبان را بهتر یاد بگیرد، بعد کار کند." },
-        { question: "ماریا چه توصیه‌ای به پیتر می‌کند؟", answer: "او می‌گوید پیتر باید به خودش هم فکر کند و کار خودش را هم انجام دهد." }
+        { question: "Ù¾ÛŒØªØ± Ø³Ø§ل Ø¢ÛŒÙ†Ø¯Ù‡ Ú†Ù‡ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ø¯ Ø¨Ú©Ù†Ø¯ØŸ", answer: "Ø§Ùˆ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ø¯ Ø¨Ù‡ Ø¢لÙ…Ø§Ù† Ø³ÙØ± Ú©Ù†Ø¯." },
+        { question: "Ø¢ÛŒØ§ Ù¾ÛŒØªØ± Ø§Ø¬Ø§Ø²Ù‡ Ú©Ø§Ø± Ø¯Ø± Ø¢لÙ…Ø§Ù† Ø±Ø§ Ø¯Ø§Ø±Ø¯ØŸ Ú†Ø±Ø§ØŸ", answer: "Ø¨لÙ‡ØŒ Ú†ÙˆÙ† Ù¾Ø§Ø³Ù¾ÙˆØ±Øª Ø¢لÙ…Ø§Ù†ÛŒ Ø¯Ø§Ø±Ø¯." },
+        { question: "Ù¾ÛŒØªØ± Ú†Ø±Ø§ Ø§Ùˆل Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ø¯ Ø²Ø¨Ø§Ù† Ø±Ø§ ÛŒØ§Ø¯ Ø¨Ú¯ÛŒØ±Ø¯ØŸ", answer: "Ø§Ùˆ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ø¯ Ø§Ùˆل Ø²Ø¨Ø§Ù† Ø±Ø§ Ø¨Ù‡ØªØ± ÛŒØ§Ø¯ Ø¨Ú¯ÛŒØ±Ø¯ØŒ Ø¨Ø¹Ø¯ Ú©Ø§Ø± Ú©Ù†Ø¯." },
+        { question: "Ù…Ø§Ø±ÛŒØ§ Ú†Ù‡ ØªÙˆØµÛŒÙ‡â€ŒØ§ÛŒ Ø¨Ù‡ Ù¾ÛŒØªØ± Ù…ÛŒâ€ŒÚ©Ù†Ø¯ØŸ", answer: "Ø§Ùˆ Ù…ÛŒâ€ŒÚ¯ÙˆÛŒØ¯ Ù¾ÛŒØªØ± Ø¨Ø§ÛŒØ¯ Ø¨Ù‡ Ø®ÙˆØ¯Ø´ Ù‡Ù… ÙÚ©Ø± Ú©Ù†Ø¯ Ùˆ Ú©Ø§Ø± Ø®ÙˆØ¯Ø´ Ø±Ø§ Ù‡Ù… Ø§Ù†Ø¬Ø§Ù… Ø¯Ù‡Ø¯." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "نوشتن درباره توانایی‌ها و خواسته‌ها",
-      prompt: "یک پاراگراف (۶-۷ خط) درباره توانایی‌ها، اجبارها و خواسته‌های خود بنویسید. از حداق' ۵ فع' مودا' مخت'ف استفاده کنید.",
+      title: "Ù†ÙˆØ´ØªÙ† Ø¯Ø±Ø¨Ø§Ø±Ù‡ ØªÙˆØ§Ù†Ø§ÛŒÛŒâ€ŒÙ‡Ø§ Ùˆ Ø®ÙˆØ§Ø³ØªÙ‡â€ŒÙ‡Ø§",
+      prompt: "ÛŒÚ© Ù¾Ø§Ø±Ø§Ú¯Ø±Ø§Ù (Û¶-Û· Ø®Ø·) Ø¯Ø±Ø¨Ø§Ø±Ù‡ ØªÙˆØ§Ù†Ø§ÛŒÛŒâ€ŒÙ‡Ø§ØŒ Ø§Ø¬Ø¨Ø§Ø±Ù‡Ø§ Ùˆ Ø®ÙˆØ§Ø³ØªÙ‡â€ŒÙ‡Ø§ÛŒ Ø®ÙˆØ¯ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯. Ø§Ø² Ø­Ø¯Ø§Ù‚ل Ûµ ÙØ¹ل Ù…ÙˆØ¯Ø§ل Ù…Ø®ØªلÙ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.",
       steps: [
-        { title: "توانایی‌ها", text: "از können استفاده کنید.", example: { de: "Ich kann gut kochen.", fa: "آشپزی خوب ب'د هستم." } },
-        { title: "اجبارها", text: "از müssen و sollen استفاده کنید.", example: { de: "Ich muss jeden Tag arbeiten.", fa: "باید هر روز کار کنم." } },
-        { title: "خواسته‌ها", text: "از wollen و möchten استفاده کنید.", example: { de: "Ich möchte nächstes Jahr reisen.", fa: "سا' آینده می‌خواهم سفر کنم." } }
+        { title: "ØªÙˆØ§Ù†Ø§ÛŒÛŒâ€ŒÙ‡Ø§", text: "Ø§Ø² kÃ¶nnen Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.", example: { de: "Ich kann gut kochen.", fa: "Ø¢Ø´Ù¾Ø²ÛŒ Ø®ÙˆØ¨ Ø¨لØ¯ Ù‡Ø³ØªÙ…." } },
+        { title: "Ø§Ø¬Ø¨Ø§Ø±Ù‡Ø§", text: "Ø§Ø² mÃ¼ssen Ùˆ sollen Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.", example: { de: "Ich muss jeden Tag arbeiten.", fa: "Ø¨Ø§ÛŒØ¯ Ù‡Ø± Ø±ÙˆØ² Ú©Ø§Ø± Ú©Ù†Ù…." } },
+        { title: "Ø®ÙˆØ§Ø³ØªÙ‡â€ŒÙ‡Ø§", text: "Ø§Ø² wollen Ùˆ mÃ¶chten Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.", example: { de: "Ich mÃ¶chte nÃ¤chstes Jahr reisen.", fa: "Ø³Ø§ل Ø¢ÛŒÙ†Ø¯Ù‡ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ù… Ø³ÙØ± Ú©Ù†Ù…." } }
       ],
-      modelAnswer: "Ich kann Deutsch und Englisch sprechen. Ich muss jeden Tag zur Arbeit gehen und viele Aufgaben machen. Ich soll auch mehr Sport treiben, aber ich habe wenig Zeit. Ich will nächstes Jahr eine Reise nach Deutschland machen. Ich möchte dort studieren und neue Leute kennenlernen. Ich darf auch dort arbeiten, weil ich ein Visum habe. Mögen Sie das?"
+      modelAnswer: "Ich kann Deutsch und Englisch sprechen. Ich muss jeden Tag zur Arbeit gehen und viele Aufgaben machen. Ich soll auch mehr Sport treiben, aber ich habe wenig Zeit. Ich will nÃ¤chstes Jahr eine Reise nach Deutschland machen. Ich mÃ¶chte dort studieren und neue Leute kennenlernen. Ich darf auch dort arbeiten, weil ich ein Visum habe. MÃ¶gen Sie das?"
     }
   ],
 
   listening: [
     {
-      title: "گوش دادن: مکا'مات با مودا'‌ها",
+      title: "Ú¯ÙˆØ´ Ø¯Ø§Ø¯Ù†: Ù…Ú©Ø§لÙ…Ø§Øª Ø¨Ø§ Ù…ÙˆØ¯Ø§لâ€ŒÙ‡Ø§",
       source: "Deutsche Welle",
       link: "https://www.dw.com/de/langsam-gesprochene-nachrichten/s-60048529",
-      instructions: "به مکا'مات گوش دهید و افعا' مودا' را شناسایی کنید. بنویسید هر کس چه کاری می‌تواند، باید یا می‌خواهد انجام دهد."
+      instructions: "Ø¨Ù‡ Ù…Ú©Ø§لÙ…Ø§Øª Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ Ø§ÙØ¹Ø§ل Ù…ÙˆØ¯Ø§ل Ø±Ø§ Ø´Ù†Ø§Ø³Ø§ÛŒÛŒ Ú©Ù†ÛŒØ¯. Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯ Ù‡Ø± Ú©Ø³ Ú†Ù‡ Ú©Ø§Ø±ÛŒ Ù…ÛŒâ€ŒØªÙˆØ§Ù†Ø¯ØŒ Ø¨Ø§ÛŒØ¯ ÛŒØ§ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ø¯ Ø§Ù†Ø¬Ø§Ù… Ø¯Ù‡Ø¯."
     }
   ],
 
   speaking: [
     {
-      title: "تمرین گفتاری: توانایی‌ها و خواسته‌ها",
+      title: "ØªÙ…Ø±ÛŒÙ† Ú¯ÙØªØ§Ø±ÛŒ: ØªÙˆØ§Ù†Ø§ÛŒÛŒâ€ŒÙ‡Ø§ Ùˆ Ø®ÙˆØ§Ø³ØªÙ‡â€ŒÙ‡Ø§",
       pattern: "Ich kann... Ich muss... Ich will... Ich darf...",
-      exercise: "درباره ۵ کاری که می‌توانید، باید و می‌خواهید انجام دهید صحبت کنید. از مودا'‌های مخت'ف استفاده کنید."
+      exercise: "Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ûµ Ú©Ø§Ø±ÛŒ Ú©Ù‡ Ù…ÛŒâ€ŒØªÙˆØ§Ù†ÛŒØ¯ØŒ Ø¨Ø§ÛŒØ¯ Ùˆ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡ÛŒØ¯ Ø§Ù†Ø¬Ø§Ù… Ø¯Ù‡ÛŒØ¯ ØµØ­Ø¨Øª Ú©Ù†ÛŒØ¯. Ø§Ø² Ù…ÙˆØ¯Ø§لâ€ŒÙ‡Ø§ÛŒ Ù…Ø®ØªلÙ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯."
     }
   ],
 
-  cultureTip: "در فرهنگ آ'مانی، تفاوت بین müssen و sollen بسیار مهم است. müssen بیانگر اجبار قانونی یا شخصی است (Ich muss zur Arbeit gehen)، در حا'یکه sollen بیانگر توصیه یا وظیفه اخ'اقی است (Du sollst pünktlich sein). استفاده اشتباه از این دو می‌تود باعث سوءتفاهم شود. همچنین فع' dürfen در آ'مان برای بیان قوانین و مقررات بسیار رایج است.",
+  cultureTip: "Ø¯Ø± ÙØ±Ù‡Ù†Ú¯ Ø¢لÙ…Ø§Ù†ÛŒØŒ ØªÙØ§ÙˆØª Ø¨ÛŒÙ† mÃ¼ssen Ùˆ sollen Ø¨Ø³ÛŒØ§Ø± Ù…Ù‡Ù… Ø§Ø³Øª. mÃ¼ssen Ø¨ÛŒØ§Ù†Ú¯Ø± Ø§Ø¬Ø¨Ø§Ø± Ù‚Ø§Ù†ÙˆÙ†ÛŒ ÛŒØ§ Ø´Ø®ØµÛŒ Ø§Ø³Øª (Ich muss zur Arbeit gehen)ØŒ Ø¯Ø± Ø­Ø§لÛŒÚ©Ù‡ sollen Ø¨ÛŒØ§Ù†Ú¯Ø± ØªÙˆØµÛŒÙ‡ ÛŒØ§ ÙˆØ¸ÛŒÙÙ‡ Ø§Ø®لØ§Ù‚ÛŒ Ø§Ø³Øª (Du sollst pÃ¼nktlich sein). Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø´ØªØ¨Ø§Ù‡ Ø§Ø² Ø§ÛŒÙ† Ø¯Ùˆ Ù…ÛŒâ€ŒØªÙˆØ¯ Ø¨Ø§Ø¹Ø« Ø³ÙˆØ¡ØªÙØ§Ù‡Ù… Ø´ÙˆØ¯. Ù‡Ù…Ú†Ù†ÛŒÙ† ÙØ¹ل dÃ¼rfen Ø¯Ø± Ø¢لÙ…Ø§Ù† Ø¨Ø±Ø§ÛŒ Ø¨ÛŒØ§Ù† Ù‚ÙˆØ§Ù†ÛŒÙ† Ùˆ Ù…Ù‚Ø±Ø±Ø§Øª Ø¨Ø³ÛŒØ§Ø± Ø±Ø§ÛŒØ¬ Ø§Ø³Øª.",
 
   examData: {
     questions: [
-      { question: "من باید فردا زود ب'ند شوم:", options: ["Ich muss morgen früh aufstehen.", "Ich will morgen früh aufstehen.", "Ich kann morgen früh aufstehen.", "Ich darf morgen früh aufstehen."], answer: 0 },
-      { question: "آیا اجازه دارم اینجا بشینم؟", options: ["Kann ich hier sitzen?", "Darf ich hier sitzen?", "Muss ich hier sitzen?", "Will ich hier sitzen?"], answer: 1 },
-      { question: "او می‌خواهد پزشک شود:", options: ["Er will Arzt werden.", "Er kann Arzt werden.", "Er muss Arzt werden.", "Er darf Arzt werden."], answer: 0 },
-      { question: "آشپزی ب'دم:", options: ["Ich muss kochen.", "Ich will kochen.", "Ich kann kochen.", "Ich soll kochen."], answer: 2 },
-      { question: "تو باید بیشتر بخوابی:", options: ["Du musst mehr schlafen.", "Du sollst mehr schlafen.", "Du kannst mehr schlafen.", "Du willst mehr schlafen."], answer: 1 },
-      { question: "کدام مودا' دوگانه است؟", options: ["Ich kann das machen.", "Das muss ich können.", "Ich will das machen.", "Ich soll das machen."], answer: 1 },
-      { question: "ما می‌خواهیم رزرو کنیم:", options: ["Wir müssen reservieren.", "Wir können reservieren.", "Wir möchten reservieren.", "Wir sollen reservieren."], answer: 2 },
-      { question: "دوست داشتن:", options: ["wollen", "können", "mögen", "dürfen"], answer: 2 },
-      { question: "کودکان اجازه ندارند سیگار بکشند:", options: ["Kinder müssen nicht rauchen.", "Kinder dürfen nicht rauchen.", "Kinder sollen nicht rauchen.", "Kinder können nicht rauchen."], answer: 1 },
-      { question: "Ich ___ gut schwimmen. (ب'دم)", options: ["muss", "darf", "kann", "will"], answer: 2 }
+      { question: "Ù…Ù† Ø¨Ø§ÛŒØ¯ ÙØ±Ø¯Ø§ Ø²ÙˆØ¯ Ø¨لÙ†Ø¯ Ø´ÙˆÙ…:", options: ["Ich muss morgen frÃ¼h aufstehen.", "Ich will morgen frÃ¼h aufstehen.", "Ich kann morgen frÃ¼h aufstehen.", "Ich darf morgen frÃ¼h aufstehen."], answer: 0 },
+      { question: "Ø¢ÛŒØ§ Ø§Ø¬Ø§Ø²Ù‡ Ø¯Ø§Ø±Ù… Ø§ÛŒÙ†Ø¬Ø§ Ø¨Ø´ÛŒÙ†Ù…ØŸ", options: ["Kann ich hier sitzen?", "Darf ich hier sitzen?", "Muss ich hier sitzen?", "Will ich hier sitzen?"], answer: 1 },
+      { question: "Ø§Ùˆ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡Ø¯ Ù¾Ø²Ø´Ú© Ø´ÙˆØ¯:", options: ["Er will Arzt werden.", "Er kann Arzt werden.", "Er muss Arzt werden.", "Er darf Arzt werden."], answer: 0 },
+      { question: "Ø¢Ø´Ù¾Ø²ÛŒ Ø¨لØ¯Ù…:", options: ["Ich muss kochen.", "Ich will kochen.", "Ich kann kochen.", "Ich soll kochen."], answer: 2 },
+      { question: "ØªÙˆ Ø¨Ø§ÛŒØ¯ Ø¨ÛŒØ´ØªØ± Ø¨Ø®ÙˆØ§Ø¨ÛŒ:", options: ["Du musst mehr schlafen.", "Du sollst mehr schlafen.", "Du kannst mehr schlafen.", "Du willst mehr schlafen."], answer: 1 },
+      { question: "Ú©Ø¯Ø§Ù… Ù…ÙˆØ¯Ø§ل Ø¯ÙˆÚ¯Ø§Ù†Ù‡ Ø§Ø³ØªØŸ", options: ["Ich kann das machen.", "Das muss ich kÃ¶nnen.", "Ich will das machen.", "Ich soll das machen."], answer: 1 },
+      { question: "Ù…Ø§ Ù…ÛŒâ€ŒØ®ÙˆØ§Ù‡ÛŒÙ… Ø±Ø²Ø±Ùˆ Ú©Ù†ÛŒÙ…:", options: ["Wir mÃ¼ssen reservieren.", "Wir kÃ¶nnen reservieren.", "Wir mÃ¶chten reservieren.", "Wir sollen reservieren."], answer: 2 },
+      { question: "Ø¯ÙˆØ³Øª Ø¯Ø§Ø´ØªÙ†:", options: ["wollen", "kÃ¶nnen", "mÃ¶gen", "dÃ¼rfen"], answer: 2 },
+      { question: "Ú©ÙˆØ¯Ú©Ø§Ù† Ø§Ø¬Ø§Ø²Ù‡ Ù†Ø¯Ø§Ø±Ù†Ø¯ Ø³ÛŒÚ¯Ø§Ø± Ø¨Ú©Ø´Ù†Ø¯:", options: ["Kinder mÃ¼ssen nicht rauchen.", "Kinder dÃ¼rfen nicht rauchen.", "Kinder sollen nicht rauchen.", "Kinder kÃ¶nnen nicht rauchen."], answer: 1 },
+      { question: "Ich ___ gut schwimmen. (Ø¨لØ¯Ù…)", options: ["muss", "darf", "kann", "will"], answer: 2 }
     ]
   }
 };

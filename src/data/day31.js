@@ -1,53 +1,53 @@
 export const day31Data = {
-  title: "روز ۳۱: هوا + جم'ات شرطی با wenn",
-  objective: "یادگیری واژگان آب‌وهوا، بیان آب‌وهوا و استفاده از جم'ات شرطی با wenn",
+  title: "Ø±ÙˆØ² Û³Û±: Ù‡ÙˆØ§ + Ø¬Ù…لØ§Øª Ø´Ø±Ø·ÛŒ Ø¨Ø§ wenn",
+  objective: "ÛŒØ§Ø¯Ú¯ÛŒØ±ÛŒ ÙˆØ§Ú˜Ú¯Ø§Ù† Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§ØŒ Ø¨ÛŒØ§Ù† Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§ Ùˆ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Ø¬Ù…لØ§Øª Ø´Ø±Ø·ÛŒ Ø¨Ø§ wenn",
 
   grammarData: {
-    subtitle: "جم'ات شرطی زمانی با wenn",
+    subtitle: "Ø¬Ù…لØ§Øª Ø´Ø±Ø·ÛŒ Ø²Ù…Ø§Ù†ÛŒ Ø¨Ø§ wenn",
     content: [
       {
         type: "text",
-        title: "جم'ه شرطی با wenn چیست؟",
-        text: "ک'مه wenn در آ'مانی دو معنی دارد: ۱. اگر (شرطی) ۲. وقتی (زمانی). در هر دو حا'ت، wenn یک Subjunktion است، یعنی فع' را به آخر جم'ه می‌فرستد. اما فع' جم'ه اص'ی (Hauptsatz) ب'افاص'ه بعد از کاما به جایگاه ۲ می‌آید."
+        title: "Ø¬Ù…لÙ‡ Ø´Ø±Ø·ÛŒ Ø¨Ø§ wenn Ú†ÛŒØ³ØªØŸ",
+        text: "Ú©لÙ…Ù‡ wenn Ø¯Ø± Ø¢لÙ…Ø§Ù†ÛŒ Ø¯Ùˆ Ù…Ø¹Ù†ÛŒ Ø¯Ø§Ø±Ø¯: Û±. Ø§Ú¯Ø± (Ø´Ø±Ø·ÛŒ) Û². ÙˆÙ‚ØªÛŒ (Ø²Ù…Ø§Ù†ÛŒ). Ø¯Ø± Ù‡Ø± Ø¯Ùˆ Ø­Ø§لØªØŒ wenn ÛŒÚ© Subjunktion Ø§Ø³ØªØŒ ÛŒØ¹Ù†ÛŒ ÙØ¹ل Ø±Ø§ Ø¨Ù‡ Ø¢Ø®Ø± Ø¬Ù…لÙ‡ Ù…ÛŒâ€ŒÙØ±Ø³ØªØ¯. Ø§Ù…Ø§ ÙØ¹ل Ø¬Ù…لÙ‡ Ø§ØµلÛŒ (Hauptsatz) Ø¨لØ§ÙØ§ØµلÙ‡ Ø¨Ø¹Ø¯ Ø§Ø² Ú©Ø§Ù…Ø§ Ø¨Ù‡ Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Û² Ù…ÛŒâ€ŒØ¢ÛŒØ¯."
       },
       {
         type: "alert",
-        title: "فرمو' مهم!",
-        text: "Wenn + فاع' + بقیه ک'مات + فع' در آخر (کاما) → فاع' + فع' در جایگاه ۲ + بقیه ک'مات. مثا': Wenn es regnet, bleibe ich zu Hause. (اگر/وقتی باران بیاید، در خانه می‌مانم.)"
+        title: "ÙØ±Ù…Ùˆل Ù…Ù‡Ù…!",
+        text: "Wenn + ÙØ§Ø¹ل + Ø¨Ù‚ÛŒÙ‡ Ú©لÙ…Ø§Øª + ÙØ¹ل Ø¯Ø± Ø¢Ø®Ø± (Ú©Ø§Ù…Ø§) â†’ ÙØ§Ø¹ل + ÙØ¹ل Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Û² + Ø¨Ù‚ÛŒÙ‡ Ú©لÙ…Ø§Øª. Ù…Ø«Ø§ل: Wenn es regnet, bleibe ich zu Hause. (Ø§Ú¯Ø±/ÙˆÙ‚ØªÛŒ Ø¨Ø§Ø±Ø§Ù† Ø¨ÛŒØ§ÛŒØ¯ØŒ Ø¯Ø± Ø®Ø§Ù†Ù‡ Ù…ÛŒâ€ŒÙ…Ø§Ù†Ù….)"
       },
       {
         type: "examples",
-        title: "مثا'‌های کاربردی آب‌وهوا با wenn",
+        title: "Ù…Ø«Ø§لâ€ŒÙ‡Ø§ÛŒ Ú©Ø§Ø±Ø¨Ø±Ø¯ÛŒ Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§ Ø¨Ø§ wenn",
         items: [
-          { de: "Wenn es regnet, nehme ich einen Regenschirm mit.", fa: "وقتی باران می‌آید، چتر با خودم می‌برم." },
-          { de: "Wenn die Sonne scheint, gehe ich spazieren.", fa: "وقتی آفتاب می‌تابد، پیاده‌روی می‌روم." },
-          { de: "Wenn es schneit, bleiben die Kinder zu Hause.", fa: "وقتی برف می‌آید، بچه‌ها در خانه می‌مانند." },
-          { de: "Wenn es kalt ist, trage ich einen Mantel.", fa: "وقتی هوا سرد است، پا'تو می‌پوشم." },
-          { de: "Wenn es windig ist, fliegen wir keinen Drachen.", fa: "وقتی باد می‌وزد، بادبادک پرواز نمی‌دهیم." },
-          { de: "Im Sommer ist es oft heiß, deshalb gehen wir schwimmen.", fa: "تابستان اغ'ب هوا گرم است، به همین د'ی' شنا می‌رویم." }
+          { de: "Wenn es regnet, nehme ich einen Regenschirm mit.", fa: "ÙˆÙ‚ØªÛŒ Ø¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¢ÛŒØ¯ØŒ Ú†ØªØ± Ø¨Ø§ Ø®ÙˆØ¯Ù… Ù…ÛŒâ€ŒØ¨Ø±Ù…." },
+          { de: "Wenn die Sonne scheint, gehe ich spazieren.", fa: "ÙˆÙ‚ØªÛŒ Ø¢ÙØªØ§Ø¨ Ù…ÛŒâ€ŒØªØ§Ø¨Ø¯ØŒ Ù¾ÛŒØ§Ø¯Ù‡â€ŒØ±ÙˆÛŒ Ù…ÛŒâ€ŒØ±ÙˆÙ…." },
+          { de: "Wenn es schneit, bleiben die Kinder zu Hause.", fa: "ÙˆÙ‚ØªÛŒ Ø¨Ø±Ù Ù…ÛŒâ€ŒØ¢ÛŒØ¯ØŒ Ø¨Ú†Ù‡â€ŒÙ‡Ø§ Ø¯Ø± Ø®Ø§Ù†Ù‡ Ù…ÛŒâ€ŒÙ…Ø§Ù†Ù†Ø¯." },
+          { de: "Wenn es kalt ist, trage ich einen Mantel.", fa: "ÙˆÙ‚ØªÛŒ Ù‡ÙˆØ§ Ø³Ø±Ø¯ Ø§Ø³ØªØŒ Ù¾Ø§لØªÙˆ Ù…ÛŒâ€ŒÙ¾ÙˆØ´Ù…." },
+          { de: "Wenn es windig ist, fliegen wir keinen Drachen.", fa: "ÙˆÙ‚ØªÛŒ Ø¨Ø§Ø¯ Ù…ÛŒâ€ŒÙˆØ²Ø¯ØŒ Ø¨Ø§Ø¯Ø¨Ø§Ø¯Ú© Ù¾Ø±ÙˆØ§Ø² Ù†Ù…ÛŒâ€ŒØ¯Ù‡ÛŒÙ…." },
+          { de: "Im Sommer ist es oft heiÃŸ, deshalb gehen wir schwimmen.", fa: "ØªØ§Ø¨Ø³ØªØ§Ù† Ø§ØºلØ¨ Ù‡ÙˆØ§ Ú¯Ø±Ù… Ø§Ø³ØªØŒ Ø¨Ù‡ Ù‡Ù…ÛŒÙ† Ø¯لÛŒل Ø´Ù†Ø§ Ù…ÛŒâ€ŒØ±ÙˆÛŒÙ…." }
         ]
       },
       {
         type: "table",
-        title: "واژگان آب‌وهوا (Wetter)",
+        title: "ÙˆØ§Ú˜Ú¯Ø§Ù† Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§ (Wetter)",
         rows: [
-          { de: "es regnet", fa: "باران می‌آید" },
-          { de: "es schneit", fa: "برف می‌آید" },
-          { de: "es ist bewölkt", fa: "هوا ابری است" },
-          { de: "die Sonne scheint", fa: "آفتاب می‌تابد" },
-          { de: "es ist windig", fa: "باد می‌وزد" },
-          { de: "es ist neblig", fa: "مه‌آ'ود است" },
-          { de: "es ist heiß / warm / kalt / kühl", fa: "هوا داغ / گرم / سرد / خنک است" },
-          { de: "das Gewitter", fa: "رعد و برق" },
-          { de: "der Regenbogen", fa: "رنگین‌کمان" }
+          { de: "es regnet", fa: "Ø¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¢ÛŒØ¯" },
+          { de: "es schneit", fa: "Ø¨Ø±Ù Ù…ÛŒâ€ŒØ¢ÛŒØ¯" },
+          { de: "es ist bewÃ¶lkt", fa: "Ù‡ÙˆØ§ Ø§Ø¨Ø±ÛŒ Ø§Ø³Øª" },
+          { de: "die Sonne scheint", fa: "Ø¢ÙØªØ§Ø¨ Ù…ÛŒâ€ŒØªØ§Ø¨Ø¯" },
+          { de: "es ist windig", fa: "Ø¨Ø§Ø¯ Ù…ÛŒâ€ŒÙˆØ²Ø¯" },
+          { de: "es ist neblig", fa: "Ù…Ù‡â€ŒØ¢لÙˆØ¯ Ø§Ø³Øª" },
+          { de: "es ist heiÃŸ / warm / kalt / kÃ¼hl", fa: "Ù‡ÙˆØ§ Ø¯Ø§Øº / Ú¯Ø±Ù… / Ø³Ø±Ø¯ / Ø®Ù†Ú© Ø§Ø³Øª" },
+          { de: "das Gewitter", fa: "Ø±Ø¹Ø¯ Ùˆ Ø¨Ø±Ù‚" },
+          { de: "der Regenbogen", fa: "Ø±Ù†Ú¯ÛŒÙ†â€ŒÚ©Ù…Ø§Ù†" }
         ]
       },
       {
         type: "interactive_quiz",
-        title: "تست جم'ات wenn",
+        title: "ØªØ³Øª Ø¬Ù…لØ§Øª wenn",
         questions: [
           {
-            question: "کدام جم'ه صحیح است؟ «وقتی باران می‌آید، در خانه می‌مانم.»",
+            question: "Ú©Ø¯Ø§Ù… Ø¬Ù…لÙ‡ ØµØ­ÛŒØ­ Ø§Ø³ØªØŸ Â«ÙˆÙ‚ØªÛŒ Ø¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¢ÛŒØ¯ØŒ Ø¯Ø± Ø®Ø§Ù†Ù‡ Ù…ÛŒâ€ŒÙ…Ø§Ù†Ù….Â»",
             questionDe: "Welcher Satz ist richtig?",
             options: [
               { text: "Wenn es regnet, ich bleibe zu Hause.", isCorrect: false },
@@ -55,10 +55,10 @@ export const day31Data = {
               { text: "Es regnet wenn, bleibe ich zu Hause.", isCorrect: false },
               { text: "Ich bleibe zu Hause wenn es regnet.", isCorrect: false }
             ],
-            explanation: "بعد از کاما، فع' (bleibe) به جایگاه ۲ می‌آید و سپس فاع' (ich). این قانون همیشه اجرا می‌شود."
+            explanation: "Ø¨Ø¹Ø¯ Ø§Ø² Ú©Ø§Ù…Ø§ØŒ ÙØ¹ل (bleibe) Ø¨Ù‡ Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Û² Ù…ÛŒâ€ŒØ¢ÛŒØ¯ Ùˆ Ø³Ù¾Ø³ ÙØ§Ø¹ل (ich). Ø§ÛŒÙ† Ù‚Ø§Ù†ÙˆÙ† Ù‡Ù…ÛŒØ´Ù‡ Ø§Ø¬Ø±Ø§ Ù…ÛŒâ€ŒØ´ÙˆØ¯."
           },
           {
-            question: "فع' در کدام جایگاه قرار می‌گیرد؟ Wenn die Sonne ___, ___ wir im Park.",
+            question: "ÙØ¹ل Ø¯Ø± Ú©Ø¯Ø§Ù… Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Ù‚Ø±Ø§Ø± Ù…ÛŒâ€ŒÚ¯ÛŒØ±Ø¯ØŸ Wenn die Sonne ___, ___ wir im Park.",
             questionDe: "Wo steht das Verb?",
             options: [
               { text: "scheint / spielen", isCorrect: true },
@@ -66,23 +66,23 @@ export const day31Data = {
               { text: "scheint / wir spielen", isCorrect: false },
               { text: "spielen / wir scheint", isCorrect: false }
             ],
-            explanation: "scheint در آخر جم'ه wenn و spielen در جایگاه ۲ جم'ه اص'ی."
+            explanation: "scheint Ø¯Ø± Ø¢Ø®Ø± Ø¬Ù…لÙ‡ wenn Ùˆ spielen Ø¯Ø± Ø¬Ø§ÛŒÚ¯Ø§Ù‡ Û² Ø¬Ù…لÙ‡ Ø§ØµلÛŒ."
           }
         ]
       },
       {
         type: "fill_blank",
-        title: "تکمی' جم'ات آب‌وهوا",
-        instruction: "جای خا'ی را با شک' صحیح فع' پر کنید.",
+        title: "ØªÚ©Ù…ÛŒل Ø¬Ù…لØ§Øª Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§",
+        instruction: "Ø¬Ø§ÛŒ Ø®Ø§لÛŒ Ø±Ø§ Ø¨Ø§ Ø´Ú©ل ØµØ­ÛŒØ­ ÙØ¹ل Ù¾Ø± Ú©Ù†ÛŒØ¯.",
         blanks: [
-          { sentence: "Wenn es ___, gehe ich nicht raus. (باران)", answer: "regnet", hint: "باران آمدن = es regnet" },
-          { sentence: "Wenn die Sonne ___, gehe ich spazieren. (می‌تابد)", answer: "scheint", hint: "آفتاب تابیدن = die Sonne scheint" },
-          { sentence: "Wenn es ___ ist, trage ich eine Jacke. (سرد)", answer: "kalt", hint: "سرد = kalt" },
-          { sentence: "Wenn es ___, bleiben die Kinder zu Hause. (برف)", answer: "schneit", hint: "برف آمدن = es schneit" },
-          { sentence: "Im Winter ist es oft ___. (ابری)", answer: "bewölkt", hint: "ابری = bewölkt" },
-          { sentence: "Wenn es ___ ist, bleibe ich drinnen. (گرم)", answer: "heiß", hint: "گرم = heiß" },
-          { sentence: "___ es regnet, nehme ich einen Schirm.", answer: "Wenn", hint: "اگر/وقتی = wenn" },
-          { sentence: "Im Frühling ___ die Sonne oft. (می‌تابد)", answer: "scheint", hint: "تابیدن = scheinen → scheint" }
+          { sentence: "Wenn es ___, gehe ich nicht raus. (Ø¨Ø§Ø±Ø§Ù†)", answer: "regnet", hint: "Ø¨Ø§Ø±Ø§Ù† Ø¢Ù…Ø¯Ù† = es regnet" },
+          { sentence: "Wenn die Sonne ___, gehe ich spazieren. (Ù…ÛŒâ€ŒØªØ§Ø¨Ø¯)", answer: "scheint", hint: "Ø¢ÙØªØ§Ø¨ ØªØ§Ø¨ÛŒØ¯Ù† = die Sonne scheint" },
+          { sentence: "Wenn es ___ ist, trage ich eine Jacke. (Ø³Ø±Ø¯)", answer: "kalt", hint: "Ø³Ø±Ø¯ = kalt" },
+          { sentence: "Wenn es ___, bleiben die Kinder zu Hause. (Ø¨Ø±Ù)", answer: "schneit", hint: "Ø¨Ø±Ù Ø¢Ù…Ø¯Ù† = es schneit" },
+          { sentence: "Im Winter ist es oft ___. (Ø§Ø¨Ø±ÛŒ)", answer: "bewÃ¶lkt", hint: "Ø§Ø¨Ø±ÛŒ = bewÃ¶lkt" },
+          { sentence: "Wenn es ___ ist, bleibe ich drinnen. (Ú¯Ø±Ù…)", answer: "heiÃŸ", hint: "Ú¯Ø±Ù… = heiÃŸ" },
+          { sentence: "___ es regnet, nehme ich einen Schirm.", answer: "Wenn", hint: "Ø§Ú¯Ø±/ÙˆÙ‚ØªÛŒ = wenn" },
+          { sentence: "Im FrÃ¼hling ___ die Sonne oft. (Ù…ÛŒâ€ŒØªØ§Ø¨Ø¯)", answer: "scheint", hint: "ØªØ§Ø¨ÛŒØ¯Ù† = scheinen â†’ scheint" }
         ]
       }
     ]
@@ -91,23 +91,23 @@ export const day31Data = {
   vocabData: {
     categories: [
       {
-        title: "آب‌وهوا (Das Wetter)",
+        title: "Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§ (Das Wetter)",
         words: [
-          { de: "der Regen", fa: "باران", article: "der", plural: "-", examples: [{ de: "Der Regen ist stark heute.", fa: "امروز باران شدید است." }] },
-          { de: "der Schnee", fa: "برف", article: "der", plural: "-", examples: [{ de: "Im Winter liegt viel Schnee.", fa: "زمستان برف زیادی می‌نشیند." }] },
-          { de: "die Sonne", fa: "آفتاب / خورشید", article: "die", plural: "-", examples: [{ de: "Die Sonne scheint hell.", fa: "آفتاب درخشان می‌تابد." }] },
-          { de: "der Wind", fa: "باد", article: "der", plural: "die Winde", examples: [{ de: "Heute ist es sehr windig.", fa: "امروز خی'ی باد می‌وزد." }] },
-          { de: "die Wolke", fa: "ابر", article: "die", plural: "die Wolken", examples: [{ de: "Am Himmel sind viele Wolken.", fa: "در آسمان ابرهای زیادی هست." }] },
-          { de: "die Temperatur", fa: "دما", article: "die", plural: "die Temperaturen", examples: [{ de: "Die Temperatur liegt bei 25 Grad.", fa: "دما ۲۵ درجه است." }] }
+          { de: "der Regen", fa: "Ø¨Ø§Ø±Ø§Ù†", article: "der", plural: "-", examples: [{ de: "Der Regen ist stark heute.", fa: "Ø§Ù…Ø±ÙˆØ² Ø¨Ø§Ø±Ø§Ù† Ø´Ø¯ÛŒØ¯ Ø§Ø³Øª." }] },
+          { de: "der Schnee", fa: "Ø¨Ø±Ù", article: "der", plural: "-", examples: [{ de: "Im Winter liegt viel Schnee.", fa: "Ø²Ù…Ø³ØªØ§Ù† Ø¨Ø±Ù Ø²ÛŒØ§Ø¯ÛŒ Ù…ÛŒâ€ŒÙ†Ø´ÛŒÙ†Ø¯." }] },
+          { de: "die Sonne", fa: "Ø¢ÙØªØ§Ø¨ / Ø®ÙˆØ±Ø´ÛŒØ¯", article: "die", plural: "-", examples: [{ de: "Die Sonne scheint hell.", fa: "Ø¢ÙØªØ§Ø¨ Ø¯Ø±Ø®Ø´Ø§Ù† Ù…ÛŒâ€ŒØªØ§Ø¨Ø¯." }] },
+          { de: "der Wind", fa: "Ø¨Ø§Ø¯", article: "der", plural: "die Winde", examples: [{ de: "Heute ist es sehr windig.", fa: "Ø§Ù…Ø±ÙˆØ² Ø®ÛŒلÛŒ Ø¨Ø§Ø¯ Ù…ÛŒâ€ŒÙˆØ²Ø¯." }] },
+          { de: "die Wolke", fa: "Ø§Ø¨Ø±", article: "die", plural: "die Wolken", examples: [{ de: "Am Himmel sind viele Wolken.", fa: "Ø¯Ø± Ø¢Ø³Ù…Ø§Ù† Ø§Ø¨Ø±Ù‡Ø§ÛŒ Ø²ÛŒØ§Ø¯ÛŒ Ù‡Ø³Øª." }] },
+          { de: "die Temperatur", fa: "Ø¯Ù…Ø§", article: "die", plural: "die Temperaturen", examples: [{ de: "Die Temperatur liegt bei 25 Grad.", fa: "Ø¯Ù…Ø§ Û²Ûµ Ø¯Ø±Ø¬Ù‡ Ø§Ø³Øª." }] }
         ]
       },
       {
-        title: "فع'‌های آب‌وهوا",
+        title: "ÙØ¹لâ€ŒÙ‡Ø§ÛŒ Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§",
         words: [
-          { de: "regnen", fa: "باریدن (باران)", article: "-", plural: "-", examples: [{ de: "Es regnet den ganzen Tag.", fa: "تمام روز باران می‌آید." }] },
-          { de: "schneien", fa: "باریدن (برف)", article: "-", plural: "-", examples: [{ de: "Morgen wird es schneien.", fa: "فردا برف خواهد آمد." }] },
-          { de: "scheinen", fa: "تابیدن", article: "-", plural: "-", examples: [{ de: "Die Sonne scheint.", fa: "آفتاب می‌تابد." }] },
-          { de: "wehen", fa: "وزیدن (باد)", article: "-", plural: "-", examples: [{ de: "Der Wind weht stark.", fa: "باد شدید می‌وزد." }] }
+          { de: "regnen", fa: "Ø¨Ø§Ø±ÛŒØ¯Ù† (Ø¨Ø§Ø±Ø§Ù†)", article: "-", plural: "-", examples: [{ de: "Es regnet den ganzen Tag.", fa: "ØªÙ…Ø§Ù… Ø±ÙˆØ² Ø¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¢ÛŒØ¯." }] },
+          { de: "schneien", fa: "Ø¨Ø§Ø±ÛŒØ¯Ù† (Ø¨Ø±Ù)", article: "-", plural: "-", examples: [{ de: "Morgen wird es schneien.", fa: "ÙØ±Ø¯Ø§ Ø¨Ø±Ù Ø®ÙˆØ§Ù‡Ø¯ Ø¢Ù…Ø¯." }] },
+          { de: "scheinen", fa: "ØªØ§Ø¨ÛŒØ¯Ù†", article: "-", plural: "-", examples: [{ de: "Die Sonne scheint.", fa: "Ø¢ÙØªØ§Ø¨ Ù…ÛŒâ€ŒØªØ§Ø¨Ø¯." }] },
+          { de: "wehen", fa: "ÙˆØ²ÛŒØ¯Ù† (Ø¨Ø§Ø¯)", article: "-", plural: "-", examples: [{ de: "Der Wind weht stark.", fa: "Ø¨Ø§Ø¯ Ø´Ø¯ÛŒØ¯ Ù…ÛŒâ€ŒÙˆØ²Ø¯." }] }
         ]
       }
     ]
@@ -115,60 +115,60 @@ export const day31Data = {
 
   reading: [
     {
-      text: "Das Wetter in Deutschland\n\nDas Wetter in Deutschland ist sehr unterschiedlich. Im Frühling ist es oft bewölkt und es regnet viel. Wenn die Sonne scheint, gehen viele Menschen in den Park. Im Sommer kann es sehr heiß werden, manchmal über 30 Grad. Dann gehen die Leute schwimmen.\nIm Herbst wird es kühler und die Blätter werden bunt. Wenn es windig ist, fallen die Blätter von den Bäumen. Der Winter ist kalt und manchmal schneit es. Wenn es schneit, spielen die Kinder draußen im Schnee. Wenn es sehr kalt ist, bleiben sie aber zu Hause.",
+      text: "Das Wetter in Deutschland\n\nDas Wetter in Deutschland ist sehr unterschiedlich. Im FrÃ¼hling ist es oft bewÃ¶lkt und es regnet viel. Wenn die Sonne scheint, gehen viele Menschen in den Park. Im Sommer kann es sehr heiÃŸ werden, manchmal Ã¼ber 30 Grad. Dann gehen die Leute schwimmen.\nIm Herbst wird es kÃ¼hler und die BlÃ¤tter werden bunt. Wenn es windig ist, fallen die BlÃ¤tter von den BÃ¤umen. Der Winter ist kalt und manchmal schneit es. Wenn es schneit, spielen die Kinder drauÃŸen im Schnee. Wenn es sehr kalt ist, bleiben sie aber zu Hause.",
       questions: [
-        { question: "آب‌وهوا در بهار چگونه است؟", answer: "اغ'ب ابری است و باران زیادی می‌آید." },
-        { question: "مردم وقتی آفتاب می‌تابد چه کار می‌کنند؟", answer: "به پارک می‌روند." },
-        { question: "وقتی باد می‌وزد چه اتفاقی می‌افتد؟", answer: "برگ‌ها از درخت‌ها می‌ریزند." },
-        { question: "بچه‌ها در زمستان چه کار می‌کنند؟", answer: "وقتی برف می‌آید بیرون بازی می‌کنند، اما وقتی خی'ی سرد است در خانه می‌مانند." }
+        { question: "Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§ Ø¯Ø± Ø¨Ù‡Ø§Ø± Ú†Ú¯ÙˆÙ†Ù‡ Ø§Ø³ØªØŸ", answer: "Ø§ØºلØ¨ Ø§Ø¨Ø±ÛŒ Ø§Ø³Øª Ùˆ Ø¨Ø§Ø±Ø§Ù† Ø²ÛŒØ§Ø¯ÛŒ Ù…ÛŒâ€ŒØ¢ÛŒØ¯." },
+        { question: "Ù…Ø±Ø¯Ù… ÙˆÙ‚ØªÛŒ Ø¢ÙØªØ§Ø¨ Ù…ÛŒâ€ŒØªØ§Ø¨Ø¯ Ú†Ù‡ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯ØŸ", answer: "Ø¨Ù‡ Ù¾Ø§Ø±Ú© Ù…ÛŒâ€ŒØ±ÙˆÙ†Ø¯." },
+        { question: "ÙˆÙ‚ØªÛŒ Ø¨Ø§Ø¯ Ù…ÛŒâ€ŒÙˆØ²Ø¯ Ú†Ù‡ Ø§ØªÙØ§Ù‚ÛŒ Ù…ÛŒâ€ŒØ§ÙØªØ¯ØŸ", answer: "Ø¨Ø±Ú¯â€ŒÙ‡Ø§ Ø§Ø² Ø¯Ø±Ø®Øªâ€ŒÙ‡Ø§ Ù…ÛŒâ€ŒØ±ÛŒØ²Ù†Ø¯." },
+        { question: "Ø¨Ú†Ù‡â€ŒÙ‡Ø§ Ø¯Ø± Ø²Ù…Ø³ØªØ§Ù† Ú†Ù‡ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯ØŸ", answer: "ÙˆÙ‚ØªÛŒ Ø¨Ø±Ù Ù…ÛŒâ€ŒØ¢ÛŒØ¯ Ø¨ÛŒØ±ÙˆÙ† Ø¨Ø§Ø²ÛŒ Ù…ÛŒâ€ŒÚ©Ù†Ù†Ø¯ØŒ Ø§Ù…Ø§ ÙˆÙ‚ØªÛŒ Ø®ÛŒلÛŒ Ø³Ø±Ø¯ Ø§Ø³Øª Ø¯Ø± Ø®Ø§Ù†Ù‡ Ù…ÛŒâ€ŒÙ…Ø§Ù†Ù†Ø¯." }
       ]
     }
   ],
 
   writing: [
     {
-      title: "نوشتن درباره آب‌وهوا",
-      prompt: "یک پاراگراف (۶ خط) درباره آب‌وهوا در شهر خود بنویسید. از جم'ات شرطی با wenn استفاده کنید.",
+      title: "Ù†ÙˆØ´ØªÙ† Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§",
+      prompt: "ÛŒÚ© Ù¾Ø§Ø±Ø§Ú¯Ø±Ø§Ù (Û¶ Ø®Ø·) Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§ Ø¯Ø± Ø´Ù‡Ø± Ø®ÙˆØ¯ Ø¨Ù†ÙˆÛŒØ³ÛŒØ¯. Ø§Ø² Ø¬Ù…لØ§Øª Ø´Ø±Ø·ÛŒ Ø¨Ø§ wenn Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.",
       steps: [
-        { title: "توصیف ک'ی", text: "آب‌وهوا را در فص'‌های مخت'ف توصیف کنید.", example: { de: "Im Sommer ist es sehr heiß.", fa: "تابستان خی'ی گرم است." } },
-        { title: "جم'ات شرطی", text: "از wenn برای بیان شرط استفاده کنید.", example: { de: "Wenn es regnet, bleibe ich zu Hause.", fa: "وقتی باران می‌آید در خانه می‌مانم." } },
-        { title: "نتیجه‌گیری", text: "نظر ک'ی خود را بیان کنید.", example: { de: "Ich mag den Frühling am liebsten.", fa: "من بهار را بیشتر دوست دارم." } }
+        { title: "ØªÙˆØµÛŒÙ Ú©لÛŒ", text: "Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§ Ø±Ø§ Ø¯Ø± ÙØµلâ€ŒÙ‡Ø§ÛŒ Ù…Ø®ØªلÙ ØªÙˆØµÛŒÙ Ú©Ù†ÛŒØ¯.", example: { de: "Im Sommer ist es sehr heiÃŸ.", fa: "ØªØ§Ø¨Ø³ØªØ§Ù† Ø®ÛŒلÛŒ Ú¯Ø±Ù… Ø§Ø³Øª." } },
+        { title: "Ø¬Ù…لØ§Øª Ø´Ø±Ø·ÛŒ", text: "Ø§Ø² wenn Ø¨Ø±Ø§ÛŒ Ø¨ÛŒØ§Ù† Ø´Ø±Ø· Ø§Ø³ØªÙØ§Ø¯Ù‡ Ú©Ù†ÛŒØ¯.", example: { de: "Wenn es regnet, bleibe ich zu Hause.", fa: "ÙˆÙ‚ØªÛŒ Ø¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¢ÛŒØ¯ Ø¯Ø± Ø®Ø§Ù†Ù‡ Ù…ÛŒâ€ŒÙ…Ø§Ù†Ù…." } },
+        { title: "Ù†ØªÛŒØ¬Ù‡â€ŒÚ¯ÛŒØ±ÛŒ", text: "Ù†Ø¸Ø± Ú©لÛŒ Ø®ÙˆØ¯ Ø±Ø§ Ø¨ÛŒØ§Ù† Ú©Ù†ÛŒØ¯.", example: { de: "Ich mag den FrÃ¼hling am liebsten.", fa: "Ù…Ù† Ø¨Ù‡Ø§Ø± Ø±Ø§ Ø¨ÛŒØ´ØªØ± Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ù…." } }
       ],
-      modelAnswer: "In meiner Stadt ist das Wetter sehr unterschiedlich. Im Sommer ist es oft heiß und die Sonne scheint. Wenn es sehr heiß ist, gehe ich schwimmen. Im Winter ist es kalt und manchmal schneit es. Wenn es schneit, bleibe ich zu Hause und trinke heißen Tee. Im Frühling regnet es viel, aber die Blumen blühen. Ich mag den Sommer am liebsten, weil ich die Sonne liebe."
+      modelAnswer: "In meiner Stadt ist das Wetter sehr unterschiedlich. Im Sommer ist es oft heiÃŸ und die Sonne scheint. Wenn es sehr heiÃŸ ist, gehe ich schwimmen. Im Winter ist es kalt und manchmal schneit es. Wenn es schneit, bleibe ich zu Hause und trinke heiÃŸen Tee. Im FrÃ¼hling regnet es viel, aber die Blumen blÃ¼hen. Ich mag den Sommer am liebsten, weil ich die Sonne liebe."
     }
   ],
 
   listening: [
     {
-      title: "گوش دادن: پیش‌بینی آب‌وهوا",
+      title: "Ú¯ÙˆØ´ Ø¯Ø§Ø¯Ù†: Ù¾ÛŒØ´â€ŒØ¨ÛŒÙ†ÛŒ Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§",
       source: "Deutsche Wettervorhersage",
       link: "https://www.dw.com/de/langsam-gesprochene-nachrichten/s-60048529",
-      instructions: "به پیش‌بینی آب‌وهوا گوش دهید و واژگان مربوط به آب‌وهوا را شناسایی کنید."
+      instructions: "Ø¨Ù‡ Ù¾ÛŒØ´â€ŒØ¨ÛŒÙ†ÛŒ Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§ Ú¯ÙˆØ´ Ø¯Ù‡ÛŒØ¯ Ùˆ ÙˆØ§Ú˜Ú¯Ø§Ù† Ù…Ø±Ø¨ÙˆØ· Ø¨Ù‡ Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§ Ø±Ø§ Ø´Ù†Ø§Ø³Ø§ÛŒÛŒ Ú©Ù†ÛŒØ¯."
     }
   ],
 
   speaking: [
     {
-      title: "تمرین گفتاری: توصیف آب‌وهوا",
+      title: "ØªÙ…Ø±ÛŒÙ† Ú¯ÙØªØ§Ø±ÛŒ: ØªÙˆØµÛŒÙ Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§",
       pattern: "Wenn es ... (gehe ich / bleibe ich / trage ich ...)",
-      exercise: "درباره آب‌وهوا در ۴ فص' صحبت کنید و بگویید در هر شرایطی چه کار می‌کنید."
+      exercise: "Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§ Ø¯Ø± Û´ ÙØµل ØµØ­Ø¨Øª Ú©Ù†ÛŒØ¯ Ùˆ Ø¨Ú¯ÙˆÛŒÛŒØ¯ Ø¯Ø± Ù‡Ø± Ø´Ø±Ø§ÛŒØ·ÛŒ Ú†Ù‡ Ú©Ø§Ø± Ù…ÛŒâ€ŒÚ©Ù†ÛŒØ¯."
     }
   ],
 
-  cultureTip: "آ'مانی‌ها عاشق صحبت درباره آب‌وهوا هستند! این یک موضوع عا'ی برای شروع مکا'مه (Small Talk) است. جم'ه «Schönes Wetter heute, nicht wahr?» (امروز هوا قشنگه، نه؟) یکی از رایج‌ترین جم'ات شروع مکا'مه در آ'مان است. همچنین مراقب باشید: آب‌وهوا در آ'مان بسیار تغییرپذیر است و ممکن است صبح آفتابی و عصر بارانی باشد!",
+  cultureTip: "Ø¢لÙ…Ø§Ù†ÛŒâ€ŒÙ‡Ø§ Ø¹Ø§Ø´Ù‚ ØµØ­Ø¨Øª Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§ Ù‡Ø³ØªÙ†Ø¯! Ø§ÛŒÙ† ÛŒÚ© Ù…ÙˆØ¶ÙˆØ¹ Ø¹Ø§لÛŒ Ø¨Ø±Ø§ÛŒ Ø´Ø±ÙˆØ¹ Ù…Ú©Ø§لÙ…Ù‡ (Small Talk) Ø§Ø³Øª. Ø¬Ù…لÙ‡ Â«SchÃ¶nes Wetter heute, nicht wahr?Â» (Ø§Ù…Ø±ÙˆØ² Ù‡ÙˆØ§ Ù‚Ø´Ù†Ú¯Ù‡ØŒ Ù†Ù‡ØŸ) ÛŒÚ©ÛŒ Ø§Ø² Ø±Ø§ÛŒØ¬â€ŒØªØ±ÛŒÙ† Ø¬Ù…لØ§Øª Ø´Ø±ÙˆØ¹ Ù…Ú©Ø§لÙ…Ù‡ Ø¯Ø± Ø¢لÙ…Ø§Ù† Ø§Ø³Øª. Ù‡Ù…Ú†Ù†ÛŒÙ† Ù…Ø±Ø§Ù‚Ø¨ Ø¨Ø§Ø´ÛŒØ¯: Ø¢Ø¨â€ŒÙˆÙ‡ÙˆØ§ Ø¯Ø± Ø¢لÙ…Ø§Ù† Ø¨Ø³ÛŒØ§Ø± ØªØºÛŒÛŒØ±Ù¾Ø°ÛŒØ± Ø§Ø³Øª Ùˆ Ù…Ù…Ú©Ù† Ø§Ø³Øª ØµØ¨Ø­ Ø¢ÙØªØ§Ø¨ÛŒ Ùˆ Ø¹ØµØ± Ø¨Ø§Ø±Ø§Ù†ÛŒ Ø¨Ø§Ø´Ø¯!",
 
   examData: {
     questions: [
-      { question: "وقتی باران می‌آید چتر می‌برم:", options: ["Wenn es regnet, nehme ich einen Schirm.", "Wenn es regnet, ich nehme einen Schirm.", "Es regnet wenn nehme ich Schirm.", "Ich nehme Schirm wenn es regnet."], answer: 0 },
-      { question: "برف آمدن:", options: ["es regnet", "es schneit", "es ist windig", "es ist bewölkt"], answer: 1 },
-      { question: "آفتاب می‌تابد:", options: ["Die Sonne scheint.", "Die Sonne regnet.", "Die Sonne weht.", "Die Sonne schneit."], answer: 0 },
-      { question: "هوا سرد است:", options: ["Es ist heiß.", "Es ist warm.", "Es ist kalt.", "Es ist kühl."], answer: 2 },
-      { question: "ابری:", options: ["sonnig", "bewölkt", "windig", "regnerisch"], answer: 1 },
-      { question: "وقتی هوا گرم است شنا می‌روم:", options: ["Wenn es heiß ist, gehe ich schwimmen.", "Wenn es heiß ist, ich gehe schwimmen.", "Es heiß wenn gehe ich schwimmen.", "Ich schwimme wenn heiß ist."], answer: 0 },
-      { question: "باد می‌وزد:", options: ["Es weht.", "Der Wind weht.", "Die Wolke weht.", "Der Regen weht."], answer: 1 },
-      { question: "من بهار را دوست دارم:", options: ["Ich mag den Frühling.", "Ich mag der Frühling.", "Ich mag das Frühling.", "Ich mag die Frühling."], answer: 0 },
-      { question: "در خانه ماندن:", options: ["zu Hause bleiben", "nach Hause gehen", "nach Hause kommen", "zu Hause fahren"], answer: 0 },
-      { question: "دمای هوا ۲۵ درجه:", options: ["Die Temperatur liegt bei 25 Grad.", "Das Wetter ist 25 Grad.", "Es ist 25 Grad warm.", "Die Temperatur ist 25."], answer: 0 }
+      { question: "ÙˆÙ‚ØªÛŒ Ø¨Ø§Ø±Ø§Ù† Ù…ÛŒâ€ŒØ¢ÛŒØ¯ Ú†ØªØ± Ù…ÛŒâ€ŒØ¨Ø±Ù…:", options: ["Wenn es regnet, nehme ich einen Schirm.", "Wenn es regnet, ich nehme einen Schirm.", "Es regnet wenn nehme ich Schirm.", "Ich nehme Schirm wenn es regnet."], answer: 0 },
+      { question: "Ø¨Ø±Ù Ø¢Ù…Ø¯Ù†:", options: ["es regnet", "es schneit", "es ist windig", "es ist bewÃ¶lkt"], answer: 1 },
+      { question: "Ø¢ÙØªØ§Ø¨ Ù…ÛŒâ€ŒØªØ§Ø¨Ø¯:", options: ["Die Sonne scheint.", "Die Sonne regnet.", "Die Sonne weht.", "Die Sonne schneit."], answer: 0 },
+      { question: "Ù‡ÙˆØ§ Ø³Ø±Ø¯ Ø§Ø³Øª:", options: ["Es ist heiÃŸ.", "Es ist warm.", "Es ist kalt.", "Es ist kÃ¼hl."], answer: 2 },
+      { question: "Ø§Ø¨Ø±ÛŒ:", options: ["sonnig", "bewÃ¶lkt", "windig", "regnerisch"], answer: 1 },
+      { question: "ÙˆÙ‚ØªÛŒ Ù‡ÙˆØ§ Ú¯Ø±Ù… Ø§Ø³Øª Ø´Ù†Ø§ Ù…ÛŒâ€ŒØ±ÙˆÙ…:", options: ["Wenn es heiÃŸ ist, gehe ich schwimmen.", "Wenn es heiÃŸ ist, ich gehe schwimmen.", "Es heiÃŸ wenn gehe ich schwimmen.", "Ich schwimme wenn heiÃŸ ist."], answer: 0 },
+      { question: "Ø¨Ø§Ø¯ Ù…ÛŒâ€ŒÙˆØ²Ø¯:", options: ["Es weht.", "Der Wind weht.", "Die Wolke weht.", "Der Regen weht."], answer: 1 },
+      { question: "Ù…Ù† Ø¨Ù‡Ø§Ø± Ø±Ø§ Ø¯ÙˆØ³Øª Ø¯Ø§Ø±Ù…:", options: ["Ich mag den FrÃ¼hling.", "Ich mag der FrÃ¼hling.", "Ich mag das FrÃ¼hling.", "Ich mag die FrÃ¼hling."], answer: 0 },
+      { question: "Ø¯Ø± Ø®Ø§Ù†Ù‡ Ù…Ø§Ù†Ø¯Ù†:", options: ["zu Hause bleiben", "nach Hause gehen", "nach Hause kommen", "zu Hause fahren"], answer: 0 },
+      { question: "Ø¯Ù…Ø§ÛŒ Ù‡ÙˆØ§ Û²Ûµ Ø¯Ø±Ø¬Ù‡:", options: ["Die Temperatur liegt bei 25 Grad.", "Das Wetter ist 25 Grad.", "Es ist 25 Grad warm.", "Die Temperatur ist 25."], answer: 0 }
     ]
   }
 };
