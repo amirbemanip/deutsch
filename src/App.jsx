@@ -4,7 +4,8 @@ import {
   ChevronLeft, BarChart3, BookOpen, Clock, ArrowRight, GraduationCap,
   MessageSquare, Headphones, Mic, Play, Award, ChevronRight, RotateCcw,
   Volume2, BookMarked, PenTool, Search, Map, Target, TrendingUp,
-  BookCheck, Sparkles, X, Filter, Hash, Layers
+  BookCheck, Sparkles, X, Filter, Hash, Layers, Moon, Sun,
+  Bookmark, BookmarkCheck, Shuffle, CheckSquare, ShuffleIcon
 } from 'lucide-react';
 
 import { curriculumData } from './data/curriculumData';
@@ -28,6 +29,17 @@ const App = () => {
   const [searchResults, setSearchResults] = useState([]);
   const [selectedLevel, setSelectedLevel] = useState(null);
   const [allVocab, setAllVocab] = useState([]);
+  const [darkMode, setDarkMode] = useState(() => {
+    return localStorage.getItem('german_dark_mode') === 'true';
+  });
+  const [bookmarks, setBookmarks] = useState(() => {
+    const saved = localStorage.getItem('german_bookmarks');
+    return saved ? JSON.parse(saved) : [];
+  });
+  const [reviewQueue, setReviewQueue] = useState(() => {
+    const saved = localStorage.getItem('german_review_queue');
+    return saved ? JSON.parse(saved) : {};
+  });
 
   const completedTasks = completedTasksData[selectedDay] || [];
   const isExamDay = selectedDay ? (curriculumData.getDayData(selectedDay)?.hasExam || false) : false;
@@ -40,6 +52,22 @@ const App = () => {
   useEffect(() => {
     localStorage.setItem('german_mastery_tasks_v2', JSON.stringify(completedTasksData));
   }, [completedTasksData]);
+
+  useEffect(() => {
+    localStorage.setItem('german_dark_mode', darkMode);
+  }, [darkMode]);
+
+  useEffect(() => {
+    localStorage.setItem('german_bookmarks', JSON.stringify(bookmarks));
+  }, [bookmarks]);
+
+  useEffect(() => {
+    localStorage.setItem('german_review_queue', JSON.stringify(reviewQueue));
+  }, [reviewQueue]);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', darkMode);
+  }, [darkMode]);
 
   useEffect(() => {
     if (view === 'lesson') {
@@ -95,6 +123,28 @@ const App = () => {
       setCompletedDays(prev => [...prev, selectedDay].sort((a, b) => a - b));
     }
     setView('dashboard');
+  };
+
+  const toggleBookmark = (word) => {
+    setBookmarks(prev => {
+      const exists = prev.find(b => b.de === word.de);
+      if (exists) return prev.filter(b => b.de !== word.de);
+      return [...prev, { ...word, day: selectedDay, timestamp: Date.now() }];
+    });
+  };
+
+  const isBookmarked = (word) => bookmarks.some(b => b.de === word.de);
+
+  const addToReview = (word) => {
+    setReviewQueue(prev => ({
+      ...prev,
+      [word.de]: { word, lastReview: Date.now(), interval: 1, ease: 2.5, nextReview: Date.now() + 86400000 }
+    }));
+  };
+
+  const getReviewWords = () => {
+    const now = Date.now();
+    return Object.values(reviewQueue).filter(item => item.nextReview <= now);
   };
 
   const resetProgress = () => {
@@ -659,6 +709,375 @@ const App = () => {
     );
   };
 
+  // ─── VerbConjugation Exercise ───
+  const VerbConjugation = ({ data }) => {
+    const [answers, setAnswers] = useState({});
+    const [showResults, setShowResults] = useState(false);
+    const persons = ['ich', 'du', 'er', 'wir', 'ihr', 'sie'];
+    const personLabels = { ich: 'ich', du: 'du', er: 'er/sie/es', wir: 'wir', ihr: 'ihr', sie: 'sie/Sie' };
+
+    if (!data || Object.keys(data).length === 0) return null;
+    const correctCount = persons.filter(p => answers[p]?.toLowerCase().trim() === data[p]?.toLowerCase()).length;
+
+    return (
+      <div className="bg-violet-50 p-6 rounded-3xl border border-violet-200" dir="rtl">
+        <h3 className="text-xl font-black text-violet-900 mb-4 flex items-center gap-3">
+          <span className="bg-violet-100 text-violet-600 p-2 rounded-xl"><BookOpen size={20} /></span>
+          صرف فعل: {data.infinitiv || 'تمرین'}
+        </h3>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+          {persons.map(p => (
+            <div key={p} className="bg-white p-3 rounded-xl border border-violet-100">
+              <label className="text-xs font-bold text-violet-600 block mb-1">{personLabels[p]}</label>
+              <input
+                type="text"
+                value={answers[p] || ''}
+                onChange={e => setAnswers(prev => ({ ...prev, [p]: e.target.value }))}
+                className={`w-full px-3 py-2 rounded-lg border-2 outline-none font-bold text-sm ${showResults ? (answers[p]?.toLowerCase().trim() === data[p]?.toLowerCase() ? 'border-green-400 bg-green-50' : 'border-red-300 bg-red-50') : 'border-slate-200'}`}
+                dir="ltr"
+                placeholder="..."
+              />
+              {showResults && answers[p]?.toLowerCase().trim() !== data[p]?.toLowerCase() && (
+                <p className="text-xs text-green-600 font-bold mt-1">{data[p]}</p>
+              )}
+            </div>
+          ))}
+        </div>
+        {showResults && (
+          <p className="text-center font-black mt-4 text-lg">{correctCount}/6 درست</p>
+        )}
+        {!showResults && Object.keys(answers).length >= 6 && (
+          <button onClick={() => setShowResults(true)} className="w-full mt-4 bg-violet-600 text-white py-3 rounded-xl font-black hover:bg-violet-700">
+            بررسی
+          </button>
+        )}
+      </div>
+    );
+  };
+
+  // ─── SentenceBuilder Exercise ───
+  const SentenceBuilder = ({ sentence, words }) => {
+    const [available, setAvailable] = useState(() => [...words].sort(() => Math.random() - 0.5));
+    const [built, setBuilt] = useState([]);
+    const [showResult, setShowResult] = useState(false);
+
+    const isCorrect = built.join(' ') === sentence;
+
+    const addWord = (word, idx) => {
+      setBuilt(prev => [...prev, word]);
+      setAvailable(prev => prev.filter((_, i) => i !== idx));
+    };
+
+    const removeWord = (idx) => {
+      setAvailable(prev => [...prev, built[idx]]);
+      setBuilt(prev => prev.filter((_, i) => i !== idx));
+    };
+
+    const reset = () => {
+      setAvailable([...words].sort(() => Math.random() - 0.5));
+      setBuilt([]);
+      setShowResult(false);
+    };
+
+    return (
+      <div className="bg-teal-50 p-6 rounded-3xl border border-teal-200" dir="ltr">
+        <h3 className="text-lg font-black text-teal-900 mb-4 flex items-center gap-3" dir="rtl">
+          <span className="bg-teal-100 text-teal-600 p-2 rounded-xl"><ShuffleIcon size={20} /></span>
+          کلمات را مرتب کنید
+        </h3>
+        <div className="min-h-[50px] bg-white p-4 rounded-xl border-2 border-dashed border-teal-300 mb-4 flex flex-wrap gap-2">
+          {built.length === 0 && <span className="text-slate-400 text-sm">کلمات را اینجا بکشید...</span>}
+          {built.map((w, i) => (
+            <button key={i} onClick={() => removeWord(i)} className={`px-3 py-2 rounded-lg font-bold text-sm ${showResult ? (isCorrect ? 'bg-green-200 text-green-800' : 'bg-red-200 text-red-800') : 'bg-teal-200 text-teal-800'}`}>
+              {w}
+            </button>
+          ))}
+        </div>
+        <div className="flex flex-wrap gap-2 mb-4">
+          {available.map((w, i) => (
+            <button key={i} onClick={() => addWord(w, i)} className="px-3 py-2 bg-slate-100 text-slate-700 rounded-lg font-bold text-sm hover:bg-teal-100 hover:text-teal-800 border border-slate-200">
+              {w}
+            </button>
+          ))}
+        </div>
+        {showResult && !isCorrect && <p className="text-green-700 font-bold text-sm mb-2" dir="rtl">جمله درست: {sentence}</p>}
+        {showResult && <p className={`font-black text-center ${isCorrect ? 'text-green-600' : 'text-red-600'}`}>{isCorrect ? '✅ عالی!' : '❌ اشتباه'}</p>}
+        <div className="flex gap-2 mt-3">
+          {built.length > 0 && !showResult && <button onClick={() => setShowResult(true)} className="flex-1 bg-teal-600 text-white py-2 rounded-xl font-black hover:bg-teal-700">بررسی</button>}
+          <button onClick={reset} className="px-4 py-2 bg-slate-200 text-slate-600 rounded-xl font-bold"><RotateCcw size={16} /></button>
+        </div>
+      </div>
+    );
+  };
+
+  // ─── MatchingGame Exercise ───
+  const MatchingGame = ({ pairs }) => {
+    const [selected, setSelected] = useState(null);
+    const [matched, setMatched] = useState([]);
+    const [shuffledRight] = useState(() => [...pairs].sort(() => Math.random() - 0.5));
+
+    const handleLeftClick = (idx) => { if (!matched.includes('l'+idx)) setSelected({ side: 'left', idx }); };
+    const handleRightClick = (idx) => {
+      if (selected?.side === 'left' && !matched.includes('r'+idx)) {
+        if (pairs[selected.idx].de === shuffledRight[idx].de) {
+          setMatched(prev => [...prev, 'l'+selected.idx, 'r'+idx]);
+        }
+        setSelected(null);
+      }
+    };
+
+    const isComplete = matched.length >= pairs.length * 2;
+
+    return (
+      <div className="bg-amber-50 p-6 rounded-3xl border border-amber-200" dir="rtl">
+        <h3 className="text-lg font-black text-amber-900 mb-4 flex items-center gap-3">
+          <span className="bg-amber-100 text-amber-600 p-2 rounded-xl"><CheckSquare size={20} /></span>
+          تطابق: آلمانی ↔ فارسی
+        </h3>
+        <div className="grid grid-cols-2 gap-4">
+          <div className="space-y-2">
+            {pairs.map((p, i) => (
+              <button key={i} onClick={() => handleLeftClick(i)}
+                className={`w-full p-3 rounded-xl text-sm font-bold text-left border-2 transition-all ${matched.includes('l'+i) ? 'bg-green-100 border-green-300 text-green-700' : selected?.idx === i ? 'bg-amber-200 border-amber-400' : 'bg-white border-slate-200 hover:border-amber-300'}`}
+                dir="ltr">{p.de}</button>
+            ))}
+          </div>
+          <div className="space-y-2">
+            {shuffledRight.map((p, i) => (
+              <button key={i} onClick={() => handleRightClick(i)}
+                className={`w-full p-3 rounded-xl text-sm font-bold text-right border-2 transition-all ${matched.includes('r'+i) ? 'bg-green-100 border-green-300 text-green-700' : 'bg-white border-slate-200 hover:border-amber-300'}`}
+                dir="rtl">{p.fa}</button>
+            ))}
+          </div>
+        </div>
+        {isComplete && <p className="text-center font-black text-green-600 mt-4 text-lg">🎉 همه درست!</p>}
+      </div>
+    );
+  };
+
+  // ─── ArticleQuiz Exercise ───
+  const ArticleQuiz = ({ nouns }) => {
+    const [answers, setAnswers] = useState({});
+    const [showResults, setShowResults] = useState(false);
+    const articles = ['der', 'die', 'das'];
+
+    const correctCount = nouns.filter(n => answers[n.de] === n.article).length;
+
+    return (
+      <div className="bg-rose-50 p-6 rounded-3xl border border-rose-200" dir="rtl">
+        <h3 className="text-lg font-black text-rose-900 mb-4 flex items-center gap-3">
+          <span className="bg-rose-100 text-rose-600 p-2 rounded-xl"><Layers size={20} /></span>
+          آرتیکل صحیح را انتخاب کنید
+        </h3>
+        <div className="space-y-3">
+          {nouns.map((n, i) => (
+            <div key={i} className="bg-white p-4 rounded-xl border border-rose-100 flex items-center justify-between">
+              <span className="font-bold text-slate-700" dir="ltr">{n.de} — {n.fa}</span>
+              <div className="flex gap-2">
+                {articles.map(a => (
+                  <button key={a} onClick={() => !showResults && setAnswers(prev => ({ ...prev, [n.de]: a }))}
+                    className={`px-4 py-2 rounded-lg font-bold text-sm border-2 transition-all ${showResults ? (a === n.article ? 'bg-green-200 border-green-400 text-green-800' : answers[n.de] === a ? 'bg-red-100 border-red-300 text-red-600' : 'bg-slate-50 border-slate-200 text-slate-400') : answers[n.de] === a ? 'bg-rose-200 border-rose-400' : 'bg-slate-50 border-slate-200 hover:border-rose-300'}`}>
+                    {a}
+                  </button>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+        {showResults && <p className="text-center font-black mt-4 text-lg">{correctCount}/{nouns.length} درست</p>}
+        {!showResults && Object.keys(answers).length >= nouns.length && (
+          <button onClick={() => setShowResults(true)} className="w-full mt-4 bg-rose-600 text-white py-3 rounded-xl font-black hover:bg-rose-700">بررسی</button>
+        )}
+      </div>
+    );
+  };
+
+  // ─── Glossary View ───
+  const GlossaryView = () => {
+    const [query, setQuery] = useState('');
+    const [filterDay, setFilterDay] = useState('all');
+    const [glossaryWords, setGlossaryWords] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+      const loadAll = async () => {
+        const allWords = [];
+        for (let i = 1; i <= 55; i++) {
+          try {
+            const m = await import(`./data/day${i}.js`);
+            const d = m[`day${i}Data`];
+            if (d?.vocabData?.categories) {
+              d.vocabData.categories.forEach(cat => {
+                cat.words?.forEach(w => {
+                  allWords.push({ ...w, day: i, category: cat.title });
+                });
+              });
+            }
+          } catch {}
+        }
+        setGlossaryWords(allWords);
+        setLoading(false);
+      };
+      loadAll();
+    }, []);
+
+    const filtered = glossaryWords.filter(w => {
+      const matchQuery = !query || w.de?.toLowerCase().includes(query.toLowerCase()) || w.fa?.includes(query);
+      const matchDay = filterDay === 'all' || w.day === parseInt(filterDay);
+      return matchQuery && matchDay;
+    });
+
+    return (
+      <div className="animate-in pb-20 px-4 md:px-0">
+        <nav className="bg-white dark:bg-slate-800 border-b p-4 sticky top-0 z-50 flex justify-between items-center max-w-6xl mx-auto rounded-b-2xl shadow-sm">
+          <div className="flex items-center gap-3">
+            <button onClick={() => setView('dashboard')} className="p-2 text-slate-400 hover:text-blue-600"><ChevronLeft size={20} className="rotate-180" /></button>
+            <h1 className="text-xl font-black flex items-center gap-2"><BookMarked size={20} /> واژه‌نامه کامل</h1>
+          </div>
+          <span className="text-sm text-slate-500">{filtered.length} لغت</span>
+        </nav>
+        <main className="max-w-6xl mx-auto p-6">
+          <div className="flex gap-4 mb-6">
+            <input type="text" value={query} onChange={e => setQuery(e.target.value)} placeholder="جستجوی لغت..."
+              className="flex-1 px-4 py-3 rounded-xl border-2 border-slate-200 outline-none focus:border-blue-400 font-bold" dir="ltr" autoFocus />
+            <select value={filterDay} onChange={e => setFilterDay(e.target.value)} className="px-4 py-3 rounded-xl border-2 border-slate-200 font-bold">
+              <option value="all">همه روزها</option>
+              {Array.from({length:55},(_,i)=>i+1).map(d=><option key={d} value={d}>روز {d}</option>)}
+            </select>
+          </div>
+          {loading ? <p className="text-center py-10">در حال بارگذاری...</p> : (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {filtered.slice(0, 100).map((w, i) => (
+                <div key={i} className="bg-white p-4 rounded-xl border border-slate-100 flex justify-between items-center hover:border-blue-200 transition-all">
+                  <div>
+                    <div className="flex items-center gap-2">
+                      {w.article && <span className="text-xs font-bold bg-blue-100 text-blue-600 px-2 py-1 rounded">{w.article}</span>}
+                      <span className="font-black text-lg" dir="ltr">{w.de}</span>
+                      {w.ipa && <span className="text-xs text-slate-400">{w.ipa}</span>}
+                      <button onClick={() => playTTS(w.de)} className="text-blue-400 hover:text-blue-600"><Volume2 size={14} /></button>
+                    </div>
+                    <p className="text-sm text-slate-500 mt-1">{w.fa}</p>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs text-slate-400">روز {w.day}</span>
+                    <button onClick={() => toggleBookmark(w)} className={isBookmarked(w) ? 'text-yellow-500' : 'text-slate-300'}>
+                      {isBookmarked(w) ? <BookmarkCheck size={18} /> : <Bookmark size={18} />}
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </main>
+      </div>
+    );
+  };
+
+  // ─── Bookmarks View ───
+  const BookmarksView = () => (
+    <div className="animate-in pb-20 px-4 md:px-0">
+      <nav className="bg-white dark:bg-slate-800 border-b p-4 sticky top-0 z-50 flex justify-between items-center max-w-6xl mx-auto rounded-b-2xl shadow-sm">
+        <div className="flex items-center gap-3">
+          <button onClick={() => setView('dashboard')} className="p-2 text-slate-400 hover:text-blue-600"><ChevronLeft size={20} className="rotate-180" /></button>
+          <h1 className="text-xl font-black flex items-center gap-2"><BookmarkCheck size={20} /> لغات نشان‌شده</h1>
+        </div>
+        <span className="text-sm text-slate-500">{bookmarks.length} لغت</span>
+      </nav>
+      <main className="max-w-6xl mx-auto p-6">
+        {bookmarks.length === 0 ? (
+          <div className="text-center py-20 text-slate-400"><Bookmark size={48} className="mx-auto mb-4 opacity-30" /><p className="font-bold">هنوز لغتی نشان‌گذاری نکردید</p></div>
+        ) : (
+          <div className="space-y-3">
+            {bookmarks.map((w, i) => (
+              <div key={i} className="bg-white p-4 rounded-xl border border-slate-100 flex justify-between items-center">
+                <div>
+                  <span className="font-black text-lg" dir="ltr">{w.de}</span>
+                  {w.ipa && <span className="text-xs text-slate-400 mr-2">{w.ipa}</span>}
+                  <p className="text-sm text-slate-500">{w.fa}</p>
+                </div>
+                <button onClick={() => toggleBookmark(w)} className="text-red-400 hover:text-red-600"><X size={18} /></button>
+              </div>
+            ))}
+          </div>
+        )}
+      </main>
+    </div>
+  );
+
+  // ─── Review View ───
+  const ReviewView = () => {
+    const reviewWords = getReviewWords();
+    const [currentIdx, setCurrentIdx] = useState(0);
+    const [showAnswer, setShowAnswer] = useState(false);
+    const [done, setDone] = useState([]);
+
+    if (reviewWords.length === 0) {
+      return (
+        <div className="animate-in pb-20 px-4 md:px-0">
+          <nav className="bg-white border-b p-4 sticky top-0 z-50 flex justify-between items-center max-w-6xl mx-auto rounded-b-2xl shadow-sm">
+            <div className="flex items-center gap-3">
+              <button onClick={() => setView('dashboard')} className="p-2 text-slate-400 hover:text-blue-600"><ChevronLeft size={20} className="rotate-180" /></button>
+              <h1 className="text-xl font-black flex items-center gap-2"><RotateCcw size={20} /> مرور لغات</h1>
+            </div>
+          </nav>
+          <main className="max-w-6xl mx-auto p-6 text-center py-20">
+            <CheckCircle2 size={64} className="mx-auto mb-4 text-green-500" />
+            <h2 className="text-2xl font-black mb-2">همه لغات مرور شدند!</h2>
+            <p className="text-slate-500">فعلاً لغتی برای مرور ندارید. بعد از یادگیری لغات جدید، اینجا نمایش داده می‌شوند.</p>
+          </main>
+        </div>
+      );
+    }
+
+    const current = reviewWords[currentIdx % reviewWords.length];
+
+    const handleAnswer = (knew) => {
+      const item = reviewQueue[current.word.de];
+      if (!item) return;
+      const newInterval = knew ? Math.round(item.interval * item.ease) : 1;
+      const newEase = knew ? Math.max(1.3, item.ease + 0.1) : Math.max(1.3, item.ease - 0.2);
+      setReviewQueue(prev => ({
+        ...prev,
+        [current.word.de]: { ...item, lastReview: Date.now(), interval: newInterval, ease: newEase, nextReview: Date.now() + newInterval * 86400000 }
+      }));
+      setDone(prev => [...prev, current.word.de]);
+      setShowAnswer(false);
+      setCurrentIdx(prev => prev + 1);
+    };
+
+    return (
+      <div className="animate-in pb-20 px-4 md:px-0">
+        <nav className="bg-white border-b p-4 sticky top-0 z-50 flex justify-between items-center max-w-6xl mx-auto rounded-b-2xl shadow-sm">
+          <div className="flex items-center gap-3">
+            <button onClick={() => setView('dashboard')} className="p-2 text-slate-400 hover:text-blue-600"><ChevronLeft size={20} className="rotate-180" /></button>
+            <h1 className="text-xl font-black flex items-center gap-2"><RotateCcw size={20} /> مرور لغات</h1>
+          </div>
+          <span className="text-sm text-slate-500">{done.length}/{reviewWords.length}</span>
+        </nav>
+        <main className="max-w-xl mx-auto p-6">
+          <div className="bg-white p-8 rounded-3xl border border-slate-200 text-center">
+            <p className="text-3xl font-black text-blue-700 mb-4" dir="ltr">{current.word.de}</p>
+            {current.word.ipa && <p className="text-sm text-slate-400 mb-6">{current.word.ipa}</p>}
+            {showAnswer ? (
+              <div className="mb-6">
+                <p className="text-2xl font-bold text-slate-700 mb-2">{current.word.fa}</p>
+                {current.word.examples?.[0] && <p className="text-sm text-slate-500 mt-2" dir="ltr">{current.word.examples[0].de}</p>}
+              </div>
+            ) : (
+              <button onClick={() => setShowAnswer(true)} className="mb-6 bg-slate-100 text-slate-600 px-8 py-3 rounded-xl font-bold hover:bg-slate-200">نشان بده</button>
+            )}
+            {showAnswer && (
+              <div className="flex gap-4">
+                <button onClick={() => handleAnswer(false)} className="flex-1 bg-red-50 text-red-600 px-6 py-4 rounded-xl font-black border-2 border-red-200 hover:bg-red-100">❌ نمی‌دونم</button>
+                <button onClick={() => handleAnswer(true)} className="flex-1 bg-green-50 text-green-600 px-6 py-4 rounded-xl font-black border-2 border-green-200 hover:bg-green-100">✅ بلدم</button>
+              </div>
+            )}
+          </div>
+        </main>
+      </div>
+    );
+  };
+
   // ─── Dashboard ───
   const Dashboard = () => (
     <div className="animate-in pb-20 px-4 md:px-0">
@@ -668,6 +1087,19 @@ const App = () => {
           <h1 className="text-xl font-black">آلمانی از صفر تا B1</h1>
         </div>
         <div className="flex items-center gap-3">
+          <button onClick={() => setDarkMode(!darkMode)} className="p-2 text-slate-400 hover:text-blue-600 transition-colors" title={darkMode ? 'حالت روشن' : 'حالت تاریک'}>
+            {darkMode ? <Sun size={18} /> : <Moon size={18} />}
+          </button>
+          <button onClick={() => setView('review')} className="p-2 text-slate-400 hover:text-blue-600 transition-colors relative" title="مرور لغات">
+            <RotateCcw size={18} />
+            {getReviewWords().length > 0 && <span className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 text-white text-[10px] rounded-full flex items-center justify-center">{getReviewWords().length}</span>}
+          </button>
+          <button onClick={() => setView('glossary')} className="p-2 text-slate-400 hover:text-blue-600 transition-colors" title="واژه‌نامه">
+            <BookMarked size={18} />
+          </button>
+          <button onClick={() => setView('bookmarks')} className="p-2 text-slate-400 hover:text-blue-600 transition-colors" title="نشان‌شده‌ها">
+            <Bookmark size={18} />
+          </button>
           <button onClick={() => setView('search')} className="p-2 text-slate-400 hover:text-blue-600 transition-colors" title="جستجوی لغات">
             <Search size={18} />
           </button>
@@ -1090,6 +1522,9 @@ const App = () => {
   // ─── Main Render ───
   if (view === 'search') return <SearchModal />;
   if (view === 'stats') return <StatsView />;
+  if (view === 'glossary') return <GlossaryView />;
+  if (view === 'bookmarks') return <BookmarksView />;
+  if (view === 'review') return <ReviewView />;
   if (view === 'lesson') return <LessonPlayer />;
   return <Dashboard />;
 };
