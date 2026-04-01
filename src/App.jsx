@@ -5,23 +5,40 @@ import {
   MessageSquare, Headphones, Mic, Play, Award, ChevronRight, RotateCcw,
   Volume2, BookMarked, PenTool, Search, Map, Target, TrendingUp,
   BookCheck, Sparkles, X, Filter, Hash, Layers, Moon, Sun,
-  Bookmark, BookmarkCheck, Shuffle, CheckSquare, ShuffleIcon
+  Bookmark, BookmarkCheck, Shuffle, CheckSquare, ShuffleIcon, User, LogOut
 } from 'lucide-react';
 
 import { curriculumData } from './data/curriculumData';
 
+const USERS = [
+  { id: 1, name: 'کاربر ۱', emoji: '👤' },
+  { id: 2, name: 'کاربر ۲', emoji: '👤' },
+  { id: 3, name: 'کاربر ۳', emoji: '👤' },
+  { id: 4, name: 'کاربر ۴', emoji: '👤' },
+];
+
+const userKey = (userId, key) => `german_u${userId}_${key}`;
+
 const App = () => {
-  const [view, setView] = useState('dashboard');
+  const [currentUser, setCurrentUser] = useState(() => {
+    const saved = localStorage.getItem('german_current_user');
+    return saved ? parseInt(saved) : null;
+  });
+  const [view, setView] = useState(currentUser ? 'dashboard' : 'userSelect');
   const [selectedDay, setSelectedDay] = useState(null);
   const [lessonData, setLessonData] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [completedDays, setCompletedDays] = useState(() => {
-    const saved = localStorage.getItem('german_mastery_persian_v2');
+    const uid = localStorage.getItem('german_current_user');
+    if (!uid) return [];
+    const saved = localStorage.getItem(userKey(parseInt(uid), 'completedDays'));
     return saved ? JSON.parse(saved) : [];
   });
   const [activeSection, setActiveSection] = useState('overview');
   const [completedTasksData, setCompletedTasksData] = useState(() => {
-    const savedTasks = localStorage.getItem('german_mastery_tasks_v2');
+    const uid = localStorage.getItem('german_current_user');
+    if (!uid) return {};
+    const savedTasks = localStorage.getItem(userKey(parseInt(uid), 'tasks'));
     return savedTasks ? JSON.parse(savedTasks) : {};
   });
   const [lessonProgress, setLessonProgress] = useState(0);
@@ -33,11 +50,15 @@ const App = () => {
     return localStorage.getItem('german_dark_mode') === 'true';
   });
   const [bookmarks, setBookmarks] = useState(() => {
-    const saved = localStorage.getItem('german_bookmarks');
+    const uid = localStorage.getItem('german_current_user');
+    if (!uid) return [];
+    const saved = localStorage.getItem(userKey(parseInt(uid), 'bookmarks'));
     return saved ? JSON.parse(saved) : [];
   });
   const [reviewQueue, setReviewQueue] = useState(() => {
-    const saved = localStorage.getItem('german_review_queue');
+    const uid = localStorage.getItem('german_current_user');
+    if (!uid) return {};
+    const saved = localStorage.getItem(userKey(parseInt(uid), 'review'));
     return saved ? JSON.parse(saved) : {};
   });
 
@@ -46,24 +67,32 @@ const App = () => {
   const totalDays = 55;
 
   useEffect(() => {
-    localStorage.setItem('german_mastery_persian_v2', JSON.stringify(completedDays));
-  }, [completedDays]);
+    if (currentUser) {
+      localStorage.setItem(userKey(currentUser, 'completedDays'), JSON.stringify(completedDays));
+    }
+  }, [completedDays, currentUser]);
 
   useEffect(() => {
-    localStorage.setItem('german_mastery_tasks_v2', JSON.stringify(completedTasksData));
-  }, [completedTasksData]);
+    if (currentUser) {
+      localStorage.setItem(userKey(currentUser, 'tasks'), JSON.stringify(completedTasksData));
+    }
+  }, [completedTasksData, currentUser]);
 
   useEffect(() => {
     localStorage.setItem('german_dark_mode', darkMode);
   }, [darkMode]);
 
   useEffect(() => {
-    localStorage.setItem('german_bookmarks', JSON.stringify(bookmarks));
-  }, [bookmarks]);
+    if (currentUser) {
+      localStorage.setItem(userKey(currentUser, 'bookmarks'), JSON.stringify(bookmarks));
+    }
+  }, [bookmarks, currentUser]);
 
   useEffect(() => {
-    localStorage.setItem('german_review_queue', JSON.stringify(reviewQueue));
-  }, [reviewQueue]);
+    if (currentUser) {
+      localStorage.setItem(userKey(currentUser, 'review'), JSON.stringify(reviewQueue));
+    }
+  }, [reviewQueue, currentUser]);
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', darkMode);
@@ -144,6 +173,84 @@ const App = () => {
   const getReviewWords = () => {
     const now = Date.now();
     return Object.values(reviewQueue).filter(item => item.nextReview <= now);
+  };
+
+  const selectUser = (userId) => {
+    localStorage.setItem('german_current_user', userId);
+    setCurrentUser(userId);
+    setCompletedDays(JSON.parse(localStorage.getItem(userKey(userId, 'completedDays')) || '[]'));
+    setCompletedTasksData(JSON.parse(localStorage.getItem(userKey(userId, 'tasks')) || '{}'));
+    setBookmarks(JSON.parse(localStorage.getItem(userKey(userId, 'bookmarks')) || '[]'));
+    setReviewQueue(JSON.parse(localStorage.getItem(userKey(userId, 'review')) || '{}'));
+    setView('dashboard');
+  };
+
+  const logout = () => {
+    setCurrentUser(null);
+    localStorage.removeItem('german_current_user');
+    setView('userSelect');
+  };
+
+  // ─── UserSelect View ───
+  const UserSelectView = () => {
+    const [customName, setCustomName] = useState('');
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-900 via-slate-900 to-indigo-900 p-4">
+        <div className="max-w-lg w-full">
+          <div className="text-center mb-8">
+            <div className="w-20 h-20 bg-blue-600 rounded-3xl flex items-center justify-center mx-auto mb-4 shadow-2xl">
+              <GraduationCap size={40} className="text-white" />
+            </div>
+            <h1 className="text-3xl font-black text-white mb-2">آلمانی از صفر تا B1</h1>
+            <p className="text-slate-400">کاربر خود را انتخاب کنید</p>
+          </div>
+          <div className="grid grid-cols-2 gap-4 mb-6">
+            {USERS.map(u => {
+              const savedDays = localStorage.getItem(userKey(u.id, 'completedDays'));
+              const daysCount = savedDays ? JSON.parse(savedDays).length : 0;
+              const hasProgress = daysCount > 0;
+              return (
+                <button key={u.id} onClick={() => selectUser(u.id)}
+                  className="bg-white/10 hover:bg-white/20 backdrop-blur-sm p-6 rounded-2xl border border-white/10 text-center transition-all hover:scale-105 hover:shadow-xl group">
+                  <div className="w-16 h-16 bg-blue-500/20 rounded-2xl flex items-center justify-center mx-auto mb-3 group-hover:bg-blue-500/30 transition-all">
+                    <User size={32} className="text-blue-400" />
+                  </div>
+                  <p className="font-black text-white text-lg mb-1">{u.name}</p>
+                  {hasProgress ? (
+                    <div>
+                      <p className="text-sm text-green-400 font-bold">{daysCount} روز تکمیل</p>
+                      <div className="w-full bg-slate-700 rounded-full h-1.5 mt-2">
+                        <div className="bg-green-500 h-1.5 rounded-full" style={{ width: `${(daysCount / 55) * 100}%` }}></div>
+                      </div>
+                    </div>
+                  ) : (
+                    <p className="text-sm text-slate-500">شروع از صفر</p>
+                  )}
+                </button>
+              );
+            })}
+          </div>
+          <div className="bg-white/5 p-4 rounded-2xl border border-white/10">
+            <p className="text-slate-400 text-sm text-center mb-3">یا نام خود را وارد کنید:</p>
+            <div className="flex gap-2">
+              <input type="text" value={customName} onChange={e => setCustomName(e.target.value)}
+                placeholder="نام شما..." className="flex-1 px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white outline-none focus:border-blue-400" />
+              {USERS.map(u => (
+                <button key={u.id} onClick={() => {
+                  if (customName.trim()) {
+                    USERS[u.id - 1].name = customName.trim();
+                    selectUser(u.id);
+                  }
+                }}
+                  className="px-3 py-3 bg-blue-600 text-white rounded-xl font-bold text-sm hover:bg-blue-700">
+                  {u.id}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
   };
 
   const resetProgress = () => {
@@ -1096,7 +1203,7 @@ const App = () => {
       <nav className="bg-white border-b p-4 sticky top-0 z-50 flex justify-between items-center max-w-6xl mx-auto rounded-b-2xl shadow-sm">
         <div className="flex items-center gap-3">
           <div className="bg-blue-600 p-2 rounded-xl text-white shadow-lg"><GraduationCap size={24} /></div>
-          <h1 className="text-xl font-black">آلمانی از صفر تا B1</h1>
+          <h1 className="text-xl font-black flex items-center gap-2">آلمانی از صفر تا B1 <span className="text-xs bg-blue-100 text-blue-600 px-2 py-1 rounded-full">{USERS.find(u => u.id === currentUser)?.name || 'کاربر'}</span></h1>
         </div>
         <div className="flex items-center gap-3">
           <button onClick={() => setDarkMode(!darkMode)} className="p-2 text-slate-400 hover:text-blue-600 transition-colors" title={darkMode ? 'حالت روشن' : 'حالت تاریک'}>
@@ -1117,6 +1224,9 @@ const App = () => {
           </button>
           <button onClick={() => setView('stats')} className="p-2 text-slate-400 hover:text-blue-600 transition-colors" title="آمار و پیشرفت">
             <BarChart3 size={18} />
+          </button>
+          <button onClick={logout} className="p-2 text-slate-400 hover:text-orange-500 transition-colors" title="خروج و تغییر کاربر">
+            <LogOut size={18} />
           </button>
           <button onClick={resetProgress} className="p-2 text-slate-300 hover:text-red-500 transition-colors" title="بازنشانی پیشرفت">
             <RotateCcw size={18} />
@@ -1542,6 +1652,7 @@ const App = () => {
   };
 
   // ─── Main Render ───
+  if (view === 'userSelect') return <UserSelectView />;
   if (view === 'search') return <SearchModal />;
   if (view === 'stats') return <StatsView />;
   if (view === 'glossary') return <GlossaryView />;
