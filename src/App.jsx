@@ -1132,12 +1132,22 @@ const App = () => {
               <p className="text-blue-300 font-bold text-sm mb-2">
                 {completedDays.length < 17 ? 'سطح A1 — مبتدی' : completedDays.length < 35 ? 'سطح A2 — ابتدایی بالاتر' : 'سطح B1 — متوسط'}
               </p>
-              <h2 className="text-3xl md:text-4xl font-black mb-4 leading-tight text-right">
+              <h2 className="text-3xl md:text-4xl font-black mb-2 leading-tight text-right">
                 درس بعدی: روز {completedDays.length + 1 <= totalDays ? completedDays.length + 1 : totalDays}
               </h2>
-              <p className="text-slate-300 mb-6 text-sm">
+              <p className="text-slate-300 mb-4 text-sm">
                 {curriculumData.getDayData(completedDays.length + 1 <= totalDays ? completedDays.length + 1 : totalDays)?.title}
               </p>
+              <div className="mb-6">
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-sm text-slate-300">پیشرفت کل دوره</span>
+                  <span className="text-lg font-black text-white">{Math.round((completedDays.length / totalDays) * 100)}%</span>
+                </div>
+                <div className="w-full bg-slate-700 rounded-full h-3">
+                  <div className="bg-blue-500 h-3 rounded-full transition-all duration-700" style={{ width: `${(completedDays.length / totalDays) * 100}%` }}></div>
+                </div>
+                <p className="text-xs text-slate-400 mt-1">{completedDays.length} از {totalDays} روز تکمیل شده</p>
+              </div>
               <button onClick={() => handleDayClick(completedDays.length + 1 <= totalDays ? completedDays.length + 1 : totalDays)}
                 className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-2xl font-black shadow-xl flex items-center justify-center gap-3 transition-transform hover:scale-105 active:scale-95 w-full sm:w-auto">
                 شروع درس جدید <ArrowRight size={20} className="rotate-180" />
