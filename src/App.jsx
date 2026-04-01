@@ -663,6 +663,12 @@ const App = () => {
       <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 mb-6 relative">
         <button onClick={(e) => playTTS(data.text, e)} className="absolute top-6 left-6 text-slate-400 hover:text-blue-600 bg-white p-3 rounded-xl shadow-sm"><Volume2 size={24} /></button>
         <p className="text-xl font-medium text-slate-800 leading-loose whitespace-pre-line bg-white p-6 rounded-2xl md:ml-16 mb-6" dir="ltr">{data.text}</p>
+        {data.translation && (
+          <details className="mb-4">
+            <summary className="cursor-pointer text-sm font-bold text-blue-600 hover:text-blue-800 mr-6">نمایش ترجمه فارسی</summary>
+            <p className="text-sm text-slate-500 leading-loose whitespace-pre-line bg-blue-50 p-4 rounded-xl mt-2 mr-6" dir="rtl">{data.translation}</p>
+          </details>
+        )}
         {data.questions && (
           <div className="mt-8 space-y-4">
             <h4 className="font-black text-slate-700 mb-4">سوالات درک مطلب:</h4>
@@ -1404,7 +1410,7 @@ const App = () => {
                           return (
                             <div key={idx} className="bg-white p-5 md:p-6 rounded-2xl border border-slate-100 shadow-sm">
                               {block.title && <h3 className="text-lg md:text-xl font-bold text-slate-800 mb-3">{block.title}</h3>}
-                              <p className="text-slate-600 leading-relaxed whitespace-pre-line text-base md:text-lg">{block.text}</p>
+                              <p className="text-slate-600 leading-relaxed whitespace-pre-line text-base md:text-lg" style={{ unicodeBidi: 'plaintext', textAlign: 'start' }}>{block.text}</p>
                             </div>
                           );
                         } else if (block.type === 'table') {
@@ -1453,7 +1459,7 @@ const App = () => {
                           return (
                             <div key={idx} className="bg-orange-50 border-r-4 border-orange-500 p-6 rounded-l-2xl mt-4 text-orange-900">
                               {block.title && <h3 className="text-lg font-black mb-2 flex items-center gap-2"><Star size={18} fill="currentColor" /> {block.title}</h3>}
-                              <p className="leading-relaxed font-medium">{block.text}</p>
+                              <p className="leading-relaxed font-medium" style={{ unicodeBidi: 'plaintext', textAlign: 'start' }}>{block.text}</p>
                             </div>
                           );
                         } else if (block.type === 'interactive_quiz') {
@@ -1592,13 +1598,30 @@ const App = () => {
                   {Array.isArray(lessonData.listening) ? lessonData.listening.map((listenItem, idx) => (
                     <div key={idx} className="bg-slate-50 p-6 rounded-3xl border border-slate-100">
                       {listenItem.title && <h3 className="text-xl font-bold text-slate-800 mb-3">{listenItem.title}</h3>}
-                      <p className="text-slate-600 text-sm leading-relaxed whitespace-pre-line mb-4">{listenItem.instructions}</p>
-                      <div className="bg-white p-5 rounded-2xl border border-slate-100 flex justify-between items-center">
-                        <span className="font-black text-slate-800 text-sm" dir="ltr">{listenItem.source}</span>
-                        <a href={listenItem.link} target="_blank" rel="noreferrer" className="text-blue-600 font-black text-sm hover:underline flex items-center gap-2">
-                          <Play size={16} /> باز کردن
-                        </a>
-                      </div>
+                      {listenItem.instruction && <p className="text-slate-600 text-sm leading-relaxed mb-4" style={{ unicodeBidi: 'plaintext', textAlign: 'start' }}>{listenItem.instruction}</p>}
+                      {listenItem.sentences && (
+                        <div className="space-y-3 mt-4">
+                          {listenItem.sentences.map((s, si) => (
+                            <div key={si} className="bg-white p-4 rounded-xl border border-slate-100 flex justify-between items-start gap-4">
+                              <div className="flex-1" dir="ltr">
+                                <div className="flex items-center gap-2">
+                                  <button onClick={() => playTTS(s.tts || s.de)} className="text-blue-400 hover:text-blue-600"><Volume2 size={18} /></button>
+                                  <span className="font-bold text-slate-800">{s.de}</span>
+                                </div>
+                                <p className="text-sm text-slate-500 mt-1" dir="rtl">{s.fa}</p>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                      {listenItem.link && (
+                        <div className="bg-white p-5 rounded-2xl border border-slate-100 flex justify-between items-center mt-4">
+                          <span className="font-black text-slate-800 text-sm" dir="ltr">{listenItem.source || 'ویدیو'}</span>
+                          <a href={listenItem.link} target="_blank" rel="noreferrer" className="text-blue-600 font-black text-sm hover:underline flex items-center gap-2">
+                            <Play size={16} /> باز کردن
+                          </a>
+                        </div>
+                      )}
                     </div>
                   )) : (
                     <div className="text-center py-10 text-slate-400">تمرین شنیداری این درس در حال آماده‌سازی است...</div>
