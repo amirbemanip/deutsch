@@ -219,6 +219,8 @@ const App = () => {
     const [selectedAnswers, setSelectedAnswers] = useState({});
     const [showResults, setShowResults] = useState(false);
 
+    if (!quizData || !quizData.questions || !Array.isArray(quizData.questions)) return null;
+
     const handleSelect = (qIdx, oIdx) => {
       if (showResults) return;
       setSelectedAnswers(prev => ({ ...prev, [qIdx]: oIdx }));
@@ -301,6 +303,8 @@ const App = () => {
   const FillInTheBlank = ({ data }) => {
     const [answers, setAnswers] = useState({});
     const [showHints, setShowHints] = useState({});
+
+    if (!data || !data.blanks || !Array.isArray(data.blanks)) return null;
 
     const checkAnswer = (idx) => {
       return answers[idx]?.toLowerCase().trim() === data.blanks[idx].answer.toLowerCase();
@@ -547,6 +551,7 @@ const App = () => {
   // ─── ReadingComprehension ───
   const ReadingComprehension = ({ data, playTTS }) => {
     const [showAnswers, setShowAnswers] = useState(false);
+    if (!data) return null;
     return (
       <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 mb-6 relative">
         <button onClick={(e) => playTTS(data.text, e)} className="absolute top-6 left-6 text-slate-400 hover:text-blue-600 bg-white p-3 rounded-xl shadow-sm"><Volume2 size={24} /></button>
@@ -575,6 +580,7 @@ const App = () => {
   const WritingExercise = ({ data, playTTS }) => {
     const [userText, setUserText] = useState('');
     const [showModel, setShowModel] = useState(false);
+    if (!data) return null;
     return (
       <div className="bg-slate-900 p-10 rounded-[2.5rem] shadow-2xl text-white mb-10 overflow-hidden relative border border-slate-800">
         <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500 rounded-bl-full opacity-5 blur-3xl"></div>
@@ -756,9 +762,11 @@ const App = () => {
 
   // ─── SentenceBuilder Exercise ───
   const SentenceBuilder = ({ sentence, words }) => {
-    const [available, setAvailable] = useState(() => [...words].sort(() => Math.random() - 0.5));
+    const [available, setAvailable] = useState(() => words ? [...words].sort(() => Math.random() - 0.5) : []);
     const [built, setBuilt] = useState([]);
     const [showResult, setShowResult] = useState(false);
+
+    if (!words || !sentence) return null;
 
     const isCorrect = built.join(' ') === sentence;
 
@@ -813,6 +821,9 @@ const App = () => {
   const MatchingGame = ({ pairs }) => {
     const [selected, setSelected] = useState(null);
     const [matched, setMatched] = useState([]);
+
+    if (!pairs || !Array.isArray(pairs) || pairs.length === 0) return null;
+
     const [shuffledRight] = useState(() => [...pairs].sort(() => Math.random() - 0.5));
 
     const handleLeftClick = (idx) => { if (!matched.includes('l'+idx)) setSelected({ side: 'left', idx }); };
@@ -859,6 +870,8 @@ const App = () => {
     const [answers, setAnswers] = useState({});
     const [showResults, setShowResults] = useState(false);
     const articles = ['der', 'die', 'das'];
+
+    if (!nouns || !Array.isArray(nouns) || nouns.length === 0) return null;
 
     const correctCount = nouns.filter(n => answers[n.de] === n.article).length;
 
