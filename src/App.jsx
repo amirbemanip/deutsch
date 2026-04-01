@@ -99,7 +99,6 @@ const App = () => {
   const handleDayClick = async (dayNum) => {
     if (dayNum <= totalDays) {
       setSelectedDay(dayNum);
-      setCompletedTasks([]);
       setActiveSection('overview');
       setLessonData(null);
       setIsLoading(true);
