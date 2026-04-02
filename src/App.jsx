@@ -662,11 +662,11 @@ const App = () => {
     return (
       <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 mb-6 relative">
         <button onClick={(e) => playTTS(data.text, e)} className="absolute top-6 left-6 text-slate-400 hover:text-blue-600 bg-white p-3 rounded-xl shadow-sm"><Volume2 size={24} /></button>
-        <p className="text-xl font-medium text-slate-800 leading-loose whitespace-pre-line bg-white p-6 rounded-2xl md:ml-16 mb-6" dir="ltr">{data.text}</p>
+        <p className="text-xl font-medium text-slate-800 leading-loose whitespace-pre-line bg-white p-6 rounded-2xl md:ml-16 mb-6 reading-de">{data.text}</p>
         {data.translation && (
           <details className="mb-4">
             <summary className="cursor-pointer text-sm font-bold text-blue-600 hover:text-blue-800 mr-6">نمایش ترجمه فارسی</summary>
-            <p className="text-sm text-slate-500 leading-loose whitespace-pre-line bg-blue-50 p-4 rounded-xl mt-2 mr-6" dir="rtl">{data.translation}</p>
+            <p className="text-sm text-slate-500 leading-loose whitespace-pre-line bg-blue-50 p-4 rounded-xl mt-2 mr-6 translation-fa">{data.translation}</p>
           </details>
         )}
         {data.questions && (
@@ -1410,7 +1410,7 @@ const App = () => {
                           return (
                             <div key={idx} className="bg-white p-5 md:p-6 rounded-2xl border border-slate-100 shadow-sm">
                               {block.title && <h3 className="text-lg md:text-xl font-bold text-slate-800 mb-3">{block.title}</h3>}
-                              <p className="text-slate-600 leading-relaxed whitespace-pre-line text-base md:text-lg" style={{ unicodeBidi: 'plaintext', textAlign: 'start' }}>{block.text}</p>
+                              <p className="text-slate-600 leading-relaxed whitespace-pre-line text-base md:text-lg grammar-text">{block.text}</p>
                             </div>
                           );
                         } else if (block.type === 'table') {
@@ -1459,7 +1459,7 @@ const App = () => {
                           return (
                             <div key={idx} className="bg-orange-50 border-r-4 border-orange-500 p-6 rounded-l-2xl mt-4 text-orange-900">
                               {block.title && <h3 className="text-lg font-black mb-2 flex items-center gap-2"><Star size={18} fill="currentColor" /> {block.title}</h3>}
-                              <p className="leading-relaxed font-medium" style={{ unicodeBidi: 'plaintext', textAlign: 'start' }}>{block.text}</p>
+                              <p className="leading-relaxed font-medium grammar-text">{block.text}</p>
                             </div>
                           );
                         } else if (block.type === 'interactive_quiz') {
@@ -1504,13 +1504,13 @@ const App = () => {
                                         </span>
                                       )}
                                       <div className="flex flex-wrap items-center gap-2 w-full">
-                                        <span className="font-black text-slate-900 text-xl md:text-2xl tracking-tight leading-none">{item.de}</span>
+                                        <span className="font-black text-slate-900 text-xl md:text-2xl tracking-tight leading-none de-text">{item.de}</span>
                                         <button onClick={(e) => playTTS(item.de, e)} className="text-blue-500 hover:text-blue-700 hover:scale-110 transition-transform bg-white p-1.5 md:p-2 rounded-full shadow-sm shrink-0"><Volume2 size={18} /></button>
                                       </div>
                                     </div>
                                     {item.plural && <p className="text-sm font-bold text-slate-500 ml-1">Plural: <span className="text-slate-800 bg-slate-200/50 px-2 py-0.5 rounded-md">{item.plural}</span></p>}
                                   </div>
-                                  <span className="font-black text-slate-800 text-lg md:text-xl text-right bg-white px-3 md:px-4 py-2 rounded-xl shadow-sm border border-slate-100 mt-2 md:mt-0" dir="rtl">{item.fa}</span>
+                                  <span className="font-black text-slate-800 text-lg md:text-xl text-right bg-white px-3 md:px-4 py-2 rounded-xl shadow-sm border border-slate-100 mt-2 md:mt-0 fa-text">{item.fa}</span>
                                 </div>
                                 {item.examples && item.examples.length > 0 && (
                                   <div className="mt-auto space-y-3 pt-4 border-t border-slate-200/60 w-full">

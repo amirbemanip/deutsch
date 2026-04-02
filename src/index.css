@@ -45,3 +45,51 @@ body {
 .muted {
 	color: var(--muted);
 }
+
+/* Fix mixed Persian/German text direction */
+.text-mixed {
+	unicode-bidi: plaintext;
+	text-align: start;
+	direction: ltr;
+}
+
+[dir="rtl"] .text-mixed {
+	direction: ltr;
+}
+
+/* Ensure German text is always LTR */
+.de-text {
+	direction: ltr;
+	text-align: left;
+	unicode-bidi: isolate;
+}
+
+/* Ensure Persian text is always RTL */
+.fa-text {
+	direction: rtl;
+	text-align: right;
+	unicode-bidi: isolate;
+}
+
+/* Grammar text blocks with mixed content */
+.grammar-text {
+	unicode-bidi: plaintext;
+	text-align: start;
+	line-height: 2;
+}
+
+/* Reading text - always LTR for German */
+.reading-de {
+	direction: ltr;
+	text-align: left;
+	unicode-bidi: isolate;
+	line-height: 2;
+}
+
+/* Translation - always RTL for Persian */
+.translation-fa {
+	direction: rtl;
+	text-align: right;
+	unicode-bidi: isolate;
+	line-height: 2;
+}
